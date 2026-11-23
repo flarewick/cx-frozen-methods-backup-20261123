@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "cpu_only": true,
+  "original_play_once_prefix_and_check_success_ast": true,
+  "both_arms_boundary_quaternions_and_reset_exact": true,
+  "no_physical_or_rng_changes": true,
+  "no_policy_inputs_or_privileged_labels_added": true,
+  "cases": [
+    {
+      "angle": 0.0,
+      "arm": "left",
+      "success": true
+    },
+    {
+      "angle": 3.141592653589793,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": -3.141592653589793,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": 1.5707963267948966,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": -1.5707963267948966,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": 1.5707964267948966,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": 1.5707962267948965,
+      "arm": "left",
+      "success": true
+    },
+    {
+      "angle": 0.0,
+      "arm": "left",
+      "success": true
+    },
+    {
+      "angle": 3.141592653589793,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": 0.0,
+      "arm": "left",
+      "success": true
+    }
+  ],
+  "all_six_expert_only_success_dependencies": {
+    "lift_pot": [],
+    "open_laptop": [
+      "arm_tag"
+    ],
+    "adjust_bottle": [],
+    "grab_roller": [],
+    "dump_bin_bigbin": [],
+    "handover_mic": []
+  },
+  "task_source_sha256": {
+    "lift_pot": "347e06f3f9f82b1bc35882671bbbdea50b6e3c77fff0f7fb4449b024875402eb",
+    "open_laptop": "b826d4f36513dba6df3c17b65f1251bf3dbe2994857ba672f4d06c5900c0cac0",
+    "adjust_bottle": "4f76b35e718a4c5a364dae564d35d68268755818d9062e3ed4ff393d158d0548",
+    "grab_roller": "f0e1864199605acf59cf8982dded05129d873bb3934f200e47abafd918d41c89",
+    "dump_bin_bigbin": "3bd57fe9172d59731db1ccf1bc9605dfe3ef08a0f7224edc720ea4812c214611",
+    "handover_mic": "41ed0f2561cc8f1ae2449ba405decd4f5d7e3b80243b60921598657551891b17"
+  },
+  "helper_sha256": "c713cce61204e75c30554fee63d745b1b3a31a75bec2d52b5a121c13450e1bb0"
+}

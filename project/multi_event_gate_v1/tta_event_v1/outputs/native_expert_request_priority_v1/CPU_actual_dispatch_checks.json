@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "bounded_queue": {
+    "passed": true,
+    "actual_original_ModelService_executed_requests": 102,
+    "setup_index": 6,
+    "expert_index": 16,
+    "ordinary_FIFO_exact": true,
+    "no_expert_starvation_under_pending_policy_requests": true
+  },
+  "original_ModelService_and_RngRouter_used": true,
+  "actual_Torch_CPU": true,
+  "CUDA_initialized": false,
+  "original_vs_dispatched_rows": 80,
+  "original_vs_dispatched_numpy_python_Torch_lane_state_exact": true,
+  "unrelated_full_owner_requests": 40,
+  "mutable_attribute_escape_rejected": true,
+  "original_pooled_constructor_preserved": true,
+  "only_setup_direct_Torch_in_base_task": true,
+  "expert_task_direct_Torch_calls": 0,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_expert_request_priority_v1/dispatch.py": "bfb414eff7259af0a29e2b52f061d0938a9134624ecab9518c0102755a47bbdd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_expert_request_priority_v1/fairness.py": "353aac8162bcb5b70898f79812ecb113dc996d4792c9cc3a39ccadb001236948",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_expert_request_priority_v1/AGENTS.md": "8a0cf9a04f18ef19764166401d98488562ae87b1e057282fff4d7b32b8046194",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_expert_request_priority_v1/checks.py": "1f78043c6fb8bec085e8919a59ba0389d25e4c429b22bee5fa32bea05dae3c97"
+  },
+  "no_native_recovery_or_training_qualification": true
+}

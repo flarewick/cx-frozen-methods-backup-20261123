@@ -1,0 +1,6 @@
+[
+  [
+    "reference=item['task']not in reference_tasks and item['case_id']in getattr(schedule,'q0_pending',{})",
+    "reference=item['task']not in reference_tasks and(item['case_id']in getattr(schedule,'q0_pending',{})or item['episode_index']==0)"
+  ]
+]

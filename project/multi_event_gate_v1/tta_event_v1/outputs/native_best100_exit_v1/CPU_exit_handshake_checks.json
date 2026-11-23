@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "actual_CPU_fork_wait_proofs": [
+    {
+      "actual_child_exit": 0,
+      "writer_actual_exit": 0,
+      "published_after_real_waitpid_before_fsync_completion": true,
+      "original_guard_verifier_used": true,
+      "fixture_only": true
+    },
+    {
+      "actual_child_exit": 1,
+      "writer_actual_exit": 0,
+      "published_after_real_waitpid_before_fsync_completion": true,
+      "original_guard_verifier_used": true,
+      "fixture_only": true
+    }
+  ],
+  "teardown_checks": [
+    {
+      "direct": false,
+      "actual_exit0": true,
+      "whole_fixture_work_committed": true,
+      "local_destructor_bypassed": false
+    },
+    {
+      "direct": true,
+      "actual_exit0": true,
+      "whole_fixture_work_committed": true,
+      "local_destructor_bypassed": true
+    }
+  ],
+  "actual_waitpid_function_AST_unchanged": true,
+  "original_native_runtime_body_and_finally_AST_unchanged": true,
+  "wrong_attempt_reused_identity_live_child_failed_child_and_dead_parent_rejected": true,
+  "CPU_only": true,
+  "GPU_work": 0,
+  "training_steps": 0,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_exit_v1/wait.py": "7e4864ecede7a0530cecdf3c28edcf81c00daa6e95493a593627495688238b9d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_exit_v1/success.py": "c1ae7a6c4610e5d9215c381ecd50cfdd71becdfc8cd22e6c799f6a463b2fbffc",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_exit_v1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_exit_v1/cpu_checks.py": "fa144e92c676d6dc73ed39c3dba42a1aedc7454441cfcb1951e626237364e7b0"
+  }
+}

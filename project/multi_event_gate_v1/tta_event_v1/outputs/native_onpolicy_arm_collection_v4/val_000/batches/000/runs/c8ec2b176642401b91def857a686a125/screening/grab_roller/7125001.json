@@ -1,0 +1,11 @@
+{
+  "task": "grab_roller",
+  "seed": 7125001,
+  "episode_index": 1,
+  "eligible": false,
+  "initial_physical_sha256": "6883ead2253c7e129059bf4d6e2cb2b6a7bc57371737a3794caba63d32492177",
+  "reason": "expert_missing_grasp_target",
+  "error_type": "AssertionError",
+  "error": "target_pose cannot be None for move action.",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/expert_screening.py\", line 27, in run_expert_plan\n    return task.play_once()\n           ^^^^^^^^^^^^^^^^\n  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v4/val_000/batches/000/runs/c8ec2b176642401b91def857a686a125/sessions/process_3647aad0a49d/robotwin/envs/grab_roller.py\", line 42, in play_once\n    self.grasp_actor(self.roller, right_arm_tag, pre_grasp_dis=0.08, contact_point_id=1),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v4/val_000/batches/000/runs/c8ec2b176642401b91def857a686a125/sessions/process_3647aad0a49d/robotwin/envs/_base_task.py\", line 1207, in grasp_actor\n    Action(arm_tag, \"move\", target_pose=pre_grasp_pose),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v4/val_000/batches/000/runs/c8ec2b176642401b91def857a686a125/sessions/process_3647aad0a49d/robotwin/envs/utils/action.py\", line 76, in __init__\n    assert (target_pose is not None), \"target_pose cannot be None for move action.\"\n            ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: target_pose cannot be None for move action.\n"
+}

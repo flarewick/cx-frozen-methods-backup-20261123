@@ -1,0 +1,762 @@
+{
+  "schema_version": 1,
+  "batch_id": "minimal_effect_v1_20260927",
+  "probe_strength": 0.25,
+  "scope": "minimum mechanism dataset; validation is developmental, not blind benchmark",
+  "selection": "all 22 canonical eligible scenes; 3 full-chunk temporal strata; highest max(1,floor(n/3)) seeds per task held for validation; independent of object effect; fill missing TRAIN coordinate indices in ascending order with first available train scene/chunk; no GT effect selection",
+  "split_unit": "task+scene seed; all branches/checkpoints/repeats together",
+  "code_hashes": {
+    "cx_tta/collect_interventions.py": "8309a9f433b9e1e028808c0eb4d4fd38f2c7afc3e2c30fd46738dd7e0d1bc6a2",
+    "cx_tta/intervention_contract.py": "292f4ce92afcec86d579941bd314485c0fa48102ee9b3dbeed7c39dac1587fb2",
+    "cx_tta/audit_interventions.py": "f7b6e0f100717d3236b27b08934fa2d56b5f7c15a353fee27dc62dae73943124",
+    "cx_tta/intervention_batch.py": "af174aacbe1d402e8126408f3f11ae8e10bbe0506d5f44ff4519500449b6f812",
+    "cx_tta/probe_action_replay.py": "b94e4a31cdb3d752a18513e1575d05c680ec5ea549b438acc96c787258460662",
+    "cx_tta/deploy.py": "0f4e4e0345a2868ccfa384d203099098d3ef66f43fbbe69ece298fa84e79b24c",
+    "cx_tta/evaluate_b2.py": "e3a5c60ef81f0b1a9645475a0bd784a76aa10b3b3e9fe2322d5e3beca6f113dd",
+    "scripts/collect_interventions.sh": "e56ee1c8405e54bc66d54d478dbbe40da00f769eb86cdec1d910520045bc8950",
+    "scripts/collect_intervention_batch.sh": "e9b9758a83ae9966e0dd22a06f1fbdb4cf3c89cb0cd8ef89fa0eff60abeb516b"
+  },
+  "scenes": [
+    {
+      "task": "beat_block_hammer",
+      "seed": 320005,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "beat_block_hammer",
+      "seed": 320006,
+      "split": "train",
+      "source_l0_success": true
+    },
+    {
+      "task": "beat_block_hammer",
+      "seed": 320008,
+      "split": "validation",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320002,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320003,
+      "split": "train",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320004,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320005,
+      "split": "train",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320006,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320007,
+      "split": "validation",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320008,
+      "split": "validation",
+      "source_l0_success": false
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320002,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320004,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320005,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320006,
+      "split": "train",
+      "source_l0_success": true
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320007,
+      "split": "validation",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320002,
+      "split": "train",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320003,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320005,
+      "split": "train",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320006,
+      "split": "train",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320007,
+      "split": "train",
+      "source_l0_success": false
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320008,
+      "split": "validation",
+      "source_l0_success": true
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320009,
+      "split": "validation",
+      "source_l0_success": false
+    }
+  ],
+  "jobs": [
+    {
+      "id": "beat_block_hammer_seed320005_chunk0",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320005,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "dce273f204b984218f7ff5effcaa30b17656294798f4e9e938f14e3f273e8afa"
+    },
+    {
+      "id": "beat_block_hammer_seed320005_chunk3",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320005,
+      "chunk": 3,
+      "split": "train",
+      "trace_sha256": "dce273f204b984218f7ff5effcaa30b17656294798f4e9e938f14e3f273e8afa",
+      "selection_reason": "train_coordinate_coverage_10",
+      "reuse_run": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/interventions/beat_block_hammer/branches_20260927_080403_112998",
+      "reuse_manifest_sha256": "7e3ff322c6bc30662a47894200a1cd0ab6b2dc04b20d8e93890ab87ed2482b48"
+    },
+    {
+      "id": "beat_block_hammer_seed320005_chunk5",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320005,
+      "chunk": 5,
+      "split": "train",
+      "trace_sha256": "dce273f204b984218f7ff5effcaa30b17656294798f4e9e938f14e3f273e8afa"
+    },
+    {
+      "id": "beat_block_hammer_seed320005_chunk7",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320005,
+      "chunk": 7,
+      "split": "train",
+      "trace_sha256": "dce273f204b984218f7ff5effcaa30b17656294798f4e9e938f14e3f273e8afa",
+      "selection_reason": "train_coordinate_coverage_0"
+    },
+    {
+      "id": "beat_block_hammer_seed320005_chunk11",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320005,
+      "chunk": 11,
+      "split": "train",
+      "trace_sha256": "dce273f204b984218f7ff5effcaa30b17656294798f4e9e938f14e3f273e8afa"
+    },
+    {
+      "id": "beat_block_hammer_seed320006_chunk0",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320006,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "905e8bbdadd289bf089683f54dd6dd67b14c63ad112f6e23122ab77691be8857"
+    },
+    {
+      "id": "beat_block_hammer_seed320006_chunk1",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320006,
+      "chunk": 1,
+      "split": "train",
+      "trace_sha256": "905e8bbdadd289bf089683f54dd6dd67b14c63ad112f6e23122ab77691be8857"
+    },
+    {
+      "id": "beat_block_hammer_seed320006_chunk3",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320006,
+      "chunk": 3,
+      "split": "train",
+      "trace_sha256": "905e8bbdadd289bf089683f54dd6dd67b14c63ad112f6e23122ab77691be8857"
+    },
+    {
+      "id": "beat_block_hammer_seed320008_chunk0",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320008,
+      "chunk": 0,
+      "split": "validation",
+      "trace_sha256": "c32a915956b507380faa08be2a81bda9fe7bec7e1e37170e567c979c6b79886f"
+    },
+    {
+      "id": "beat_block_hammer_seed320008_chunk1",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320008,
+      "chunk": 1,
+      "split": "validation",
+      "trace_sha256": "c32a915956b507380faa08be2a81bda9fe7bec7e1e37170e567c979c6b79886f"
+    },
+    {
+      "id": "beat_block_hammer_seed320008_chunk2",
+      "task": "beat_block_hammer",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "seed": 320008,
+      "chunk": 2,
+      "split": "validation",
+      "trace_sha256": "c32a915956b507380faa08be2a81bda9fe7bec7e1e37170e567c979c6b79886f"
+    },
+    {
+      "id": "place_empty_cup_seed320002_chunk0",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320002,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "07bae5a44cc6b5f970bcb716329a8ef233ea4d17f2ce5c8afe90b87efea7198b"
+    },
+    {
+      "id": "place_empty_cup_seed320002_chunk1",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320002,
+      "chunk": 1,
+      "split": "train",
+      "trace_sha256": "07bae5a44cc6b5f970bcb716329a8ef233ea4d17f2ce5c8afe90b87efea7198b"
+    },
+    {
+      "id": "place_empty_cup_seed320002_chunk3",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320002,
+      "chunk": 3,
+      "split": "train",
+      "trace_sha256": "07bae5a44cc6b5f970bcb716329a8ef233ea4d17f2ce5c8afe90b87efea7198b"
+    },
+    {
+      "id": "place_empty_cup_seed320003_chunk0",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320003,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "7f527cb6c1c87085b7acef720f04134f33e350ba0370839a6097591438340367"
+    },
+    {
+      "id": "place_empty_cup_seed320003_chunk7",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320003,
+      "chunk": 7,
+      "split": "train",
+      "trace_sha256": "7f527cb6c1c87085b7acef720f04134f33e350ba0370839a6097591438340367"
+    },
+    {
+      "id": "place_empty_cup_seed320003_chunk14",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320003,
+      "chunk": 14,
+      "split": "train",
+      "trace_sha256": "7f527cb6c1c87085b7acef720f04134f33e350ba0370839a6097591438340367"
+    },
+    {
+      "id": "place_empty_cup_seed320005_chunk0",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320005,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "5974c6f3e8a7f90a1215a4d15b418e9a94525896a202f2762442f81bfc72abc2"
+    },
+    {
+      "id": "place_empty_cup_seed320005_chunk2",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320005,
+      "chunk": 2,
+      "split": "train",
+      "trace_sha256": "5974c6f3e8a7f90a1215a4d15b418e9a94525896a202f2762442f81bfc72abc2"
+    },
+    {
+      "id": "place_empty_cup_seed320005_chunk4",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320005,
+      "chunk": 4,
+      "split": "train",
+      "trace_sha256": "5974c6f3e8a7f90a1215a4d15b418e9a94525896a202f2762442f81bfc72abc2"
+    },
+    {
+      "id": "place_empty_cup_seed320006_chunk0",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320006,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "73589acae63c2623bfbcca38bcea774c4772894985d8be1f9bc3cc3f8afa35c5"
+    },
+    {
+      "id": "place_empty_cup_seed320006_chunk1",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320006,
+      "chunk": 1,
+      "split": "train",
+      "trace_sha256": "73589acae63c2623bfbcca38bcea774c4772894985d8be1f9bc3cc3f8afa35c5"
+    },
+    {
+      "id": "place_empty_cup_seed320006_chunk3",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320006,
+      "chunk": 3,
+      "split": "train",
+      "trace_sha256": "73589acae63c2623bfbcca38bcea774c4772894985d8be1f9bc3cc3f8afa35c5"
+    },
+    {
+      "id": "place_empty_cup_seed320007_chunk0",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320007,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "9542ff8e8178f7bbdd9c968e87bdc6ec58f73e1eb91766f7926432756cc8b79c"
+    },
+    {
+      "id": "place_empty_cup_seed320007_chunk7",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320007,
+      "chunk": 7,
+      "split": "train",
+      "trace_sha256": "9542ff8e8178f7bbdd9c968e87bdc6ec58f73e1eb91766f7926432756cc8b79c"
+    },
+    {
+      "id": "place_empty_cup_seed320007_chunk14",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320007,
+      "chunk": 14,
+      "split": "train",
+      "trace_sha256": "9542ff8e8178f7bbdd9c968e87bdc6ec58f73e1eb91766f7926432756cc8b79c"
+    },
+    {
+      "id": "place_empty_cup_seed320008_chunk0",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320008,
+      "chunk": 0,
+      "split": "validation",
+      "trace_sha256": "c3c0432ba669898908b128280fabdf6cf8dbaa5f5eac2c77eda91244071c4d28"
+    },
+    {
+      "id": "place_empty_cup_seed320008_chunk2",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320008,
+      "chunk": 2,
+      "split": "validation",
+      "trace_sha256": "c3c0432ba669898908b128280fabdf6cf8dbaa5f5eac2c77eda91244071c4d28"
+    },
+    {
+      "id": "place_empty_cup_seed320008_chunk4",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320008,
+      "chunk": 4,
+      "split": "validation",
+      "trace_sha256": "c3c0432ba669898908b128280fabdf6cf8dbaa5f5eac2c77eda91244071c4d28"
+    },
+    {
+      "id": "place_empty_cup_seed320009_chunk0",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320009,
+      "chunk": 0,
+      "split": "validation",
+      "trace_sha256": "128ed4a3de988b95b47ffbad6569e08f0ee0a98076715d63e81326a7c55c5cb5"
+    },
+    {
+      "id": "place_empty_cup_seed320009_chunk7",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320009,
+      "chunk": 7,
+      "split": "validation",
+      "trace_sha256": "128ed4a3de988b95b47ffbad6569e08f0ee0a98076715d63e81326a7c55c5cb5"
+    },
+    {
+      "id": "place_empty_cup_seed320009_chunk14",
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "seed": 320009,
+      "chunk": 14,
+      "split": "validation",
+      "trace_sha256": "128ed4a3de988b95b47ffbad6569e08f0ee0a98076715d63e81326a7c55c5cb5"
+    },
+    {
+      "id": "place_shoe_seed320002_chunk0",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320002,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "f9751383444e6265c4e4fada4ea02ade66dd6d51e8ba9b3f99c8588e4bb7f7ba"
+    },
+    {
+      "id": "place_shoe_seed320002_chunk7",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320002,
+      "chunk": 7,
+      "split": "train",
+      "trace_sha256": "f9751383444e6265c4e4fada4ea02ade66dd6d51e8ba9b3f99c8588e4bb7f7ba"
+    },
+    {
+      "id": "place_shoe_seed320002_chunk14",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320002,
+      "chunk": 14,
+      "split": "train",
+      "trace_sha256": "f9751383444e6265c4e4fada4ea02ade66dd6d51e8ba9b3f99c8588e4bb7f7ba"
+    },
+    {
+      "id": "place_shoe_seed320003_chunk0",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320003,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "299e7e9a40e589df4deac8d96a3bdbba0accd74275ab8db7d244780def20753d"
+    },
+    {
+      "id": "place_shoe_seed320003_chunk1",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320003,
+      "chunk": 1,
+      "split": "train",
+      "trace_sha256": "299e7e9a40e589df4deac8d96a3bdbba0accd74275ab8db7d244780def20753d"
+    },
+    {
+      "id": "place_shoe_seed320003_chunk3",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320003,
+      "chunk": 3,
+      "split": "train",
+      "trace_sha256": "299e7e9a40e589df4deac8d96a3bdbba0accd74275ab8db7d244780def20753d"
+    },
+    {
+      "id": "place_shoe_seed320004_chunk0",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320004,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "4ac9ac925df21ef6b36f3fd771267619a585070af173318712f8ce9c545bd026"
+    },
+    {
+      "id": "place_shoe_seed320004_chunk7",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320004,
+      "chunk": 7,
+      "split": "train",
+      "trace_sha256": "4ac9ac925df21ef6b36f3fd771267619a585070af173318712f8ce9c545bd026"
+    },
+    {
+      "id": "place_shoe_seed320004_chunk14",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320004,
+      "chunk": 14,
+      "split": "train",
+      "trace_sha256": "4ac9ac925df21ef6b36f3fd771267619a585070af173318712f8ce9c545bd026"
+    },
+    {
+      "id": "place_shoe_seed320005_chunk0",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320005,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "e26551e0f8c775a26c404a6ef85da9871deb334fbe10b71eb04d1ec3a4a19ac1"
+    },
+    {
+      "id": "place_shoe_seed320005_chunk2",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320005,
+      "chunk": 2,
+      "split": "train",
+      "trace_sha256": "e26551e0f8c775a26c404a6ef85da9871deb334fbe10b71eb04d1ec3a4a19ac1"
+    },
+    {
+      "id": "place_shoe_seed320005_chunk4",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320005,
+      "chunk": 4,
+      "split": "train",
+      "trace_sha256": "e26551e0f8c775a26c404a6ef85da9871deb334fbe10b71eb04d1ec3a4a19ac1"
+    },
+    {
+      "id": "place_shoe_seed320006_chunk0",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320006,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "015b6086f1d760a0204ca03d48a461333acb9df51b8ddf52e46f93b417cf353f"
+    },
+    {
+      "id": "place_shoe_seed320006_chunk7",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320006,
+      "chunk": 7,
+      "split": "train",
+      "trace_sha256": "015b6086f1d760a0204ca03d48a461333acb9df51b8ddf52e46f93b417cf353f"
+    },
+    {
+      "id": "place_shoe_seed320006_chunk14",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320006,
+      "chunk": 14,
+      "split": "train",
+      "trace_sha256": "015b6086f1d760a0204ca03d48a461333acb9df51b8ddf52e46f93b417cf353f"
+    },
+    {
+      "id": "place_shoe_seed320007_chunk0",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320007,
+      "chunk": 0,
+      "split": "validation",
+      "trace_sha256": "b8989f12bb894d53507af1ad5d98db0969b8416e514f12f0006ece1d60ea02fa"
+    },
+    {
+      "id": "place_shoe_seed320007_chunk1",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320007,
+      "chunk": 1,
+      "split": "validation",
+      "trace_sha256": "b8989f12bb894d53507af1ad5d98db0969b8416e514f12f0006ece1d60ea02fa"
+    },
+    {
+      "id": "place_shoe_seed320007_chunk3",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320007,
+      "chunk": 3,
+      "split": "validation",
+      "trace_sha256": "b8989f12bb894d53507af1ad5d98db0969b8416e514f12f0006ece1d60ea02fa"
+    },
+    {
+      "id": "place_shoe_seed320008_chunk0",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320008,
+      "chunk": 0,
+      "split": "validation",
+      "trace_sha256": "e197d3a167384d3b4d5caea7e7a13c0d6d9dce05324da81cc5a3fcfe8ca536ae"
+    },
+    {
+      "id": "place_shoe_seed320008_chunk7",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320008,
+      "chunk": 7,
+      "split": "validation",
+      "trace_sha256": "e197d3a167384d3b4d5caea7e7a13c0d6d9dce05324da81cc5a3fcfe8ca536ae"
+    },
+    {
+      "id": "place_shoe_seed320008_chunk14",
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "seed": 320008,
+      "chunk": 14,
+      "split": "validation",
+      "trace_sha256": "e197d3a167384d3b4d5caea7e7a13c0d6d9dce05324da81cc5a3fcfe8ca536ae"
+    },
+    {
+      "id": "turn_switch_seed320002_chunk0",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320002,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "c42b457a65af33e088fe0062d6e22176b4a3f947f3de8bf2fc2e77c2ad538341"
+    },
+    {
+      "id": "turn_switch_seed320002_chunk5",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320002,
+      "chunk": 5,
+      "split": "train",
+      "trace_sha256": "c42b457a65af33e088fe0062d6e22176b4a3f947f3de8bf2fc2e77c2ad538341"
+    },
+    {
+      "id": "turn_switch_seed320002_chunk11",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320002,
+      "chunk": 11,
+      "split": "train",
+      "trace_sha256": "c42b457a65af33e088fe0062d6e22176b4a3f947f3de8bf2fc2e77c2ad538341"
+    },
+    {
+      "id": "turn_switch_seed320004_chunk0",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320004,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "f125e2e920af57b096f69fc764cf51aa8ea63172f09b0b25d30f915fbfb33a65"
+    },
+    {
+      "id": "turn_switch_seed320004_chunk5",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320004,
+      "chunk": 5,
+      "split": "train",
+      "trace_sha256": "f125e2e920af57b096f69fc764cf51aa8ea63172f09b0b25d30f915fbfb33a65"
+    },
+    {
+      "id": "turn_switch_seed320004_chunk11",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320004,
+      "chunk": 11,
+      "split": "train",
+      "trace_sha256": "f125e2e920af57b096f69fc764cf51aa8ea63172f09b0b25d30f915fbfb33a65"
+    },
+    {
+      "id": "turn_switch_seed320005_chunk0",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320005,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "d1aa2671f93e20b4e51b40906635e06cb4949b3f129df0f0080fec6300041148"
+    },
+    {
+      "id": "turn_switch_seed320005_chunk5",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320005,
+      "chunk": 5,
+      "split": "train",
+      "trace_sha256": "d1aa2671f93e20b4e51b40906635e06cb4949b3f129df0f0080fec6300041148"
+    },
+    {
+      "id": "turn_switch_seed320005_chunk11",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320005,
+      "chunk": 11,
+      "split": "train",
+      "trace_sha256": "d1aa2671f93e20b4e51b40906635e06cb4949b3f129df0f0080fec6300041148"
+    },
+    {
+      "id": "turn_switch_seed320006_chunk0",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320006,
+      "chunk": 0,
+      "split": "train",
+      "trace_sha256": "5a06f9f60c2692950605154a39e4e3098fb64e4c3209239595e05c423215afc9"
+    },
+    {
+      "id": "turn_switch_seed320006_chunk1",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320006,
+      "chunk": 1,
+      "split": "train",
+      "trace_sha256": "5a06f9f60c2692950605154a39e4e3098fb64e4c3209239595e05c423215afc9"
+    },
+    {
+      "id": "turn_switch_seed320007_chunk0",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320007,
+      "chunk": 0,
+      "split": "validation",
+      "trace_sha256": "a9ad6ce4906114017ee572cfa6d0d2d0b4214b785ed6b80617fcd429474993c6"
+    },
+    {
+      "id": "turn_switch_seed320007_chunk5",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320007,
+      "chunk": 5,
+      "split": "validation",
+      "trace_sha256": "a9ad6ce4906114017ee572cfa6d0d2d0b4214b785ed6b80617fcd429474993c6"
+    },
+    {
+      "id": "turn_switch_seed320007_chunk11",
+      "task": "turn_switch",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "seed": 320007,
+      "chunk": 11,
+      "split": "validation",
+      "trace_sha256": "a9ad6ce4906114017ee572cfa6d0d2d0b4214b785ed6b80617fcd429474993c6"
+    }
+  ]
+}

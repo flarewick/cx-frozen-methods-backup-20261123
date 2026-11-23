@@ -1,0 +1,3252 @@
+{
+  "groups": {
+    "stack_blocks_two": {
+      "packets": 20,
+      "mean_loss": 0.026707632257603107,
+      "mean_zero_update_loss": 0.02655175296822563,
+      "records": [
+        {
+          "key": [
+            "stack_blocks_two:7101000",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.007316155359148979,
+          "zero_update_loss": 0.007964353077113628,
+          "inner": {
+            "losses": [
+              0.043062347918748856,
+              0.033118557184934616
+            ],
+            "gradient_norms": [
+              0.49559837579727173,
+              0.3323911726474762
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.04063280299305916,
+            "action_shift_max": 0.0035851122811436653,
+            "direction_cosine": 0.9990284442901611,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.04063280299305916,
+            "action_shift_max": 0.003621470183134079,
+            "direction_cosine": 0.9967345595359802,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 4,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101000",
+            3,
+            4,
+            6
+          ],
+          "loss": 0.005920959170907736,
+          "zero_update_loss": 0.005919760558754206,
+          "inner": {
+            "losses": [
+              0.0037211000453680754,
+              0.003468472510576248
+            ],
+            "gradient_norms": [
+              0.07210709899663925,
+              0.06807278096675873
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.007007984444499016,
+            "action_shift_max": 0.000550805707462132,
+            "direction_cosine": 0.9999516010284424,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.007007984444499016,
+            "action_shift_max": 0.0005688667297363281,
+            "direction_cosine": 0.9992181062698364,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 6,
+          "actual_feedback_query": 4,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101001",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.02843872644007206,
+          "zero_update_loss": 0.024592580273747444,
+          "inner": {
+            "losses": [
+              0.41820114850997925,
+              0.24791334569454193
+            ],
+            "gradient_norms": [
+              5.0279221534729,
+              2.618443727493286
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09165358543395996,
+            "action_shift_max": 0.007264328189194202,
+            "direction_cosine": 0.9541641473770142,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09165358543395996,
+            "action_shift_max": 0.007264328189194202,
+            "direction_cosine": 0.9541641473770142,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 49,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101001",
+            3,
+            5,
+            6
+          ],
+          "loss": 0.016275087371468544,
+          "zero_update_loss": 0.015835372731089592,
+          "inner": {
+            "losses": [
+              0.019010834395885468,
+              0.018470581620931625
+            ],
+            "gradient_norms": [
+              0.11262968182563782,
+              0.08032774180173874
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.009616533294320107,
+            "action_shift_max": 0.0007066132966428995,
+            "direction_cosine": 0.9999801516532898,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.009616533294320107,
+            "action_shift_max": 0.0009494508267380297,
+            "direction_cosine": 0.9988793134689331,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 40,
+          "actual_feedback_query": 5,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101002",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.05106506124138832,
+          "zero_update_loss": 0.051062118262052536,
+          "inner": {
+            "losses": [
+              0.00021488970378413796,
+              0.00021486927289515734
+            ],
+            "gradient_norms": [
+              0.0006404191954061389,
+              0.000640381476841867
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 6.404003215720877e-05,
+            "action_shift_max": 7.611233741044998e-06,
+            "direction_cosine": 0.9999999403953552,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 6.404003215720877e-05,
+            "action_shift_max": 7.355585694313049e-06,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 2,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101002",
+            3,
+            5,
+            6
+          ],
+          "loss": 0.0028796971309930086,
+          "zero_update_loss": 0.0026217252016067505,
+          "inner": {
+            "losses": [
+              0.029873261228203773,
+              0.024799291044473648
+            ],
+            "gradient_norms": [
+              0.403897225856781,
+              0.26768460869789124
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.028033019974827766,
+            "action_shift_max": 0.0017822193913161755,
+            "direction_cosine": 0.9998078942298889,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.028033019974827766,
+            "action_shift_max": 0.0022968649864196777,
+            "direction_cosine": 0.980512261390686,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 62,
+          "actual_feedback_query": 5,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101003",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.02796555496752262,
+          "zero_update_loss": 0.02796555496752262,
+          "inner": {
+            "losses": [
+              0.0010835010325536132,
+              0.0010835010325536132
+            ],
+            "gradient_norms": [
+              3.314724050795803e-09,
+              3.314724050795803e-09
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 3.314724050795803e-10,
+            "action_shift_max": 2.9103830456733704e-11,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 3.314724050795803e-10,
+            "action_shift_max": 2.9103830456733704e-11,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 1,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101003",
+            3,
+            5,
+            6
+          ],
+          "loss": 0.0025135772302746773,
+          "zero_update_loss": 0.002512209350243211,
+          "inner": {
+            "losses": [
+              0.13197721540927887,
+              0.13193532824516296
+            ],
+            "gradient_norms": [
+              0.02898443676531315,
+              0.028838088735938072
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.002891126088798046,
+            "action_shift_max": 0.000270260963588953,
+            "direction_cosine": 0.9999969005584717,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.002891126088798046,
+            "action_shift_max": 0.00028581509832292795,
+            "direction_cosine": 0.9997543096542358,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 15,
+          "actual_feedback_query": 5,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101004",
+            1,
+            2,
+            4
+          ],
+          "loss": 0.005863124970346689,
+          "zero_update_loss": 0.005863951984792948,
+          "inner": {
+            "losses": [
+              0.0005640608724206686,
+              0.0005640275776386261
+            ],
+            "gradient_norms": [
+              0.0008158180280588567,
+              0.000815794977825135
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 8.158064883900806e-05,
+            "action_shift_max": 1.0346993803977966e-05,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 8.158064883900806e-05,
+            "action_shift_max": 9.737908840179443e-06,
+            "direction_cosine": 0.9999997615814209,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 1,
+          "actual_feedback_query": 2,
+          "offline_action_query": 4,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101004",
+            4,
+            5,
+            6
+          ],
+          "loss": 0.011199538595974445,
+          "zero_update_loss": 0.011287217028439045,
+          "inner": {
+            "losses": [
+              0.014638479799032211,
+              0.014294848777353764
+            ],
+            "gradient_norms": [
+              0.08446469157934189,
+              0.0782991349697113
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.008137229830026627,
+            "action_shift_max": 0.00043863849714398384,
+            "direction_cosine": 0.9999942779541016,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.008137229830026627,
+            "action_shift_max": 0.0005446290597319603,
+            "direction_cosine": 0.9998582601547241,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 15,
+          "actual_feedback_query": 5,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101005",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.00386450975202024,
+          "zero_update_loss": 0.003926986362785101,
+          "inner": {
+            "losses": [
+              0.0024439615663141012,
+              0.0021062770392745733
+            ],
+            "gradient_norms": [
+              0.08490317314863205,
+              0.07434087991714478
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.007958323694765568,
+            "action_shift_max": 0.0005120825953781605,
+            "direction_cosine": 0.999828040599823,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.007958323694765568,
+            "action_shift_max": 0.0005021481774747372,
+            "direction_cosine": 0.999606192111969,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 2,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101005",
+            3,
+            4,
+            5
+          ],
+          "loss": 0.1727813482284546,
+          "zero_update_loss": 0.17313359677791595,
+          "inner": {
+            "losses": [
+              0.0020202170126140118,
+              0.0017251300159841776
+            ],
+            "gradient_norms": [
+              0.0794418454170227,
+              0.06913095712661743
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.007428627926856279,
+            "action_shift_max": 0.0007706629112362862,
+            "direction_cosine": 0.9999405145645142,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.007428627926856279,
+            "action_shift_max": 0.0007549631409347057,
+            "direction_cosine": 0.9999492168426514,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 5,
+          "actual_feedback_query": 4,
+          "offline_action_query": 5,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101006",
+            1,
+            2,
+            4
+          ],
+          "loss": 0.005231114570051432,
+          "zero_update_loss": 0.005231212358921766,
+          "inner": {
+            "losses": [
+              0.0005673957639373839,
+              0.0005673944251611829
+            ],
+            "gradient_norms": [
+              0.00016965559916570783,
+              0.00016965442046057433
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 1.696550134511199e-05,
+            "action_shift_max": 1.3755634427070618e-06,
+            "direction_cosine": 1.0000001192092896,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 1.696550134511199e-05,
+            "action_shift_max": 1.409964170306921e-06,
+            "direction_cosine": 0.9999998211860657,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 2,
+          "actual_feedback_query": 2,
+          "offline_action_query": 4,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101006",
+            4,
+            5,
+            6
+          ],
+          "loss": 0.006238203961402178,
+          "zero_update_loss": 0.004980167839676142,
+          "inner": {
+            "losses": [
+              0.06880168616771698,
+              0.020864909514784813
+            ],
+            "gradient_norms": [
+              1.3448631763458252,
+              0.5839531421661377
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.07883812487125397,
+            "action_shift_max": 0.007144266739487648,
+            "direction_cosine": 0.9967268705368042,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.07883812487125397,
+            "action_shift_max": 0.008153358474373817,
+            "direction_cosine": 0.9294308423995972,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 18,
+          "actual_feedback_query": 5,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101007",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.08103068172931671,
+          "zero_update_loss": 0.08103090524673462,
+          "inner": {
+            "losses": [
+              5.15372994414065e-05,
+              5.153725214768201e-05
+            ],
+            "gradient_norms": [
+              3.0196293664630502e-05,
+              3.0196255465853028e-05
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 3.0196274565241765e-06,
+            "action_shift_max": 2.7738860808312893e-07,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 3.0196274565241765e-06,
+            "action_shift_max": 2.4586915969848633e-07,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 4,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101007",
+            3,
+            5,
+            6
+          ],
+          "loss": 0.003898721421137452,
+          "zero_update_loss": 0.003975340630859137,
+          "inner": {
+            "losses": [
+              0.003143033478409052,
+              0.0030284742824733257
+            ],
+            "gradient_norms": [
+              0.04908350482583046,
+              0.04432058334350586
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.004669046029448509,
+            "action_shift_max": 0.00032372743589803576,
+            "direction_cosine": 0.999997615814209,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.004669046029448509,
+            "action_shift_max": 0.0005117077380418777,
+            "direction_cosine": 0.9997634887695312,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 51,
+          "actual_feedback_query": 5,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101008",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.05307276174426079,
+          "zero_update_loss": 0.05307285860180855,
+          "inner": {
+            "losses": [
+              2.8861324608442374e-05,
+              2.8861304599558935e-05
+            ],
+            "gradient_norms": [
+              1.7693319023237564e-05,
+              1.7693309928290546e-05
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 1.7693315612632432e-06,
+            "action_shift_max": 2.0489096641540527e-07,
+            "direction_cosine": 0.9999999403953552,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 1.7693315612632432e-06,
+            "action_shift_max": 2.0023435354232788e-07,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 2,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101008",
+            3,
+            5,
+            6
+          ],
+          "loss": 0.036662664264440536,
+          "zero_update_loss": 0.03809850662946701,
+          "inner": {
+            "losses": [
+              0.018067706376314163,
+              0.013586386106908321
+            ],
+            "gradient_norms": [
+              0.3334997594356537,
+              0.2089671641588211
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.02696967124938965,
+            "action_shift_max": 0.0019241520203649998,
+            "direction_cosine": 0.999903678894043,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.02696967124938965,
+            "action_shift_max": 0.0019672932103276253,
+            "direction_cosine": 0.9992692470550537,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 30,
+          "actual_feedback_query": 5,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101009",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.009165947325527668,
+          "zero_update_loss": 0.009191879071295261,
+          "inner": {
+            "losses": [
+              0.0016000624746084213,
+              0.0015042877057567239
+            ],
+            "gradient_norms": [
+              0.04469791799783707,
+              0.04103807359933853
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.0042863888666033745,
+            "action_shift_max": 0.000387346837669611,
+            "direction_cosine": 0.9999240636825562,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.0042863888666033745,
+            "action_shift_max": 0.0003700423985719681,
+            "direction_cosine": 0.9998390674591064,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 5,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_blocks_two:7101009",
+            3,
+            4,
+            6
+          ],
+          "loss": 0.0027692096773535013,
+          "zero_update_loss": 0.0027687624096870422,
+          "inner": {
+            "losses": [
+              0.00037338968832045794,
+              0.0003733858175110072
+            ],
+            "gradient_norms": [
+              0.00027674660668708384,
+              0.0002767411933746189
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 2.7674390366883017e-05,
+            "action_shift_max": 2.2333115339279175e-06,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 2.7674390366883017e-05,
+            "action_shift_max": 2.7585774660110474e-06,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 3,
+          "actual_feedback_query": 4,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        }
+      ]
+    },
+    "stack_bowls_two": {
+      "packets": 18,
+      "mean_loss": 0.042299688405667744,
+      "mean_zero_update_loss": 0.04211575222305126,
+      "records": [
+        {
+          "key": [
+            "stack_bowls_two:7101000",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.0038659321144223213,
+          "zero_update_loss": 0.004059807863086462,
+          "inner": {
+            "losses": [
+              0.010360806249082088,
+              0.007103650830686092
+            ],
+            "gradient_norms": [
+              0.2709605395793915,
+              0.20985500514507294
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.024040764197707176,
+            "action_shift_max": 0.0022470306139439344,
+            "direction_cosine": 0.9995247721672058,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.024040764197707176,
+            "action_shift_max": 0.0028058812022209167,
+            "direction_cosine": 0.9986585378646851,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 4,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101000",
+            3,
+            4,
+            5
+          ],
+          "loss": 0.21068501472473145,
+          "zero_update_loss": 0.21218709647655487,
+          "inner": {
+            "losses": [
+              0.09170063585042953,
+              0.09135204553604126
+            ],
+            "gradient_norms": [
+              0.08430361747741699,
+              0.08110024034976959
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.008270087651908398,
+            "action_shift_max": 0.0009220256470143795,
+            "direction_cosine": 0.9999589323997498,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.008270087651908398,
+            "action_shift_max": 0.0009884536266326904,
+            "direction_cosine": 0.9999386072158813,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 6,
+          "actual_feedback_query": 4,
+          "offline_action_query": 5,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101002",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.02672530524432659,
+          "zero_update_loss": 0.02645246498286724,
+          "inner": {
+            "losses": [
+              0.009475636295974255,
+              0.0033011294435709715
+            ],
+            "gradient_norms": [
+              0.4004676342010498,
+              0.21626372635364532
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.030836129561066628,
+            "action_shift_max": 0.003550990018993616,
+            "direction_cosine": 0.9996360540390015,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.030836129561066628,
+            "action_shift_max": 0.003701348090544343,
+            "direction_cosine": 0.9977093935012817,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 10,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101002",
+            3,
+            4,
+            6
+          ],
+          "loss": 0.02256304956972599,
+          "zero_update_loss": 0.022774526849389076,
+          "inner": {
+            "losses": [
+              0.0028539111372083426,
+              0.0012296730419620872
+            ],
+            "gradient_norms": [
+              0.20498685538768768,
+              0.11263692378997803
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.01585719734430313,
+            "action_shift_max": 0.00181573536247015,
+            "direction_cosine": 0.9997483491897583,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.01585719734430313,
+            "action_shift_max": 0.0017735385335981846,
+            "direction_cosine": 0.9978467226028442,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 12,
+          "actual_feedback_query": 4,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101005",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.035023752599954605,
+          "zero_update_loss": 0.03415471315383911,
+          "inner": {
+            "losses": [
+              0.009217757731676102,
+              0.00405897619202733
+            ],
+            "gradient_norms": [
+              0.3568914830684662,
+              0.2215893417596817
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.02891412004828453,
+            "action_shift_max": 0.003160577267408371,
+            "direction_cosine": 0.9993442893028259,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.02891412004828453,
+            "action_shift_max": 0.0028653480112552643,
+            "direction_cosine": 0.9989712238311768,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 6,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101005",
+            3,
+            4,
+            6
+          ],
+          "loss": 0.03253232687711716,
+          "zero_update_loss": 0.03274499997496605,
+          "inner": {
+            "losses": [
+              0.002951095113530755,
+              0.0022399448789656162
+            ],
+            "gradient_norms": [
+              0.12475575506687164,
+              0.10327071696519852
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.011400695890188217,
+            "action_shift_max": 0.0011809542775154114,
+            "direction_cosine": 0.9997086524963379,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.011400695890188217,
+            "action_shift_max": 0.001347535289824009,
+            "direction_cosine": 0.9988927841186523,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 10,
+          "actual_feedback_query": 4,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101006",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.01979045383632183,
+          "zero_update_loss": 0.01940232701599598,
+          "inner": {
+            "losses": [
+              0.07401171326637268,
+              0.029216257855296135
+            ],
+            "gradient_norms": [
+              1.7643916606903076,
+              0.8656377196311951
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.06722331047058105,
+            "action_shift_max": 0.004557563457638025,
+            "direction_cosine": 0.9853990077972412,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.06722331047058105,
+            "action_shift_max": 0.004727018531411886,
+            "direction_cosine": 0.9921313524246216,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 1,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101006",
+            3,
+            4,
+            5
+          ],
+          "loss": 0.03631595894694328,
+          "zero_update_loss": 0.03637608513236046,
+          "inner": {
+            "losses": [
+              0.0013519617496058345,
+              0.0013042290229350328
+            ],
+            "gradient_norms": [
+              0.0312509723007679,
+              0.029850443825125694
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.0030550549272447824,
+            "action_shift_max": 0.00036020949482917786,
+            "direction_cosine": 0.9999699592590332,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.0030550549272447824,
+            "action_shift_max": 0.0003209998831152916,
+            "direction_cosine": 0.9999920129776001,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 4,
+          "actual_feedback_query": 4,
+          "offline_action_query": 5,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101007",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.01789284683763981,
+          "zero_update_loss": 0.017986133694648743,
+          "inner": {
+            "losses": [
+              0.002798826200887561,
+              0.0027642250061035156
+            ],
+            "gradient_norms": [
+              0.026806432753801346,
+              0.024822531268000603
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.0025814459659159184,
+            "action_shift_max": 0.0003024740144610405,
+            "direction_cosine": 0.9999953508377075,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.0025814459659159184,
+            "action_shift_max": 0.00028287433087825775,
+            "direction_cosine": 0.9999887943267822,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 6,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101007",
+            3,
+            4,
+            6
+          ],
+          "loss": 0.00589926028624177,
+          "zero_update_loss": 0.0059542167000472546,
+          "inner": {
+            "losses": [
+              0.0028052404522895813,
+              0.0013084798119962215
+            ],
+            "gradient_norms": [
+              0.1907869279384613,
+              0.12309546023607254
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.015690820291638374,
+            "action_shift_max": 0.0013915318995714188,
+            "direction_cosine": 0.9998658895492554,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.015690820291638374,
+            "action_shift_max": 0.0018108685035258532,
+            "direction_cosine": 0.9963608980178833,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 12,
+          "actual_feedback_query": 4,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101008",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.018740521743893623,
+          "zero_update_loss": 0.018736978992819786,
+          "inner": {
+            "losses": [
+              0.002097495598718524,
+              0.0020973393693566322
+            ],
+            "gradient_norms": [
+              0.0017725719371810555,
+              0.0017724507488310337
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.00017725114594213665,
+            "action_shift_max": 1.7529353499412537e-05,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.00017725114594213665,
+            "action_shift_max": 1.8415594240650535e-05,
+            "direction_cosine": 0.9999998807907104,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 6,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101008",
+            3,
+            5,
+            5
+          ],
+          "loss": 0.13161922991275787,
+          "zero_update_loss": 0.12913066148757935,
+          "inner": {
+            "losses": [
+              2.5755655765533447,
+              0.9539031982421875
+            ],
+            "gradient_norms": [
+              56.16783905029297,
+              8.8312349319458
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09970454126596451,
+            "action_shift_max": 0.005804895423352718,
+            "direction_cosine": 0.9964724183082581,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09970454126596451,
+            "action_shift_max": 0.005804895423352718,
+            "direction_cosine": 0.9964724183082581,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 18,
+          "actual_feedback_query": 5,
+          "offline_action_query": 5,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101011",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.008766339160501957,
+          "zero_update_loss": 0.00878456886857748,
+          "inner": {
+            "losses": [
+              0.000929234316572547,
+              0.0007921199430711567
+            ],
+            "gradient_norms": [
+              0.05849531665444374,
+              0.03620510548353195
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.004705877508968115,
+            "action_shift_max": 0.0004124986007809639,
+            "direction_cosine": 0.9999198913574219,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.004705877508968115,
+            "action_shift_max": 0.0004252959042787552,
+            "direction_cosine": 0.9998666048049927,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 4,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101011",
+            3,
+            4,
+            6
+          ],
+          "loss": 0.009438540786504745,
+          "zero_update_loss": 0.009321591816842556,
+          "inner": {
+            "losses": [
+              0.0009745011921040714,
+              0.0008457314688712358
+            ],
+            "gradient_norms": [
+              0.05206238850951195,
+              0.04688859358429909
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.004947157576680183,
+            "action_shift_max": 0.00040149688720703125,
+            "direction_cosine": 0.9999958872795105,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.004947157576680183,
+            "action_shift_max": 0.00046105124056339264,
+            "direction_cosine": 0.9999629259109497,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 6,
+          "actual_feedback_query": 4,
+          "offline_action_query": 6,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101013",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.021211208775639534,
+          "zero_update_loss": 0.021075645461678505,
+          "inner": {
+            "losses": [
+              0.001263791578821838,
+              0.0008415279444307089
+            ],
+            "gradient_norms": [
+              0.10905101150274277,
+              0.0643809363245964
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.00806713942438364,
+            "action_shift_max": 0.0007370337843894958,
+            "direction_cosine": 0.9993277192115784,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.00806713942438364,
+            "action_shift_max": 0.0007215072400867939,
+            "direction_cosine": 0.999772310256958,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 8,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101013",
+            3,
+            4,
+            5
+          ],
+          "loss": 0.09509909152984619,
+          "zero_update_loss": 0.09411891549825668,
+          "inner": {
+            "losses": [
+              0.021825097501277924,
+              0.017818508669734
+            ],
+            "gradient_norms": [
+              0.29251861572265625,
+              0.2559168040752411
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.027407079935073853,
+            "action_shift_max": 0.002125183120369911,
+            "direction_cosine": 0.9997531771659851,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.027407079935073853,
+            "action_shift_max": 0.0022602668032050133,
+            "direction_cosine": 0.9988886713981628,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 8,
+          "actual_feedback_query": 4,
+          "offline_action_query": 5,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101014",
+            1,
+            2,
+            3
+          ],
+          "loss": 0.041822269558906555,
+          "zero_update_loss": 0.04181511327624321,
+          "inner": {
+            "losses": [
+              0.0022640845272690058,
+              0.002264021197333932
+            ],
+            "gradient_norms": [
+              0.0011263948399573565,
+              0.0011263309279456735
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.00011263629130553454,
+            "action_shift_max": 1.1755619198083878e-05,
+            "direction_cosine": 0.9999999403953552,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.00011263629130553454,
+            "action_shift_max": 1.1011958122253418e-05,
+            "direction_cosine": 0.9999999403953552,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 6,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "stack_bowls_two:7101014",
+            3,
+            4,
+            5
+          ],
+          "loss": 0.023403288796544075,
+          "zero_update_loss": 0.023007692769169807,
+          "inner": {
+            "losses": [
+              0.0015703306999057531,
+              0.00016947175026871264
+            ],
+            "gradient_norms": [
+              0.21185539662837982,
+              0.06674839556217194
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.013384302146732807,
+            "action_shift_max": 0.0011719523463398218,
+            "direction_cosine": 0.997908353805542,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.013384302146732807,
+            "action_shift_max": 0.0012821722775697708,
+            "direction_cosine": 0.9995760917663574,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 1,
+          "actual_feedback_query": 4,
+          "offline_action_query": 5,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        }
+      ]
+    },
+    "beat_block_hammer": {
+      "packets": 5,
+      "mean_loss": 0.07838908284902572,
+      "mean_zero_update_loss": 0.07599249817430972,
+      "records": [
+        {
+          "key": [
+            "beat_block_hammer:7121005",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.1092914417386055,
+          "zero_update_loss": 0.11044231802225113,
+          "inner": {
+            "losses": [
+              0.2686203122138977,
+              0.2656669318675995
+            ],
+            "gradient_norms": [
+              0.313351571559906,
+              0.08359454572200775
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.01904129423201084,
+            "action_shift_max": 0.0019137975759804249,
+            "direction_cosine": 0.9998513460159302,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.01904129423201084,
+            "action_shift_max": 0.0019137975759804249,
+            "direction_cosine": 0.9998513460159302,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 14,
+          "packet_rows": 8,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "beat_block_hammer:7121007",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.05734167993068695,
+          "zero_update_loss": 0.05578774958848953,
+          "inner": {
+            "losses": [
+              5.101685047149658,
+              4.7992963790893555
+            ],
+            "gradient_norms": [
+              6.563235759735107,
+              5.533816814422607
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09998751431703568,
+            "action_shift_max": 0.011028102599084377,
+            "direction_cosine": 0.9932544231414795,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09998751431703568,
+            "action_shift_max": 0.011028102599084377,
+            "direction_cosine": 0.9932544231414795,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 15,
+          "packet_rows": 23,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "beat_block_hammer:7121009",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.1373416930437088,
+          "zero_update_loss": 0.13072577118873596,
+          "inner": {
+            "losses": [
+              1.8921623229980469,
+              1.6581037044525146
+            ],
+            "gradient_norms": [
+              5.818264484405518,
+              3.775162696838379
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09843604266643524,
+            "action_shift_max": 0.006383165717124939,
+            "direction_cosine": 0.9990783333778381,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09843604266643524,
+            "action_shift_max": 0.006383165717124939,
+            "direction_cosine": 0.9990783333778381,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 19,
+          "packet_rows": 20,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "beat_block_hammer:7121010",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.055994853377342224,
+          "zero_update_loss": 0.05524224042892456,
+          "inner": {
+            "losses": [
+              0.5907598733901978,
+              0.5411827564239502
+            ],
+            "gradient_norms": [
+              1.1862330436706543,
+              0.8271962404251099
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09052766114473343,
+            "action_shift_max": 0.007390769198536873,
+            "direction_cosine": 0.9986966252326965,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09052766114473343,
+            "action_shift_max": 0.007390769198536873,
+            "direction_cosine": 0.9986966252326965,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 15,
+          "packet_rows": 33,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "beat_block_hammer:7121011",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.031975746154785156,
+          "zero_update_loss": 0.02776441164314747,
+          "inner": {
+            "losses": [
+              3.560760736465454,
+              3.2662839889526367
+            ],
+            "gradient_norms": [
+              6.540227890014648,
+              5.247194766998291
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09997314214706421,
+            "action_shift_max": 0.008611214347183704,
+            "direction_cosine": 0.997024655342102,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09997314214706421,
+            "action_shift_max": 0.008611214347183704,
+            "direction_cosine": 0.997024655342102,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 13,
+          "packet_rows": 26,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        }
+      ]
+    },
+    "turn_switch": {
+      "packets": 7,
+      "mean_loss": 0.36091368538992746,
+      "mean_zero_update_loss": 0.3638597066913332,
+      "records": [
+        {
+          "key": [
+            "turn_switch:7121001",
+            0,
+            2,
+            2
+          ],
+          "loss": 0.40792372822761536,
+          "zero_update_loss": 0.40519872307777405,
+          "inner": {
+            "losses": [
+              0.12128793448209763,
+              0.039711032062768936
+            ],
+            "gradient_norms": [
+              3.4584288597106934,
+              0.581397533416748
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.04857994243502617,
+            "action_shift_max": 0.0035373226273804903,
+            "direction_cosine": 0.9989807605743408,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.04857994243502617,
+            "action_shift_max": 0.0035373226273804903,
+            "direction_cosine": 0.9989807605743408,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 6,
+          "actual_feedback_query": 2,
+          "offline_action_query": 2,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "turn_switch:7121003",
+            0,
+            2,
+            2
+          ],
+          "loss": 0.557297945022583,
+          "zero_update_loss": 0.557364821434021,
+          "inner": {
+            "losses": [
+              0.1431122124195099,
+              0.029668206349015236
+            ],
+            "gradient_norms": [
+              3.7756552696228027,
+              0.78009033203125
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.08842073380947113,
+            "action_shift_max": 0.0036335065960884094,
+            "direction_cosine": 0.9999139308929443,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.08842073380947113,
+            "action_shift_max": 0.0036335065960884094,
+            "direction_cosine": 0.9999139308929443,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 25,
+          "packet_rows": 2,
+          "actual_feedback_query": 2,
+          "offline_action_query": 2,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "turn_switch:7121006",
+            0,
+            2,
+            2
+          ],
+          "loss": 0.3624595105648041,
+          "zero_update_loss": 0.35793745517730713,
+          "inner": {
+            "losses": [
+              4.974163055419922,
+              4.258098125457764
+            ],
+            "gradient_norms": [
+              35.363677978515625,
+              20.072187423706055
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.05778475105762482,
+            "action_shift_max": 0.00518399802967906,
+            "direction_cosine": 0.9997677206993103,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.05778475105762482,
+            "action_shift_max": 0.00518399802967906,
+            "direction_cosine": 0.9997677206993103,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 11,
+          "actual_feedback_query": 2,
+          "offline_action_query": 2,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "turn_switch:7121009",
+            0,
+            2,
+            2
+          ],
+          "loss": 0.46315956115722656,
+          "zero_update_loss": 0.46315956115722656,
+          "inner": {
+            "losses": [
+              0.0028613917529582977,
+              0.0028613917529582977
+            ],
+            "gradient_norms": [
+              1.0176892965493844e-12,
+              1.0176892965493844e-12
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 1.889216864545129e-14,
+            "action_shift_max": 0.0,
+            "direction_cosine": 1.0000001192092896,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 1.889216864545129e-14,
+            "action_shift_max": 0.0,
+            "direction_cosine": 1.0000001192092896,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 1,
+          "actual_feedback_query": 2,
+          "offline_action_query": 2,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "turn_switch:7121015",
+            0,
+            2,
+            2
+          ],
+          "loss": 0.31458500027656555,
+          "zero_update_loss": 0.3273354470729828,
+          "inner": {
+            "losses": [
+              0.9722212553024292,
+              0.6209098100662231
+            ],
+            "gradient_norms": [
+              8.43187427520752,
+              5.64612340927124
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09988207370042801,
+            "action_shift_max": 0.013683365657925606,
+            "direction_cosine": 0.9982879161834717,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09988207370042801,
+            "action_shift_max": 0.013683365657925606,
+            "direction_cosine": 0.9982879161834717,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 20,
+          "packet_rows": 1,
+          "actual_feedback_query": 2,
+          "offline_action_query": 2,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "turn_switch:7125000",
+            0,
+            2,
+            2
+          ],
+          "loss": 0.22020669281482697,
+          "zero_update_loss": 0.2234015166759491,
+          "inner": {
+            "losses": [
+              5.223751068115234,
+              5.160567760467529
+            ],
+            "gradient_norms": [
+              3.3161306381225586,
+              1.5889363288879395
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.05030641704797745,
+            "action_shift_max": 0.0036717017646878958,
+            "direction_cosine": 0.9997883439064026,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.05030641704797745,
+            "action_shift_max": 0.0036717017646878958,
+            "direction_cosine": 0.9997883439064026,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 3,
+          "packet_rows": 8,
+          "actual_feedback_query": 2,
+          "offline_action_query": 2,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "turn_switch:7125001",
+            0,
+            2,
+            2
+          ],
+          "loss": 0.20076335966587067,
+          "zero_update_loss": 0.21262042224407196,
+          "inner": {
+            "losses": [
+              13.077350616455078,
+              8.757457733154297
+            ],
+            "gradient_norms": [
+              99.201904296875,
+              73.64561462402344
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09999307990074158,
+            "action_shift_max": 0.017430992797017097,
+            "direction_cosine": 0.9972377419471741,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09999307990074158,
+            "action_shift_max": 0.017430992797017097,
+            "direction_cosine": 0.9972377419471741,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 18,
+          "packet_rows": 2,
+          "actual_feedback_query": 2,
+          "offline_action_query": 2,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        }
+      ]
+    },
+    "adjust_bottle": {
+      "packets": 9,
+      "mean_loss": 0.19857301231887606,
+      "mean_zero_update_loss": 0.1991047097576989,
+      "records": [
+        {
+          "key": [
+            "adjust_bottle:7121000",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.16700853407382965,
+          "zero_update_loss": 0.16395875811576843,
+          "inner": {
+            "losses": [
+              0.38909855484962463,
+              0.46175795793533325
+            ],
+            "gradient_norms": [
+              1.8848696947097778,
+              5.761472702026367
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.029037611559033394,
+            "action_shift_max": 0.0028128453996032476,
+            "direction_cosine": 0.9989564418792725,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.029037611559033394,
+            "action_shift_max": 0.0028128453996032476,
+            "direction_cosine": 0.9989564418792725,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 30,
+          "packet_rows": 20,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "adjust_bottle:7121001",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.23608334362506866,
+          "zero_update_loss": 0.2389921098947525,
+          "inner": {
+            "losses": [
+              0.7641240358352661,
+              0.8650344014167786
+            ],
+            "gradient_norms": [
+              0.7827022671699524,
+              7.3375935554504395
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.029372606426477432,
+            "action_shift_max": 0.0027054103557020426,
+            "direction_cosine": 0.9996799230575562,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.029372606426477432,
+            "action_shift_max": 0.0027054103557020426,
+            "direction_cosine": 0.9996799230575562,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 24,
+          "packet_rows": 21,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "adjust_bottle:7121002",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.21993786096572876,
+          "zero_update_loss": 0.21826983988285065,
+          "inner": {
+            "losses": [
+              0.1192789077758789,
+              0.3727741241455078
+            ],
+            "gradient_norms": [
+              3.248523712158203,
+              14.849771499633789
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.02225818857550621,
+            "action_shift_max": 0.002272601006552577,
+            "direction_cosine": 0.9997780323028564,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.02225818857550621,
+            "action_shift_max": 0.002272601006552577,
+            "direction_cosine": 0.9997780323028564,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 17,
+          "packet_rows": 20,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "adjust_bottle:7121004",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.13510526716709137,
+          "zero_update_loss": 0.13826444745063782,
+          "inner": {
+            "losses": [
+              1.6233656406402588,
+              1.3006161451339722
+            ],
+            "gradient_norms": [
+              11.624815940856934,
+              7.071457386016846
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.07690323889255524,
+            "action_shift_max": 0.004652589559555054,
+            "direction_cosine": 0.9993048906326294,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.07690323889255524,
+            "action_shift_max": 0.004652589559555054,
+            "direction_cosine": 0.9993048906326294,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 21,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "adjust_bottle:7121006",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.152039036154747,
+          "zero_update_loss": 0.15114149451255798,
+          "inner": {
+            "losses": [
+              0.4186892807483673,
+              0.37954315543174744
+            ],
+            "gradient_norms": [
+              3.912492036819458,
+              6.2220635414123535
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.05575481057167053,
+            "action_shift_max": 0.004360748454928398,
+            "direction_cosine": 0.9990909695625305,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.05575481057167053,
+            "action_shift_max": 0.004360748454928398,
+            "direction_cosine": 0.9990909695625305,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 13,
+          "packet_rows": 18,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "adjust_bottle:7121009",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.24352450668811798,
+          "zero_update_loss": 0.24475961923599243,
+          "inner": {
+            "losses": [
+              0.2302994728088379,
+              0.30846092104911804
+            ],
+            "gradient_norms": [
+              1.2931534051895142,
+              7.812780857086182
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.04659448564052582,
+            "action_shift_max": 0.0036814026534557343,
+            "direction_cosine": 0.9997156858444214,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.04659448564052582,
+            "action_shift_max": 0.0036814026534557343,
+            "direction_cosine": 0.9997156858444214,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 29,
+          "packet_rows": 21,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "adjust_bottle:7121010",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.2909301519393921,
+          "zero_update_loss": 0.2897530794143677,
+          "inner": {
+            "losses": [
+              0.20683233439922333,
+              0.26442328095436096
+            ],
+            "gradient_norms": [
+              3.5915675163269043,
+              7.315644264221191
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.031208619475364685,
+            "action_shift_max": 0.0018362049013376236,
+            "direction_cosine": 0.999777615070343,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.031208619475364685,
+            "action_shift_max": 0.0018362049013376236,
+            "direction_cosine": 0.999777615070343,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 18,
+          "packet_rows": 21,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "adjust_bottle:7121011",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.21780304610729218,
+          "zero_update_loss": 0.22134190797805786,
+          "inner": {
+            "losses": [
+              0.1263227015733719,
+              0.20901711285114288
+            ],
+            "gradient_norms": [
+              1.793049693107605,
+              8.347627639770508
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.044081442058086395,
+            "action_shift_max": 0.0025816205888986588,
+            "direction_cosine": 0.9996713995933533,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.044081442058086395,
+            "action_shift_max": 0.0025816205888986588,
+            "direction_cosine": 0.9996713995933533,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 20,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "adjust_bottle:7125002",
+            0,
+            2,
+            3
+          ],
+          "loss": 0.12472536414861679,
+          "zero_update_loss": 0.1254611313343048,
+          "inner": {
+            "losses": [
+              0.6032192707061768,
+              0.6030106544494629
+            ],
+            "gradient_norms": [
+              5.915953159332275,
+              7.386058330535889
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.0317663811147213,
+            "action_shift_max": 0.0017973906360566616,
+            "direction_cosine": 0.9994931817054749,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.0317663811147213,
+            "action_shift_max": 0.0020434046164155006,
+            "direction_cosine": 0.9998717308044434,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 29,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        }
+      ]
+    },
+    "grab_roller": {
+      "packets": 2,
+      "mean_loss": 0.3055441230535507,
+      "mean_zero_update_loss": 0.3099035918712616,
+      "records": [
+        {
+          "key": [
+            "grab_roller:7125004",
+            0,
+            1,
+            1
+          ],
+          "loss": 0.25819525122642517,
+          "zero_update_loss": 0.25890427827835083,
+          "inner": {
+            "losses": [
+              5.770021438598633,
+              5.499645709991455
+            ],
+            "gradient_norms": [
+              5.635995388031006,
+              5.181678295135498
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09998444467782974,
+            "action_shift_max": 0.003070896491408348,
+            "direction_cosine": 0.9993448853492737,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09998444467782974,
+            "action_shift_max": 0.003070896491408348,
+            "direction_cosine": 0.9993448853492737,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 3,
+          "actual_feedback_query": 1,
+          "offline_action_query": 1,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "grab_roller:7125006",
+            0,
+            1,
+            1
+          ],
+          "loss": 0.35289299488067627,
+          "zero_update_loss": 0.36090290546417236,
+          "inner": {
+            "losses": [
+              0.8565477728843689,
+              0.573628842830658
+            ],
+            "gradient_norms": [
+              6.272896766662598,
+              5.052277088165283
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.09999024122953415,
+            "action_shift_max": 0.004202611744403839,
+            "direction_cosine": 0.999385416507721,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.09999024122953415,
+            "action_shift_max": 0.004202611744403839,
+            "direction_cosine": 0.999385416507721,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 1,
+          "actual_feedback_query": 1,
+          "offline_action_query": 1,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        }
+      ]
+    },
+    "open_laptop": {
+      "packets": 10,
+      "mean_loss": 0.2801935750991106,
+      "mean_zero_update_loss": 0.2792914930731058,
+      "records": [
+        {
+          "key": [
+            "open_laptop:7121001",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.3773564398288727,
+          "zero_update_loss": 0.3774162232875824,
+          "inner": {
+            "losses": [
+              0.04739812761545181,
+              0.40347179770469666
+            ],
+            "gradient_norms": [
+              1.9758795499801636,
+              16.393369674682617
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.0077376109547913074,
+            "action_shift_max": 0.00039352523162961006,
+            "direction_cosine": 0.9999944567680359,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.0077376109547913074,
+            "action_shift_max": 0.00039352523162961006,
+            "direction_cosine": 0.9999944567680359,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 21,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7121005",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.1943964809179306,
+          "zero_update_loss": 0.19366954267024994,
+          "inner": {
+            "losses": [
+              0.06633511185646057,
+              0.06814461201429367
+            ],
+            "gradient_norms": [
+              1.0478882789611816,
+              1.5622460842132568
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.037608060985803604,
+            "action_shift_max": 0.003004465252161026,
+            "direction_cosine": 0.9997273683547974,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.037608060985803604,
+            "action_shift_max": 0.003004465252161026,
+            "direction_cosine": 0.9997273683547974,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 22,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7121007",
+            2,
+            4,
+            4
+          ],
+          "loss": 0.43351316452026367,
+          "zero_update_loss": 0.43307003378868103,
+          "inner": {
+            "losses": [
+              0.19433262944221497,
+              0.19625401496887207
+            ],
+            "gradient_norms": [
+              2.1677002906799316,
+              3.534651756286621
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.042809147387742996,
+            "action_shift_max": 0.0034128688275814056,
+            "direction_cosine": 0.999724268913269,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.042809147387742996,
+            "action_shift_max": 0.0034128688275814056,
+            "direction_cosine": 0.999724268913269,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 35,
+          "actual_feedback_query": 4,
+          "offline_action_query": 4,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7121008",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.3337993323802948,
+          "zero_update_loss": 0.33598196506500244,
+          "inner": {
+            "losses": [
+              0.2205396294593811,
+              0.20482410490512848
+            ],
+            "gradient_norms": [
+              1.2485437393188477,
+              2.142847776412964
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.059635620564222336,
+            "action_shift_max": 0.005684070289134979,
+            "direction_cosine": 0.9997252225875854,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.059635620564222336,
+            "action_shift_max": 0.005684070289134979,
+            "direction_cosine": 0.9997252225875854,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 25,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7121009",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.2745339572429657,
+          "zero_update_loss": 0.266669362783432,
+          "inner": {
+            "losses": [
+              0.20016923546791077,
+              0.16201016306877136
+            ],
+            "gradient_norms": [
+              0.9451868534088135,
+              0.6709291338920593
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.08077379316091537,
+            "action_shift_max": 0.011201100423932076,
+            "direction_cosine": 0.9941964149475098,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.08077379316091537,
+            "action_shift_max": 0.011201100423932076,
+            "direction_cosine": 0.9941964149475098,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 16,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7121012",
+            1,
+            3,
+            3
+          ],
+          "loss": 0.2108902931213379,
+          "zero_update_loss": 0.20554785430431366,
+          "inner": {
+            "losses": [
+              0.42021670937538147,
+              0.2440733164548874
+            ],
+            "gradient_norms": [
+              7.368109226226807,
+              1.7284408807754517
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.06366223096847534,
+            "action_shift_max": 0.005173895042389631,
+            "direction_cosine": 0.9974782466888428,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.06366223096847534,
+            "action_shift_max": 0.005173895042389631,
+            "direction_cosine": 0.9974782466888428,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 19,
+          "actual_feedback_query": 3,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7125000",
+            0,
+            2,
+            3
+          ],
+          "loss": 0.464695006608963,
+          "zero_update_loss": 0.46472394466400146,
+          "inner": {
+            "losses": [
+              0.6470038890838623,
+              0.6111418604850769
+            ],
+            "gradient_norms": [
+              12.702783584594727,
+              13.312507629394531
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.027502119541168213,
+            "action_shift_max": 0.00237840018235147,
+            "direction_cosine": 0.9999070167541504,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.027502119541168213,
+            "action_shift_max": 0.0014892145991325378,
+            "direction_cosine": 0.9999852776527405,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 35,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7125001",
+            0,
+            1,
+            1
+          ],
+          "loss": 0.3706503212451935,
+          "zero_update_loss": 0.37065044045448303,
+          "inner": {
+            "losses": [
+              0.00038426232640631497,
+              0.0003842586011160165
+            ],
+            "gradient_norms": [
+              0.0002728743420448154,
+              0.0002728724211920053
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 2.7287336706649512e-05,
+            "action_shift_max": 2.021901309490204e-06,
+            "direction_cosine": 0.9999999403953552,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 2.7287336706649512e-05,
+            "action_shift_max": 2.021901309490204e-06,
+            "direction_cosine": 0.9999999403953552,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "original_selected",
+          "valid_action_commands": 32,
+          "packet_rows": 1,
+          "actual_feedback_query": 1,
+          "offline_action_query": 1,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7125002",
+            0,
+            2,
+            3
+          ],
+          "loss": 0.08232211321592331,
+          "zero_update_loss": 0.0854073241353035,
+          "inner": {
+            "losses": [
+              0.7589425444602966,
+              0.7081636786460876
+            ],
+            "gradient_norms": [
+              2.59134840965271,
+              2.0494487285614014
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 0.060300201177597046,
+            "action_shift_max": 0.004778194706887007,
+            "direction_cosine": 0.9973616003990173,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 0.060300201177597046,
+            "action_shift_max": 0.004698038566857576,
+            "direction_cosine": 0.9971721768379211,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 28,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        },
+        {
+          "key": [
+            "open_laptop:7125003",
+            0,
+            2,
+            3
+          ],
+          "loss": 0.059778641909360886,
+          "zero_update_loss": 0.05977823957800865,
+          "inner": {
+            "losses": [
+              0.016856741160154343,
+              0.016856739297509193
+            ],
+            "gradient_norms": [
+              0.00020027630671393126,
+              0.00020027608843520284
+            ],
+            "steps": 2,
+            "lr": 0.05,
+            "clip": 1.0
+          },
+          "current_query_trust_would_accept": true,
+          "action_query_trust_would_accept": true,
+          "current_query_trust": {
+            "fast_norm": 2.0027620848850347e-05,
+            "action_shift_max": 1.3159587979316711e-06,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "action_query_trust": {
+            "fast_norm": 2.0027620848850347e-05,
+            "action_shift_max": 1.1995434761047363e-06,
+            "direction_cosine": 1.0,
+            "anchor_drift_max": 0.0
+          },
+          "application_mode": "feedback_fast_difference",
+          "valid_action_commands": 32,
+          "packet_rows": 1,
+          "actual_feedback_query": 2,
+          "offline_action_query": 3,
+          "offline_outer_labels_only": true,
+          "applied_to_actor": false,
+          "TTA_utility_proven": false
+        }
+      ]
+    }
+  },
+  "report_only": true,
+  "no_checkpoint_selection": true,
+  "native_rollout": false,
+  "TTA_utility_proven": false
+}

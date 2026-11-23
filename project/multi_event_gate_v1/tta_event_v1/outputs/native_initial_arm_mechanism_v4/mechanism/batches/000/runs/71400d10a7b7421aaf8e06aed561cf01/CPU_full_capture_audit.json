@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "scope": "initial_ARM_feedback_mechanism_development_only",
+  "actual_native_episodes": 40,
+  "actual_unique_mechanism_scenes": 10,
+  "all_whole_native_controls_exact": true,
+  "records": [
+    {
+      "case_id": "adjust_bottle:7126003",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "adjust_bottle:7126004",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "beat_block_hammer:7126000",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": false
+    },
+    {
+      "case_id": "beat_block_hammer:7126001",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "grab_roller:7126000",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "grab_roller:7126001",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 0,
+      "actual_early_legal_actions": 0,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "open_laptop:7126000",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "open_laptop:7126001",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": false
+    },
+    {
+      "case_id": "turn_switch:7126000",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": false,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "turn_switch:7126002",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": false,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": false
+    }
+  ],
+  "groups": {
+    "open_laptop": {
+      "cases": 2,
+      "eligible_early_cases": 2
+    },
+    "grab_roller": {
+      "cases": 2,
+      "eligible_early_cases": 1
+    },
+    "beat_block_hammer": {
+      "cases": 2,
+      "eligible_early_cases": 2
+    },
+    "turn_switch": {
+      "cases": 2,
+      "eligible_early_cases": 2
+    },
+    "adjust_bottle": {
+      "cases": 2,
+      "eligible_early_cases": 2
+    }
+  },
+  "coverage_passed": true,
+  "expert_labels_available": false,
+  "excluded_from_calibration": true,
+  "offline_optimizer_steps": 0,
+  "TTA_utility_proven": false
+}

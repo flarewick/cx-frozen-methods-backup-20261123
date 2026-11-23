@@ -1,0 +1,169 @@
+{
+  "available": true,
+  "reason": "text_grounded_distinct_masks",
+  "models_state_sha256": {
+    "DINO": "86dfd6940d3fa2a7e5575381c341f3a71e21159f5de97938b1ae957f909a9fba",
+    "SAM": "18cead3370d004076e8f7d65cc7698e7379098da8c8743b8fd27c8293bdc2f36"
+  },
+  "metadata": {
+    "raw": {
+      "image_sha256": "d7e82f55e82c99495f541200d56d291b64fb9283a85c0e2733f8678bc3a0d4a8",
+      "instruction_sha256": "8ac40421d0d7828de6eaf00404cba933ec219d4ce9728224ac0dceecdcf92a03",
+      "roles": {
+        "directed": false,
+        "target": null,
+        "reference": null,
+        "kind": "unordered_round_pair"
+      },
+      "text_prompt": "bowl.",
+      "candidates": [
+        [
+          {
+            "box": [
+              201.07776641845703,
+              98.43899488449097,
+              271.28971099853516,
+              160.83666801452637
+            ],
+            "score": 0.7218412756919861,
+            "phrase": "bowl"
+          },
+          {
+            "box": [
+              88.45789909362793,
+              86.32771968841553,
+              156.399507522583,
+              146.37539863586426
+            ],
+            "score": 0.6671952605247498,
+            "phrase": "bowl"
+          }
+        ]
+      ],
+      "available": true,
+      "reason": "text_grounded_distinct_masks",
+      "source": "FrozenGroundingDINO-base+SAM-vit-base, float32/eager/nativeTransformers4.53.2, image+languageonly",
+      "semantic_correctness_verified": false,
+      "selected": [
+        {
+          "box": [
+            88.45789909362793,
+            86.32771968841553,
+            156.399507522583,
+            146.37539863586426
+          ],
+          "score": 0.6671952605247498,
+          "phrase": "bowl"
+        },
+        {
+          "box": [
+            201.07776641845703,
+            98.43899488449097,
+            271.28971099853516,
+            160.83666801452637
+          ],
+          "score": 0.7218412756919861,
+          "phrase": "bowl"
+        }
+      ],
+      "mask_scores": [
+        0.998491644859314,
+        1.0033998489379883
+      ],
+      "mask_area": [
+        2989,
+        3221
+      ],
+      "mask_overlap_iou": 0.0,
+      "distinct_instances": true
+    },
+    "decision": {
+      "image_sha256": "d7e82f55e82c99495f541200d56d291b64fb9283a85c0e2733f8678bc3a0d4a8",
+      "instruction_sha256": "8ac40421d0d7828de6eaf00404cba933ec219d4ce9728224ac0dceecdcf92a03",
+      "roles": {
+        "directed": false,
+        "target": null,
+        "reference": null,
+        "kind": "unordered_round_pair"
+      },
+      "text_prompt": "bowl.",
+      "candidates": [
+        [
+          {
+            "box": [
+              201.07776641845703,
+              98.43899488449097,
+              271.28971099853516,
+              160.83666801452637
+            ],
+            "score": 0.7218412756919861,
+            "phrase": "bowl"
+          },
+          {
+            "box": [
+              88.45789909362793,
+              86.32771968841553,
+              156.399507522583,
+              146.37539863586426
+            ],
+            "score": 0.6671952605247498,
+            "phrase": "bowl"
+          }
+        ]
+      ],
+      "available": true,
+      "reason": "text_grounded_distinct_masks",
+      "source": "FrozenGroundingDINO-base+SAM-vit-base, float32/eager/nativeTransformers4.53.2, image+languageonly",
+      "semantic_correctness_verified": false,
+      "selected": [
+        {
+          "box": [
+            88.45789909362793,
+            86.32771968841553,
+            156.399507522583,
+            146.37539863586426
+          ],
+          "score": 0.6671952605247498,
+          "phrase": "bowl"
+        },
+        {
+          "box": [
+            201.07776641845703,
+            98.43899488449097,
+            271.28971099853516,
+            160.83666801452637
+          ],
+          "score": 0.7218412756919861,
+          "phrase": "bowl"
+        }
+      ],
+      "mask_scores": [
+        0.998491644859314,
+        1.0033998489379883
+      ],
+      "mask_area": [
+        2989,
+        3221
+      ],
+      "mask_overlap_iou": 0.0,
+      "distinct_instances": true,
+      "observed_attribute_checks": {}
+    },
+    "joint": null,
+    "head_batch": 1,
+    "CPU_RNG_preserved": true,
+    "CUDA_initialized": false,
+    "device": "cpu"
+  },
+  "content_key": "18dd2e21c674b044e6af539cc00658281d9a8bff85e928527c78cd389d0d01ae",
+  "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/18dd2e21c674b044e6af539cc00658281d9a8bff85e928527c78cd389d0d01ae.npz",
+  "frame_sha256": "c9f1c70fbf5abe5250ca653b8de5ec53f5fce2b28facb22ca5c863a3d60e64a0",
+  "query": 0,
+  "tick": 0,
+  "actual_CPU_inference": true,
+  "cold_CPU_inference_seconds": 22.958355738781393,
+  "CPU_RNG_preserved": true,
+  "CUDA_initialized": false,
+  "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/18dd2e21c674b044e6af539cc00658281d9a8bff85e928527c78cd389d0d01ae.npz",
+  "mask_sha256": "c846bbb922df8f625bb14be7e6d128eed4734c1f5ed10a926ea212be2c7ad006"
+}

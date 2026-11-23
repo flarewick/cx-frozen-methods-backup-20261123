@@ -1,0 +1,59 @@
+{
+  "full_owned_lifetime_raw": {
+    "samples": 622,
+    "SM_percent": 52.61093247588425,
+    "memory_controller_percent": 4.744372990353698,
+    "util_percent": 52.61093247588425,
+    "missing_metrics_count": 2,
+    "CPU_percent": 207.34253925586236,
+    "memory_MiB": 19447.149517684888
+  },
+  "all_post_creation300s_raw": {
+    "samples": 522,
+    "SM_percent": 55.27394636015325,
+    "memory_controller_percent": 5.080459770114943,
+    "util_percent": 55.27394636015325,
+    "missing_metrics_count": 0,
+    "CPU_percent": 215.0277014303502,
+    "memory_MiB": 20191.7969348659
+  },
+  "rolling180_windows": 378,
+  "rolling180_min": 49.131147540983605,
+  "rolling180_max": 64.71666666666667,
+  "longest_observed_rolling180_ge80_seconds": 0.0,
+  "target80_achieved": false,
+  "passed": true,
+  "performance_candidate_native_and_resource_qualified": true,
+  "actual_host_exit0_and_GPU_release": true,
+  "benchmark_cases": 10,
+  "complete_real_branches": 45,
+  "matched_original_complete_branches": 43,
+  "matched_queries": 335,
+  "all_matched_RGB_commands_traces_fast_updates_byte_exact": true,
+  "old_baseline_failed_NOT_promoted": true,
+  "old_missing_control_branches_completed_and_checked_against_full_within_new_run": [
+    {
+      "case_id": "turn_switch:7122002",
+      "condition": "zero_update"
+    },
+    {
+      "case_id": "turn_switch:7122002",
+      "condition": "shadow_update"
+    }
+  ],
+  "GPU_seconds_this_attempt": 1887.184,
+  "GPU_seconds_total_including_failed_baseline": 3630.635,
+  "full100_results_unchanged": true,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v3/branch10/actual_host_wait_exit.json": "0722a7cbe2d80cf2c4d83ef0e12c9149fc6c54abd689fe9c0a4b084aa50af0d0",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v3/branch10/pilot_complete.json": "3c154ecb38eeed2541c88a87351bed857dc5a18e16964a9c76500fdc9e492149",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v3/branch10/batches/000/runs/706db23aa1e747a9b101dbd9dcee6ba9/protocol.json": "acd94f2313bb70098a82fb3415b9d3f1123708d8bcf7ee4c8613f2dde0b42df1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v3/branch10/batches/000/runs/706db23aa1e747a9b101dbd9dcee6ba9/terminal_audit.json": "d1aed4d40159a8db8984931575fc6cd6a0d868b30ee9c8e27cf1f47d22632cbe",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v3/branch10/batches/000/runs/706db23aa1e747a9b101dbd9dcee6ba9/CPU_governor180_resource_audit.json": "74bcad59076df840bc79ad93158268b1c69d47ee21669af8e081354750c5461b",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v3/branch10/batches/000/runs/706db23aa1e747a9b101dbd9dcee6ba9/attempt/resources.jsonl": "594f5b8c336e391a7749ff945727c59508c5736e688968e9da282a727adefde6",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v3/branch10/batches/000/runs/706db23aa1e747a9b101dbd9dcee6ba9/attempt/governor180.jsonl": "2af8e3937e1adc12b8cd0cbae56213281f324dfe88ea71ee36124834dea19d57",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v3/branch10/batches/000/runs/706db23aa1e747a9b101dbd9dcee6ba9/attempt/governor180_raw.jsonl": "f92684c25d7ad2d56a8b60a7968f7daaeba731bd757e881e9bdc6c8deb86b9d4",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_eval_throughput_v1/profile8/batches/000/runs/686502cc4e174cef8d87e95a8763216a/attempt/resources.jsonl": "1360c33a5fc00a3394f89ab618b21279cc04efde8dc5cb8d023b411d68373972",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_eval_throughput_acceptance_v2/target.json": "f6e38b450219fcf653b8282eb0291c2c3b2520e4222d0c079e0c2bd6bd3ba516"
+  }
+}

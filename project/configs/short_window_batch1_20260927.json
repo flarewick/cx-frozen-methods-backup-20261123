@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "batch_id": "early_train_windows_v1_20260927",
+  "probe_strength": 0.25,
+  "record_stride": 8,
+  "original_plan_sha256": "01ea4ccff56ad2f4fb8d2b8c2936ed34a74e24572b624a3bd2dfb90cc35c3530",
+  "coverage_report_sha256": "34e2823098e3ee8b99205613b50e17e8445cb8d503b98c3d45687fe0ba427c5d",
+  "scope": "TRAIN-only targeted mechanism supplement, not blind evaluation or controller training",
+  "selection": "Frozen missing first offline object-motion neighborhood full chunks in original train scenes; no validation reuse; no selection by intervention branch outcome",
+  "code_hashes": {
+    "cx_tta/collect_short_windows.py": "960676412a5ffc4f8c52a200d45135f93e9a34dcdc97c23a8fd77a266300d330",
+    "cx_tta/short_window_contract.py": "7ad00fbd85136739a834755a229513e56324b32252d357e383819a5a5b9cd293",
+    "cx_tta/audit_short_windows.py": "05b54bb8c0c88fe7d3356029927aa7a3c721a0d05e08ed31c1476825bd684539",
+    "cx_tta/short_window_batch.py": "235eedaf73a836456e54ef88acc0c085ef2e37a78c5dc95b1c6fc410567cb031",
+    "scripts/collect_short_windows.sh": "b43c6a324524edca4b98041bc8601130229cf8a661935aee8a647b8b52cfaa7f",
+    "scripts/collect_short_window_batch.sh": "c1bfd275f0dcffd7f8af3c743fd1ea6ffdab66eac635cdc376ed067ee364269f",
+    "cx_tta/collect_interventions.py": "8309a9f433b9e1e028808c0eb4d4fd38f2c7afc3e2c30fd46738dd7e0d1bc6a2",
+    "cx_tta/intervention_contract.py": "292f4ce92afcec86d579941bd314485c0fa48102ee9b3dbeed7c39dac1587fb2",
+    "cx_tta/audit_interventions.py": "f7b6e0f100717d3236b27b08934fa2d56b5f7c15a353fee27dc62dae73943124",
+    "cx_tta/intervention_batch.py": "af174aacbe1d402e8126408f3f11ae8e10bbe0506d5f44ff4519500449b6f812",
+    "cx_tta/probe_action_replay.py": "b94e4a31cdb3d752a18513e1575d05c680ec5ea549b438acc96c787258460662",
+    "cx_tta/deploy.py": "0f4e4e0345a2868ccfa384d203099098d3ef66f43fbbe69ece298fa84e79b24c",
+    "cx_tta/evaluate_b2.py": "e3a5c60ef81f0b1a9645475a0bd784a76aa10b3b3e9fe2322d5e3beca6f113dd",
+    "scripts/collect_interventions.sh": "e56ee1c8405e54bc66d54d478dbbe40da00f769eb86cdec1d910520045bc8950",
+    "scripts/collect_intervention_batch.sh": "e9b9758a83ae9966e0dd22a06f1fbdb4cf3c89cb0cd8ef89fa0eff60abeb516b"
+  },
+  "jobs": [
+    {
+      "task": "beat_block_hammer",
+      "seed": 320005,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "trace_sha256": "dce273f204b984218f7ff5effcaa30b17656294798f4e9e938f14e3f273e8afa",
+      "split": "train",
+      "chunk": 1,
+      "id": "beat_block_hammer_s320005_c001"
+    },
+    {
+      "task": "beat_block_hammer",
+      "seed": 320005,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "trace_sha256": "dce273f204b984218f7ff5effcaa30b17656294798f4e9e938f14e3f273e8afa",
+      "split": "train",
+      "chunk": 2,
+      "id": "beat_block_hammer_s320005_c002"
+    },
+    {
+      "task": "beat_block_hammer",
+      "seed": 320006,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/beat_block_hammer/L0/eval_20260927_042414_355039",
+      "trace_sha256": "905e8bbdadd289bf089683f54dd6dd67b14c63ad112f6e23122ab77691be8857",
+      "split": "train",
+      "chunk": 2,
+      "id": "beat_block_hammer_s320006_c002"
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320002,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "trace_sha256": "f9751383444e6265c4e4fada4ea02ade66dd6d51e8ba9b3f99c8588e4bb7f7ba",
+      "split": "train",
+      "chunk": 1,
+      "id": "place_shoe_s320002_c001"
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320002,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "trace_sha256": "f9751383444e6265c4e4fada4ea02ade66dd6d51e8ba9b3f99c8588e4bb7f7ba",
+      "split": "train",
+      "chunk": 2,
+      "id": "place_shoe_s320002_c002"
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320003,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "trace_sha256": "299e7e9a40e589df4deac8d96a3bdbba0accd74275ab8db7d244780def20753d",
+      "split": "train",
+      "chunk": 2,
+      "id": "place_shoe_s320003_c002"
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320004,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "trace_sha256": "4ac9ac925df21ef6b36f3fd771267619a585070af173318712f8ce9c545bd026",
+      "split": "train",
+      "chunk": 1,
+      "id": "place_shoe_s320004_c001"
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320004,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "trace_sha256": "4ac9ac925df21ef6b36f3fd771267619a585070af173318712f8ce9c545bd026",
+      "split": "train",
+      "chunk": 2,
+      "id": "place_shoe_s320004_c002"
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320005,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "trace_sha256": "e26551e0f8c775a26c404a6ef85da9871deb334fbe10b71eb04d1ec3a4a19ac1",
+      "split": "train",
+      "chunk": 1,
+      "id": "place_shoe_s320005_c001"
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320006,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "trace_sha256": "015b6086f1d760a0204ca03d48a461333acb9df51b8ddf52e46f93b417cf353f",
+      "split": "train",
+      "chunk": 1,
+      "id": "place_shoe_s320006_c001"
+    },
+    {
+      "task": "place_shoe",
+      "seed": 320006,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_shoe/L0/eval_20260927_042421_531243",
+      "trace_sha256": "015b6086f1d760a0204ca03d48a461333acb9df51b8ddf52e46f93b417cf353f",
+      "split": "train",
+      "chunk": 2,
+      "id": "place_shoe_s320006_c002"
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320002,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "trace_sha256": "c42b457a65af33e088fe0062d6e22176b4a3f947f3de8bf2fc2e77c2ad538341",
+      "split": "train",
+      "chunk": 1,
+      "id": "turn_switch_s320002_c001"
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320002,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "trace_sha256": "c42b457a65af33e088fe0062d6e22176b4a3f947f3de8bf2fc2e77c2ad538341",
+      "split": "train",
+      "chunk": 2,
+      "id": "turn_switch_s320002_c002"
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320002,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "trace_sha256": "c42b457a65af33e088fe0062d6e22176b4a3f947f3de8bf2fc2e77c2ad538341",
+      "split": "train",
+      "chunk": 3,
+      "id": "turn_switch_s320002_c003",
+      "reuse_run": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/short_windows/turn_switch/windows_20260927_152414_088467",
+      "reuse_manifest_sha256": "64025abed56597222d520286a215e181d4da175b0e7703e5ead9af2a69d5ee46"
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320004,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "trace_sha256": "f125e2e920af57b096f69fc764cf51aa8ea63172f09b0b25d30f915fbfb33a65",
+      "split": "train",
+      "chunk": 1,
+      "id": "turn_switch_s320004_c001"
+    },
+    {
+      "task": "turn_switch",
+      "seed": 320004,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/turn_switch/L0/eval_20260927_042515_771593",
+      "trace_sha256": "f125e2e920af57b096f69fc764cf51aa8ea63172f09b0b25d30f915fbfb33a65",
+      "split": "train",
+      "chunk": 2,
+      "id": "turn_switch_s320004_c002"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320002,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "07bae5a44cc6b5f970bcb716329a8ef233ea4d17f2ce5c8afe90b87efea7198b",
+      "split": "train",
+      "chunk": 2,
+      "id": "place_empty_cup_s320002_c002"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320003,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "7f527cb6c1c87085b7acef720f04134f33e350ba0370839a6097591438340367",
+      "split": "train",
+      "chunk": 1,
+      "id": "place_empty_cup_s320003_c001"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320003,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "7f527cb6c1c87085b7acef720f04134f33e350ba0370839a6097591438340367",
+      "split": "train",
+      "chunk": 2,
+      "id": "place_empty_cup_s320003_c002"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320003,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "7f527cb6c1c87085b7acef720f04134f33e350ba0370839a6097591438340367",
+      "split": "train",
+      "chunk": 3,
+      "id": "place_empty_cup_s320003_c003"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320005,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "5974c6f3e8a7f90a1215a4d15b418e9a94525896a202f2762442f81bfc72abc2",
+      "split": "train",
+      "chunk": 1,
+      "id": "place_empty_cup_s320005_c001"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320006,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "73589acae63c2623bfbcca38bcea774c4772894985d8be1f9bc3cc3f8afa35c5",
+      "split": "train",
+      "chunk": 2,
+      "id": "place_empty_cup_s320006_c002"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320007,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "9542ff8e8178f7bbdd9c968e87bdc6ec58f73e1eb91766f7926432756cc8b79c",
+      "split": "train",
+      "chunk": 1,
+      "id": "place_empty_cup_s320007_c001"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320007,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "9542ff8e8178f7bbdd9c968e87bdc6ec58f73e1eb91766f7926432756cc8b79c",
+      "split": "train",
+      "chunk": 2,
+      "id": "place_empty_cup_s320007_c002"
+    },
+    {
+      "task": "place_empty_cup",
+      "seed": 320007,
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/place_empty_cup/L0/eval_20260927_042539_440649",
+      "trace_sha256": "9542ff8e8178f7bbdd9c968e87bdc6ec58f73e1eb91766f7926432756cc8b79c",
+      "split": "train",
+      "chunk": 3,
+      "id": "place_empty_cup_s320007_c003"
+    }
+  ]
+}

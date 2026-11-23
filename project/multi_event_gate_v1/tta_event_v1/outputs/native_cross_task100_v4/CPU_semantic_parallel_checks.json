@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "actual_CPU_subprocess_exit_code": 0,
+  "actual_four_worker_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "eight_saved_request_metadata_and_masks_exact": true,
+  "parallel_request_wall_seconds": 48.36284475913271,
+  "original_two_worker_busy_lower_bound_seconds": 80.64735935209319,
+  "original_two_worker_busy_seconds": [
+    80.64735935209319,
+    78.8729575611651
+  ],
+  "original_serial_inference_sum_seconds": 159.52031691325828,
+  "rows": [
+    {
+      "key": "071c2b8b915da84b585420276db59d77735563968d694e6206332c77be6cc60c",
+      "available": false,
+      "metadata_exact": true,
+      "masks_exact": false,
+      "original_seconds": 11.708087929990143,
+      "parallel_worker_seconds": 12.592375447042286
+    },
+    {
+      "key": "1d2bcce53a0fa2a36d3054d14acc1f744e81f33fa4e69839ba62c79e8857513c",
+      "available": true,
+      "metadata_exact": true,
+      "masks_exact": true,
+      "original_seconds": 22.184852014295757,
+      "parallel_worker_seconds": 25.347622186876833
+    },
+    {
+      "key": "204bc16eb8cc4945df75f36757755be62609318989a7e6306b009dcb38680468",
+      "available": true,
+      "metadata_exact": true,
+      "masks_exact": true,
+      "original_seconds": 22.46941674221307,
+      "parallel_worker_seconds": 24.272546655964106
+    },
+    {
+      "key": "8aa076644b6cb7c783837f1c3b17226fdccc57d687124c82cf91bf6d0b9c84d7",
+      "available": true,
+      "metadata_exact": true,
+      "masks_exact": true,
+      "original_seconds": 22.67737580789253,
+      "parallel_worker_seconds": 24.304301591124386
+    },
+    {
+      "key": "a57d94ab772820f625595cad5987428db6702f187e75bfa2e3806187556e48f0",
+      "available": true,
+      "metadata_exact": true,
+      "masks_exact": true,
+      "original_seconds": 22.913792081177235,
+      "parallel_worker_seconds": 23.41709649981931
+    },
+    {
+      "key": "e1938dfaa06a97a34c9c3d68a78caec8a52dddafac0dc2de18f8a9c97721645a",
+      "available": true,
+      "metadata_exact": true,
+      "masks_exact": true,
+      "original_seconds": 23.218249408062547,
+      "parallel_worker_seconds": 23.741879099979997
+    },
+    {
+      "key": "f5e9fef346e591eef31fca1d2dfeec98b52d51b199a41adfbb25a48f94a99575",
+      "available": true,
+      "metadata_exact": true,
+      "masks_exact": true,
+      "original_seconds": 22.302641808986664,
+      "parallel_worker_seconds": 23.870063444133848
+    },
+    {
+      "key": "fbd55e61b63aed0a904f8e2a2327ec3cbb0ece0588ac50df5b79404f81f265fb",
+      "available": false,
+      "metadata_exact": true,
+      "masks_exact": false,
+      "original_seconds": 12.045901120640337,
+      "parallel_worker_seconds": 12.881806111894548
+    }
+  ],
+  "original_client_AST_exact": true,
+  "CUDA_initialized": false,
+  "new_scientific_scenes": 0,
+  "training_steps": 0,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/common.py": "4bdc46c639d9e28b4c7070cf6361a1df99d34f88494c247701a1e34703d4372a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/semantic.py": "f53ccc10ae46e8e0a7f61d9d32e79b379fb6007140a68ace9d0844f6bcbbcd69",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/preflight.py": "05260a517dd083ea977e39d0fe8d9663d917532030de8143f857f6e3335fa316",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/screen.py": "0027782313584c26b7841797c3259a0b411320f432c7dffe714185bb178c013c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/runtime.py": "f24f8aae9e95db8afabee86ec7f3e43386814d7604ca143aa8d7abdfd56ed4e1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/analysis.py": "8d568018c27a143d283191797ac03efcd1ad95d8502b5ce8b74c9439fd0138df",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/preload.py": "fe3c45c15b71f91fbe66b3cf1f37e70417ddb919078f04bfdab932e2c59ab86c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/host.py": "91bd49e83a705921900c5df104ace7eb9b2efd678b24493ce04e1f78b6130da4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/report.py": "5ffba7010e62c1ad8b532b2cdde6801fd16c9f88470f5e9f226586eafa4a7738",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/status.py": "0c2abb9a1f7f6d00f6feeec1b503bf424d805451332fb5c9880bedba2cf06019",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/cpu_checks.py": "61adae803736ffb66d9c8012f674b8ceedf8b26b2be8808c944ae7829dc22fba",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/semantic_worker.py": "130f5a3d6d30e5ec21b4faf34624e477feeb319acbe588452f63c7cb85d3909f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v4/semantic_checks.py": "cb18c09e155f9254a257702512f400376334e63330cf5f74a50639b3cdcb1961"
+  },
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v3/batches/002/runs/f06bbbf3b5f44bb498e919d679727527/semantic/requests/071c2b8b915da84b585420276db59d77735563968d694e6206332c77be6cc60c.json": "7ca665c69e581b3f4b7bed0f1650e3275ff3f4ca08144c8f5e11550d8987a748",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v3/batches/002/runs/f06bbbf3b5f44bb498e919d679727527/semantic/requests/1d2bcce53a0fa2a36d3054d14acc1f744e81f33fa4e69839ba62c79e8857513c.json": "78a9bbe386f6795bdda91f76b77ab85a049018a430546d362d45c72234ab6584",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v3/batches/002/runs/f06bbbf3b5f44bb498e919d679727527/semantic/requests/204bc16eb8cc4945df75f36757755be62609318989a7e6306b009dcb38680468.json": "918876817ebb791eedb5e2135c8a414b128dafa40b17f73a70808c11ef4e11f9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v3/batches/002/runs/f06bbbf3b5f44bb498e919d679727527/semantic/requests/8aa076644b6cb7c783837f1c3b17226fdccc57d687124c82cf91bf6d0b9c84d7.json": "82ff9201514e80c5baf798234d7c1a71464388250980b12b944e7e3f826d358b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v3/batches/002/runs/f06bbbf3b5f44bb498e919d679727527/semantic/requests/a57d94ab772820f625595cad5987428db6702f187e75bfa2e3806187556e48f0.json": "061e194adab104ac38b21a31877327850707cc6e9ac582c626e5284923767f7e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v3/batches/002/runs/f06bbbf3b5f44bb498e919d679727527/semantic/requests/e1938dfaa06a97a34c9c3d68a78caec8a52dddafac0dc2de18f8a9c97721645a.json": "3a7896787c6d7faf5d741341555953e4c3952e71c732722db6c87d9b0e57a3ec",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v3/batches/002/runs/f06bbbf3b5f44bb498e919d679727527/semantic/requests/f5e9fef346e591eef31fca1d2dfeec98b52d51b199a41adfbb25a48f94a99575.json": "8b021ce4bc0068e8d172c5229054e422f020e95e44ca8464689ab96eff9e213d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v3/batches/002/runs/f06bbbf3b5f44bb498e919d679727527/semantic/requests/fbd55e61b63aed0a904f8e2a2327ec3cbb0ece0588ac50df5b79404f81f265fb.json": "3ae479376078ac237213adef3f44897d2a4d6f0f72ec3371c74f7eff53ff49f0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cpu_only": true,
+  "source_sha256": "8dc8ce28ea2a96e9979bd68f196a3f44c5f4f4dfda094db63f09f89b95540415",
+  "binary_sha256": "c76588e3f409d3ca411e6f8e31ad08eafc999187aefa2fb3d91a437ff8f37ce8",
+  "binary": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/.work/benefit_json/cx_benefit_json.cpython-311-x86_64-linux-gnu.so",
+  "compiler": [
+    "g++",
+    "-O2",
+    "-shared",
+    "-std=c++20",
+    "-fPIC",
+    "-ffp-contract=off",
+    "-fno-fast-math",
+    "-DPYBIND11_BUILD_ABI=\"_cxxabi1014\"",
+    "-I/opt/python311/include/python3.11",
+    "-I/opt/cx_venv/lib/python3.11/site-packages/torch/include",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/benefit_json_writer.cpp",
+    "-o",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/.work/benefit_json/cx_benefit_json.cpython-311-x86_64-linux-gnu.so"
+  ]
+}

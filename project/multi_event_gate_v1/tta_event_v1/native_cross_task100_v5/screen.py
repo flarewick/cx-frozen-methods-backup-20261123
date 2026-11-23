@@ -1,0 +1,65 @@
+"""Original expert-valid sequential seed stream; never a deployable feature."""
+import argparse,importlib,threading
+from .common import read,write,T
+class Schedule:
+ def __init__(self,c,prepared,spec,root,original_planner):
+  from concurrent_rng import Lane
+  from cx_tta_feedback_confirm5.lanes import gripper_only
+  import envs.robot.robot as robot
+  from collection_capture_gate import install as capture_install
+  from shared6_planner_pool import install as pool_install
+  robot.CuroboPlanner=original_planner;self.capture_restore=capture_install(original_planner,c);self.pool=pool_install(c);self.pooled=robot.CuroboPlanner;self.replay=gripper_only(original_planner);robot.CuroboPlanner=self.replay
+  self.c,self.prepared,self.spec,self.root=c,prepared,spec,root;self.tasks={};self.lanes={t:Lane('expert_'+t)for t in spec['tasks']};self.locks={t:threading.Lock()for t in spec['tasks']}
+  self.state={t:dict(spec['initial_screen_state'][t],rows=[])for t in spec['tasks']};self.warmed=set()
+ def next(self,name):
+  c=self.c;lane=self.lanes[name]
+  def operation():
+   import numpy as np
+   from cx_tta.collect_smoke import make_config
+   from cx_tta.evaluate_b2 import seed_all
+   from cx_tta.expert_screening import run_expert_plan,ExpertPlanningFailure,planning_failure_record
+   from cx_tta.attribution_physics import physical_snapshot
+   from cx_tta.eval_diagnostics import json_hash
+   from envs.utils.create_actor import UnStableError
+   import envs.robot.robot as robot
+   phase=getattr(lane,'phase',None);lane.phase='expert_screen';robot.CuroboPlanner=self.pooled
+   cfg=make_config(self.prepared['runtime'],argparse.Namespace(task=name,task_config='demo_randomized'),self.prepared['session']);cfg.update(eval_mode=True,save_data=False,eval_video_log=False,eval_video_save_dir=None,render_freq=0)
+   try:
+    if name not in self.tasks:self.tasks[name]=c.prepare_task(getattr(importlib.import_module('envs.'+name),name)(),lane)
+    task=self.tasks[name];state=self.state[name]
+    if name not in self.warmed:
+     try:
+      seed_all(state['next_seed']);task.setup_demo(now_ep_num=state['accepted'],seed=state['next_seed'],**dict(cfg,need_plan=True,save_data=False,is_test=True))
+     except UnStableError as exc:write(self.root/'screening'/(name+'_warmup.json'),dict(reason=str(exc),phase='discarded_setup_only_no_expert_or_policy_outcome'))
+     finally:task.close_env(clear_cache=False)
+     self.warmed.add(name)
+    while True:
+     seed=state['next_seed'];index=state['accepted'];assert 100000<=seed<101000 and index<100
+     row=dict(task=name,seed=seed,episode_index=index,eligible=False)
+     try:
+      seed_all(seed);task.setup_demo(now_ep_num=index,seed=seed,**dict(cfg,need_plan=True,save_data=False,is_test=True))
+      native=physical_snapshot(task);assert native['usable'];row['initial_physical_sha256']=json_hash(native)
+      info=run_expert_plan(task);row.update(expert_plan_success=bool(task.plan_success),expert_success=bool(task.check_success()));row['eligible']=row['expert_plan_success']and row['expert_success']
+      if row['eligible']:row['scene_info']=info['info']
+      else:row['reason']='expert_plan_or_success_failed'
+     except UnStableError as exc:row.update(reason='unstable_scene',error=str(exc))
+     except ExpertPlanningFailure as exc:row.update(planning_failure_record(exc))
+     finally:task.close_env(clear_cache=False)
+     state['rows'].append(row);state['next_seed']+=1
+     write(self.root/'screening'/name/('%d.json'%seed),row)
+     if not row['eligible']:continue
+     # Exact official unseen-language generator on the re-created accepted q0.
+     try:
+      seed_all(seed);task.setup_demo(now_ep_num=index,seed=seed,**dict(cfg,need_plan=True,save_data=False,is_test=True))
+      assert json_hash(physical_snapshot(task))==row['initial_physical_sha256']
+      from importlib.util import spec_from_file_location,module_from_spec
+      module_spec=spec_from_file_location('best100_official_language',self.prepared['runtime']/'description/utils/generate_episode_instructions.py');language=module_from_spec(module_spec);module_spec.loader.exec_module(language)
+      values=language.generate_episode_descriptions(name,[row['scene_info']],100);instruction=str(np.random.choice(values[0]['unseen']))
+     finally:task.close_env(clear_cache=False)
+     item=dict(task=name,seed=seed,episode_index=index,instruction=instruction,case_id=name+':'+str(seed),initial_physical_sha256=row['initial_physical_sha256']);state['accepted']+=1
+     write(self.root/'accepted'/(item['case_id']+'.json'),item);return item
+   finally:lane.phase=phase;robot.CuroboPlanner=self.replay
+  operation._cx_priority=8;operation._cx_stage='official_expert_valid_screen'
+  with self.locks[name]:return c.call(lane,operation)
+ def finish(self):
+  write(self.root/'screening_complete.json',dict(complete=True,state={t:{k:v for k,v in s.items()if k!='rows'}for t,s in self.state.items()},attempts={t:len(s['rows'])for t,s in self.state.items()}))

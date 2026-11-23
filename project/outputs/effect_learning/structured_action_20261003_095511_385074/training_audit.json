@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "condition": "S0",
+      "cpu_reload_max_error": 2.1457672119140625e-06,
+      "by_kind": {
+        "anchor": {
+          "zero_direction_loss": 0.0,
+          "candidate_direction_loss": 0.00012941133172716945,
+          "raw_teacher_native_rmse": 0.0018808534368872643,
+          "max_abs_correction": 0.013220138847827911
+        },
+        "expert": {
+          "zero_direction_loss": 0.03729970380663872,
+          "candidate_direction_loss": 0.012872505933046341,
+          "raw_teacher_native_rmse": 0.06351741403341293,
+          "max_abs_correction": 0.12997868657112122
+        },
+        "recovery": {
+          "zero_direction_loss": 0.08481831848621368,
+          "candidate_direction_loss": 0.004225467797368765,
+          "raw_teacher_native_rmse": 0.2431485503911972,
+          "max_abs_correction": 0.1941487193107605
+        }
+      },
+      "development_cup_anchor_native_rms": 0.021454745903611183,
+      "development_cup_anchor_max_abs_correction": 0.07541997730731964
+    },
+    {
+      "condition": "SP",
+      "cpu_reload_max_error": 2.86102294921875e-06,
+      "by_kind": {
+        "anchor": {
+          "zero_direction_loss": 0.0,
+          "candidate_direction_loss": 0.00013345136540010571,
+          "raw_teacher_native_rmse": 0.0020474628545343876,
+          "max_abs_correction": 0.0207490473985672
+        },
+        "expert": {
+          "zero_direction_loss": 0.03729970380663872,
+          "candidate_direction_loss": 0.014047806151211262,
+          "raw_teacher_native_rmse": 0.06407123804092407,
+          "max_abs_correction": 0.12384816259145737
+        },
+        "recovery": {
+          "zero_direction_loss": 0.08481831848621368,
+          "candidate_direction_loss": 0.004286017268896103,
+          "raw_teacher_native_rmse": 0.24315908551216125,
+          "max_abs_correction": 0.19445385038852692
+        }
+      },
+      "development_cup_anchor_native_rms": 0.02516721561551094,
+      "development_cup_anchor_max_abs_correction": 0.08136014640331268
+    }
+  ],
+  "interpretation": "Offline directional training fit and diagnostics only. No task-success improvement established; cup development anchors do not select weights or gate the bounded interface smoke.",
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/training_result.json": "088ebf21f46b38073e474cfc924a1d3c9f8a7fc51cc6dc3d76fd27b5c572423b"
+  }
+}

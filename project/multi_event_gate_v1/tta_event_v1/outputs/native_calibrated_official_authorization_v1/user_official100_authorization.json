@@ -1,0 +1,28 @@
+{
+  "explicit_user_authorization": true,
+  "exact_user_instruction": "\u6ca1\u4e8b\uff0c\u6309\u7167\u5b98\u65b9\u5b8c\u6574\u8bc4\u4f30\u6d41\u7a0b\u76f4\u63a5\u8dd1100episode\u7684seed\u4ece0\u5f00\u59cb\u7684\u5b8c\u6574\u8bc4\u4f30\u5c31\u884c\u3002\u8fd9\u6837\u624d\u80fd\u771f\u6b63\u770b\u51fa\u533a\u522b\u7684\u3002",
+  "scope": "official_seed0_five_task_paired100_current_frozen_candidate",
+  "override_positive_confirmation_gate_for_this_evaluation_only": true,
+  "tasks": [
+    "open_laptop",
+    "grab_roller",
+    "beat_block_hammer",
+    "turn_switch",
+    "adjust_bottle"
+  ],
+  "episodes_each_task": 100,
+  "conditions": [
+    "baseline",
+    "M_event_full",
+    "TTA"
+  ],
+  "official_seed": 0,
+  "actual_scene_seed_start": 100000,
+  "candidate_checkpoint_sha256": "78f1849a0f825398a6aa43cc3eec9cb09a814fc472a495179ac97379f5a044d5",
+  "historical_confirmation_net_success_change": -1,
+  "historical_result_unchanged": true,
+  "no_parameter_tuning_or_EVAL_fitting": true,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_calibrated_validation_v24/confirmation_complete.json": "138d707cd4f02067f0664d6bf4830f99bcca52aee2952a604560232cf3b74575"
+  }
+}

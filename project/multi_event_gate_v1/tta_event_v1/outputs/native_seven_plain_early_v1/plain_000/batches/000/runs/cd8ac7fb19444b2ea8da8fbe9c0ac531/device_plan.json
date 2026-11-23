@@ -1,0 +1,107 @@
+{
+  "gpu": 1,
+  "info": {
+    "index": 1,
+    "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+    "pci": "00000000:1f:00.0",
+    "memory_mib": 1,
+    "sm_percent": 0
+  },
+  "fresh_fleet": {
+    "max_gpus": 3,
+    "cards": [
+      {
+        "index": 0,
+        "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+        "memory_mib": 14585,
+        "total_mib": 24564,
+        "sm": 100,
+        "pids": [
+          2181516,
+          2188253
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 1,
+        "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 2,
+        "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+        "memory_mib": 13345,
+        "total_mib": 24564,
+        "sm": 100,
+        "pids": [
+          2181469,
+          2188035
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 3,
+        "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+        "memory_mib": 11925,
+        "total_mib": 24564,
+        "sm": 100,
+        "pids": [
+          1335599,
+          1740090
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 4,
+        "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+        "memory_mib": 13107,
+        "total_mib": 24564,
+        "sm": 100,
+        "pids": [
+          1799770,
+          1801731
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 5,
+        "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "memory_mib": 11871,
+        "total_mib": 24564,
+        "sm": 100,
+        "pids": [
+          1333064,
+          1720382
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 6,
+        "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+        "memory_mib": 13205,
+        "total_mib": 24564,
+        "sm": 100,
+        "pids": [
+          1390855,
+          1393147
+        ],
+        "own_pids": [],
+        "available": false
+      }
+    ],
+    "own_gpu_count": 0,
+    "available_indices": [
+      1
+    ]
+  }
+}

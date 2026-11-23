@@ -1,0 +1,28 @@
+{
+  "signal": 2,
+  "signal_name": "SIGINT",
+  "inner_pid": 21,
+  "monotonic_ns": 3454856057815085,
+  "stack": [
+    "  File \"<frozen runpy>\", line 198, in _run_module_as_main\n",
+    "  File \"<frozen runpy>\", line 88, in _run_code\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_arm_collection_v10/preload.py\", line 52, in <module>\n    if __name__=='__main__':main()\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_arm_collection_v10/preload.py\", line 40, in main\n    execute(spec,root,dict(gpu_uuid=selected),prepared,a.barrier,exit_success=complete_and_exit)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_arm_collection_v10/runtime.py\", line 291, in execute\n    c.service.process_one(timeout=.01)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_expert_request_priority_v1/fairness.py\", line 6, in process_one\n    def priority(fn,default):\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/model_service.py\", line 20, in execute\n    try:return fn(*args,**kwargs)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_arm_teacher_v1/live.py\", line 35, in owner_setup\n    try:return original_setup(**kwargs)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_feedback_confirm_v5/cx_tta_feedback_confirm5/lanes.py\", line 58, in setup_wrapped\n    return self.call(lane,execute)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_feedback_confirm_v5/cx_tta_feedback_confirm5/lanes.py\", line 35, in call\n    def call(self,lane,fn,*a,**k):return self.service.call(lane,fn,*a,**k)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_expert_request_priority_v1/fairness.py\", line 2, in call\n    import ast,copy,inspect,textwrap,types,heapq,queue,time,json\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/model_service.py\", line 20, in execute\n    try:return fn(*args,**kwargs)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_feedback_confirm_v5/cx_tta_feedback_confirm5/lanes.py\", line 48, in execute\n    value=setup(*a,**k)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v10/val_000/batches/000/runs/80200960060a46d684cf72475e8323ca/sessions/process_23ba82571887/robotwin/envs/adjust_bottle.py\", line 10, in setup_demo\n    super()._init_task_env_(**kwags)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v10/val_000/batches/000/runs/80200960060a46d684cf72475e8323ca/sessions/process_23ba82571887/robotwin/envs/_base_task.py\", line 129, in _init_task_env_\n    self.together_open_gripper(save_freq=None)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_arm_collection_v10/setup_profile.py\", line 10, in timed\n    try:return _fn(ref(),*a,**k)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v10/val_000/batches/000/runs/80200960060a46d684cf72475e8323ca/sessions/process_23ba82571887/robotwin/envs/_base_task.py\", line 728, in together_open_gripper\n    self.take_dense_action(control_seq, save_freq=save_freq)\n",
+    "  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v10/val_000/batches/000/runs/80200960060a46d684cf72475e8323ca/sessions/process_23ba82571887/robotwin/envs/_base_task.py\", line 1466, in take_dense_action\n    self.scene.step()\n",
+    "  File \"/opt/cx_venv/lib/python3.11/site-packages/sapien/wrapper/scene.py\", line 116, in step\n    self.physx_system.step()\n"
+  ],
+  "sender_unknown": true
+}

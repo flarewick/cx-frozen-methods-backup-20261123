@@ -1,0 +1,43 @@
+{
+  "revision": "native_full_device_timestamp_stream_same_thresholds_v6",
+  "authority": "\u7528\u6237\u660e\u786e\uff1a7\u5f20\u5361\u53ea\u8981\u6709\u7a7a\u95f2\u7684\u5361\u5c31\u53ef\u4ee5\u7528\uff0c\u540c\u4e00\u8d26\u53f7\u4e0d\u8d85\u8fc7\u4e09\u5f20\uff1b\u672a\u7528\u6ee1\u4e09\u5f20\u4e14\u6709\u5176\u4ed6\u7a7a\u95f2\u5361\u5373\u53ef\u4f7f\u7528",
+  "effective": "Future TTA admission only; active and historical protocols/failures remain unchanged",
+  "minimum_cumulative_GPU_utilization_percent": 34,
+  "minimum_rolling_300s_GPU_utilization_percent": 34,
+  "server_minimum_GPU_utilization_percent": 33,
+  "CPU_utilization_percent": [
+    40,
+    1600
+  ],
+  "maximum_logical_CPUs_per_card": 16,
+  "GPU_memory_MiB": [
+    4096,
+    24563
+  ],
+  "maximum_process_RSS_GiB": 128,
+  "maximum_account_GPUs_all_hours": 3,
+  "GPU_deadline_seconds": 7200,
+  "unavailable_GPU_metrics": "fail closed; unchanged",
+  "original_failures_preserved": true,
+  "scientific_candidate_unchanged": true,
+  "UTC": "2026-10-28T12:58:52.132885+00:00",
+  "terminal_guard_source_sha256": "db6b33cf6de19889e831d69a7411228eec23a1fde65005fec762b13729d4b9f9",
+  "predecessor_policy": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_resource_policy_v2/policy.json",
+  "predecessor_policy_sha256": "0dc2db513396da79e0b75fa14a9078edfe920ca1c02d4aec99510de2bbaaeaf7",
+  "existing_card_75percent_or_50percent_memory_gate": false,
+  "admission_conditions": [
+    "selected GPU actually empty",
+    "account currently owns fewer than three GPUs",
+    "fresh account/card locks and firstcome identity checks"
+  ],
+  "runtime_limits_unchanged": true,
+  "server_rules_source_sha256": "ba46e7a5a8ca832941742b3b2a764036e83236d95b4ee0226a73ce916dc5b4db",
+  "explicit_user_admission_amendment_supersedes_existing_card_75_or50_gate": true,
+  "original_terminal_guard_sha256": "778afb1daec84ec55aa03c5717698e049a1335fff751b0a66b04d6751284b4ae",
+  "inventory": "complete fresh seven-card NVML v2 CPU worker,3second fail-closed deadline, no stale fallback",
+  "parent_strict_guard_sha256": "c748657944ec6e36af77e0a8f0079b929fd9520016df78a72512467faf992d46",
+  "process_metric_acquisition": "Same original select/guard AST and all bounds; check clock every50ms until FIRST endpoint meeting BOTH0.8second host and driver readiness, independent of utilization. Eliminates fixed1.05s waiting; overlong/stale/unknown still fail closed; outer3second deadline unchanged.",
+  "guard_query_acquisition": "Guard-private proxy ONLY four original query forms; direct read-only NVML killable CPU subprocess, same3second timeout/no retry/no stale fallback/ceilMiB matching CLI. Original gpu_doctor.py unmodified. Original strict guard AST exact except process metric import. Original short-clock process sampler unchanged.",
+  "device_utilization_acquisition": "All paired physical driver SM+bandwidth timestamp samples; MAX at each identical timestamp then time-weighted full fixed-start and300s. Arithmetic mean over all actual driver samples also required>=34. No process substitution. Explicit zeros kept. Missing/invalid/conflict/gap>250ms/freshness>750ms/clockjump failclosed. Boundary unobserved time creditedZERO only asconservative lowerbound and reported, never a fabricated rawsample. PerPIDdecision/stats/CPU/RSS/account/VRAM/exit/3secondtimeout and originaldecisionAST unchanged. Old sparse device stats diagnosticONLY; old failed runs remainfailed.",
+  "late_driver_backfill": "Merge all same-timestamp paired components chronologically; conflicting revisions stop. Re-evaluate every already-passed actual steady checkpoint on every update and again before qualification; below34 invalidates, never resurrect failed attempts."
+}

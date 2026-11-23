@@ -1,0 +1,745 @@
+{
+  "passed": true,
+  "actual_readonly_NVML_requests": [
+    {
+      "arguments": [
+        "-i",
+        "4",
+        "--query-gpu=memory.total"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "-i",
+          "4",
+          "--query-gpu=memory.total"
+        ],
+        "devices": [
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "memory_used_bytes": 4725014528,
+            "memory_total_bytes": 25757220864
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709360992189589
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 1,
+        "request_started_unix_ns": 1793709360985892676,
+        "response_ready_unix_ns": 1793709360992199179,
+        "parent_received_unix_ns": 1793709360992623025,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.09254610212519765
+    },
+    {
+      "arguments": [
+        "-i",
+        "4",
+        "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "-i",
+          "4",
+          "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+        ],
+        "devices": [
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "memory_used_bytes": 4725014528,
+            "memory_total_bytes": 25757220864,
+            "SM": 90,
+            "bandwidth": 7
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709360998224957
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 2,
+        "request_started_unix_ns": 1793709360992838223,
+        "response_ready_unix_ns": 1793709360998237442,
+        "parent_received_unix_ns": 1793709360998519919,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.005860291887074709
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "--query-compute-apps=gpu_uuid,pid"
+        ],
+        "devices": [
+          {
+            "index": 0,
+            "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+            "compute_processes": [
+              {
+                "pid": 705703,
+                "used_GPU_memory_bytes": 7988051968
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+            "compute_processes": [
+              {
+                "pid": 175978,
+                "used_GPU_memory_bytes": 10028580864
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+            "compute_processes": []
+          },
+          {
+            "index": 3,
+            "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+            "compute_processes": []
+          },
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "compute_processes": [
+              {
+                "pid": 647556,
+                "used_GPU_memory_bytes": 4679327744
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+            "compute_processes": [
+              {
+                "pid": 224635,
+                "used_GPU_memory_bytes": 14665383936
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+            "compute_processes": []
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361076698230
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 3,
+        "request_started_unix_ns": 1793709360998651095,
+        "response_ready_unix_ns": 1793709361076714969,
+        "parent_received_unix_ns": 1793709361077218437,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.07871075300499797
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+        ],
+        "devices": [
+          {
+            "index": 0,
+            "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+            "compute_processes": [
+              {
+                "pid": 705703,
+                "used_GPU_memory_bytes": 7988051968
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+            "compute_processes": [
+              {
+                "pid": 175978,
+                "used_GPU_memory_bytes": 10028580864
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+            "compute_processes": []
+          },
+          {
+            "index": 3,
+            "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+            "compute_processes": []
+          },
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "compute_processes": [
+              {
+                "pid": 647556,
+                "used_GPU_memory_bytes": 4679327744
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+            "compute_processes": [
+              {
+                "pid": 224635,
+                "used_GPU_memory_bytes": 14665383936
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+            "compute_processes": []
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361087785477
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 4,
+        "request_started_unix_ns": 1793709361077410157,
+        "response_ready_unix_ns": 1793709361087800857,
+        "parent_received_unix_ns": 1793709361088205805,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.010982410050928593
+    },
+    {
+      "arguments": [
+        "-i",
+        "4",
+        "--query-gpu=memory.total"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "-i",
+          "4",
+          "--query-gpu=memory.total"
+        ],
+        "devices": [
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "memory_used_bytes": 4725014528,
+            "memory_total_bytes": 25757220864
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361088523181
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 5,
+        "request_started_unix_ns": 1793709361088391219,
+        "response_ready_unix_ns": 1793709361088532291,
+        "parent_received_unix_ns": 1793709361088706396,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.00046819960698485374
+    },
+    {
+      "arguments": [
+        "-i",
+        "4",
+        "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "-i",
+          "4",
+          "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+        ],
+        "devices": [
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "memory_used_bytes": 4725014528,
+            "memory_total_bytes": 25757220864,
+            "SM": 90,
+            "bandwidth": 7
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361088937514
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 6,
+        "request_started_unix_ns": 1793709361088813528,
+        "response_ready_unix_ns": 1793709361088944540,
+        "parent_received_unix_ns": 1793709361089105103,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.0004002251662313938
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "--query-compute-apps=gpu_uuid,pid"
+        ],
+        "devices": [
+          {
+            "index": 0,
+            "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+            "compute_processes": [
+              {
+                "pid": 705703,
+                "used_GPU_memory_bytes": 7988051968
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+            "compute_processes": [
+              {
+                "pid": 175978,
+                "used_GPU_memory_bytes": 10028580864
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+            "compute_processes": []
+          },
+          {
+            "index": 3,
+            "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+            "compute_processes": []
+          },
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "compute_processes": [
+              {
+                "pid": 647556,
+                "used_GPU_memory_bytes": 4679327744
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+            "compute_processes": [
+              {
+                "pid": 224635,
+                "used_GPU_memory_bytes": 14665383936
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+            "compute_processes": []
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361096184191
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 7,
+        "request_started_unix_ns": 1793709361089218956,
+        "response_ready_unix_ns": 1793709361096193121,
+        "parent_received_unix_ns": 1793709361096469135,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.0073641212657094
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+        ],
+        "devices": [
+          {
+            "index": 0,
+            "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+            "compute_processes": [
+              {
+                "pid": 705703,
+                "used_GPU_memory_bytes": 7988051968
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+            "compute_processes": [
+              {
+                "pid": 175978,
+                "used_GPU_memory_bytes": 10028580864
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+            "compute_processes": []
+          },
+          {
+            "index": 3,
+            "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+            "compute_processes": []
+          },
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "compute_processes": [
+              {
+                "pid": 647556,
+                "used_GPU_memory_bytes": 4679327744
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+            "compute_processes": [
+              {
+                "pid": 224635,
+                "used_GPU_memory_bytes": 14665383936
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+            "compute_processes": []
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361102614457
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 8,
+        "request_started_unix_ns": 1793709361096595362,
+        "response_ready_unix_ns": 1793709361102624888,
+        "parent_received_unix_ns": 1793709361102908207,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.006446510087698698
+    },
+    {
+      "arguments": [
+        "-i",
+        "4",
+        "--query-gpu=memory.total"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "-i",
+          "4",
+          "--query-gpu=memory.total"
+        ],
+        "devices": [
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "memory_used_bytes": 4725014528,
+            "memory_total_bytes": 25757220864
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361103156892
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 9,
+        "request_started_unix_ns": 1793709361103051262,
+        "response_ready_unix_ns": 1793709361103163224,
+        "parent_received_unix_ns": 1793709361103292440,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.0003533768467605114
+    },
+    {
+      "arguments": [
+        "-i",
+        "4",
+        "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "-i",
+          "4",
+          "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+        ],
+        "devices": [
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "memory_used_bytes": 4725014528,
+            "memory_total_bytes": 25757220864,
+            "SM": 90,
+            "bandwidth": 7
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361103457175
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 10,
+        "request_started_unix_ns": 1793709361103376568,
+        "response_ready_unix_ns": 1793709361103461835,
+        "parent_received_unix_ns": 1793709361103586471,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.0002963058650493622
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "--query-compute-apps=gpu_uuid,pid"
+        ],
+        "devices": [
+          {
+            "index": 0,
+            "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+            "compute_processes": [
+              {
+                "pid": 705703,
+                "used_GPU_memory_bytes": 7988051968
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+            "compute_processes": [
+              {
+                "pid": 175978,
+                "used_GPU_memory_bytes": 10028580864
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+            "compute_processes": []
+          },
+          {
+            "index": 3,
+            "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+            "compute_processes": []
+          },
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "compute_processes": [
+              {
+                "pid": 647556,
+                "used_GPU_memory_bytes": 4679327744
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+            "compute_processes": [
+              {
+                "pid": 224635,
+                "used_GPU_memory_bytes": 14665383936
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+            "compute_processes": []
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361108918053
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 11,
+        "request_started_unix_ns": 1793709361103668901,
+        "response_ready_unix_ns": 1793709361108925268,
+        "parent_received_unix_ns": 1793709361109163297,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.005591966211795807
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+      ],
+      "raw_NVML": {
+        "arguments": [
+          "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+        ],
+        "devices": [
+          {
+            "index": 0,
+            "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+            "compute_processes": [
+              {
+                "pid": 705703,
+                "used_GPU_memory_bytes": 7988051968
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+            "compute_processes": [
+              {
+                "pid": 175978,
+                "used_GPU_memory_bytes": 10028580864
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+            "compute_processes": []
+          },
+          {
+            "index": 3,
+            "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+            "compute_processes": []
+          },
+          {
+            "index": 4,
+            "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+            "compute_processes": [
+              {
+                "pid": 647556,
+                "used_GPU_memory_bytes": 4679327744
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+            "compute_processes": [
+              {
+                "pid": 224635,
+                "used_GPU_memory_bytes": 14665383936
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+            "compute_processes": []
+          }
+        ],
+        "read_only_NVML": true,
+        "CUDA_context_created": false,
+        "unix_ns": 1793709361114257211
+      },
+      "transport": {
+        "worker_pid": 713526,
+        "worker_started_ticks": 329704109,
+        "nonce": "58e8da7697ad431eb7d6a1d41f9fbac0",
+        "request_sequence": 12,
+        "request_started_unix_ns": 1793709361109280822,
+        "response_ready_unix_ns": 1793709361114265996,
+        "parent_received_unix_ns": 1793709361114520879,
+        "previous_call_frames_used": false
+      },
+      "elapsed_seconds": 0.005372907966375351
+    }
+  ],
+  "original_fresh_worker_elapsed_seconds": [
+    0.1799361272715032,
+    0.2596607799641788,
+    0.20908664306625724,
+    0.16595645900815725
+  ],
+  "persistent_elapsed_seconds": [
+    0.09254610212519765,
+    0.005860291887074709,
+    0.07871075300499797,
+    0.010982410050928593,
+    0.00046819960698485374,
+    0.0004002251662313938,
+    0.0073641212657094,
+    0.006446510087698698,
+    0.0003533768467605114,
+    0.0002963058650493622,
+    0.005591966211795807,
+    0.005372907966375351
+  ],
+  "hung_deadline_elapsed_seconds": 3.0026195370592177,
+  "failed_session_rejects_retry": true,
+  "original_strict_guard_source_sha256": "02dc00367691649a8f919a312827e5a029f1769d5f587db4acad626ca1d816c3",
+  "original_render_used_for_every_response": true,
+  "no_CUDA_or_GPU_work": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_metadata_stream_v1/AGENTS.md": "e1fc93e93ded73d47fc48f3bcf08d14a00a791b8d23797587404db11b2467415",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_metadata_stream_v1/worker.py": "07ab1ec41d03dab0d5df09d081e238080e703206792d171c2368f475ab02977b",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_metadata_stream_v1/transport.py": "7bcbf37d08095d058d0419b234ffcf679eb35b8549def5501420405065e1d38c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_metadata_stream_v1/guard.py": "a2996f927c36a1222b30fb8ba9dc310fb870531109d6bbd306aff7acc0a42eb3",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_metadata_stream_v1/checks.py": "3460161cd2440fd9ad5ffcf46fa879fffe75cef3d806d9cc0fabd300eff54f46"
+  }
+}

@@ -1,0 +1,1694 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "case_id": "adjust_bottle:7120006",
+      "instruction": "Pick the smooth green bottle head-up using the right arm",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "5f6341014cb7e6885bbe86e31e5000dcc131dbbb8c548158efecd3eea6d28bb4",
+        "instruction_sha256": "615c39b5f0b879665a2ac0a9e624b89813b3454f7d619493d3d88bd85a1041a7",
+        "roles": {
+          "directed": false,
+          "target": "bottle",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "smooth green bottle.",
+        "candidates": [
+          [
+            {
+              "box": [
+                95.08758544921875,
+                133.845534324646,
+                231.72103881835938,
+                176.06112957000732
+              ],
+              "score": 0.6844698786735535,
+              "phrase": "smooth green bottle"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              95.08758544921875,
+              133.845534324646,
+              231.72103881835938,
+              176.06112957000732
+            ],
+            "score": 0.6844698786735535,
+            "phrase": "smooth green bottle"
+          }
+        ],
+        "mask_scores": [
+          0.9763990640640259
+        ],
+        "mask_area": [
+          3792
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/adjust_bottle:7120006.npz",
+      "mask_sha256": "a83b50fe696aed5e105aee18d0f0c9ccc40c718f5bb9c343004a1b283c109203"
+    },
+    {
+      "case_id": "adjust_bottle:7120007",
+      "instruction": "Pick the handheld green bottle head-up using the right arm",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "cc2411e17ba37ff599f565b5fcb9507cc8e8fbe47f694ed5ed684c1998273932",
+        "instruction_sha256": "e7214514788bd5775a2090f0d24233118bec0f5999cec82c6ce8af49fca071e1",
+        "roles": {
+          "directed": false,
+          "target": "bottle",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "handheld green bottle.",
+        "candidates": [
+          [
+            {
+              "box": [
+                109.43371772766113,
+                112.53602027893066,
+                237.3261260986328,
+                160.43692588806152
+              ],
+              "score": 0.40062499046325684,
+              "phrase": "handheld green bottle"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              109.43371772766113,
+              112.53602027893066,
+              237.3261260986328,
+              160.43692588806152
+            ],
+            "score": 0.40062499046325684,
+            "phrase": "handheld green bottle"
+          }
+        ],
+        "mask_scores": [
+          0.9776367545127869
+        ],
+        "mask_area": [
+          3448
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/adjust_bottle:7120007.npz",
+      "mask_sha256": "cbc752ac137527ebed5255498bb89cca79f6e0ecd92f139b9d7b018bc99752fc"
+    },
+    {
+      "case_id": "adjust_bottle:7120008",
+      "instruction": "Lift the narrow-necked bottle from the table with the right arm",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "a376f39359d8fe06913efe58feb3011d1d98f0bdad4aec86228d6a761e23a3cf",
+        "instruction_sha256": "4011448fd35c6eac7fbacfadc0ae0596293e8f7ab27b08336e85d30ea1b2682f",
+        "roles": {
+          "directed": false,
+          "target": "bottle",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "narrow-necked bottle.",
+        "candidates": [
+          [
+            {
+              "box": [
+                100.1629638671875,
+                159.4644069671631,
+                235.00747680664062,
+                218.18690299987793
+              ],
+              "score": 0.8441579937934875,
+              "phrase": "narrow-necked bottle"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              100.1629638671875,
+              159.4644069671631,
+              235.00747680664062,
+              218.18690299987793
+            ],
+            "score": 0.8441579937934875,
+            "phrase": "narrow-necked bottle"
+          }
+        ],
+        "mask_scores": [
+          0.9811742305755615
+        ],
+        "mask_area": [
+          3848
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/adjust_bottle:7120008.npz",
+      "mask_sha256": "6d90ab9f9089402d30d38ea22f8fe876a3b34fce72d4375d992cc99cf71b55b9"
+    },
+    {
+      "case_id": "adjust_bottle:7120009",
+      "instruction": "Lift the bottle with white neck and red top off the table and hold it upright.",
+      "old_available": true,
+      "available": true,
+      "changed": false,
+      "metadata": {
+        "image_sha256": "59d0ea66b65a0cb36b9886e84ee49b98d8546130afc16a003a079dc217d6a002",
+        "instruction_sha256": "fdecfb7448f7583a12e5ec8e1cb39f95016692ec4ed790b78cba7ecaf9bdf6a0",
+        "roles": {
+          "directed": false,
+          "target": "bottle",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "bottle.",
+        "candidates": [
+          [
+            {
+              "box": [
+                89.81534957885742,
+                152.42773532867432,
+                229.03583526611328,
+                199.25341129302979
+              ],
+              "score": 0.7660137414932251,
+              "phrase": "bottle"
+            },
+            {
+              "box": [
+                10.629613399505615,
+                42.116349935531616,
+                73.7215518951416,
+                71.5637469291687
+              ],
+              "score": 0.3280239403247833,
+              "phrase": "bottle"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              89.81534957885742,
+              152.42773532867432,
+              229.03583526611328,
+              199.25341129302979
+            ],
+            "score": 0.7660137414932251,
+            "phrase": "bottle"
+          }
+        ],
+        "mask_scores": [
+          0.9699792265892029
+        ],
+        "mask_area": [
+          4006
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/adjust_bottle:7120009.npz",
+      "mask_sha256": "0260dc94f4a8d107dc7c43e28dfb5d4d7e4b32bdf51f85a642a85b519ea25f75"
+    },
+    {
+      "case_id": "beat_block_hammer:7120005",
+      "instruction": "Grab the plastic handle metal hammer, then strike the block.",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "3dae2d7f726b4a4d046a11aa0bae4dc4ead8fc2a5d675679c4d32fc351f0f83d",
+        "instruction_sha256": "1f13c5ed98dc9daaa776d1ad53d088979b5c35778b45d7d349f9362ff1eafd96",
+        "roles": {
+          "directed": false,
+          "target": "hammer",
+          "reference": null,
+          "kind": "observed_target_requested_reference_unknown",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true,
+          "declared_reference": "block"
+        },
+        "text_prompt": "plastic handle metal hammer. block.",
+        "candidates": [
+          [
+            {
+              "box": [
+                168.7775421142578,
+                102.46117115020752,
+                185.062255859375,
+                180.64383029937744
+              ],
+              "score": 0.3994651436805725,
+              "phrase": "plastic handle metal hammer"
+            }
+          ],
+          [
+            {
+              "box": [
+                38.829898834228516,
+                105.8424711227417,
+                75.30745506286621,
+                141.9109010696411
+              ],
+              "score": 0.43712031841278076,
+              "phrase": "block"
+            },
+            {
+              "box": [
+                42.1058988571167,
+                63.28702211380005,
+                65.75584888458252,
+                95.47354459762573
+              ],
+              "score": 0.3630756735801697,
+              "phrase": "block"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": "missing_or_ambiguous_text_grounding",
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              168.7775421142578,
+              102.46117115020752,
+              185.062255859375,
+              180.64383029937744
+            ],
+            "score": 0.3994651436805725,
+            "phrase": "plastic handle metal hammer"
+          }
+        ],
+        "mask_scores": [
+          0.9775295257568359
+        ],
+        "mask_area": [
+          830
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/beat_block_hammer:7120005.npz",
+      "mask_sha256": "d5f43bd559a6268312343f5531e0892790c9c022aa16f0eb37915f6cb8255be1"
+    },
+    {
+      "case_id": "beat_block_hammer:7120006",
+      "instruction": "Pick up the nail-driving hammer with the left arm, strike the block.",
+      "old_available": false,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "9a38981a4a40b87a727509b05a7000bcca6d272091294542e6aa6afba9dfe325",
+        "instruction_sha256": "747d4e864ec49f08665b19be202b75dbe3939f916fb5bc60b7fdb1eb1d6c12da",
+        "roles": {
+          "directed": true,
+          "target": "hammer",
+          "reference": "block",
+          "kind": "explicit_tool_target_pair",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 2,
+          "absent_reference_explicit": false,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "nail-driving hammer. block.",
+        "candidates": [
+          [
+            {
+              "box": [
+                55.99045753479004,
+                27.463045120239258,
+                85.92819213867188,
+                94.91065979003906
+              ],
+              "score": 0.3460704982280731,
+              "phrase": "nail-driving hammer"
+            }
+          ],
+          [
+            {
+              "box": [
+                124.66257095336914,
+                22.322528958320618,
+                180.43228149414062,
+                72.11447954177856
+              ],
+              "score": 0.5327949523925781,
+              "phrase": "block"
+            },
+            {
+              "box": [
+                132.36186027526855,
+                90.76804161071777,
+                161.9065284729004,
+                126.74757957458496
+              ],
+              "score": 0.36319589614868164,
+              "phrase": "block"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 2,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          true
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              55.99045753479004,
+              27.463045120239258,
+              85.92819213867188,
+              94.91065979003906
+            ],
+            "score": 0.3460704982280731,
+            "phrase": "nail-driving hammer"
+          },
+          {
+            "box": [
+              124.66257095336914,
+              22.322528958320618,
+              180.43228149414062,
+              72.11447954177856
+            ],
+            "score": 0.5327949523925781,
+            "phrase": "block"
+          }
+        ],
+        "mask_scores": [
+          0.9806318283081055,
+          0.9755809307098389
+        ],
+        "mask_area": [
+          944,
+          1546
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": false,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": false,
+        "prior_grounding_reason": "missing_or_ambiguous_text_grounding",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/beat_block_hammer:7120006.npz",
+      "mask_sha256": "89cd33b04e1e81397d5106c61cfb6698bc69e8d61bf791bc3e5625b0d3768a8f"
+    },
+    {
+      "case_id": "beat_block_hammer:7120007",
+      "instruction": "Make the left arm grab the nail-driving hammer and strike the block.",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "1e29b7d689fc4a2ffcec0a0c6baf911697c149c572cdf80fe7e0d171a15698d5",
+        "instruction_sha256": "a9230502ce9cb8b5a6c49bee6b81d239d1cf7e9d89d3b7cbce66a00b2475aacb",
+        "roles": {
+          "directed": true,
+          "target": "hammer",
+          "reference": "block",
+          "kind": "explicit_tool_target_pair",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 2,
+          "absent_reference_explicit": false,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "nail-driving hammer. block.",
+        "candidates": [
+          [
+            {
+              "box": [
+                14.661052227020264,
+                42.95864939689636,
+                74.06609535217285,
+                118.8599681854248
+              ],
+              "score": 0.6229305267333984,
+              "phrase": "nail-driving hammer"
+            }
+          ],
+          [
+            {
+              "box": [
+                97.83075332641602,
+                78.41033220291138,
+                131.69248580932617,
+                115.28850317001343
+              ],
+              "score": 0.4204244613647461,
+              "phrase": "block"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 2,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          true
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              14.661052227020264,
+              42.95864939689636,
+              74.06609535217285,
+              118.8599681854248
+            ],
+            "score": 0.6229305267333984,
+            "phrase": "nail-driving hammer"
+          },
+          {
+            "box": [
+              97.83075332641602,
+              78.41033220291138,
+              131.69248580932617,
+              115.28850317001343
+            ],
+            "score": 0.4204244613647461,
+            "phrase": "block"
+          }
+        ],
+        "mask_scores": [
+          0.9836259484291077,
+          0.982749342918396
+        ],
+        "mask_area": [
+          1134,
+          819
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": false,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/beat_block_hammer:7120007.npz",
+      "mask_sha256": "5084fa7c54ecd87f716fc2d5777aa61249fee290c4a8ad0d805cf7e56b1f458c"
+    },
+    {
+      "case_id": "beat_block_hammer:7120008",
+      "instruction": "Lift the hammer with claw-shaped end, then beat the block.",
+      "old_available": true,
+      "available": true,
+      "changed": false,
+      "metadata": {
+        "image_sha256": "29be9aa18c01086fe07fd033241e556c96f22769f376183720e0154b1f3d6aaf",
+        "instruction_sha256": "caf2b62e6bbf1d1e357cd6bc906859a05400078bdc56bc632e90587304086b7e",
+        "roles": {
+          "directed": true,
+          "target": "hammer",
+          "reference": "block",
+          "kind": "explicit_tool_target_pair",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 2,
+          "absent_reference_explicit": false
+        },
+        "text_prompt": "hammer. block.",
+        "candidates": [
+          [
+            {
+              "box": [
+                169.09513473510742,
+                107.42982387542725,
+                183.97443771362305,
+                183.33030223846436
+              ],
+              "score": 0.4689997434616089,
+              "phrase": "hammer"
+            },
+            {
+              "box": [
+                223.50862503051758,
+                16.71718955039978,
+                253.29790115356445,
+                82.47292041778564
+              ],
+              "score": 0.3245037794113159,
+              "phrase": "hammer"
+            }
+          ],
+          [
+            {
+              "box": [
+                130.5192470550537,
+                91.1442232131958,
+                157.48196601867676,
+                124.8318099975586
+              ],
+              "score": 0.4913136065006256,
+              "phrase": "block"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 2,
+        "actual_object_slots": [
+          true,
+          true
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              169.09513473510742,
+              107.42982387542725,
+              183.97443771362305,
+              183.33030223846436
+            ],
+            "score": 0.4689997434616089,
+            "phrase": "hammer"
+          },
+          {
+            "box": [
+              130.5192470550537,
+              91.1442232131958,
+              157.48196601867676,
+              124.8318099975586
+            ],
+            "score": 0.4913136065006256,
+            "phrase": "block"
+          }
+        ],
+        "mask_scores": [
+          0.9762726426124573,
+          0.9833829998970032
+        ],
+        "mask_area": [
+          822,
+          722
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": false,
+        "grounding_decision_path": "original_unambiguous_noun_retained",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/beat_block_hammer:7120008.npz",
+      "mask_sha256": "87d1f211381ff6a94c274302db5434c1e8113ca886d9d46a990ab72cd1880708"
+    },
+    {
+      "case_id": "grab_roller:7120006",
+      "instruction": "Use arms to firmly grab the smooth light brown roller.",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "4ed4668584013b34697668ff836bd0a922538bad708731a888c48b932dbb65e6",
+        "instruction_sha256": "43a7e64577ac7429dff582e8e517205c585ae138b62a44835d7265c2f410761f",
+        "roles": {
+          "directed": false,
+          "target": "roller",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "smooth light brown roller.",
+        "candidates": [
+          [
+            {
+              "box": [
+                96.02441787719727,
+                163.84705066680908,
+                189.5766258239746,
+                239.94388103485107
+              ],
+              "score": 0.37326517701148987,
+              "phrase": "smooth light brown roller"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              96.02441787719727,
+              163.84705066680908,
+              189.5766258239746,
+              239.94388103485107
+            ],
+            "score": 0.37326517701148987,
+            "phrase": "smooth light brown roller"
+          }
+        ],
+        "mask_scores": [
+          0.9987228512763977
+        ],
+        "mask_area": [
+          1279
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/grab_roller:7120006.npz",
+      "mask_sha256": "bac2bc40f89e17e806712cdc25aa40f6310869c7bd0538f82f46bd9c716e4094"
+    },
+    {
+      "case_id": "grab_roller:7120007",
+      "instruction": "Lift the slim wooden roller off the table with both arms",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "4886140403c5fdf3eaf072f1ba83354767051176635b0500bc73375692d77660",
+        "instruction_sha256": "40344800665aa553af4ad8d4d9b32f74278032bab4338ce22dfe77f875b4d637",
+        "roles": {
+          "directed": false,
+          "target": "roller",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "slim wooden roller.",
+        "candidates": [
+          [
+            {
+              "box": [
+                48.02853584289551,
+                133.58576774597168,
+                172.41764068603516,
+                160.8108901977539
+              ],
+              "score": 0.688681960105896,
+              "phrase": "slim wooden roller"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              48.02853584289551,
+              133.58576774597168,
+              172.41764068603516,
+              160.8108901977539
+            ],
+            "score": 0.688681960105896,
+            "phrase": "slim wooden roller"
+          }
+        ],
+        "mask_scores": [
+          0.9793771505355835
+        ],
+        "mask_area": [
+          1349
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/grab_roller:7120007.npz",
+      "mask_sha256": "7cdcb365ea3cf567257ef60ff1db5385277bb8e56337881cd607ff0faf6c1375"
+    },
+    {
+      "case_id": "grab_roller:7120008",
+      "instruction": "Reach out to grab the roller with smooth texture from the table",
+      "old_available": true,
+      "available": true,
+      "changed": false,
+      "metadata": {
+        "image_sha256": "486d663493b14071e80cc7ea59548cb7fcb769e7684fa51899656daa2a84e070",
+        "instruction_sha256": "6233b104312d2f1a634767a7e9ee21f40c73f66a43d9d5674c8827d3d3a2f099",
+        "roles": {
+          "directed": false,
+          "target": "roller",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "roller.",
+        "candidates": [
+          [
+            {
+              "box": [
+                130.88449478149414,
+                156.6841220855713,
+                254.57395553588867,
+                189.77588653564453
+              ],
+              "score": 0.3511090576648712,
+              "phrase": "roller"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              130.88449478149414,
+              156.6841220855713,
+              254.57395553588867,
+              189.77588653564453
+            ],
+            "score": 0.3511090576648712,
+            "phrase": "roller"
+          }
+        ],
+        "mask_scores": [
+          0.9913027286529541
+        ],
+        "mask_area": [
+          1425
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/grab_roller:7120008.npz",
+      "mask_sha256": "9c09cfce501f39f71ac901e2b4469ae6bf2f479f2ff6f4bcfbed1014c514fb41"
+    },
+    {
+      "case_id": "grab_roller:7120009",
+      "instruction": "Pick up the palm-sized roller from the table.",
+      "old_available": false,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "a128a663bdab74bbf4af27e0756300e498a62f667ffa88a220d8fa0753505c01",
+        "instruction_sha256": "291ae5d30870df1225bb014217a3adebe787db47673b1fdd44e19f32f3a2b2ef",
+        "roles": {
+          "directed": false,
+          "target": "roller",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "palm-sized roller.",
+        "candidates": [
+          [
+            {
+              "box": [
+                82.29301452636719,
+                169.5119047164917,
+                219.10947799682617,
+                200.91864109039307
+              ],
+              "score": 0.4442491829395294,
+              "phrase": "palm-sized roller"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              82.29301452636719,
+              169.5119047164917,
+              219.10947799682617,
+              200.91864109039307
+            ],
+            "score": 0.4442491829395294,
+            "phrase": "palm-sized roller"
+          }
+        ],
+        "mask_scores": [
+          0.9979293942451477
+        ],
+        "mask_area": [
+          1661
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": false,
+        "prior_grounding_reason": "missing_or_ambiguous_text_grounding",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/grab_roller:7120009.npz",
+      "mask_sha256": "1525a94ceccc0ad674a81f9d6242b6ab0c4135c364082ae86063d8930d49a150"
+    },
+    {
+      "case_id": "open_laptop:7120005",
+      "instruction": "Use the right arm to open the screen and keyboard laptop.",
+      "old_available": true,
+      "available": true,
+      "changed": false,
+      "metadata": {
+        "image_sha256": "2ff212a957be461475131616339461bea68b2b78208819f012e9d108476fa4c7",
+        "instruction_sha256": "b6a8732fcbee5a2fb3ff65c9b19b256d4069f99bfe4e5ad41548bf5d7802bd6f",
+        "roles": {
+          "directed": false,
+          "target": "laptop",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "laptop.",
+        "candidates": [
+          [
+            {
+              "box": [
+                133.17455291748047,
+                126.02957725524902,
+                247.5296401977539,
+                180.75862884521484
+              ],
+              "score": 0.3700437545776367,
+              "phrase": "laptop"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              133.17455291748047,
+              126.02957725524902,
+              247.5296401977539,
+              180.75862884521484
+            ],
+            "score": 0.3700437545776367,
+            "phrase": "laptop"
+          }
+        ],
+        "mask_scores": [
+          0.995184600353241
+        ],
+        "mask_area": [
+          3424
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/open_laptop:7120005.npz",
+      "mask_sha256": "8807807277f9ce4c3c3ff164cdae02d18659a6e0bfbee1cf26743b04587eeb5c"
+    },
+    {
+      "case_id": "open_laptop:7120006",
+      "instruction": "Pull the Toshiba laptop with rectangular screen upward lightly.",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "fe4a601a8b2a02a9d5f5c70fbd0ea39b8e13e5971ec7274c9b9cc4c3456f395c",
+        "instruction_sha256": "728c2f047bda024042b8914e98c8c7c143d3fce01b9e4cb6f55b1221ad21e2a0",
+        "roles": {
+          "directed": false,
+          "target": "laptop",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "toshiba laptop.",
+        "candidates": [
+          [
+            {
+              "box": [
+                105.22512435913086,
+                134.3430233001709,
+                223.46586227416992,
+                220.85054397583008
+              ],
+              "score": 0.3818909823894501,
+              "phrase": "toshiba laptop"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              105.22512435913086,
+              134.3430233001709,
+              223.46586227416992,
+              220.85054397583008
+            ],
+            "score": 0.3818909823894501,
+            "phrase": "toshiba laptop"
+          }
+        ],
+        "mask_scores": [
+          0.9941563606262207
+        ],
+        "mask_area": [
+          7528
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/open_laptop:7120006.npz",
+      "mask_sha256": "48ae23103fa5593e34dcf7114c9cbe015a17e8f5f23b4349770a7e5955871cd7"
+    },
+    {
+      "case_id": "open_laptop:7120007",
+      "instruction": "Open the lightweight silver laptop entirely.",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "0c90c8a65c0537e110953a39135443191e4156ef8ff9d0048bb2e6b8c4e9ca1f",
+        "instruction_sha256": "76e43d721c46eb7873577b01dd0ae1275dc3a4c75072f109604f53fd7da928f6",
+        "roles": {
+          "directed": false,
+          "target": "laptop",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "lightweight silver laptop.",
+        "candidates": [
+          [
+            {
+              "box": [
+                88.4202766418457,
+                82.58105993270874,
+                191.61184310913086,
+                150.5746078491211
+              ],
+              "score": 0.7403614521026611,
+              "phrase": "lightweight silver laptop"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              88.4202766418457,
+              82.58105993270874,
+              191.61184310913086,
+              150.5746078491211
+            ],
+            "score": 0.7403614521026611,
+            "phrase": "lightweight silver laptop"
+          }
+        ],
+        "mask_scores": [
+          0.9715743064880371
+        ],
+        "mask_area": [
+          3436
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/open_laptop:7120007.npz",
+      "mask_sha256": "7eaf4a5b8da13bf08fc9f8a3096dabc0d118a188191c77b5e7d8dfb42b9cba44"
+    },
+    {
+      "case_id": "open_laptop:7120009",
+      "instruction": "Raise the folding laptop with screen and keyboard using the right arm.",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "83a210aac93a632ca6765e7ee83046c570d7e08671997b2a5c5e6b0c2bf6ea5b",
+        "instruction_sha256": "f2927aa8b517982699d3f0927affd73d7efa38f408fd7ae953c3fced5b75b0e2",
+        "roles": {
+          "directed": false,
+          "target": "laptop",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "folding laptop.",
+        "candidates": [
+          [
+            {
+              "box": [
+                107.6091480255127,
+                127.30035781860352,
+                232.2724151611328,
+                192.6602268218994
+              ],
+              "score": 0.3369308114051819,
+              "phrase": "folding laptop"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              107.6091480255127,
+              127.30035781860352,
+              232.2724151611328,
+              192.6602268218994
+            ],
+            "score": 0.3369308114051819,
+            "phrase": "folding laptop"
+          }
+        ],
+        "mask_scores": [
+          0.8883735537528992
+        ],
+        "mask_area": [
+          3385
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/open_laptop:7120009.npz",
+      "mask_sha256": "583d8630a83152f2c03aed2b21ad2e929f1db97e812286241138e8c6c84307d7"
+    },
+    {
+      "case_id": "turn_switch:7120007",
+      "instruction": "Push the switch with a smooth top via the left arm.",
+      "old_available": true,
+      "available": true,
+      "changed": false,
+      "metadata": {
+        "image_sha256": "49ea1af45b391f1f84b70fb0d9fa8af363dc52d7e0bded5c298340ac1d33fc2e",
+        "instruction_sha256": "006e78a9868831eaccae91c8e867a54b3f8adadc312addcc2c023c8944425c43",
+        "roles": {
+          "directed": false,
+          "target": "switch",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "switch.",
+        "candidates": [
+          [
+            {
+              "box": [
+                43.59994888305664,
+                34.14878010749817,
+                94.97559547424316,
+                97.83242225646973
+              ],
+              "score": 0.3864485025405884,
+              "phrase": "switch"
+            },
+            {
+              "box": [
+                250.87047576904297,
+                12.30078935623169,
+                280.6705093383789,
+                56.132469177246094
+              ],
+              "score": 0.3023340702056885,
+              "phrase": "switch"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              43.59994888305664,
+              34.14878010749817,
+              94.97559547424316,
+              97.83242225646973
+            ],
+            "score": 0.3864485025405884,
+            "phrase": "switch"
+          }
+        ],
+        "mask_scores": [
+          0.9972923398017883
+        ],
+        "mask_area": [
+          1698
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/turn_switch:7120007.npz",
+      "mask_sha256": "0330c9160a077dfabe30212debd5e577f9d7f31fd3b5fff01bc0d92c9bab3507"
+    },
+    {
+      "case_id": "turn_switch:7120008",
+      "instruction": "Engage the gray base with black buttons using the robotic arm",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "0356ab797fd2971fb73a4443921dd2d36095757cb33ef8f9fb4aa600948ef3ec",
+        "instruction_sha256": "dd96c52a70a84944f48b5c90dbefc1a3063b161d3d1346c0ead8f0c75165a663",
+        "roles": {
+          "directed": false,
+          "target": "switch",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "buttons.",
+        "candidates": [
+          [
+            {
+              "box": [
+                172.59737014770508,
+                58.12766075134277,
+                234.07339096069336,
+                108.44833374023438
+              ],
+              "score": 0.4398941099643707,
+              "phrase": "buttons"
+            },
+            {
+              "box": [
+                176.65430068969727,
+                77.49758005142212,
+                185.01134872436523,
+                84.16164636611938
+              ],
+              "score": 0.35724467039108276,
+              "phrase": "buttons"
+            },
+            {
+              "box": [
+                215.62929153442383,
+                86.52917861938477,
+                224.16372299194336,
+                93.48183631896973
+              ],
+              "score": 0.3446403443813324,
+              "phrase": "buttons"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              172.59737014770508,
+              58.12766075134277,
+              234.07339096069336,
+              108.44833374023438
+            ],
+            "score": 0.4398941099643707,
+            "phrase": "buttons"
+          }
+        ],
+        "mask_scores": [
+          0.9899916648864746
+        ],
+        "mask_area": [
+          2119
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/turn_switch:7120008.npz",
+      "mask_sha256": "8739ef86578dededf8445ed24b1cfd4c7ed2466902e0fcea39c983e0950622eb"
+    },
+    {
+      "case_id": "turn_switch:7120009",
+      "instruction": "Engage the gray switch with black buttons using the right arm",
+      "old_available": true,
+      "available": true,
+      "changed": false,
+      "metadata": {
+        "image_sha256": "22b9cb4769cee795c95bcc9017714ad2f31a5f2554a59247b7a474044f1d594c",
+        "instruction_sha256": "5aa285342eb15ce9dcfe65c266cd973b1c67c89dd92795cf097df7fd5353403f",
+        "roles": {
+          "directed": false,
+          "target": "switch",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "switch.",
+        "candidates": [
+          [
+            {
+              "box": [
+                102.00437545776367,
+                46.165523529052734,
+                166.7704963684082,
+                101.16302490234375
+              ],
+              "score": 0.6357941627502441,
+              "phrase": "switch"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              102.00437545776367,
+              46.165523529052734,
+              166.7704963684082,
+              101.16302490234375
+            ],
+            "score": 0.6357941627502441,
+            "phrase": "switch"
+          }
+        ],
+        "mask_scores": [
+          0.9910843372344971
+        ],
+        "mask_area": [
+          2455
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/turn_switch:7120009.npz",
+      "mask_sha256": "f141fceb106e34e3691b1f152dcc89dbaef2563299c9957ceedcd7dab72dffdd"
+    },
+    {
+      "case_id": "turn_switch:7120012",
+      "instruction": "Trigger the small square switch using the right arm",
+      "old_available": true,
+      "available": true,
+      "changed": true,
+      "metadata": {
+        "image_sha256": "858bf92c81d5a135f7db279434caf569fe0b577d45a2f0c4aad70b79d084a9b4",
+        "instruction_sha256": "690532f6bc9a43715e01a17c143e788f5d0226402cddd2b3b37e51d5655fb5f2",
+        "roles": {
+          "directed": false,
+          "target": "switch",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_association_v1",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "small square switch.",
+        "candidates": [
+          [
+            {
+              "box": [
+                183.0300521850586,
+                49.62563753128052,
+                241.54277801513672,
+                103.79262685775757
+              ],
+              "score": 0.5938227772712708,
+              "phrase": "small square switch"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_association_v1",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              183.0300521850586,
+              49.62563753128052,
+              241.54277801513672,
+              103.79262685775757
+            ],
+            "score": 0.5938227772712708,
+            "phrase": "small square switch"
+          }
+        ],
+        "mask_scores": [
+          0.9958624839782715
+        ],
+        "mask_area": [
+          2044
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "exact_previously_omitted_nominal_modifiers",
+        "prior_grounding_available": true,
+        "prior_grounding_reason": "text_grounded_real_objects",
+        "earliest_query_identity_only": true
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_association_v1/candidate_checks/turn_switch:7120012.npz",
+      "mask_sha256": "4a48c90155b236456876fb824f1eab1b67eb0c5c3da8ff9fecdcd9b5b15afd0f"
+    }
+  ],
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/adjust_bottle:7120006/M_event_full/observation000.npz": "2e3be2e8911e65c088385420f72711de0bb91378d754e2b82fd8f9fba95bdf4d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/79586b53659f3205b9bdc0159d88e455f1bf2ff8f999c285d5b1264c52739428.json": "69f2c63129cc262235c0114916151d14dfc87a820c1a6b1be81c64fb51606c3f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/adjust_bottle:7120006.json": "a857cfe9a65a2f37b5cb61eb8704fa147959b3670c30abd35ed4cd75e188b342",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/adjust_bottle:7120007/M_event_full/observation000.npz": "9fbc3a64e5cd3178bad137ee3deb86cb02b2984d0aa55ac57fe9c28451fce6b9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/0e5b9e42680d67b9d474f7700e0d671655b03e394fe38f90f7d67a4718c18cc2.json": "113d77439c5a8d5803b98f0342e72e205a3fd085f97a870c534f11b7e46726c8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/adjust_bottle:7120007.json": "8ac59793345bf71f63dc2621765581c2a19580e6b3590130f659c1ceac5e89d0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/adjust_bottle:7120008/M_event_full/observation000.npz": "0b1a0ef561c2ed7e1d78590fa9b9aaa0d53c19deab8fc58ab94c496e77012841",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/a18d2f36ea943a5b79a353a6213d581bc27c8bad35faf4f3a033fd2cd5143f1c.json": "0a13f6a82a19f29ac68d0e03aaee7bc4a676d90d695f9d9f9ce2710e8e71f1c4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/adjust_bottle:7120008.json": "03d70708db2879bfc7e70cc09ecf8dfd6bf0d5a3deed2d48ecba9e0df8f4d70b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/adjust_bottle:7120009/M_event_full/observation000.npz": "1fd7b4639506416796a9766202e2e1397307484548a4e3c1bd5a805ad03fb3c1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/2c27e665856b49920d496c1cb02c48913d312b5ca82680b6a07e9581b56d49a3.json": "943f231ef9366c869196f3b211a0c40484ae96d88100d9e2f9d2297ecb56c5c2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/adjust_bottle:7120009.json": "6b4fac13d661fa45ef1e511b3337283232ccee175214361ba7381c6520211672",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/beat_block_hammer:7120005/M_event_full/observation000.npz": "a20cb97a177a63c11201bd3a5dfe7691d11865b74ac178dc978c702739444cad",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/32f3b0fd77ccb150bcb433780f528aa306df961b14a51a70de046884d7f557f5.json": "224128160ea9f2e5900ac2fa2a735735dcf314fe04891f34fffc6a6e3b9c090f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/beat_block_hammer:7120005.json": "f931adbfadf977cb1df9b99c4da7629978257fefe491be63cd7959df9cce5f5f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/beat_block_hammer:7120006/M_event_full/observation000.npz": "82235a21d2270ccab433fadc5a87a8cb4b49b34e1c2693aad9788a93ccf41957",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/a7314b387a0ff93350f6ca922b7cfddeac1996f4ca89944ca32ac9f846b1db99.json": "8c4b74212e6885f9a2ca8f7011ae9d6356efc3de633b36b46ba9bdbb81ee8568",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/beat_block_hammer:7120006.json": "ca0a2a35076b06748f11e07ba29979ac5602b6271ce02aabf1824fa204856577",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/beat_block_hammer:7120007/M_event_full/observation000.npz": "0682ba9905a8d69d7bcb6968343d33ad93036c95178a4f82e451cfb7ea070794",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/a102576c75a5147f8bb902cd64fd0ad18f4190be686de4d18a37d04947611fca.json": "bc6c019e1bba70a67d38aaced7d7e3d9894d9d6f714841e651f6c63bda3f5b2a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/beat_block_hammer:7120007.json": "99835f66f1383d8189763bee39ec3e1c142adf6539d3e912419a8889adda448c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/beat_block_hammer:7120008/M_event_full/observation000.npz": "318b1d2ce89d95bd7a77d8b04160e8706481b9e6dff96eecd8cdf2f8f04b397d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/dea959b56320f04aed94544d9c236036c77fcdac371d46f447411302f3721381.json": "0e1f2a50099dd2b0b0c28ccf21507f0fff67eda9fc285d1dff05fdd7177e3d30",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/beat_block_hammer:7120008.json": "49708006b0782d14b4d1db8155e232d666c427ebc58ec8bea60699c00ae180eb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/grab_roller:7120006/M_event_full/observation000.npz": "4c21d9216e5f6ceeb9f69e93e6f7b6e62e242a9a773d51d2981a412d4bc6c6d2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/02cd247e54e54f68f32e0c5b6c3af02cc3611da539a9690e7d28781d33a8b7aa.json": "e97429a76cea75a54bfc3883271bf67d8b8bd31a876a75c02859d282da8d4b17",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/grab_roller:7120006.json": "0eb6d570246e0f3d341c15931e367cc15125a2bac710c9fe19c9a1238597f20c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/grab_roller:7120007/M_event_full/observation000.npz": "ca251028b7951235bd0ced73dda71aff4488141e5534bb49ae382703ec005b6b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/e253af1dcff77abae866e8c1bbc232f42f644fd373f81aef233c07a778bd26f2.json": "3308ed56626af3d718c683ee777a248707fb84b92dd0b6d8d4bcab4c4499e5ac",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/grab_roller:7120007.json": "0051bcfede7896e98c70e8c9dc10af52851110331da1b533424fb0ad1f8b5f96",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/grab_roller:7120008/M_event_full/observation000.npz": "5c5629c4951835e3ff34d4f434464af7841a9e471e010ed7c4b9a73bf1e77cf6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/db948dc51cd9fb0edf0c0faa648681ef4c264374335773af48eae639ddf896b8.json": "3614d537ff987c793fdb20ec0ad3997d62f6db306e3076baa216d74ef8317463",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/grab_roller:7120008.json": "b124ce16d48a4131d9fbba6f3c333961af4a7d6f2b65313cad59f48718204a05",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/grab_roller:7120009/M_event_full/observation000.npz": "bfbd97e3643a916fb17fd4e5f86d782984ea60814cfc285805b96f84bd87d9f2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/ff8ce1d3a46da8d54b22e8c378f6bbc275309feff264ba8407fe420901bdff43.json": "1b4305c0d8cecf98187987a93c67fb63318e0ee2b0587efcca643bd196441028",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/grab_roller:7120009.json": "7725d9ef78483ea89dc13fe73726766ecb07ec8858bdac0ca45649eb69bdf7e1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/open_laptop:7120005/M_event_full/observation000.npz": "f980d20f5b3f5f3a104e12fe35a34b3998b7deec61e922f654e534ac7ed40404",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/d52c90618dc41450e182af33801afe12eb13f4b770d2b8ff70542badf8f02023.json": "e2e0545eceda567fcf11ef724a74e46cdb44b8224f1370d8aebdf2714ce66c36",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/open_laptop:7120005.json": "16c6c4570169837719b1be1d6dd55af1267de347be20dcf86d7404ae3cb6651b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/open_laptop:7120006/M_event_full/observation000.npz": "e130755141d53c87a73b4b0b896b4501d9f47a3c804cd06853c3ea45d2efc7a4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/59ef78a470da61fc7679d45e220b5b318bfb75152816169ee0fb3532e5976168.json": "e73b8b5ad4e842795541ab03116cb58e6fe3601b80eaf1655018495f50727683",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/open_laptop:7120006.json": "5c79c7cfdb187ce6069ac3d755b33cd4e0c27c4ff9985aabc5120b2e3e99e850",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/open_laptop:7120007/M_event_full/observation000.npz": "692766614a5309f86d0187c7de0039bcff95c50032e77c512d0af4eaf880011f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/e08a48759b87d2df9e7b05b0ccec5c39af1d0537e64136d41514776194505929.json": "01f6d7beee3d1f6d2407fb65f3a9882d992565bc08ca86fa7e2db1c2385dd257",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/open_laptop:7120007.json": "79bfd914f979cd77aff366e471ceec4567cd48b7db68963ff0f6610445b05724",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/open_laptop:7120009/M_event_full/observation000.npz": "c65af773a68447597d70a733a121864463d008a23b1a6431aa4a44bebab3be4b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/3512688f4ebb16904774345ebc05ca5af02a26604a2ee461737c29b3362b67f5.json": "3e26099f09169f593c2ceade81a0866ab20c04991df570e280cfa6c2ffb02d54",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/open_laptop:7120009.json": "65f6a1bea960de4c7097f34521f4a79b383ba0e7be964e8402fea0b88a408a42",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/turn_switch:7120007/M_event_full/observation000.npz": "75b2cb4110095b46686acddbb966369bde3b47dee8f8330fa0909b0f1257397e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/f557f1d5ebeea6ede3117a7fc8a9b4160040e78aff92332cb2dfde88c7af83af.json": "69fe5bd649640430ec34358396dab465e11edac5b3c7c5bcb8954a8ff64e289a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/turn_switch:7120007.json": "a6eec72f7e22671d7527616ca3dee85ff4074f28e9502adc0dd8dd1adf561f81",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/turn_switch:7120008/M_event_full/observation000.npz": "9140a9328da1b3fba26629202d6040a3173ea3cde0f97e102639c35581a7b9f3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/01a738a2ff981307daa6cc9abe9b67d78320a0cfad7dd6d9b928015644fcf268.json": "b73e0db79efabb872e486bea45b69f2fa0edd400341f341be832a579912a9d6d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/turn_switch:7120008.json": "34e8d696d53455a7b2e2fdfec0cc4e51fd4a137be7a405d4c4ef43659bf44810",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/turn_switch:7120009/M_event_full/observation000.npz": "f2cac49ad4d52c47d6b9cf1ad75655f8612d305c39711020e7885a60badca0aa",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/b8aa4f2ccd6d2fd8b9da360370f3dc584d8d84630bedf0f606b3ab4ae5b9c5be.json": "d7497a884afafee32b2ff461336df32b4052a74397db2e120cf5a925a78424d7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/turn_switch:7120009.json": "ae35859e77412ee26cafc2fcff2b007b872cd1d0b7f006c5f9cd0299dce145cf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/cases/turn_switch:7120012/M_event_full/observation000.npz": "c1d84819f2dc184ea1f7fa2a19f760f945536d423a38c63d815595f4f92fa150",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/semantic/answers/2060e146c0488c49fd4cf11f84c1763b9c54a66a7f60326c57ea75a7df026e4d.json": "52b5051dac929b43ba384c6d75c5cc702341b4e8aba4eb34a4c88f41d017204a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_coverage_v7/pilot_fit/batches/000/runs/dcc94de325154675b020c1ff38a3ec8c/accepted/turn_switch:7120012.json": "6dc14a288ef922ecfa1b74506b57e01eb89beb7ee54060555a04dd5a4a7a9ab2"
+  },
+  "original_weights_thresholds_dtype_unchanged": true,
+  "unchanged_branches_bit_exact": true,
+  "CUDA_initialized": false,
+  "all20_fixed_TRAIN_scenes_retained": true,
+  "optimizer_steps": 0,
+  "no_source_query_redetection": true,
+  "no_native_feedback_or_TTA_benefit_claim": true,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_object_association_v1/language.py": "ff7be7d2165517ba6c5072b48cd269d955b17a09586db3f83989152eaf22399c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_object_association_v1/descriptor_probe.py": "d49a8b5e4c6c7ad808129c17edc5cdccac8b51c4132ed6f91db566c6cd6b9853",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_object_association_v1/run_cpu_probe.py": "05d9759897814485f6d5c06dc9ad031b9a98cb3cecf3166ed3ee67fafd4fec0a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_object_association_v1/semantic.py": "cae85b5586e0ac8b776d0f145227f7d98f0b76fea55765ccc3e26b3822ef5123",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_object_association_v1/inference.py": "b933262d51109645528414a620d31dd45c79ff3747d38955606ecd3a0c37c84d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_object_association_v1/check_candidate.py": "8bbed90f0d3c26242c21a4b87c8c1916bce49bd8ee94546d2f5e9b67177bbc0d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_object_association_v1/run_cpu_candidate.py": "c9deffc2bd550008330b1a2e43ac6f4aba3fe5a9c467a42a2b32418ab2f85619"
+  }
+}

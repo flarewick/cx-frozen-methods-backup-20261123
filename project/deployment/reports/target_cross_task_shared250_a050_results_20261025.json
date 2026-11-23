@@ -1,0 +1,135 @@
+{
+  "scope": "fixed_old_other_task_development_regression",
+  "independent_final_test": false,
+  "baseline_rerun": false,
+  "candidate_step": 250,
+  "candidate_alpha": 0.5,
+  "tasks": {
+    "grab_roller": {
+      "completed": 100,
+      "requested": 100,
+      "successes": 87,
+      "complete": true,
+      "run": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_shared250_a050/eval_20261025_113429_506600",
+      "evaluation_identity": "b5550b58a1007aa7ae9bc25e395dd00ef6c0d21b9fd0b23ac90241bdda9f952d",
+      "manifest_sha256": "88ad70c2b15c39bc385a8b51a9ea9d66298db737f526f2c76a8c4d04cf674e89",
+      "gpu": 2,
+      "success_rate": 0.87,
+      "matched_baseline_successes": 86,
+      "matched_original_event_successes": 83,
+      "vs_baseline": {
+        "both_success": 85,
+        "both_failure": 12,
+        "candidate_only_success": 2,
+        "baseline_only_success": 1,
+        "net_success_difference": 1,
+        "difference_percentage_points": 1.0,
+        "exact_two_sided_mcnemar_p": 1.0
+      },
+      "vs_original_event": {
+        "both_success": 83,
+        "both_failure": 13,
+        "candidate_only_success": 4,
+        "baseline_only_success": 0,
+        "net_success_difference": 4,
+        "difference_percentage_points": 4.0,
+        "exact_two_sided_mcnemar_p": 0.125
+      }
+    },
+    "adjust_bottle": {
+      "completed": 100,
+      "requested": 100,
+      "successes": 91,
+      "complete": true,
+      "run": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_shared250_a050/eval_20261025_113509_811113",
+      "evaluation_identity": "c3144a5cc294fb0f14576deaf4edf888ca8cb49066c3a137a6c0bfc871798762",
+      "manifest_sha256": "d0d4d0666b927871f0563d28054a48a4c76543df2a1676c3fd593f84acce316d",
+      "gpu": 3,
+      "success_rate": 0.91,
+      "matched_baseline_successes": 90,
+      "matched_original_event_successes": 86,
+      "vs_baseline": {
+        "both_success": 90,
+        "both_failure": 9,
+        "candidate_only_success": 1,
+        "baseline_only_success": 0,
+        "net_success_difference": 1,
+        "difference_percentage_points": 1.0,
+        "exact_two_sided_mcnemar_p": 1.0
+      },
+      "vs_original_event": {
+        "both_success": 84,
+        "both_failure": 7,
+        "candidate_only_success": 7,
+        "baseline_only_success": 2,
+        "net_success_difference": 5,
+        "difference_percentage_points": 5.0,
+        "exact_two_sided_mcnemar_p": 0.1796875
+      }
+    },
+    "lift_pot": {
+      "completed": 100,
+      "requested": 100,
+      "successes": 20,
+      "complete": true,
+      "run": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_shared250_a050/eval_20261025_113524_592660",
+      "evaluation_identity": "204e61dd0373f814dd7bef39fd79acd00cbf8bcddf79e621b01abf5f2553954a",
+      "manifest_sha256": "fcfae2945c25eb385f2dc369f5e0e4d9f367fd781f87177ef980664b3271020f",
+      "gpu": 4,
+      "success_rate": 0.2,
+      "matched_baseline_successes": 24,
+      "matched_original_event_successes": 20,
+      "vs_baseline": {
+        "both_success": 16,
+        "both_failure": 72,
+        "candidate_only_success": 4,
+        "baseline_only_success": 8,
+        "net_success_difference": -4,
+        "difference_percentage_points": -4.0,
+        "exact_two_sided_mcnemar_p": 0.3876953125
+      },
+      "vs_original_event": {
+        "both_success": 14,
+        "both_failure": 74,
+        "candidate_only_success": 6,
+        "baseline_only_success": 6,
+        "net_success_difference": 0,
+        "difference_percentage_points": 0.0,
+        "exact_two_sided_mcnemar_p": 1.0
+      }
+    },
+    "dump_bin_bigbin": {
+      "completed": 100,
+      "requested": 100,
+      "successes": 63,
+      "complete": true,
+      "run": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_shared250_a050/eval_20261025_113524_975551",
+      "evaluation_identity": "70e30f6e03c48b332a04f8ace904002e6996a5193df4fd04c6af5ed9b19015cc",
+      "manifest_sha256": "1b018f549c219dc8174b954885c3f1e9e69a9bd8222687f8df7af20c25083b13",
+      "gpu": 2,
+      "success_rate": 0.63,
+      "matched_baseline_successes": 66,
+      "matched_original_event_successes": 64,
+      "vs_baseline": {
+        "both_success": 52,
+        "both_failure": 23,
+        "candidate_only_success": 11,
+        "baseline_only_success": 14,
+        "net_success_difference": -3,
+        "difference_percentage_points": -3.0,
+        "exact_two_sided_mcnemar_p": 0.6900379657745361
+      },
+      "vs_original_event": {
+        "both_success": 49,
+        "both_failure": 22,
+        "candidate_only_success": 14,
+        "baseline_only_success": 15,
+        "net_success_difference": -1,
+        "difference_percentage_points": -1.0,
+        "exact_two_sided_mcnemar_p": 1.0
+      }
+    }
+  },
+  "queue_phase": "complete",
+  "all_four_complete": true
+}

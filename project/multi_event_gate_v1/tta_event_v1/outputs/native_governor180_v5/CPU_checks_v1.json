@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "no_GPU_work": true,
+  "raw_proc_sample_AST_original_exact": true,
+  "per_PID_and_device_statistics_byte_equal": true,
+  "account_component_window_mean_then_cap_then_MAX": true,
+  "no_foreign_or_missing_load_credit": true,
+  "original39_policy_checks": [
+    "free_tier_0",
+    "free_tier_2",
+    "free_tier_3",
+    "free_tier_4",
+    "free_tier_5",
+    "free_tier_7",
+    "07_night",
+    "08_day",
+    "22_day",
+    "23_night",
+    "MAX_of_component_means_not_mean_of_MAX",
+    "missing_components_never_substituted",
+    "missing_clock_measured",
+    "pmon_components_preserved",
+    "exact35_CPU40_boundaries_pass",
+    "util34.999_rejected",
+    "memory_mib4095.999_rejected",
+    "cpu39.999_rejected",
+    "cpu1600.001_rejected",
+    "precheck_not_before280",
+    "precheck_stops_before300",
+    "36_hour_limit",
+    "128GiB_peak_RSS",
+    "missing_metric_gap_rejected",
+    "one_PID_two_GPUs_rejected",
+    "actual_governor_4171573_rule8_regression",
+    "one_low_GPU_exception_allowed",
+    "high_util_does_not_replace_VRAM_AND",
+    "3_free_looser_tier_pass",
+    "dynamic_3_to2_free_rechecked",
+    "postlaunch_free_tier_not_prelaunch",
+    "admit_exact_postlaunch60_AND30",
+    "instantaneous_only_admission_rejected",
+    "night_rule8_disabled",
+    "night_extra_card_allowed_within_user_cap",
+    "night_user_max3_retained",
+    "earlier_foreign_exact50_allowed",
+    "earlier_foreign_above50_stop",
+    "later_foreign_not_prior"
+  ],
+  "Rule8_creation_grace_policy_exact": true,
+  "raw_window_comparison": [
+    {
+      "GPU": 0,
+      "old_pointwise_minimum": 0.0,
+      "corrected_window_components": 0.0,
+      "device_mean": 99.95081967213115
+    },
+    {
+      "GPU": 1,
+      "old_pointwise_minimum": 0.0,
+      "corrected_window_components": 0.0,
+      "device_mean": 0.0
+    },
+    {
+      "GPU": 2,
+      "old_pointwise_minimum": 73.27868852459017,
+      "corrected_window_components": 82.36065573770492,
+      "device_mean": 85.60655737704919
+    },
+    {
+      "GPU": 3,
+      "old_pointwise_minimum": 0.0,
+      "corrected_window_components": 0.0,
+      "device_mean": 50.967213114754095
+    },
+    {
+      "GPU": 4,
+      "old_pointwise_minimum": 0.0,
+      "corrected_window_components": 0.0,
+      "device_mean": 100.0
+    },
+    {
+      "GPU": 5,
+      "old_pointwise_minimum": 0.0,
+      "corrected_window_components": 0.0,
+      "device_mean": 99.98360655737704
+    },
+    {
+      "GPU": 6,
+      "old_pointwise_minimum": 0.0,
+      "corrected_window_components": 0.0,
+      "device_mean": 60.39344262295082
+    }
+  ],
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_governor180_v5/CPU_reference_raw_window_v1.json": "240d32397de8579fe7a7d41bf5d2843dc9f8fa0ed6b481193a97dda15b74c382"
+  },
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/AGENTS.md": "fb7d309ab7b6220362bb8ccdf6df16edd021bc0f223b7de84b24f3e0ae666bb3",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/policy.py": "46044ce7ade7e461e806c8d4246868c8b3808328ed1f603a930c52bd9e5e0185",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/statistics.py": "9c7ec4a56343c0d6d67a7b0b9156eff36f808e184947560ddb2e3b6a61c6cafb",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/reference.json": "c8d63e47bac5e649a3bd3311bef6432339a1837678324ab41f0690e482a78fb3",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/observer.py": "f8f6227f5f7b56b95ac0e65f0e1acf369bd852fca8aabad4bc0d531743ec8949",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/guard.py": "0f943f968f3584e9336533b07c859d2c0716abc8665341a76bfc797bc1b457d0",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/audit.py": "d588461367f110a7f37b008f05e13494e3f752e6b6d5a81b4df85139981d4f0e",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/checks.py": "72174b38a95b0178b018ed18f54eb0e81bd138abc867bf1924dec0e2b14e131e",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/sampler.py": "559371f7936a818b256c73a59a4d693ab1edc35e90087371e8405354963e9bbd",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/validation.py": "3b74c174ba11be1d75d66d06abc4c231b41f81d898e1117c5d501383b012c464",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor180_v5/statistics_edits.json": "b33043e247ad02bf884ccefe3bab0d9deda492d3e811206b4c8e866dbdab9b37"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "CPU_only_handoff": true,
+  "last_whole_pads_root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e",
+  "last_whole_pads_terminal": {
+    "passed": true,
+    "actual_host_exit_code": 0,
+    "actual_child_exit_code": 0,
+    "own_GPU_released": true,
+    "steady_resource_samples": 167,
+    "batch_protocol_identity": "28c0d7f21c777a73619a81f0c4fc139b9881bd81a2df898308ecf32d8c7f63f8",
+    "input_sha256": {
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/result.json": "91e4ac4abb5cf2a34a4979920be00153dd43c720ac5bdb77cbfc5f62cad9989c",
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/CPU_episode_audit.json": "e585a77eb32afbd659f11870bef8867021a48d6729d1d6be45da35143ba391b7",
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/attempt/resources.jsonl": "a9e8cb13983c5e6aa65d85e2acf45e2c8b413ced212f387801b07df00099254d",
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/attempt/barrier/normal_child_exit.json": "3aaf6aee537ef3a06fb3a94be48dd7a463409aafc02e2936da5fbd2b6a5405b0",
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/semantic/result.json": "205cec9c7474050bc47fa6afda8c6bb1c7fbff43b4d64737ebf902286f3252a7",
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/semantic_exit.json": "9fc1550989c009c9c09cb2190686a88e2173624fd41be672626cb680177f047f",
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/attempt/NVML_queries.jsonl": "79cb5832d81412b51fb83c266bb6bb84e333f9b3b237f707c6c942b56d4c0efa",
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/post_release_device_samples.json": "e69ce22ea6138218efde1a1df206e657a2586cbad1a762d2d567779d2c06fddd",
+      "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v10/pads/batches/015/runs/3ddf963624814e0eb929c06453bb452e/CPU_device_stream_audit.json": "de8b7f61fa13f4ed3810f174781e8579ad45d702e26645d72b85d4b7f4e4a8b5"
+    }
+  },
+  "old_scientific_services": {
+    "pads": "ActiveState=inactive\nMainPID=0\n",
+    "placement": "ActiveState=failed\nMainPID=0\n"
+  },
+  "current_GPU_work_not_interrupted": true,
+  "next_batch_before_CUDA_permit": true,
+  "reason": "Mix only remaining requested four-task episodes to improve actual simulation/encoder overlap; no method/outcome tuning",
+  "time_unix_ns": 1793538524965337967
+}

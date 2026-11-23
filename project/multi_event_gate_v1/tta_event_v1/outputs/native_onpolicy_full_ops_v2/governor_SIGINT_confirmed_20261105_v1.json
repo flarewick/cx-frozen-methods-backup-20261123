@@ -1,0 +1,38 @@
+{
+  "confirmed_governor_SIGINT_for_ARM17_and_ARM10": true,
+  "source_log": "/var/log/gpu_governor.log",
+  "recorded_unix": 1793884720.7216468,
+  "own_events": [
+    {
+      "pid": 1020547,
+      "verbatim_own_events": [
+        "2026-11-05 19:53:37 +08:00 [I] Killing PID 1020547 because:",
+        "    [1020547 (qiufw) 2026-11-05 19:50:39 +0800~2026-11-05 19:53:36 +0800] avg_gpu_util=34.1% (threshold=35.0%) avg_gpu_mem=14402.1MiB (threshold=4096.0MiB) avg_sm=34.1%, avg_bd=1.5%, least_valid_minute=19, minimum_per_minute=4, free_gpus=1",
+        "2026-11-05 19:53:37 +08:00 [I] Sent SIGINT to PID 1020547"
+      ]
+    },
+    {
+      "pid": 2362196,
+      "verbatim_own_events": [
+        "2026-11-05 16:26:15 +08:00 [I] Killing PID 2362196 because:",
+        "    [2362196 (qiufw) 2026-11-05 16:25:46 +0800~2026-11-05 16:26:13 +0800] avg_gpu_util=12.8% (threshold=35.0%) avg_gpu_mem=12721.8MiB (threshold=4096.0MiB) avg_sm=12.8%, avg_bd=0.3%, free_gpus=2",
+        "2026-11-05 16:26:15 +08:00 [I] Sent SIGINT to PID 2362196"
+      ]
+    }
+  ],
+  "documented_GPU_floor": 33,
+  "retained_local_floor": 34,
+  "observed_governor_threshold": 35,
+  "ARM17_governor_observed_average": 34.1,
+  "ARM17_window_seconds": 177,
+  "ARM18_stop": "own first280 guard, not SIGINT",
+  "ARM18_actual_release_seconds": 285.874,
+  "cumulative_used_seconds": 11008.947,
+  "approved_total_seconds": 14400,
+  "remaining_seconds": 3391.053,
+  "no_new_GPU_until_compliance_and_throughput_revision_checked": true,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v18/val_000/actual_host_wait_exit.json": "eb6c50d8fb5f1e34d401e330c8f0d1b925dcbc87fb7d11b894adac0ea8ebf557",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v18/val_000/batches/000/runs/fe9c99546bc047b891d086c01773ad54/attempt/resources.jsonl": "cbde645d6f21a59e25e25be5b84ea9005f1fd25d1bdaac9741491fe78903ef9c"
+  }
+}

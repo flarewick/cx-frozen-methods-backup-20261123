@@ -1,0 +1,50 @@
+{
+  "query": 1,
+  "actor_observation_tick": 3326,
+  "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v12/placement/batches/008/runs/0fd6c0922a6449c19dd38d19fe74668e/cases/place_bread_skillet:100135/baseline/observation001.npz",
+  "observation_sha256": "d181254f42c1deb3b23a772dc4f84549a8ed7fc05945e3711926db92b11f09b2",
+  "actor_images": {
+    "0": "3de61d59695d355651b91ba702fd6d0678e03f2b4f8be3dcbaa892b278b27af3",
+    "1": "b11c51aa87b2166dcadaba0595a59540d80957ee0f24a26958469d5b117a5f2b",
+    "2": "ec2259d95fa5ecf72c78cd9a423596f0e202532b2c2a283ed189e36f77dfc4fc"
+  },
+  "command_state_sha256": "5bac657c1306941a273fe5218d7d3104a17ed119e2388cd1eed3c390ff712825",
+  "noise_witness": {
+    "query": 1,
+    "tick": 3326,
+    "base_sha256": "ad08c5b9d099b7c1be7da35737c06e579228fef43fef96ac36856b1fbfb9dc2d",
+    "rng_before": "bb91624a7cda19c7e672f67a4701cc46a0921a67e20aad2b006665bfbf3163e1",
+    "rng_after": "e7d7072eb0f49d40223b2747d85359ecc475e829af5edf1d3bb006eefd0efb6f",
+    "environment_unchanged": true,
+    "before": "dc4276eafc77603bfd9ef0e75fc82d63c3d2f459ea65230a9b39d9cd84b2f387",
+    "after": "a635a0500b0ce6499ae2b2600c45611198fbee07f4be1fe148a86feadbb99108",
+    "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+    "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+    "noise_sha256": "1cda107043bfef4c289dcc15a1732379e489941386e1010b6c3e9cc7e1a254fe",
+    "shape": [
+      1,
+      32,
+      32
+    ],
+    "device_type": "cuda"
+  },
+  "encoder": {
+    "token_sha256": [
+      "9169aa7d10d477c6758efca1a798633e906840b36cacff581ae59e0c5c0f15e6",
+      "9169aa7d10d477c6758efca1a798633e906840b36cacff581ae59e0c5c0f15e6",
+      "9169aa7d10d477c6758efca1a798633e906840b36cacff581ae59e0c5c0f15e6"
+    ],
+    "valid_language_tokens": [
+      80,
+      80,
+      80
+    ]
+  },
+  "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_frozen100_v12/placement/batches/008/runs/0fd6c0922a6449c19dd38d19fe74668e/cases/place_bread_skillet:100135/baseline/policy001.npz",
+  "policy_sha256": "37ef40502029e3f7197e27414150d07219300250dd3d86dffc1f0602dce37d37",
+  "base_infer_calls": 1,
+  "actual_internal_noise_calls": 1,
+  "actual_policy_reference_query": true,
+  "prior_query_history_only": true,
+  "actual_actor_execution_record_required": true
+}

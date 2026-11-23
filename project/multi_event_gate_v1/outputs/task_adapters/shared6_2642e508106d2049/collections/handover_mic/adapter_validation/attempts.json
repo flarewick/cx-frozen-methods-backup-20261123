@@ -1,0 +1,514 @@
+[
+  {
+    "task": "handover_mic",
+    "seed": 7310000,
+    "split": "adapter_validation",
+    "episode_index": 0,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310000/session_1611860dd5e4/data/episode0.hdf5",
+    "capture": {
+      "frames": 223,
+      "decoded_images": 669,
+      "dense_steps": 5765,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 212,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Grip the microphone with cylindrical handle and pass it to the other side",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "aa87847e880a569ce6648e1d3531e374ec6bbfc9772b3a95f380f6138a43c8a5",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5919",
+        "table_texture": "seen/6154"
+      },
+      "info": {
+        "{A}": "018_microphone/base5",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310001,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310001/session_1611860dd5e4/data/episode1.hdf5",
+    "capture": {
+      "frames": 220,
+      "decoded_images": 660,
+      "dense_steps": 5705,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 209,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Take the microphone with dark blue padding and move it to the other hand.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "fd43f62e659f3c12de48822b336ae41bec8e9ccdcd50d98bab88ad9b45a7bf3d",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7457",
+        "table_texture": "seen/3747"
+      },
+      "info": {
+        "{A}": "018_microphone/base4",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310002,
+    "split": "adapter_validation",
+    "episode_index": 2,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310002/session_1611860dd5e4/data/episode2.hdf5",
+    "capture": {
+      "frames": 224,
+      "decoded_images": 672,
+      "dense_steps": 5768,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 213,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Pick the microphone with rounded mesh head and transfer it to the other arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "a4647dc00786d102d60f894ed28d656f80317bda4f52823643e20a177d9c3498",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2314",
+        "table_texture": "seen/6071"
+      },
+      "info": {
+        "{A}": "018_microphone/base5",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310003,
+    "split": "adapter_validation",
+    "episode_index": 3,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310003/session_1611860dd5e4/data/episode3.hdf5",
+    "capture": {
+      "frames": 225,
+      "decoded_images": 675,
+      "dense_steps": 5783,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 214,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Lift the metal head microphone, then pass it across without delay.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "d3b1eaebdc07b3e64ac0302e25be244469898b0387c3c316f366412bdfa90ca0",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/205",
+        "table_texture": "seen/6757"
+      },
+      "info": {
+        "{A}": "018_microphone/base5",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310004,
+    "split": "adapter_validation",
+    "episode_index": 4,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310004/session_1611860dd5e4/data/episode4.hdf5",
+    "capture": {
+      "frames": 224,
+      "decoded_images": 672,
+      "dense_steps": 5793,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 213,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Secure the smooth plastic microphone handle from the table and transfer it.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "04f46dbb7bdfa15d88144362a107b895e642d2d6b6fe3e0885af092ef50240e1",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/9",
+        "table_texture": "seen/1578"
+      },
+      "info": {
+        "{A}": "018_microphone/base5",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310005,
+    "split": "adapter_validation",
+    "episode_index": 5,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_1611860dd5e4",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310006,
+    "split": "adapter_validation",
+    "episode_index": 5,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310006/session_1611860dd5e4/data/episode5.hdf5",
+    "capture": {
+      "frames": 221,
+      "decoded_images": 663,
+      "dense_steps": 5726,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 210,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Hold the small audio microphone and shift it to the other arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "58f4816fb0eaea3b8b300f1c04febf377dcbe675e064b73a84607316b7c1b309",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": null,
+        "table_texture": "seen/419"
+      },
+      "info": {
+        "{A}": "018_microphone/base4",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310007,
+    "split": "adapter_validation",
+    "episode_index": 6,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310007/session_1611860dd5e4/data/episode6.hdf5",
+    "capture": {
+      "frames": 222,
+      "decoded_images": 666,
+      "dense_steps": 5723,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 209,
+        "zero_time_transitions": 12,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Pick up the microphone with slider switch and hand it to the other side.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 12,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "abe25be2e1df72ec627ce09f4ade8403fc035f90753ccb8357fa12f7fe1fd93a",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2304",
+        "table_texture": "seen/1227"
+      },
+      "info": {
+        "{A}": "018_microphone/base0",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310008,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310008/session_1611860dd5e4/data/episode7.hdf5",
+    "capture": {
+      "frames": 222,
+      "decoded_images": 666,
+      "dense_steps": 5759,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 211,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Hold the black and white microphone and deliver it to another side.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "18f89edc40a655d5fc9df27c1d9c07ff1c94e0de2c3dd2f037de7ad172b8f15d",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2446",
+        "table_texture": "seen/707"
+      },
+      "info": {
+        "{A}": "018_microphone/base5",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310009,
+    "split": "adapter_validation",
+    "episode_index": 8,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_1611860dd5e4",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310010,
+    "split": "adapter_validation",
+    "episode_index": 8,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310010/session_1611860dd5e4/data/episode8.hdf5",
+    "capture": {
+      "frames": 224,
+      "decoded_images": 672,
+      "dense_steps": 5754,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 213,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Grip the smooth plastic microphone handle and pass it to the other side",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "7e6b74ef4f8c2fd5a63b909a436dc68edf3122d3579309bb065bbdb15ad238b5",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3113",
+        "table_texture": "seen/8502"
+      },
+      "info": {
+        "{A}": "018_microphone/base5",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  },
+  {
+    "task": "handover_mic",
+    "seed": 7310011,
+    "split": "adapter_validation",
+    "episode_index": 9,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_1611860dd5e4",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/handover_mic/adapter_validation/expert_data/seed_7310011/session_1611860dd5e4/data/episode9.hdf5",
+    "capture": {
+      "frames": 221,
+      "decoded_images": 663,
+      "dense_steps": 5741,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 210,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "microphone",
+        "wall"
+      ],
+      "instruction": "Grab the compact teal and white microphone and smoothly give it to the other arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "1af6eaa10b3f0dcda3926d86bd84f24ded2f4ec4ce52ccd7f45c942c69d353fc",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4739",
+        "table_texture": null
+      },
+      "info": {
+        "{A}": "018_microphone/base0",
+        "{a}": "right",
+        "{b}": "left"
+      }
+    }
+  }
+]

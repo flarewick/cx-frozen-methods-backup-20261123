@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "original_body_parity": {
+    "passed": true,
+    "original_inventory_and_rule4_collection_bodies_exact": true,
+    "all_NVML_call_arguments_order_and_original_PID_ownership_logic_exact": true,
+    "only_session_initialization_lifetime_changes": true
+  },
+  "actual_readonly_requests": 24,
+  "first_request_seconds": 0.48530135303735733,
+  "persistent_median_seconds": 0.04656784003600478,
+  "request_sequence_nonce_fresh_time_checks": true,
+  "original_guard_only_inventory_import_changed_AST_verified": true,
+  "original_admission_function_code_identity": true,
+  "original_guard_source_sha256": "02dc00367691649a8f919a312827e5a029f1769d5f587db4acad626ca1d816c3",
+  "hung_deadline_seconds": 3.003825640771538,
+  "failed_session_cannot_resume": true,
+  "rule4_actual_monitor_exit0": true,
+  "no_CUDA_or_GPU_work": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_account_stream_v1/AGENTS.md": "ba0e1843de506bc7c99c1b754a1bffa16fd6e0549c7db13ff7d42b27ced27417",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_account_stream_v1/worker.py": "aaafb666294290f375cc554cade1f3117a1985dd524ed9dc0810994220e0d064",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_account_stream_v1/transport.py": "99100d593c7c586288d6792697de80097b1a72cff9c3f192eeb6b17acf479c77",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_account_stream_v1/guard.py": "945b9f53c95a74dcd5935f8ee3c33f36290b4d649a9edfecd54c9e3e4048334d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_account_stream_v1/admission.py": "e4d5f7a19e8c74aee895305f91e918932209d611c267a6a27b498470e82dff9e",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_account_stream_v1/checks.py": "6c82c69e971ef51b9f99764324523eb09213b071dda77f5c6ce3f24bc638e25b",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_server_rule4_v4/AGENTS.md": "3d346278427aa3d42f1eedcf73a28005feb03ddf9507159645646cbf31c91033",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_server_rule4_v4/history.py": "41ec35c75d71740b51648145144da32b77ec2de6b820d1fea070306bc0192890",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_server_rule4_v4/admission.py": "d4f347109a813f4ebe1405cb7f9f4893dcbbd2b5f1212d420bcef2c20dc1eddb",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_server_rule4_v4/checks.py": "4c4e00cb088c85bc54c048453846df58dd763f56660a1ea9a948f32f44b9b1bc",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_server_rule4_v4/handoff.py": "fbf828b8a431d1dc1c3f8d2e6a29f9f695699593ec108af0081540b621c2d8e5",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_server_rule4_v4/handoff_checks.py": "5e277be9917a972cb001bcbfc6fe777827c7832ae00997192616e411d1bb4ef3"
+  },
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_account_stream_v1/CPU_account_actual_worker_exit.json": "fadda722c73ac3b1b73d9d7699b6233b309d0a376ddb28bd28878efbc5b654b3",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_account_stream_v1/CPU_account_actual_worker_exit.requests.jsonl": "d3f9c456473c803450819e90a84634c20e5a5cc4205b9aa57c8387607ca037ae",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_account_stream_v1/CPU_admission_account_actual_exit.json": "5a364886127794ac38e1410a97a39ebf726583269e72f1b5e4bbe3076e685019",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_server_rule4_v4/host_83034_3d9c98d04a83/NVML_account_rule4_actual_exit.json": "2d8212b87e0a636229901e4d4466451ccfb25035840061fd2ed7c22d714cf0eb",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_server_rule4_v4/host_83034_3d9c98d04a83/NVML_account_rule4_actual_exit.requests.jsonl": "83ef36dfd7a9799d72305fb56315debaa4c54b6685942791696e84a7966155a4",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_server_rule4_v4/host_83034_3d9c98d04a83/actual_monitor_exit.json": "3f94d9aa1fdbe1dd92cf3a97f2a5bbf02c258762f1053b474443c790ec354f17"
+  }
+}

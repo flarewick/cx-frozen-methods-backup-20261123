@@ -1,0 +1,55 @@
+"""Actual request/EOF/deadline fault probes, with no model or CUDA work."""
+from pathlib import Path
+import ast,json,sys,tempfile,time
+from .stream import Session
+T=Path(__file__).resolve().parents[1];D=Path(__file__).parent;O=T/'outputs/native_process_sampler_v11'
+def main():
+ O.mkdir(parents=True,exist_ok=True)
+ def fn(p,n):return next(x for x in ast.parse(p.read_text()).body if isinstance(x,ast.FunctionDef)and x.name==n)
+ for name in('strict_guard.py','device_window.py','device_audit.py'):
+  assert ast.dump(ast.parse((D/name).read_text().replace('native_process_sampler_v11','native_process_sampler_v10')))==ast.dump(ast.parse((T/'native_process_sampler_v10'/name).read_text())),name
+ for name in('frame','clock_pair','eligible','choose_pair','verify_trace'):
+  assert ast.dump(fn(D/'worker.py',name))==ast.dump(fn(T/'native_process_sampler_v10/worker.py',name))
+ assert ast.dump(fn(D/'metrics.py','select'))==ast.dump(fn(T/'native_process_sampler_v10/metrics.py','select'))
+ body="""import os,sys,json,time
+for line in sys.stdin:
+ r=json.loads(line);now=time.time_ns();print(json.dumps(dict(request=r,data=dict(gpu=r['gpu'],fresh_sequence=r['sequence']),worker_pid=os.getpid(),request_started_unix_ns=now,response_ready_unix_ns=time.time_ns())),flush=True)
+time.sleep(1.05)
+"""
+ with tempfile.TemporaryDirectory()as temp:
+  proof=Path(temp)/'exit.json';s=Session(4,proof,command=[sys.executable,'-B','-c',body]);began=time.monotonic()
+  a,ta=s.request();b,tb=s.request();elapsed=time.monotonic()-began
+  assert elapsed<.75 and a['fresh_sequence']==1 and b['fresh_sequence']==2 and ta['worker_pid']==tb['worker_pid']
+  close=time.monotonic();s.close();delay=time.monotonic()-close;v=json.loads(proof.read_text());assert delay>=1 and v['exit_code']==0 and v['actual_wait_return']and not v['forced']and v['request_count']==2
+  timeout=Session(4,command=[sys.executable,'-B','-c',"import sys,time;sys.stdin.readline();print('actual_frame_before_timeout',file=sys.stderr,flush=True);time.sleep(3.2)"])
+  start=time.monotonic()
+  try:timeout.request()
+  except RuntimeError as e:assert 'three-second'in str(e)and'actual_frame_before_timeout'in str(e)
+  else:raise AssertionError('Three-second timeout waived')
+  assert 2.8<=time.monotonic()-start<3.5
+  try:timeout.request()
+  except RuntimeError as e:assert 'cannot resume'in str(e)
+  else:raise AssertionError('Failed request silently retried')
+  timeout.close()
+  fail=Session(4,command=[sys.executable,'-B','-c',"import sys;sys.stdin.readline();print('actual_nonzero_evidence',file=sys.stderr,flush=True);raise SystemExit(1)"])
+  try:fail.request()
+  except RuntimeError as e:assert 'actual_nonzero_evidence'in str(e)
+  else:raise AssertionError('Nonzero ignored')
+  try:fail.close()
+  except RuntimeError as e:assert 'did not exit normally'in str(e)
+  else:raise AssertionError('Nonzero cleanup ignored')
+  wrong=Session(4,command=[sys.executable,'-B','-c',body.replace("request=r,data=", "request=dict(r,nonce='wrong'),data=")])
+  try:wrong.request()
+  except RuntimeError as e:assert 'identity mismatch'in str(e)
+  else:raise AssertionError('Nonce mismatch ignored')
+  wrong.close()
+ source=T/'outputs/native_frozen100_v22/mixed/batches/029/runs/507074896f87403e8eab30a39e1d6d11/last_successfully_collected_metric_at_failure.json';m=json.loads(source.read_text())['metric'];raw=m['raw_NVML'];f=raw['frames'][-1];hi=max({p['timestamp_us']for p in f['device_samples']['SM']}&{p['timestamp_us']for p in f['device_samples']['bandwidth']});assert f['host_timestamp_us']-hi<=750000 and m['unix_ns']//1000-hi>750000
+ from .device_window import DeviceWindow
+ start=raw['frames'][0]['host_timestamp_us']-1000000;w=DeviceWindow(start,raw['gpu_uuid'])
+ try:w.update(raw,m['unix_ns']//1000,(m['unix_ns']//1000-start)/1e6,steady_required=False)
+ except ValueError as e:assert 'Physical driver samples stale'in str(e)
+ else:raise AssertionError('Old stale response reclassified')
+ proof=dict(passed=True,only_request_transport_changed=True,strict_guard_DeviceWindow_select_acquisition_AST_unchanged=True,actual_delayed_shutdown_does_not_age_each_request=True,actual_EOF_cleanup_wait0=True,actual_three_second_deadline_and_nonzero_evidence_preserved=True,failed_requests_never_retried=True,nonce_mismatch_rejected=True,old_stale_actual_metric_still_rejected=True,old_sample_age_at_frame_us=f['host_timestamp_us']-hi,old_sample_age_at_parent_us=m['unix_ns']//1000-hi,no_GPU_work=True)
+ with(O/'CPU_stream_checks.json').open('x')as out:json.dump(proof,out,indent=2);out.write('\n')
+ print('ACTUAL_STREAM_TRANSPORT_CPU_CHECKS_PASS',flush=True)
+if __name__=='__main__':main()

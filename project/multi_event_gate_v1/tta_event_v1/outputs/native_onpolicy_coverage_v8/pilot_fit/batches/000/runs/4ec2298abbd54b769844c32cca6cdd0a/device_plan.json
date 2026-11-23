@@ -1,0 +1,102 @@
+{
+  "gpu": 4,
+  "info": {
+    "index": 4,
+    "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+    "pci": "00000000:36:00.0",
+    "memory_mib": 1,
+    "sm_percent": 0
+  },
+  "fresh_fleet": {
+    "max_gpus": 3,
+    "cards": [
+      {
+        "index": 0,
+        "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+        "memory_mib": 13108,
+        "total_mib": 24564,
+        "sm": 1,
+        "pids": [
+          1067172
+        ],
+        "own_pids": [
+          1067172
+        ],
+        "available": false
+      },
+      {
+        "index": 1,
+        "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+        "memory_mib": 9574,
+        "total_mib": 24564,
+        "sm": 96,
+        "pids": [
+          867386
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 2,
+        "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+        "memory_mib": 8110,
+        "total_mib": 24564,
+        "sm": 89,
+        "pids": [
+          731625
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 3,
+        "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+        "memory_mib": 22120,
+        "total_mib": 24564,
+        "sm": 100,
+        "pids": [
+          543668
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 4,
+        "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 5,
+        "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 6,
+        "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+        "memory_mib": 13328,
+        "total_mib": 24564,
+        "sm": 44,
+        "pids": [
+          476034
+        ],
+        "own_pids": [],
+        "available": false
+      }
+    ],
+    "own_gpu_count": 1,
+    "available_indices": [
+      4,
+      5
+    ]
+  }
+}

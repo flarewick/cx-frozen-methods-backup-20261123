@@ -1,0 +1,17 @@
+{
+  "stage": "G2 minimal shared B2 initialization; not the full cross-task benchmark",
+  "task_config": "demo_randomized",
+  "successes_per_task": 60,
+  "max_attempts_per_task": 600,
+  "split_rule": "success_index % 6 == 5 -> validation; otherwise train",
+  "expected_train_per_task": 50,
+  "expected_validation_per_task": 10,
+  "tasks": [
+    {"name": "beat_block_hammer", "seed_start": 210000, "interaction": "held tool and contact"},
+    {"name": "place_shoe", "seed_start": 220000, "interaction": "object orientation and placement"},
+    {"name": "turn_switch", "seed_start": 230000, "interaction": "contact-driven motion"},
+    {"name": "place_empty_cup", "seed_start": 240000, "interaction": "grasp, transport and release"}
+  ],
+  "transfer_diagnostic_task": "stack_bowls_two",
+  "note": "All four are training tasks. Validation is episode holdout only; bowls is adapter-task holdout but historically investigated, not a blind task. No task-specific checkpoints."
+}

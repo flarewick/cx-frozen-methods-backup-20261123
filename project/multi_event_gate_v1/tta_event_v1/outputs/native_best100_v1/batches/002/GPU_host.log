@@ -1,0 +1,64 @@
+/tmp/cxsa_kv2k91k_/openpi/big_vision/paligemma_tokenizer.model
+ACTUAL_PRE_FORK_STATE False [{'tid': 2, 'comm': 'python'}]
+LANE_EVENT {"stage": "capture_isolation_installed", "global_capture_settings_unchanged": true}
+LANE_EVENT {"stage": "owner_only_expert_planner_pool_installed", "real_pairs": 1}
+missing pytorch3d
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+LANE_EVENT {"stage": "planner_gc_schedule", "constructor_seconds": 14.231, "full_gc_seconds": 0.635, "graph_full_gc_coalesced": 20}
+LANE_EVENT {"stage": "original_expert_planner_created", "side": 0, "pairs": 1}
+LANE_EVENT {"stage": "planner_gc_schedule", "constructor_seconds": 5.511, "full_gc_seconds": 0.612, "graph_full_gc_coalesced": 20}
+LANE_EVENT {"stage": "original_expert_planner_created", "side": 1, "pairs": 1}
+LANE_EVENT {"stage": "owner_call", "lane": "expert_stack_blocks_two", "operation": "setup", "duration": 22.047}
+LANE_EVENT {"stage": "owner_call", "lane": "expert_stack_blocks_two", "operation": "official_expert_valid_screen", "duration": 27.163}
+LANE_EVENT {"stage": "original_expert_planner_reused", "lane": "expert_stack_bowls_two", "side": 0}
+LANE_EVENT {"stage": "original_expert_planner_reused", "lane": "expert_stack_bowls_two", "side": 1}
+LANE_EVENT {"stage": "owner_call", "lane": "expert_stack_bowls_two", "operation": "official_expert_valid_screen", "duration": 11.677}
+Traceback (most recent call last):
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_v1/preload.py", line 28, in main
+    execute(spec,root,dict(gpu_uuid=selected),prepared,a.barrier)
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_v1/runtime.py", line 133, in execute
+    if not errors.empty():raise RuntimeError(errors.get())
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Traceback (most recent call last):
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_v1/runtime.py", line 125, in worker
+    for _ in range(2):run_case(number,schedule.next(spec['tasks'][number%2]))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_v1/screen.py", line 63, in next
+    with self.locks[name]:return c.call(lane,operation)
+                                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_feedback_confirm_v5/cx_tta_feedback_confirm5/lanes.py", line 35, in call
+    def call(self,lane,fn,*a,**k):return self.service.call(lane,fn,*a,**k)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/model_service.py", line 30, in call
+    try:return future.result(timeout=.1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/python311/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/python311/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/model_service.py", line 40, in process_one
+    try:future.set_result(self.execute(lane,fn,args,kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/model_service.py", line 20, in execute
+    try:return fn(*args,**kwargs)
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_v1/screen.py", line 42, in operation
+    info=run_expert_plan(task);row.update(expert_plan_success=bool(task.plan_success),expert_success=bool(task.check_success()));row['eligible']=row['expert_plan_success']and row['expert_success']
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/expert_screening.py", line 27, in run_expert_plan
+    return task.play_once()
+           ^^^^^^^^^^^^^^^^
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_v1/batches/002/sessions/process_5076b4c3d06b/robotwin/envs/stack_bowls_two.py", line 99, in play_once
+    arm_tag2 = self.move_bowl(self.bowl2, self.bowl1.get_pose().p + [0, 0, 0.05])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_v1/batches/002/sessions/process_5076b4c3d06b/robotwin/envs/stack_bowls_two.py", line 68, in move_bowl
+    self.move(
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_v1/batches/002/sessions/process_5076b4c3d06b/robotwin/envs/_base_task.py", line 929, in move
+    self.together_move_to_pose(  # TODO
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_v1/batches/002/sessions/process_5076b4c3d06b/robotwin/envs/_base_task.py", line 857, in together_move_to_pose
+    self.robot.set_arm_joints(
+  File "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_v1/batches/002/sessions/process_5076b4c3d06b/robotwin/envs/robot/robot.py", line 616, in set_arm_joints
+    joint.set_drive_target(target_position[j])
+KeyboardInterrupt
+

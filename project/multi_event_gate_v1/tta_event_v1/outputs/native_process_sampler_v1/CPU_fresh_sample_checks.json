@@ -1,0 +1,224 @@
+{
+  "passed": true,
+  "all_strict_guard_AST_unchanged_except_metric_import": true,
+  "same_three_second_call_timeout": true,
+  "fixed_last_frame_not_max_or_available_selection": true,
+  "double_missing_still_unavailable": true,
+  "actual_read_only_NVIDIA_collections": [
+    {
+      "unix_ns": 1793358699518891964,
+      "gpu": 2,
+      "components": [
+        {
+          "gpu": 2,
+          "pid": 29852,
+          "sm": 0,
+          "bandwidth": 0,
+          "available": true,
+          "partial": false,
+          "missing_components_counted_as_zero": true
+        }
+      ],
+      "fixed_interval_frames": [
+        {
+          "timestamp": "2026-10-30T19:11:38",
+          "values": {
+            "29852": 0
+          },
+          "components": [
+            {
+              "gpu": 2,
+              "pid": 29852,
+              "sm": 0,
+              "bandwidth": 0,
+              "available": true,
+              "partial": false,
+              "missing_components_counted_as_zero": true
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-30T19:11:39",
+          "values": {
+            "29852": 0
+          },
+          "components": [
+            {
+              "gpu": 2,
+              "pid": 29852,
+              "sm": 0,
+              "bandwidth": 0,
+              "available": true,
+              "partial": false,
+              "missing_components_counted_as_zero": true
+            }
+          ]
+        }
+      ],
+      "selected_frame_index": 1,
+      "raw_pmon": "#Date        Time         gpu         pid   type     sm    mem    enc    dec    jpg    ofa    command \n#YYYYMMDD    HH:MM:SS     Idx           #    C/G      %      %      %      %      %      %    name \n 20261030    19:11:38       2      29852     C      0      0      -      -      -      -    python         \n 20261030    19:11:39       2      29852     C      0      0      -      -      -      -    python         \n",
+      "collection_seconds": 1.1977773248218,
+      "timeout_seconds": 3,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false
+    },
+    {
+      "unix_ns": 1793358700730174321,
+      "gpu": 3,
+      "components": [
+        {
+          "gpu": 3,
+          "pid": 157403,
+          "sm": 0,
+          "bandwidth": 0,
+          "available": true,
+          "partial": false,
+          "missing_components_counted_as_zero": true
+        }
+      ],
+      "fixed_interval_frames": [
+        {
+          "timestamp": "2026-10-30T19:11:39",
+          "values": {
+            "157403": 0
+          },
+          "components": [
+            {
+              "gpu": 3,
+              "pid": 157403,
+              "sm": 0,
+              "bandwidth": 0,
+              "available": true,
+              "partial": false,
+              "missing_components_counted_as_zero": true
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-30T19:11:40",
+          "values": {
+            "157403": 0
+          },
+          "components": [
+            {
+              "gpu": 3,
+              "pid": 157403,
+              "sm": 0,
+              "bandwidth": 0,
+              "available": true,
+              "partial": false,
+              "missing_components_counted_as_zero": true
+            }
+          ]
+        }
+      ],
+      "selected_frame_index": 1,
+      "raw_pmon": "#Date        Time         gpu         pid   type     sm    mem    enc    dec    jpg    ofa    command \n#YYYYMMDD    HH:MM:SS     Idx           #    C/G      %      %      %      %      %      %    name \n 20261030    19:11:39       3     157403     C      0      0      -      -      -      -    python         \n 20261030    19:11:40       3     157403     C      0      0      -      -      -      -    python         \n",
+      "collection_seconds": 1.2111177654005587,
+      "timeout_seconds": 3,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false
+    },
+    {
+      "unix_ns": 1793358701935897270,
+      "gpu": 4,
+      "components": [
+        {
+          "gpu": 4,
+          "pid": 83148,
+          "sm": 34,
+          "bandwidth": 12,
+          "available": true,
+          "partial": false,
+          "missing_components_counted_as_zero": true
+        }
+      ],
+      "fixed_interval_frames": [
+        {
+          "timestamp": "2026-10-30T19:11:40",
+          "values": {
+            "83148": 50
+          },
+          "components": [
+            {
+              "gpu": 4,
+              "pid": 83148,
+              "sm": 50,
+              "bandwidth": 18,
+              "available": true,
+              "partial": false,
+              "missing_components_counted_as_zero": true
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-10-30T19:11:41",
+          "values": {
+            "83148": 34
+          },
+          "components": [
+            {
+              "gpu": 4,
+              "pid": 83148,
+              "sm": 34,
+              "bandwidth": 12,
+              "available": true,
+              "partial": false,
+              "missing_components_counted_as_zero": true
+            }
+          ]
+        }
+      ],
+      "selected_frame_index": 1,
+      "raw_pmon": "#Date        Time         gpu         pid   type     sm    mem    enc    dec    jpg    ofa    command \n#YYYYMMDD    HH:MM:SS     Idx           #    C/G      %      %      %      %      %      %    name \n 20261030    19:11:40       4      83148     C     50     18      -      -      -      -    python         \n 20261030    19:11:41       4      83148     C     34     12      -      -      -      -    python         \n",
+      "collection_seconds": 1.2055890439078212,
+      "timeout_seconds": 3,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false
+    }
+  ],
+  "parser_negative_checks": 6,
+  "retained_parser_cases": [
+    {
+      "first": "99 99",
+      "last": "2 1",
+      "expected": {
+        "123": 2
+      }
+    },
+    {
+      "first": "- -",
+      "last": "0 0",
+      "expected": {
+        "123": 0
+      }
+    },
+    {
+      "first": "99 99",
+      "last": "- -",
+      "expected": {}
+    },
+    {
+      "first": "99 99",
+      "last": "- 1",
+      "expected": {
+        "123": 1
+      }
+    },
+    {
+      "first": "- -",
+      "last": "- -",
+      "expected": {}
+    }
+  ],
+  "no_GPU_work_started": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v1/strict_guard.py": "c748657944ec6e36af77e0a8f0079b929fd9520016df78a72512467faf992d46",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v1/guard.py": "4dfd915c0b9cd887074250722e1299d759ada828f730a506aa693f47e31fc4e4",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v1/policy.json": "495f17070684c77a9cbc23a551b145a9fa6e6334b55f89c40f924d5bf68e5cf1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v1/metrics.py": "2a0515f5a202cc0fc7a329768126ee02bf9a2759ec1de07ab6b7e57d8d476da1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v1/cpu_checks.py": "5953597082ffa205d194be5db7d3bb30703a1b6dc0bd81d898e5fdfac079c705"
+  },
+  "original_parser_sha256": "8966f49b91f302eecbd5e576ccd29c5699b48932257ab892ef10f5dcb8a7042c"
+}

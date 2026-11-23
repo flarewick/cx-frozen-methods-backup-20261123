@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "real_complete_failed_G_controls_rechecked": [
+    {
+      "original_intended_path": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v1/dev_gated/batches/000/runs/ae914eb4a11e4ff9b4fff90952665910/cases/adjust_bottle:7136200/q0_handoff_whole_reference_audit.json",
+      "proof": {
+        "passed": true,
+        "whole_native_episode_exact": true,
+        "actual_queries": 4,
+        "whole_observations_policy_noise_actions_physics_RNG_and_native_traces_exact": true,
+        "engineering_only_excluded_from_training": true,
+        "input_sha256": {
+          "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v1/dev_gated/batches/000/runs/ae914eb4a11e4ff9b4fff90952665910/cases/adjust_bottle:7136200/M_event_full/result.json": "5cf794134b4e6247573ab1179cb3e3f5ff2198afb4749f6b456b186c5082036a",
+          "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v1/dev_gated/batches/000/runs/ae914eb4a11e4ff9b4fff90952665910/cases/adjust_bottle:7136200/handoff_reference/result.json": "edcd53d0d1d5452c62db4a4738fe192b7b49f3aa7f2eaaa65650d686af4ffe4f"
+        }
+      }
+    },
+    {
+      "original_intended_path": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v1/dev_gated/batches/000/runs/ae914eb4a11e4ff9b4fff90952665910/cases/turn_switch:7136200/q0_handoff_whole_reference_audit.json",
+      "proof": {
+        "passed": true,
+        "whole_native_episode_exact": true,
+        "actual_queries": 13,
+        "whole_observations_policy_noise_actions_physics_RNG_and_native_traces_exact": true,
+        "engineering_only_excluded_from_training": true,
+        "input_sha256": {
+          "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v1/dev_gated/batches/000/runs/ae914eb4a11e4ff9b4fff90952665910/cases/turn_switch:7136200/M_event_full/result.json": "002f637074e4c2c7cb4c6c669372fbb098148a0c2fda2686eb7449b1f48cea0a",
+          "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v1/dev_gated/batches/000/runs/ae914eb4a11e4ff9b4fff90952665910/cases/turn_switch:7136200/handoff_reference/result.json": "cc3fbaad3669f8ba2249624429fff8f57d3a8b5f245873db590a8ec238a21837"
+        }
+      }
+    }
+  ],
+  "original_compare_CodeType_unchanged_only_audit_binding_fixed": true,
+  "frozen_old_results_modified": false,
+  "old_failed_batch_NOT_promoted": true,
+  "gate_sidecar_corruption_rejected": true,
+  "exact_declared_mandatory_and_regeneration_reference_sets_verified": true,
+  "missing_duplicate_and_unrequested_references_rejected": true,
+  "actual_GPU_started": false,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/resource_repair_audits_v1/checks.py": "981c72b55a8e83ec1c47459bfbe0535f428f2eb6636384a532ffaa5bd11e8c5e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/gated_handoff_compare_v1/control.py": "09ec906acaf4d69502b47aa1f0613be49fd762064cdc1cb3412289967e45fcce",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/declared_reference_audit_v1/expected.py": "f39ada3f8ce7e634eb63a6a4592bde0b05beb58e1991ac39782d933ecea151ac",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/declared_reference_audit_v1/source.py": "9c36f7b8d0deddba0413ef4bc75979f634f169e552cf25582fa2458fa38e7eec"
+  }
+}

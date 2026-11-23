@@ -1,0 +1,2299 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "case": "adjust_bottle:7109005",
+      "instruction": "Use the left arm to grab the brown bottle head-up.",
+      "grounding_phrases": [
+        "brown bottle"
+      ],
+      "previous_available": true,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "eab22ecde6c36ed93a0fc07ede38aa3e59ac55e7f0535e8e667b9367e46a1153",
+        "instruction_sha256": "865dc30fe8121a3696dc6bc0c0d925eeaa8f4b696a3c104257e9dc2f92f2724e",
+        "roles": {
+          "directed": false,
+          "target": "bottle",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "bottle.",
+        "candidates": [
+          [
+            {
+              "box": [
+                121.02749824523926,
+                137.62487411499023,
+                253.1344223022461,
+                188.22498321533203
+              ],
+              "score": 0.5729056596755981,
+              "phrase": "bottle"
+            },
+            {
+              "box": [
+                240.98569869995117,
+                5.573601722717285,
+                278.9848518371582,
+                70.63108205795288
+              ],
+              "score": 0.31762316823005676,
+              "phrase": "bottle"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              121.02749824523926,
+              137.62487411499023,
+              253.1344223022461,
+              188.22498321533203
+            ],
+            "score": 0.5729056596755981,
+            "phrase": "bottle"
+          }
+        ],
+        "mask_scores": [
+          0.9226523637771606
+        ],
+        "mask_area": [
+          3445
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "eab22ecde6c36ed93a0fc07ede38aa3e59ac55e7f0535e8e667b9367e46a1153",
+          "instruction_sha256": "865dc30fe8121a3696dc6bc0c0d925eeaa8f4b696a3c104257e9dc2f92f2724e",
+          "roles": {
+            "directed": false,
+            "target": "bottle",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "bottle.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  121.02749824523926,
+                  137.62487411499023,
+                  253.1344223022461,
+                  188.22498321533203
+                ],
+                "score": 0.5729056596755981,
+                "phrase": "bottle"
+              },
+              {
+                "box": [
+                  240.98569869995117,
+                  5.573601722717285,
+                  278.9848518371582,
+                  70.63108205795288
+                ],
+                "score": 0.31762316823005676,
+                "phrase": "bottle"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                121.02749824523926,
+                137.62487411499023,
+                253.1344223022461,
+                188.22498321533203
+              ],
+              "score": 0.5729056596755981,
+              "phrase": "bottle"
+            }
+          ],
+          "mask_scores": [
+            0.9226523637771606
+          ],
+          "mask_area": [
+            3445
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "decision": {
+          "image_sha256": "eab22ecde6c36ed93a0fc07ede38aa3e59ac55e7f0535e8e667b9367e46a1153",
+          "instruction_sha256": "865dc30fe8121a3696dc6bc0c0d925eeaa8f4b696a3c104257e9dc2f92f2724e",
+          "roles": {
+            "directed": false,
+            "target": "bottle",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "bottle.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  121.02749824523926,
+                  137.62487411499023,
+                  253.1344223022461,
+                  188.22498321533203
+                ],
+                "score": 0.5729056596755981,
+                "phrase": "bottle"
+              },
+              {
+                "box": [
+                  240.98569869995117,
+                  5.573601722717285,
+                  278.9848518371582,
+                  70.63108205795288
+                ],
+                "score": 0.31762316823005676,
+                "phrase": "bottle"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                121.02749824523926,
+                137.62487411499023,
+                253.1344223022461,
+                188.22498321533203
+              ],
+              "score": 0.5729056596755981,
+              "phrase": "bottle"
+            }
+          ],
+          "mask_scores": [
+            0.9226523637771606
+          ],
+          "mask_area": [
+            3445
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/adjust_bottle:7109005.npz",
+      "mask_sha256": "ca578f1db6633752eb03b3696c613cf9bf4f68ebd08c506103453f521aa950b4"
+    },
+    {
+      "case": "adjust_bottle:7109007",
+      "instruction": "Use the left arm to grab the bottle with red screw cap head-up.",
+      "grounding_phrases": [
+        "bottle"
+      ],
+      "previous_available": true,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "f6636bab4a4a4d66d7f4bb90b199612c34bdfd949a7fa6161098921bb407123d",
+        "instruction_sha256": "af40c45364c8695d309c75cb4b078032e476792d77af60e0ea4ac9f547abe085",
+        "roles": {
+          "directed": false,
+          "target": "bottle",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "bottle.",
+        "candidates": [
+          [
+            {
+              "box": [
+                114.5444107055664,
+                143.68648052215576,
+                249.92725372314453,
+                195.09268283843994
+              ],
+              "score": 0.7776322364807129,
+              "phrase": "bottle"
+            },
+            {
+              "box": [
+                198.8208770751953,
+                3.807392120361328,
+                222.4020767211914,
+                44.68383550643921
+              ],
+              "score": 0.3238353431224823,
+              "phrase": "bottle"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              114.5444107055664,
+              143.68648052215576,
+              249.92725372314453,
+              195.09268283843994
+            ],
+            "score": 0.7776322364807129,
+            "phrase": "bottle"
+          }
+        ],
+        "mask_scores": [
+          0.9853582978248596
+        ],
+        "mask_area": [
+          3631
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "f6636bab4a4a4d66d7f4bb90b199612c34bdfd949a7fa6161098921bb407123d",
+          "instruction_sha256": "af40c45364c8695d309c75cb4b078032e476792d77af60e0ea4ac9f547abe085",
+          "roles": {
+            "directed": false,
+            "target": "bottle",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "bottle.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  114.5444107055664,
+                  143.68648052215576,
+                  249.92725372314453,
+                  195.09268283843994
+                ],
+                "score": 0.7776322364807129,
+                "phrase": "bottle"
+              },
+              {
+                "box": [
+                  198.8208770751953,
+                  3.807392120361328,
+                  222.4020767211914,
+                  44.68383550643921
+                ],
+                "score": 0.3238353431224823,
+                "phrase": "bottle"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                114.5444107055664,
+                143.68648052215576,
+                249.92725372314453,
+                195.09268283843994
+              ],
+              "score": 0.7776322364807129,
+              "phrase": "bottle"
+            }
+          ],
+          "mask_scores": [
+            0.9853582978248596
+          ],
+          "mask_area": [
+            3631
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "decision": {
+          "image_sha256": "f6636bab4a4a4d66d7f4bb90b199612c34bdfd949a7fa6161098921bb407123d",
+          "instruction_sha256": "af40c45364c8695d309c75cb4b078032e476792d77af60e0ea4ac9f547abe085",
+          "roles": {
+            "directed": false,
+            "target": "bottle",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "bottle.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  114.5444107055664,
+                  143.68648052215576,
+                  249.92725372314453,
+                  195.09268283843994
+                ],
+                "score": 0.7776322364807129,
+                "phrase": "bottle"
+              },
+              {
+                "box": [
+                  198.8208770751953,
+                  3.807392120361328,
+                  222.4020767211914,
+                  44.68383550643921
+                ],
+                "score": 0.3238353431224823,
+                "phrase": "bottle"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                114.5444107055664,
+                143.68648052215576,
+                249.92725372314453,
+                195.09268283843994
+              ],
+              "score": 0.7776322364807129,
+              "phrase": "bottle"
+            }
+          ],
+          "mask_scores": [
+            0.9853582978248596
+          ],
+          "mask_area": [
+            3631
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/adjust_bottle:7109007.npz",
+      "mask_sha256": "b5919708518ddb4721210fd97dd1fbb68e324b16bce3dbe1b356f56c3cbf6168"
+    },
+    {
+      "case": "beat_block_hammer:7109000",
+      "instruction": "Grab the hammer with black handle and beat the block",
+      "grounding_phrases": [
+        "hammer",
+        "block"
+      ],
+      "previous_available": true,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "ca720024bbe5da8da34ac5d199f6ccc7de7a7df402c8be869b529396ff8c0d59",
+        "instruction_sha256": "820704b0ae72275b97289484d7a16b19a16d3bf5e3831314bf490e202afac5eb",
+        "roles": {
+          "directed": true,
+          "target": "hammer",
+          "reference": "block",
+          "kind": "explicit_tool_target_pair",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 2,
+          "absent_reference_explicit": false
+        },
+        "text_prompt": "hammer. block.",
+        "candidates": [
+          [
+            {
+              "box": [
+                169.049072265625,
+                103.82673025131226,
+                184.2992401123047,
+                181.12017631530762
+              ],
+              "score": 0.33134958148002625,
+              "phrase": "hammer"
+            }
+          ],
+          [
+            {
+              "box": [
+                234.2576026916504,
+                55.02450942993164,
+                262.1731758117676,
+                85.02568244934082
+              ],
+              "score": 0.5206485390663147,
+              "phrase": "block"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 2,
+        "actual_object_slots": [
+          true,
+          true
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              169.049072265625,
+              103.82673025131226,
+              184.2992401123047,
+              181.12017631530762
+            ],
+            "score": 0.33134958148002625,
+            "phrase": "hammer"
+          },
+          {
+            "box": [
+              234.2576026916504,
+              55.02450942993164,
+              262.1731758117676,
+              85.02568244934082
+            ],
+            "score": 0.5206485390663147,
+            "phrase": "block"
+          }
+        ],
+        "mask_scores": [
+          0.9742376208305359,
+          0.9854354858398438
+        ],
+        "mask_area": [
+          844,
+          714
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": false,
+        "grounding_decision_path": "original_unambiguous_noun_retained"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "ca720024bbe5da8da34ac5d199f6ccc7de7a7df402c8be869b529396ff8c0d59",
+          "instruction_sha256": "820704b0ae72275b97289484d7a16b19a16d3bf5e3831314bf490e202afac5eb",
+          "roles": {
+            "directed": true,
+            "target": "hammer",
+            "reference": "block",
+            "kind": "explicit_tool_target_pair",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 2,
+            "absent_reference_explicit": false
+          },
+          "text_prompt": "hammer. block.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  169.049072265625,
+                  103.82673025131226,
+                  184.2992401123047,
+                  181.12017631530762
+                ],
+                "score": 0.33134958148002625,
+                "phrase": "hammer"
+              }
+            ],
+            [
+              {
+                "box": [
+                  234.2576026916504,
+                  55.02450942993164,
+                  262.1731758117676,
+                  85.02568244934082
+                ],
+                "score": 0.5206485390663147,
+                "phrase": "block"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 2,
+          "actual_object_slots": [
+            true,
+            true
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                169.049072265625,
+                103.82673025131226,
+                184.2992401123047,
+                181.12017631530762
+              ],
+              "score": 0.33134958148002625,
+              "phrase": "hammer"
+            },
+            {
+              "box": [
+                234.2576026916504,
+                55.02450942993164,
+                262.1731758117676,
+                85.02568244934082
+              ],
+              "score": 0.5206485390663147,
+              "phrase": "block"
+            }
+          ],
+          "mask_scores": [
+            0.9742376208305359,
+            0.9854354858398438
+          ],
+          "mask_area": [
+            844,
+            714
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": false,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "decision": {
+          "image_sha256": "ca720024bbe5da8da34ac5d199f6ccc7de7a7df402c8be869b529396ff8c0d59",
+          "instruction_sha256": "820704b0ae72275b97289484d7a16b19a16d3bf5e3831314bf490e202afac5eb",
+          "roles": {
+            "directed": true,
+            "target": "hammer",
+            "reference": "block",
+            "kind": "explicit_tool_target_pair",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 2,
+            "absent_reference_explicit": false
+          },
+          "text_prompt": "hammer. block.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  169.049072265625,
+                  103.82673025131226,
+                  184.2992401123047,
+                  181.12017631530762
+                ],
+                "score": 0.33134958148002625,
+                "phrase": "hammer"
+              }
+            ],
+            [
+              {
+                "box": [
+                  234.2576026916504,
+                  55.02450942993164,
+                  262.1731758117676,
+                  85.02568244934082
+                ],
+                "score": 0.5206485390663147,
+                "phrase": "block"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 2,
+          "actual_object_slots": [
+            true,
+            true
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                169.049072265625,
+                103.82673025131226,
+                184.2992401123047,
+                181.12017631530762
+              ],
+              "score": 0.33134958148002625,
+              "phrase": "hammer"
+            },
+            {
+              "box": [
+                234.2576026916504,
+                55.02450942993164,
+                262.1731758117676,
+                85.02568244934082
+              ],
+              "score": 0.5206485390663147,
+              "phrase": "block"
+            }
+          ],
+          "mask_scores": [
+            0.9742376208305359,
+            0.9854354858398438
+          ],
+          "mask_area": [
+            844,
+            714
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": false,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 2,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/beat_block_hammer:7109000.npz",
+      "mask_sha256": "8e3569a5b3d29c1df809dfdf08b33c2790ce07bf13bd418b14f82453d4edd029"
+    },
+    {
+      "case": "beat_block_hammer:7109002",
+      "instruction": "Grab the hammer with black handle and beat the block.",
+      "grounding_phrases": [
+        "hammer",
+        "block"
+      ],
+      "previous_available": false,
+      "available": true,
+      "reason": "text_grounded_target_reference_missing",
+      "metadata": {
+        "image_sha256": "5588af52038546c114c39f76fd0755a168bbd0ab123a5b40903ed5ab816ad86f",
+        "instruction_sha256": "bdaaa9202cc4821ab1c3d8fe1cdbee7dfa61bf7674a618e6b61a79b8962456c3",
+        "roles": {
+          "directed": false,
+          "target": "hammer",
+          "reference": null,
+          "kind": "observed_target_requested_reference_unknown",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "declared_reference": "block"
+        },
+        "text_prompt": "hammer. block.",
+        "candidates": [
+          [
+            {
+              "box": [
+                169.16786193847656,
+                103.57590436935425,
+                184.2852783203125,
+                180.35147666931152
+              ],
+              "score": 0.3103374242782593,
+              "phrase": "hammer"
+            }
+          ],
+          [
+            {
+              "box": [
+                204.89091873168945,
+                82.70882606506348,
+                235.0520133972168,
+                116.24547958374023
+              ],
+              "score": 0.5085472464561462,
+              "phrase": "block"
+            },
+            {
+              "box": [
+                256.6595268249512,
+                70.53155422210693,
+                310.61384201049805,
+                125.85355281829834
+              ],
+              "score": 0.46763306856155396,
+              "phrase": "block"
+            },
+            {
+              "box": [
+                177.89793014526367,
+                0.007560253143310547,
+                223.2314109802246,
+                74.3428373336792
+              ],
+              "score": 0.3261834681034088,
+              "phrase": "block"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_target_reference_missing",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "reference_missing_reason": "missing_or_ambiguous_text_grounding",
+        "selected": [
+          {
+            "box": [
+              169.16786193847656,
+              103.57590436935425,
+              184.2852783203125,
+              180.35147666931152
+            ],
+            "score": 0.3103374242782593,
+            "phrase": "hammer"
+          }
+        ],
+        "mask_area": [
+          833
+        ],
+        "mask_scores": [
+          0.973889172077179
+        ],
+        "distinct_instances": true,
+        "mask_overlap_iou": 0.0,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "explicit_target_only_reference_unknown"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "5588af52038546c114c39f76fd0755a168bbd0ab123a5b40903ed5ab816ad86f",
+          "instruction_sha256": "bdaaa9202cc4821ab1c3d8fe1cdbee7dfa61bf7674a618e6b61a79b8962456c3",
+          "roles": {
+            "directed": false,
+            "target": "hammer",
+            "reference": null,
+            "kind": "observed_target_requested_reference_unknown",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true,
+            "declared_reference": "block"
+          },
+          "text_prompt": "hammer. block.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  169.16786193847656,
+                  103.57590436935425,
+                  184.2852783203125,
+                  180.35147666931152
+                ],
+                "score": 0.3103374242782593,
+                "phrase": "hammer"
+              }
+            ],
+            [
+              {
+                "box": [
+                  204.89091873168945,
+                  82.70882606506348,
+                  235.0520133972168,
+                  116.24547958374023
+                ],
+                "score": 0.5085472464561462,
+                "phrase": "block"
+              },
+              {
+                "box": [
+                  256.6595268249512,
+                  70.53155422210693,
+                  310.61384201049805,
+                  125.85355281829834
+                ],
+                "score": 0.46763306856155396,
+                "phrase": "block"
+              },
+              {
+                "box": [
+                  177.89793014526367,
+                  0.007560253143310547,
+                  223.2314109802246,
+                  74.3428373336792
+                ],
+                "score": 0.3261834681034088,
+                "phrase": "block"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_target_reference_missing",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "reference_missing_reason": "missing_or_ambiguous_text_grounding",
+          "selected": [
+            {
+              "box": [
+                169.16786193847656,
+                103.57590436935425,
+                184.2852783203125,
+                180.35147666931152
+              ],
+              "score": 0.3103374242782593,
+              "phrase": "hammer"
+            }
+          ],
+          "mask_area": [
+            833
+          ],
+          "mask_scores": [
+            0.973889172077179
+          ],
+          "distinct_instances": true,
+          "mask_overlap_iou": 0.0,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "explicit_target_only_reference_unknown"
+        },
+        "decision": {
+          "image_sha256": "5588af52038546c114c39f76fd0755a168bbd0ab123a5b40903ed5ab816ad86f",
+          "instruction_sha256": "bdaaa9202cc4821ab1c3d8fe1cdbee7dfa61bf7674a618e6b61a79b8962456c3",
+          "roles": {
+            "directed": false,
+            "target": "hammer",
+            "reference": null,
+            "kind": "observed_target_requested_reference_unknown",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true,
+            "declared_reference": "block"
+          },
+          "text_prompt": "hammer. block.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  169.16786193847656,
+                  103.57590436935425,
+                  184.2852783203125,
+                  180.35147666931152
+                ],
+                "score": 0.3103374242782593,
+                "phrase": "hammer"
+              }
+            ],
+            [
+              {
+                "box": [
+                  204.89091873168945,
+                  82.70882606506348,
+                  235.0520133972168,
+                  116.24547958374023
+                ],
+                "score": 0.5085472464561462,
+                "phrase": "block"
+              },
+              {
+                "box": [
+                  256.6595268249512,
+                  70.53155422210693,
+                  310.61384201049805,
+                  125.85355281829834
+                ],
+                "score": 0.46763306856155396,
+                "phrase": "block"
+              },
+              {
+                "box": [
+                  177.89793014526367,
+                  0.007560253143310547,
+                  223.2314109802246,
+                  74.3428373336792
+                ],
+                "score": 0.3261834681034088,
+                "phrase": "block"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_target_reference_missing",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "reference_missing_reason": "missing_or_ambiguous_text_grounding",
+          "selected": [
+            {
+              "box": [
+                169.16786193847656,
+                103.57590436935425,
+                184.2852783203125,
+                180.35147666931152
+              ],
+              "score": 0.3103374242782593,
+              "phrase": "hammer"
+            }
+          ],
+          "mask_area": [
+            833
+          ],
+          "mask_scores": [
+            0.973889172077179
+          ],
+          "distinct_instances": true,
+          "mask_overlap_iou": 0.0,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "explicit_target_only_reference_unknown"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/beat_block_hammer:7109002.npz",
+      "mask_sha256": "873b6a4b5cda47da7339a0d41ed025910cae621f4ae121cbbc26d1d09ca6494a"
+    },
+    {
+      "case": "grab_roller:7109000",
+      "instruction": "Hold the wooden roller with both arms.",
+      "grounding_phrases": [
+        "wooden roller"
+      ],
+      "previous_available": false,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "b3c79aaf85935c1fa7203e3d5725d8c8a531f44de442965ca0e4690dbf82402b",
+        "instruction_sha256": "9e74eeed98e947161942d651ac309e94a1bd5d76090ab66f0bae2a12334a5c72",
+        "roles": {
+          "directed": false,
+          "target": "roller",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "wooden roller.",
+        "candidates": [
+          [
+            {
+              "box": [
+                68.1728982925415,
+                179.71648693084717,
+                202.07708358764648,
+                212.00181484222412
+              ],
+              "score": 0.5026605129241943,
+              "phrase": "wooden roller"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              68.1728982925415,
+              179.71648693084717,
+              202.07708358764648,
+              212.00181484222412
+            ],
+            "score": 0.5026605129241943,
+            "phrase": "wooden roller"
+          }
+        ],
+        "mask_scores": [
+          0.9871647357940674
+        ],
+        "mask_area": [
+          1621
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "actual_instruction_descriptor_adjudication"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "b3c79aaf85935c1fa7203e3d5725d8c8a531f44de442965ca0e4690dbf82402b",
+          "instruction_sha256": "9e74eeed98e947161942d651ac309e94a1bd5d76090ab66f0bae2a12334a5c72",
+          "roles": {
+            "directed": false,
+            "target": "roller",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true,
+            "grounding_phrases_exact_instruction_substrings": true
+          },
+          "text_prompt": "wooden roller.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  68.1728982925415,
+                  179.71648693084717,
+                  202.07708358764648,
+                  212.00181484222412
+                ],
+                "score": 0.5026605129241943,
+                "phrase": "wooden roller"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "reference_missing_reason": null,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                68.1728982925415,
+                179.71648693084717,
+                202.07708358764648,
+                212.00181484222412
+              ],
+              "score": 0.5026605129241943,
+              "phrase": "wooden roller"
+            }
+          ],
+          "mask_scores": [
+            0.9871647357940674
+          ],
+          "mask_area": [
+            1621
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "actual_instruction_descriptor_adjudication"
+        },
+        "decision": {
+          "image_sha256": "b3c79aaf85935c1fa7203e3d5725d8c8a531f44de442965ca0e4690dbf82402b",
+          "instruction_sha256": "9e74eeed98e947161942d651ac309e94a1bd5d76090ab66f0bae2a12334a5c72",
+          "roles": {
+            "directed": false,
+            "target": "roller",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true,
+            "grounding_phrases_exact_instruction_substrings": true
+          },
+          "text_prompt": "wooden roller.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  68.1728982925415,
+                  179.71648693084717,
+                  202.07708358764648,
+                  212.00181484222412
+                ],
+                "score": 0.5026605129241943,
+                "phrase": "wooden roller"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "reference_missing_reason": null,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                68.1728982925415,
+                179.71648693084717,
+                202.07708358764648,
+                212.00181484222412
+              ],
+              "score": 0.5026605129241943,
+              "phrase": "wooden roller"
+            }
+          ],
+          "mask_scores": [
+            0.9871647357940674
+          ],
+          "mask_area": [
+            1621
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "actual_instruction_descriptor_adjudication"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/grab_roller:7109000.npz",
+      "mask_sha256": "0389a648f91e18f2e35a757c830f56cb45327eef6d1f7d1213b873260cc89648"
+    },
+    {
+      "case": "grab_roller:7109001",
+      "instruction": "Grab the roller with tapered tips on the table.",
+      "grounding_phrases": [
+        "roller"
+      ],
+      "previous_available": true,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "e61bd9404d85f4e98b9195ad905b6a36454a488534ce8bd4cb45298c02446048",
+        "instruction_sha256": "6e08736713d7974c87c51fe5c083c07a8f1f0aacdaeb2966e073bf37e78a6267",
+        "roles": {
+          "directed": false,
+          "target": "roller",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "roller.",
+        "candidates": [
+          [
+            {
+              "box": [
+                121.14742279052734,
+                158.42554092407227,
+                226.69944763183594,
+                239.9875831604004
+              ],
+              "score": 0.3854895234107971,
+              "phrase": "roller"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              121.14742279052734,
+              158.42554092407227,
+              226.69944763183594,
+              239.9875831604004
+            ],
+            "score": 0.3854895234107971,
+            "phrase": "roller"
+          }
+        ],
+        "mask_scores": [
+          0.9949948787689209
+        ],
+        "mask_area": [
+          1893
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "e61bd9404d85f4e98b9195ad905b6a36454a488534ce8bd4cb45298c02446048",
+          "instruction_sha256": "6e08736713d7974c87c51fe5c083c07a8f1f0aacdaeb2966e073bf37e78a6267",
+          "roles": {
+            "directed": false,
+            "target": "roller",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "roller.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  121.14742279052734,
+                  158.42554092407227,
+                  226.69944763183594,
+                  239.9875831604004
+                ],
+                "score": 0.3854895234107971,
+                "phrase": "roller"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                121.14742279052734,
+                158.42554092407227,
+                226.69944763183594,
+                239.9875831604004
+              ],
+              "score": 0.3854895234107971,
+              "phrase": "roller"
+            }
+          ],
+          "mask_scores": [
+            0.9949948787689209
+          ],
+          "mask_area": [
+            1893
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "decision": {
+          "image_sha256": "e61bd9404d85f4e98b9195ad905b6a36454a488534ce8bd4cb45298c02446048",
+          "instruction_sha256": "6e08736713d7974c87c51fe5c083c07a8f1f0aacdaeb2966e073bf37e78a6267",
+          "roles": {
+            "directed": false,
+            "target": "roller",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "roller.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  121.14742279052734,
+                  158.42554092407227,
+                  226.69944763183594,
+                  239.9875831604004
+                ],
+                "score": 0.3854895234107971,
+                "phrase": "roller"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                121.14742279052734,
+                158.42554092407227,
+                226.69944763183594,
+                239.9875831604004
+              ],
+              "score": 0.3854895234107971,
+              "phrase": "roller"
+            }
+          ],
+          "mask_scores": [
+            0.9949948787689209
+          ],
+          "mask_area": [
+            1893
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/grab_roller:7109001.npz",
+      "mask_sha256": "e642919412762e69858351de7d9b80a543df8bc5edddf400e5b06bbe945998e5"
+    },
+    {
+      "case": "open_laptop:7109000",
+      "instruction": "Lift the foldable laptop's lid gently.",
+      "grounding_phrases": [
+        "foldable laptop"
+      ],
+      "previous_available": true,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "db73060df811001237a3630f73e7c4ba3c2dfa5416ded36304324e6b2c194b5e",
+        "instruction_sha256": "0df7fcd04c59ffce09650f8e27d061b56d32de7c2d009fde1efc3c82811d8717",
+        "roles": {
+          "directed": false,
+          "target": "laptop",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "laptop.",
+        "candidates": [
+          [
+            {
+              "box": [
+                100.07952690124512,
+                117.4361801147461,
+                205.07732391357422,
+                186.97108268737793
+              ],
+              "score": 0.4037345051765442,
+              "phrase": "laptop"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              100.07952690124512,
+              117.4361801147461,
+              205.07732391357422,
+              186.97108268737793
+            ],
+            "score": 0.4037345051765442,
+            "phrase": "laptop"
+          }
+        ],
+        "mask_scores": [
+          0.9856809377670288
+        ],
+        "mask_area": [
+          3962
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "db73060df811001237a3630f73e7c4ba3c2dfa5416ded36304324e6b2c194b5e",
+          "instruction_sha256": "0df7fcd04c59ffce09650f8e27d061b56d32de7c2d009fde1efc3c82811d8717",
+          "roles": {
+            "directed": false,
+            "target": "laptop",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "laptop.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  100.07952690124512,
+                  117.4361801147461,
+                  205.07732391357422,
+                  186.97108268737793
+                ],
+                "score": 0.4037345051765442,
+                "phrase": "laptop"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                100.07952690124512,
+                117.4361801147461,
+                205.07732391357422,
+                186.97108268737793
+              ],
+              "score": 0.4037345051765442,
+              "phrase": "laptop"
+            }
+          ],
+          "mask_scores": [
+            0.9856809377670288
+          ],
+          "mask_area": [
+            3962
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "decision": {
+          "image_sha256": "db73060df811001237a3630f73e7c4ba3c2dfa5416ded36304324e6b2c194b5e",
+          "instruction_sha256": "0df7fcd04c59ffce09650f8e27d061b56d32de7c2d009fde1efc3c82811d8717",
+          "roles": {
+            "directed": false,
+            "target": "laptop",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "laptop.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  100.07952690124512,
+                  117.4361801147461,
+                  205.07732391357422,
+                  186.97108268737793
+                ],
+                "score": 0.4037345051765442,
+                "phrase": "laptop"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                100.07952690124512,
+                117.4361801147461,
+                205.07732391357422,
+                186.97108268737793
+              ],
+              "score": 0.4037345051765442,
+              "phrase": "laptop"
+            }
+          ],
+          "mask_scores": [
+            0.9856809377670288
+          ],
+          "mask_area": [
+            3962
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/open_laptop:7109000.npz",
+      "mask_sha256": "19f6e6f0854ef5231c0d86fc9054c75a22ac7aa82d7d710e56fee51beeb5dfd7"
+    },
+    {
+      "case": "open_laptop:7109001",
+      "instruction": "Open the smooth black plastic laptop with care",
+      "grounding_phrases": [
+        "black plastic laptop"
+      ],
+      "previous_available": true,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "082844cb5fcfb80c9f950bf9de810d6b6816c6e1d46e5b075d39059da9ec3633",
+        "instruction_sha256": "ee197e051bc01e21ba6267f26c20f3c4109ad83f169853350616102ba2f440aa",
+        "roles": {
+          "directed": false,
+          "target": "laptop",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "laptop.",
+        "candidates": [
+          [
+            {
+              "box": [
+                128.13929557800293,
+                113.44494581222534,
+                238.09860229492188,
+                200.6857967376709
+              ],
+              "score": 0.3700650632381439,
+              "phrase": "laptop"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              128.13929557800293,
+              113.44494581222534,
+              238.09860229492188,
+              200.6857967376709
+            ],
+            "score": 0.3700650632381439,
+            "phrase": "laptop"
+          }
+        ],
+        "mask_scores": [
+          0.9914069175720215
+        ],
+        "mask_area": [
+          5476
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "082844cb5fcfb80c9f950bf9de810d6b6816c6e1d46e5b075d39059da9ec3633",
+          "instruction_sha256": "ee197e051bc01e21ba6267f26c20f3c4109ad83f169853350616102ba2f440aa",
+          "roles": {
+            "directed": false,
+            "target": "laptop",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "laptop.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  128.13929557800293,
+                  113.44494581222534,
+                  238.09860229492188,
+                  200.6857967376709
+                ],
+                "score": 0.3700650632381439,
+                "phrase": "laptop"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                128.13929557800293,
+                113.44494581222534,
+                238.09860229492188,
+                200.6857967376709
+              ],
+              "score": 0.3700650632381439,
+              "phrase": "laptop"
+            }
+          ],
+          "mask_scores": [
+            0.9914069175720215
+          ],
+          "mask_area": [
+            5476
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "decision": {
+          "image_sha256": "082844cb5fcfb80c9f950bf9de810d6b6816c6e1d46e5b075d39059da9ec3633",
+          "instruction_sha256": "ee197e051bc01e21ba6267f26c20f3c4109ad83f169853350616102ba2f440aa",
+          "roles": {
+            "directed": false,
+            "target": "laptop",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "laptop.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  128.13929557800293,
+                  113.44494581222534,
+                  238.09860229492188,
+                  200.6857967376709
+                ],
+                "score": 0.3700650632381439,
+                "phrase": "laptop"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                128.13929557800293,
+                113.44494581222534,
+                238.09860229492188,
+                200.6857967376709
+              ],
+              "score": 0.3700650632381439,
+              "phrase": "laptop"
+            }
+          ],
+          "mask_scores": [
+            0.9914069175720215
+          ],
+          "mask_area": [
+            5476
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/open_laptop:7109001.npz",
+      "mask_sha256": "b669ef73e2cf71a2da83d48c9015a7e7700997ebb9607b7c0baec52dbc3f4b79"
+    },
+    {
+      "case": "turn_switch:7109000",
+      "instruction": "Click the small beige switch with angular sides using the left arm",
+      "grounding_phrases": [
+        "small beige switch"
+      ],
+      "previous_available": true,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "e8e6f78f3b4179eb5c6465bd303a8afe2e7dccc599549f34fe5836281464539f",
+        "instruction_sha256": "6d3172a8535e5cf921b89fee741bb19a13a94bc02981ecbb4184488bcb273af7",
+        "roles": {
+          "directed": false,
+          "target": "switch",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true
+        },
+        "text_prompt": "switch.",
+        "candidates": [
+          [
+            {
+              "box": [
+                82.84467697143555,
+                61.880807876586914,
+                137.78253555297852,
+                116.1507797241211
+              ],
+              "score": 0.42132052779197693,
+              "phrase": "switch"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              82.84467697143555,
+              61.880807876586914,
+              137.78253555297852,
+              116.1507797241211
+            ],
+            "score": 0.42132052779197693,
+            "phrase": "switch"
+          }
+        ],
+        "mask_scores": [
+          0.9922598600387573
+        ],
+        "mask_area": [
+          2116
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "original_unambiguous_noun_retained"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "e8e6f78f3b4179eb5c6465bd303a8afe2e7dccc599549f34fe5836281464539f",
+          "instruction_sha256": "6d3172a8535e5cf921b89fee741bb19a13a94bc02981ecbb4184488bcb273af7",
+          "roles": {
+            "directed": false,
+            "target": "switch",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "switch.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  82.84467697143555,
+                  61.880807876586914,
+                  137.78253555297852,
+                  116.1507797241211
+                ],
+                "score": 0.42132052779197693,
+                "phrase": "switch"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                82.84467697143555,
+                61.880807876586914,
+                137.78253555297852,
+                116.1507797241211
+              ],
+              "score": 0.42132052779197693,
+              "phrase": "switch"
+            }
+          ],
+          "mask_scores": [
+            0.9922598600387573
+          ],
+          "mask_area": [
+            2116
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "decision": {
+          "image_sha256": "e8e6f78f3b4179eb5c6465bd303a8afe2e7dccc599549f34fe5836281464539f",
+          "instruction_sha256": "6d3172a8535e5cf921b89fee741bb19a13a94bc02981ecbb4184488bcb273af7",
+          "roles": {
+            "directed": false,
+            "target": "switch",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true
+          },
+          "text_prompt": "switch.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  82.84467697143555,
+                  61.880807876586914,
+                  137.78253555297852,
+                  116.1507797241211
+                ],
+                "score": 0.42132052779197693,
+                "phrase": "switch"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                82.84467697143555,
+                61.880807876586914,
+                137.78253555297852,
+                116.1507797241211
+              ],
+              "score": 0.42132052779197693,
+              "phrase": "switch"
+            }
+          ],
+          "mask_scores": [
+            0.9922598600387573
+          ],
+          "mask_area": [
+            2116
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "original_unambiguous_noun_retained"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/turn_switch:7109000.npz",
+      "mask_sha256": "c32a9a29afc3e1ae7fa84a54b19f78923ad8004fe3799e60ec54821e35743565"
+    },
+    {
+      "case": "turn_switch:7109003",
+      "instruction": "Click the curved toggle switch with the left arm",
+      "grounding_phrases": [
+        "curved toggle switch"
+      ],
+      "previous_available": false,
+      "available": true,
+      "reason": "text_grounded_real_objects",
+      "metadata": {
+        "image_sha256": "699f9e84490183e5bac3e3630fd3b090b5f00a25eeed9e557d1a91128bf0090a",
+        "instruction_sha256": "207723c3fb84825f6a97e59662fb7b009a00605d4800ff88b82108a45c65b244",
+        "roles": {
+          "directed": false,
+          "target": "switch",
+          "reference": null,
+          "kind": "explicit_single_object",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "absent_reference_explicit": true,
+          "grounding_phrases_exact_instruction_substrings": true
+        },
+        "text_prompt": "curved toggle switch.",
+        "candidates": [
+          [
+            {
+              "box": [
+                185.17986297607422,
+                35.58876156806946,
+                237.3126983642578,
+                99.11181449890137
+              ],
+              "score": 0.4096546173095703,
+              "phrase": "curved toggle switch"
+            }
+          ]
+        ],
+        "available": true,
+        "reason": "text_grounded_real_objects",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "reference_missing_reason": null,
+        "actual_object_slots": [
+          true,
+          false
+        ],
+        "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+        "semantic_correctness_verified": false,
+        "selected": [
+          {
+            "box": [
+              185.17986297607422,
+              35.58876156806946,
+              237.3126983642578,
+              99.11181449890137
+            ],
+            "score": 0.4096546173095703,
+            "phrase": "curved toggle switch"
+          }
+        ],
+        "mask_scores": [
+          0.9616591334342957
+        ],
+        "mask_area": [
+          2399
+        ],
+        "mask_overlap_iou": 0.0,
+        "distinct_instances": true,
+        "absent_reference_is_empty_not_second_object": true,
+        "grounding_decision_path": "actual_instruction_descriptor_adjudication"
+      },
+      "CPU_receipt": {
+        "raw": {
+          "image_sha256": "699f9e84490183e5bac3e3630fd3b090b5f00a25eeed9e557d1a91128bf0090a",
+          "instruction_sha256": "207723c3fb84825f6a97e59662fb7b009a00605d4800ff88b82108a45c65b244",
+          "roles": {
+            "directed": false,
+            "target": "switch",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true,
+            "grounding_phrases_exact_instruction_substrings": true
+          },
+          "text_prompt": "curved toggle switch.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  185.17986297607422,
+                  35.58876156806946,
+                  237.3126983642578,
+                  99.11181449890137
+                ],
+                "score": 0.4096546173095703,
+                "phrase": "curved toggle switch"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "reference_missing_reason": null,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                185.17986297607422,
+                35.58876156806946,
+                237.3126983642578,
+                99.11181449890137
+              ],
+              "score": 0.4096546173095703,
+              "phrase": "curved toggle switch"
+            }
+          ],
+          "mask_scores": [
+            0.9616591334342957
+          ],
+          "mask_area": [
+            2399
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "actual_instruction_descriptor_adjudication"
+        },
+        "decision": {
+          "image_sha256": "699f9e84490183e5bac3e3630fd3b090b5f00a25eeed9e557d1a91128bf0090a",
+          "instruction_sha256": "207723c3fb84825f6a97e59662fb7b009a00605d4800ff88b82108a45c65b244",
+          "roles": {
+            "directed": false,
+            "target": "switch",
+            "reference": null,
+            "kind": "explicit_single_object",
+            "interface_version": "native_object_feedback_v5",
+            "actual_object_count": 1,
+            "absent_reference_explicit": true,
+            "grounding_phrases_exact_instruction_substrings": true
+          },
+          "text_prompt": "curved toggle switch.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  185.17986297607422,
+                  35.58876156806946,
+                  237.3126983642578,
+                  99.11181449890137
+                ],
+                "score": 0.4096546173095703,
+                "phrase": "curved toggle switch"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_real_objects",
+          "interface_version": "native_object_feedback_v5",
+          "actual_object_count": 1,
+          "reference_missing_reason": null,
+          "actual_object_slots": [
+            true,
+            false
+          ],
+          "source": "FrozenGroundingDINO+SAM; same weights,float32,thresholds; actual RGB+language only",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                185.17986297607422,
+                35.58876156806946,
+                237.3126983642578,
+                99.11181449890137
+              ],
+              "score": 0.4096546173095703,
+              "phrase": "curved toggle switch"
+            }
+          ],
+          "mask_scores": [
+            0.9616591334342957
+          ],
+          "mask_area": [
+            2399
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true,
+          "absent_reference_is_empty_not_second_object": true,
+          "grounding_decision_path": "actual_instruction_descriptor_adjudication"
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_object_feedback_v5",
+        "actual_object_count": 1,
+        "language_rewritten": false
+      },
+      "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_feedback_v5/CPU_development_seeds/turn_switch:7109003.npz",
+      "mask_sha256": "48e159e7e54c0f6687ce85f6876cb6a318a6737bf6ac3033702f3f9716579bfc"
+    }
+  ],
+  "actual_CPU_models_unchanged": true,
+  "CUDA_initialized": false,
+  "no_native_rollouts_or_efficacy_claim": true,
+  "unavailable_denominator_retained": true,
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/cf21f5c098ad639873d8498aa15aba2651a8baf03eb0d4e0866e785d180a5d84.npz": "e88576fb0c4265967950fe605fa3cd51aa98005118fd7e316f548f4fd272ba9d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/adjust_bottle:7109005.json": "5e082acc1f37524dfdf5079ec160891a37fdb787f843d67338de2dc11fb33a26",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/feee8a4f4dfab20917cdefd3b4205ed6c6899d8771780b110b4745baa6119f3a.npz": "5154ec2c1907369fc24f127e7912e9938a27b5baa6d9a5a793d5ecb489fd7fc8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/adjust_bottle:7109007.json": "cdc65786dd4c21bb4a38b24464cb5e99b04137a47b48aec22971a2d5aaa9838b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/8c65106dcf1b3b5e0290f50f9016b3ae58c855ff71c40778675be737de19a41d.npz": "7735d9e763722f86e8fd6f560a266dbcd1850ab06bb17c3fe14091afcd96a52d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/beat_block_hammer:7109000.json": "5dacdafec25bb23b92197e35f5dcaec8c11ac1d8a1f23128757c03993968a78d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/630f209a6e0794854c5ff69d4a64279143242f40db24dfd9a3dde4940338dea5.npz": "57bbd65d165db126b930157d7f1ac21d42f04e07650710e101eae7ba4f67bb52",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/beat_block_hammer:7109002.json": "2aedec277d3183a4848d3c750829a5111767be6358a6dda7a1e376bdfe68d4f4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/ececc9bffcd9a364324cbdf09b0ad9dac465a1df57577cbb5e95f2060681755c.npz": "3243d08d7a198240db9e194ab3e5a55f8d0bc673c20fe178afb3df46cca1d8e9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/grab_roller:7109000.json": "343bbbb66d81feb21817c16b4e90991f743d80baebca0c2ba03aed3fe41c7817",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/e853f55cabe7edee8a441bb03ed849767fdd21f38711d10bf2ae563b054b8f77.npz": "a311d65f65b109adb6ca9a5cb2251a71481af0c246c6acb42c49f46a251f54f7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/grab_roller:7109001.json": "8f1a1804414f963ff9fd3cfcaaa2dd436083a64e0974c2073a72b6bce2200fa6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/d22014a09ed5166232a06ab442b24ba5147ddfd5ffa41d87410fcc2a077594f3.npz": "7e0da15f49679432629739a23671b2e7f897100c4ef97150e68e3d2e08ec5aaf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/open_laptop:7109000.json": "1f63009e4f82c19f9723e3d5e63014294f27ea068edd9b7f08a56f295c002d29",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/a57412d460221b938945972f3219a4023ac844bd20b7448c2a77cb577a009028.npz": "3037ff25b8947494a8ae438af5933ad4c9df589b40f8486577e17b6eeb1ff657",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/open_laptop:7109001.json": "748d64cd6b5a4657156dff335fac5757feb9ae094b3090cdf47d8c8d5516c5ee",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/f92dc3a0e0df80a59fb4aefeb8ff1fd24d7c9f2d58ae0fad3bc4123ed1bb62b8.npz": "90a16ddbf6c341288971643b6d2ce23ad814fa17880ffd36dec19cae92dd1c28",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/turn_switch:7109000.json": "522a82e0ecc10dd8119a4d8f64a4f8c284bb9903a55db64796ffd860ddcb00c4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v1/development/batches/000/runs/6a7673f19bcd4e2697e3842911e2708b/semantic/requests/e09a921c14aa5455a6de2211ec2fa79e3db47de2e9d9a36cf0d2773779f7b6f4.npz": "97cbf92e2128c71af9a5ec3a0fbade3c5913af2f263db89b75c1da8e38546886",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/accepted/turn_switch:7109003.json": "8638b85f0577414b35b1b549b055be42b3ee5039dfd04bacdd69d014a0f7ef23"
+  }
+}

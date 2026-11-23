@@ -1,0 +1,564 @@
+{
+  "time": "2026-11-01T01:04:54.658934+08:00",
+  "passed": true,
+  "actual_campaign_exit_code": 0,
+  "qualified_batches": 25,
+  "paired_scenes": 200,
+  "primary_episodes": 400,
+  "control_episodes": 8,
+  "native_episodes": 408,
+  "branch_counts": {
+    "M_event_full": 200,
+    "zero_update": 4,
+    "shadow_update": 4,
+    "TTA": 200
+  },
+  "official_seed_group": 0,
+  "actor_sampler_seed": 17,
+  "checkpoint_sha256": "0937511affea00771ed7f595d07220ae390ba85e06e398fce678446e7078a1d5",
+  "implementation_versions": {
+    "native_cross_task100_v1": 2,
+    "native_cross_task100_v11": 2,
+    "native_cross_task100_v14": 4,
+    "native_cross_task100_v17": 1,
+    "native_cross_task100_v18": 4,
+    "native_cross_task100_v19": 12
+  },
+  "CPU_worker_count_strata": {
+    "2": 2,
+    "4": 23
+  },
+  "actual_zero_exit_CPU_workers": 96,
+  "all_bound_sources_and_terminal_inputs_SHA_verified": true,
+  "all_25_GPU_parents_and_children_actual_exit0": true,
+  "all_CPU_encoder_workers_actual_exit0": true,
+  "all_25_batches_GPU_released": true,
+  "steady_caps_verified": {
+    "GPU_utilization_floor": 34,
+    "VRAM_cap_MiB": 24563,
+    "CPU_range_percent": [
+      40,
+      1600
+    ],
+    "RSS_GiB": 128,
+    "account_GPU_cap": 3
+  },
+  "max_qualified_batch_VRAM_MiB": 23694,
+  "max_account_GPUs_in_qualified_batches": 3,
+  "old_failed_or_partial_attempts_excluded": true,
+  "whole_batch_only": true,
+  "no_training_or_EVAL_tuning": true,
+  "perception_interface": "native_transfer_semantics_v1",
+  "training_tasks_unchanged": [
+    "stack_blocks_two",
+    "stack_bowls_two"
+  ],
+  "independent_paired_counts": {
+    "place_empty_cup": {
+      "pairs": 100,
+      "full_successes": 40,
+      "TTA_successes": 41,
+      "net_percentage_points": 1,
+      "rescued_seeds": [
+        100062
+      ],
+      "harmed_seeds": [],
+      "exact_two_sided_p": 1.0,
+      "coverage": {
+        "denominator_all_completed": 100,
+        "semantic_available_cases": 65,
+        "cases_with_feedback_packet": 65,
+        "cases_with_accepted_update": 64,
+        "cases_with_applied_adaptation": 64,
+        "cases_with_actual_action_change": 64,
+        "semantic_unavailable_reasons": {
+          "missing_or_ambiguous_text_grounding": 35
+        }
+      }
+    },
+    "place_shoe": {
+      "pairs": 100,
+      "full_successes": 65,
+      "TTA_successes": 67,
+      "net_percentage_points": 2,
+      "rescued_seeds": [
+        100049,
+        100125
+      ],
+      "harmed_seeds": [],
+      "exact_two_sided_p": 0.5,
+      "coverage": {
+        "denominator_all_completed": 100,
+        "semantic_available_cases": 87,
+        "cases_with_feedback_packet": 69,
+        "cases_with_accepted_update": 58,
+        "cases_with_applied_adaptation": 52,
+        "cases_with_actual_action_change": 52,
+        "semantic_unavailable_reasons": {
+          "missing_or_ambiguous_text_grounding": 13
+        }
+      }
+    }
+  },
+  "scientific_service": {
+    "ActiveState": "inactive",
+    "UnitFileState": "static",
+    "MainPID": "0",
+    "Result": "success",
+    "ExecMainStatus": "0"
+  },
+  "watch_timer": {
+    "ActiveState": "inactive",
+    "UnitFileState": "disabled",
+    "Result": "success"
+  },
+  "watch_service": {
+    "ActiveState": "inactive",
+    "UnitFileState": "static",
+    "MainPID": "0",
+    "Result": "success",
+    "ExecMainStatus": "0"
+  },
+  "final_fleet": {
+    "max_gpus": 3,
+    "cards": [
+      {
+        "index": 0,
+        "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 1,
+        "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+        "memory_mib": 12882,
+        "total_mib": 24564,
+        "sm": 55,
+        "pids": [
+          1303318
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 2,
+        "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+        "memory_mib": 12142,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [
+          900931
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 3,
+        "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+        "memory_mib": 10658,
+        "total_mib": 24564,
+        "sm": 86,
+        "pids": [
+          970391
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 4,
+        "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+        "memory_mib": 15977,
+        "total_mib": 24564,
+        "sm": 100,
+        "pids": [
+          1137583
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 5,
+        "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 6,
+        "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+        "memory_mib": 9,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      }
+    ],
+    "own_gpu_count": 0,
+    "available_indices": [
+      0,
+      5,
+      6
+    ]
+  },
+  "complete_comparison_SHA256": "8b19afa723f1b6528ca0ad7d7b66c8cdeb9a9f47d9e8ee0632531d7e0ad382f7",
+  "batch_evidence": [
+    {
+      "batch_index": 0,
+      "version": "native_cross_task100_v1",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v1/batches/000/runs/2b7abd6426194d4aafd529ed5914ed3c",
+      "terminal_audit_SHA256": "0c5528a9cad890a81dbb96669c449d418449e091bdebcec08868f713ff05f555",
+      "native_episodes": 20,
+      "CPU_workers": 2,
+      "steady_samples": 201,
+      "max_VRAM_MiB": 18581,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 1,
+      "version": "native_cross_task100_v1",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v1/batches/001/runs/2b7abd6426194d4aafd529ed5914ed3c",
+      "terminal_audit_SHA256": "abe2fa830bfe80fe69b35d61aef163740e527774777909166842c654625bd494",
+      "native_episodes": 16,
+      "CPU_workers": 2,
+      "steady_samples": 133,
+      "max_VRAM_MiB": 19345,
+      "max_account_GPUs": 1,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 2,
+      "version": "native_cross_task100_v11",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v11/batches/002/runs/3f97119238504d87b1ed6f845a91ea1c",
+      "terminal_audit_SHA256": "7fedaad4708100e6f5c34da11c8ffa3cae7dea5e8e622f9e2decd13a2bbf0a83",
+      "native_episodes": 20,
+      "CPU_workers": 4,
+      "steady_samples": 184,
+      "max_VRAM_MiB": 23694,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 3,
+      "version": "native_cross_task100_v11",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v11/batches/003/runs/94f5e547661349e4adcdffe374413880",
+      "terminal_audit_SHA256": "1bc659e6fe6ba1b2e8287bb2dad4777c8e3c6b706ca7500859e0f40b2728718b",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 115,
+      "max_VRAM_MiB": 22870,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 4,
+      "version": "native_cross_task100_v14",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v14/batches/004/runs/e2afd60f07a84dd4ba75305f0753a598",
+      "terminal_audit_SHA256": "f8dc40ed80133b92fbb2c25d2da46314ea2c3efd8d9308457f5c95f2df1e5d98",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 121,
+      "max_VRAM_MiB": 21217,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 5,
+      "version": "native_cross_task100_v14",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v14/batches/005/runs/792414934f5840fe92d25531f62d6bb5",
+      "terminal_audit_SHA256": "7d696be48c7222953139a73181d92be5dedcea2fd715c0daf629178a200026c8",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 114,
+      "max_VRAM_MiB": 20857,
+      "max_account_GPUs": 3,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 6,
+      "version": "native_cross_task100_v14",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v14/batches/006/runs/b0684ef69d024b8098ba63dda1f5fa1a",
+      "terminal_audit_SHA256": "4894b25fec73493ec7ecb059cb8b8957f275d2eef28840120028f185b02ef70b",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 110,
+      "max_VRAM_MiB": 21621,
+      "max_account_GPUs": 3,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 7,
+      "version": "native_cross_task100_v14",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v14/batches/007/runs/49deb3ad66724b0ba368028486a5e4af",
+      "terminal_audit_SHA256": "2c151ab2ae46ec4b6219325cb86d830781aab6456d1f3400e2a9590efdc1a814",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 98,
+      "max_VRAM_MiB": 20649,
+      "max_account_GPUs": 3,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 8,
+      "version": "native_cross_task100_v17",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v17/batches/008/runs/6913a38e538d48a38026d7b193d7ff99",
+      "terminal_audit_SHA256": "01d4b2c610fdb6ccea28fbd7e18b34c14c85c9e0f6abd9fe5f17847d47b7f9e5",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 117,
+      "max_VRAM_MiB": 20847,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 9,
+      "version": "native_cross_task100_v18",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v18/batches/009/runs/8a5cc72033cb4b9e94b724553dac1a98",
+      "terminal_audit_SHA256": "4eec3c8710c3bc79cc4f7cb1016a6578e1f1224cb180487b33987a7c52606be4",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 99,
+      "max_VRAM_MiB": 20879,
+      "max_account_GPUs": 3,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 10,
+      "version": "native_cross_task100_v18",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v18/batches/010/runs/1aa52a847c154ed5a1cb63a894caecd6",
+      "terminal_audit_SHA256": "2f8f9afa03e7e6cde4cbf0ae4039a7f5407cc96fbbd14ae1d17fc7d1bc2c1dcc",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 81,
+      "max_VRAM_MiB": 22887,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 11,
+      "version": "native_cross_task100_v18",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v18/batches/011/runs/57922ef68b434e49adc676bb36978bf9",
+      "terminal_audit_SHA256": "fb265adeccd370083279f4b655556dccd00b11049c2e7487a4e90a8f381e04ee",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 126,
+      "max_VRAM_MiB": 23555,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 12,
+      "version": "native_cross_task100_v18",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v18/batches/012/runs/cf3fc6c7bb134be8a617182c6cfe2ddd",
+      "terminal_audit_SHA256": "578af55a65c3e442398ed720090696d8c7f3c277587e70d3c1a1be928af2ecbf",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 130,
+      "max_VRAM_MiB": 22793,
+      "max_account_GPUs": 3,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 13,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/013/runs/517a6cd12af64b218d1e2e24fad3b865",
+      "terminal_audit_SHA256": "49f81212ef431cead2659067b17ee255112d6b33f4092d3bb9aff972966cedb4",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 95,
+      "max_VRAM_MiB": 20569,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 14,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/014/runs/08ea9d2adc5242d0aeb370bfde89c306",
+      "terminal_audit_SHA256": "85c7e3815fdb217986f499b6a0f7b2be99148c3311bebf4c088d40d065bc4ea2",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 129,
+      "max_VRAM_MiB": 21137,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 15,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/015/runs/339c879a7c4b4372b5e5b8a1b71c87c4",
+      "terminal_audit_SHA256": "e3a6132ec018ba17ad8f0af9c70d13643c50b511ec8dc8233123bddd37715d43",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 92,
+      "max_VRAM_MiB": 22841,
+      "max_account_GPUs": 1,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 16,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/016/runs/d3fc05f28dbc43e3aad73d08b22a59f8",
+      "terminal_audit_SHA256": "76454790c5fa6f81f883a2302b307923d5a7450adca5ae555bb1a741a5c8d414",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 167,
+      "max_VRAM_MiB": 21809,
+      "max_account_GPUs": 1,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 17,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/017/runs/1b5a8f00929e41ebbd6e8953ab6a1bc7",
+      "terminal_audit_SHA256": "dc08a40922a0d9af3e10006c073d03a7b88ddb1ef872d5347b374fcffec1e420",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 149,
+      "max_VRAM_MiB": 23157,
+      "max_account_GPUs": 1,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 18,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/018/runs/3b549acfae734e0db135c718a590cf14",
+      "terminal_audit_SHA256": "266867bb6bf4206297535e042c0f62d60030be000d76f606d094153bb53755b2",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 151,
+      "max_VRAM_MiB": 22695,
+      "max_account_GPUs": 1,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 19,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/019/runs/3b549acfae734e0db135c718a590cf14",
+      "terminal_audit_SHA256": "fe939f330911a0528b83cd8981543d6b7db57a1b826f9958d55908724cbbd230",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 145,
+      "max_VRAM_MiB": 23085,
+      "max_account_GPUs": 3,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 20,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/020/runs/99611a98629544e2b5b95874b93cd332",
+      "terminal_audit_SHA256": "4f63df061406b988540c6aa35b890ed4ea8445c50ffdeddef10e024618abb97d",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 119,
+      "max_VRAM_MiB": 20967,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 21,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/021/runs/203e401a5c284c9c80d3045ffafe93ff",
+      "terminal_audit_SHA256": "cf13f2a3fb3989c767fa86d2e72ce9ac9a90479553af71c8c7e05465bcd72af1",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 138,
+      "max_VRAM_MiB": 20747,
+      "max_account_GPUs": 1,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 22,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/022/runs/6fbde264a9584e57a0ecc9e5cd1dc804",
+      "terminal_audit_SHA256": "6361a84f80eb25393cb526181420c08fdfa634a086157e8af3a1c211aacda8b7",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 137,
+      "max_VRAM_MiB": 20863,
+      "max_account_GPUs": 1,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 23,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/023/runs/9813f4bac16045228cba379445b624f5",
+      "terminal_audit_SHA256": "4fc13a70f222d5161cdfdcb228030d935f9472498dd04d697c0cb15a1ee20851",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 118,
+      "max_VRAM_MiB": 20121,
+      "max_account_GPUs": 2,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    },
+    {
+      "batch_index": 24,
+      "version": "native_cross_task100_v19",
+      "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v19/batches/024/runs/b5c7cba20d3c431cb276341e65c5a083",
+      "terminal_audit_SHA256": "b161f6c6e4b1a1779d14c33eb27029efa36dd21be07e95e34ee7273118204044",
+      "native_episodes": 16,
+      "CPU_workers": 4,
+      "steady_samples": 129,
+      "max_VRAM_MiB": 23689,
+      "max_account_GPUs": 1,
+      "all_actual_exits_zero": true,
+      "GPU_released": true,
+      "terminal_input_SHA_verified": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "scope_metadata_addendum_v1",
+  "frozen_study_identity": "e4a365905d1020a601c80c582622704993d3c0a1a7f1d494f1387a155918206e",
+  "original_study_and_protocol_bytes_retained": true,
+  "reason": "Inherited parent equivalence flags must be interpreted against explicit new campaign scope; no change to experiment or acceptance thresholds",
+  "effective_parent_equivalence": {
+    "native_run_case_AST_unchanged": false,
+    "resource_scheduling_only": false,
+    "resource_acquisition_repair_only": false,
+    "full_and_TTA_episode_function_exact_original": true,
+    "baseline_is_new_pure_base_control": true,
+    "perception_dictionary_separately_versioned": "native_transfer_semantics_v2"
+  },
+  "actual_allowed_scope_changes": [
+    "four new task identities and isolated output roots",
+    "three primary conditions baseline/full/TTA",
+    "full/TTA dispatch to unchanged frozen episode; new baseline executes base verbatim",
+    "new category parser tried only after previous parser fails",
+    "remove old cup/shoe fixed batch002 identity check and result reuse",
+    "first batch0 controls only"
+  ],
+  "evidence": "CPU_entry_contract_checks.json + native_frozen100_v1/contracts.py normalized exact AST checks; frozen_tta093_v1 manifest1439 bindings",
+  "identity": "cd86aba60f82108cdd38e976c86dc42f9a9d0d4ff0e670449a2c5cf4f0a692b0"
+}

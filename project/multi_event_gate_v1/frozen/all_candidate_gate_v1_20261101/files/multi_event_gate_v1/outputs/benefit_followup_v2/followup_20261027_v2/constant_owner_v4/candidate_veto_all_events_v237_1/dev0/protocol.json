@@ -1,0 +1,78 @@
+{
+  "schema": "frozen_full_event_candidate_veto_validation_v134",
+  "block": "dev0",
+  "split": "DEV",
+  "tasks": {
+    "place_empty_cup": 16020000,
+    "stack_bowls_two": 16030000
+  },
+  "eligible_per_task": 20,
+  "maximum_screen_attempts_per_task": 256,
+  "val_qualified_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "aa_qualified_indices": [
+    0,
+    1,
+    6,
+    11
+  ],
+  "collection_episodes": 88,
+  "gated_validation_episodes": 40,
+  "candidate_sha256": "6e0de463a03d8bac0e160aa46cf955f8575b78ecd38d1e799392e253a7d289e7",
+  "candidate_step": 250,
+  "alpha": 0.5,
+  "gripper_residual": 0,
+  "physical_episode_index": 0,
+  "instruction_generator_count": 20,
+  "canonical_clutter_bounds": {
+    "xlim": [
+      -0.59,
+      0.59
+    ],
+    "ylim": [
+      -0.34,
+      0.34
+    ],
+    "zlim": [
+      0.741
+    ]
+  },
+  "task_config": "demo_randomized",
+  "instruction_type": "unseen",
+  "ordering": "reuse completed expert membership and audited controls; run independent all-event G only",
+  "first_event_only": false,
+  "later_events_always_rejected": false,
+  "no_policy_outcome_scene_selection": true,
+  "experiment_sha256": "61c91c753f568981bb5880b8ac1c12770df03839555bec2ed1120ea5ab290d71",
+  "old_TEST_and_VAL_not_fit": true,
+  "event_full_budget": 3,
+  "candidate_veto_scope": "all_legal_scored_candidates",
+  "scope_entry_sha256": "e57960dc52ac3ec208bf05d4078baa11091a173e844df7da03e70a76d4857d3f",
+  "implementation_sha256": "e29c166ecfb59144e745856ee2309d12d7625b0edb66cb2dd9eb88f5d765044e",
+  "gate_model_sha256": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc",
+  "success_above_event_full_not_required_for_reporting": true,
+  "original_event_full_controller_and_executor_unchanged": true,
+  "no_fitting_or_threshold_tuning": true,
+  "later_event_scores_uncalibrated_transfer": true,
+  "comparison": "Frozen118 first-candidate vs all-candidate transfer diagnostic; existing EVAL scenes, no training"
+}

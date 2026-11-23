@@ -1,0 +1,30 @@
+[
+  [
+    "from native_response_action_v1.compose import EventComposer,ARM",
+    "from .gated_compose import EventComposer\nfrom .paired_heads import ARM,combine"
+  ],
+  [
+    "from native_feedback_application_v1.application import FeedbackApplication",
+    "from .gated_compose import FeedbackApplication"
+  ],
+  [
+    "from .capture import capture",
+    "from native_arm_phase_feedback_v1.capture import capture"
+  ],
+  [
+    "from .admission import choose as choose_source",
+    "from native_arm_phase_feedback_v1.admission import choose as choose_source"
+  ],
+  [
+    "   actions,delta,event=composer.step(proposal['base'],proposal['raw_delta'],proposal['legal'],adapted_ARM=direction)",
+    "   action_direction,transfer_receipt=combine(proposal['raw_delta'],values['raw_delta'],direction)\n   actions,delta,event=composer.step(proposal['base'],proposal['raw_delta'],proposal['legal'],adapted_ARM=action_direction)"
+  ],
+  [
+    "application.step(composer,proposal['base'],proposal['raw_delta'],direction,actions,delta,event,update,condition=condition)",
+    "application.step(composer,proposal['base'],proposal['raw_delta'],action_direction,actions,delta,event,update,condition=condition)"
+  ],
+  [
+    "event=event,response=update,feedback_source_admission",
+    "event=event,response=update,transferred_fast_increment=transfer_receipt,feedback_source_admission"
+  ]
+]

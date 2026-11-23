@@ -1,0 +1,22 @@
+[
+  [
+    "assert lanes in(4,8,9,10)",
+    "assert lanes in(4,8,9,10,12)"
+  ],
+  [
+    " c.native=render_overlap",
+    " c.native=render_overlap\n from .prefix import Prefix\n guide_prefix=Prefix(c,torch,base,denoise_graph,render_overlap,manifest['gpu_uuid'])\n from .pixel_shadow import configure as configure_pixel_shadow\n configure_pixel_shadow(render_overlap)\n from native_image_readback_gil_v1.loader_validated import load as load_image_reader\n load_image_reader()"
+  ],
+  [
+    "    def raw_observe():\n     with render_overlap.active(True):return observe(task)",
+    "    def raw_observe():\n     from .readback import install as install_exact_readback\n     install_exact_readback(task,branch!='handoff_reference',render_overlap)\n     with render_overlap.active(True):return observe(task)"
+  ],
+  [
+    "  render_overlap.close()\n  write(root/'render_overlap_runtime.json',render_overlap.report())",
+    "  render_overlap.close()\n  guide_prefix.actor.batched_encode=guide_prefix.original\n  write(root/'guide_prefix_runtime.json',guide_prefix.report())\n  from .pixel_shadow import report as pixel_report\n  write(root/'native_image_readback_runtime.json',pixel_report(render_overlap))\n  write(root/'render_overlap_runtime.json',render_overlap.report())"
+  ],
+  [
+    "  if not render_overlap.closed:render_overlap.close()",
+    "  guide_prefix.actor.batched_encode=guide_prefix.original\n  if not render_overlap.closed:render_overlap.close()"
+  ]
+]

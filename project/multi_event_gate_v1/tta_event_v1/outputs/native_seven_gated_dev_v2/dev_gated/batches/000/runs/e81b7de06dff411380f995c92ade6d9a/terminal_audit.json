@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "actual_host_exit_code": 0,
+  "actual_child_exit_code": 0,
+  "own_GPU_released": true,
+  "steady_resource_samples": 325,
+  "batch_protocol_identity": "42c6a273b99cb6097b02c532d0bb6946220cf08bed51ed5c7227fd7add11bbe4",
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/guide_prefix_runtime.json": "aa1d7caae665624ae58e02412b65b7fddf118406cd218495268dc3280860e6ef",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/native_image_readback_runtime.json": "189f68e53c1b21f6c32e1b7447d6b49bf403ef1eef3871cf1224ea00c38754e2",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/CPU_static_heap_freeze.json": "3d5ca5e3f32b57a3695be7aa753803187f0fdbd609cc2a6bd028facd82b557fe",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/render_overlap_runtime.json": "96964ea4585748c5c72a24fceba2683d52bd3d893d7e4bc90674e02b511f1f43",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/owner_profile_runtime.json": "089523a33145e2f8958c90b3de1eb67e7bb8bb4256ba0c8ab2d55d7163d3f976",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/result.json": "98970a303269c3c06d3ec66d31e5d2ebd1aabc2fb6231f4ae64e03fe103cfc87",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/CPU_episode_audit.json": "89d7c1fe4edf71c1343b828b4b0c3694958a76fba31d61d70da89a732286815d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/CPU_full_capture_audit.json": "89d7c1fe4edf71c1343b828b4b0c3694958a76fba31d61d70da89a732286815d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/attempt/resources.jsonl": "5e474b1ab8cfe6d700ab32362ed413f3e066115e731a16f0f193d577cefe1b5d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/attempt/barrier/normal_child_exit.json": "20f80be1a70171a5e122c2c564880341acb4549ff46253b0268bb6a70fc0a44c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/semantic/result.json": "fb19c3fb265c1e660079ece0cb2e6187d1147020104eeb63814b1137d2d93b4c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/semantic_exit.json": "1842e26a3ef6e62a0d5243eb9461d34e865d3798db1da11e0d61f6c7b8a02887",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/attempt/NVML_queries.jsonl": "3b744520de819bfb8216c2ff9587ebeb90c6202f2580592018e6854e2c352824",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/post_release_device_samples.json": "7e8f65b6cf6a1184e2bcb6f7df2c519d31f697d52942e31d4c687ee3d92d4c80",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/CPU_device_stream_audit.json": "12062a5d619c930d31e61fdf2ebd8ffc5d1dd869fa55e7543c6ea6f78949a8ef",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/CPU_governor180_resource_audit.json": "fe8ffed44ec3b0f523af85e20df3b35599e1ec10cc44aaec7cf2bb5d2d1f9078",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/attempt/NVML_stream_actual_exit.json": "0fc67df876f012dcda58bf315b4e1c86b11dda4c3ff18b6bcb4e0cb088e38b1e"
+  }
+}

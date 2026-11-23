@@ -1,0 +1,188 @@
+{
+  "available": true,
+  "reason": "text_grounded_distinct_masks",
+  "models_state_sha256": {
+    "DINO": "86dfd6940d3fa2a7e5575381c341f3a71e21159f5de97938b1ae957f909a9fba",
+    "SAM": "18cead3370d004076e8f7d65cc7698e7379098da8c8743b8fd27c8293bdc2f36"
+  },
+  "metadata": {
+    "raw": {
+      "image_sha256": "465b2bee20c0ac874f2ba3f8ca47f9424a0e08af15c82cbff3d7773fd1733776",
+      "instruction_sha256": "2f9585d268045b163c9f9415241a98ed6673cefe713eb03604bcd8e3847b9cba",
+      "roles": {
+        "directed": false,
+        "target": null,
+        "reference": null,
+        "kind": "unordered_explicit_color_pair",
+        "instance_colors": [
+          "red",
+          "green"
+        ]
+      },
+      "text_prompt": "red block. green block.",
+      "candidates": [
+        [
+          {
+            "box": [
+              238.15984725952148,
+              92.78637170791626,
+              273.7112236022949,
+              129.72370147705078
+            ],
+            "score": 0.6514531373977661,
+            "phrase": "red block"
+          }
+        ],
+        [
+          {
+            "box": [
+              286.5569877624512,
+              106.17608785629272,
+              320.0,
+              148.36843013763428
+            ],
+            "score": 0.8187611699104309,
+            "phrase": "green block"
+          }
+        ]
+      ],
+      "available": true,
+      "reason": "text_grounded_distinct_masks",
+      "source": "FrozenGroundingDINO-base+SAM-vit-base, float32/eager/nativeTransformers4.53.2, image+languageonly",
+      "semantic_correctness_verified": false,
+      "selected": [
+        {
+          "box": [
+            238.15984725952148,
+            92.78637170791626,
+            273.7112236022949,
+            129.72370147705078
+          ],
+          "score": 0.6514531373977661,
+          "phrase": "red block"
+        },
+        {
+          "box": [
+            286.5569877624512,
+            106.17608785629272,
+            320.0,
+            148.36843013763428
+          ],
+          "score": 0.8187611699104309,
+          "phrase": "green block"
+        }
+      ],
+      "mask_scores": [
+        0.9830042123794556,
+        0.9825805425643921
+      ],
+      "mask_area": [
+        942,
+        919
+      ],
+      "mask_overlap_iou": 0.0,
+      "distinct_instances": true
+    },
+    "decision": {
+      "image_sha256": "465b2bee20c0ac874f2ba3f8ca47f9424a0e08af15c82cbff3d7773fd1733776",
+      "instruction_sha256": "2f9585d268045b163c9f9415241a98ed6673cefe713eb03604bcd8e3847b9cba",
+      "roles": {
+        "directed": false,
+        "target": null,
+        "reference": null,
+        "kind": "unordered_explicit_color_pair",
+        "instance_colors": [
+          "red",
+          "green"
+        ]
+      },
+      "text_prompt": "red block. green block.",
+      "candidates": [
+        [
+          {
+            "box": [
+              238.15984725952148,
+              92.78637170791626,
+              273.7112236022949,
+              129.72370147705078
+            ],
+            "score": 0.6514531373977661,
+            "phrase": "red block"
+          }
+        ],
+        [
+          {
+            "box": [
+              286.5569877624512,
+              106.17608785629272,
+              320.0,
+              148.36843013763428
+            ],
+            "score": 0.8187611699104309,
+            "phrase": "green block"
+          }
+        ]
+      ],
+      "available": true,
+      "reason": "text_grounded_distinct_masks",
+      "source": "FrozenGroundingDINO-base+SAM-vit-base, float32/eager/nativeTransformers4.53.2, image+languageonly",
+      "semantic_correctness_verified": false,
+      "selected": [
+        {
+          "box": [
+            238.15984725952148,
+            92.78637170791626,
+            273.7112236022949,
+            129.72370147705078
+          ],
+          "score": 0.6514531373977661,
+          "phrase": "red block"
+        },
+        {
+          "box": [
+            286.5569877624512,
+            106.17608785629272,
+            320.0,
+            148.36843013763428
+          ],
+          "score": 0.8187611699104309,
+          "phrase": "green block"
+        }
+      ],
+      "mask_scores": [
+        0.9830042123794556,
+        0.9825805425643921
+      ],
+      "mask_area": [
+        942,
+        919
+      ],
+      "mask_overlap_iou": 0.0,
+      "distinct_instances": true,
+      "observed_attribute_checks": {
+        "language_color_fraction": [
+          1.0,
+          0.9978237214363439
+        ],
+        "cross_object_size_ratio": 0.9877164897473849,
+        "cross_object_aspect_agreement": 0.8285509325681493
+      }
+    },
+    "joint": null,
+    "head_batch": 1,
+    "CPU_RNG_preserved": true,
+    "CUDA_initialized": false,
+    "device": "cpu"
+  },
+  "content_key": "ceb84a8ec62c164d7a76d056bbad334e54e5c402be4a34109654a3d999eb0187",
+  "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/ceb84a8ec62c164d7a76d056bbad334e54e5c402be4a34109654a3d999eb0187.npz",
+  "frame_sha256": "eeae0d7c7ab082c40b66b34b17df0b21c2e5ac1f9c71967d40181576e16c3bc2",
+  "query": 0,
+  "tick": 0,
+  "actual_CPU_inference": true,
+  "cold_CPU_inference_seconds": 22.83879300672561,
+  "CPU_RNG_preserved": true,
+  "CUDA_initialized": false,
+  "mask_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/ceb84a8ec62c164d7a76d056bbad334e54e5c402be4a34109654a3d999eb0187.npz",
+  "mask_sha256": "55cbab2118da45572d799731a4c49075a2fbac55e92f76b9f4d1f57e1283f630"
+}

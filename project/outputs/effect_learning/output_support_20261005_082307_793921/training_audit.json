@@ -1,0 +1,458 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "condition": "A_bounded_clipped",
+      "cpu_reload_max_error": 2.1457672119140625e-06,
+      "by_task_kind": [
+        {
+          "task": "beat_block_hammer",
+          "kind": "anchor",
+          "rows": 4,
+          "clipped_normalized_loss": 0.00013013572606723756,
+          "raw_normalized_loss": 0.00013013572606723756,
+          "max_abs_arm_delta": 0.0066942633129656315,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 102,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "beat_block_hammer",
+          "kind": "expert",
+          "rows": 118,
+          "clipped_normalized_loss": 0.012127958238124847,
+          "raw_normalized_loss": 0.02832256443798542,
+          "max_abs_arm_delta": 0.09919557720422745,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 3390,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_empty_cup",
+          "kind": "expert",
+          "rows": 172,
+          "clipped_normalized_loss": 0.01206809189170599,
+          "raw_normalized_loss": 0.026000166311860085,
+          "max_abs_arm_delta": 0.0983317643404007,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 4185,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "anchor",
+          "rows": 4,
+          "clipped_normalized_loss": 0.00013749042409472167,
+          "raw_normalized_loss": 0.00013749042409472167,
+          "max_abs_arm_delta": 0.008040144108235836,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 109,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "expert",
+          "rows": 180,
+          "clipped_normalized_loss": 0.013071768917143345,
+          "raw_normalized_loss": 0.0452740378677845,
+          "max_abs_arm_delta": 0.09904312342405319,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 5161,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "recovery",
+          "rows": 7,
+          "clipped_normalized_loss": 0.0033372410107403994,
+          "raw_normalized_loss": 0.6242567300796509,
+          "max_abs_arm_delta": 0.09992237389087677,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 202,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "anchor",
+          "rows": 2,
+          "clipped_normalized_loss": 0.00012060781591571867,
+          "raw_normalized_loss": 0.00012060781591571867,
+          "max_abs_arm_delta": 0.007170864846557379,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 35,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "expert",
+          "rows": 102,
+          "clipped_normalized_loss": 0.01422221027314663,
+          "raw_normalized_loss": 0.1303301453590393,
+          "max_abs_arm_delta": 0.09995448589324951,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 3241,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "recovery",
+          "rows": 22,
+          "clipped_normalized_loss": 0.005113693419843912,
+          "raw_normalized_loss": 0.20721423625946045,
+          "max_abs_arm_delta": 0.099999338388443,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 533,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        }
+      ],
+      "development_cup_delta_RMS": 0.021454745903611183,
+      "robot_domain": {
+        "arm_outside_URDF_coordinates": 0,
+        "nominal_gripper_outside_0_1_coordinates": 16958,
+        "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+      }
+    },
+    {
+      "condition": "B_open_clipped",
+      "cpu_reload_max_error": 1.6689300537109375e-06,
+      "by_task_kind": [
+        {
+          "task": "beat_block_hammer",
+          "kind": "anchor",
+          "rows": 4,
+          "clipped_normalized_loss": 8.519450057065114e-05,
+          "raw_normalized_loss": 8.519450057065114e-05,
+          "max_abs_arm_delta": 0.008549037389457226,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 114,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "beat_block_hammer",
+          "kind": "expert",
+          "rows": 118,
+          "clipped_normalized_loss": 0.012138920836150646,
+          "raw_normalized_loss": 0.027642127126455307,
+          "max_abs_arm_delta": 0.15084032714366913,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 3653,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_empty_cup",
+          "kind": "expert",
+          "rows": 172,
+          "clipped_normalized_loss": 0.012545238249003887,
+          "raw_normalized_loss": 0.025981299579143524,
+          "max_abs_arm_delta": 0.13199041783809662,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 4155,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "anchor",
+          "rows": 4,
+          "clipped_normalized_loss": 0.00013443356147035956,
+          "raw_normalized_loss": 0.00013443356147035956,
+          "max_abs_arm_delta": 0.007980137132108212,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 135,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "expert",
+          "rows": 180,
+          "clipped_normalized_loss": 0.013423549942672253,
+          "raw_normalized_loss": 0.04501896724104881,
+          "max_abs_arm_delta": 0.13683420419692993,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 5376,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "recovery",
+          "rows": 7,
+          "clipped_normalized_loss": 0.003058463567867875,
+          "raw_normalized_loss": 0.6199256181716919,
+          "max_abs_arm_delta": 0.11254078149795532,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 148,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "anchor",
+          "rows": 2,
+          "clipped_normalized_loss": 7.724006718490273e-05,
+          "raw_normalized_loss": 7.724006718490273e-05,
+          "max_abs_arm_delta": 0.004359142854809761,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 47,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "expert",
+          "rows": 102,
+          "clipped_normalized_loss": 0.01463856641203165,
+          "raw_normalized_loss": 0.12895087897777557,
+          "max_abs_arm_delta": 0.13427241146564484,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 3057,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "recovery",
+          "rows": 22,
+          "clipped_normalized_loss": 0.003969985526055098,
+          "raw_normalized_loss": 0.20010527968406677,
+          "max_abs_arm_delta": 0.16722384095191956,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 499,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        }
+      ],
+      "development_cup_delta_RMS": 0.03702168166637421,
+      "robot_domain": {
+        "arm_outside_URDF_coordinates": 0,
+        "nominal_gripper_outside_0_1_coordinates": 17184,
+        "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+      }
+    },
+    {
+      "condition": "C_bounded_raw",
+      "cpu_reload_max_error": 1.6689300537109375e-06,
+      "by_task_kind": [
+        {
+          "task": "beat_block_hammer",
+          "kind": "anchor",
+          "rows": 4,
+          "clipped_normalized_loss": 0.0001225446176249534,
+          "raw_normalized_loss": 0.0001225446176249534,
+          "max_abs_arm_delta": 0.008269059471786022,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 93,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "beat_block_hammer",
+          "kind": "expert",
+          "rows": 118,
+          "clipped_normalized_loss": 0.014390348456799984,
+          "raw_normalized_loss": 0.029422329738736153,
+          "max_abs_arm_delta": 0.09996436536312103,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 3942,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_empty_cup",
+          "kind": "expert",
+          "rows": 172,
+          "clipped_normalized_loss": 0.014010475017130375,
+          "raw_normalized_loss": 0.027454957365989685,
+          "max_abs_arm_delta": 0.099698007106781,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 4510,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "anchor",
+          "rows": 4,
+          "clipped_normalized_loss": 0.00010212509369011968,
+          "raw_normalized_loss": 0.00010212509369011968,
+          "max_abs_arm_delta": 0.005753591191023588,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 119,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "expert",
+          "rows": 180,
+          "clipped_normalized_loss": 0.01582983136177063,
+          "raw_normalized_loss": 0.046665340662002563,
+          "max_abs_arm_delta": 0.0999969020485878,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 5269,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "recovery",
+          "rows": 7,
+          "clipped_normalized_loss": 0.019705958664417267,
+          "raw_normalized_loss": 0.6345719695091248,
+          "max_abs_arm_delta": 0.10000000149011612,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 196,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "anchor",
+          "rows": 2,
+          "clipped_normalized_loss": 0.00010915176244452596,
+          "raw_normalized_loss": 0.00010915176244452596,
+          "max_abs_arm_delta": 0.004869460593909025,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 39,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "expert",
+          "rows": 102,
+          "clipped_normalized_loss": 0.01775044947862625,
+          "raw_normalized_loss": 0.13042455911636353,
+          "max_abs_arm_delta": 0.0999995768070221,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 2973,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "recovery",
+          "rows": 22,
+          "clipped_normalized_loss": 0.008673370815813541,
+          "raw_normalized_loss": 0.20506782829761505,
+          "max_abs_arm_delta": 0.10000000149011612,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 531,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        }
+      ],
+      "development_cup_delta_RMS": 0.026157038286328316,
+      "robot_domain": {
+        "arm_outside_URDF_coordinates": 0,
+        "nominal_gripper_outside_0_1_coordinates": 17672,
+        "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+      }
+    },
+    {
+      "condition": "D_open_raw",
+      "cpu_reload_max_error": 2.86102294921875e-06,
+      "by_task_kind": [
+        {
+          "task": "beat_block_hammer",
+          "kind": "anchor",
+          "rows": 4,
+          "clipped_normalized_loss": 0.00036527070915326476,
+          "raw_normalized_loss": 0.00036527070915326476,
+          "max_abs_arm_delta": 0.01130201667547226,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 96,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "beat_block_hammer",
+          "kind": "expert",
+          "rows": 118,
+          "clipped_normalized_loss": 0.022561276331543922,
+          "raw_normalized_loss": 0.03286294639110565,
+          "max_abs_arm_delta": 0.40887948870658875,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 3223,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_empty_cup",
+          "kind": "expert",
+          "rows": 172,
+          "clipped_normalized_loss": 0.019056009128689766,
+          "raw_normalized_loss": 0.031967923045158386,
+          "max_abs_arm_delta": 0.2034153938293457,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 3620,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "anchor",
+          "rows": 4,
+          "clipped_normalized_loss": 0.0004675821401178837,
+          "raw_normalized_loss": 0.0004675821401178837,
+          "max_abs_arm_delta": 0.014396793209016323,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 110,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "expert",
+          "rows": 180,
+          "clipped_normalized_loss": 0.02683437615633011,
+          "raw_normalized_loss": 0.04574821516871452,
+          "max_abs_arm_delta": 0.43353405594825745,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 5107,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "place_shoe",
+          "kind": "recovery",
+          "rows": 7,
+          "clipped_normalized_loss": 0.6090446710586548,
+          "raw_normalized_loss": 0.044636450707912445,
+          "max_abs_arm_delta": 2.970532178878784,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 180,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "anchor",
+          "rows": 2,
+          "clipped_normalized_loss": 0.00027536862762644887,
+          "raw_normalized_loss": 0.00027536862762644887,
+          "max_abs_arm_delta": 0.012107925489544868,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 38,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "expert",
+          "rows": 102,
+          "clipped_normalized_loss": 0.08607623726129532,
+          "raw_normalized_loss": 0.09642909467220306,
+          "max_abs_arm_delta": 1.6808489561080933,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 3512,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        },
+        {
+          "task": "turn_switch",
+          "kind": "recovery",
+          "rows": 22,
+          "clipped_normalized_loss": 0.19088976085186005,
+          "raw_normalized_loss": 0.05459408089518547,
+          "max_abs_arm_delta": 1.6954573392868042,
+          "arm_outside_URDF_coordinates": 0,
+          "nominal_gripper_outside_0_1_coordinates": 628,
+          "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+        }
+      ],
+      "development_cup_delta_RMS": 0.023844677954912186,
+      "robot_domain": {
+        "arm_outside_URDF_coordinates": 0,
+        "nominal_gripper_outside_0_1_coordinates": 16514,
+        "gripper_handling": "Original native per-physics-tick np.clip; no policy-boundary clipping"
+      }
+    }
+  ],
+  "control": {
+    "exact": true,
+    "max_abs": 0.0
+  },
+  "GPU_used": false,
+  "offline_scores_are_not_success": true,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/training_result.json": "61838ece48e3a92c44de6e26eef5cb7a9ea8a3e0804f9bc7f8f2128dbbc5de86"
+  }
+}

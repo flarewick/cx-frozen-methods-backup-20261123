@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "actual_startup_failure_with_more_preparation_can_recover": true,
+  "unchanged_unknown_late_VRAM_CPU_RSS_account_software_livePID_release_failures_rejected": [
+    {
+      "case": "same_preparation",
+      "reason": "No new completed real expert preparation; unchanged retry forbidden"
+    },
+    {
+      "case": "recovery_limit",
+      "reason": "Two preparation recoveries already used in this logical batch"
+    },
+    {
+      "case": "live_old_GPU_PID",
+      "reason": "Former GPU PID still alive"
+    },
+    {
+      "case": "software_error",
+      "reason": "Software or numerical error present"
+    },
+    {
+      "case": "late_rolling_failure",
+      "reason": "Failure not in first startup resource check"
+    },
+    {
+      "case": "device_VRAM",
+      "reason": "Device VRAM violation"
+    },
+    {
+      "case": "account_limit",
+      "reason": "Account GPU violation"
+    },
+    {
+      "case": "None_utilization",
+      "reason": "Unknown utilization is never waived"
+    },
+    {
+      "case": "CPU_limit",
+      "reason": "CPU/process VRAM/RSS violation or missing metric"
+    },
+    {
+      "case": "process_VRAM",
+      "reason": "CPU/process VRAM/RSS violation or missing metric"
+    },
+    {
+      "case": "RSS_limit",
+      "reason": "CPU/process VRAM/RSS violation or missing metric"
+    },
+    {
+      "case": "release_not_proved",
+      "reason": "GPU release not proved"
+    },
+    {
+      "case": "primary_outcomes",
+      "reason": "Illegal preparation inputs"
+    },
+    {
+      "case": "old_masks",
+      "reason": "Illegal preparation inputs"
+    }
+  ],
+  "maximum_two_preparation_recoveries_per_logical_batch": true,
+  "no_service_calls": true,
+  "no_GPU_calls": true
+}

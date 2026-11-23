@@ -1,0 +1,43 @@
+{
+  "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v34/val_000/batches/000/runs/d6342b172e9c4a85bbf29824598d5f57",
+  "actual_host_exit": {
+    "exit_code": 1,
+    "actual_Popen_wait_return": true,
+    "pid": 2037630,
+    "proc_absent_after_wait": true
+  },
+  "release": {
+    "cleanup_seconds_after_start": 282.676,
+    "own_gpu_released": true,
+    "remaining_own_gpu_pids": []
+  },
+  "actual_attempt_GPU_seconds": 282.676,
+  "cumulative_VAL_GPU_seconds": 13747.181,
+  "authorized_VAL_GPU_budget_seconds": 18000,
+  "remaining_VAL_GPU_seconds": 4252.819,
+  "last_resource_metric": {
+    "seconds": 280.82,
+    "memory_mib": 18297,
+    "time_weighted_mean_utilization": 30.311471155195296,
+    "process_mean_utilization": {
+      "2052479": 29.90688884636886
+    },
+    "cpu": {
+      "2052479": 146.74679717869728
+    },
+    "rss_bytes": {
+      "2052479": 12686004224
+    }
+  },
+  "new_scientific_cases_qualified": 0,
+  "new_training_started": false,
+  "new_five_task_formal100_started": false,
+  "unchanged_retry": false,
+  "failure_excerpt": "n=34,max_memory_mib=24563,prepared_process=process,before_monitor=permit,child_exit_proof=barrier/'normal_child_exit.json',child_exit_identity=dict(attempt_nonce=nonce,gpu_uuid=info['uuid'],protocol_identity=spec['identity'],cpu_only_fixture=False,attempt_started_ns=started_ns))\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/margin.py\", line 36, in guarded_command\n    return original.guarded_command(*args,on_sample=checked,**kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_missing_guard_v2/guard.py\", line 68, in guarded_command\n    return implementation.guarded_command(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        *args, min_cumulative_utilization=MIN_GPU_UTILIZATION, max_memory_mib=MAX_GPU_MEMORY_MIB, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v13/strict_guard.py\", line 317, in guarded_command\n    raise RuntimeError(reason)\nRuntimeError: Sustained GPU utilization/VRAM threshold would not be met\n",
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v34/val_000/actual_host_wait_exit.json": "2831a1cc0d75a0b91dd0c7c3cfb516ffdfae13496424a3b5a3e796ea16a9c6b1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v34/val_000/batches/000/runs/d6342b172e9c4a85bbf29824598d5f57/protocol.json": "f23bdfa94259d140fd74c76a2582194b28000982995e3d6b441413ea53efe64a",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v34/val_000/batches/000/runs/d6342b172e9c4a85bbf29824598d5f57/attempt/resources.jsonl": "2312ffa09880e34fc4acdba7734538c620d46bf60808f0185c736f35971ab01c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v34/val_000/batches/000/runs/d6342b172e9c4a85bbf29824598d5f57/failure.json": "31cdf2826c11033f5259f7a969db6e06ea3b50b78233633886945fc8366613e1"
+  }
+}

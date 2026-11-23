@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "scope": "four_other_task_fixed_old100_full_result_and_resource_audit",
+  "created_unix_ns": 1792935916655980049,
+  "tasks": {
+    "grab_roller": {
+      "completed": 100,
+      "successes": 87,
+      "baseline_successes": 86,
+      "original_event_full_successes": 83,
+      "vs_baseline": {
+        "both_success": 85,
+        "both_failure": 12,
+        "candidate_only_success": 2,
+        "baseline_only_success": 1,
+        "net_success_difference": 1,
+        "difference_percentage_points": 1.0,
+        "exact_two_sided_mcnemar_p": 1.0
+      },
+      "vs_original_event_full": {
+        "both_success": 83,
+        "both_failure": 13,
+        "candidate_only_success": 4,
+        "baseline_only_success": 0,
+        "net_success_difference": 4,
+        "difference_percentage_points": 4.0,
+        "exact_two_sided_mcnemar_p": 0.125
+      },
+      "identity": "b5550b58a1007aa7ae9bc25e395dd00ef6c0d21b9fd0b23ac90241bdda9f952d",
+      "run": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_shared250_a050/eval_20261025_113429_506600"
+    },
+    "adjust_bottle": {
+      "completed": 100,
+      "successes": 91,
+      "baseline_successes": 90,
+      "original_event_full_successes": 86,
+      "vs_baseline": {
+        "both_success": 90,
+        "both_failure": 9,
+        "candidate_only_success": 1,
+        "baseline_only_success": 0,
+        "net_success_difference": 1,
+        "difference_percentage_points": 1.0,
+        "exact_two_sided_mcnemar_p": 1.0
+      },
+      "vs_original_event_full": {
+        "both_success": 84,
+        "both_failure": 7,
+        "candidate_only_success": 7,
+        "baseline_only_success": 2,
+        "net_success_difference": 5,
+        "difference_percentage_points": 5.0,
+        "exact_two_sided_mcnemar_p": 0.1796875
+      },
+      "identity": "c3144a5cc294fb0f14576deaf4edf888ca8cb49066c3a137a6c0bfc871798762",
+      "run": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_shared250_a050/eval_20261025_113509_811113"
+    },
+    "lift_pot": {
+      "completed": 100,
+      "successes": 20,
+      "baseline_successes": 24,
+      "original_event_full_successes": 20,
+      "vs_baseline": {
+        "both_success": 16,
+        "both_failure": 72,
+        "candidate_only_success": 4,
+        "baseline_only_success": 8,
+        "net_success_difference": -4,
+        "difference_percentage_points": -4.0,
+        "exact_two_sided_mcnemar_p": 0.3876953125
+      },
+      "vs_original_event_full": {
+        "both_success": 14,
+        "both_failure": 74,
+        "candidate_only_success": 6,
+        "baseline_only_success": 6,
+        "net_success_difference": 0,
+        "difference_percentage_points": 0.0,
+        "exact_two_sided_mcnemar_p": 1.0
+      },
+      "identity": "204e61dd0373f814dd7bef39fd79acd00cbf8bcddf79e621b01abf5f2553954a",
+      "run": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_shared250_a050/eval_20261025_113524_592660"
+    },
+    "dump_bin_bigbin": {
+      "completed": 100,
+      "successes": 63,
+      "baseline_successes": 66,
+      "original_event_full_successes": 64,
+      "vs_baseline": {
+        "both_success": 52,
+        "both_failure": 23,
+        "candidate_only_success": 11,
+        "baseline_only_success": 14,
+        "net_success_difference": -3,
+        "difference_percentage_points": -3.0,
+        "exact_two_sided_mcnemar_p": 0.6900379657745361
+      },
+      "vs_original_event_full": {
+        "both_success": 49,
+        "both_failure": 22,
+        "candidate_only_success": 14,
+        "baseline_only_success": 15,
+        "net_success_difference": -1,
+        "difference_percentage_points": -1.0,
+        "exact_two_sided_mcnemar_p": 1.0
+      },
+      "identity": "70e30f6e03c48b332a04f8ace904002e6996a5193df4fd04c6af5ed9b19015cc",
+      "run": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_shared250_a050/eval_20261025_113524_975551"
+    }
+  },
+  "sessions": [
+    {
+      "task": "grab_roller",
+      "gpu": 2,
+      "host_pid": 585956,
+      "phase": "guard_stopped",
+      "actual_samples": 65,
+      "startup_pid_vram_unavailable_samples": [
+        {
+          "seconds": 2.71,
+          "pid": 588515,
+          "device_memory_mib": 1
+        }
+      ],
+      "post300_samples": 0,
+      "release_seconds": 283.488,
+      "release_verified": true,
+      "maximum_memory_mib": 21276,
+      "maximum_account_gpus": 2,
+      "final_pid_mean": {
+        "588515": 37.38060442223341
+      },
+      "final_device_mean": 32.2622403872126,
+      "telemetry": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu2_grab_roller_1792928172245228487.jsonl"
+    },
+    {
+      "task": "grab_roller",
+      "gpu": 2,
+      "host_pid": 615765,
+      "phase": "complete_cpu_audited",
+      "actual_samples": 291,
+      "startup_pid_vram_unavailable_samples": [],
+      "post300_samples": 223,
+      "release_seconds": 1297.343,
+      "release_verified": true,
+      "maximum_memory_mib": 23126,
+      "maximum_account_gpus": 3,
+      "final_pid_mean": {
+        "618714": 54.15668045092387
+      },
+      "final_device_mean": 55.033035107010754,
+      "telemetry": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu2_grab_roller_1792928664706093332.jsonl"
+    },
+    {
+      "task": "adjust_bottle",
+      "gpu": 3,
+      "host_pid": 636516,
+      "phase": "complete_cpu_audited",
+      "actual_samples": 390,
+      "startup_pid_vram_unavailable_samples": [
+        {
+          "seconds": 2.48,
+          "pid": 639617,
+          "device_memory_mib": 1
+        }
+      ],
+      "post300_samples": 322,
+      "release_seconds": 1742.159,
+      "release_verified": true,
+      "maximum_memory_mib": 22976,
+      "maximum_account_gpus": 3,
+      "final_pid_mean": {
+        "639617": 49.16118454471737
+      },
+      "final_device_mean": 49.107824195791125,
+      "telemetry": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu3_adjust_bottle_1792929075805094923.jsonl"
+    },
+    {
+      "task": "lift_pot",
+      "gpu": 4,
+      "host_pid": 642525,
+      "phase": "complete_cpu_audited",
+      "actual_samples": 909,
+      "startup_pid_vram_unavailable_samples": [
+        {
+          "seconds": 3.0,
+          "pid": 645751,
+          "device_memory_mib": 1
+        }
+      ],
+      "post300_samples": 841,
+      "release_seconds": 4015.889,
+      "release_verified": true,
+      "maximum_memory_mib": 22555,
+      "maximum_account_gpus": 3,
+      "final_pid_mean": {
+        "645751": 50.42924452656633
+      },
+      "final_device_mean": 51.07543735288919,
+      "telemetry": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu4_lift_pot_1792929177198408158.jsonl"
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "gpu": 2,
+      "host_pid": 519908,
+      "phase": "guard_stopped",
+      "actual_samples": 63,
+      "startup_pid_vram_unavailable_samples": [
+        {
+          "seconds": 3.43,
+          "pid": 923051,
+          "device_memory_mib": 1
+        }
+      ],
+      "post300_samples": 0,
+      "release_seconds": 283.626,
+      "release_verified": true,
+      "maximum_memory_mib": 18323,
+      "maximum_account_gpus": 3,
+      "final_pid_mean": {
+        "923051": 39.53353115739294
+      },
+      "final_device_mean": 32.237201543677934,
+      "telemetry": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu2_dump_bin_bigbin_1792930025376136302.jsonl"
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "gpu": 2,
+      "host_pid": 3879521,
+      "phase": "complete_cpu_audited",
+      "actual_samples": 528,
+      "startup_pid_vram_unavailable_samples": [],
+      "post300_samples": 461,
+      "release_seconds": 2322.276,
+      "release_verified": true,
+      "maximum_memory_mib": 19735,
+      "maximum_account_gpus": 2,
+      "final_pid_mean": {
+        "84711": 74.66983434335866
+      },
+      "final_device_mean": 75.59914187522351,
+      "telemetry": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu2_dump_bin_bigbin_1792933429447406293.jsonl"
+    }
+  ],
+  "completed_candidate_episodes": 400,
+  "original_final_cpu_audits_passed": true,
+  "all_gpu_releases_verified": true,
+  "startup_samples_included": true,
+  "resource_thresholds": {
+    "cumulative_and_rolling_gpu_min": 33,
+    "rolling_seconds": 300,
+    "minimum_vram_mib": 4096,
+    "maximum_vram_mib": 24563,
+    "cpu_mean_min": 40,
+    "cpu_mean_max": 1600,
+    "maximum_rss_gib": 128,
+    "maximum_account_gpus": 3
+  },
+  "formal_baselines_rerun": false,
+  "independent_final_test": false,
+  "development_regression": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/Z_zero/eval_20261024_133103_588818/manifest.json": "321e5742174fc9e502e4c6e9b7a40cb53363c0d1f475f3aa21d59dfde91d0489",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/Z_zero/eval_20261024_133103_588818/result.json": "da653da4ad23e4d82b06298c6fa0490a59dd040b3c68e63cfb378eccd59a3228",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/Z_zero/eval_20261024_133103_588818/journal.json": "adaffeed21c13d9570f1b5519bf66f868282ac1868091fe6926c31157f1e5ac7",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_event_full/eval_20261024_133104_201845/manifest.json": "7abaa047622fd6540035e765cc51caac05c16d06f575971e51c5e114ab197021",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_event_full/eval_20261024_133104_201845/result.json": "c1a8a01e3a634502b16a82c390df5009f6abaff5981f636869679f846f6b6afb",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_event_full/eval_20261024_133104_201845/journal.json": "31100fd4af4570544b47cf3b0a20d1afe1459ef74f72eaf14724bc052eb50e91",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_shared250_a050/eval_20261025_113429_506600/manifest.json": "88ad70c2b15c39bc385a8b51a9ea9d66298db737f526f2c76a8c4d04cf674e89",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_shared250_a050/eval_20261025_113429_506600/result.json": "0e0009c94f8a8bb0fb28a53a1418905aaf34f7cea940c0cf6a6b6333d649dc60",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_shared250_a050/eval_20261025_113429_506600/journal.json": "d84f5bcfee553884f4334722eb80d6412e497f1ae703e7ee17d7c2cd1a30d92c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/grab_roller/M_shared250_a050/eval_20261025_113429_506600/concurrency_queue.json": "9ffb58bab3c1f7e59cf9e68f0ebf498bbe1df7c8d7ea9fe954979da3ffbbbe66",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/Z_zero/eval_20261024_115608_939265/manifest.json": "631a23ffe4ffa8e33757640bc61f5b08711148ff6365da7cc692426907f3366d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/Z_zero/eval_20261024_115608_939265/result.json": "16361d4ef2b7854bf41b7438818a75ac6d1d49f6e486bec941c6df21f17e2f68",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/Z_zero/eval_20261024_115608_939265/journal.json": "3a77377aa31df1e2436cd58652379367e5a9e28b9aa839e5a63ec04108946726",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_event_full/eval_20261024_115609_553625/manifest.json": "a4ca81e02fc234561919e7465a7c59a1ef7e87d6de4bb4abf5ed46b517fba196",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_event_full/eval_20261024_115609_553625/result.json": "fbddb2249bb5a52af8d71d341d62b15cda69179fbd88baadf20782f9e9d0cb8f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_event_full/eval_20261024_115609_553625/journal.json": "c3c7597072d079288d22d9e80f1a7094616c39d169c1e00cc0ce488d2fe655ae",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_shared250_a050/eval_20261025_113509_811113/manifest.json": "d0d4d0666b927871f0563d28054a48a4c76543df2a1676c3fd593f84acce316d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_shared250_a050/eval_20261025_113509_811113/result.json": "855e99eeea53476d889b4619d5bd6b719f076dd7f3b6416bec7d115f195ca81d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_shared250_a050/eval_20261025_113509_811113/journal.json": "54a1f43cbb48a49c1c92ffebcb7495e1019d92f0d08d929ce739e37024f2b6b1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/adjust_bottle/M_shared250_a050/eval_20261025_113509_811113/concurrency_queue.json": "5cd99eb0ec692a47f817923b95188ffed5d564308c6803f7896ce00707d42cff",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/Z_zero/eval_20261024_104831_584067/manifest.json": "059b053770f1915ffb0769cf482b5e4727f679f337ed085aa12ebb25a7f73017",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/Z_zero/eval_20261024_104831_584067/result.json": "98d1dda4e6e681a880746ae47e875a75a248dedd47c0ca61d2b7524f0900f106",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/Z_zero/eval_20261024_104831_584067/journal.json": "3f012dcb0a1d4eb599eb140ce36f245cff4a50c853a22799795c74716e44e190",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_event_full/eval_20261024_104832_193748/manifest.json": "9332298d51bb2faf04118e57760bb611e82a9c1a9fd3b3a0d1804daa6cd12512",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_event_full/eval_20261024_104832_193748/result.json": "e67bd66da7b1b032b39379030a95caa908a77bf2d7238733a207bb6cfc0b8000",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_event_full/eval_20261024_104832_193748/journal.json": "7d89a2bd63f792873bf2329ddb247daf1a830af5e38294e5625e8397426e9d64",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_shared250_a050/eval_20261025_113524_592660/manifest.json": "fcfae2945c25eb385f2dc369f5e0e4d9f367fd781f87177ef980664b3271020f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_shared250_a050/eval_20261025_113524_592660/result.json": "8521bf309dae22240bf67966e8b359915d3caaefbf3e0143a03683c2f4a89012",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_shared250_a050/eval_20261025_113524_592660/journal.json": "eb754d6575278984f7593374bafc4ed7ebfa1a5712c88b3a223dc0bc7f6cb4ea",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/lift_pot/M_shared250_a050/eval_20261025_113524_592660/concurrency_queue.json": "d11c6720d1d204f5ddbe1307790d2ce68d94b7a9be000af0873b50111bebb894",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/Z_zero/eval_20261024_133427_833286/manifest.json": "66576c0e71d8dac72ea32917ac2dec2241bc1dd3b3fb923c442a00f6478d7b24",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/Z_zero/eval_20261024_133427_833286/result.json": "b683a6aff42c0726aee37dc6a32b21223064475277cb84bbde6409802fbb74c1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/Z_zero/eval_20261024_133427_833286/journal.json": "fe34f52ee9780107c0e5eca83fde9768beb8e0686957f45597af8d5a4148dbfd",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_event_full/eval_20261024_133428_443884/manifest.json": "34a5f798334b2b45551c05f938eb9ea7337000044ac3e614fb2a3bfcd46a0228",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_event_full/eval_20261024_133428_443884/result.json": "e526ade5f42329bcae47d494333229b3c9922501c8bbec9a2b0d71b1d2dc6b9b",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_event_full/eval_20261024_133428_443884/journal.json": "ac80c2e859ebe34eceee0483d0e3abe8eca81fc68ec388dcdaf9ab68771bfab2",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_shared250_a050/eval_20261025_113524_975551/manifest.json": "1b018f549c219dc8174b954885c3f1e9e69a9bd8222687f8df7af20c25083b13",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_shared250_a050/eval_20261025_113524_975551/result.json": "5916677e5a7a369d4e436a4d67c207ff2e78be3cecadd78e54851a7de837912d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_shared250_a050/eval_20261025_113524_975551/journal.json": "7901f63ece9f009047e6b94a2432a903e0ef54c5c2adbaea7c937c20d57f831e",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapter_eval/dump_bin_bigbin/M_shared250_a050/eval_20261025_113524_975551/concurrency_queue.json": "27c32923ad757a53b60d8faafb0c02ee8a75d71675572f2c872c23a8e57b7b28",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu2_grab_roller_1792928172245228487.jsonl": "6bceab5ca0bca20730a2420a645ccdc3c3024508d07b9085c6f07f908e526064",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu2_grab_roller_1792928664706093332.jsonl": "7b9e150a68e8bd7b94465c40a8681f2aa609c19186b375ea3cf59317082963fa",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu3_adjust_bottle_1792929075805094923.jsonl": "1826f736d6eec9fb6c9d2c7e8d5755217b413b73c4d9553bef571f8ec2421989",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu4_lift_pot_1792929177198408158.jsonl": "ebbf19bdf3769afe97fd736fe434a42f20093e9739acb912ee4d047d1b39a241",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu2_dump_bin_bigbin_1792930025376136302.jsonl": "a58eb7db460ec62e854dd47b2e7a7be7c9574f7d10558b69a71aca74f6ecb327",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/reports/target_shared6_eval_gpu2_dump_bin_bigbin_1792933429447406293.jsonl": "e17589c8342b388811e67fda571e98da5a3642e956469f20d8bbf592cfe966b9"
+  }
+}

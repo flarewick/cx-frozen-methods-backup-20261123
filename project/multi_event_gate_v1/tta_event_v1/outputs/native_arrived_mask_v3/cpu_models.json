@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "OS_threads": 1,
+  "CPU_RNG_preserved": true,
+  "model_state_sha256": {
+    "DINO": "86dfd6940d3fa2a7e5575381c341f3a71e21159f5de97938b1ae957f909a9fba",
+    "SAM": "18cead3370d004076e8f7d65cc7698e7379098da8c8743b8fd27c8293bdc2f36",
+    "SAM2": "9dc26c27d14d6763645d49fcf250d987a94a5c7f006ee43aa52d2bb1b3bba2a3"
+  },
+  "parameter_counts": {
+    "DINO": 232313216,
+    "SAM": 93735472,
+    "SAM2": 38962498
+  },
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/grounding_dino_base/verified_manifest.json": "e05a1f5e0044721515dde4837b1f1e7a62ce62aec2f9d028b259b2822350d91c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/grounding_dino_base/config.json": "eda416dae6f49419ff831b1c190ec430a060b19aae688dbaf2425a075b650608",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/grounding_dino_base/model.safetensors": "5548f844c928c4b6f411fa8cbcc2bfa8dbbba437cb1d513975519f93c2a9ed21",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/grounding_dino_base/preprocessor_config.json": "8454179ba95e2ad22947835aad7b45862a601fc0055ab88bf1ee70892d3aea60",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/grounding_dino_base/tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/grounding_dino_base/tokenizer_config.json": "d40ab645b68211910b9170d22433d43186a6ec8ee6fd10ba170524b25bf4fb56",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/grounding_dino_base/special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/grounding_dino_base/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/sam_vit_base/verified_manifest.json": "e9c1749d7c5a0b9a5fb56de6e081d7693af1ca59de2c98132b804a9f68f26700",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/sam_vit_base/config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/sam_vit_base/model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/semantic_instances_v1/models/sam_vit_base/preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/video_instances_v1/models/verified_manifest.json": "36c48f77cd0b792a99d31e2f1393efd571a2f3e02b76737a2b5d0cd03d8a5c69",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/video_instances_v1/models/sam2.1_hiera_tiny.pt": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69"
+  },
+  "actual_CPU_fork_wait0": true,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_arrived_mask_v3/models.py": "bc25ec799449b060713f28da15f29dae70b3294c4360eeb6c7d7ba5b525ca0b7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_arrived_mask_v3/grounding.py": "2bf848b8384ce25b772f4c1fdf55ccc78b73168316eaa8d26d9c907620d3bcf2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_arrived_mask_v3/scripts/cpu_models.sh": "df2d7f6e005dd61a325953a166a212cd157879fdd891bd36528f657cbe143008"
+  },
+  "scope": "Actual frozen RGB teacher model weights/imports/noCUDA/one-thread/CPU fork only. NOT native GPU parity/resource qualification or TTA efficacy."
+}

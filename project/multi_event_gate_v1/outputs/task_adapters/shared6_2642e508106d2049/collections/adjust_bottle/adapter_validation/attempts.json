@@ -1,0 +1,521 @@
+[
+  {
+    "task": "adjust_bottle",
+    "seed": 7310000,
+    "split": "adapter_validation",
+    "episode_index": 0,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310000/session_ed0812f2b31a/data/episode0.hdf5",
+    "capture": {
+      "frames": 146,
+      "decoded_images": 438,
+      "dense_steps": 5963,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 138,
+        "zero_time_transitions": 7,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Grab the dark drink bottle with logo and lift it upright",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 7,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "2e13ec24fff2ba64663c4e118c22551e4a0f5cc0e37257c923f45902d552bce8",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5919",
+        "table_texture": "seen/6154"
+      },
+      "info": {
+        "{A}": "001_bottle/base13",
+        "{a}": "left"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310001,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_ed0812f2b31a",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310001), unstable objects: 001_bottle"
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310002,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_ed0812f2b31a",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310002), unstable objects: 001_bottle"
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310003,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310003/session_ed0812f2b31a/data/episode1.hdf5",
+    "capture": {
+      "frames": 139,
+      "decoded_images": 417,
+      "dense_steps": 5851,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 131,
+        "zero_time_transitions": 7,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Raise the Coca-Cola bottle from the table using the correct arm, the right arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 7,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "6778282f3509bcff90bc480c0024e6560b26c101ac8b236c354ba9b9c706e06e",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/205",
+        "table_texture": "seen/6757"
+      },
+      "info": {
+        "{A}": "001_bottle/base13",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310004,
+    "split": "adapter_validation",
+    "episode_index": 2,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310004/session_ed0812f2b31a/data/episode2.hdf5",
+    "capture": {
+      "frames": 153,
+      "decoded_images": 459,
+      "dense_steps": 6074,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 147,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Grab the medium dark brown bottle and lift it into a head-up position",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "f1307cd99c85d5602ebed117ade8d90001c28388671d8fbe4117c7f6adc27e01",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/9",
+        "table_texture": "seen/1578"
+      },
+      "info": {
+        "{A}": "001_bottle/base13",
+        "{a}": "left"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310005,
+    "split": "adapter_validation",
+    "episode_index": 3,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310005/session_ed0812f2b31a/data/episode3.hdf5",
+    "capture": {
+      "frames": 155,
+      "decoded_images": 465,
+      "dense_steps": 6130,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 149,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Lift the smooth green bottle from the table and secure upright",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "61fedc6dffbdaaa2620f3330b170915c165a670bcf6cd9ed1c0ad034b43177dc",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4315",
+        "table_texture": "seen/3657"
+      },
+      "info": {
+        "{A}": "001_bottle/base16",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310006,
+    "split": "adapter_validation",
+    "episode_index": 4,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310006/session_ed0812f2b31a/data/episode4.hdf5",
+    "capture": {
+      "frames": 142,
+      "decoded_images": 426,
+      "dense_steps": 5911,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 136,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Locate the smooth green bottle and lift it upright with the right arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "400ad44bb5776cd09cc583f5dc7389f8e143550f4a5c526b9520ab0b442fec10",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": null,
+        "table_texture": "seen/419"
+      },
+      "info": {
+        "{A}": "001_bottle/base16",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310007,
+    "split": "adapter_validation",
+    "episode_index": 5,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310007/session_ed0812f2b31a/data/episode5.hdf5",
+    "capture": {
+      "frames": 147,
+      "decoded_images": 441,
+      "dense_steps": 5978,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 141,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Grab the handheld green bottle head-up using the right arm from the table.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "3f71a40fa600db63f7ff73550729f56c7a1e088e8b0874571341a4c625c35236",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2304",
+        "table_texture": "seen/1227"
+      },
+      "info": {
+        "{A}": "001_bottle/base16",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310008,
+    "split": "adapter_validation",
+    "episode_index": 6,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310008/session_ed0812f2b31a/data/episode6.hdf5",
+    "capture": {
+      "frames": 146,
+      "decoded_images": 438,
+      "dense_steps": 5984,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 140,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Position the handheld green bottle head-up and lift it",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "e513f47c1f2f1ae2eae41b457d66f0dfe1ac71ec12eddeffc9bcffa3c1348183",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2446",
+        "table_texture": "seen/707"
+      },
+      "info": {
+        "{A}": "001_bottle/base16",
+        "{a}": "left"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310009,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_ed0812f2b31a",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310009), unstable objects: 001_bottle"
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310010,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310010/session_ed0812f2b31a/data/episode7.hdf5",
+    "capture": {
+      "frames": 139,
+      "decoded_images": 417,
+      "dense_steps": 5871,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 133,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Grab the medium-sized green bottle and lift it upright",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "aed249746ea443213bdddf53eea57428527afbeeedfd354dfa05c24ebe99229b",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3113",
+        "table_texture": "seen/8502"
+      },
+      "info": {
+        "{A}": "001_bottle/base16",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310011,
+    "split": "adapter_validation",
+    "episode_index": 8,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310011/session_ed0812f2b31a/data/episode8.hdf5",
+    "capture": {
+      "frames": 136,
+      "decoded_images": 408,
+      "dense_steps": 5829,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 130,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Grab the smooth bottle with red lid and lift it upward from the table.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "49ba2b4c8eeee836d889040598a1abcd4fc08ce29f93ef77b3054d3afdd86a40",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4739",
+        "table_texture": null
+      },
+      "info": {
+        "{A}": "001_bottle/base13",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 7310012,
+    "split": "adapter_validation",
+    "episode_index": 9,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ed0812f2b31a",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/adjust_bottle/adapter_validation/expert_data/seed_7310012/session_ed0812f2b31a/data/episode9.hdf5",
+    "capture": {
+      "frames": 149,
+      "decoded_images": 447,
+      "dense_steps": 6026,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 143,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "bottle",
+        "wall"
+      ],
+      "instruction": "Hold the bottle with white neck and red top upright after lifting with the left arm",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "7c8b3f8b6bd0106f34f80e9af0f35298015b142da3f9e98faa5dcac1894d2315",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3657",
+        "table_texture": "seen/5813"
+      },
+      "info": {
+        "{A}": "001_bottle/base13",
+        "{a}": "left"
+      }
+    }
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "exit_code": 0,
+  "results": [
+    {
+      "module": "native_frozen100_v11.initial_integrity_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    },
+    {
+      "module": "native_frozen100_v11.staged_FIFO_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    },
+    {
+      "module": "native_frozen100_v11.setup_fairness_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    },
+    {
+      "module": "native_frozen100_v11.lifetime_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    },
+    {
+      "module": "native_frozen100_v11.scene_cache_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    },
+    {
+      "module": "native_frozen100_v11.cpu_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    },
+    {
+      "module": "native_frozen100_watch_v11.cpu_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    },
+    {
+      "module": "native_frozen100_watch_v11.preparation_recovery_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    },
+    {
+      "module": "native_frozen100_watch_v11.reassign_checks",
+      "exit_code": 0,
+      "actual_subprocess_wait_return": true
+    }
+  ],
+  "actual_subprocess_wait_return": true,
+  "CPU_only": true
+}

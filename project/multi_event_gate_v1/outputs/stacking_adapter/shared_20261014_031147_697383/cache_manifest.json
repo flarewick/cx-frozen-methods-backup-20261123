@@ -1,0 +1,719 @@
+{
+  "complete": true,
+  "scenes": 100,
+  "rows_by_task_split": {
+    "stack_bowls_two/adapter_fit": 416,
+    "stack_blocks_two/adapter_fit": 402,
+    "stack_bowls_two/adapter_validation": 102,
+    "stack_blocks_two/adapter_validation": 103
+  },
+  "files_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_000.npz": "f38cc73b95bc8274ca1748606b52965283052122dcaa73c024d923de8dfe21a1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_001.npz": "fb4f5c4582ec00b25dd30693802520c6ee5c8e0c7838bb6873256fd959c43d63",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_002.npz": "352b79ed094db791e4ae49a65e5de00ee6aa6dc181119171d0edae53f65a1cd3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_003.npz": "0d2ccb19be8e15c49acafef12aeffa1016aae489a1827dff3fce38d0b79f27d2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_004.npz": "3d0c1c05cc1e804ca4e9603a654d6865ecaa7bb9cfbeeaa18c1d681698df3546",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_005.npz": "74888411ecb0b976e9d869a78369e7da04c05c90d25d0e9fee7c093e88f2725b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_006.npz": "573b335d9777834c4b091383feac2ee325b4bb6c6c4cacfb225230aa4c68309d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_007.npz": "9a7419480d0002a87f65b77362ba59d07e594b4e8235afea45ee54860e0cac36",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_008.npz": "dad73cba4c2b1c918bf567de5a8c1385b00f4a194785b8e8b0363d4f223ff9c3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_009.npz": "9629eb0887408841683f2b5ae7bae70abdfbbb29b69424a0e4f3c275229dbeaa",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_010.npz": "4ed5aa6dde5e2614e8292a5053d77ad7a3eb53f141e0a283492800cbf40e6bf7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_011.npz": "887a4cff33c349fb5c5310ecb99e52973fcc99574a01f80d47c7702831fc15b9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_012.npz": "4c042d762917be4a9f2205c217eec67841bb971229429a9142add15e85aa8a34",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_013.npz": "8db33ffc40127801f99313d5f4c2637d8456b11698d0f62faa795e8850824a7a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_014.npz": "863c1fae8577428a938a20608987836f22383f846502126477eda0af921b748c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_015.npz": "b5e6f29f077f79f9a6a0ee3c7cf1adc9555d83a31d0653eb10ea04d45f263aff",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_016.npz": "040d2c506341c45a6e1d6a0566faca0f51ffc48ab754cb4472b6e8bf282ae08f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_017.npz": "e1b9e7a72036393a69fc3e90f031cddd69b380ec06cecf19351e7032fc4f80ee",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_018.npz": "9c11dd8663dc15fde356fe287cbd892cf372136378fe5559d3c501fd3f0c54ce",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_019.npz": "bf2a186363e02dc4e9b2668fd77380101607594704f689d5208c3adb8d75da18",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_020.npz": "748ea4670f0b8319e7ab61587e827e45267451c02601f212caeec8d5de1a26f1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_021.npz": "fef73acd7e6f6e93f5d61cb0de108d0947e944786d5e744bcea20b09e9b3d971",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_022.npz": "5704c15389bcde3205e7fe236a2d8671839acfe0307c4bcc6cf18bf27e05a83d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_023.npz": "08a5bcc15ded7396ff3d42d8dd3124cd2d8374b1b8f221f140a03d93f28409ea",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_024.npz": "4259c435266f4074f2f09cae255198c285a57ebf9981f6c4d440eed4c15d329e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_025.npz": "0527a5c5faa06403b18df96490e53f053d55cf47ffa2f67099d750eb9bca41fd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_026.npz": "be02465adec3b85a578f0b0a5925e68f67a7cc50a41f18f477ac67c63bfa8c08",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_027.npz": "22f4a519a15aee2afb7f7a2621062d383a7a7ab409d23504d28dfe521aac17a9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_028.npz": "dcf9ddc97b89951acfde9cc318864a0a1a34c370aa12fe805e61826d70f2608d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_029.npz": "88f2caa464ca7d9147ffb24aa4272915c7aa2bf00d1182c547a5b87d164fa7bc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_030.npz": "13fed632ac42365a92f7695792a34316ae6bbfbb1d4474713031c446ed748407",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_031.npz": "b0020bbac037042100eecea6d369f1a30c4a6b27750b1d7cbf14d40add257a1d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_032.npz": "862d94216887ea8fc3986449087d4655522c7ceaa1365259a57514a64ca58b30",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_033.npz": "91317c2bfb90063e2451b84e3497f4de95fdbfe325dd62b7c5178e08655c0378",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_034.npz": "146c516007aa951730c3de018c32e9fb9ca309324c7b8635a3ccd41e2085a0d8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_035.npz": "cf192912909c6f11d25111e3e4a2944eef85d54c4bf04195976921e75db0b3bc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_036.npz": "941389b3ad1d1780b43b828ff7f119961cf99d5b10bff2e2533b944c86681911",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_037.npz": "d773963d524cab278cbf274415a9a95d6d749db9701f8d27dbc5e1ea05b64f38",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_038.npz": "7ee87c201978dc3eaeb413cd58d54d2ca2a78e6dd6d8b1eef560825928e63539",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_039.npz": "ea2f4fa5f4315ef7291486bc2c5fb63d33e9aad7ab975b24485e01ad8efd19fe",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_040.npz": "42839171ecf4c38f6ace094606630a54b8467f034cee882f7021ccb61b4e55b2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_041.npz": "65e6f806292962d1084d5963ec4a04bc77fe8ea435b13cee28a6384a9e283851",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_042.npz": "c692b40fae56e58d1e29f6043bc681fbd628e8f4f2a06950b82feb468d5b162c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_043.npz": "c6bc557fe4044786e5b78448da537c23e8a5d583cf974b5adf7fbb3354fe19c4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_044.npz": "3fc418df8f65ffed39f5465233dd4cb5af77e1ccb57b37e81b68c6b1fa0ce262",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_045.npz": "fc1a80e774d34b165b9c8218d5f55b19f71ce469555824e280820d2bff1aed73",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_046.npz": "e2f8e7ecaa5dce2b49b346660197a455d3ad3e0fa53646d07ea9171f244ca845",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_047.npz": "1ddfe1a541d7ccb4922159cadf5808d753b928787c8b5047ede23679d1b7f1e3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_048.npz": "6176c3e9a8e067d847a8ded2059da3eb69501c4777980cc5bc7ef3c29bd2c675",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_049.npz": "528784232ee42510386f9d50a2fede7297a0973803999081bc9d6075e70bb66d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_050.npz": "e97d0c59da9b1847a2bd03c5b3a6e5f0e41a706334db7341de4670a33de86fc5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_051.npz": "7aea60089537f0eda7de438989e5aed284b8688dd0c242dec8cf3ff799fea25a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_052.npz": "8b836e9a54f6616ef4885ddaa48ad8c67256f7c1a2b9ce50b20d50ba0c99bdb6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_053.npz": "62e239c5617832db0e5cbab9d048aefbbac3bc33ad75e2e187302d6965c26d6b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_054.npz": "02e890686ff4206f0103bc3cb7e8f0978008aa2ea5f8011cdea3f6d7a10a8b00",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_055.npz": "0b2a2f14f9ff4065731dd45d2f11ec9dbfca979999e5c0870752fa93873af965",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_056.npz": "c5dea06eb347b49f376c3f81e11fd063db574307f61346d66aaadafc3df27a7f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_057.npz": "939649b4dd478050460e669563c89342676c935e47aedc81a359be86c2a0e231",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_058.npz": "9540d0e8f6c9bbd8971f6f59efa3bfe93ee5086fc18618efff1749262a537ac0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_059.npz": "35df2bf8b0e4116f3f901776f989cb92b67df89f754accfd4ca1c4e3d48f854d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_060.npz": "35610d37f867fc28309d0a7f756f4a73800c61a77d07fdaa13f335ba28eebfb8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_061.npz": "10adbc804f01c54a4f994156ac98c71e875e6ab255e8214feecba21f6afc63af",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_062.npz": "e482557981ea1d8d32aee07bf17af5a6ccd69667c552f498fb4f159feed662b8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_063.npz": "4f96e95f8c61d0295c0a24af8cd975cb4fb9c93e7c1fc302ad3ab6e3f39f85d3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_064.npz": "09e664d7d901d7d1ce716563088147ca210b389f5a347498ca20cfd47dca6cd2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_065.npz": "53d2e1549eb6a19953943637820452d7636c830f21b4b8ae1b1a0f4a62149fb1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_066.npz": "83ac360b45f1bf8c2e8733a2ecda17e942eb09676a64235cd22b8babceb35486",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_067.npz": "6e0493d031c4468666994cb5dc154644637a717776627cbf50af0e04b9d9ba5a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_068.npz": "dbd59471feadb4f01a760037d8a870f372e827744e624494ad1113737fa6ab91",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_069.npz": "9d963681c074baf8cba70e71f341ace46a92eed2e059b5e33c39eed0ae2ca6e1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_070.npz": "c9af41b33fcf8dc19c30fb03d478be74c3c3b813445f1b34f80ea6b338394495",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_071.npz": "b009ad74e106e29ac3a317584d1e2139f625b0fd8b4e9666f7bd23d01342c65e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_072.npz": "b2c195bdabb68423f6c0f777c5e7fc502e156d3abd7df33f789e5cd2753e6ca2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_073.npz": "356e6d9e342ce0e55378a432c8ad180052fb10f1e1760a9d7766e63de7def2c5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_074.npz": "16c3ee6275c8474abd7167f0e4857a0f66ba635cb02ef6d3cf95589514d13b5f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_075.npz": "ad83418ac2a105739beddd3dfb46edfe14e939805d407b7bc1976a53e421917d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_076.npz": "983f5a57d70b75dc2ee60526330f79e047d8510e638134101be3ac99e51d77d5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_077.npz": "81e1e17fc74145c7814dbf0faa61ae2b66e5a2557e0f55b265aa3c02f03f7483",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_078.npz": "c4c1f442ee07b9ea6746d3b1ce367ee2dbee25fc7df981ee15f43daee277f001",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_079.npz": "bd6859b1d8515d2f58c617cb1b6bc72a674f609bfa01a0bcc3e060f21f122875",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_080.npz": "9492fd00507e3d827fe0fd9b4e256a9c388ded97460d592caf1138e20be53470",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_081.npz": "3088a94d976e24b528f0abbd165e2a34dc44df3638863e3835dfcdbd96eb3d28",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_082.npz": "315e6f36c36b959d4903a7490a778a7e403487012bc0deac9d0a5a0085103215",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_083.npz": "fc86fd96d2a7d30da3abab2a0117cd58e66cd4c30fbf51342aae1f1b0bc46692",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_084.npz": "aed999337e884b7ca289949cae597aba650763a79e0385d5bb8b7dca43974690",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_085.npz": "724d6faad211eda1d67c7947b850b3acf6617760108402ef96ed620b9979c702",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_086.npz": "770b7617e630efb67a4c07f3b0386ce6377fad3e07de813dd28636119026247e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_087.npz": "f351a2fbe2fd1e6f36a39fb1da6ef1aa80675b153001a23199bc62d8e3ae4bd5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_088.npz": "ad072242bff793ec834bd2397e61d55af95e1e1682ad4ff82a65b29a2fb145a3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_089.npz": "07c2cf1cdfc01e37b150c5d93f24692b4dba2a02319f9e3461e5f365b5c3a3b7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_090.npz": "fbaf44c2ffbdaf9e9c32138a6b4ac3590d37de9ecd62f8e42dd2d5cbf58b780d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_091.npz": "966c9c8d7e4967cc96533b3bfc6ddf18b3eea93d9c9fbcc46260d8ed563ba3ff",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_092.npz": "e304a6e247d2a5a9cd0b8a601c353ab050f05218cd7d9e657ced1abd2fd5f697",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_093.npz": "b14430ee32edded23320fa2b41ac7d27d97ae3e170e504eff0327e85e84e6a33",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_094.npz": "5cde540a2f1e5ab6e00a59d3235a555ee598a72b13f55731b410655756a1c7fd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_095.npz": "33c6ab3a9d36800c1aa3d9a1e653b5732372bfd23bdde25a753eb16f7b370be4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_096.npz": "fad0384e26b8a5004a8c1013125e9e07b0785355f5ad5900a3de8688deaffef5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_097.npz": "55e8e1ce6220197b324e90583d8903f17ab1e47291c33ecc40c326fc442bff78",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_098.npz": "4b5eb3d2034fa4a8e13a2a9a3bf8a2ca10e497ccad63abdea50d0deb17f0404c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/cache/scene_099.npz": "b5b8213ef67f1596e6c39bf76cadd2dfd18c23532204fa2b0db1d51f430dce23"
+  },
+  "plan_sha256": "47ab6b51c4bcf36659ff1d5e38d21e6bdd7f8e0fdaabe3a0d69ffbbf46d6a85a",
+  "saturation": [
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100000,
+      "fraction_outside_cap": 0.02909090909090909
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100001,
+      "fraction_outside_cap": 0.07663690476190477
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100002,
+      "fraction_outside_cap": 0.0335608646188851
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100003,
+      "fraction_outside_cap": 0.03895768833849329
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100007,
+      "fraction_outside_cap": 0.03850050658561297
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100008,
+      "fraction_outside_cap": 0.020762229806598406
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100009,
+      "fraction_outside_cap": 0.024916943521594685
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100010,
+      "fraction_outside_cap": 0.030821917808219176
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100011,
+      "fraction_outside_cap": 0.03354632587859425
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100014,
+      "fraction_outside_cap": 0.04509132420091324
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100015,
+      "fraction_outside_cap": 0.01295045045045045
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100017,
+      "fraction_outside_cap": 0.08476599808978033
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100018,
+      "fraction_outside_cap": 0.07445589919816724
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100022,
+      "fraction_outside_cap": 0.01293103448275862
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100024,
+      "fraction_outside_cap": 0.023060796645702306
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100025,
+      "fraction_outside_cap": 0.048317046688382194
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100026,
+      "fraction_outside_cap": 0.021885521885521887
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100027,
+      "fraction_outside_cap": 0.10678506375227687
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100028,
+      "fraction_outside_cap": 0.037751677852348994
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100029,
+      "fraction_outside_cap": 0.056010928961748634
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100031,
+      "fraction_outside_cap": 0.04954268292682927
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100032,
+      "fraction_outside_cap": 0.0246690734055355
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100033,
+      "fraction_outside_cap": 0.021701388888888888
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100034,
+      "fraction_outside_cap": 0.06048387096774194
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100036,
+      "fraction_outside_cap": 0.02402676399026764
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100037,
+      "fraction_outside_cap": 0.02927927927927928
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100039,
+      "fraction_outside_cap": 0.045376712328767124
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100040,
+      "fraction_outside_cap": 0.04639175257731959
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100041,
+      "fraction_outside_cap": 0.012471655328798186
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100042,
+      "fraction_outside_cap": 0.05292792792792793
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100043,
+      "fraction_outside_cap": 0.03793103448275862
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100045,
+      "fraction_outside_cap": 0.023148148148148147
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100046,
+      "fraction_outside_cap": 0.03272827282728273
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100047,
+      "fraction_outside_cap": 0.038273615635179156
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100048,
+      "fraction_outside_cap": 0.02696969696969697
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100049,
+      "fraction_outside_cap": 0.01261737089201878
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100050,
+      "fraction_outside_cap": 0.03115264797507788
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100052,
+      "fraction_outside_cap": 0.0739247311827957
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100054,
+      "fraction_outside_cap": 0.03270762229806599
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_fit",
+      "seed": 7100055,
+      "fraction_outside_cap": 0.02005649717514124
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100000,
+      "fraction_outside_cap": 0.011185682326621925
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100001,
+      "fraction_outside_cap": 0.01807909604519774
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100002,
+      "fraction_outside_cap": 0.040313852813852816
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100003,
+      "fraction_outside_cap": 0.00975473801560758
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100004,
+      "fraction_outside_cap": 0.02976190476190476
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100005,
+      "fraction_outside_cap": 0.010919540229885057
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100006,
+      "fraction_outside_cap": 0.03352130325814536
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100007,
+      "fraction_outside_cap": 0.02885652642934196
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100008,
+      "fraction_outside_cap": 0.06060606060606061
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100009,
+      "fraction_outside_cap": 0.05858085808580858
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100010,
+      "fraction_outside_cap": 0.043611111111111114
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100011,
+      "fraction_outside_cap": 0.04422869471413161
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100012,
+      "fraction_outside_cap": 0.04008073817762399
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100013,
+      "fraction_outside_cap": 0.06655290102389079
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100014,
+      "fraction_outside_cap": 0.03800675675675676
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100015,
+      "fraction_outside_cap": 0.018583042973286876
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100016,
+      "fraction_outside_cap": 0.006944444444444444
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100017,
+      "fraction_outside_cap": 0.025146198830409357
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100018,
+      "fraction_outside_cap": 0.019319492502883506
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100019,
+      "fraction_outside_cap": 0.020755885997521685
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100020,
+      "fraction_outside_cap": 0.03164924506387921
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100021,
+      "fraction_outside_cap": 0.003995433789954338
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100022,
+      "fraction_outside_cap": 0.01845444059976932
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100024,
+      "fraction_outside_cap": 0.020292207792207792
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100026,
+      "fraction_outside_cap": 0.017006802721088437
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100027,
+      "fraction_outside_cap": 0.023690078037904124
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100028,
+      "fraction_outside_cap": 0.021752450980392156
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100029,
+      "fraction_outside_cap": 0.0039149888143176735
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100031,
+      "fraction_outside_cap": 0.04106280193236715
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100032,
+      "fraction_outside_cap": 0.03822882288228823
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100033,
+      "fraction_outside_cap": 0.033045977011494254
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100035,
+      "fraction_outside_cap": 0.016888150609080842
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100036,
+      "fraction_outside_cap": 0.016057585825027684
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100037,
+      "fraction_outside_cap": 0.045805739514348784
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100038,
+      "fraction_outside_cap": 0.0033003300330033004
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100040,
+      "fraction_outside_cap": 0.016496018202502846
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100042,
+      "fraction_outside_cap": 0.03977932636469222
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100043,
+      "fraction_outside_cap": 0.040249433106575964
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100044,
+      "fraction_outside_cap": 0.02795874049945711
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_fit",
+      "seed": 7100045,
+      "fraction_outside_cap": 0.042655367231638416
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101000,
+      "fraction_outside_cap": 0.061617806731813246
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101002,
+      "fraction_outside_cap": 0.030612244897959183
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101005,
+      "fraction_outside_cap": 0.018742791234140715
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101006,
+      "fraction_outside_cap": 0.03976608187134503
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101007,
+      "fraction_outside_cap": 0.05005787037037037
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101008,
+      "fraction_outside_cap": 0.028735632183908046
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101010,
+      "fraction_outside_cap": 0.03620689655172414
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101011,
+      "fraction_outside_cap": 0.02481121898597627
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101013,
+      "fraction_outside_cap": 0.02824858757062147
+    },
+    {
+      "task": "stack_bowls_two",
+      "split": "adapter_validation",
+      "seed": 7101014,
+      "fraction_outside_cap": 0.021135265700483092
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101000,
+      "fraction_outside_cap": 0.028253424657534245
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101001,
+      "fraction_outside_cap": 0.026601520086862108
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101002,
+      "fraction_outside_cap": 0.02005649717514124
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101003,
+      "fraction_outside_cap": 0.04324169530355097
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101004,
+      "fraction_outside_cap": 0.04734848484848485
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101005,
+      "fraction_outside_cap": 0.015484234234234234
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101006,
+      "fraction_outside_cap": 0.044372294372294376
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101007,
+      "fraction_outside_cap": 0.05331088664421998
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101008,
+      "fraction_outside_cap": 0.018976897689768978
+    },
+    {
+      "task": "stack_blocks_two",
+      "split": "adapter_validation",
+      "seed": 7101009,
+      "fraction_outside_cap": 0.023321956769055744
+    }
+  ],
+  "history": "current_only",
+  "targets": "expert_saved_sequence_only",
+  "native_recovery_validated": false,
+  "success_preservation_included": false
+}

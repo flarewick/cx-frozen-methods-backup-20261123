@@ -1,0 +1,42 @@
+[
+  [
+    "assert case_count==6",
+    "assert case_count==len(spec['tasks'])*spec['episodes_this_stage']and 1<=spec['episodes_this_stage']<=12"
+  ],
+  [
+    "spec['scope']=='seven_task_plain_TRAIN_interface_validation'",
+    "spec['scope']=='seven_task_TRAIN_plain_early8'"
+  ],
+  [
+    "from native_trained_runtime_v1.actor import AuditedActor as OriginalAuditedActor",
+    "from .method import AuditedActor as OriginalAuditedActor"
+  ],
+  [
+    "branches=before_tail(['M_event_full','baseline','TTA']+",
+    "branches=before_tail(['M_event_full','TTA']+"
+  ],
+  [
+    "controls=item['episode_index']==0",
+    "controls=item['episode_index']==spec['initial_screen_state'][item['task']]['accepted']"
+  ],
+  [
+    "or item['episode_index']==0)",
+    "or item['episode_index']==spec['initial_screen_state'][item['task']]['accepted'])"
+  ],
+  [
+    "from native_q0_task_handoff_v3.control import compare",
+    "from .method import compare"
+  ],
+  [
+    "new_official_EVAL_scenes=0,replayed_TRAIN_benchmark_scenes=case_count",
+    "new_official_EVAL_scenes=case_count,replayed_TRAIN_benchmark_scenes=0"
+  ],
+  [
+    "from .reference_order import before_tail",
+    "from .reference_order import before_tail,include_reference"
+  ],
+  [
+    "branches[:]=before_tail(branches+['handoff_reference'])",
+    "branches[:]=include_reference(branches)"
+  ]
+]

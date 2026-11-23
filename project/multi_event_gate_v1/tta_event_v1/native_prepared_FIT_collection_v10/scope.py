@@ -1,0 +1,26 @@
+from native_prepared_FIT_collection_v9.scope import transform as previous_transform,restore_runtime as previous_restore
+from native_prepared_FIT_collection_v8.scope import INIT as OLD_INIT
+NEW_INIT=" from native_render_overlap_v2.scheduler import NativeOverlap\n from native_render_overlap_v2.codes import original_controls\n render_overlap=NativeOverlap(c,torch,c.native,lambda:denoise_graph.entry is not None,control_codes=original_controls(execute,check_precision.__code__))\n c.native=render_overlap\n from native_image_readback_gil_v1.shadow import configure as configure_image_shadow\n configure_image_shadow(render_overlap)\n from native_image_readback_gil_v1.loader_validated import load as load_image_reader\n load_image_reader()\n"
+OLD_IMPORT='from native_camera_readback_fast_v1.readback import install as install_exact_readback'
+NEW_IMPORT='from native_image_readback_gil_v1.readback_shadow_v2 import install as install_exact_readback'
+OLD_CALL="install_exact_readback(task,branch=='M_event_full')"
+NEW_CALL="install_exact_readback(task,branch=='M_event_full',render_overlap)"
+REPORT=" from native_image_readback_gil_v1.shadow import report as image_shadow_report\n write(root/'native_image_readback_runtime.json',image_shadow_report(render_overlap))\n"
+HOST="        from native_image_readback_gil_v1.shadow import audit as audit_native_image\n        write(root/'CPU_native_image_readback_audit.json',audit_native_image(root,spec))\n"
+PLAN="  final=T/'outputs/native_onpolicy_full_ops_v2/ARM54_actual_resource_result_v1.json';fv=read(final);verify(fv);assert fv['release']['own_gpu_released']and fv['cumulative_stage_GPU_seconds']==2220.983\n  if split=='fit'and number==0:v['inherited_stage_GPU_seconds']=fv['cumulative_stage_GPU_seconds']\n  from native_direct_frames_v2.verify import verify_proof\n  cpp=T/'outputs/native_image_readback_gil_v1/CPU_build_checks_v3.json';cp=read(cpp);assert cp['passed']and verify_proof(cp)and cp['actual_production_owned_copy_not_overwritten_by_later_input']\n  binary=mapped(cp['binary']);assert sha(binary)==cp['binary_sha256']\n  pixel=T/'outputs/native_image_readback_gil_v1/CPU_shadow_pixel_checks_v2.json';pp=read(pixel);assert pp['passed']and verify_proof(pp)\n  owner=T/'outputs/native_render_overlap_v2/CPU_contract_checks_v2.json';op=read(owner);verify(op);assert op['passed']and op['actual_six_control_model_requests_and_final_RNG_match_original']\n  exits=[T/'outputs/native_image_readback_gil_v1/CPU_actual_host_exit_v3.json',T/'outputs/native_image_readback_gil_v1/CPU_shadow_actual_host_exit_v2.json',T/'outputs/native_render_overlap_v2/CPU_checks_actual_host_exit_v4.json']\n  for file in exits:\n   x=read(file);assert x['exit_code']==0 and x['actual_Popen_wait_return']and x['proc_absent_after_wait']\n  v['native_original_getImage_GIL_release_async_readback']=True\n  v['first12_same_captured_RGBA_shadow_NOT_standalone_GPU_probe']=True\n  v['new_getter_not_qualified_by_old_GPU41_whole25_and_new_raw_proof_required']=True\n  v['input_sha256'].update({str(p):sha(p)for p in[final,cpp,pixel,owner,binary,*exits]})\n  v['source_sha256'].update({str(p):sha(p)for folder in['native_image_readback_gil_v1','native_render_overlap_v2','native_prepared_FIT_collection_v9','native_prepared_FIT_collection_v10']for p in(T/folder).glob('*')if p.is_file()})\n"
+def transform(name,text):
+ text=previous_transform(name,text).replace('native_onpolicy_arm_collection_v54','native_onpolicy_arm_collection_v55').replace('native_onpolicy_calibration_data_v37','native_onpolicy_calibration_data_v38').replace('native_prepared_FIT_collection_v9','native_prepared_FIT_collection_v10')
+ if name=='runtime.py':
+  assert text.count(OLD_INIT)==1;text=text.replace(OLD_INIT,NEW_INIT)
+  assert text.count(OLD_IMPORT)==1 and text.count(OLD_CALL)==1;text=text.replace(OLD_IMPORT,NEW_IMPORT).replace(OLD_CALL,NEW_CALL)
+  anchor=" write(root/'render_overlap_runtime.json',render_overlap.report())\n";assert text.count(anchor)==1;text=text.replace(anchor,anchor+REPORT)
+ if name=='host.py':
+  text=text.replace('native_render_overlap_v1.audit','native_render_overlap_v2.audit')
+  anchor="        write(root / 'atomic_full_recovery_qualification.json',";assert text.count(anchor)==1;text=text.replace(anchor,HOST+anchor)
+  anchor="for p in (root/'CPU_render_overlap_audit.json',";assert text.count(anchor)==1;text=text.replace(anchor,"for p in (root/'CPU_native_image_readback_audit.json',root/'CPU_render_overlap_audit.json',")
+ if name=='collection_plan.py':
+  anchor='  from native_unread_capture_full_v1.budget import require_planned_full_batch\n';assert text.count(anchor)==1;text=text.replace(anchor,PLAN+anchor)
+ return text.replace('outputs/native_onpolicy_arm_collection_v55/CPU_contract_checks_v1.json','outputs/native_onpolicy_arm_collection_v55/CPU_contract_checks_v3.json').replace('outputs/native_onpolicy_arm_collection_v55/CPU_actual_host_exit_v1.json','outputs/native_onpolicy_arm_collection_v55/CPU_actual_host_exit_v3.json')
+def restore_runtime(text):
+ assert text.count(NEW_INIT)==text.count(NEW_IMPORT)==text.count(NEW_CALL)==text.count(REPORT)==1
+ return previous_restore(text.replace(NEW_INIT,OLD_INIT).replace(NEW_IMPORT,OLD_IMPORT).replace(NEW_CALL,OLD_CALL).replace(REPORT,''))

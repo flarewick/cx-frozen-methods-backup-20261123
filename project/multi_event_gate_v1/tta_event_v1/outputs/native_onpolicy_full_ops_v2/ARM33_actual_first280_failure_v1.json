@@ -1,0 +1,38 @@
+{
+  "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v33/val_000/batches/000/runs/5cc1262a30944d57b07b8ec434782df9",
+  "actual_host_exit": {
+    "exit_code": 1,
+    "actual_Popen_wait_return": true,
+    "pid": 1998453,
+    "proc_absent_after_wait": true
+  },
+  "release": {
+    "cleanup_seconds_after_start": 283.716,
+    "own_gpu_released": true,
+    "remaining_own_gpu_pids": []
+  },
+  "actual_attempt_GPU_seconds": 283.716,
+  "cumulative_VAL_GPU_seconds": 13464.505,
+  "authorized_VAL_GPU_budget_seconds": 18000,
+  "remaining_VAL_GPU_seconds": 4535.495,
+  "last_resource_metric": {
+    "seconds": 281.82,
+    "memory_mib": 18955,
+    "time_weighted_mean_utilization": 23.460988978628492,
+    "process_mean_utilization": {
+      "2015629": 23.01492537313433
+    },
+    "cpu": {
+      "2015629": 148.3327949464102
+    }
+  },
+  "new_scientific_cases_qualified": 0,
+  "head_only_NOT_retained_in_next_candidate": true,
+  "unchanged_retry": false,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v33/val_000/actual_host_wait_exit.json": "5633d35a4f8a8ca93e5ee0d9391b7e6351874b1e9ab97ac40023a417e309a747",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v33/val_000/batches/000/runs/5cc1262a30944d57b07b8ec434782df9/protocol.json": "534a819cbfc0e925fc241cedb2733292176c0553f3b8c0533fca901a44f7af37",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v33/val_000/batches/000/runs/5cc1262a30944d57b07b8ec434782df9/failure.json": "c7b1f9fd7c640ed13cc4a9cf68660d37e6486d968fd2ac08e213de11f2f96245",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v33/val_000/batches/000/runs/5cc1262a30944d57b07b8ec434782df9/attempt/resources.jsonl": "2e6d409fd7366763931fcb7ce6c99ddd510ab5af18134ada2335d6d75419f094"
+  }
+}

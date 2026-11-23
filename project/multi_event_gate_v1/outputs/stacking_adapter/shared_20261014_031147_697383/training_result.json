@@ -1,0 +1,104 @@
+{
+  "status": "complete",
+  "checkpoint": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/adapter_seed0.pt",
+  "checkpoint_sha256": "879abedd3a91d9c813abbbc4f03b7114c74a5da32be89381fec7557926558f3f",
+  "updates": 1400,
+  "history": [
+    {
+      "step": 1,
+      "loss": 0.06134290248155594
+    },
+    {
+      "step": 100,
+      "loss": 0.026955589652061462
+    },
+    {
+      "step": 200,
+      "loss": 0.020915955305099487
+    },
+    {
+      "step": 300,
+      "loss": 0.016984138637781143
+    },
+    {
+      "step": 400,
+      "loss": 0.014445668086409569
+    },
+    {
+      "step": 500,
+      "loss": 0.012668231502175331
+    },
+    {
+      "step": 600,
+      "loss": 0.011297537013888359
+    },
+    {
+      "step": 700,
+      "loss": 0.01020594872534275
+    },
+    {
+      "step": 800,
+      "loss": 0.009301330894231796
+    },
+    {
+      "step": 900,
+      "loss": 0.008581021800637245
+    },
+    {
+      "step": 1000,
+      "loss": 0.007995023392140865
+    },
+    {
+      "step": 1100,
+      "loss": 0.007509846240282059
+    },
+    {
+      "step": 1200,
+      "loss": 0.007101061753928661
+    },
+    {
+      "step": 1300,
+      "loss": 0.006743425503373146
+    },
+    {
+      "step": 1400,
+      "loss": 0.006429015193134546
+    }
+  ],
+  "reports": [
+    {
+      "split": "adapter_fit",
+      "task": "stack_blocks_two",
+      "rows": 402,
+      "direction_loss": 0.0055018882267177105,
+      "initial_loss": 0.05925546586513519,
+      "zero_loss": 0.03228059038519859
+    },
+    {
+      "split": "adapter_fit",
+      "task": "stack_bowls_two",
+      "rows": 416,
+      "direction_loss": 0.007347922306507826,
+      "initial_loss": 0.06343033909797668,
+      "zero_loss": 0.03995377570390701
+    },
+    {
+      "split": "adapter_validation",
+      "task": "stack_blocks_two",
+      "rows": 103,
+      "direction_loss": 0.044644951820373535,
+      "initial_loss": 0.06666232645511627,
+      "zero_loss": 0.03463197126984596
+    },
+    {
+      "split": "adapter_validation",
+      "task": "stack_bowls_two",
+      "rows": 102,
+      "direction_loss": 0.043495334684848785,
+      "initial_loss": 0.05695733428001404,
+      "zero_loss": 0.03695091977715492
+    }
+  ],
+  "device": "cuda",
+  "interpretation": "Offline expert initialization only. No task-success or recovery benefit established."
+}

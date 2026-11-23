@@ -1,0 +1,848 @@
+{
+  "passed": true,
+  "endpoint_readback_version": "native_best100_endpoint_v1",
+  "endpoint_readback_evidence": [
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100069/M_event_full/execution002.json",
+      "sha256": "20df6f855e87cb7c2a999ead6bf882bc29ce61541d3d903c03594bdb8e255e82",
+      "tick": 2188,
+      "elapsed_s": 8.752000415697694,
+      "old_head_RGB_sha256": "c7d41595c325d7d70e18c42ecdc0fb5171de916518b0730a75f54617d794fe28",
+      "new_head_RGB_sha256": "c7d41595c325d7d70e18c42ecdc0fb5171de916518b0730a75f54617d794fe28",
+      "RGB_changed": false,
+      "native_observation_cadence_preserved": true,
+      "physical_and_own_command_exact": true,
+      "callback_not_previously_dispatched": true,
+      "only_one_feedback_frame_dispatched": true
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100069/TTA/execution002.json",
+      "sha256": "ab8e5edb26c70879bd0935e36293b43d580f0545405fe7c753687ceab493354c",
+      "tick": 2188,
+      "elapsed_s": 8.752000415697694,
+      "old_head_RGB_sha256": "c7d41595c325d7d70e18c42ecdc0fb5171de916518b0730a75f54617d794fe28",
+      "new_head_RGB_sha256": "c7d41595c325d7d70e18c42ecdc0fb5171de916518b0730a75f54617d794fe28",
+      "RGB_changed": false,
+      "native_observation_cadence_preserved": true,
+      "physical_and_own_command_exact": true,
+      "callback_not_previously_dispatched": true,
+      "only_one_feedback_frame_dispatched": true
+    }
+  ],
+  "projection_guard_version": "native_best100_projection_guard_v1",
+  "projection_missing_windows": {
+    "M_event_full": 0,
+    "TTA": 0
+  },
+  "projection_source_evidence": [
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100068/M_event_full/source00/source.json",
+      "sha256": "91e21088e840f5f4092205b3b5a414e258d515b46f188e6ba97a0d79739d67a0",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100068/M_event_full/source01/source.json",
+      "sha256": "c2e0de30d5eb366ab027ffb7837ef35c1c8e3e915243737159f93a2e527e2fcf",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100068/M_event_full/source02/source.json",
+      "sha256": "bfb00144d23fce310da850c45c70397e8ad3fc105b4468971d09894726cee1c3",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100068/TTA/source00/source.json",
+      "sha256": "f6b0f6cf6768c66015d0b88acb4a33146ddf03ce510387abf977aff04c79a739",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100068/TTA/source01/source.json",
+      "sha256": "bd2c655b3622e89f595b101b2474aab485e1fedea59dad5c23e6e2281906d039",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100068/TTA/source02/source.json",
+      "sha256": "d05d1f16e376f620aef7a1fa9ab067cc16160dacd514857153a987bbcd61cc2b",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100069/M_event_full/source00/source.json",
+      "sha256": "400c0b0d900414575572e147aebea51ea58bb43b0f85d6b2f99339edc5d3fcb3",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100069/M_event_full/source01/source.json",
+      "sha256": "a5ccfc07d9f640cf5f4913abcc85e4f073e322af2d702d2a73730fc54bd65713",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100069/M_event_full/source02/source.json",
+      "sha256": "4faa5f900bec80508151d61d821d148066dff41a7a906c1c0df484266306f3de",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100069/TTA/source00/source.json",
+      "sha256": "799e4496f3f8eac90c522ed267ebd1f44cfb74b578b03c3087801c3c3109b842",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100069/TTA/source01/source.json",
+      "sha256": "2fba681a2cd94590a23190ab81c9daf9c55645061f94429171787fed14819b9e",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100069/TTA/source02/source.json",
+      "sha256": "c74f2022d07e653e9910a04af58d1359102f202d496426ae7bb8e166233e045e",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100070/M_event_full/source00/source.json",
+      "sha256": "99a1cdbc28fa6bd3b19a0ea8a4ea812616562648cfd158addd8d2cd68f24dc4e",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100070/M_event_full/source01/source.json",
+      "sha256": "6ec40b5f2a717d150c99b470a49185306a047ca226a3556e2e346b39dc56d8dd",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100070/M_event_full/source02/source.json",
+      "sha256": "307ae5605163ea60f54bb3eab19f64cbce092a270ed0c47feb87b3e82fcce0eb",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100070/TTA/source00/source.json",
+      "sha256": "fc633a7e72518eac9fef407bb3f3b6bc31a57e29487c64b72dff0ef8f6b73e5a",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100070/TTA/source01/source.json",
+      "sha256": "647705190ef6c9190441f94de147a52cc9a6fa7706b971833c7db5047076f51b",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100070/TTA/source02/source.json",
+      "sha256": "64cbed214f775511e56f717a0cdf86abf915573e9bc64b8fa110c7770360185d",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100071/M_event_full/source00/source.json",
+      "sha256": "3e5484c7815481deb513406671bd5903ad01cdebcf403fbace15bf9ac19aed6c",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100071/M_event_full/source01/source.json",
+      "sha256": "c6f2b1075e259721500a826eaf5b294e85b8bfafa41615d2917db59d08b26bcd",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100071/M_event_full/source02/source.json",
+      "sha256": "5198b3f938ad04f604a836dd856138d7b00981373020d267e23dec4993df4c4b",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100071/TTA/source00/source.json",
+      "sha256": "967a514c8f026f601aa2a8b7bd612a9805e990f67cbc7af390fcf14cebf1d131",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100071/TTA/source01/source.json",
+      "sha256": "212d148931f50fc5274ff06ea9680766a3c9fe8783a67d7c14508d5fb7c943aa",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_blocks_two:100071/TTA/source02/source.json",
+      "sha256": "ae81a0cd638ab4a1f7629ebc105c9b0b5d30877b49ce0e88aaaaa6bee8f8690a",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100084/M_event_full/source00/source.json",
+      "sha256": "a97fe2b29ce326cde5a852cd92f1d56e4aa50589ebc8eddfb40896f7fe9e9d76",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100084/M_event_full/source01/source.json",
+      "sha256": "7309ffcb32ea12d4e489f8da9711f0f710678a24d7bbda10c0f881e0c8435264",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100084/M_event_full/source02/source.json",
+      "sha256": "0c492db0d4165681f503d99073e407c20fe1153fa12b6812a1a3b591e5f0e764",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100084/TTA/source00/source.json",
+      "sha256": "96fffe360764f275c3ced67a144f1865c9ba466177605343f252d8a8a9377a2b",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100084/TTA/source01/source.json",
+      "sha256": "4a28ef6faeef9d174dba27920d9dbc5ec4c552daf67250ca3cbea5ce426e3c0c",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100084/TTA/source02/source.json",
+      "sha256": "000674cafd4b66309d1dfd94968b9ebc3cab4cfbf2f6eb575bb0643e0e3d1e2d",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100085/M_event_full/source00/source.json",
+      "sha256": "33cd492b9dc37cbe34d24f43a2576ce8d87a2c117e33dc61a944f978396912e1",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100085/M_event_full/source01/source.json",
+      "sha256": "a03ffc7f86248afc8873cfd669228d6b5465abeda66b28a46aa4a7f39231ec21",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100085/M_event_full/source02/source.json",
+      "sha256": "a0c5a1b09bb0cc232f275a077eadcc33fea3d129c102b7c04325f2db29eb473e",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100085/TTA/source00/source.json",
+      "sha256": "6cc81b5b30eb8c5b7fa7120722fdd1c8e31693d948ab4e204a9291598c405fd0",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100085/TTA/source01/source.json",
+      "sha256": "cf9944426022f2f06f11927b94d40006adcd6868bf6339fa718edac557a91cb0",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100085/TTA/source02/source.json",
+      "sha256": "2bf9e0139cdad72c5923d722123458746c00f327301eb116aca98842e26a1e7e",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100086/M_event_full/source00/source.json",
+      "sha256": "396145eea214f8e9dc5de29fb4c454e78bd2e68cc05e4944189cd79aad0587f2",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100086/M_event_full/source01/source.json",
+      "sha256": "4f46181def7483fdf12e103990f9250ce6faef8b649dea2ee7d283a01234101f",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100086/M_event_full/source02/source.json",
+      "sha256": "27c8be49403570c447b2f6b04b339c11a9b112424ea2848076ee9222dc4a063e",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100086/TTA/source00/source.json",
+      "sha256": "2258185c63fd8af9579f3a91a750c996b21060023b4fb7d9670e454dafd1e471",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100086/TTA/source01/source.json",
+      "sha256": "e9c869e7bdd441fc2ce075cae43ebe118ab4027e6a0beda11a3c16f8044d66d3",
+      "unsupported_windows": 0
+    },
+    {
+      "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v6/batches/015/runs/a7760dc689864b8eacedeac4de704bd1/cases/stack_bowls_two:100086/TTA/source02/source.json",
+      "sha256": "fa76c23763b9ebd49ecfd09308940be9b7a0db901c44e00468de7b03db51ae99",
+      "unsupported_windows": 0
+    }
+  ],
+  "records": [
+    {
+      "task": "stack_blocks_two",
+      "seed": 100068,
+      "episode_index": 60,
+      "instruction": "Place red block in the middle, then stack green block on it.",
+      "case_id": "stack_blocks_two:100068",
+      "initial_physical_sha256": "2683f4f447e39856dc4a46c30f708b61f308dd7ff4ec70b34f955938de95a276",
+      "full": true,
+      "TTA": false,
+      "rescue": false,
+      "harm": true,
+      "first_changed_query": 4,
+      "initial_identity": {
+        "physical_sha256": "2683f4f447e39856dc4a46c30f708b61f308dd7ff4ec70b34f955938de95a276",
+        "rng_sha256": "8a8b2027f864febad8d06883740f1e9e6ec98fd9df74a7f404762b5a3d28fd3f",
+        "RGB_sha256": [
+          "ccfd086531e405409b56f10ea1d187b10a8ff89e55f64bf8aacbff41c8ef616a",
+          "4a72e38ab5458e80db1dfb59e20376666ae1bbf79a383de14c5d82c3f29ab647",
+          "431643650949cc6280dc8d76081d2a17929403c71aa24dcdfd7f8fc6d84c2f25"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 458,
+          "queries": 15,
+          "physical_ticks": 29927,
+          "SAM2_forwards": 153,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 264.6298572262749
+        },
+        {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 800,
+          "queries": 25,
+          "physical_ticks": 50634,
+          "SAM2_forwards": 153,
+          "applied_queries": [
+            4,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 41,
+              "phase95_tick": 5549,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 6,
+              "phase95_tick": 10936,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 38,
+              "phase95_tick": 17459,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 476.03403760679066
+        }
+      ]
+    },
+    {
+      "task": "stack_blocks_two",
+      "seed": 100069,
+      "episode_index": 61,
+      "instruction": "Place red block in the middle, then stack green block on it.",
+      "case_id": "stack_blocks_two:100069",
+      "initial_physical_sha256": "dd461e1d03e4bec4d8f8885bdff004f9a0683d7bd4b9c8d186fe79d57fcf997d",
+      "full": false,
+      "TTA": false,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 3,
+      "initial_identity": {
+        "physical_sha256": "dd461e1d03e4bec4d8f8885bdff004f9a0683d7bd4b9c8d186fe79d57fcf997d",
+        "rng_sha256": "e887a012c742f091b14ccdba3a846f02d4638a91318ecdef25128044ab6fa989",
+        "RGB_sha256": [
+          "3340c8934899ae1fa9253577579c837b8ef61cc8ab88906261f04870e2e7b86d",
+          "2d20c200d89a1e314b19675978069c4c496005022e3b014e56ab70f07d23c69b",
+          "768d3c5a2a88eb5150667cca13f8337031c29962d3acd3054b1f247ce396e441"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 800,
+          "queries": 25,
+          "physical_ticks": 49088,
+          "SAM2_forwards": 174,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 443.7465903488919
+        },
+        {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 800,
+          "queries": 25,
+          "physical_ticks": 48426,
+          "SAM2_forwards": 172,
+          "applied_queries": [
+            3,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 52,
+              "phase95_tick": 5282,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 3,
+              "query": 5,
+              "rows": 39,
+              "phase95_tick": 8976,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 41,
+              "phase95_tick": 16178,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 459.9599182186648
+        }
+      ]
+    },
+    {
+      "task": "stack_blocks_two",
+      "seed": 100070,
+      "episode_index": 62,
+      "instruction": "Move red block to the center, then put green block on top.",
+      "case_id": "stack_blocks_two:100070",
+      "initial_physical_sha256": "cbcde5c90d62a0024bd7d55fc35004d3b18e3c5ff9550e68ebf2c90a9bd8624b",
+      "full": true,
+      "TTA": false,
+      "rescue": false,
+      "harm": true,
+      "first_changed_query": 4,
+      "initial_identity": {
+        "physical_sha256": "cbcde5c90d62a0024bd7d55fc35004d3b18e3c5ff9550e68ebf2c90a9bd8624b",
+        "rng_sha256": "b96af72e7d2971bd5b9005249bd743e995113fc131c63d5147fbe262d611943c",
+        "RGB_sha256": [
+          "57fcee2f2e74790f9daceaf46670ffa1dad8c7e41fe398f59f664197b517c0a7",
+          "5f246c43ac2e761671817261b140b60680ad68717459b0a7ada7c06fb9cf5db6",
+          "f6020ee7ff9ad2e73ba6e94e8bb784fc89f8d621da5d3623905014899099d301"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 324,
+          "queries": 11,
+          "physical_ticks": 23142,
+          "SAM2_forwards": 139,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 294.20283583691344
+        },
+        {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 800,
+          "queries": 25,
+          "physical_ticks": 49433,
+          "SAM2_forwards": 139,
+          "applied_queries": [
+            4,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 28,
+              "phase95_tick": 5426,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 14,
+              "phase95_tick": 10331,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 40,
+              "phase95_tick": 17060,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 281.7297935769893
+        }
+      ]
+    },
+    {
+      "task": "stack_blocks_two",
+      "seed": 100071,
+      "episode_index": 63,
+      "instruction": "Move red block and green block to the table's center, then stack green block on red block.",
+      "case_id": "stack_blocks_two:100071",
+      "initial_physical_sha256": "1c6a710c5435bf382de511c9524b9a6b3b0b46114fd740abb546ab224840a84e",
+      "full": false,
+      "TTA": true,
+      "rescue": true,
+      "harm": false,
+      "first_changed_query": 4,
+      "initial_identity": {
+        "physical_sha256": "1c6a710c5435bf382de511c9524b9a6b3b0b46114fd740abb546ab224840a84e",
+        "rng_sha256": "5b7a5cfc4a55e26e9cc4294db85cc528269805e73450e81f5fc4b31aef969d87",
+        "RGB_sha256": [
+          "9b5764584aa7ec330ab93c6a35109d0e3f0f486a2ac4310f78fdad7e4832543d",
+          "cd5202db1ef280978ac4bb00039537580f0ae53ccc51e387c4d27132e45c980c",
+          "f73e9fdf6cb4ff8cd2c451690927a59dba9c755c06797054c7db8d456377d5be"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 800,
+          "queries": 25,
+          "physical_ticks": 50916,
+          "SAM2_forwards": 140,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 339.8330898601562
+        },
+        {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 309,
+          "queries": 10,
+          "physical_ticks": 21811,
+          "SAM2_forwards": 103,
+          "applied_queries": [
+            4,
+            7
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 25,
+              "phase95_tick": 5544,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 7,
+              "phase95_tick": 10485,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 7,
+              "query": 8,
+              "rows": 16,
+              "phase95_tick": 17268,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 94.3263871492818
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 100084,
+      "episode_index": 60,
+      "instruction": "Take the smooth bowl with glossy finish, set it down, and stack the small smooth brown-rimmed bowl on top.",
+      "case_id": "stack_bowls_two:100084",
+      "initial_physical_sha256": "a1f10ad7434c33eb452d302021fbb3e1f0e8458daa6bd58b223230257ffc9769",
+      "full": false,
+      "TTA": false,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 3,
+      "initial_identity": {
+        "physical_sha256": "a1f10ad7434c33eb452d302021fbb3e1f0e8458daa6bd58b223230257ffc9769",
+        "rng_sha256": "2db1412a4b8f3613101f8d4fd330c79756d02677f9991a0ae9c15a9d1bb2fcdf",
+        "RGB_sha256": [
+          "3b8722f5d2d139a09ce3bf326028a772334dd6b067e8a86438e412d3eb173827",
+          "1f6515f67c644f81022f4c93f6da28df5e64c388e1ec63e66f0a1f87e637efe8",
+          "58d4c9ae2b8a7c605c20a97892576f8448e9a7d4a6eb244838e41220f57bcc19"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 57289,
+          "SAM2_forwards": 167,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 435.0462449849583
+        },
+        {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 55078,
+          "SAM2_forwards": 167,
+          "applied_queries": [
+            3,
+            5
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 2,
+              "rows": 6,
+              "phase95_tick": 4715,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 3,
+              "query": 5,
+              "rows": 54,
+              "phase95_tick": 10085,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 5,
+              "query": 7,
+              "rows": 50,
+              "phase95_tick": 13875,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 468.5835186978802
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 100085,
+      "episode_index": 61,
+      "instruction": "Place the small smooth brown-rimmed bowl carefully over the smooth bowl with glossy finish to stack them.",
+      "case_id": "stack_bowls_two:100085",
+      "initial_physical_sha256": "fd5615bb9299358812241a3123ba9401c76bc3e34daa0ecd77fb368e4126fa9d",
+      "full": false,
+      "TTA": true,
+      "rescue": true,
+      "harm": false,
+      "first_changed_query": 4,
+      "initial_identity": {
+        "physical_sha256": "fd5615bb9299358812241a3123ba9401c76bc3e34daa0ecd77fb368e4126fa9d",
+        "rng_sha256": "4041af2875426c76869472d76efe50b9ea8e6d213ca9e5aa7d6ce43e3ea1b557",
+        "RGB_sha256": [
+          "4d0d39623c869e105a9201710516e52b92b97ec00f0e66f73e9d210b09615333",
+          "f50700ef27cb35e372270aa00b5138533e9411db5496f46f615e800afc7c4d14",
+          "3ec55bec78be588193d368ab03423604061a2b8f627ccc28a64b0b607dea1801"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 58723,
+          "SAM2_forwards": 111,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 400.6490086708218
+        },
+        {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 325,
+          "queries": 11,
+          "physical_ticks": 23758,
+          "SAM2_forwards": 112,
+          "applied_queries": [
+            4,
+            7
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 46,
+              "phase95_tick": 5291,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 8,
+              "phase95_tick": 10161,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 7,
+              "query": 8,
+              "rows": 24,
+              "phase95_tick": 17881,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 233.54290840867907
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 100086,
+      "episode_index": 62,
+      "instruction": "Grab the smooth bowl with glossy finish, then set the small smooth brown-rimmed bowl on top.",
+      "case_id": "stack_bowls_two:100086",
+      "initial_physical_sha256": "9bda9da6d9baf3ac6a8e2f0d67a3ecefa8e7759ec174771df26a5c52a8cdbb81",
+      "full": true,
+      "TTA": true,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 7,
+      "initial_identity": {
+        "physical_sha256": "9bda9da6d9baf3ac6a8e2f0d67a3ecefa8e7759ec174771df26a5c52a8cdbb81",
+        "rng_sha256": "ab77f7513d18fc58dba23b54ae2aa9628325ed43475eecf62079f1f7c22f7bc6",
+        "RGB_sha256": [
+          "850e6b6dfc198e1171c6ba611affb462ee6e07cc2814ff8d2be4c6312af565a4",
+          "947287d7954ae8ce47ca4e59702ffcb95a27152936ebfb9b8f987c162a9c38b4",
+          "bc23447340eb37608b02bdf74959ff6f18c48ddf036b747015ec4a9f637ed57c"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 317,
+          "queries": 10,
+          "physical_ticks": 23420,
+          "SAM2_forwards": 127,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 289.1149285840802
+        },
+        {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 317,
+          "queries": 10,
+          "physical_ticks": 23437,
+          "SAM2_forwards": 127,
+          "applied_queries": [
+            7
+          ],
+          "accepted_updates": 2,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 47,
+              "phase95_tick": 6241,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 6,
+              "phase95_tick": 11775,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 7,
+              "query": 8,
+              "rows": 10,
+              "phase95_tick": 19210,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 228.81088024610654
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 100087,
+      "episode_index": 63,
+      "instruction": "Take the light blue bowl with darkened rim, set it down, and stack the small smooth brown-rimmed bowl on top.",
+      "case_id": "stack_bowls_two:100087",
+      "initial_physical_sha256": "80438452aed7b0a0b19d110334b4dd7ada6fd5eff07053c8404ebcb968dccc0a",
+      "full": true,
+      "TTA": true,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": null,
+      "initial_identity": {
+        "physical_sha256": "80438452aed7b0a0b19d110334b4dd7ada6fd5eff07053c8404ebcb968dccc0a",
+        "rng_sha256": "eb73ef9b67d5f36571ee5a68b9c798ca2df053e532978f7ee30eb1d9d59e51b5",
+        "RGB_sha256": [
+          "df82f24fbae6d59b56ab7c123fea8a6cbb92e2bf39e281fc43368519b1bf9393",
+          "55df18e1fb998a61fc7b54fb6d981bf7863b41f1989eaf1c4a07b9b724b16b9e",
+          "d51d5aa113d95e56d2ce3c61c36424fe0603b30e7cdcf9f8db27cb41bfbde2b0"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 323,
+          "queries": 11,
+          "physical_ticks": 22103,
+          "SAM2_forwards": 0,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 109.46538386074826
+        },
+        {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 323,
+          "queries": 11,
+          "physical_ticks": 22103,
+          "SAM2_forwards": 0,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 112.84119120938703
+        }
+      ]
+    }
+  ],
+  "actual_native_episodes": 16,
+  "same_prefix_query_checks": 47,
+  "all_native_receipts_source_phase_once_noise_reset_and_release_checked": true,
+  "qualification_sha256": "563972820599c66b44926b838ee53c9a8d2d3c50193679df2381ccaa0ac2e76f",
+  "screening_state": {
+    "stack_blocks_two": {
+      "next_seed": 100072,
+      "accepted": 64
+    },
+    "stack_bowls_two": {
+      "next_seed": 100088,
+      "accepted": 64
+    }
+  },
+  "formal_outcomes_never_used_for_training": true
+}

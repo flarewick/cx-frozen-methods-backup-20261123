@@ -1,0 +1,18 @@
+[
+  [
+    "from .gated_compose import EventComposer",
+    "from native_seven_task_gate_expansion_v1.gated_compose import EventComposer"
+  ],
+  [
+    "from .paired_heads import ARM,combine",
+    "from native_seven_task_gate_expansion_v1.paired_heads import ARM,combine"
+  ],
+  [
+    "from .gated_compose import FeedbackApplication",
+    "from gated_arm_context_v1.application import FeedbackApplication"
+  ],
+  [
+    "actions,delta,event,update,condition=condition)",
+    "actions,delta,event,update,condition=condition,source_kinds=source_kinds)"
+  ]
+]

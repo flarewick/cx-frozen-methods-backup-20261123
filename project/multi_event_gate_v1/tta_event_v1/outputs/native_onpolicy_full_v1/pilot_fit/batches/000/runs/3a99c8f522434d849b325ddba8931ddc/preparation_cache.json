@@ -1,0 +1,994 @@
+{
+  "expert_reference_files": {
+    "beat_block_hammer:7120000": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/beat_block_hammer:7120000.json",
+    "beat_block_hammer:7120001": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/beat_block_hammer:7120001.json",
+    "beat_block_hammer:7120002": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/beat_block_hammer:7120002.json",
+    "beat_block_hammer:7120003": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/beat_block_hammer:7120003.json",
+    "turn_switch:7120000": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/turn_switch:7120000.json",
+    "turn_switch:7120002": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/turn_switch:7120002.json",
+    "turn_switch:7120003": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/turn_switch:7120003.json",
+    "turn_switch:7120006": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/turn_switch:7120006.json",
+    "adjust_bottle:7120000": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/adjust_bottle:7120000.json",
+    "adjust_bottle:7120002": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/adjust_bottle:7120002.json",
+    "adjust_bottle:7120004": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/adjust_bottle:7120004.json",
+    "adjust_bottle:7120005": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/adjust_bottle:7120005.json",
+    "grab_roller:7120000": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/grab_roller:7120000.json",
+    "grab_roller:7120002": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/grab_roller:7120002.json",
+    "grab_roller:7120004": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/grab_roller:7120004.json",
+    "grab_roller:7120005": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/grab_roller:7120005.json",
+    "open_laptop:7120000": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/open_laptop:7120000.json",
+    "open_laptop:7120001": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/open_laptop:7120001.json",
+    "open_laptop:7120003": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/open_laptop:7120003.json",
+    "open_laptop:7120004": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/open_laptop:7120004.json"
+  },
+  "version": "verified_mixed_task_preparation_v1",
+  "source_roots": [
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a"
+  ],
+  "batch_index": 0,
+  "initial_screen_state": {
+    "beat_block_hammer": {
+      "next_seed": 7120000,
+      "accepted": 0
+    },
+    "turn_switch": {
+      "next_seed": 7120000,
+      "accepted": 0
+    },
+    "adjust_bottle": {
+      "next_seed": 7120000,
+      "accepted": 0
+    },
+    "grab_roller": {
+      "next_seed": 7120000,
+      "accepted": 0
+    },
+    "open_laptop": {
+      "next_seed": 7120000,
+      "accepted": 0
+    }
+  },
+  "task_cache": {
+    "beat_block_hammer": {
+      "initial_state": {
+        "next_seed": 7120000,
+        "accepted": 0
+      },
+      "end_state": {
+        "next_seed": 7120004,
+        "accepted": 4
+      },
+      "rows": [
+        {
+          "task": "beat_block_hammer",
+          "seed": 7120000,
+          "episode_index": 0,
+          "eligible": true,
+          "initial_physical_sha256": "e79a21a3750a9a63777d0fddc18b2654f0aab23d831427187702a1775ff10fba",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "020_hammer/base0",
+            "{a}": "left"
+          }
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 7120001,
+          "episode_index": 1,
+          "eligible": true,
+          "initial_physical_sha256": "c9801ba913b14802f3090a3256996ea4ded1ae62ccb3aefa40dc2667866dd32d",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "020_hammer/base0",
+            "{a}": "right"
+          }
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 7120002,
+          "episode_index": 2,
+          "eligible": true,
+          "initial_physical_sha256": "db685b39c7cdf6d1bd4efe34f686318d78425f2c8b41a7b5ffe1472503912545",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "020_hammer/base0",
+            "{a}": "left"
+          }
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 7120003,
+          "episode_index": 3,
+          "eligible": true,
+          "initial_physical_sha256": "389f0ca997fd6b746988ee2ced6bc2096978784c30f667b38e33521fcc8176d2",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "020_hammer/base0",
+            "{a}": "left"
+          }
+        }
+      ],
+      "items": [
+        {
+          "task": "beat_block_hammer",
+          "seed": 7120000,
+          "episode_index": 0,
+          "instruction": "Lift the hammer with two-tone handle using the left arm to hit the block.",
+          "case_id": "beat_block_hammer:7120000",
+          "initial_physical_sha256": "e79a21a3750a9a63777d0fddc18b2654f0aab23d831427187702a1775ff10fba"
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 7120001,
+          "episode_index": 1,
+          "instruction": "Grab the silver curved hammer head to beat the block.",
+          "case_id": "beat_block_hammer:7120001",
+          "initial_physical_sha256": "c9801ba913b14802f3090a3256996ea4ded1ae62ccb3aefa40dc2667866dd32d"
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 7120002,
+          "episode_index": 2,
+          "instruction": "Grab the plastic handle metal hammer using the left arm and hit the block",
+          "case_id": "beat_block_hammer:7120002",
+          "initial_physical_sha256": "db685b39c7cdf6d1bd4efe34f686318d78425f2c8b41a7b5ffe1472503912545"
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 7120003,
+          "episode_index": 3,
+          "instruction": "Hold the silver hammer then hit the block",
+          "case_id": "beat_block_hammer:7120003",
+          "initial_physical_sha256": "389f0ca997fd6b746988ee2ced6bc2096978784c30f667b38e33521fcc8176d2"
+        }
+      ]
+    },
+    "turn_switch": {
+      "initial_state": {
+        "next_seed": 7120000,
+        "accepted": 0
+      },
+      "end_state": {
+        "next_seed": 7120007,
+        "accepted": 4
+      },
+      "rows": [
+        {
+          "task": "turn_switch",
+          "seed": 7120000,
+          "episode_index": 0,
+          "eligible": true,
+          "initial_physical_sha256": "03f0709786e267010a514e02e9a9d69a17a862a8d782997024fa9bd73d3d8fa6",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "056_switch/base6",
+            "{a}": "right"
+          }
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120001,
+          "episode_index": 1,
+          "eligible": false,
+          "reason": "unstable_scene",
+          "error": "Objects is unstable in seed(7120001), unstable objects: 086_woodenblock"
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120002,
+          "episode_index": 1,
+          "eligible": true,
+          "initial_physical_sha256": "4a2e3dea2167385c2e7f1e22319a59f8a875b3e1d059ed4e0f747aa0f1e3a8dc",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "056_switch/base0",
+            "{a}": "left"
+          }
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120003,
+          "episode_index": 2,
+          "eligible": true,
+          "initial_physical_sha256": "65775d2c1649513edf6d4f97d89a84f4f521aeb240a5e46ce7aa3b13da4b65fc",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "056_switch/base0",
+            "{a}": "left"
+          }
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120004,
+          "episode_index": 3,
+          "eligible": false,
+          "initial_physical_sha256": "849c0a0c42091cfdb4a411915d330b362e08c81bc01b0e65d639e663a3ad5041",
+          "expert_plan_success": false,
+          "expert_success": false,
+          "reason": "expert_plan_or_success_failed"
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120005,
+          "episode_index": 3,
+          "eligible": false,
+          "reason": "unstable_scene",
+          "error": "Objects is unstable in seed(7120005), unstable objects: 086_woodenblock"
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120006,
+          "episode_index": 3,
+          "eligible": true,
+          "initial_physical_sha256": "2e2059e80994ad6a0a743aaf9b2290c2212582e80a6669d5078205060bb773f8",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "056_switch/base3",
+            "{a}": "right"
+          }
+        }
+      ],
+      "items": [
+        {
+          "task": "turn_switch",
+          "seed": 7120000,
+          "episode_index": 0,
+          "instruction": "Interact with the switch with thin red toggle directly",
+          "case_id": "turn_switch:7120000",
+          "initial_physical_sha256": "03f0709786e267010a514e02e9a9d69a17a862a8d782997024fa9bd73d3d8fa6"
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120002,
+          "episode_index": 1,
+          "instruction": "Activate the the plastic switch with metal terminals using the left arm",
+          "case_id": "turn_switch:7120002",
+          "initial_physical_sha256": "4a2e3dea2167385c2e7f1e22319a59f8a875b3e1d059ed4e0f747aa0f1e3a8dc"
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120003,
+          "episode_index": 2,
+          "instruction": "Press the black switch directly",
+          "case_id": "turn_switch:7120003",
+          "initial_physical_sha256": "65775d2c1649513edf6d4f97d89a84f4f521aeb240a5e46ce7aa3b13da4b65fc"
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7120006,
+          "episode_index": 3,
+          "instruction": "Press the switch with slanted sides via automation",
+          "case_id": "turn_switch:7120006",
+          "initial_physical_sha256": "2e2059e80994ad6a0a743aaf9b2290c2212582e80a6669d5078205060bb773f8"
+        }
+      ]
+    },
+    "adjust_bottle": {
+      "initial_state": {
+        "next_seed": 7120000,
+        "accepted": 0
+      },
+      "end_state": {
+        "next_seed": 7120006,
+        "accepted": 4
+      },
+      "rows": [
+        {
+          "task": "adjust_bottle",
+          "seed": 7120000,
+          "episode_index": 0,
+          "eligible": true,
+          "initial_physical_sha256": "00db7d18a547c7bcec3b742c03a10b5b024981d550a9bee201df5f8130b9d4cf",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "001_bottle/base16",
+            "{a}": "left"
+          }
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7120001,
+          "episode_index": 1,
+          "eligible": false,
+          "reason": "unstable_scene",
+          "error": "Objects is unstable in seed(7120001), unstable objects: 086_woodenblock"
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7120002,
+          "episode_index": 1,
+          "eligible": true,
+          "initial_physical_sha256": "042138d218a69e6f486d590aaf161a9a54811101b39783d67aa28da19bd51c1f",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "001_bottle/base13",
+            "{a}": "left"
+          }
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7120003,
+          "episode_index": 2,
+          "eligible": false,
+          "reason": "unstable_scene",
+          "error": "Objects is unstable in seed(7120003), unstable objects: 001_bottle"
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7120004,
+          "episode_index": 2,
+          "eligible": true,
+          "initial_physical_sha256": "413af501a042d94e8ce033f5ee32a133f99a95487ee9d5a9343f9ca059f1fa01",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "001_bottle/base13",
+            "{a}": "right"
+          }
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7120005,
+          "episode_index": 3,
+          "eligible": true,
+          "initial_physical_sha256": "a1617808e934e7cb2287fd4b4aa3da8209e1d7b8634e4899b7dcd55f1337e60f",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "001_bottle/base16",
+            "{a}": "right"
+          }
+        }
+      ],
+      "items": [
+        {
+          "task": "adjust_bottle",
+          "seed": 7120000,
+          "episode_index": 0,
+          "instruction": "Lift the handheld green bottle from the table upright",
+          "case_id": "adjust_bottle:7120000",
+          "initial_physical_sha256": "00db7d18a547c7bcec3b742c03a10b5b024981d550a9bee201df5f8130b9d4cf"
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7120002,
+          "episode_index": 1,
+          "instruction": "Grab the plastic drink bottle head-up using the left arm from the table.",
+          "case_id": "adjust_bottle:7120002",
+          "initial_physical_sha256": "042138d218a69e6f486d590aaf161a9a54811101b39783d67aa28da19bd51c1f"
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7120004,
+          "episode_index": 2,
+          "instruction": "Lift the dark drink bottle with logo using the right arm and hold upright",
+          "case_id": "adjust_bottle:7120004",
+          "initial_physical_sha256": "413af501a042d94e8ce033f5ee32a133f99a95487ee9d5a9343f9ca059f1fa01"
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7120005,
+          "episode_index": 3,
+          "instruction": "Grab the medium green bottle and lift it with the right arm",
+          "case_id": "adjust_bottle:7120005",
+          "initial_physical_sha256": "a1617808e934e7cb2287fd4b4aa3da8209e1d7b8634e4899b7dcd55f1337e60f"
+        }
+      ]
+    },
+    "grab_roller": {
+      "initial_state": {
+        "next_seed": 7120000,
+        "accepted": 0
+      },
+      "end_state": {
+        "next_seed": 7120006,
+        "accepted": 4
+      },
+      "rows": [
+        {
+          "task": "grab_roller",
+          "seed": 7120000,
+          "episode_index": 0,
+          "eligible": true,
+          "initial_physical_sha256": "b0299d0e361962a2f7955cc6443f05783a8a2e29afdb6fb260d66b560ebcae05",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "102_roller/base0"
+          }
+        },
+        {
+          "task": "grab_roller",
+          "seed": 7120001,
+          "episode_index": 1,
+          "eligible": false,
+          "reason": "unstable_scene",
+          "error": "Objects is unstable in seed(7120001), unstable objects: 066_vinegar"
+        },
+        {
+          "task": "grab_roller",
+          "seed": 7120002,
+          "episode_index": 1,
+          "eligible": true,
+          "initial_physical_sha256": "4bc824430d2708723411e325906ef872a830e011eaa947eb9eb02e46e87d7fe0",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "102_roller/base0"
+          }
+        },
+        {
+          "task": "grab_roller",
+          "seed": 7120003,
+          "episode_index": 2,
+          "eligible": false,
+          "reason": "unstable_scene",
+          "error": "Objects is unstable in seed(7120003), unstable objects: 086_woodenblock"
+        },
+        {
+          "task": "grab_roller",
+          "seed": 7120004,
+          "episode_index": 2,
+          "eligible": true,
+          "initial_physical_sha256": "cf1207d4cf105932184a700834cd3ad9cfd1b2cd88741fcab01045d7b5c69de0",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "102_roller/base2"
+          }
+        },
+        {
+          "task": "grab_roller",
+          "seed": 7120005,
+          "episode_index": 3,
+          "eligible": true,
+          "initial_physical_sha256": "7c52036f4fb4f2b173aafedee82d6808c3121fc6a5e595c609e5321081d0c848",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "102_roller/base2"
+          }
+        }
+      ],
+      "items": [
+        {
+          "task": "grab_roller",
+          "seed": 7120000,
+          "episode_index": 0,
+          "instruction": "Hold the solid wood roller on the table with hands.",
+          "case_id": "grab_roller:7120000",
+          "initial_physical_sha256": "b0299d0e361962a2f7955cc6443f05783a8a2e29afdb6fb260d66b560ebcae05"
+        },
+        {
+          "task": "grab_roller",
+          "seed": 7120002,
+          "episode_index": 1,
+          "instruction": "Both arms should grab the solid wood roller now.",
+          "case_id": "grab_roller:7120002",
+          "initial_physical_sha256": "4bc824430d2708723411e325906ef872a830e011eaa947eb9eb02e46e87d7fe0"
+        },
+        {
+          "task": "grab_roller",
+          "seed": 7120004,
+          "episode_index": 2,
+          "instruction": "Grab the roller with smooth texture placed on the table.",
+          "case_id": "grab_roller:7120004",
+          "initial_physical_sha256": "cf1207d4cf105932184a700834cd3ad9cfd1b2cd88741fcab01045d7b5c69de0"
+        },
+        {
+          "task": "grab_roller",
+          "seed": 7120005,
+          "episode_index": 3,
+          "instruction": "Lift the palm-sized roller off the table with arms.",
+          "case_id": "grab_roller:7120005",
+          "initial_physical_sha256": "7c52036f4fb4f2b173aafedee82d6808c3121fc6a5e595c609e5321081d0c848"
+        }
+      ]
+    },
+    "open_laptop": {
+      "initial_state": {
+        "next_seed": 7120000,
+        "accepted": 0
+      },
+      "end_state": {
+        "next_seed": 7120005,
+        "accepted": 4
+      },
+      "rows": [
+        {
+          "task": "open_laptop",
+          "seed": 7120000,
+          "episode_index": 0,
+          "eligible": true,
+          "initial_physical_sha256": "e8209de4069164c603c5c2a060fa89eb7fc502a5a01fc6faa65925a63490026c",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "015_laptop/base6",
+            "{a}": "right"
+          }
+        },
+        {
+          "task": "open_laptop",
+          "seed": 7120001,
+          "episode_index": 1,
+          "eligible": true,
+          "initial_physical_sha256": "a2fc32efcd330090ed4f684dde667df2791f13a48032d49522654dd85a86b133",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "015_laptop/base8",
+            "{a}": "left"
+          }
+        },
+        {
+          "task": "open_laptop",
+          "seed": 7120002,
+          "episode_index": 2,
+          "eligible": false,
+          "initial_physical_sha256": "5c3c37e8ccd045af652078bedd17573f4a788e3ea09db5f12259ab963a8021c4",
+          "reason": "expert_missing_grasp_target",
+          "error_type": "AssertionError",
+          "error": "target_pose cannot be None for move action.",
+          "traceback": "Traceback (most recent call last):\n  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/expert_screening.py\", line 27, in run_expert_plan\n    return task.play_once()\n           ^^^^^^^^^^^^^^^^\n  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/sessions/process_7ccc028f68f1/robotwin/envs/open_laptop.py\", line 43, in play_once\n    self.grasp_actor(\n  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/sessions/process_7ccc028f68f1/robotwin/envs/_base_task.py\", line 1207, in grasp_actor\n    Action(arm_tag, \"move\", target_pose=pre_grasp_pose),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/sessions/process_7ccc028f68f1/robotwin/envs/utils/action.py\", line 76, in __init__\n    assert (target_pose is not None), \"target_pose cannot be None for move action.\"\n            ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: target_pose cannot be None for move action.\n"
+        },
+        {
+          "task": "open_laptop",
+          "seed": 7120003,
+          "episode_index": 2,
+          "eligible": true,
+          "initial_physical_sha256": "1d7af223f85f47b11334346b253f532d0e80052ea4e56bf74bb542dbe2bd37ad",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "015_laptop/base8",
+            "{a}": "left"
+          }
+        },
+        {
+          "task": "open_laptop",
+          "seed": 7120004,
+          "episode_index": 3,
+          "eligible": true,
+          "initial_physical_sha256": "04df0d50f7013506b7dd4b3246efd490594e0d64d21261278315a19cba4ca6dc",
+          "expert_plan_success": true,
+          "expert_success": true,
+          "scene_info": {
+            "{A}": "015_laptop/base5",
+            "{a}": "right"
+          }
+        }
+      ],
+      "items": [
+        {
+          "task": "open_laptop",
+          "seed": 7120000,
+          "episode_index": 0,
+          "instruction": "Raise the foldable laptop lid using the right arm.",
+          "case_id": "open_laptop:7120000",
+          "initial_physical_sha256": "e8209de4069164c603c5c2a060fa89eb7fc502a5a01fc6faa65925a63490026c"
+        },
+        {
+          "task": "open_laptop",
+          "seed": 7120001,
+          "episode_index": 1,
+          "instruction": "Lift the black laptop with sharp rectangular edges slightly.",
+          "case_id": "open_laptop:7120001",
+          "initial_physical_sha256": "a2fc32efcd330090ed4f684dde667df2791f13a48032d49522654dd85a86b133"
+        },
+        {
+          "task": "open_laptop",
+          "seed": 7120003,
+          "episode_index": 2,
+          "instruction": "Use the left arm to open the laptop for browsing and computing.",
+          "case_id": "open_laptop:7120003",
+          "initial_physical_sha256": "1d7af223f85f47b11334346b253f532d0e80052ea4e56bf74bb542dbe2bd37ad"
+        },
+        {
+          "task": "open_laptop",
+          "seed": 7120004,
+          "episode_index": 3,
+          "instruction": "Pull the screen of the black laptop.",
+          "case_id": "open_laptop:7120004",
+          "initial_physical_sha256": "04df0d50f7013506b7dd4b3246efd490594e0d64d21261278315a19cba4ca6dc"
+        }
+      ]
+    }
+  },
+  "requests": [
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/0939cd94775e1b40621eca3a6b7ece2f5c2af7ce52416e87e3ca8e248198959b.npz",
+      "frame_sha256": "7c3531d7473e3727bdb5acb76030d3fe7205f760ab40fb4b6d64fc01e241924e",
+      "instruction": "Lift the hammer with two-tone handle using the left arm to hit the block.",
+      "content_key": "0939cd94775e1b40621eca3a6b7ece2f5c2af7ce52416e87e3ca8e248198959b"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/1fae03245e5e3062795369ad71e880f3d59a12c8f4f0f4d8b74071ed5a0cb89b.npz",
+      "frame_sha256": "520d949c80fac37232965b1e53d61dbf5815dcf2faa1ce782f0394ff1a89632e",
+      "instruction": "Grab the silver curved hammer head to beat the block.",
+      "content_key": "1fae03245e5e3062795369ad71e880f3d59a12c8f4f0f4d8b74071ed5a0cb89b"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/8d51566c421d80227ebe6a5041f74f3e48bcbddf3c3ebdcc6fa20ea3e6814206.npz",
+      "frame_sha256": "168f959f5c25becfe7f494ba7b689bc11807ff3665fbdc1327edfb0be75cf8ac",
+      "instruction": "Grab the plastic handle metal hammer using the left arm and hit the block",
+      "content_key": "8d51566c421d80227ebe6a5041f74f3e48bcbddf3c3ebdcc6fa20ea3e6814206"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/6c53c5f429be3e0099c7be450bb7835fa75938ad16490f77b7dd017eb3689390.npz",
+      "frame_sha256": "f5539266a25b7968fa3750a8ab2319cd6e01ddd1d1220933d5fbfb9388434920",
+      "instruction": "Hold the silver hammer then hit the block",
+      "content_key": "6c53c5f429be3e0099c7be450bb7835fa75938ad16490f77b7dd017eb3689390"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/511df02c6ec41bc2e55012169d28b505304f2cc4e4d6ec279881eee5b452c96c.npz",
+      "frame_sha256": "a8d77a613b44f05e49dde16f447cf39eec79d80e5fe3f7be0e3b0a1a615a9902",
+      "instruction": "Interact with the switch with thin red toggle directly",
+      "content_key": "511df02c6ec41bc2e55012169d28b505304f2cc4e4d6ec279881eee5b452c96c"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/fffc3833ac4d0b1a8cf6d841a71910b31b008e2cbb3293fc3ad48ea1eec87321.npz",
+      "frame_sha256": "cf4e60dddd0ac0f093a1bc942db0574f14514750feab1c7fa726784747e0fb0e",
+      "instruction": "Activate the the plastic switch with metal terminals using the left arm",
+      "content_key": "fffc3833ac4d0b1a8cf6d841a71910b31b008e2cbb3293fc3ad48ea1eec87321"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/a3d5124194c87c4810a20251a7f4d628dc335b781e45d69148c4da81c1cba22a.npz",
+      "frame_sha256": "13c3f22a7644b3d2cfee2c84f078e708694cff1fcce33f9a98941a8d54fd82ac",
+      "instruction": "Press the black switch directly",
+      "content_key": "a3d5124194c87c4810a20251a7f4d628dc335b781e45d69148c4da81c1cba22a"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/df0235057e40442f3bc2b79ed2501f7e5d84c37a4c47df720149992f9ceef827.npz",
+      "frame_sha256": "34734b3a43a5c7dda60015766910d5d14b0a51f41753cacd1319aa0d513aea73",
+      "instruction": "Press the switch with slanted sides via automation",
+      "content_key": "df0235057e40442f3bc2b79ed2501f7e5d84c37a4c47df720149992f9ceef827"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/089e58ed92696dbe93348b4db620b3eaed76ec92407402efcf5abfd9dc279038.npz",
+      "frame_sha256": "30966137d9dbd1f3b57fb86a83ecb6aeb7d146f880d15ee36fae3f9809896dd8",
+      "instruction": "Lift the handheld green bottle from the table upright",
+      "content_key": "089e58ed92696dbe93348b4db620b3eaed76ec92407402efcf5abfd9dc279038"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/16c4eb3a8705f606912b8ff1e155079051780bed471a69d698843ae792ae045c.npz",
+      "frame_sha256": "8f4c09b8fceaabef2981e0cefbf69ba81abd479546fa443c4b73e200a063b3a8",
+      "instruction": "Grab the plastic drink bottle head-up using the left arm from the table.",
+      "content_key": "16c4eb3a8705f606912b8ff1e155079051780bed471a69d698843ae792ae045c"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/84ace30f6dd347a8bd2409267f2c126e72b0a79199ef0abfee5ca7bcfd765b59.npz",
+      "frame_sha256": "419f0f1b233e859ec97878dc5eeb50f95e34fe9ed1f2fe46ab3fe99d4734745e",
+      "instruction": "Lift the dark drink bottle with logo using the right arm and hold upright",
+      "content_key": "84ace30f6dd347a8bd2409267f2c126e72b0a79199ef0abfee5ca7bcfd765b59"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/e88855208960e039e6ba20159563978088269226e78c1ee088d9299937689d17.npz",
+      "frame_sha256": "a5cce6cded31a328f4e1b362002fc806b839d27f5a1eb214bfcd95953a463b16",
+      "instruction": "Grab the medium green bottle and lift it with the right arm",
+      "content_key": "e88855208960e039e6ba20159563978088269226e78c1ee088d9299937689d17"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/31e9d3ed63fd15397a884be775ff06b9e4990dc0da9c26fd88556bcbf1d8c57e.npz",
+      "frame_sha256": "844f693a2549d97a6e57ae56431e696d4ade67f7aaee7110d54b1c9e039083ba",
+      "instruction": "Hold the solid wood roller on the table with hands.",
+      "content_key": "31e9d3ed63fd15397a884be775ff06b9e4990dc0da9c26fd88556bcbf1d8c57e"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/36f057804ee6c2e1663c327099b3d3288aa5d3e7a0aea8367cb842038e962ec0.npz",
+      "frame_sha256": "4419ca996f3eaa4cfaa3dba2c97ae753b6602d36d33f12c4ec6e1dca02e922a2",
+      "instruction": "Both arms should grab the solid wood roller now.",
+      "content_key": "36f057804ee6c2e1663c327099b3d3288aa5d3e7a0aea8367cb842038e962ec0"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/87c959bbb180d715f825d9535fc4919a7069ec943f102d2869a2801fbe042167.npz",
+      "frame_sha256": "f481dc77d8ad3c283e25bf13821421e4b7134ba8fe89f44f846a538ae11043e7",
+      "instruction": "Grab the roller with smooth texture placed on the table.",
+      "content_key": "87c959bbb180d715f825d9535fc4919a7069ec943f102d2869a2801fbe042167"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/d86db32ee7a8886bc57849825eb94cbd3fc0912c6e5b0aa4ed4d5047b58f10c5.npz",
+      "frame_sha256": "a3296916eef3a009dcf3e45e7c06c75591c4745f4cf9070ac3b3c6d01c606c42",
+      "instruction": "Lift the palm-sized roller off the table with arms.",
+      "content_key": "d86db32ee7a8886bc57849825eb94cbd3fc0912c6e5b0aa4ed4d5047b58f10c5"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/a1c7377033350599044dbdc27d117526a571c16cd806847da06c58d8a3f36785.npz",
+      "frame_sha256": "db0efff3e794b5990c4ac4a2c59b80857b747fb139a6c3deb93639af0c4a988e",
+      "instruction": "Raise the foldable laptop lid using the right arm.",
+      "content_key": "a1c7377033350599044dbdc27d117526a571c16cd806847da06c58d8a3f36785"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/1d16fd92141ed721ff47c22218bd274d95e3ccdb8025e4f6e5c30c3423acdc89.npz",
+      "frame_sha256": "641ffcf02299f6446f1b82a3c656f88dde1770a19f400555283f1df6a3dd75d7",
+      "instruction": "Lift the black laptop with sharp rectangular edges slightly.",
+      "content_key": "1d16fd92141ed721ff47c22218bd274d95e3ccdb8025e4f6e5c30c3423acdc89"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/56387b48499f9383a1db84bcd6c2c4e21f18ab9da113078dc4b78865ef410f58.npz",
+      "frame_sha256": "6f4635428626bf04633815404eb919d1ae2f0adb28635b8f14d42d8c86d32ea6",
+      "instruction": "Use the left arm to open the laptop for browsing and computing.",
+      "content_key": "56387b48499f9383a1db84bcd6c2c4e21f18ab9da113078dc4b78865ef410f58"
+    },
+    {
+      "frame_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/dc0ccbd0e4c66e977c94f8d6ec11748e5404797844c8b879f282414e1f8afa56.npz",
+      "frame_sha256": "8087e9d1f1d043130f66f5607061769e69f607b606c0dc83a6d541e82545ace6",
+      "instruction": "Pull the screen of the black laptop.",
+      "content_key": "dc0ccbd0e4c66e977c94f8d6ec11748e5404797844c8b879f282414e1f8afa56"
+    }
+  ],
+  "case_request_keys": {
+    "beat_block_hammer:7120000": "0939cd94775e1b40621eca3a6b7ece2f5c2af7ce52416e87e3ca8e248198959b",
+    "beat_block_hammer:7120001": "1fae03245e5e3062795369ad71e880f3d59a12c8f4f0f4d8b74071ed5a0cb89b",
+    "beat_block_hammer:7120002": "8d51566c421d80227ebe6a5041f74f3e48bcbddf3c3ebdcc6fa20ea3e6814206",
+    "beat_block_hammer:7120003": "6c53c5f429be3e0099c7be450bb7835fa75938ad16490f77b7dd017eb3689390",
+    "turn_switch:7120000": "511df02c6ec41bc2e55012169d28b505304f2cc4e4d6ec279881eee5b452c96c",
+    "turn_switch:7120002": "fffc3833ac4d0b1a8cf6d841a71910b31b008e2cbb3293fc3ad48ea1eec87321",
+    "turn_switch:7120003": "a3d5124194c87c4810a20251a7f4d628dc335b781e45d69148c4da81c1cba22a",
+    "turn_switch:7120006": "df0235057e40442f3bc2b79ed2501f7e5d84c37a4c47df720149992f9ceef827",
+    "adjust_bottle:7120000": "089e58ed92696dbe93348b4db620b3eaed76ec92407402efcf5abfd9dc279038",
+    "adjust_bottle:7120002": "16c4eb3a8705f606912b8ff1e155079051780bed471a69d698843ae792ae045c",
+    "adjust_bottle:7120004": "84ace30f6dd347a8bd2409267f2c126e72b0a79199ef0abfee5ca7bcfd765b59",
+    "adjust_bottle:7120005": "e88855208960e039e6ba20159563978088269226e78c1ee088d9299937689d17",
+    "grab_roller:7120000": "31e9d3ed63fd15397a884be775ff06b9e4990dc0da9c26fd88556bcbf1d8c57e",
+    "grab_roller:7120002": "36f057804ee6c2e1663c327099b3d3288aa5d3e7a0aea8367cb842038e962ec0",
+    "grab_roller:7120004": "87c959bbb180d715f825d9535fc4919a7069ec943f102d2869a2801fbe042167",
+    "grab_roller:7120005": "d86db32ee7a8886bc57849825eb94cbd3fc0912c6e5b0aa4ed4d5047b58f10c5",
+    "open_laptop:7120000": "a1c7377033350599044dbdc27d117526a571c16cd806847da06c58d8a3f36785",
+    "open_laptop:7120001": "1d16fd92141ed721ff47c22218bd274d95e3ccdb8025e4f6e5c30c3423acdc89",
+    "open_laptop:7120003": "56387b48499f9383a1db84bcd6c2c4e21f18ab9da113078dc4b78865ef410f58",
+    "open_laptop:7120004": "dc0ccbd0e4c66e977c94f8d6ec11748e5404797844c8b879f282414e1f8afa56"
+  },
+  "case_diagnostics": {
+    "beat_block_hammer:7120000": {
+      "physical_sha256": "e79a21a3750a9a63777d0fddc18b2654f0aab23d831427187702a1775ff10fba",
+      "rng_sha256": "23596f54d89dec084794c58e24a30085c6f909b632ae9bd375f4098b61650d61"
+    },
+    "beat_block_hammer:7120001": {
+      "physical_sha256": "c9801ba913b14802f3090a3256996ea4ded1ae62ccb3aefa40dc2667866dd32d",
+      "rng_sha256": "e8e8a71cbfeb4e913c8aac7844df49a2cf8d0bba141bbfa9caf5b47eb1bf2ccf"
+    },
+    "beat_block_hammer:7120002": {
+      "physical_sha256": "db685b39c7cdf6d1bd4efe34f686318d78425f2c8b41a7b5ffe1472503912545",
+      "rng_sha256": "8cc254fdbc7ebfc66a21e76be31931fda7b7f803dface4d56e0cbc414abd92f0"
+    },
+    "beat_block_hammer:7120003": {
+      "physical_sha256": "389f0ca997fd6b746988ee2ced6bc2096978784c30f667b38e33521fcc8176d2",
+      "rng_sha256": "f54bea71b6e2cedfc9b86a1c8e3acc655088796f64256290cff1c45b1bc943dc"
+    },
+    "turn_switch:7120000": {
+      "physical_sha256": "03f0709786e267010a514e02e9a9d69a17a862a8d782997024fa9bd73d3d8fa6",
+      "rng_sha256": "11c4fc54067a39bd927fb080b036fee2e0c54e9677c1485de822820d41412394"
+    },
+    "turn_switch:7120002": {
+      "physical_sha256": "4a2e3dea2167385c2e7f1e22319a59f8a875b3e1d059ed4e0f747aa0f1e3a8dc",
+      "rng_sha256": "588db3209f34fa0c945f6002045cc34a2ca128731a1c9a6e64ca2a7be3e6fd41"
+    },
+    "turn_switch:7120003": {
+      "physical_sha256": "65775d2c1649513edf6d4f97d89a84f4f521aeb240a5e46ce7aa3b13da4b65fc",
+      "rng_sha256": "8346f1c5c6e3410a1784a3dcc1b499c34b599bd928ce1c3abd06deeadc2ceeb8"
+    },
+    "turn_switch:7120006": {
+      "physical_sha256": "2e2059e80994ad6a0a743aaf9b2290c2212582e80a6669d5078205060bb773f8",
+      "rng_sha256": "3ca1fa09e8a71eb60b62470c96c3bb2e162cf9120a43d5fc34defac3da6d07e7"
+    },
+    "adjust_bottle:7120000": {
+      "physical_sha256": "00db7d18a547c7bcec3b742c03a10b5b024981d550a9bee201df5f8130b9d4cf",
+      "rng_sha256": "89869b5bbac2712f70791e071eea7218b266011116d9555b7f8182b1de290e11"
+    },
+    "adjust_bottle:7120002": {
+      "physical_sha256": "042138d218a69e6f486d590aaf161a9a54811101b39783d67aa28da19bd51c1f",
+      "rng_sha256": "73d2247bbcc66ddf26a13e640ce0364790ea774855d04bc3bf1f1bac8b59bd68"
+    },
+    "adjust_bottle:7120004": {
+      "physical_sha256": "413af501a042d94e8ce033f5ee32a133f99a95487ee9d5a9343f9ca059f1fa01",
+      "rng_sha256": "b2f13bf8b1786139cce9e548e752781e5d74ed90db7ecd75ae7a1acec32b138e"
+    },
+    "adjust_bottle:7120005": {
+      "physical_sha256": "a1617808e934e7cb2287fd4b4aa3da8209e1d7b8634e4899b7dcd55f1337e60f",
+      "rng_sha256": "2e5cd721adbbcd7e379cc19b14e7723fb2999f78a927e87968fea383ba11bd7a"
+    },
+    "grab_roller:7120000": {
+      "physical_sha256": "b0299d0e361962a2f7955cc6443f05783a8a2e29afdb6fb260d66b560ebcae05",
+      "rng_sha256": "80166fab51289e5a7445319196839eba80a54780c68a36503ef8aee5bdb9bdf7"
+    },
+    "grab_roller:7120002": {
+      "physical_sha256": "4bc824430d2708723411e325906ef872a830e011eaa947eb9eb02e46e87d7fe0",
+      "rng_sha256": "ff0c65e36a03c155257e1e6c36eaba63c795d239ed6613a4b43f3a5f3e563a94"
+    },
+    "grab_roller:7120004": {
+      "physical_sha256": "cf1207d4cf105932184a700834cd3ad9cfd1b2cd88741fcab01045d7b5c69de0",
+      "rng_sha256": "c2b6f47c3a6bf2bd4644ed76c523da3811b8620b94eb83cfe6e79b3ea932f342"
+    },
+    "grab_roller:7120005": {
+      "physical_sha256": "7c52036f4fb4f2b173aafedee82d6808c3121fc6a5e595c609e5321081d0c848",
+      "rng_sha256": "012264f5518cb418a541e33992dff237cd92caadf3543be05a4e601890154d64"
+    },
+    "open_laptop:7120000": {
+      "physical_sha256": "e8209de4069164c603c5c2a060fa89eb7fc502a5a01fc6faa65925a63490026c",
+      "rng_sha256": "da9fccf04f744d19b8c2df9b7e5c414d0235f8ad7c2872945d4d3092e26133d2"
+    },
+    "open_laptop:7120001": {
+      "physical_sha256": "a2fc32efcd330090ed4f684dde667df2791f13a48032d49522654dd85a86b133",
+      "rng_sha256": "65bda7fa64aca3b0add2ff53af7c8e44a9b069b85896446dc68d448c97ede9a1"
+    },
+    "open_laptop:7120003": {
+      "physical_sha256": "1d7af223f85f47b11334346b253f532d0e80052ea4e56bf74bb542dbe2bd37ad",
+      "rng_sha256": "0e868038399d4cdce1eb25655758cc25dd01c6a4508a21079b7456139d93c934"
+    },
+    "open_laptop:7120004": {
+      "physical_sha256": "04df0d50f7013506b7dd4b3246efd490594e0d64d21261278315a19cba4ca6dc",
+      "rng_sha256": "b0c28e630ae30b31ce745c56a57d8ae1b383366346f2ec0281b4b2fa1d034cc9"
+    }
+  },
+  "cached_valid_cases": 20,
+  "completed_expert_rows": 28,
+  "primary_policy_results_imported": false,
+  "old_masks_or_teacher_outputs_imported": false,
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/protocol.json": "0a6bfed1e736508d819cdf52d19cbc5942aa77c3594563f01aeb1ca76e39587a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/attempt/resources.jsonl": "06274594389c3026cd4dee5e3ee214f74566829ea6363ffb50b9a92a366d8f57",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/beat_block_hammer/7120000.json": "65cc9d9fe97e238fb11a3470d94aad072f52d3ad819b2980e88a73e344c3554b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/beat_block_hammer/7120001.json": "c6a8cdd71968b74b2605042c9554c425e735d1ad35532254b426ac6e1d8776b7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/beat_block_hammer/7120002.json": "23514e850554d0e600d8ba948532cf0c38c3441f8e77a6ef3e3e02ff401e0fe2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/beat_block_hammer/7120003.json": "d046068246f0f63360880bd54d645ca419905872541b951af7ff62816c827c95",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/beat_block_hammer:7120000.json": "12d59d73328db66edaab4fcb7b6d6025429ab1b49cbc50daa1ed78b37185d741",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/beat_block_hammer:7120001.json": "9d3fdde3713c6b21a52c5cceb74d19c4956c7c8e599444afc1018312548d4868",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/beat_block_hammer:7120002.json": "92edddd4cec9302e7437c4cfb5f639b95aa63157a107813867cbac10e32d6c0c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/beat_block_hammer:7120003.json": "7a30da7df95eeb03a81cb152c966db015bf3aa8bd76555a0f554ac26f85d167a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/beat_block_hammer:7120000.json": "e1625cc42f5c8e3c6821105298f7180d88307b0a537818f4e740d801c536f5b1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/beat_block_hammer:7120000.npz": "c14d0b5f20b655fc35fadcbf9c02a893eb361912a19484ebf9134969bb92d6f7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/beat_block_hammer:7120000.json": "e305932dbff670e9e3d60b5253eeee6d1b8f59e12d936e208b95d2232ea7eaf6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/0939cd94775e1b40621eca3a6b7ece2f5c2af7ce52416e87e3ca8e248198959b.json": "4e1b3d16342023d077922a8b3c41f7ae0301e29014339ccba44b5ab4afc9e4e7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/0939cd94775e1b40621eca3a6b7ece2f5c2af7ce52416e87e3ca8e248198959b.npz": "7c3531d7473e3727bdb5acb76030d3fe7205f760ab40fb4b6d64fc01e241924e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/beat_block_hammer:7120001.json": "8b19f5d21d138000e474571ebb505f46e2a155a730dbff231a96c9b3d2058ab9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/beat_block_hammer:7120001.npz": "6a4a3c6da36350565a5c2f49c64d85f8ad856859076aa6c8c5a1362f2abbc873",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/beat_block_hammer:7120001.json": "f9dcee5d364837510c3f5ef69e0bef965d0d46d37e3990c15ac082afb238d4c1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/1fae03245e5e3062795369ad71e880f3d59a12c8f4f0f4d8b74071ed5a0cb89b.json": "0a1bfc78b17503b7b407f09e388d770cf931210b3ba0a87406ae9f5c5fd1bd5e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/1fae03245e5e3062795369ad71e880f3d59a12c8f4f0f4d8b74071ed5a0cb89b.npz": "520d949c80fac37232965b1e53d61dbf5815dcf2faa1ce782f0394ff1a89632e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/beat_block_hammer:7120002.json": "96fb147feb9a83fec60629b7fc6deab3f587cf39004a88dbbba1ae9920965774",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/beat_block_hammer:7120002.npz": "8c0abaacbef6295b66a11ada9bdd612a9155c75c0db413a17f70f8e4b6c84daf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/beat_block_hammer:7120002.json": "f9693283fc5bcb3ca2ef8b334e35b3458e41a52d80c7876758033d4d3ee8b8ba",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/8d51566c421d80227ebe6a5041f74f3e48bcbddf3c3ebdcc6fa20ea3e6814206.json": "e165f747036f8f7e4bf33638a16e311212690c22e068b8a8c8df8df6cc4bf363",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/8d51566c421d80227ebe6a5041f74f3e48bcbddf3c3ebdcc6fa20ea3e6814206.npz": "168f959f5c25becfe7f494ba7b689bc11807ff3665fbdc1327edfb0be75cf8ac",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/beat_block_hammer:7120003.json": "5783293827f893a252668e4326d26998a084fd033dc7a9ed5de00382913c6779",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/beat_block_hammer:7120003.npz": "1e0589f9ff7c9ad778a7d30aed9b755944e905c23221e5d4e721cb071bda845f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/beat_block_hammer:7120003.json": "74b0e9b5ea51c2eb807f08c6397c94151d71985529307a5ccbf0f15632dd9299",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/6c53c5f429be3e0099c7be450bb7835fa75938ad16490f77b7dd017eb3689390.json": "266b6e6e46e6cda8e723ed2afce8f01640a8b77e75addd678070e58d11f12865",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/6c53c5f429be3e0099c7be450bb7835fa75938ad16490f77b7dd017eb3689390.npz": "f5539266a25b7968fa3750a8ab2319cd6e01ddd1d1220933d5fbfb9388434920",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/turn_switch/7120000.json": "b93929cd815782b8336c6bd6d16f01e72c3ed732a1fa4d25ff33c277944e3e90",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/turn_switch/7120001.json": "c0a6f98f62551332e136acb28e62248d2abe9c787b694c2b7519686c28c9a606",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/turn_switch/7120002.json": "04007dfe81d9f0e2658b8945af1c6472e0221395a5b0128dc680157d65ccbefe",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/turn_switch/7120003.json": "f4a622ceab8a2f12fae14869400c9817964026ba870f56bb3d4ca16530bd5732",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/turn_switch/7120004.json": "9ac620c4d1e12149c24614f33034ef2845708932f5316e1390184bbd948cd038",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/turn_switch/7120005.json": "ccce8df8be982dc4d50cb5e74db3076a20fcc218fde8f44bc648b997f306e464",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/turn_switch/7120006.json": "24c2af694707fc3496ad43e4ddcc2464b743d9131ed20e5d86b2cd577408c591",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/turn_switch:7120000.json": "ba2e368fc707f83613585224f13fc7a9889896b7fc7157a1c6798c89289cdeb2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/turn_switch:7120002.json": "52ccdd8227beffa3f9b8da589b7289aff41717bc0a4569bfaf4d0a1861b00488",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/turn_switch:7120003.json": "5d311d570a47e5f9fd09cb52740adaac44f5f7231005c70c5c7714a5a802cd6c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/turn_switch:7120006.json": "dfd94173fb2c1a5e703757cad4136e44ec1f2be5f090451c7a1a27b029d27d0a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/turn_switch:7120000.json": "5558858009215adb26ebfeaa3bd18fe04e0da4ba382a32d08ca32df08dd3cbc7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/turn_switch:7120000.npz": "ec8eecfcda9550bc43d046de208a9b91c27461a6098ba8a295e4d5617dbf7fff",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/turn_switch:7120000.json": "f34efeefd9c9984810394efc813d3f00842974bb2b206cd59f2a7747be9dfd3f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/511df02c6ec41bc2e55012169d28b505304f2cc4e4d6ec279881eee5b452c96c.json": "3fa35b8bdc7e19fdd583c1ce54664996dee787e3c8bf06294c9daeefe212f750",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/511df02c6ec41bc2e55012169d28b505304f2cc4e4d6ec279881eee5b452c96c.npz": "a8d77a613b44f05e49dde16f447cf39eec79d80e5fe3f7be0e3b0a1a615a9902",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/turn_switch:7120002.json": "0338d17b836d0d40f40bb8a95d0020c8631c9f20304ae0ad9e17d6d6420f21dd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/turn_switch:7120002.npz": "cd3303791f256ef83c4f402762d773e3995816e6bf020a540a9271ecda7f59f0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/turn_switch:7120002.json": "e01555ba96734b0d0430da204b5ba260ceacad340945e2b076eb92ebfe65d378",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/fffc3833ac4d0b1a8cf6d841a71910b31b008e2cbb3293fc3ad48ea1eec87321.json": "daa77c3f79366eba4f726f7eb6b7870cbe68a97ed6f1d34bbfe43fa153aefdfe",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/fffc3833ac4d0b1a8cf6d841a71910b31b008e2cbb3293fc3ad48ea1eec87321.npz": "cf4e60dddd0ac0f093a1bc942db0574f14514750feab1c7fa726784747e0fb0e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/turn_switch:7120003.json": "c515e6cccd2f6bf13b7ef0b5225dff8c7e918d522b1579e5a43ca933ba653d90",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/turn_switch:7120003.npz": "c92ac0ccbe7b29198dea13a7f43b9d64622051ab26950f029f6b43b71045c808",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/turn_switch:7120003.json": "8b4ec9c91e2023c418754aeeaabea1967469d3b02c43f4d9f482c97bee6d0731",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/a3d5124194c87c4810a20251a7f4d628dc335b781e45d69148c4da81c1cba22a.json": "96455831652d6a11c8670e4e6818e20e56858b69440a37c44cf0a13892ad10ac",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/a3d5124194c87c4810a20251a7f4d628dc335b781e45d69148c4da81c1cba22a.npz": "13c3f22a7644b3d2cfee2c84f078e708694cff1fcce33f9a98941a8d54fd82ac",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/turn_switch:7120006.json": "369c3253568de1d9d2f8e693b57bbb33c6b0233abd1f7f5d5081763bd04c7048",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/turn_switch:7120006.npz": "1a8df298d1585c7be6518d9354cafb362e128570f6282f4f1d1cfb77e8acd94d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/turn_switch:7120006.json": "acead45c58ad83381ac15bb5bf5448a8dede44783d334af41e4013daefe96bfd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/df0235057e40442f3bc2b79ed2501f7e5d84c37a4c47df720149992f9ceef827.json": "80174ccf1ccfceccec5ea595a53512d093e0ff4d49f14f714c9a6964a3dea7c8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/df0235057e40442f3bc2b79ed2501f7e5d84c37a4c47df720149992f9ceef827.npz": "34734b3a43a5c7dda60015766910d5d14b0a51f41753cacd1319aa0d513aea73",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/adjust_bottle/7120000.json": "41a6e8e1f1afddc9b5b11945e56e41e4987d78d526b77fb966a66e4ae0effc79",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/adjust_bottle/7120001.json": "a30a23df209eef328c3cfa795e9fceb978162304c773468891acd6910f28b1e5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/adjust_bottle/7120002.json": "d4f76ed3a8a2b2ecd07195d3f93060e6c8070c84e878daade1b4b19579df5e7e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/adjust_bottle/7120003.json": "939a45209777b1777a36c5bebeb2f9ad5b03030e4315c92efc2bf19a2a3c0cbc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/adjust_bottle/7120004.json": "8e66d95071be06cd73e404cb509065419c7512973a88bbef7783f5ef8a9fb757",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/adjust_bottle/7120005.json": "333b7ffe124aaacba21bd6b93d609958dac9cbfc2400374ab969f1f5fbf7bf0a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/adjust_bottle:7120000.json": "632b68897fb20f9ec87df4495aac06f84ff03506aeab35b2937d6589a28c3cef",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/adjust_bottle:7120002.json": "fc286be56a7a2ab18b3bfbe1a67cf9e35399aab859da453c8b124d2ee872974b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/adjust_bottle:7120004.json": "d3b7fa488b48da7554c877f3e462d1195937e1d53a19329374e8775b080876be",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/adjust_bottle:7120005.json": "1d7caaf5835010740f20c0dbaa92e4b885653a70149c1740f653b9f2590b36a2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/adjust_bottle:7120000.json": "a74d637f554f2590d2a7c9fbb089315a309146c7e98db5c9d2701f40842cada1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/adjust_bottle:7120000.npz": "7dce7c14d0a6fcaec06a59b7bd40e911750e9409d6cb3ffc65b48f58e9e367a1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/adjust_bottle:7120000.json": "c738c39f24a835d493d2b44616c4165b07ae0f187de43545e0ca0074cacc0421",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/089e58ed92696dbe93348b4db620b3eaed76ec92407402efcf5abfd9dc279038.json": "b1a5f7df644bd338b2ef07730a4fc3b10438efceadc928d895845a868d397d26",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/089e58ed92696dbe93348b4db620b3eaed76ec92407402efcf5abfd9dc279038.npz": "30966137d9dbd1f3b57fb86a83ecb6aeb7d146f880d15ee36fae3f9809896dd8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/adjust_bottle:7120002.json": "b7ad044db004df61ba8294c835d85a8404b74abbc373d0b7d5b6042c03c8ffb4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/adjust_bottle:7120002.npz": "c096213d0c8a9374cd0a3c126af46505f8ec2fc962cf06f82a5468420a14b144",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/adjust_bottle:7120002.json": "e1d7a161de522e91046fde392a52cc293758006fbf24d279eb401dc1103edd49",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/16c4eb3a8705f606912b8ff1e155079051780bed471a69d698843ae792ae045c.json": "bb1b895b1f0d05551ea24fe4d87a3e6ac98c5d2f4817220b7d7ec207f8f87ea2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/16c4eb3a8705f606912b8ff1e155079051780bed471a69d698843ae792ae045c.npz": "8f4c09b8fceaabef2981e0cefbf69ba81abd479546fa443c4b73e200a063b3a8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/adjust_bottle:7120004.json": "044f9ad24660eabd853fe2435031caf7729f64fba71299524c4e3d530eb2297e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/adjust_bottle:7120004.npz": "b11316acd62533881f7e8106cfff68ae2b47119930c6f12eec5c000f991b7125",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/adjust_bottle:7120004.json": "ac3a14bc00784b0970d11c154c1d2174a29edf2a70ac91225abb9ad0dc027abd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/84ace30f6dd347a8bd2409267f2c126e72b0a79199ef0abfee5ca7bcfd765b59.json": "a86da298374b062df61030ee993564baa84f580797f00c9ae099735ede5a18c7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/84ace30f6dd347a8bd2409267f2c126e72b0a79199ef0abfee5ca7bcfd765b59.npz": "419f0f1b233e859ec97878dc5eeb50f95e34fe9ed1f2fe46ab3fe99d4734745e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/adjust_bottle:7120005.json": "6696ee4abf58f5695757313cafc094cb874162e2730095a9cbbce0b0ebf56adc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/adjust_bottle:7120005.npz": "9771ba7823d8b9bd8ede0c6703ece053026e5598ab9b49d54280afebffe025c2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/adjust_bottle:7120005.json": "e822aae146dd63f049d9f3e97652b0a9f0a814039fcca762d13c9c81343533bd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/e88855208960e039e6ba20159563978088269226e78c1ee088d9299937689d17.json": "054ab7f19133e8af9b9745e68aa3e573ce604325859bed6533d3143d7cfb65a4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/e88855208960e039e6ba20159563978088269226e78c1ee088d9299937689d17.npz": "a5cce6cded31a328f4e1b362002fc806b839d27f5a1eb214bfcd95953a463b16",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/grab_roller/7120000.json": "bce1ba9ef4730f6e8bf4dc87d9ed89174f9480ac5973fdc9c5a610706ce73526",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/grab_roller/7120001.json": "af5a34a896768b8ba6f686a3a70dde62f836d879e97337a3501af9acca243164",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/grab_roller/7120002.json": "34cec1c207b67ce982695bd8c90fa4378d593fdbc2afc9c47f006d0d4137da3a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/grab_roller/7120003.json": "80d5f183cae63f0ce285152eead886653c071df2c15d2a185a98acaa62db9ed3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/grab_roller/7120004.json": "caefaffb90987db405e4a0d12d3dce271eea7159c02b7c6a5fc3530ed3f85fb8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/grab_roller/7120005.json": "a00a63d619d0d6592deb279f76bfd62e877005d14caed515b9a2a9e2aafd7b54",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/grab_roller:7120000.json": "2a39206f598bcfb34e2a85b3b5d77a5dcb1d2a4757a3d4c495b92fee07092ac5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/grab_roller:7120002.json": "d5afe533c37860315b94abb4fe7539773af7a1d59af4458ba3a84c4571e5965a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/grab_roller:7120004.json": "4b3478e229a65af7a435c037b418c392e14541b2121234ee2b2a56ff1af0f75c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/grab_roller:7120005.json": "fbf16cea0304bba73b3f37a583e1d5079ee596c9aa655fe54193cd79fa5a3007",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/grab_roller:7120000.json": "0ec3375ef5592ee29e601e338cc25702a8a94eb0eea4fafb65df706ab2a18869",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/grab_roller:7120000.npz": "6dc8dbf52721732345c7f732f9f6357f92e8e93d1085b6bc3d597d4f0ebb8255",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/grab_roller:7120000.json": "70f19ec06fc7a2c8f042775219cd804841c0652fbe2a180cb7e2a5d30e8721dd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/31e9d3ed63fd15397a884be775ff06b9e4990dc0da9c26fd88556bcbf1d8c57e.json": "53da402d26178bd76e0222d580c0542fe6acea123ef6e5dd345cdb554a37fc26",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/31e9d3ed63fd15397a884be775ff06b9e4990dc0da9c26fd88556bcbf1d8c57e.npz": "844f693a2549d97a6e57ae56431e696d4ade67f7aaee7110d54b1c9e039083ba",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/grab_roller:7120002.json": "8ec40721aa0e483af5a479a128ea957811b27c917e8b115a203b3de48cb15caf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/grab_roller:7120002.npz": "a845da61e49784f0d9b5fde41d4eb72dcd2178c7cc957102205b68ddcbd03e1a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/grab_roller:7120002.json": "b41b72ea90e1dbd80eddd18d9dbf59aab509a7c51fbcde5b6a7f8743873bef95",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/36f057804ee6c2e1663c327099b3d3288aa5d3e7a0aea8367cb842038e962ec0.json": "46835f0f53a6b531ef1dc51722b3280af82acd933a867becbc3676a66fbcd6ac",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/36f057804ee6c2e1663c327099b3d3288aa5d3e7a0aea8367cb842038e962ec0.npz": "4419ca996f3eaa4cfaa3dba2c97ae753b6602d36d33f12c4ec6e1dca02e922a2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/grab_roller:7120004.json": "1c6f9d27c258b8e42ad13a68b4ec5dc73b36f7db365fb1f5c847d7f8bef4a0b4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/grab_roller:7120004.npz": "165438f7a2ac78ad99192008e9e85197c3b14de8025d04eb2c20919b96bc905d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/grab_roller:7120004.json": "9478a017c7f5af8a058914fb5ca01d887c52b3f33bb050028ba3be0dda55d4da",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/87c959bbb180d715f825d9535fc4919a7069ec943f102d2869a2801fbe042167.json": "9995866a154a25d2802384ded9c649893a1fe778c50b5ec577b58185e323b1aa",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/87c959bbb180d715f825d9535fc4919a7069ec943f102d2869a2801fbe042167.npz": "f481dc77d8ad3c283e25bf13821421e4b7134ba8fe89f44f846a538ae11043e7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/grab_roller:7120005.json": "f63a314280dab0997cc67b50d3825a4925d60b0cd6dde8ba020ecc1144bce4c7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/grab_roller:7120005.npz": "ec66af82df6ce4167c94c5202c38aae1538fa1a5a12b74206407a66426d4f4dc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/grab_roller:7120005.json": "ddc62ef3bea1031df08268592144f7ae628ce0a9a5b7ec2c5689ccf80726714e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/d86db32ee7a8886bc57849825eb94cbd3fc0912c6e5b0aa4ed4d5047b58f10c5.json": "46a783e1a3f145b939106f33560816fbf38370d64e8cea2def22de6a22d0b438",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/d86db32ee7a8886bc57849825eb94cbd3fc0912c6e5b0aa4ed4d5047b58f10c5.npz": "a3296916eef3a009dcf3e45e7c06c75591c4745f4cf9070ac3b3c6d01c606c42",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/open_laptop/7120000.json": "81f9606677057f442dccb056c66bf17b6ad9f7ef263a054d52f55ec07106741a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/open_laptop/7120001.json": "a8b51c06c37a8e72769fb89de5023f3b7115553d23c0747b1cf71b29baee02fa",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/open_laptop/7120002.json": "ca9992f8c57333c7ac338c4ad434f46f7fc19adb37f8491a176280051a5dcaf4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/open_laptop/7120003.json": "c9c86ad40d7a419fd958f34be168404bfbd1b2515a3f4933a7d9b895a2ca1573",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/screening/open_laptop/7120004.json": "798484d8e3c5006a877d22c1fa781120edf6c447fb4cdf4989340df202a2f33d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/open_laptop:7120000.json": "57c884c3d2e5f44c27885cd179ae812f83406ca53274c91cc8176c5d53311d03",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/open_laptop:7120001.json": "0b5a826ca8154ea50ff99b8fd07251a62dd2088c9c70cceb31d01d16fdcce6a5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/open_laptop:7120003.json": "06b1fdad0c37fa532359b18e486be161eea1117c6940f4f8d488f6f92d9730f9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/accepted/open_laptop:7120004.json": "673f74bc16025cbc121ab59bfa5b7c41fdee124b08a59675d73f16bd125edb90",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/open_laptop:7120000.json": "520edbbfb62cb2a3fccf001e527accdbf596f5eee23ec0809a93fa220bec8a99",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/open_laptop:7120000.npz": "3c7bd3bfa26a12353086459de6cc8b58564e38b7fccd694bee6a529bdb2ea61d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/open_laptop:7120000.json": "47c893c9faa0e24d1dd31acae119d148a7c49838e2e6a1ec08f16710117c228b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/a1c7377033350599044dbdc27d117526a571c16cd806847da06c58d8a3f36785.json": "557ecd60fb507ebdbefe50cbbf74011455695d93eec8b718dd4a93f22368cbc9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/a1c7377033350599044dbdc27d117526a571c16cd806847da06c58d8a3f36785.npz": "db0efff3e794b5990c4ac4a2c59b80857b747fb139a6c3deb93639af0c4a988e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/open_laptop:7120001.json": "60265ecdb18c2b22b229ad45963b6cb2b6a9d36a9dd2eea8fb2fd8fd7b550613",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/expert_references/open_laptop:7120001.npz": "9bf64609304557065636be20c6cb29a5570436f371125578a9ef7f6dd9a9225b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/open_laptop:7120001.json": "987d2cd3aaca3821b0581d50fa164f1a4afd4a2f69e3039fcd7730161fad561f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/1d16fd92141ed721ff47c22218bd274d95e3ccdb8025e4f6e5c30c3423acdc89.json": "966ab69a266939d939acc0855cf9680214f90c3da490570b9ff68b3bc4e57a24",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v3/pilot_fit/batches/000/runs/5dfb42bb967d47c89a000e3b0e3a9005/semantic/requests/1d16fd92141ed721ff47c22218bd274d95e3ccdb8025e4f6e5c30c3423acdc89.npz": "641ffcf02299f6446f1b82a3c656f88dde1770a19f400555283f1df6a3dd75d7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/open_laptop:7120003.json": "3aaa18b0c8a16004c35bf9809a9b839b1f1a21adc2064d9ae3a5f63f86041a26",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/open_laptop:7120003.npz": "f94e5e5cdc43731cebac18e8b35d410cee06b238ea675de79307079c4b379a5f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/open_laptop:7120003.json": "e6db7740741e031c604aba05a0fa61b8b2938f29fd6d931c55ec0aeb723dc590",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/56387b48499f9383a1db84bcd6c2c4e21f18ab9da113078dc4b78865ef410f58.json": "f62efdace945c14c10d1067c45c5813f24a7b359cf5a3fd62a764c831a12e21e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/56387b48499f9383a1db84bcd6c2c4e21f18ab9da113078dc4b78865ef410f58.npz": "6f4635428626bf04633815404eb919d1ae2f0adb28635b8f14d42d8c86d32ea6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/open_laptop:7120004.json": "dc88399fecfc8a018d7912927d23c3fabdb7e6c2098226771e8ffa6368d1878d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/expert_references/open_laptop:7120004.npz": "92c1cfaf41753a002ebc1550a673a93ef0d6f15effa43f234d5ced9326909c9d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/initial_prefetch/open_laptop:7120004.json": "cc26227609a69ed673ea823a7f498a0b722e2a3d31fd45bb55a064905bf622dc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/dc0ccbd0e4c66e977c94f8d6ec11748e5404797844c8b879f282414e1f8afa56.json": "30c4db388e58c7df75326cc41b34fadae4330c5ebed953b9cc887ac10d76961c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_expert_train_v5/pilot_fit/batches/000/runs/9129f65055b447fe93f7428c5342046a/semantic/requests/dc0ccbd0e4c66e977c94f8d6ec11748e5404797844c8b879f282414e1f8afa56.npz": "8087e9d1f1d043130f66f5607061769e69f607b606c0dc83a6d541e82545ace6"
+  }
+}

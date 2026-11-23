@@ -1,0 +1,14 @@
+[
+  [
+    "sm=min(card['sm'], sum((p['sm'] or 0 for p in owned))), bandwidth=min(card['bandwidth'], sum((p['bandwidth'] or 0 for p in owned))),",
+    "sm=sum((p['sm'] or 0 for p in owned)), bandwidth=sum((p['bandwidth'] or 0 for p in owned)),"
+  ],
+  [
+    "        c['own_rolling180'] = means(account, now, total_mib=c['total_mib'])\n",
+    ""
+  ],
+  [
+    "        c['device_rolling180'] = means(device, now)\n",
+    "        c['device_rolling180'] = means(device, now)\n        own = means(account, now, total_mib=c['total_mib'])\n        for component in ('sm', 'bandwidth'):\n            own[component] = min(100., own[component], c['device_rolling180'][component])\n        own['util'] = max(own['sm'], own['bandwidth'])\n        c['own_rolling180'] = own\n"
+  ]
+]

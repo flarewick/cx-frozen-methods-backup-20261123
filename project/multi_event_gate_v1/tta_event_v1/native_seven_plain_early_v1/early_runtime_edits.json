@@ -1,0 +1,34 @@
+[
+  [
+    " jobs=BranchQueue(work,case_count,c.cancel)",
+    " jobs=BranchQueue(work,case_count,c.cancel,early=spec.get('early_pairing',False))"
+  ],
+  [
+    "     expected=masks=seed_report=None\n",
+    "     expected=masks=seed_report=None\n     def publish_initial(policy):\n      nonlocal shared\n      assert leader and spec.get('early_pairing',False)and shared is None\n      assert policy['query']==policy['actor_observation_tick']==0\n      assert policy['base_infer_calls']==policy['actual_internal_noise_calls']==1\n      assert policy['environment_audit']['native_environment_unchanged']and initial_identity is not None\n      assert not(folder/'M_event_full/result.json').exists()\n      witness=dict(query=0,actor_observation_tick=0,base_infer_calls=1,actual_internal_noise_calls=1,native_environment_unchanged=True,source_policy_file=policy['policy_file'],source_policy_sha256=policy['policy_sha256'],only_q0_provenance_no_full_result_or_labels=True,full_result_absent_at_dispatch=True)\n      write(folder/'early_pairing_dispatch.json',dict(witness,initial_identity=initial_identity,dispatch_monotonic_ns=time.monotonic_ns()))\n      shared=dict(item=item,cfg=cfg,branches=branches,rows=rows,initial_identity=initial_identity,reference=reference,done=set(),lock=threading.Lock(),early_pairing=True)\n      jobs.publish_initial(item,shared,witness)\n"
+  ],
+  [
+    "      return expected,bool(seed_report['available'])",
+    "      if leader and spec.get('early_pairing',False):publish_initial(policy)\n      return expected,bool(seed_report['available'])"
+  ],
+  [
+    "   if leader:\n    return dict(item=item,cfg=cfg,branches=branches,rows=rows,initial_identity=initial_identity,reference=reference,done={'M_event_full'},lock=threading.Lock())\n   with shared['lock']:\n    assert branch_only not in shared['done'];shared['done'].add(branch_only)",
+    "   if leader and not spec.get('early_pairing',False):\n    return dict(item=item,cfg=cfg,branches=branches,rows=rows,initial_identity=initial_identity,reference=reference,done={'M_event_full'},lock=threading.Lock())\n   if leader:assert shared is not None and shared['early_pairing']\n   completed_branch='M_event_full'if leader else branch_only\n   with shared['lock']:\n    assert completed_branch not in shared['done'];shared['done'].add(completed_branch)"
+  ],
+  [
+    "     shared=run_case(number,item);jobs.submit(item,shared)",
+    "     shared=run_case(number,item)\n     if not spec.get('early_pairing',False):jobs.submit(item,shared)"
+  ],
+  [
+    "    else:run_case(number,value,shared=shared,branch_only=branch_only)",
+    "    else:\n     try:run_case(number,value,shared=shared,branch_only=branch_only)\n     finally:jobs.retire(job)"
+  ],
+  [
+    "  assert not any(t.is_alive()for t in threads)and c.service.requests.empty()",
+    "  assert not any(t.is_alive()for t in threads)and c.service.requests.empty()\n  assert jobs.active_references==0"
+  ],
+  [
+    "new_official_EVAL_scenes=case_count,replayed_TRAIN_benchmark_scenes=0",
+    "new_official_EVAL_scenes=case_count if spec['official_EVAL_used']else 0,replayed_TRAIN_benchmark_scenes=case_count if spec['dataset_split']=='TRAIN'else 0"
+  ]
+]

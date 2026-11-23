@@ -1,0 +1,44 @@
+{
+  "complete": false,
+  "group": "plain",
+  "official_seed": 0,
+  "scenes_per_task": 12,
+  "groups": {
+    "lift_pot": {
+      "scenes": 12,
+      "control_successes": 1,
+      "TTA_successes": 1,
+      "rescues": 0,
+      "harms": 0,
+      "accepted_update_scenes": 8,
+      "changed_action_scenes": 8
+    },
+    "handover_mic": {
+      "scenes": 12,
+      "control_successes": 7,
+      "TTA_successes": 7,
+      "rescues": 1,
+      "harms": 1,
+      "accepted_update_scenes": 12,
+      "changed_action_scenes": 12
+    },
+    "stack_bowls_two": {
+      "scenes": 12,
+      "control_successes": 2,
+      "TTA_successes": 5,
+      "rescues": 4,
+      "harms": 1,
+      "accepted_update_scenes": 11,
+      "changed_action_scenes": 11
+    }
+  },
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_official_v5/plain_000/actual_host_wait_exit.json": "6246665b3afbeb1be42dc0212225a8289d1781e7cf9fd03c81a0a5f79dcb629c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_official_v5/plain_000/batches/000/runs/246f22964ad0454eba9ff22845d34cee/CPU_episode_audit.json": "5792cb6d04e1c6cb0e64a042fc82f3318e2fffff8bfa243168efa294b0caa8d5",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_official_v5/plain_000/batches/000/runs/246f22964ad0454eba9ff22845d34cee/terminal_audit.json": "8b72816e8c7202fb1fc333da3499fd48b3c6e0c5ebb6ea5232a8d1f26ae7b178",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_official_v9/plain_001/actual_host_wait_exit.json": "05f604e54ba60f8260b09a56ace448765249f852f7bb7b4b2ccbe84148bdf020",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_official_v9/plain_001/batches/000/runs/734cc0585d834faeaa67a2b20b29ff32/CPU_episode_audit.json": "a26eabd03bac851351ae0e99c78ad2ee78a0f35d725e143f1c3b5d39999ca0a1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_official_v9/plain_001/batches/000/runs/734cc0585d834faeaa67a2b20b29ff32/terminal_audit.json": "3c9bac8ee37f683fb245d79abd7b575582970c9979b51c026941bb16343084e4"
+  },
+  "no_failed_or_partial_branches_promoted": true
+}

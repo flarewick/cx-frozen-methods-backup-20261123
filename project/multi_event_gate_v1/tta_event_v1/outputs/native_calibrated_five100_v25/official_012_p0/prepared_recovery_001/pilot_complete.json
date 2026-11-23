@@ -1,0 +1,1299 @@
+{
+  "complete": true,
+  "stage": "official_012_p0",
+  "groups": {
+    "open_laptop": {
+      "scenes": 3,
+      "baseline": 3,
+      "full": 3,
+      "TTA": 3,
+      "rescues": 0,
+      "harms": 0,
+      "semantic_available": 3,
+      "accepted_update_scenes": 1,
+      "changed_action_scenes": 1,
+      "records": [
+        {
+          "task": "open_laptop",
+          "seed": 100076,
+          "episode_index": 60,
+          "instruction": "Lift the rectangular laptop with smooth finish's lid fully.",
+          "case_id": "open_laptop:100076",
+          "initial_physical_sha256": "029084de3c273755e2958bc117f21ee1cdb3a5fc2ecd599b0054a6ee6758537c",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 93,
+              "queries": 3,
+              "physical_ticks": 7297,
+              "SAM2_forwards": 91,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 216.3596970611252,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 91,
+              "queries": 3,
+              "physical_ticks": 6852,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 66.57637856295332,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 93,
+              "queries": 3,
+              "physical_ticks": 7297,
+              "SAM2_forwards": 91,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 235.3200772050768,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "029084de3c273755e2958bc117f21ee1cdb3a5fc2ecd599b0054a6ee6758537c",
+            "rng_sha256": "62a261d803455f3d70aba5fc166db1c7d5a47fb02d548d237ce9758d40bae22d",
+            "RGB_sha256": [
+              "a5c89c9b19948f61bf3fb5110aed8c8b1acbc466924a2905c5cec570d1d6fdca",
+              "5940a8d87c697fc1c49ef75bf3f75be439bdf04b34ae28c7fac022da35989113",
+              "09a51f63527f1603961da2b72ee61ef6e023ba6d1165c9207363466dfc2edb49"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "open_laptop",
+          "seed": 100077,
+          "episode_index": 61,
+          "instruction": "Lift the black laptop with shiny hinges using the left arm",
+          "case_id": "open_laptop:100077",
+          "initial_physical_sha256": "e03a9611039bb9aabcb42f502e2b15761a890c1777c6e41b9d5ceeaee0da0ac5",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": 3,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 137,
+              "queries": 5,
+              "physical_ticks": 9301,
+              "SAM2_forwards": 90,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 243.91320608602837,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 130,
+              "queries": 5,
+              "physical_ticks": 8829,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 103.89893460506573,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 140,
+              "queries": 5,
+              "physical_ticks": 9480,
+              "SAM2_forwards": 90,
+              "applied_queries": [
+                3
+              ],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 16,
+                  "phase95_tick": 3725,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 279.7475128150545,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "e03a9611039bb9aabcb42f502e2b15761a890c1777c6e41b9d5ceeaee0da0ac5",
+            "rng_sha256": "732925fd4db3c0ddf756be1ea61f3a96bc32b092161c4ab1eb9f1f3f6aa6edf8",
+            "RGB_sha256": [
+              "edec6e6f079177c6ee5aaada3eb64d7b683dbaf04bd5b264b060447d9ada1110",
+              "a49a4ddcaf31d8172f6ececc47a123b79fb0b2d10654955280c4bd0bc8296c9f",
+              "dbbbff685e4ec177070ea5540145075f59bdf43d58e25f9e41931da26078227c"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "open_laptop",
+          "seed": 100078,
+          "episode_index": 62,
+          "instruction": "Open the silver laptop with one motion.",
+          "case_id": "open_laptop:100078",
+          "initial_physical_sha256": "19947eb63c827434f8e60110fbdf14fe42033b08656a16a62a1c016cce6dcf76",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 147,
+              "queries": 5,
+              "physical_ticks": 9470,
+              "SAM2_forwards": 89,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 255.249511170201,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 131,
+              "queries": 5,
+              "physical_ticks": 9802,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 79.32138825813308,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 147,
+              "queries": 5,
+              "physical_ticks": 9470,
+              "SAM2_forwards": 89,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 255.78350130608305,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "19947eb63c827434f8e60110fbdf14fe42033b08656a16a62a1c016cce6dcf76",
+            "rng_sha256": "8eeb0d671fa8d5a7d429cb2dd9bd89d0e9152b15efba3922d952322231ef6d2d",
+            "RGB_sha256": [
+              "6ce02397910c956896510ebf48cbe8b40195da75eb55df58e0dae28945fa3e92",
+              "247bdb8df33aa2862fa55d7f59e6ba4cfad83017d035fe7f3edd5094cb629994",
+              "2fbbe2c33736ea90f824a30d4260331633f5043e7324cb11087b2a195c5870a8"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    },
+    "grab_roller": {
+      "scenes": 3,
+      "baseline": 3,
+      "full": 3,
+      "TTA": 3,
+      "rescues": 0,
+      "harms": 0,
+      "semantic_available": 2,
+      "accepted_update_scenes": 2,
+      "changed_action_scenes": 2,
+      "records": [
+        {
+          "task": "grab_roller",
+          "seed": 100082,
+          "episode_index": 60,
+          "instruction": "Grab the roller with tapered tips on the table with arms.",
+          "case_id": "grab_roller:100082",
+          "initial_physical_sha256": "4b130381128dbe0bd659c262eeaa7f9ee0cf0d647d251612aedddcd02f8cf737",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 94,
+              "queries": 3,
+              "physical_ticks": 7906,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 64.14876582333818,
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 95,
+              "queries": 3,
+              "physical_ticks": 7773,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 35.23103145882487,
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 94,
+              "queries": 3,
+              "physical_ticks": 7906,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 35.5871320720762,
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "4b130381128dbe0bd659c262eeaa7f9ee0cf0d647d251612aedddcd02f8cf737",
+            "rng_sha256": "7ee5cb42c03daef0b134eeaf10d4520acc5652ee2d58fb212a6aab9a93759ad6",
+            "RGB_sha256": [
+              "87876dff1132e15cab84b03a246b13ede5146e396497f672f78059d0c330509f",
+              "3023c47164ee89d4ba7018878898aa17d10f20f08e405a41e8951e65c6a4bf16",
+              "99e634c742e4d19e256647a465c74602cd5dce34d2c0b65ed5f1ac04ccd9c4b9"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "grab_roller",
+          "seed": 100083,
+          "episode_index": 61,
+          "instruction": "Grab the smooth wooden roller on the table using arms",
+          "case_id": "grab_roller:100083",
+          "initial_physical_sha256": "d9d81c36089c3d80dcc4162fbe1dfc5979a582503b641e0166659a845d629fd4",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": 1,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 90,
+              "queries": 3,
+              "physical_ticks": 7610,
+              "SAM2_forwards": 126,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 325.50459660822526,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 90,
+              "queries": 3,
+              "physical_ticks": 7471,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 50.38480671821162,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 90,
+              "queries": 3,
+              "physical_ticks": 7619,
+              "SAM2_forwards": 126,
+              "applied_queries": [
+                1
+              ],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 1,
+                  "rows": 4,
+                  "phase95_tick": 4105,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 307.59983844775707,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "d9d81c36089c3d80dcc4162fbe1dfc5979a582503b641e0166659a845d629fd4",
+            "rng_sha256": "460aedc459cccdfc775307c39fa521e0cdabf5586c784d1900b41ec89ea0e954",
+            "RGB_sha256": [
+              "8fea1c7b49c0035b6177640e0ddeece9fe19a6ca2497fcd752fae7811ebb21ca",
+              "61362322a2725aca4e59324318484d0fce60d1e61fe81fceb99faa0f17a244da",
+              "663a095dd7d93eee58ddcfb618fba0a915f645b43599f0d749b36e2fc796dacc"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "grab_roller",
+          "seed": 100084,
+          "episode_index": 62,
+          "instruction": "Use arms to grab the light brown cylindrical roller.",
+          "case_id": "grab_roller:100084",
+          "initial_physical_sha256": "877fd1febcac0dfbd9d5f7129aa1809f25daf3511688e46821d21d0301699a3a",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": 2,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 98,
+              "queries": 4,
+              "physical_ticks": 8393,
+              "SAM2_forwards": 138,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 342.61130182724446,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 99,
+              "queries": 4,
+              "physical_ticks": 8244,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 57.168459847103804,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 99,
+              "queries": 4,
+              "physical_ticks": 8452,
+              "SAM2_forwards": 138,
+              "applied_queries": [
+                2
+              ],
+              "accepted_updates": 2,
+              "consumed_packets": 2,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 27,
+                  "phase95_tick": 3996,
+                  "actual_issued32": true
+                },
+                {
+                  "source_query": 2,
+                  "query": 3,
+                  "rows": 18,
+                  "phase95_tick": 7171,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 262.56869232980534,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "877fd1febcac0dfbd9d5f7129aa1809f25daf3511688e46821d21d0301699a3a",
+            "rng_sha256": "1541102f0528deaff457bc59443af4fd15bf855fd5b785797d9b97c62acaa581",
+            "RGB_sha256": [
+              "18e229b1e21de8c1a6d88aea5ff913dc410b01ed29f7a7304bbdede5769a2889",
+              "ad6b1d99406118a7c05874abcdbc574bb579371f387f84ad3fd510f9b8043738",
+              "61a94f7c765f6e148a4ff60bf7a52fd06054971b5105ae49c1c38352423cdc49"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    },
+    "beat_block_hammer": {
+      "scenes": 3,
+      "baseline": 2,
+      "full": 2,
+      "TTA": 2,
+      "rescues": 0,
+      "harms": 0,
+      "semantic_available": 2,
+      "accepted_update_scenes": 1,
+      "changed_action_scenes": 1,
+      "records": [
+        {
+          "task": "beat_block_hammer",
+          "seed": 100096,
+          "episode_index": 60,
+          "instruction": "Grab the silver hammer head and claw and hit the block",
+          "case_id": "beat_block_hammer:100096",
+          "initial_physical_sha256": "038aac6e99bad86e5e2331d730dafccacac31225363bd1e50eb1e2fbc6587c70",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 100,
+              "queries": 4,
+              "physical_ticks": 7417,
+              "SAM2_forwards": 90,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 224.96393290162086,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 117,
+              "queries": 4,
+              "physical_ticks": 8213,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 94.85956595884636,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 100,
+              "queries": 4,
+              "physical_ticks": 7417,
+              "SAM2_forwards": 90,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 250.8767268313095,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "038aac6e99bad86e5e2331d730dafccacac31225363bd1e50eb1e2fbc6587c70",
+            "rng_sha256": "8b171666a8f530df76775a75640e751c95c5962bda9e0c6fff29afcdcadf11f5",
+            "RGB_sha256": [
+              "fe12d0f1fa060bb8b0c807c12c3d843f6fd69cbd0f864f5678c5bc18ef4ba996",
+              "d41e234a0a6cb741ebe74a1291a26c9fec5358dc3381344bcefed7b52556d42d",
+              "89953d6678fb015c7b554684a80ed0f0814001fb4107f6aec8e869dbe74b0f84"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 100098,
+          "episode_index": 61,
+          "instruction": "Grab the silver hammer head and claw and beat the block.",
+          "case_id": "beat_block_hammer:100098",
+          "initial_physical_sha256": "2053fe335817573b18b071222d761bb6213abe0794d7cca0bd87d711e7a104dd",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": 3,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 117,
+              "queries": 4,
+              "physical_ticks": 8459,
+              "SAM2_forwards": 89,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 218.7311839661561,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 116,
+              "queries": 4,
+              "physical_ticks": 8339,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 89.47075928514823,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 117,
+              "queries": 4,
+              "physical_ticks": 8502,
+              "SAM2_forwards": 89,
+              "applied_queries": [
+                3
+              ],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 22,
+                  "phase95_tick": 3811,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 256.6664979457855,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "2053fe335817573b18b071222d761bb6213abe0794d7cca0bd87d711e7a104dd",
+            "rng_sha256": "b37b06caff6843b7bc3be2609e42460a35eb09eca369b29bec2fa0d86f91b6ea",
+            "RGB_sha256": [
+              "839fd8e3872341491b61a9c00c4656c7e59ffbb267d415985d02230cf1368d8f",
+              "c3416132c83696a2ed27da2614e4c0a5927c5d8d1e7ea5c7f539e83ae7325808",
+              "6e8fcb1810aa9d454cc9028ce17d9ba1b8e6156b43479a755a2401d31cd9320b"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 100099,
+          "episode_index": 62,
+          "instruction": "Pick the hammer with claw and smooth head up and hit the block",
+          "case_id": "beat_block_hammer:100099",
+          "initial_physical_sha256": "7324285c1d6e663c8ec254f2b4abbe3cae55c2a09fccdee8f2039360a68e9922",
+          "baseline": false,
+          "full": false,
+          "TTA": false,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 19524,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 167.0208560139872,
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 18044,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 192.1961548239924,
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 19524,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 195.62781600281596,
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "7324285c1d6e663c8ec254f2b4abbe3cae55c2a09fccdee8f2039360a68e9922",
+            "rng_sha256": "ea956b4b06f0728192571ac08599a065880b8ba6840a1ab8160a2ffa97c7630b",
+            "RGB_sha256": [
+              "4508b874896da669bb87593d534c7758b542a8ef000ec8ebd127a746740afa78",
+              "5625b9aa29c8cc372ae6874535b34eeb8efee9d58a2d2f5512e78a11e17a7092",
+              "a057ce1dcc0498b539ecfca137b6f898b896797d9df52475852bd85485c24047"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    },
+    "turn_switch": {
+      "scenes": 3,
+      "baseline": 0,
+      "full": 0,
+      "TTA": 2,
+      "rescues": 2,
+      "harms": 0,
+      "semantic_available": 3,
+      "accepted_update_scenes": 3,
+      "changed_action_scenes": 3,
+      "records": [
+        {
+          "task": "turn_switch",
+          "seed": 100087,
+          "episode_index": 60,
+          "instruction": "Click the smooth black switch using the left arm",
+          "case_id": "turn_switch:100087",
+          "initial_physical_sha256": "2b80339ae9805f45cb52ec3ca4a57a5500f8bae2963145d09440f1ca4b78d5d2",
+          "baseline": false,
+          "full": false,
+          "TTA": true,
+          "rescue": true,
+          "harm": false,
+          "first_changed_query": 2,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 18288,
+              "SAM2_forwards": 116,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 431.15277693467215,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15344,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 170.32480258494616,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 315,
+              "queries": 10,
+              "physical_ticks": 15649,
+              "SAM2_forwards": 91,
+              "applied_queries": [
+                2
+              ],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 2,
+                  "phase95_tick": 622,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 332.4489161549136,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "2b80339ae9805f45cb52ec3ca4a57a5500f8bae2963145d09440f1ca4b78d5d2",
+            "rng_sha256": "97b48539bdbb7a77a837fb4afa28b8ad95ecd4a6a907be7953d3f111d3a329a1",
+            "RGB_sha256": [
+              "cbc46d369ab77e639cd7c5b11ac69f211f48c12e621501c00e8830562d46226b",
+              "d27a8570b4f624b53a558e2f68a53346f69531c3602d33890bf10facb0a8c50b",
+              "4becc279e691b7e6263d9dcd43c0454b233a37eda0fde6b9eb4786f08a369ba6"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "turn_switch",
+          "seed": 100088,
+          "episode_index": 61,
+          "instruction": "Move and click the the small beige switch with angular sides",
+          "case_id": "turn_switch:100088",
+          "initial_physical_sha256": "ce3080c54225593293aba1f700497f3b2233c9dc107b97d2bcbb46cd41979a15",
+          "baseline": false,
+          "full": false,
+          "TTA": true,
+          "rescue": true,
+          "harm": false,
+          "first_changed_query": 6,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 18080,
+              "SAM2_forwards": 127,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 472.576659292914,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 16167,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 168.43803854100406,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 290,
+              "queries": 10,
+              "physical_ticks": 15283,
+              "SAM2_forwards": 127,
+              "applied_queries": [
+                6
+              ],
+              "accepted_updates": 1,
+              "consumed_packets": 2,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 1,
+                  "phase95_tick": 714,
+                  "actual_issued32": true
+                },
+                {
+                  "source_query": 4,
+                  "query": 5,
+                  "rows": 6,
+                  "phase95_tick": 11253,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 401.484294265043,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "ce3080c54225593293aba1f700497f3b2233c9dc107b97d2bcbb46cd41979a15",
+            "rng_sha256": "1a82de76d40053bdb271dc533a0f93ab06654ea612663093f49370a7add00c70",
+            "RGB_sha256": [
+              "ec3ff2b6e17d0b834f37c40bf3fa2ee6f9075e904a364582520d5c965544a764",
+              "90a3610e0dcb5e4ebaa31ddaba0886679fe0945df0eab3f1ff96e93eb247f2d8",
+              "9ce6752756dd9f542e28256b5b0243914415e7d7c82180e2ac86ef2db1eb8e9f"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "turn_switch",
+          "seed": 100089,
+          "episode_index": 62,
+          "instruction": "Move and click the the curved toggle switch",
+          "case_id": "turn_switch:100089",
+          "initial_physical_sha256": "d1a4817473cb24e3c10bed129f4036997c27ced34173b5d32fc0be8c8ec5f871",
+          "baseline": false,
+          "full": false,
+          "TTA": false,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": 2,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 14462,
+              "SAM2_forwards": 81,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 347.21174707310274,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 14187,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 176.30637950077653,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 14450,
+              "SAM2_forwards": 81,
+              "applied_queries": [
+                2
+              ],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 17,
+                  "phase95_tick": 672,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 210.76275737723336,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "d1a4817473cb24e3c10bed129f4036997c27ced34173b5d32fc0be8c8ec5f871",
+            "rng_sha256": "fe94d802dcd04ad425ae4f327942672cd970cd328d989b47d22b9fbf71226fd0",
+            "RGB_sha256": [
+              "c53761656ade7a2c9390b4d6657a33fbb05bca0aabeae2cc3543abccb5fe55cd",
+              "01a639133fc92ffb5d0729ef84819310afab5f065015d5f0a126d738474290ec",
+              "0ff09dba09a216a3aa2fffabfa8008b0a2c70b8561108f3ab8fe1ae420b732e7"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    },
+    "adjust_bottle": {
+      "scenes": 3,
+      "baseline": 3,
+      "full": 3,
+      "TTA": 3,
+      "rescues": 0,
+      "harms": 0,
+      "semantic_available": 3,
+      "accepted_update_scenes": 3,
+      "changed_action_scenes": 3,
+      "records": [
+        {
+          "task": "adjust_bottle",
+          "seed": 100078,
+          "episode_index": 60,
+          "instruction": "Pick up the green bottle carefully using the right arm",
+          "case_id": "adjust_bottle:100078",
+          "initial_physical_sha256": "cc503fba80d8074f997ce7bad003cd6d90399e2325e12d6e59515b2567d27136",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": 3,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 131,
+              "queries": 5,
+              "physical_ticks": 11018,
+              "SAM2_forwards": 92,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 240.9958953000605,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 126,
+              "queries": 4,
+              "physical_ticks": 10274,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 91.36066647106782,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 132,
+              "queries": 5,
+              "physical_ticks": 11063,
+              "SAM2_forwards": 92,
+              "applied_queries": [
+                3
+              ],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 28,
+                  "phase95_tick": 3836,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 280.3190975547768,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "cc503fba80d8074f997ce7bad003cd6d90399e2325e12d6e59515b2567d27136",
+            "rng_sha256": "d88237781cc7b5dee0d224cfb0426d3994db93abf69bfdb1f19515a788f6b926",
+            "RGB_sha256": [
+              "cf7affde0ef9e92c395f39c47d1cc2fa73e5ab9149996d8c2f7a53287c3f952a",
+              "454ba8f361e6a8123bedc8b3d4bcd646fee94985bd88acc95c765dbea0281a84",
+              "7c1a94c6173db771d01ffda593c34ea776470f304584f3811a2cb29f1bc5f6b5"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 100079,
+          "episode_index": 61,
+          "instruction": "Pick up the green bottle using the correct arm",
+          "case_id": "adjust_bottle:100079",
+          "initial_physical_sha256": "e9391ce66a5cda53586c4bdbf100537726f5611b16ef161b1e81ec162a8b1030",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": 3,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 131,
+              "queries": 5,
+              "physical_ticks": 11290,
+              "SAM2_forwards": 102,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 266.001410537865,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 128,
+              "queries": 4,
+              "physical_ticks": 11068,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 74.12903956323862,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 131,
+              "queries": 5,
+              "physical_ticks": 11300,
+              "SAM2_forwards": 102,
+              "applied_queries": [
+                3
+              ],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 31,
+                  "phase95_tick": 3958,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 274.57320192316547,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "e9391ce66a5cda53586c4bdbf100537726f5611b16ef161b1e81ec162a8b1030",
+            "rng_sha256": "115dc0f645d175ef5b4852899770619ef6fe2d346ad24f5c672f8e14470d7cce",
+            "RGB_sha256": [
+              "f59665e326bd7abb9f57cad2e8d1b9646ab2d6e320e86581b35f11c1f21b4858",
+              "6dd4eba0de334c5b4f31753ab4ce29fdf2763a048d673d83102c1bd8991b4984",
+              "60714e6506696cc754cad41344d0c9566d2d7523bbd947c7db0637635a81e41d"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 100080,
+          "episode_index": 62,
+          "instruction": "Grab the plastic soda bottle on the table and raise it.",
+          "case_id": "adjust_bottle:100080",
+          "initial_physical_sha256": "11e09b0a827ba0610e80f520eab2750065676fd09030c5a4fc59a0d7b8cd5c98",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": 1,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 127,
+              "queries": 4,
+              "physical_ticks": 10468,
+              "SAM2_forwards": 118,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 316.25149427726865,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 123,
+              "queries": 4,
+              "physical_ticks": 10206,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 71.79080891609192,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 128,
+              "queries": 4,
+              "physical_ticks": 10480,
+              "SAM2_forwards": 118,
+              "applied_queries": [
+                1,
+                3
+              ],
+              "accepted_updates": 2,
+              "consumed_packets": 2,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 1,
+                  "rows": 1,
+                  "phase95_tick": 3854,
+                  "actual_issued32": true
+                },
+                {
+                  "source_query": 1,
+                  "query": 3,
+                  "rows": 20,
+                  "phase95_tick": 5788,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 211.87504943506792,
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "11e09b0a827ba0610e80f520eab2750065676fd09030c5a4fc59a0d7b8cd5c98",
+            "rng_sha256": "9fee465d772ff6a33941bcd7651f237a7c0c1082b23a1d5d06c39418610047fa",
+            "RGB_sha256": [
+              "c9cac18fb4cbb170624ff51fd85b65445066f6cc32550bdd216e16ea36c37785",
+              "1e1698bfc252de82da5789ab6c677772e69bb6fd7d9978d8b43ae3b46c0b94e0",
+              "dce17e275add5151b7d5860deab84c13f17f5dd60a64148420316bc5ba306954"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    }
+  },
+  "actual_native_episodes": 45,
+  "original_zero_shadow_controls_exact": true,
+  "engineering_references_excluded": true,
+  "all_resource_and_native_controls_passed": true,
+  "actual_parent_wait_pending": true,
+  "independent_task_benefit_not_implied_by_interface": true,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_calibrated_five100_v25/official_012_p0/prepared_recovery_001/batches/000/runs/36c11be219dd4b329a45b025209edfbb/protocol.json": "1d98de30e983f56f163854e4ba1393934890ce0615d0026692469b8576de5a5c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_calibrated_five100_v25/official_012_p0/prepared_recovery_001/batches/000/runs/36c11be219dd4b329a45b025209edfbb/CPU_episode_audit.json": "0d91332848ec6bc5f9a62d429eaab1d5e5d5d7368341e7a4e3ef67baefa04292",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_calibrated_five100_v25/official_012_p0/prepared_recovery_001/batches/000/runs/36c11be219dd4b329a45b025209edfbb/terminal_audit.json": "8f0dbb465584fbc943003e74d916441927f0f704d2b6398021fa17453dea0018"
+  }
+}

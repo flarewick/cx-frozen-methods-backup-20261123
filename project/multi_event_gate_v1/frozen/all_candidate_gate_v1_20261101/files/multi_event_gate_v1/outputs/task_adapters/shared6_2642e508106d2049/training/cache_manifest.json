@@ -1,0 +1,2127 @@
+{
+  "complete": true,
+  "scenes": 300,
+  "rows_by_task_split": {
+    "adjust_bottle/adapter_fit": 200,
+    "adjust_bottle/adapter_validation": 50,
+    "dump_bin_bigbin/adapter_fit": 353,
+    "dump_bin_bigbin/adapter_validation": 79,
+    "grab_roller/adapter_fit": 135,
+    "grab_roller/adapter_validation": 34,
+    "handover_mic/adapter_fit": 284,
+    "handover_mic/adapter_validation": 70,
+    "lift_pot/adapter_fit": 160,
+    "lift_pot/adapter_validation": 40,
+    "open_laptop/adapter_fit": 289,
+    "open_laptop/adapter_validation": 70
+  },
+  "files_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_000.npz": "442b2956ee26b0ed1b883840bc77379500cee49c1669f929879f2a5657bb3970",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_001.npz": "55c38d6194fc96c0ed9f2ff2e83125b6c0c098f0deb408359a20ab15356f09a8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_002.npz": "794e6491b09f454ccea0a6e3f0f0f17e91bac3ba7ee0fab57dc5b6ac025ad4dc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_003.npz": "f5411c14d38f2ce2a8d8cc2e28c49d7d1ca5033278d812ad15105af6ad5b0280",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_004.npz": "38a9870e2cfe5efdf2eb0e67865d83f438c4767f1b2e35e740ba32d80fb95ccb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_005.npz": "9111ac33e257b2208ab9883d6f0fe1b71c57047a95e361c7908a5352d4c0af07",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_006.npz": "fc0b41669da7217bf3808a74d70e463ff4ffb905b5d56605e83ae2f3e3d54c7f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_007.npz": "604810df518abd6da619a55091170bc77b9f63329ea0f3f9d9ef158eda969432",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_008.npz": "809ac121abd3d96525f930eb8781fee16198b842ef1e18fda9bd61b8ad1711b7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_009.npz": "fcc19c65cf7f62ab16d2c71cde8e705e145be5d1f862f95368cb738b3ac4b720",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_010.npz": "2aeeefde4161b8617a68d723bb1c45f6e52534e4c1b8fe42f27f260bcee7398d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_011.npz": "f3799659d5bea4b22d5149d64fa4d3729fcc79e225a6db2ad71522c796e67490",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_012.npz": "77cc5e176cb94c4ed404d5dce38d2a8ce98e6191db2bbd99af6aee1e5217a15e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_013.npz": "0a1e9d4e04a7ec652786bd202696f6b2574bc198df4a10ab43d818e18f3e583a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_014.npz": "bcb53fac3addb8260d84e09d6345aad70a1ae76d6c3b5444d8e547393137267d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_015.npz": "64fc6b0060084cafec92fbb1caf2640efff145c49350a8536766a52ba767649c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_016.npz": "fe7ee070e78c3fd045f84119e799bf18863a97634dc18b8d1453e4d14472d812",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_017.npz": "90f51540696527e4790705642a638149b4e446f67dc3792eb7709c246dcdb0ed",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_018.npz": "0725874b4900f56cac3909b090107bb387c2227f58ada1e6d2cf50c171257a00",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_019.npz": "9a14497899a6a7d3538bf779b66f696d0a3961c423c4dd832a59d25f2245de04",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_020.npz": "37694752da5411af0c11610775a6ae3b0e2352f60227de44e91dfb7389b9d723",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_021.npz": "6300ad334f61e4d8b8444fa76430ebcc042e3e3ee0163d1e37cc3c0f218db16d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_022.npz": "00d0a7e6ec82ae9dcc1ea20612ad1772bc8250acabd20c835c760b959f17a105",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_023.npz": "14bc628c978fc833b69b08bf7dc2b760351fa47ca7931320acc4e8e003e110de",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_024.npz": "037d33c298044c3a40d648630ea58524e5b3de8bacdb109893b3658ff9f631f5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_025.npz": "8c517d19c24ea083244348f3823a236676f540ea642ee03e69ec8b9d00038c87",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_026.npz": "8b010e55d8b1349673a23bae961c9e04a6ff2eec03847a7dc3af6263517f8d50",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_027.npz": "541b213729fb9c9a41907860b1a1b306653cd30acf4de60e42d22ed6e9b8e8f9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_028.npz": "a46db7775d1abaa924e94774a219d38fd843b64d35304ba4cf355263d99ded91",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_029.npz": "8f316f9e60b382b9f38c90817774fa684b9c38a44403bd1c93bf9cc1f3062d66",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_030.npz": "da104dc3ee1c5968c6f3b56c2ce0f5cc29343c4696fca26aac2152c95568b677",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_031.npz": "5f754119c5e82adeb2644000cd8dff551f6353bb5a286936876af6e589450321",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_032.npz": "4faf50188317c6d0f7bc5dee6c231938780b01e759276d27894bb31be8e47045",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_033.npz": "79025a1b7e6d5e7c0e85ae894508a0fe938672050a39f2e8c334425b582f51de",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_034.npz": "b30d4a7518718b07c30940a964af90904ec87d3ed00923bb206f0340d9e78879",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_035.npz": "ecec164c2d1559e9039befe170184a5c9af1a79232289eccb684952c2792ae6e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_036.npz": "6d1f3b7f25275f98d28f3c02e32e6b1f3861dd30c785acf9c760633003ccbd29",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_037.npz": "aab8329eae044ba9a6da1d7f8417fe8d1a1d79c527a03cc3e8ded4e75d80ff50",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_038.npz": "b08b68c7172dbe74ddb4dd3e332ed7a9b4a114c433c28eb53f7ca4bb0231f280",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_039.npz": "164028eb636a2609ff97061ff36126b8f8f7e61886ec0db9531a9b5daf59ca39",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_040.npz": "efe19f7700228d107c8c6f8a3d2a878d52f4bcd9745efa4abb377067d99149de",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_041.npz": "1797d5aca8f5a12a8788a13213a2ddb1ac4695e34b7de16744b90b12ec8712de",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_042.npz": "35e98623f929a8d2e4d7a08c75a3847875defb5dd7b2cff9673554c0b47e269c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_043.npz": "13d022a4c975a934e5569576b160c05d666501ee5272ff0548eeea438ec15895",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_044.npz": "b8cfc144b2f8bc4ca4e7a20540e381f396063751fb3510220fdb98b6a6393d7b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_045.npz": "1160c8b57801f1eec872ed1d463e93d27c7384cc58a75b76a80286e09fe6dbf4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_046.npz": "38bb4d8285727c9b7055a9ac50c57dc5d8338fdebd558ae4949215975af107c9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_047.npz": "b4843d04aa887f0e307f62831d1bf510354cf05edffc4c8959c45ac8c00dda5a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_048.npz": "9cf8ea9a2522fbd9869d5b446968d1213893c0b8e6835e53e9bd6eec6544e58a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_049.npz": "917a050d7476d706610d98494b538ad89c7eb2936ed09928a0a4d90f614ac77a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_050.npz": "8685612eb769fbd3a5fba0aa40f0c62dc9bb1ead3e171697c3b022000b595a3c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_051.npz": "5723f1908c46dc0300efc1aec86a99e05576bff863d47367096a6659d0154d80",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_052.npz": "4d2aa0e5dca972546649e82445046b2654f01969ab4b9b26a2a3556db66bd316",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_053.npz": "accc565c57787c8a9777b4a4973e463dda6784d9df65b56456b53f9ecf51d96c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_054.npz": "6fef54e1c4d1206ea1fa3cef6b654d69fcad1a5331d8b18a05247b909e80b42b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_055.npz": "09d3874a6d9f75efec10389b81afd99217bc43132b78f42aed3c2a07d9f9e2f5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_056.npz": "b2eb49a124ac109a63fdb669ee06ebbbb4b4879c7f827317fc06c60806cc95bf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_057.npz": "46a437fce5f2d46b60227c1d82c13cb9068cb9de83e2ede29c4637ac284f4a38",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_058.npz": "4ca14ec3e25748f1b2b0e92ad8d14032ba34b4fd6d73e33f367b73236a85f438",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_059.npz": "8f88aca70cee26f8845dd88718e8357ba93576983519701a6e351362afd7d8c5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_060.npz": "15c64009f4cef721f95159d4af7ef35a44f62a904dbe257be32c80e9e05786a5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_061.npz": "981a9d6a2cf59065a54030866fa32d57a87ea25503814adc623661717e4e5b55",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_062.npz": "84dda1f65c1f66b420ef3f406f5cee2cbdcd39f34ed238b6ff90c5b429d60066",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_063.npz": "25c268c1d6199206881c621e522f1ffabe8b1a6d1c43297d665a1f2043d9763a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_064.npz": "b7409145505cb76966aaf5251006239cb5d10e6de3a95572026c899b48fe32f2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_065.npz": "a8c4e9a0c2cd9d2555abffdddb965bb515c626fb858db81a34bc27011a3bd7b5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_066.npz": "25589daec23d0bf594345c5bf2a134f4164344af57e0aa2d4bc86482c77046a6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_067.npz": "94e4bec934a93220def9bd76abecfd880c524e7804058e96bc2f005f60f9cca4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_068.npz": "1d55a71a63bc7fe80b5067c06b88fd702dc9a50f10ca6049e90e960a3640f469",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_069.npz": "63fca29a5e81276941c16021f29017e66ff021622aceed04024915957078477e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_070.npz": "590cb508d0651b8ab1fa13a99aa204efff907092cdd07a7677d5e78df77f295f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_071.npz": "b3378d3532553519499c0e15657ec821a2a1bb79bd979f3efeae01892b98c84c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_072.npz": "d60f6e0a097212aa12b4cd9917c4419bf16b64c01224d4671d609fd9239bf871",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_073.npz": "a1857697a7f642a06f27ce64ff9fb69fb807adaf019712e26b601f9ed93ddae2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_074.npz": "dd9fa147cdfb597222d3b13c396fe380bef78016ecd696bf70927ae11b052ea0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_075.npz": "9983f1ccbbde7974b1f6627b25b7ae62aa9b5650dd8e960baef1a484f9ae042e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_076.npz": "bb0f0a36efc77d257e890e2b419ab055e22ce765f7b1411d551a52ace1c1c2a2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_077.npz": "1e8440ac9cf673d4d8defae5b8a72780affb68a2f69d9c1cf4c55b9a9c66496d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_078.npz": "d1efd08dbd79ce0450abb03ef683ca9e9a928a0a718f1f694516a5c319a86477",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_079.npz": "0500e5ea0626c3f96d47a9b1dd3dc35ab7dc97dbfc4fd8a0ea2b9af4aaebf0b4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_080.npz": "0081519361df6a2076249a31b1e8385ae331b52a8ea7b2510ef033558de3a04a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_081.npz": "701ec58c8959080f245b8960b0b98f3a9b8a9a7b4a2bbbcfa481a0f90e5d4f78",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_082.npz": "7051683b204651d0f83606ab6c7e2ea93db7c6e38d6f3ed61165e82b3f8497c4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_083.npz": "f364fe7004597ebdcc89ffba7db6081bf72bb7df090a02c0e5dea74b28338221",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_084.npz": "9f436887d287bc368918c51b00ca901f371ba78b34c289ea3e34d6fc793f9654",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_085.npz": "3bdf83d67b469ddf31523bd203d7d4083e3d31fe0d2408579434a8222165ad88",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_086.npz": "77b6a264d9289670866d352736a2145884b4042122b4afb52b384f5b1e8695e1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_087.npz": "94a2b5e4681a4701fdcb124aa07b7d31a64ee6fa4d415430eb2830b83e53256e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_088.npz": "7d6fbb88dc5026997853013fe1cbb6997825801a5fddd9c712984c79fbf7faf0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_089.npz": "ca3ccc21ba42e5813a76a775871488223598f903655880ac4266449e9b3defcb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_090.npz": "92056b37e75bd0581799cf12dfaa2098f901e72d9c0fd9515aafe832375e5a07",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_091.npz": "8209a239d6cd9a9701059cd3380357e5a68950c59777c44a328666b00656cecf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_092.npz": "20fdb2ad4f9f7b5f9816b418d7206ac41f495410c68ec7c73094140d9d3d4296",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_093.npz": "6f5eae6fc73df1c325a9f0c68a2f9a219de1bdf29b09de6d3d70c293b42ae26a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_094.npz": "244756b958b298c2b59b1b6339673f3616fab361f77a78139091675753c37d1e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_095.npz": "d67af62e0fc1cddbd08d7a2406d4b3b7ca48e841fd4546e459584c9102f898b2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_096.npz": "b4a489cff1de438b2b757088d895e0d62e2f0fccdc03748712a69014ca2488d4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_097.npz": "7f0f40c951ec84b299f92e04001d1cfeb8560fb5bca10736f89183e22ebfe3da",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_098.npz": "1d05f471aa0f48b98db425f3971acc1de9556e6013d03ad9850cf61f3e40858d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_099.npz": "93fb5c1ac11f03d409a5785b46913bae9963b32711cd1c372aa103bc5ab9581a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_100.npz": "34ff85a7dda6302c126aba8325fc58f8eb52bf498867943e48fee0b1cd3d7eff",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_101.npz": "35b2dfb601674143736c97859a597351363174f033edd682b757c2d79dedf510",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_102.npz": "938d61547813ebaef621a14f0f81575a396c08c9b5f906b54cad2456d165ede3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_103.npz": "276d956c1fe503d13c84905b0ee57fb3ab358ac643e2a4b830cd065f0a392796",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_104.npz": "31dd28a765a95acf4c8e0b9f270a1061478d108cbdd0acc80716e7d521919560",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_105.npz": "c05bbbd4cbccb0619496cc7cb03a3a8e7dfc782d9139f429aca684702f1f0e66",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_106.npz": "847c24b9c735d420a2924eac349ef40915648d1b3427f9817864f6648f3ff90c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_107.npz": "4d116cc972d75e0e3331943a04183e0a6add26d2acf88308f44aac4d248e2e8d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_108.npz": "063cdf334a6c4ca0a0fdfcaeb651e2e59189d83c422aca05374a3ccd3b4a9050",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_109.npz": "63f1d5a0c2573922eea896f6251b680a929cbf19a69bd62b18a85b20f03e6aca",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_110.npz": "4aba39bb085cb0ddf703ee885682210532dc88e52b51bd03142a77753c220211",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_111.npz": "222933d21afe94fea13b7015840bb2bf7efde57a11b10fd96eea9314ebd5f828",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_112.npz": "51df47cd9a390e18d28b5a1fe44c9076aff15860b49bd24df484fc7b086b9c80",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_113.npz": "f18458955d692a128e681b0d0e48ed28874b6b02bf13d27819f4b4670cef94f6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_114.npz": "d7bb776e84d1842444a42801dd498ee757b98f1cedbb13b8be43979219f109fe",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_115.npz": "6a2c033a82db1b77dad4d8516db08b52745d4f26aba79ad8bd43ce81087b1f9d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_116.npz": "ab3f79e217b556eeee8e1dfcd1f3cb02813379930f774119800f03cf8fc509a7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_117.npz": "94a933df262e0f3c7d6a48eab1a23d8b548ab414c56121736910bc61b5de1554",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_118.npz": "89d9a05bdb11b6fe60ae89e9596a7511e56a037594388202113fb3acfc7f2aa4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_119.npz": "55c634e716930198f2a2820cc89e3b1cbb4a352a2151c397d5b1c1b5033a4fd3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_120.npz": "d37bb8781c3a3228c53d26bcb6b9cc55fb6faffcaced11adc249e726f5f96ecb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_121.npz": "471af9148e01e58e274bb933e15e61791469f2e4d85d662034511de7a1b9d2b7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_122.npz": "682f25c6f62f355eb03134680bc63b001f3c5b9e36aafa77f9db92b9efda03d6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_123.npz": "d25d6933bb3060033b58803f574b3b3ea443f5e885fbfa2459a8d25375484401",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_124.npz": "b3a01b9f425376bba962a9474017fcfa4c45213d5d31fce96d4fd65c414eb5e8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_125.npz": "084df8b7d51194bcf686aac7e345c7edec970899af6c0b98513323035c46fbb7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_126.npz": "06c1be5522383c973d0936338561d23fef2d8997584eac43376705e8500a1c05",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_127.npz": "c335dff97734f6b2de89d68652a7924b335e2e9943228c1d109ceb4b9669b57c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_128.npz": "ddcefd0c89adb943fa2e242a6bfdf13d9f0f12fd719f187e086f03a9a1710aeb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_129.npz": "b7f97d8d29753cd61910710f4d6b1ef85163f416a94592c4388a379cc87256ef",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_130.npz": "203a5f97682c8cfa59fc322c517c19c9641f90459025926f68032fedc15b3402",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_131.npz": "05029adee9120263b43dd69f1c5df233acddd154736f48235ca97ac4fd231b52",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_132.npz": "3e0dce7e443011ad2ab034bb25c556b255746ecf6325c069360ffdbaab2cd291",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_133.npz": "82ddc9b274f5b33b148ff9418534dce68857b99aa525d82b648935288977529a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_134.npz": "81692d5fe0d94ee43cffa8a977db5b2df90e3118f80898853e026f3685167c86",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_135.npz": "d9f974c56274c773595925c9b3ba22d421d28694d988e6f8c48a059105a274ca",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_136.npz": "d670db1b94eb788569a219ffd430e5a689055642ad0d74accaeddf1c35f803f9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_137.npz": "c5ddae8fce7a983c7d45e76debd0ef2ce79a95a40417cbf1f9e2174b04a60c6b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_138.npz": "f9218abac7eed8de913af373d19bcb95e052076372546a0a824db9d84cde7b90",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_139.npz": "d4b45278793dff0dbbc9c836bc3c970adafe00d7782f34b4687a14ee3a96f6d6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_140.npz": "dcceba570045760fb1c936d4e31f63f067384ec99df969a18144e5ed4a1876ff",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_141.npz": "46c1ec7fcd121772c64eab68fea71ca682ecf496bcd5229e23b19f0815ac127e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_142.npz": "2eb180cfd63b7c2349ec066d5456322ae2bc111a2921a34bec0cf48f5a68609b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_143.npz": "4caa3f5735915d4365354cdf373e062c1dd7b492a8556311ea7f97283acabed3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_144.npz": "b12f185bd3c66a0cc928b0102f21c7ccfba12b8cc090c6d89512ae500d9f9413",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_145.npz": "a86f3f803657360618acd13e5f0f95db28543e66d6e9f38a0153094febeccd2e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_146.npz": "b9955c6a32ba1dd4afa81f6f5e1cb25b42fd26adf4c7b5341b7e477636eb381b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_147.npz": "63d32b54453b8e395e10a6e8d9f1a6f1bf2432223d38fb8f139c152740cd776f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_148.npz": "f9c6ac2d33c58385f16fa74b1ea2ae05d1c9fb0b081e654dfc746c1a0a7979d1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_149.npz": "3f6542b8dece003d58d82ac671ab3c51b44117c09e2700aa39f9cb7de86135e7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_150.npz": "17ee9678903eb4f3ed794b122bdff65b87be3eb55ae04b4ec38ecce43a117c14",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_151.npz": "49d1f8647a9b8fabd1cc154b81452abac94f11dd08da775a2ddfb13a918f01b3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_152.npz": "5ac2d967b50bae91c9a09ad80ff4da45b1daa2ee722df24f5190540b2ac97f32",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_153.npz": "970b8fd85b06c987bcc50257e0ff4dee2fe897dd08cdf31b910a54d47bf5d3b2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_154.npz": "432c67b8c138969be6b396080f6dba2008d836453fd227d59fea9d869cd706e4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_155.npz": "c457af1cb9e6be02f2aacec86d4c7e11e0b525f50862e0ec0e03eb9659a16342",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_156.npz": "538c299926057b664ee4368b23a7ee88688e47068b0aba35096ec7d70239d83e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_157.npz": "e74967c7e2d306fd4e461bfadfb709fcd648fdd5ee2181749845d9dd985efde0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_158.npz": "537933dc4a0f7ddb30d23e28082d19ec9aafac57a3ac9369b6533998fc5e1586",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_159.npz": "aec51b5a5593ff28e631468adadaec17107aafc1e46c7c1f4c6b02a068e927bc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_160.npz": "ac0b8069398cae869e715eb9d844a4732c4bde674a3ba65cb2745004cc916120",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_161.npz": "2511ed602cc74e11f219957c0f6cc7aa5e8d08921311da24da6647a41c722ea5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_162.npz": "d31cfd5e52bc3f173dcb5fe421a2134be725a56e5b2d493feb99e58640538a1e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_163.npz": "ef9f62956fb755caef9936d4bca2cf745c323c68f15d38875a1f18226938e126",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_164.npz": "244ed083896bbbf7319a386ea8ab618b32412803a083e63251929beb6d473245",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_165.npz": "63806a39cb0fd9764fd07e9ff39b6bd9126ac52b29ad2c4cdef73a223c09afb4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_166.npz": "8ec3eb6c96b6d54ce0ee0aa47b36296027f25dca54323af03892d2294eaa272c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_167.npz": "8094dd1d0183b7a2460e621c5f190939101012d3246e4d422f6bea18f16c220a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_168.npz": "c2fada30ec80d2825b4a7450a6f33e857c0012b3c03395af7f28e8a086ea4892",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_169.npz": "36e143282e12ab8aa1be647e477a2e43d3a39c260ff6416c2d3a8cfdebcf4718",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_170.npz": "49bd413f942f75e5778803e93237af43aff18569e1bbaf21b94af16df773ffcb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_171.npz": "41ef29cc673b7339332d49e7c9d27c9a3dac658e6a9d128b66641e1bfa09cf0f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_172.npz": "e4058e1176562db2106b4ff0b59e2603b9c5963ce031375d8505406248020b89",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_173.npz": "28f101a958706b6838a475028bb0506ff524d959b11dd04fa22a9756d9fe2f6b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_174.npz": "e964fc6e2f4a2514efc151be68929fb0fad81c2046478a3c97a10299974409d8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_175.npz": "e87f1d479d969341f184aa5b33f28552a64f19b716b0bbc3a5f10eca38baf59b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_176.npz": "7a00b6960da174b3f0a750d5b0a9492c22d67e39598556dbe97a24de493ba683",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_177.npz": "4e718aaa25d0b607f6a90142780155c52d77fb26786f576998eda993953d5b85",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_178.npz": "37ee3c1798fdf2643f11bcf98d0f4ff41aaaf5ebdf14218e1075c0924dea260d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_179.npz": "ef147234f1c560d62bfa30507097c8ec33d8fc7bc12dc4b4af27e8f834be9df5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_180.npz": "5f05ba2fea89adc10541a635cf37025f17ce8618dd5bfb90b945ddb6c8ba7e29",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_181.npz": "220142bb01720d9d4e8844b26d11e92bd1e6ebeb9f6538eb8d3a7711379e5db8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_182.npz": "f2660c1f129952b8f4ec11029e399b050c79c0824573abb1deeca806468a87bb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_183.npz": "59f31deb69c6392fa936100377c850f6848fcc93e3d54aea6616dc7c11ded34f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_184.npz": "978e85cf01e2f23b639a1072688e2d4ee68fd0b60b9a0cb0a3fcc69b1500f1ed",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_185.npz": "4b9b1a84e386fbb4e8ce9af03d7d99f47c1026c5d52f5e87f441119f3be24895",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_186.npz": "29a56d21535e9c9c05017a89649420a5537f8971e67c6fa6ae841e11bc186a02",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_187.npz": "5642d1708811b1a572c765d8c904496c0a51897c2a7d15c43bd23643da726d80",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_188.npz": "69ecaedab849cf06d26a60a713cf4264c38151160b6ff827849779b4c8eb205f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_189.npz": "ba46246369de0e56e92f80abb242944f4bb38dd7ef97469fec5ac00a8ae4b0ca",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_190.npz": "d86eca6bd79d87df4d9c0844cfb70aa10dd44987df8a0a6ae109344c05b7ea3a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_191.npz": "7151bbcdcd94c231ac3b423cc072c08a19b4a492168d915f10bd1a942e411af6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_192.npz": "0b2e84e8eac6767c24b4bce464829cf21a59ab33477e77bdd52c79f5032e7d76",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_193.npz": "740e1e9eeddd6b304da8a85e855bf723cb21522c330c0d5a48e91bdb77b73015",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_194.npz": "335ead7d692b863ddcf76bedbf7cbac3b580b871148e08ddfc5b39cfea2fbb6a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_195.npz": "95c099a4b27e2a06a622ff70c549198b5d563d95342a2a1272789857666ca2fb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_196.npz": "8499159dce713e6dad1dd8c9ef10321d46445320c4037dbaf43c881ccd0e36a2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_197.npz": "7d4cfe31050415053e19be7e0371d4294cb80812ab6bae15a3dff3ef9adef8eb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_198.npz": "a6836eb6ea3ee11ecbe3ac5c11e96205901fcc174f2ab39ef67d8ed80baa17b8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_199.npz": "78765214964a1ad7e0048d155bebe64a2383c968b8f6c59af15d76db69248420",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_200.npz": "d34498e245eedf4302f617abcfbf996e83f4da0f2b352dcb2143d233d9ecc70b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_201.npz": "0a12cdec5a3ac1968dadefcb6bdc80635869b407c89093292b2cbb3ec704b632",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_202.npz": "ca014ce7424a595081dd772904c9fc01510f4a8af1d3bd99d3b7bdc0d8e30316",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_203.npz": "39d67f7b7a03a6288ec51649a265a56e381ed96057f77daac631756a2513892b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_204.npz": "3411161a0d2780977117b4dbb027c7b7e59de33969d13144fb931b1e7adbefb0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_205.npz": "ebbcb9e4c01095b2c57cc1b598857744f2d2d359f3652b72ddfb4ba70db53bb4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_206.npz": "3c2a3414545095a97c5f5959cff1080906fd31bce034d3c9d3791ccc29029d69",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_207.npz": "10e6d4044058cf25163571d9afe5a89c4dc2c4ac8d8c503ecc7990e0fac23de3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_208.npz": "9c9473270558cea4541a4f9a168d91132363254c8d68260c01ffbb78bdeb7937",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_209.npz": "81f50b50f0dd51dafe69bf279e185cc2aeb0324e4883f9dbc15a00a340b5e078",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_210.npz": "5e1af5bb96f9bb08700d6c181e6d2a2051f40dbb1037dd90dfbd3bc231557733",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_211.npz": "f7373efda2733f2ea100f72cc7c7be2ec546b946c7b5e04be3dc37514392f45a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_212.npz": "4005a5e427864222b1edc709242cf883ab6938d50a86cda310375b2c8410208f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_213.npz": "096603c89a796cc8ed312d14d0841551892613571a79ad6e1d9c1fea96ae67f8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_214.npz": "b614654d23bb4303ff2945242b48905d5ef8bfa92da55fb665d6bf11ddc11269",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_215.npz": "e7fe6ef4daa82a0909ebfc6e3385bbc94b09f7cc857ea54252016e2320c57f72",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_216.npz": "727b4d331191d99ab2aa670947423b208db987d831961739fdf5c802e4eddffb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_217.npz": "f4f5ac222e1a87147705ee1f561d26b3fab22fe4122da96594faa790d3fb4e83",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_218.npz": "76e162e9c892e993ad7ac8bcc7aeeba791132c63f2328325a178282973ddae56",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_219.npz": "f6626e12bc59601a465137e18bf3fd6cf57ab6b4ea5eee19bf230b60d90f5c6b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_220.npz": "f5a9a21f682b08fdeb492d1c2bb6bfe5c4c1a37f1e7f2a0d73d802d2fb3d7a2b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_221.npz": "25de9162fd5ac21c7896e9efff2202bbc75030055e822bb8d6ae8dbdffe63929",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_222.npz": "e6e6c3664b531ff6125655f606fe1f5d831084aa9e218f42ac98b10b037ebfcd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_223.npz": "7c7f3107a626363984faea1c8d0921f435f1cee3bc755ba10dc1996f74d6ff08",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_224.npz": "73bda5ae36ee0f661ec972b9bbf4a437579d3f91d3d3fb033f1348ecd1eede20",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_225.npz": "f9861e41ed8f914ee549f97edfe820bec76f9de52df08ca9261fc3e827767856",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_226.npz": "63ca409292f7940b37515399da9e112b92c2bf349a23afd3090dcedda4851233",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_227.npz": "0595809a45d7d0d070649bba7848a1b63e1821984fe1bb952ea6f8333e2aac81",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_228.npz": "641e7524d4a5ee9f98c5c94088b1ad41216c3232f1896001ba73e4fceb114e1a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_229.npz": "863bfb0b62872250e077fd421478173c952201193e402fa4340108bde5cda17d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_230.npz": "524868d2798d5d97adcffb09bddc67403b4d74548a501a9d382fc7ebe6a547de",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_231.npz": "edb2b74ccd72a179ac23e9c2a6fe50a997399d606ff4d7da8c5dfbeaf536baa6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_232.npz": "4ee2353cefb9e1057db4804a60ee9f88b569b0d358ecaa53f98f7607efe6938d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_233.npz": "6d31f1a8492ce964c65d25a657f18ede716fc46eed8651adaee4fc9f6fe9c1c0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_234.npz": "35dc71f6ea9d7e26a9ac2f645b4c6811b558e5edce25bcbaa5b68b82aa509707",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_235.npz": "d26114ed325d97c7f2defed991f171d5775801fce82de129c1de180474e61d5c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_236.npz": "9f93ea5411b80e9255848fcb6f28a5baee077d7c2b5bcbe9aa7c41677507d623",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_237.npz": "1475588a3abe620b8029f67ab4233924e9ef0d8b42282923a03909909cdb9495",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_238.npz": "415840f256a0c190d8fa99c04892a02b85cb6eff162693cb963f9342092a18b8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_239.npz": "8507165d63d1f2ec3bea415929ed5645ac5676a6ddc41e83ba2d7f5e8b888cbf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_240.npz": "d48192dde5acf6eb946a13af6d7712449a9665277f85224b8a1c35866ad500fc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_241.npz": "c59316a8ba5e53829eefbc60ce6411dbb4cbb60dc11f1fae62214c2f7f243867",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_242.npz": "727759acfcfb8f0c71678e4c9af06456c35d88b5a0934987947932c16f5882e2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_243.npz": "b2f512665dabbdd74c83d073e2e8d720b6ecd5f8761791c37606c5bb83a563f4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_244.npz": "9356e0a169bac303373ea3094f10cb11f9977364b5770eeaac967bfaf533cde1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_245.npz": "aa53f4857d199157b354d861c08d04db61fc4c5f89d74726c550ff233e728594",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_246.npz": "59581d8539946975e7a04ccabbf17c0f74452ff2fd52b5e43ca879c762f9c8f9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_247.npz": "9a82c72db30aba14dbe8794067fa2b67dd0419ed95fc8e583585b14fe0029220",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_248.npz": "bc2d67e41ef4f540a40e5cf3fd143c714f7558e2b3be9f15095c9370186e4009",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_249.npz": "4660b48917c99b587fca912840be459ba9b120ee22893570ad7262fc4dbce0ad",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_250.npz": "c477672f0d9d44d2a880f22755bfdeb96685bbc88e988f354a81cf89624b5e55",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_251.npz": "3d5a7100542fb889d31bac6e1a8685a2a34bfcfaf074851bfabd044bbbbf776d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_252.npz": "075211a0fa25b9ae5a7ee87bfcdd77f7ddcebb8bf3fac2d267397e03792dca3f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_253.npz": "7e88ffa9c8fc6b30c7812bcd2336982f370ae4ca36e19dcbc39fca5456e34dc5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_254.npz": "a517ec41dd9686dacf5d36695bca7d9e22b6a139f58278ac5b9646d623b3b282",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_255.npz": "8685a257e4471856196286bc8c6b85d983163651807b1373975ea04d145897ed",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_256.npz": "8b9ba45e5f651a2e26e488dfdfda1042ce094fc39166fd7fa998a63fd6220c27",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_257.npz": "3e4c11f095a9f2c68ddc99c35822c23260794c2b15820b5a3439a44e02f1ddce",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_258.npz": "c3dbb531fcbbeb5eb8263004f4d1dd4f098e3652df2bd58f3a19266dc9cf8bd9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_259.npz": "a642cf0fd9c7ce7b88d96b11329649272d04165c2e31e611aac431da9d5093cf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_260.npz": "3f68cf9134a9d923eae36eb726813fb49e61eca90b041f514accfe03a453b934",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_261.npz": "f0eddaf53a506aee78cee518a8518f21757068d0f8dae5318725735067ec85bb",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_262.npz": "a06a903af621034fc09d2fba399f72655228795a0eec585199fe2ec185bf1cab",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_263.npz": "a1275e9a64bb90f65d04a9a3495e9fdc4d14d9f360b4e8d8e3a8a044152b4d57",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_264.npz": "e1e027b801d34eb7dbc962c908df90febb274de66d87e27fa1744bf53337331d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_265.npz": "c5151ee7081e790a5c9212e1d9b8997cb66729d20d02391896dff48d7061c681",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_266.npz": "403b3e4a68e0b7caf55ecffaa8e858ef6890cfa211dca8f9fe883414cabb7b3c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_267.npz": "ee6b4ab0158452895218ca3485ec5060ee32f42d814a3d5828cd54160c25e549",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_268.npz": "b6d0e1be2d66f16797e2be14fc32e175ed25eb99e8146cc099dd93c7517bd9d4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_269.npz": "f6c63dc58ef050430f56635e4b253ffeeee660ac37bd760dbfc5a29d3e63b23c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_270.npz": "fdbf3c78ff087df733d1200de5bee29d6fe32c5cbd51c0fb656edca3b939f7a4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_271.npz": "acc1b94a0f8054d9deb761efb82bfe3aad9fac2ca15a8d799caa97c96a68e8e2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_272.npz": "bb23c78c8012cbfc702f89e876625e0acfd3cae94329f326c4d3acf799503aec",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_273.npz": "fac0bf5c9853b08094a3da160706b095231abab3037a937029fa92b0f5690d3b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_274.npz": "a7697d84805a540cfce7bce2ea854cedac9f4e83998e44f035cb58da0f792cca",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_275.npz": "43d6ad7e86a2a018632277f2b320d98944b8027823ed86a1e02fc6c2544954a0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_276.npz": "dfb0fdc1253f35d86ee15ce1ae6cb2a4cf11143d76fd78c3f17b3f3c26e13d08",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_277.npz": "5847b7e408faa2c9afc3b041811bd96dafcc7b375e812dc9d1e780019ca3cbb1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_278.npz": "b4c2707f007be5eb60934eb0ff0728ddb8dbd886bed2a408439c5304fdb7174e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_279.npz": "27e93cac98406aadd2b3cf752eaf5fe1b1f16616a8600bf434e5d0ff7396c348",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_280.npz": "108847a4e68bc2488578e80f5b9a609ab43ba28419c1444eabac8f7633936de9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_281.npz": "381f96039995addd00475105a1e105e9433e95427ed51f4e07c577c76e438b83",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_282.npz": "e8e1570839736e66be4b712bf98726e3c04bc77c2d9a4e21f70819f566525364",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_283.npz": "402520c810db1c7bb8875104b02493d57520155ceddfe49b8427c3e944a77af0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_284.npz": "479ce550b40e77929989b81fbf5d2104fe75e7368191b60bbff08a286d94584b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_285.npz": "8ce6dbbf5bd90d061cab476fe41a0649f71f20bd5d8ef7d1c79b99465e4fbdf2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_286.npz": "90d499b26d0eee7d2af9f183ba47ffdadd8aa1d399832974656ad4b93bf899f3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_287.npz": "a69fa3ae25d6bfae5b3d86941a9897057393ee43f2fcc9864342e6b930de3350",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_288.npz": "4ae125e7dc4fb1dc4ef415b92b65053d1f3dbb2f8f0ad593844a8e12ab27540a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_289.npz": "95e26e98c87c0f4f8a8fa9eb0190e72fc3660b6fcab2291ec65aa3f18b02146e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_290.npz": "55574524a5b5d17dd3d304ba3e92103a448314d51aae5e690fe51f2f107bd5f8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_291.npz": "c1f0a6617b4ede4cb3ceb8ca0f5f17c90e759a999a3f30179632f7312a289384",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_292.npz": "4edcd41b066de19b8c20445d2220ec5a4898c3c1681ebd55371edb3b7550ab4a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_293.npz": "c8b20fd531f80d97d5290411d4d90396f87f701c92b1279e59c7893a6b4539df",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_294.npz": "ec291ac7c8e3aacf114569997ca9b264e5bd4b6517d1cf8370e2a087e0a83065",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_295.npz": "e6ffa5b2882734cceb29909ad766e1430165b27e19a121b62bce164b415ac8b6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_296.npz": "c4958d61eafddaff67a30eb8c353eb38fe1fcffd741da327426771bdcf3bd30e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_297.npz": "f4ae0f8e24fdc0f6c7ae4b427a90e4950ee574fefec1e1908d8a36274f90623b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_298.npz": "6894c3e37e6d596dbde74039a11b3fd8f09b0ac5e1f0bbdd24b1e1a963f407e3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache/scene_299.npz": "bc6762c942dc88cde86260a04e5e791c09b40b04e41648ebbf0a05810fd8872b"
+  },
+  "plan_sha256": "75a98dcb51c4bf8a68420178b75b90be0302e8129181c4904fc04efaa53ba79b",
+  "saturation": [
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300000,
+      "fraction_outside_cap": 0.052798982188295165
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300001,
+      "fraction_outside_cap": 0.02097902097902098
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300002,
+      "fraction_outside_cap": 0.09074074074074075
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300003,
+      "fraction_outside_cap": 0.041970802919708027
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300004,
+      "fraction_outside_cap": 0.047872340425531915
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300006,
+      "fraction_outside_cap": 0.10750636132315522
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300008,
+      "fraction_outside_cap": 0.1865671641791045
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300009,
+      "fraction_outside_cap": 0.06297709923664122
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300010,
+      "fraction_outside_cap": 0.044082125603864736
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300011,
+      "fraction_outside_cap": 0.07142857142857142
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300013,
+      "fraction_outside_cap": 0.049019607843137254
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300014,
+      "fraction_outside_cap": 0.09440104166666667
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300015,
+      "fraction_outside_cap": 0.03580246913580247
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300016,
+      "fraction_outside_cap": 0.027989821882951654
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300018,
+      "fraction_outside_cap": 0.07116788321167883
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300019,
+      "fraction_outside_cap": 0.041979949874686714
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300020,
+      "fraction_outside_cap": 0.030934343434343436
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300021,
+      "fraction_outside_cap": 0.023901808785529714
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300023,
+      "fraction_outside_cap": 0.08152173913043478
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300025,
+      "fraction_outside_cap": 0.03634085213032581
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300026,
+      "fraction_outside_cap": 0.0496031746031746
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300027,
+      "fraction_outside_cap": 0.07268170426065163
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300029,
+      "fraction_outside_cap": 0.075
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300030,
+      "fraction_outside_cap": 0.05721393034825871
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300033,
+      "fraction_outside_cap": 0.03294573643410853
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300035,
+      "fraction_outside_cap": 0.09772182254196643
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300037,
+      "fraction_outside_cap": 0.06866197183098592
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300039,
+      "fraction_outside_cap": 0.026692708333333332
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300040,
+      "fraction_outside_cap": 0.06873479318734793
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300041,
+      "fraction_outside_cap": 0.04482323232323232
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300042,
+      "fraction_outside_cap": 0.05025445292620865
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300044,
+      "fraction_outside_cap": 0.16727493917274938
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300045,
+      "fraction_outside_cap": 0.06118881118881119
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300046,
+      "fraction_outside_cap": 0.11641221374045801
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300047,
+      "fraction_outside_cap": 0.03799019607843137
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300049,
+      "fraction_outside_cap": 0.09335839598997493
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300050,
+      "fraction_outside_cap": 0.04107142857142857
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300051,
+      "fraction_outside_cap": 0.11691542288557213
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300052,
+      "fraction_outside_cap": 0.10858585858585859
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_fit",
+      "seed": 7300056,
+      "fraction_outside_cap": 0.0782051282051282
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310000,
+      "fraction_outside_cap": 0.0929951690821256
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310003,
+      "fraction_outside_cap": 0.12086513994910941
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310004,
+      "fraction_outside_cap": 0.10317460317460317
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310005,
+      "fraction_outside_cap": 0.12472035794183445
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310006,
+      "fraction_outside_cap": 0.09252450980392157
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310007,
+      "fraction_outside_cap": 0.06560283687943262
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310008,
+      "fraction_outside_cap": 0.04880952380952381
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310010,
+      "fraction_outside_cap": 0.23308270676691728
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310011,
+      "fraction_outside_cap": 0.0673076923076923
+    },
+    {
+      "task": "adjust_bottle",
+      "split": "adapter_validation",
+      "seed": 7310012,
+      "fraction_outside_cap": 0.08974358974358974
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300000,
+      "fraction_outside_cap": 0.048841893252769386
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300003,
+      "fraction_outside_cap": 0.04478827361563518
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300004,
+      "fraction_outside_cap": 0.06196581196581197
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300010,
+      "fraction_outside_cap": 0.020833333333333332
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300013,
+      "fraction_outside_cap": 0.027083333333333334
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300015,
+      "fraction_outside_cap": 0.05982905982905983
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300017,
+      "fraction_outside_cap": 0.06789137380191693
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300020,
+      "fraction_outside_cap": 0.030864197530864196
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300024,
+      "fraction_outside_cap": 0.08408408408408409
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300025,
+      "fraction_outside_cap": 0.10822851153039832
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300034,
+      "fraction_outside_cap": 0.026397515527950312
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300037,
+      "fraction_outside_cap": 0.04439252336448598
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300038,
+      "fraction_outside_cap": 0.017250530785562632
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300044,
+      "fraction_outside_cap": 0.042695473251028807
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300054,
+      "fraction_outside_cap": 0.03532901833872708
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300057,
+      "fraction_outside_cap": 0.06041666666666667
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300061,
+      "fraction_outside_cap": 0.041666666666666664
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300062,
+      "fraction_outside_cap": 0.020961145194274028
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300067,
+      "fraction_outside_cap": 0.03930817610062893
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300068,
+      "fraction_outside_cap": 0.03586839266450917
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300069,
+      "fraction_outside_cap": 0.0356359649122807
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300072,
+      "fraction_outside_cap": 0.034858387799564274
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300082,
+      "fraction_outside_cap": 0.05201342281879195
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300083,
+      "fraction_outside_cap": 0.044952681388012616
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300085,
+      "fraction_outside_cap": 0.029350104821802937
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300086,
+      "fraction_outside_cap": 0.017382413087934562
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300088,
+      "fraction_outside_cap": 0.039337474120082816
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300090,
+      "fraction_outside_cap": 0.08040468583599573
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300092,
+      "fraction_outside_cap": 0.019853709508881923
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300095,
+      "fraction_outside_cap": 0.08680555555555555
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300096,
+      "fraction_outside_cap": 0.08964248159831756
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300098,
+      "fraction_outside_cap": 0.021203155818540435
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300100,
+      "fraction_outside_cap": 0.03393051031487514
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300104,
+      "fraction_outside_cap": 0.022865853658536585
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300109,
+      "fraction_outside_cap": 0.017777777777777778
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300110,
+      "fraction_outside_cap": 0.0537280701754386
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300115,
+      "fraction_outside_cap": 0.026447105788423155
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300117,
+      "fraction_outside_cap": 0.08974358974358974
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300121,
+      "fraction_outside_cap": 0.037730727470141154
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_fit",
+      "seed": 7300126,
+      "fraction_outside_cap": 0.04550102249488753
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310000,
+      "fraction_outside_cap": 0.026976495726495728
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310004,
+      "fraction_outside_cap": 0.0429769392033543
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310006,
+      "fraction_outside_cap": 0.07753164556962025
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310007,
+      "fraction_outside_cap": 0.038172043010752686
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310009,
+      "fraction_outside_cap": 0.038302277432712216
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310010,
+      "fraction_outside_cap": 0.017080745341614908
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310011,
+      "fraction_outside_cap": 0.04533116178067318
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310017,
+      "fraction_outside_cap": 0.0368895966029724
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310020,
+      "fraction_outside_cap": 0.04276315789473684
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "split": "adapter_validation",
+      "seed": 7310022,
+      "fraction_outside_cap": 0.02927927927927928
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300000,
+      "fraction_outside_cap": 0.03046594982078853
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300001,
+      "fraction_outside_cap": 0.18213058419243985
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300002,
+      "fraction_outside_cap": 0.05272108843537415
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300003,
+      "fraction_outside_cap": 0.020390070921985817
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300004,
+      "fraction_outside_cap": 0.0967741935483871
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300005,
+      "fraction_outside_cap": 0.09912280701754386
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300006,
+      "fraction_outside_cap": 0.05824372759856631
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300007,
+      "fraction_outside_cap": 0.03838951310861423
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300008,
+      "fraction_outside_cap": 0.19827586206896552
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300009,
+      "fraction_outside_cap": 0.0962962962962963
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300011,
+      "fraction_outside_cap": 0.041666666666666664
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300012,
+      "fraction_outside_cap": 0.10263157894736842
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300013,
+      "fraction_outside_cap": 0.06976744186046512
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300014,
+      "fraction_outside_cap": 0.016098484848484848
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300015,
+      "fraction_outside_cap": 0.15134099616858238
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300016,
+      "fraction_outside_cap": 0.16140350877192983
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300017,
+      "fraction_outside_cap": 0.04381443298969072
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300019,
+      "fraction_outside_cap": 0.10960144927536232
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300020,
+      "fraction_outside_cap": 0.05648148148148148
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300021,
+      "fraction_outside_cap": 0.02894736842105263
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300022,
+      "fraction_outside_cap": 0.07364341085271318
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300023,
+      "fraction_outside_cap": 0.04619565217391304
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300024,
+      "fraction_outside_cap": 0.06340579710144928
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300025,
+      "fraction_outside_cap": 0.044061302681992334
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300027,
+      "fraction_outside_cap": 0.036738351254480286
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300028,
+      "fraction_outside_cap": 0.05740740740740741
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300029,
+      "fraction_outside_cap": 0.028388278388278388
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300030,
+      "fraction_outside_cap": 0.15891472868217055
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300031,
+      "fraction_outside_cap": 0.0928030303030303
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300032,
+      "fraction_outside_cap": 0.08244680851063829
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300035,
+      "fraction_outside_cap": 0.04619565217391304
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300036,
+      "fraction_outside_cap": 0.12719298245614036
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300038,
+      "fraction_outside_cap": 0.11174242424242424
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300039,
+      "fraction_outside_cap": 0.02462121212121212
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300040,
+      "fraction_outside_cap": 0.13620071684587814
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300041,
+      "fraction_outside_cap": 0.06972789115646258
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300042,
+      "fraction_outside_cap": 0.08823529411764706
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300043,
+      "fraction_outside_cap": 0.11296296296296296
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300044,
+      "fraction_outside_cap": 0.07908163265306123
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_fit",
+      "seed": 7300045,
+      "fraction_outside_cap": 0.10069444444444445
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310000,
+      "fraction_outside_cap": 0.0824074074074074
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310001,
+      "fraction_outside_cap": 0.12065972222222222
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310003,
+      "fraction_outside_cap": 0.09692028985507246
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310004,
+      "fraction_outside_cap": 0.14460784313725492
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310005,
+      "fraction_outside_cap": 0.1302588996763754
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310006,
+      "fraction_outside_cap": 0.1377551020408163
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310007,
+      "fraction_outside_cap": 0.21296296296296297
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310008,
+      "fraction_outside_cap": 0.07608695652173914
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310009,
+      "fraction_outside_cap": 0.040229885057471264
+    },
+    {
+      "task": "grab_roller",
+      "split": "adapter_validation",
+      "seed": 7310010,
+      "fraction_outside_cap": 0.1585144927536232
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300004,
+      "fraction_outside_cap": 0.03834115805946792
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300005,
+      "fraction_outside_cap": 0.01690251572327044
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300006,
+      "fraction_outside_cap": 0.029246794871794872
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300007,
+      "fraction_outside_cap": 0.022328548644338118
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300010,
+      "fraction_outside_cap": 0.018167456556082148
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300012,
+      "fraction_outside_cap": 0.023082942097026604
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300013,
+      "fraction_outside_cap": 0.0373015873015873
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300014,
+      "fraction_outside_cap": 0.03611111111111111
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300016,
+      "fraction_outside_cap": 0.03734276729559748
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300017,
+      "fraction_outside_cap": 0.03599374021909233
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300020,
+      "fraction_outside_cap": 0.02646129541864139
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300021,
+      "fraction_outside_cap": 0.0019561815336463224
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300022,
+      "fraction_outside_cap": 0.020440251572327043
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300023,
+      "fraction_outside_cap": 0.018474842767295597
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300024,
+      "fraction_outside_cap": 0.02033492822966507
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300025,
+      "fraction_outside_cap": 0.01061320754716981
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300026,
+      "fraction_outside_cap": 0.017227564102564104
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300028,
+      "fraction_outside_cap": 0.03531746031746032
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300029,
+      "fraction_outside_cap": 0.01650943396226415
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300030,
+      "fraction_outside_cap": 0.036163522012578615
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300031,
+      "fraction_outside_cap": 0.030410742496050552
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300032,
+      "fraction_outside_cap": 0.02558139534883721
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300034,
+      "fraction_outside_cap": 0.002764612954186414
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300036,
+      "fraction_outside_cap": 0.04262672811059908
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300037,
+      "fraction_outside_cap": 0.028041074249605055
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300038,
+      "fraction_outside_cap": 0.029505582137161084
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300039,
+      "fraction_outside_cap": 0.026442307692307692
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300040,
+      "fraction_outside_cap": 0.008771929824561403
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300041,
+      "fraction_outside_cap": 0.015330188679245283
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300042,
+      "fraction_outside_cap": 0.10624012638230648
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300043,
+      "fraction_outside_cap": 0.01643192488262911
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300044,
+      "fraction_outside_cap": 0.010903426791277258
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300046,
+      "fraction_outside_cap": 0.02764612954186414
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300047,
+      "fraction_outside_cap": 0.044444444444444446
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300048,
+      "fraction_outside_cap": 0.018167456556082148
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300050,
+      "fraction_outside_cap": 0.025039123630672927
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300051,
+      "fraction_outside_cap": 0.06589147286821706
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300052,
+      "fraction_outside_cap": 0.04206349206349207
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300054,
+      "fraction_outside_cap": 0.05856918238993711
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_fit",
+      "seed": 7300056,
+      "fraction_outside_cap": 0.021929824561403508
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310000,
+      "fraction_outside_cap": 0.020047169811320754
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310001,
+      "fraction_outside_cap": 0.01555023923444976
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310002,
+      "fraction_outside_cap": 0.02464788732394366
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310003,
+      "fraction_outside_cap": 0.05101246105919003
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310004,
+      "fraction_outside_cap": 0.026604068857589983
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310006,
+      "fraction_outside_cap": 0.056746031746031746
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310007,
+      "fraction_outside_cap": 0.028309409888357256
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310008,
+      "fraction_outside_cap": 0.020537124802527645
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310010,
+      "fraction_outside_cap": 0.022300469483568074
+    },
+    {
+      "task": "handover_mic",
+      "split": "adapter_validation",
+      "seed": 7310011,
+      "fraction_outside_cap": 0.01984126984126984
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300001,
+      "fraction_outside_cap": 0.08024691358024691
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300002,
+      "fraction_outside_cap": 0.06818181818181818
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300004,
+      "fraction_outside_cap": 0.0529595015576324
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300005,
+      "fraction_outside_cap": 0.057692307692307696
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300007,
+      "fraction_outside_cap": 0.003720238095238095
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300009,
+      "fraction_outside_cap": 0.03303303303303303
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300010,
+      "fraction_outside_cap": 0.052083333333333336
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300017,
+      "fraction_outside_cap": 0.1111111111111111
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300022,
+      "fraction_outside_cap": 0.0856269113149847
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300023,
+      "fraction_outside_cap": 0.12173913043478261
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300030,
+      "fraction_outside_cap": 0.03023598820058997
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300033,
+      "fraction_outside_cap": 0.02981651376146789
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300034,
+      "fraction_outside_cap": 0.052752293577981654
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300036,
+      "fraction_outside_cap": 0.027529761904761904
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300037,
+      "fraction_outside_cap": 0.10317460317460317
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300038,
+      "fraction_outside_cap": 0.13541666666666666
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300039,
+      "fraction_outside_cap": 0.03134556574923547
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300040,
+      "fraction_outside_cap": 0.035932721712538224
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300043,
+      "fraction_outside_cap": 0.06761006289308176
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300047,
+      "fraction_outside_cap": 0.07772435897435898
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300048,
+      "fraction_outside_cap": 0.10336538461538461
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300050,
+      "fraction_outside_cap": 0.07651515151515151
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300052,
+      "fraction_outside_cap": 0.03794642857142857
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300056,
+      "fraction_outside_cap": 0.04969418960244648
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300058,
+      "fraction_outside_cap": 0.028023598820058997
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300060,
+      "fraction_outside_cap": 0.04510703363914373
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300063,
+      "fraction_outside_cap": 0.047400611620795105
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300068,
+      "fraction_outside_cap": 0.1
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300070,
+      "fraction_outside_cap": 0.04807692307692308
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300076,
+      "fraction_outside_cap": 0.11581920903954802
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300077,
+      "fraction_outside_cap": 0.024774774774774775
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300079,
+      "fraction_outside_cap": 0.00382262996941896
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300082,
+      "fraction_outside_cap": 0.09841269841269841
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300092,
+      "fraction_outside_cap": 0.1380952380952381
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300094,
+      "fraction_outside_cap": 0.0472972972972973
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300096,
+      "fraction_outside_cap": 0.061488673139158574
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300097,
+      "fraction_outside_cap": 0.03964401294498382
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300098,
+      "fraction_outside_cap": 0.043689320388349516
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300101,
+      "fraction_outside_cap": 0.1076388888888889
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_fit",
+      "seed": 7300104,
+      "fraction_outside_cap": 0.0746376811594203
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310000,
+      "fraction_outside_cap": 0.07222222222222222
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310001,
+      "fraction_outside_cap": 0.09876543209876543
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310009,
+      "fraction_outside_cap": 0.025
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310012,
+      "fraction_outside_cap": 0.09953703703703703
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310016,
+      "fraction_outside_cap": 0.044294294294294295
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310018,
+      "fraction_outside_cap": 0.0921474358974359
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310019,
+      "fraction_outside_cap": 0.05909090909090909
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310020,
+      "fraction_outside_cap": 0.07852564102564102
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310022,
+      "fraction_outside_cap": 0.026785714285714284
+    },
+    {
+      "task": "lift_pot",
+      "split": "adapter_validation",
+      "seed": 7310028,
+      "fraction_outside_cap": 0.048798798798798795
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300000,
+      "fraction_outside_cap": 0.13566666666666666
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300001,
+      "fraction_outside_cap": 0.10426356589147287
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300003,
+      "fraction_outside_cap": 0.07114779874213836
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300004,
+      "fraction_outside_cap": 0.12924382716049382
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300005,
+      "fraction_outside_cap": 0.08383685800604229
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300006,
+      "fraction_outside_cap": 0.1104559748427673
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300007,
+      "fraction_outside_cap": 0.07674418604651163
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300008,
+      "fraction_outside_cap": 0.09118852459016394
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300009,
+      "fraction_outside_cap": 0.12007575757575757
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300010,
+      "fraction_outside_cap": 0.10773480662983426
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300011,
+      "fraction_outside_cap": 0.09627092846270928
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300012,
+      "fraction_outside_cap": 0.06712962962962964
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300015,
+      "fraction_outside_cap": 0.13641188959660297
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300016,
+      "fraction_outside_cap": 0.06132075471698113
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300017,
+      "fraction_outside_cap": 0.07481060606060606
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300018,
+      "fraction_outside_cap": 0.10626911314984709
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300019,
+      "fraction_outside_cap": 0.11224489795918367
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300020,
+      "fraction_outside_cap": 0.10915492957746478
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300021,
+      "fraction_outside_cap": 0.06865079365079366
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300023,
+      "fraction_outside_cap": 0.08333333333333333
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300025,
+      "fraction_outside_cap": 0.0809748427672956
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300026,
+      "fraction_outside_cap": 0.06782945736434108
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300027,
+      "fraction_outside_cap": 0.06977671451355662
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300028,
+      "fraction_outside_cap": 0.13342440801457195
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300029,
+      "fraction_outside_cap": 0.056074766355140186
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300031,
+      "fraction_outside_cap": 0.06321839080459771
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300032,
+      "fraction_outside_cap": 0.09523809523809523
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300033,
+      "fraction_outside_cap": 0.06647940074906367
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300034,
+      "fraction_outside_cap": 0.09341825902335456
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300035,
+      "fraction_outside_cap": 0.06872037914691943
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300036,
+      "fraction_outside_cap": 0.06572769953051644
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300037,
+      "fraction_outside_cap": 0.07311320754716981
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300038,
+      "fraction_outside_cap": 0.0852359208523592
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300039,
+      "fraction_outside_cap": 0.12674418604651164
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300040,
+      "fraction_outside_cap": 0.055714285714285716
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300041,
+      "fraction_outside_cap": 0.09977064220183486
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300042,
+      "fraction_outside_cap": 0.11072530864197531
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300043,
+      "fraction_outside_cap": 0.03697183098591549
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300044,
+      "fraction_outside_cap": 0.11098130841121495
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_fit",
+      "seed": 7300045,
+      "fraction_outside_cap": 0.0762061403508772
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310000,
+      "fraction_outside_cap": 0.08238636363636363
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310001,
+      "fraction_outside_cap": 0.09074074074074075
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310002,
+      "fraction_outside_cap": 0.11507936507936507
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310003,
+      "fraction_outside_cap": 0.06825396825396825
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310004,
+      "fraction_outside_cap": 0.06269470404984423
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310005,
+      "fraction_outside_cap": 0.08333333333333333
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310006,
+      "fraction_outside_cap": 0.10503875968992248
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310007,
+      "fraction_outside_cap": 0.08505747126436781
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310008,
+      "fraction_outside_cap": 0.06736760124610591
+    },
+    {
+      "task": "open_laptop",
+      "split": "adapter_validation",
+      "seed": 7310009,
+      "fraction_outside_cap": 0.0817829457364341
+    }
+  ],
+  "history": "current_only",
+  "targets": "expert_saved_sequence_only",
+  "native_recovery_validated": false,
+  "success_preservation_included": false
+}

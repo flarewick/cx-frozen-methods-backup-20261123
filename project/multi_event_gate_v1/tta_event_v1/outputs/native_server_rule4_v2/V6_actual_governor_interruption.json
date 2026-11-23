@@ -1,0 +1,26 @@
+{
+  "known_root_governor_rule4_SIGINT": true,
+  "PID": 1054134,
+  "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v6/fit_001/batches/000/runs/2f28f2b6b3a143679b2cee902d2ada42",
+  "source_log": "/var/log/gpu_governor.log",
+  "source_line_first": 13327,
+  "verbatim_own_event_excerpt": [
+    "2026-11-03 21:49:55 +08:00 [I] Killing PID 1054134 because:",
+    "    [1054134 (qiufw) 2026-11-03 21:49:13 +0800~2026-11-03 21:49:52 +0800] extra GPU denied; killing processes on least-filled GPU6. Except for that GPU, every GPU must have user utilization >= 75.0% or allocated memory >= 50.0%; per_gpu_util=[GPU4=22.9%, GPU6=3.6%], per_gpu_allocated_mem=[GPU4=49.0%, GPU6=38.5%]",
+    "2026-11-03 21:49:55 +08:00 [I] Sent SIGINT to PID 1054134"
+  ],
+  "actual_host_exit": {
+    "exit_code": 1,
+    "actual_Popen_wait_return": true,
+    "pid": 645829,
+    "proc_absent_after_wait": true
+  },
+  "actual_GPU_release": {
+    "cleanup_seconds_after_start": 68.287,
+    "own_gpu_released": true,
+    "remaining_own_gpu_pids": []
+  },
+  "GPU_seconds_inherited": 68.287,
+  "all_failed_full_and_labels_excluded": true,
+  "no_unchanged_auto_retry": true
+}

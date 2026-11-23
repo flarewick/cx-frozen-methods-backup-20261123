@@ -1,0 +1,94 @@
+{
+  "status": "complete_CPU_inspection",
+  "rows": [
+    {
+      "task": "place_shoe",
+      "seed": 421004,
+      "native_count": 96,
+      "cached_legal_input_row": 16,
+      "same_actual_live_base": true,
+      "head_calls": 1,
+      "teacher_arm_delta_max_rad": 3.8206849098205566,
+      "predicted_bounded_arm_delta_max_rad": 0.09978609532117844,
+      "reconstructed_linear_arm_delta_max_rad": 0.3419719636440277,
+      "near_cap_arm_fraction": 0.171875,
+      "linear_over_original_cap_arm_fraction": 0.3125,
+      "bounded_arm_cosine_to_teacher": 0.583729982882054,
+      "reconstructed_linear_arm_cosine_to_teacher": 0.5983432345106877,
+      "teacher_over_cap_arm_coordinates": 133,
+      "predicted_sign_agreement_on_over_cap_coordinates": 1.0,
+      "activation_removal_keeps_signs": true,
+      "training_label_was_clipped": true,
+      "linear_output_was_not_trained": true,
+      "physical_effect_measured": false,
+      "training_or_deployment_allowed_by_this_check": false
+    },
+    {
+      "task": "turn_switch",
+      "seed": 421001,
+      "native_count": 128,
+      "cached_legal_input_row": 42,
+      "same_actual_live_base": true,
+      "head_calls": 1,
+      "teacher_arm_delta_max_rad": 0.3736347556114197,
+      "predicted_bounded_arm_delta_max_rad": 0.08275993913412094,
+      "reconstructed_linear_arm_delta_max_rad": 0.11804689466953278,
+      "near_cap_arm_fraction": 0.0,
+      "linear_over_original_cap_arm_fraction": 0.008620689655172414,
+      "bounded_arm_cosine_to_teacher": 0.813311497705409,
+      "reconstructed_linear_arm_cosine_to_teacher": 0.8658913389560092,
+      "teacher_over_cap_arm_coordinates": 8,
+      "predicted_sign_agreement_on_over_cap_coordinates": 1.0,
+      "activation_removal_keeps_signs": true,
+      "training_label_was_clipped": true,
+      "linear_output_was_not_trained": true,
+      "physical_effect_measured": false,
+      "training_or_deployment_allowed_by_this_check": false
+    }
+  ],
+  "historical_unbounded_learners": [
+    {
+      "run": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/pose_capacity_20261002_045559_185861",
+      "status": "complete",
+      "scope": "Existing audited observable joint features; task identity never supplied to adapter; offline native expert commands, not failure recovery labels or task success. Proposal variants intentionally alter original command support. Original unseen validation untouched.",
+      "evidence": "Offline learned proposal; not a task-success evaluation"
+    },
+    {
+      "run": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/coverage_20261002_092902_991797",
+      "status": "complete",
+      "scope": "S1v fixed offline coverage diagnostic.12 models,three seeds,140/700/1400 updates,41742 parameters. Same previously studied two recovery scenes; expert fit48 scenes, success anchors5 scenes. No independent recovery test, simulation, collection, LoRA, TTA, deployment or success claim. Unbounded arm proposal. Full-batch compute grows with coverage; not an equal-FLOPs comparison to S1u.",
+      "evidence": "Offline learned proposal; not a task-success evaluation"
+    },
+    {
+      "run": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/scene_crossfit_20261002_114334_518712",
+      "status": "complete",
+      "scope": "S1y nested FIT-pool diagnostic, not a pristine final test: source scenes were used by past S1v models, but new candidate/probe pipelines exclude their declared held scenes. Old12expert/2anchor developer sets are not loaded or evaluated. Only2 recovery scenes; no independent held recovery or task-success claims. 30 small candidate models, no VLA inference/simulation/new collection/TTA. Unbounded candidate versus explicit cap projection.",
+      "evidence": "Offline learned proposal; not a task-success evaluation"
+    }
+  ],
+  "current_S2j_S2l_S2m_have_capped_outputs_and_clipped_labels": true,
+  "existing_teacher_raw_full_rollouts_are_not_learned_uncapped_head": true,
+  "current43k_output_only_vs_label_only_uncapping_closed_loop_found": false,
+  "model_parameters": 42934,
+  "GPU_started": false,
+  "trained_model_modified": false,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/reports/protocols/native_entry_bounded_v2_20261005_045526_497512/accepted_results.json": "87370e13ca905dd85af9c725344c8bbe620ae0d8209498759c3e91dcf9f0c22f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/feature_caches/native_history_20261005_030329_014198/protocol.json": "7855f8f3774b68290cd16f317a40a659b03796decdd12d6a6cddf5d018acf1c2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/feature_caches/native_history_20261005_030329_014198/inputs.npz": "c97b2414dc2835a4ac33d123670ec4b1992d05472ce474855f7f37b4bc0deacc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/S0_seed0.pt": "84b64a00be1285c36c2f29f54d7885b76e584e53a0bd9be22d2cf0e200cd42bf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/audit_output_range.py": "bfd92cc7ab92f303a169dc6acce29fc4bcddd079cfe366f4a4981f1e08daf1cc",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/diagnostics/native_entry_targets/place_shoe/entry_paired_v2_20261005_050118_852444/first_live_base_target.npz": "a699a33da8751a39ae07c42b515695474780939bf2f1e731958148cfdf34c1a3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/diagnostics/native_entry_targets/turn_switch/entry_paired_20261005_040826_461150/first_live_base_target.npz": "3bfc76d6d2da34a267a04fc1bf539fc24dfbb948dac8c0a6e88cd1a3bd89c8ed",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/pose_capacity_20261002_045559_185861/protocol.json": "6d706de994af083d99d64320203eeb2a10923344502c9a45f234aee051b9d5bd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/pose_capacity_20261002_045559_185861/result.json": "12242151947a4e625bca89f48f37c75ac35d357ed354f243d4b48d63fcfbd53b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/coverage_20261002_092902_991797/protocol.json": "fc308770cc2f5147beac54824eaa4062206c4b04a19b688d96084632a5946824",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/coverage_20261002_092902_991797/result.json": "b33ad26fa8cde6fefcf5b70aa62d6d0bea5827b6a1555428ba690035f35d2fca",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/scene_crossfit_20261002_114334_518712/protocol.json": "3d269517a69b5b71b295289e5d066d84c5f2b4cef0ca43b8aac557c160b19d59",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/scene_crossfit_20261002_114334_518712/result.json": "9d06adc097a3028e436532326b6e194dcac4d8cf51458976154bf3eb05076956",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/structured_action_adapter.py": "f66c08b5d25f57c03cf36478313e45551498123fa070582cf813364cc6ae37c8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/pose_adapter.py": "d3c737d48ebafd0771f3126f645fc10a9843f808d3e0325ef04aca378b805d83",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/training_protocol.json": "16d33d1674ad6e5d6f05337a206823899ec1a5712f886807ff5493215d87b5f8"
+  },
+  "scope": "Two existing selected TRAIN states, original final S0 with cached legal native history and actual live base. Pre-activation arithmetic only, not population, success, new training or hidden-state saturation causality."
+}

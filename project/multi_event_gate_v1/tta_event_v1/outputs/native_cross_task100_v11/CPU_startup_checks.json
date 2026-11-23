@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "stages": [
+    2,
+    4,
+    8
+  ],
+  "actual_original_query_must_return_before_release": true,
+  "no_timer_filler_release": true,
+  "single_release_per_stage": true,
+  "cancel_stops_waiters": true,
+  "actual_case_terminal_fallback": true,
+  "original_query_called_once_and_output_object_identical": true,
+  "original_entire_run_case_AST_exact_except_additional_whole_zero_shadow_controls": true,
+  "original_four_CPU_semantic_and_preflight_analysis_AST_exact": true,
+  "GPU_calls": 0,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/common.py": "e3a84edb906810d39d4797e6b802a68a66bc958c328d7305ab25b5bee08424d5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/semantic.py": "18db2b055e69654fbc1eb1485858ad6994383df60bb4cf7b258163112404a910",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/preflight.py": "559126434a5f787a363c901a1355d454b152055dcc56020dedbd30e0b74b4f6a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/screen.py": "48b8b781276e07a954a23ff32ff8cd96a83bf4b75583f24be385442f0bf1a1a9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/runtime.py": "fc3c1dc1e3d8e6ee3e987f58eff91e16de44b18e20a1e1201a99030c706c6b13",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/analysis.py": "8d568018c27a143d283191797ac03efcd1ad95d8502b5ce8b74c9439fd0138df",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/preload.py": "fe3c45c15b71f91fbe66b3cf1f37e70417ddb919078f04bfdab932e2c59ab86c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/host.py": "73b21c9b8287621641dd4e5a1fc25d6d3731c05b3f410584aed04ffbbcd49cf0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/report.py": "5ffba7010e62c1ad8b532b2cdde6801fd16c9f88470f5e9f226586eafa4a7738",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/status.py": "0c2abb9a1f7f6d00f6feeec1b503bf424d805451332fb5c9880bedba2cf06019",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/cpu_checks.py": "95897b9abf7de39e7c3571b80449eb925a9fafb290a808b30df2b01c2d3910ad",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/semantic_worker.py": "130f5a3d6d30e5ec21b4faf34624e477feeb319acbe588452f63c7cb85d3909f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/semantic_checks.py": "aea04f3cb068e0a1bad566bbd59a1d4d8ab6bd759c4656c7504d586e236c9d07",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/startup.py": "8b7aaefbc65c9aba654b770a01f5b045d6d984aee6709c3c01a85fb0e38761c6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/startup_checks.py": "49ccdae412052b2281dbb5d1596b10611349fc25070db739157f842979f8c035",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/cache.py": "3dfcc5cff88063fa7d465523b47bbf6fc87ab202def0f39dd4f4823943de2b41",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/cache_checks.py": "ef9d2a46a000dd04abc72a356bac020badc9d0067841695da62da5df8616a458",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/ordered_screen.py": "9158bae6831f6f9a386d93e6a14ece204358d0278967951f66da6a5cfae25679",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/ordered_screen_checks.py": "13dd2d61764d9388bbc50bb35dc2d5a424f3d82508b0bf940799d6861548b83a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/owner_precision.py": "0e3c848c09f13dd26dfdbe40d24b6151614e2d8b889dd8774fa9dd13eced018e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/owner_precision_checks.py": "fbcad7d351abae1e5c06616a48fb50c768990d8dc78acae70e55fa9b287267e4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/prefetch.py": "a75d81392408878f8d53d8b44c8d7aeba2bde77e5681cd290e4ebb1c7f656b5d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v11/prefetch_checks.py": "65426dcd8a46b4595ee5aecc0f51ecef41d5eb3126426787994fc09d6046a8df"
+  }
+}

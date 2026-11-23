@@ -1,0 +1,27 @@
+{
+  "cpu_only": true,
+  "source_sha256": "b4fe3a051167b464f73e2a74e34ec822b678c30a02b18a8bb19b0d07e389bc40",
+  "binary_sha256": "867da93116f7edbb079865b678bc23a466df9e177989d519a0fa2fbf1240088f",
+  "binary": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/.work/benefit_contacts/cx_benefit_contacts.cpython-311-x86_64-linux-gnu.so",
+  "compiler": [
+    "g++",
+    "-O2",
+    "-shared",
+    "-std=c++20",
+    "-fPIC",
+    "-ffp-contract=off",
+    "-fno-fast-math",
+    "-DPYBIND11_BUILD_ABI=\"_cxxabi1014\"",
+    "-I/opt/python311/include/python3.11",
+    "-I/opt/cx_venv/lib/python3.11/site-packages/torch/include",
+    "-I/opt/cx_venv/lib/python3.11/site-packages/sapien/include",
+    "-I/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/.work/native_control/eigen",
+    "-I/opt/cx_venv/lib/python3.11/site-packages/sapien/include/physx/include",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/benefit_native_contacts.cpp",
+    "-L/opt/cx_venv/lib/python3.11/site-packages/sapien.libs",
+    "-lsapien",
+    "-Wl,-rpath,/opt/cx_venv/lib/python3.11/site-packages/sapien.libs",
+    "-o",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/deployment/.work/benefit_contacts/cx_benefit_contacts.cpython-311-x86_64-linux-gnu.so"
+  ]
+}

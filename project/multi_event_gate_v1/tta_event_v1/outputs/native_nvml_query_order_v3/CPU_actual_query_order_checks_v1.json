@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "actual_ABBA": [
+    {
+      "mode": "original",
+      "passed": true,
+      "seconds": 2.1677176039665937
+    },
+    {
+      "mode": "ordered",
+      "passed": true,
+      "seconds": 1.9920865520834923
+    },
+    {
+      "mode": "ordered",
+      "passed": true,
+      "seconds": 2.05505584878847
+    },
+    {
+      "mode": "original",
+      "passed": false,
+      "seconds": 2.6563120330683887
+    }
+  ],
+  "actual_ARM8_stale_final_frame_sleep_consumed_usable_pair_window": true,
+  "old_failed_GPU_still_excluded": true,
+  "all_original_time_bounds_and_3second_deadline_unchanged": true,
+  "no_GPU_or_scientific_qualification": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_nvml_query_order_v3/order.py": "93b19d2caf854fefa5480e5b835822b45b3db0dd70d59b7fa07521f80e358dc9",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_nvml_query_order_v3/worker.py": "45be755093b95fbe41f149d40146902ea34cde4af615fb2332135679b2d4913f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_nvml_query_order_v3/context.py": "621f5cd6102109480a185a6bc59e7e4b8c7addd143d18ba9087a943f6eb00e72",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_nvml_query_order_v3/AGENTS.md": "219ccb26e2aec9a4672fe562574010d4f164f104bffd04d3d25707353e8eba31",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_nvml_query_order_v3/probe.py": "cd2de687a1f0b648f102b05f10835643dea5f3e4307a571397a7df5242bc0300",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_nvml_query_order_v3/checks.py": "403213703e7d98df40a653d7b463e37d9d2a5f039910b745dd4b1c8a3cbc6926"
+  },
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_nvml_query_order_v3/CPU_actual_NVML_0_original.json": "a97b5764652e3411d1d4ba9a2fe4633d0a4002b4fc873ba2fcb3cf1fa0fba848",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_nvml_query_order_v3/CPU_actual_NVML_1_ordered.json": "1e449a723f6318de580e60ca7811f98bd12e36538b8d9ce28062d4192ae383cc",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_nvml_query_order_v3/CPU_actual_NVML_2_ordered.json": "ad3415e649e1a9c78dacb859996d5ec124c1daadf98c8940e3f9070552020ae7",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_nvml_query_order_v3/CPU_actual_NVML_3_original.json": "654c6cb6e7a6683056792cf036fdfc89f83581dc0d130761bef1e5f16cd97d14",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v8/val_000/batches/000/runs/b5417f99bf5f4e059b541deb18ba45ae/failure.json": "0ab396c187d3dfd8b2c18054c5b26c6e01552201bfaa1d5b91e88e1e70bb5f1f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v8/val_000/actual_host_wait_exit.json": "df8a39e56e20a16e3c2b4c2791a6701f1d4cbb35786d2b8bc233110bc0670dd4"
+  }
+}

@@ -1,0 +1,649 @@
+[
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310000,
+    "split": "adapter_validation",
+    "episode_index": 0,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310000/session_92127e56249f/data/episode0.hdf5",
+    "capture": {
+      "frames": 330,
+      "decoded_images": 990,
+      "dense_steps": 8914,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 312,
+        "zero_time_transitions": 17,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Lift the white bin with flared top edge, pour into the big bin.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 17,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "5be22c283b8f802a022effd1a93caf343fcfb976326bea04d98fb3b81c394eed",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5919",
+        "table_texture": "seen/6154"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base9"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310001,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310001), unstable objects: garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310002,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310003,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310003), unstable objects: garbage, garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310004,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310004/session_92127e56249f/data/episode1.hdf5",
+    "capture": {
+      "frames": 169,
+      "decoded_images": 507,
+      "dense_steps": 6762,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 159,
+        "zero_time_transitions": 9,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Grab the black-specked gray tabletrashbin and transfer balls to the bin.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 9,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "203244fe03d62e8244e5ead5f6390facfb49054edaa1ae0f903f16be9dc148c7",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/9",
+        "table_texture": "seen/1578"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base3"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310005,
+    "split": "adapter_validation",
+    "episode_index": 2,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310005), unstable objects: garbage, garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310006,
+    "split": "adapter_validation",
+    "episode_index": 2,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310006/session_92127e56249f/data/episode2.hdf5",
+    "capture": {
+      "frames": 338,
+      "decoded_images": 1014,
+      "dense_steps": 8982,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 316,
+        "zero_time_transitions": 21,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Grab the light gray tabletrashbin and transfer balls.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 21,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "d72f236473f49e80ce61f726c5ea198c1fa3998994eb6a762e81b973e33091a5",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": null,
+        "table_texture": "seen/419"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base10"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310007,
+    "split": "adapter_validation",
+    "episode_index": 3,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310007/session_92127e56249f/data/episode3.hdf5",
+    "capture": {
+      "frames": 167,
+      "decoded_images": 501,
+      "dense_steps": 6726,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 155,
+        "zero_time_transitions": 11,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Control the arm to raise the white round tabletrashbin and pour.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 11,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "5fcf1258cf126dcd208132b13e5a39fc6c73b49379778bf9d727e2695dbefd27",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2304",
+        "table_texture": "seen/1227"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base9"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310008,
+    "split": "adapter_validation",
+    "episode_index": 4,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310008), unstable objects: garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310009,
+    "split": "adapter_validation",
+    "episode_index": 4,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310009/session_92127e56249f/data/episode4.hdf5",
+    "capture": {
+      "frames": 171,
+      "decoded_images": 513,
+      "dense_steps": 6818,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 161,
+        "zero_time_transitions": 9,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Pick up the mini white trashbin for desk and pour carefully.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 9,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "5a8ca0a8a2d8d8f47705413806979778608b89b7628890e48cfaca9dd90c94b7",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/395",
+        "table_texture": "seen/2340"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base9"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310010,
+    "split": "adapter_validation",
+    "episode_index": 5,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310010/session_92127e56249f/data/episode5.hdf5",
+    "capture": {
+      "frames": 173,
+      "decoded_images": 519,
+      "dense_steps": 6813,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 161,
+        "zero_time_transitions": 11,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Lift the tabletrashbin for holding waste, pour into the big bin.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 11,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "968cded2c1e1bcb0ffc4520ebab6da5e7b429ffca130164a8e5662496fce5f38",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3113",
+        "table_texture": "seen/8502"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base10"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310011,
+    "split": "adapter_validation",
+    "episode_index": 6,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310011/session_92127e56249f/data/episode6.hdf5",
+    "capture": {
+      "frames": 326,
+      "decoded_images": 978,
+      "dense_steps": 8886,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 307,
+        "zero_time_transitions": 18,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Take hold of the cylindrical tabletrashbin, pour contents.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 18,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "16f73a923011ce91cbc23ca28295263e1d021939ed77c0cdb7ab5142e0a282f3",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4739",
+        "table_texture": null
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base7"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310012,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310012), unstable objects: garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310013,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310013), unstable objects: garbage, garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310014,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310014), unstable objects: garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310015,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310015), unstable objects: garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310016,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310016), unstable objects: garbage, garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310017,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310017/session_92127e56249f/data/episode7.hdf5",
+    "capture": {
+      "frames": 333,
+      "decoded_images": 999,
+      "dense_steps": 8975,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 314,
+        "zero_time_transitions": 18,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Pick the cylindrical tabletrashbin up, pour all balls inside bin",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 18,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "07ba88f4f2a5070a6e4f04c639ade8878eb10e4b52331acedaa08790ad6ea51c",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3301",
+        "table_texture": "seen/3919"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base7"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310018,
+    "split": "adapter_validation",
+    "episode_index": 8,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310018), unstable objects: garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310019,
+    "split": "adapter_validation",
+    "episode_index": 8,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310019), unstable objects: garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310020,
+    "split": "adapter_validation",
+    "episode_index": 8,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310020/session_92127e56249f/data/episode8.hdf5",
+    "capture": {
+      "frames": 162,
+      "decoded_images": 486,
+      "dense_steps": 6674,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 152,
+        "zero_time_transitions": 9,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Direct the arm to grab the compact speckled surface tabletrashbin and tilt.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 9,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "536afbf4240e5c06524b1b1d2f24aacbf08dfb99aec31223e6c471c0aef3d0d2",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/383",
+        "table_texture": "seen/5014"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base3"
+      }
+    }
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310021,
+    "split": "adapter_validation",
+    "episode_index": 9,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_92127e56249f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7310021), unstable objects: garbage, garbage, garbage, garbage, garbage"
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "seed": 7310022,
+    "split": "adapter_validation",
+    "episode_index": 9,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_92127e56249f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/dump_bin_bigbin/adapter_validation/expert_data/seed_7310022/session_92127e56249f/data/episode9.hdf5",
+    "capture": {
+      "frames": 158,
+      "decoded_images": 474,
+      "dense_steps": 6622,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 148,
+        "zero_time_transitions": 9,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "deskbin",
+        "dustbin",
+        "wall"
+      ],
+      "instruction": "Grab the open-top tabletrashbin, then pour balls into the bin.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 9,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "3cdbf3d2c16da9f1283e09097267ae2a983c9da0f743cad92d8e2816bbca6aef",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7594",
+        "table_texture": "seen/6305"
+      },
+      "info": {
+        "{A}": "063_tabletrashbin/base10"
+      }
+    }
+  }
+]

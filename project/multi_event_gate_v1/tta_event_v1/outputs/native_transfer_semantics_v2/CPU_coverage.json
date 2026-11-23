@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "tasks": {
+    "move_stapler_pad": {
+      "unseen": {
+        "total": 2184,
+        "supported": 2184,
+        "unsupported_examples": [],
+        "old_supported_outputs_exact": 0
+      },
+      "seen": {
+        "total": 11928,
+        "supported": 8232,
+        "unsupported_examples": [
+          "the left arm moves the small hand-sized stapler to the Red mat.",
+          "the right arm moves the small hand-sized stapler to the Red mat.",
+          "the left arm moves the small hand-sized stapler to the Green mat.",
+          "the right arm moves the small hand-sized stapler to the Green mat.",
+          "the left arm moves the small hand-sized stapler to the Blue mat."
+        ],
+        "old_supported_outputs_exact": 0
+      }
+    },
+    "place_mouse_pad": {
+      "unseen": {
+        "total": 864,
+        "supported": 864,
+        "unsupported_examples": [],
+        "old_supported_outputs_exact": 0
+      },
+      "seen": {
+        "total": 5472,
+        "supported": 5400,
+        "unsupported_examples": [
+          "Slide the the hand-sized dark gray mouse onto the Red mat gently.",
+          "Slide the the hand-sized dark gray mouse onto the Green mat gently.",
+          "Slide the the hand-sized dark gray mouse onto the Blue mat gently.",
+          "Slide the the hand-sized dark gray mouse onto the Yellow mat gently.",
+          "Slide the the hand-sized dark gray mouse onto the Cyan mat gently."
+        ],
+        "old_supported_outputs_exact": 0
+      }
+    },
+    "place_fan": {
+      "unseen": {
+        "total": 1794,
+        "supported": 1794,
+        "unsupported_examples": [],
+        "old_supported_outputs_exact": 0
+      },
+      "seen": {
+        "total": 10488,
+        "supported": 10488,
+        "unsupported_examples": [],
+        "old_supported_outputs_exact": 0
+      }
+    },
+    "place_bread_skillet": {
+      "unseen": {
+        "total": 2340,
+        "supported": 2340,
+        "unsupported_examples": [],
+        "old_supported_outputs_exact": 0
+      },
+      "seen": {
+        "total": 13320,
+        "supported": 11520,
+        "unsupported_examples": [
+          "Use the left arm to grab the round braided loaf for the dark skillet with shiny finish",
+          "Use the right arm to grab the round braided loaf for the dark skillet with shiny finish",
+          "Use the left arm to grab the braided top round bread for the dark skillet with shiny finish",
+          "Use the right arm to grab the braided top round bread for the dark skillet with shiny finish",
+          "Use the left arm to grab the palm-sized braided golden bread for the dark skillet with shiny finish"
+        ],
+        "old_supported_outputs_exact": 0
+      }
+    }
+  },
+  "old_paths_exact": true,
+  "unsupported_negative_controls_passed": true,
+  "no_native_scene_or_success_data_used": true,
+  "no_CUDA": true,
+  "scope": "Language eligibility only; detector coverage and TTA efficacy unknown"
+}

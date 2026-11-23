@@ -1,0 +1,2837 @@
+{
+  "passed": true,
+  "original_selector_AST_exact": true,
+  "entire_guard_AST_exact_except_metric_import": true,
+  "actual_failed_raw_frames_replayed": true,
+  "actual_failed_driver_delta_us": 1799205,
+  "actual_failed_host_delta_us": 1801294,
+  "fixed_sleep_overrun_reproduced": true,
+  "first_endpoint_independent_of_high_low_utilization": true,
+  "read_pause_750ms_accepted_only_with_original_valid_interval": true,
+  "overlong_1800ms_read_still_rejected": true,
+  "all_original_bounds_missing_timeout_errors_retained": true,
+  "no_GPU_work_started": true,
+  "actual_read_only_NVML_collections": [
+    {
+      "unix_ns": 1793438401765457769,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438400652189,
+            "host_timestamp_us": 1793438400707617,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401651770,
+            "host_timestamp_us": 1793438401685334,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438400652189,
+            "host_timestamp_us": 1793438400707617,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438400652189,
+            "host_timestamp_us": 1793438400762078,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438400652189,
+            "host_timestamp_us": 1793438400816401,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438400852091,
+            "host_timestamp_us": 1793438400871039,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438400852091,
+            "host_timestamp_us": 1793438400925565,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438400852091,
+            "host_timestamp_us": 1793438400979775,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438400852091,
+            "host_timestamp_us": 1793438401034045,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401051977,
+            "host_timestamp_us": 1793438401088059,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401051977,
+            "host_timestamp_us": 1793438401142401,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401051977,
+            "host_timestamp_us": 1793438401196490,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401051977,
+            "host_timestamp_us": 1793438401250412,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401251863,
+            "host_timestamp_us": 1793438401304281,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401251863,
+            "host_timestamp_us": 1793438401358344,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401251863,
+            "host_timestamp_us": 1793438401412227,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401451832,
+            "host_timestamp_us": 1793438401466095,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401451832,
+            "host_timestamp_us": 1793438401519953,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401451832,
+            "host_timestamp_us": 1793438401575740,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401451832,
+            "host_timestamp_us": 1793438401629660,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401651770,
+            "host_timestamp_us": 1793438401685334,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.150705039035529,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438402963814199,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438401851789,
+            "host_timestamp_us": 1793438401858486,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402851486,
+            "host_timestamp_us": 1793438402886299,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438401851789,
+            "host_timestamp_us": 1793438401858486,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401851789,
+            "host_timestamp_us": 1793438401912531,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401851789,
+            "host_timestamp_us": 1793438401966578,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438401851789,
+            "host_timestamp_us": 1793438402020585,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402051734,
+            "host_timestamp_us": 1793438402074533,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402051734,
+            "host_timestamp_us": 1793438402128451,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402051734,
+            "host_timestamp_us": 1793438402182337,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402051734,
+            "host_timestamp_us": 1793438402236260,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402251638,
+            "host_timestamp_us": 1793438402290124,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402251638,
+            "host_timestamp_us": 1793438402344038,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402251638,
+            "host_timestamp_us": 1793438402398086,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402251638,
+            "host_timestamp_us": 1793438402451992,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402451600,
+            "host_timestamp_us": 1793438402505882,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402451600,
+            "host_timestamp_us": 1793438402559944,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402451600,
+            "host_timestamp_us": 1793438402614187,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402651557,
+            "host_timestamp_us": 1793438402668298,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402651557,
+            "host_timestamp_us": 1793438402724355,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402651557,
+            "host_timestamp_us": 1793438402778385,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402651557,
+            "host_timestamp_us": 1793438402832386,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438402851486,
+            "host_timestamp_us": 1793438402886299,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.1980304787866771,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438404140666350,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438403051402,
+            "host_timestamp_us": 1793438403055309,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404051027,
+            "host_timestamp_us": 1793438404056510,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438403051402,
+            "host_timestamp_us": 1793438403055309,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403051402,
+            "host_timestamp_us": 1793438403110891,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403051402,
+            "host_timestamp_us": 1793438403164977,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403051402,
+            "host_timestamp_us": 1793438403219093,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403251301,
+            "host_timestamp_us": 1793438403300250,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403251301,
+            "host_timestamp_us": 1793438403354177,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403251301,
+            "host_timestamp_us": 1793438403408802,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403451219,
+            "host_timestamp_us": 1793438403462680,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403451219,
+            "host_timestamp_us": 1793438403516592,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403451219,
+            "host_timestamp_us": 1793438403570495,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403451219,
+            "host_timestamp_us": 1793438403624432,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403651163,
+            "host_timestamp_us": 1793438403678422,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403651163,
+            "host_timestamp_us": 1793438403732332,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403651163,
+            "host_timestamp_us": 1793438403786164,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403651163,
+            "host_timestamp_us": 1793438403840042,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403851101,
+            "host_timestamp_us": 1793438403893971,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403851101,
+            "host_timestamp_us": 1793438403947904,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438403851101,
+            "host_timestamp_us": 1793438404002350,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404051027,
+            "host_timestamp_us": 1793438404056510,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.1765429298393428,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438405150873985,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438404051068,
+            "host_timestamp_us": 1793438404215310,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405050786,
+            "host_timestamp_us": 1793438405078915,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438404051068,
+            "host_timestamp_us": 1793438404215310,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404251018,
+            "host_timestamp_us": 1793438404269327,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404251018,
+            "host_timestamp_us": 1793438404323454,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404251018,
+            "host_timestamp_us": 1793438404377383,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404251018,
+            "host_timestamp_us": 1793438404431391,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404450963,
+            "host_timestamp_us": 1793438404485383,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404450963,
+            "host_timestamp_us": 1793438404539325,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404450963,
+            "host_timestamp_us": 1793438404593211,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404450963,
+            "host_timestamp_us": 1793438404647404,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404650915,
+            "host_timestamp_us": 1793438404701326,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404650915,
+            "host_timestamp_us": 1793438404755180,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404650915,
+            "host_timestamp_us": 1793438404809267,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404850849,
+            "host_timestamp_us": 1793438404863202,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404850849,
+            "host_timestamp_us": 1793438404917026,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404850849,
+            "host_timestamp_us": 1793438404970966,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438404850849,
+            "host_timestamp_us": 1793438405024792,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405050786,
+            "host_timestamp_us": 1793438405078915,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.0099105862900615,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438406171195483,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438405050703,
+            "host_timestamp_us": 1793438405235632,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406050455,
+            "host_timestamp_us": 1793438406099012,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438405050703,
+            "host_timestamp_us": 1793438405235632,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405250647,
+            "host_timestamp_us": 1793438405289663,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405250647,
+            "host_timestamp_us": 1793438405343635,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405250647,
+            "host_timestamp_us": 1793438405397597,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405250647,
+            "host_timestamp_us": 1793438405451555,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405450585,
+            "host_timestamp_us": 1793438405505776,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405450585,
+            "host_timestamp_us": 1793438405559699,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405450585,
+            "host_timestamp_us": 1793438405613601,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405650582,
+            "host_timestamp_us": 1793438405667570,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405650582,
+            "host_timestamp_us": 1793438405721536,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405650582,
+            "host_timestamp_us": 1793438405775424,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405650582,
+            "host_timestamp_us": 1793438405829293,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405850431,
+            "host_timestamp_us": 1793438405883178,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405850431,
+            "host_timestamp_us": 1793438405937095,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405850431,
+            "host_timestamp_us": 1793438405990922,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438405850431,
+            "host_timestamp_us": 1793438406045022,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406050455,
+            "host_timestamp_us": 1793438406099012,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.020026717800647,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438407127891288,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438406050447,
+            "host_timestamp_us": 1793438406245397,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407050062,
+            "host_timestamp_us": 1793438407054660,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438406050447,
+            "host_timestamp_us": 1793438406245397,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406250340,
+            "host_timestamp_us": 1793438406299436,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406250340,
+            "host_timestamp_us": 1793438406353356,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406250340,
+            "host_timestamp_us": 1793438406407259,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406450286,
+            "host_timestamp_us": 1793438406461166,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406450286,
+            "host_timestamp_us": 1793438406515123,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406450286,
+            "host_timestamp_us": 1793438406569067,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406450286,
+            "host_timestamp_us": 1793438406623181,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406650220,
+            "host_timestamp_us": 1793438406677053,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406650220,
+            "host_timestamp_us": 1793438406730957,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406650220,
+            "host_timestamp_us": 1793438406784956,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406650220,
+            "host_timestamp_us": 1793438406838867,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406850102,
+            "host_timestamp_us": 1793438406892781,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406850102,
+            "host_timestamp_us": 1793438406946714,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438406850102,
+            "host_timestamp_us": 1793438407000671,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407050062,
+            "host_timestamp_us": 1793438407054660,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 0.9564209380187094,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438408148367882,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438407050122,
+            "host_timestamp_us": 1793438407201570,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408049753,
+            "host_timestamp_us": 1793438408067298,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438407050122,
+            "host_timestamp_us": 1793438407201570,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407249986,
+            "host_timestamp_us": 1793438407255622,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407249986,
+            "host_timestamp_us": 1793438407309661,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407249986,
+            "host_timestamp_us": 1793438407363574,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407249986,
+            "host_timestamp_us": 1793438407417464,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407449930,
+            "host_timestamp_us": 1793438407472187,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407449930,
+            "host_timestamp_us": 1793438407526151,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407449930,
+            "host_timestamp_us": 1793438407580114,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407449930,
+            "host_timestamp_us": 1793438407634135,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407649892,
+            "host_timestamp_us": 1793438407688153,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407649892,
+            "host_timestamp_us": 1793438407742053,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407649892,
+            "host_timestamp_us": 1793438407795995,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407649892,
+            "host_timestamp_us": 1793438407849925,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407849795,
+            "host_timestamp_us": 1793438407903812,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407849795,
+            "host_timestamp_us": 1793438407959052,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438407849795,
+            "host_timestamp_us": 1793438408013012,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408049753,
+            "host_timestamp_us": 1793438408067298,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.0202053929679096,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438409186119830,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438408049787,
+            "host_timestamp_us": 1793438408222198,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409049440,
+            "host_timestamp_us": 1793438409102575,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438408049787,
+            "host_timestamp_us": 1793438408222198,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408249720,
+            "host_timestamp_us": 1793438408276204,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408249720,
+            "host_timestamp_us": 1793438408330167,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408249720,
+            "host_timestamp_us": 1793438408384071,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408249720,
+            "host_timestamp_us": 1793438408438085,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408449660,
+            "host_timestamp_us": 1793438408492551,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408449660,
+            "host_timestamp_us": 1793438408546723,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408449660,
+            "host_timestamp_us": 1793438408600658,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408649585,
+            "host_timestamp_us": 1793438408656502,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408649585,
+            "host_timestamp_us": 1793438408710426,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408649585,
+            "host_timestamp_us": 1793438408775803,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408649585,
+            "host_timestamp_us": 1793438408829922,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408849509,
+            "host_timestamp_us": 1793438408884060,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408849509,
+            "host_timestamp_us": 1793438408938037,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408849509,
+            "host_timestamp_us": 1793438408992247,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438408849509,
+            "host_timestamp_us": 1793438409046228,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409049440,
+            "host_timestamp_us": 1793438409102575,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.0374724380671978,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438410370933661,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438409249389,
+            "host_timestamp_us": 1793438409272228,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410249043,
+            "host_timestamp_us": 1793438410300265,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438409249389,
+            "host_timestamp_us": 1793438409272228,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409249389,
+            "host_timestamp_us": 1793438409327061,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409249389,
+            "host_timestamp_us": 1793438409382849,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409249389,
+            "host_timestamp_us": 1793438409436774,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409449296,
+            "host_timestamp_us": 1793438409490796,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409449296,
+            "host_timestamp_us": 1793438409544803,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409449296,
+            "host_timestamp_us": 1793438409598784,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409649230,
+            "host_timestamp_us": 1793438409652724,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409649230,
+            "host_timestamp_us": 1793438409706808,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409649230,
+            "host_timestamp_us": 1793438409760843,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409649230,
+            "host_timestamp_us": 1793438409814823,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409849153,
+            "host_timestamp_us": 1793438409868730,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409849153,
+            "host_timestamp_us": 1793438409922602,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409849153,
+            "host_timestamp_us": 1793438409976549,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438409849153,
+            "host_timestamp_us": 1793438410030568,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410049121,
+            "host_timestamp_us": 1793438410084646,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410049121,
+            "host_timestamp_us": 1793438410138572,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410049121,
+            "host_timestamp_us": 1793438410192522,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410049121,
+            "host_timestamp_us": 1793438410246418,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410249043,
+            "host_timestamp_us": 1793438410300265,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.1846311469562352,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438411556843036,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438410448991,
+            "host_timestamp_us": 1793438410456549,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411448586,
+            "host_timestamp_us": 1793438411484227,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438410448991,
+            "host_timestamp_us": 1793438410456549,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410448991,
+            "host_timestamp_us": 1793438410510544,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410448991,
+            "host_timestamp_us": 1793438410564511,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410448991,
+            "host_timestamp_us": 1793438410618438,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410648888,
+            "host_timestamp_us": 1793438410672440,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410648888,
+            "host_timestamp_us": 1793438410726326,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410648888,
+            "host_timestamp_us": 1793438410780288,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410648888,
+            "host_timestamp_us": 1793438410834225,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410848844,
+            "host_timestamp_us": 1793438410888507,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410848844,
+            "host_timestamp_us": 1793438410942585,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438410848844,
+            "host_timestamp_us": 1793438410996992,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411048711,
+            "host_timestamp_us": 1793438411050938,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411048711,
+            "host_timestamp_us": 1793438411104878,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411048711,
+            "host_timestamp_us": 1793438411159028,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411048711,
+            "host_timestamp_us": 1793438411213212,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411248616,
+            "host_timestamp_us": 1793438411267118,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411248616,
+            "host_timestamp_us": 1793438411321061,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411248616,
+            "host_timestamp_us": 1793438411375210,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411248616,
+            "host_timestamp_us": 1793438411429634,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411448586,
+            "host_timestamp_us": 1793438411484227,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.1855905470438302,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438412526087762,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438411448666,
+            "host_timestamp_us": 1793438411643403,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412448370,
+            "host_timestamp_us": 1793438412452945,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438411448666,
+            "host_timestamp_us": 1793438411643403,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411648587,
+            "host_timestamp_us": 1793438411697388,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411648587,
+            "host_timestamp_us": 1793438411751312,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411648587,
+            "host_timestamp_us": 1793438411805315,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411848514,
+            "host_timestamp_us": 1793438411859326,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411848514,
+            "host_timestamp_us": 1793438411913213,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411848514,
+            "host_timestamp_us": 1793438411967147,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438411848514,
+            "host_timestamp_us": 1793438412021150,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412048442,
+            "host_timestamp_us": 1793438412075110,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412048442,
+            "host_timestamp_us": 1793438412128999,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412048442,
+            "host_timestamp_us": 1793438412183505,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412048442,
+            "host_timestamp_us": 1793438412237410,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412248372,
+            "host_timestamp_us": 1793438412291308,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412248372,
+            "host_timestamp_us": 1793438412345176,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412248372,
+            "host_timestamp_us": 1793438412399075,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412448370,
+            "host_timestamp_us": 1793438412452945,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 0.9689358840696514,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438413577421702,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438412448346,
+            "host_timestamp_us": 1793438412613683,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413448097,
+            "host_timestamp_us": 1793438413478377,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438412448346,
+            "host_timestamp_us": 1793438412613683,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412648304,
+            "host_timestamp_us": 1793438412667686,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412648304,
+            "host_timestamp_us": 1793438412721680,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412648304,
+            "host_timestamp_us": 1793438412775610,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412648304,
+            "host_timestamp_us": 1793438412829692,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412848190,
+            "host_timestamp_us": 1793438412883829,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412848190,
+            "host_timestamp_us": 1793438412937799,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412848190,
+            "host_timestamp_us": 1793438412991707,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438412848190,
+            "host_timestamp_us": 1793438413045682,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413048192,
+            "host_timestamp_us": 1793438413099608,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413048192,
+            "host_timestamp_us": 1793438413153635,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413048192,
+            "host_timestamp_us": 1793438413207987,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413248147,
+            "host_timestamp_us": 1793438413262106,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413248147,
+            "host_timestamp_us": 1793438413316039,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413248147,
+            "host_timestamp_us": 1793438413370057,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413248147,
+            "host_timestamp_us": 1793438413423972,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413448097,
+            "host_timestamp_us": 1793438413478377,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.051052954979241,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438414757799153,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438413648124,
+            "host_timestamp_us": 1793438413661721,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414647657,
+            "host_timestamp_us": 1793438414650338,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438413648124,
+            "host_timestamp_us": 1793438413661721,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413648124,
+            "host_timestamp_us": 1793438413715773,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413648124,
+            "host_timestamp_us": 1793438413769755,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413648124,
+            "host_timestamp_us": 1793438413823701,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413848119,
+            "host_timestamp_us": 1793438413877545,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413848119,
+            "host_timestamp_us": 1793438413931468,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413848119,
+            "host_timestamp_us": 1793438413985321,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438413848119,
+            "host_timestamp_us": 1793438414047005,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414048055,
+            "host_timestamp_us": 1793438414102135,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414048055,
+            "host_timestamp_us": 1793438414159123,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414048055,
+            "host_timestamp_us": 1793438414213271,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414248019,
+            "host_timestamp_us": 1793438414269428,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414248019,
+            "host_timestamp_us": 1793438414323687,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414248019,
+            "host_timestamp_us": 1793438414379673,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414248019,
+            "host_timestamp_us": 1793438414433549,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414447942,
+            "host_timestamp_us": 1793438414487695,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414447942,
+            "host_timestamp_us": 1793438414541630,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414447942,
+            "host_timestamp_us": 1793438414596268,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414647657,
+            "host_timestamp_us": 1793438414650338,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.1800965620204806,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438415759755615,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438414647615,
+            "host_timestamp_us": 1793438414843976,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415647335,
+            "host_timestamp_us": 1793438415663343,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438414647615,
+            "host_timestamp_us": 1793438414843976,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414847548,
+            "host_timestamp_us": 1793438414903680,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414847548,
+            "host_timestamp_us": 1793438414957613,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438414847548,
+            "host_timestamp_us": 1793438415013908,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415047518,
+            "host_timestamp_us": 1793438415072267,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415047518,
+            "host_timestamp_us": 1793438415127240,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415047518,
+            "host_timestamp_us": 1793438415184008,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415047518,
+            "host_timestamp_us": 1793438415237972,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415247496,
+            "host_timestamp_us": 1793438415293336,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415247496,
+            "host_timestamp_us": 1793438415385265,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415247496,
+            "host_timestamp_us": 1793438415441551,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415447429,
+            "host_timestamp_us": 1793438415495910,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415447429,
+            "host_timestamp_us": 1793438415554278,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415447429,
+            "host_timestamp_us": 1793438415608358,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415647335,
+            "host_timestamp_us": 1793438415663343,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.0016671810299158,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438416844338091,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438415647275,
+            "host_timestamp_us": 1793438415832841,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416647242,
+            "host_timestamp_us": 1793438416658080,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438415647275,
+            "host_timestamp_us": 1793438415832841,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415847222,
+            "host_timestamp_us": 1793438415887185,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415847222,
+            "host_timestamp_us": 1793438415941710,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438415847222,
+            "host_timestamp_us": 1793438415995901,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416047345,
+            "host_timestamp_us": 1793438416051575,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416047345,
+            "host_timestamp_us": 1793438416105745,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416047345,
+            "host_timestamp_us": 1793438416161537,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416047345,
+            "host_timestamp_us": 1793438416215463,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416247398,
+            "host_timestamp_us": 1793438416269510,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416247398,
+            "host_timestamp_us": 1793438416323591,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416247398,
+            "host_timestamp_us": 1793438416382362,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416247398,
+            "host_timestamp_us": 1793438416436575,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416447247,
+            "host_timestamp_us": 1793438416494430,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416447247,
+            "host_timestamp_us": 1793438416548336,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416447247,
+            "host_timestamp_us": 1793438416602385,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416647242,
+            "host_timestamp_us": 1793438416658080,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.084435898810625,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438417935366192,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438416847159,
+            "host_timestamp_us": 1793438416933276,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417846534,
+            "host_timestamp_us": 1793438417862177,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438416847159,
+            "host_timestamp_us": 1793438416933276,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438416847159,
+            "host_timestamp_us": 1793438416996441,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417046857,
+            "host_timestamp_us": 1793438417050708,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417046857,
+            "host_timestamp_us": 1793438417106518,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417046857,
+            "host_timestamp_us": 1793438417160537,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417046857,
+            "host_timestamp_us": 1793438417214507,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417246767,
+            "host_timestamp_us": 1793438417268594,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417246767,
+            "host_timestamp_us": 1793438417322727,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417246767,
+            "host_timestamp_us": 1793438417376775,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417246767,
+            "host_timestamp_us": 1793438417430581,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417446695,
+            "host_timestamp_us": 1793438417484463,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417446695,
+            "host_timestamp_us": 1793438417538306,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417446695,
+            "host_timestamp_us": 1793438417592220,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417446695,
+            "host_timestamp_us": 1793438417646253,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417646595,
+            "host_timestamp_us": 1793438417700362,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417646595,
+            "host_timestamp_us": 1793438417754317,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417646595,
+            "host_timestamp_us": 1793438417808270,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438417846534,
+            "host_timestamp_us": 1793438417862177,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.0907571129500866,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438418955420794,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438417846581,
+            "host_timestamp_us": 1793438418020204,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418846315,
+            "host_timestamp_us": 1793438418884609,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438417846581,
+            "host_timestamp_us": 1793438418020204,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418046545,
+            "host_timestamp_us": 1793438418074368,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418046545,
+            "host_timestamp_us": 1793438418128404,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418046545,
+            "host_timestamp_us": 1793438418182402,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418046545,
+            "host_timestamp_us": 1793438418236339,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418246468,
+            "host_timestamp_us": 1793438418290321,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418246468,
+            "host_timestamp_us": 1793438418344306,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418246468,
+            "host_timestamp_us": 1793438418398264,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418446451,
+            "host_timestamp_us": 1793438418452248,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418446451,
+            "host_timestamp_us": 1793438418506634,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418446451,
+            "host_timestamp_us": 1793438418560884,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418446451,
+            "host_timestamp_us": 1793438418614838,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418646364,
+            "host_timestamp_us": 1793438418668690,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418646364,
+            "host_timestamp_us": 1793438418722602,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418646364,
+            "host_timestamp_us": 1793438418776644,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418646364,
+            "host_timestamp_us": 1793438418830685,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438418846315,
+            "host_timestamp_us": 1793438418884609,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.0197629355825484,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438419923016582,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438418846259,
+            "host_timestamp_us": 1793438419040718,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419845951,
+            "host_timestamp_us": 1793438419850977,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438418846259,
+            "host_timestamp_us": 1793438419040718,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419046195,
+            "host_timestamp_us": 1793438419094718,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419046195,
+            "host_timestamp_us": 1793438419148747,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419046195,
+            "host_timestamp_us": 1793438419202859,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419246180,
+            "host_timestamp_us": 1793438419257289,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419246180,
+            "host_timestamp_us": 1793438419311609,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419246180,
+            "host_timestamp_us": 1793438419365553,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419246180,
+            "host_timestamp_us": 1793438419419526,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419446090,
+            "host_timestamp_us": 1793438419473426,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419446090,
+            "host_timestamp_us": 1793438419527342,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419446090,
+            "host_timestamp_us": 1793438419581256,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419446090,
+            "host_timestamp_us": 1793438419635225,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419646027,
+            "host_timestamp_us": 1793438419689166,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419646027,
+            "host_timestamp_us": 1793438419743057,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419646027,
+            "host_timestamp_us": 1793438419796979,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438419845951,
+            "host_timestamp_us": 1793438419850977,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 0.9674433502368629,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438420941131250,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438419845909,
+            "host_timestamp_us": 1793438419996714,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420845574,
+            "host_timestamp_us": 1793438420863342,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438419845909,
+            "host_timestamp_us": 1793438419996714,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420045899,
+            "host_timestamp_us": 1793438420050746,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420045899,
+            "host_timestamp_us": 1793438420104908,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420045899,
+            "host_timestamp_us": 1793438420158937,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420045899,
+            "host_timestamp_us": 1793438420212923,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420245844,
+            "host_timestamp_us": 1793438420267080,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420245844,
+            "host_timestamp_us": 1793438420321212,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420245844,
+            "host_timestamp_us": 1793438420375339,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420245844,
+            "host_timestamp_us": 1793438420429303,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420445741,
+            "host_timestamp_us": 1793438420483215,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420445741,
+            "host_timestamp_us": 1793438420537100,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420445741,
+            "host_timestamp_us": 1793438420591038,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420445741,
+            "host_timestamp_us": 1793438420644972,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420645680,
+            "host_timestamp_us": 1793438420698893,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420645680,
+            "host_timestamp_us": 1793438420752801,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420645680,
+            "host_timestamp_us": 1793438420807002,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438420845574,
+            "host_timestamp_us": 1793438420863342,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.0176995028741658,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793438421950496371,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793438420845627,
+            "host_timestamp_us": 1793438421029738,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421845288,
+            "host_timestamp_us": 1793438421848275,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "clock_readiness_frames": [
+          {
+            "driver_timestamp_us": 1793438420845627,
+            "host_timestamp_us": 1793438421029738,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421045547,
+            "host_timestamp_us": 1793438421092283,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421045547,
+            "host_timestamp_us": 1793438421146395,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421045547,
+            "host_timestamp_us": 1793438421201415,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421245449,
+            "host_timestamp_us": 1793438421255592,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421245449,
+            "host_timestamp_us": 1793438421312467,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421245449,
+            "host_timestamp_us": 1793438421366446,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421245449,
+            "host_timestamp_us": 1793438421420527,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421445386,
+            "host_timestamp_us": 1793438421517539,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421445386,
+            "host_timestamp_us": 1793438421571436,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421445386,
+            "host_timestamp_us": 1793438421629053,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421645341,
+            "host_timestamp_us": 1793438421685800,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421645341,
+            "host_timestamp_us": 1793438421740272,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421645341,
+            "host_timestamp_us": 1793438421794375,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793438421845288,
+            "host_timestamp_us": 1793438421848275,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true,
+        "first_clock_eligible_endpoint_regardless_utilization": true
+      },
+      "collection_seconds": 1.009059252217412,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    }
+  ],
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v4/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v4/guard.py": "0a2184ec98ad904379362be8ab9b3670b2aaf25162d8691e62ba64927cb84884",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v4/strict_guard.py": "d6e24894236947f5e4d02b5ebb7d82b269041d841bfb890b34655190db5061be",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v4/policy.json": "8e88086499af0fb52a421c71421eb5a0d9c86b975389ba2d4bda62afc7874cc4",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v4/worker.py": "7da0bed43e4279df045bcdd0e9e000a63d9f71d15025d63a9a81419f09c2ca6d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v4/metrics.py": "4302d4378457d9411396aeba55083d848572f244a03bdb42c4ccd42c95f05434",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v4/cpu_checks.py": "eff05ee519d71e4d363632478e985c3c3c54bc930542261d8caf1d32667a86ba",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v4/clock_checks.py": "a9a177c61e6a9c2768fe77595ab1670941e8a6dc3c0de235fb21d892d25770d9"
+  },
+  "actual_failure_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v16/batches/008/runs/8ff4543be51147699137877209bd56f5/failure.json": "479e3ae9f58c98653ac5d7add2b89638a29a1269e4a27633cd84978409886922"
+  }
+}

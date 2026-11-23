@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "cpu_only": true,
+  "original_play_once_prefix_and_check_success_ast": true,
+  "both_arms_boundary_quaternions_and_reset_exact": true,
+  "no_physical_or_rng_changes": true,
+  "no_policy_inputs_or_privileged_labels_added": true,
+  "cases": [
+    {
+      "angle": 0.0,
+      "arm": "left",
+      "success": true
+    },
+    {
+      "angle": 3.141592653589793,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": -3.141592653589793,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": 1.5707963267948966,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": -1.5707963267948966,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": 1.5707964267948966,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": 1.5707962267948965,
+      "arm": "left",
+      "success": true
+    },
+    {
+      "angle": 0.0,
+      "arm": "left",
+      "success": true
+    },
+    {
+      "angle": 3.141592653589793,
+      "arm": "right",
+      "success": false
+    },
+    {
+      "angle": 0.0,
+      "arm": "left",
+      "success": true
+    }
+  ],
+  "all_five_expert_only_success_dependencies": {
+    "beat_block_hammer": [],
+    "turn_switch": [],
+    "open_laptop": [
+      "arm_tag"
+    ],
+    "adjust_bottle": [],
+    "grab_roller": []
+  },
+  "task_source_sha256": {
+    "beat_block_hammer": "90269f15f9ce274fb5bcad703c47b0b552ff5a2f0a3ff62d12dbe9a553018014",
+    "turn_switch": "035e108a861f94f61369ba2221431e123b7ac231e8de683d8bf38090bf021f9a",
+    "open_laptop": "b826d4f36513dba6df3c17b65f1251bf3dbe2994857ba672f4d06c5900c0cac0",
+    "adjust_bottle": "4f76b35e718a4c5a364dae564d35d68268755818d9062e3ed4ff393d158d0548",
+    "grab_roller": "f0e1864199605acf59cf8982dded05129d873bb3934f200e47abafd918d41c89"
+  },
+  "helper_sha256": "c713cce61204e75c30554fee63d745b1b3a31a75bec2d52b5a121c13450e1bb0"
+}

@@ -1,0 +1,125 @@
+{
+  "status": "complete",
+  "reports": [
+    {
+      "condition": "S0",
+      "updates": 1400,
+      "initial_state_sha256": "cd6b1fccfd70c620fd790a165c0d15dd31de12da94bdf1cc31560f0b2a3bbb9b",
+      "checkpoint": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/S0_seed0.pt",
+      "checkpoint_sha256": "84b64a00be1285c36c2f29f54d7885b76e584e53a0bd9be22d2cf0e200cd42bf",
+      "predictions": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/S0_predictions.npz",
+      "predictions_sha256": "c0922b9e1e4b4baacadaf1e35fd41e8a4aaa44ec55b25bdea6ad7e4653fb32ad",
+      "history": [
+        {
+          "step": 1,
+          "loss": 0.20693635940551758,
+          "action": 0.20693635940551758,
+          "auxiliary": 0.0
+        },
+        {
+          "step": 200,
+          "loss": 0.0701947957277298,
+          "action": 0.0701947957277298,
+          "auxiliary": 0.0
+        },
+        {
+          "step": 400,
+          "loss": 0.050401028245687485,
+          "action": 0.050401028245687485,
+          "auxiliary": 0.0
+        },
+        {
+          "step": 600,
+          "loss": 0.03763257712125778,
+          "action": 0.03763257712125778,
+          "auxiliary": 0.0
+        },
+        {
+          "step": 800,
+          "loss": 0.030720746144652367,
+          "action": 0.030720746144652367,
+          "auxiliary": 0.0
+        },
+        {
+          "step": 1000,
+          "loss": 0.026439039036631584,
+          "action": 0.026439039036631584,
+          "auxiliary": 0.0
+        },
+        {
+          "step": 1200,
+          "loss": 0.023613713681697845,
+          "action": 0.023613713681697845,
+          "auxiliary": 0.0
+        },
+        {
+          "step": 1400,
+          "loss": 0.02144732140004635,
+          "action": 0.02144732140004635,
+          "auxiliary": 0.0
+        }
+      ]
+    },
+    {
+      "condition": "SP",
+      "updates": 1400,
+      "initial_state_sha256": "cd6b1fccfd70c620fd790a165c0d15dd31de12da94bdf1cc31560f0b2a3bbb9b",
+      "checkpoint": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/SP_seed0.pt",
+      "checkpoint_sha256": "bdaee978a4f59d5edac4ad80fa84263aa1b05863e1da6724ce73cc87b8ea3d59",
+      "predictions": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/SP_predictions.npz",
+      "predictions_sha256": "121e83a8fc78364477c29935b2e3185a93ca3d12db8d0f355cc7bd36a7b981f2",
+      "history": [
+        {
+          "step": 1,
+          "loss": 0.25604063272476196,
+          "action": 0.20693635940551758,
+          "auxiliary": 0.4910427927970886
+        },
+        {
+          "step": 200,
+          "loss": 0.07802433520555496,
+          "action": 0.072446808218956,
+          "auxiliary": 0.05577528104186058
+        },
+        {
+          "step": 400,
+          "loss": 0.05216723680496216,
+          "action": 0.05037975311279297,
+          "auxiliary": 0.017874825745821
+        },
+        {
+          "step": 600,
+          "loss": 0.03944926708936691,
+          "action": 0.03828418254852295,
+          "auxiliary": 0.01165083423256874
+        },
+        {
+          "step": 800,
+          "loss": 0.03287184238433838,
+          "action": 0.03201156109571457,
+          "auxiliary": 0.0086028091609478
+        },
+        {
+          "step": 1000,
+          "loss": 0.02874385565519333,
+          "action": 0.02804969996213913,
+          "auxiliary": 0.006941557861864567
+        },
+        {
+          "step": 1200,
+          "loss": 0.025946922600269318,
+          "action": 0.025338955223560333,
+          "auxiliary": 0.006079670041799545
+        },
+        {
+          "step": 1400,
+          "loss": 0.023317066952586174,
+          "action": 0.02276523970067501,
+          "auxiliary": 0.005518275313079357
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 53.98678318038583,
+  "peak_gpu_allocated_bytes": 101560832
+}

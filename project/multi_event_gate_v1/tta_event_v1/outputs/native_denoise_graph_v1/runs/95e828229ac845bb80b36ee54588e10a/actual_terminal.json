@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "actual_Popen_wait_code": 0,
+  "actual_child_exit_code": 0,
+  "GPU_released": true,
+  "software_probe_only": true,
+  "sustained_qualification": false,
+  "result": {
+    "passed": true,
+    "actual_cases": 8,
+    "all_final_actions_noise_RNG_byte_exact": true,
+    "model_parameter_pointers_versions_unchanged": true,
+    "original_outer_sampler_and_noise_unchanged": true,
+    "software_infer_calls": 16,
+    "policy_episodes": 0,
+    "policy_actions": 0,
+    "original_median_seconds": 0.39362820610404015,
+    "graph_steady_median_seconds": 0.1595388287678361,
+    "steady_speedup": 2.467287801622609,
+    "capture_seconds": 0.7236414919607341,
+    "rows": [
+      {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v5/batches/002/runs/c818d4d069b94a8f83fdc5e242d0a284/cases/place_empty_cup:100008/M_event_full/observation000.npz",
+        "action_bytes_exact": true,
+        "RNG_exact": true,
+        "once_noise_witness_exact": true,
+        "original_seconds": 1.3945162193849683,
+        "graph_seconds": 0.7236414919607341,
+        "includes_capture": true,
+        "max_abs_difference": 0.0,
+        "graph_denoise_calls": 10
+      },
+      {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v5/batches/002/runs/c818d4d069b94a8f83fdc5e242d0a284/cases/place_empty_cup:100008/M_event_full/observation001.npz",
+        "action_bytes_exact": true,
+        "RNG_exact": true,
+        "once_noise_witness_exact": true,
+        "original_seconds": 0.4437363571487367,
+        "graph_seconds": 0.1636369270272553,
+        "includes_capture": false,
+        "max_abs_difference": 0.0,
+        "graph_denoise_calls": 20
+      },
+      {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v5/batches/002/runs/c818d4d069b94a8f83fdc5e242d0a284/cases/place_empty_cup:100009/M_event_full/observation000.npz",
+        "action_bytes_exact": true,
+        "RNG_exact": true,
+        "once_noise_witness_exact": true,
+        "original_seconds": 0.401271915063262,
+        "graph_seconds": 0.16540640499442816,
+        "includes_capture": false,
+        "max_abs_difference": 0.0,
+        "graph_denoise_calls": 30
+      },
+      {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v5/batches/002/runs/c818d4d069b94a8f83fdc5e242d0a284/cases/place_empty_cup:100009/M_event_full/observation001.npz",
+        "action_bytes_exact": true,
+        "RNG_exact": true,
+        "once_noise_witness_exact": true,
+        "original_seconds": 0.3974231379106641,
+        "graph_seconds": 0.1631928482092917,
+        "includes_capture": false,
+        "max_abs_difference": 0.0,
+        "graph_denoise_calls": 40
+      },
+      {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v5/batches/002/runs/c818d4d069b94a8f83fdc5e242d0a284/cases/place_shoe:100012/M_event_full/observation000.npz",
+        "action_bytes_exact": true,
+        "RNG_exact": true,
+        "once_noise_witness_exact": true,
+        "original_seconds": 0.3935403870418668,
+        "graph_seconds": 0.1595388287678361,
+        "includes_capture": false,
+        "max_abs_difference": 0.0,
+        "graph_denoise_calls": 50
+      },
+      {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v5/batches/002/runs/c818d4d069b94a8f83fdc5e242d0a284/cases/place_shoe:100012/M_event_full/observation001.npz",
+        "action_bytes_exact": true,
+        "RNG_exact": true,
+        "once_noise_witness_exact": true,
+        "original_seconds": 0.39362820610404015,
+        "graph_seconds": 0.1587961446493864,
+        "includes_capture": false,
+        "max_abs_difference": 0.0,
+        "graph_denoise_calls": 60
+      },
+      {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v5/batches/002/runs/c818d4d069b94a8f83fdc5e242d0a284/cases/place_shoe:100013/M_event_full/observation000.npz",
+        "action_bytes_exact": true,
+        "RNG_exact": true,
+        "once_noise_witness_exact": true,
+        "original_seconds": 0.38866192707791924,
+        "graph_seconds": 0.15835677599534392,
+        "includes_capture": false,
+        "max_abs_difference": 0.0,
+        "graph_denoise_calls": 70
+      },
+      {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_cross_task100_v5/batches/002/runs/c818d4d069b94a8f83fdc5e242d0a284/cases/place_shoe:100013/M_event_full/observation001.npz",
+        "action_bytes_exact": true,
+        "RNG_exact": true,
+        "once_noise_witness_exact": true,
+        "original_seconds": 0.39112153882160783,
+        "graph_seconds": 0.15882641216740012,
+        "includes_capture": false,
+        "max_abs_difference": 0.0,
+        "graph_denoise_calls": 80
+      }
+    ],
+    "sustained_resource_qualification_NOT_claimed": true
+  }
+}

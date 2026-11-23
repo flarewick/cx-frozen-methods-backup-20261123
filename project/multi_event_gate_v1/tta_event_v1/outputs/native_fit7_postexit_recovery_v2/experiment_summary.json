@@ -1,0 +1,88 @@
+{
+  "complete": true,
+  "qualified_new_identities": 325,
+  "FIT": 250,
+  "VAL": 75,
+  "old_original_control_identities": 100,
+  "actual_updates": 1000,
+  "additional_recovery_updates": 0,
+  "original_fit_host_exit_code": 1,
+  "original_failure_preserved": true,
+  "actual_recovery_host_exit0": true,
+  "actual_finalize_host_exit0": true,
+  "minimum_distinct_FIT_cases": 7,
+  "offline_VAL_report": {
+    "stack_blocks_two": {
+      "VAL_packets": 20,
+      "before": 0.026707632257603107,
+      "after": 0.026890833664219828,
+      "change": 0.00018320140661672035,
+      "zero_update_loss": 0.02655175296822563,
+      "task_success_rate_NOT_measured": true
+    },
+    "stack_bowls_two": {
+      "VAL_packets": 18,
+      "before": 0.042299688405667744,
+      "after": 0.042378579719095595,
+      "change": 7.889131342785072e-05,
+      "zero_update_loss": 0.04211575222305126,
+      "task_success_rate_NOT_measured": true
+    },
+    "beat_block_hammer": {
+      "VAL_packets": 5,
+      "before": 0.07838908284902572,
+      "after": 0.07373568303883075,
+      "change": -0.004653399810194969,
+      "zero_update_loss": 0.07599249817430972,
+      "task_success_rate_NOT_measured": true
+    },
+    "turn_switch": {
+      "VAL_packets": 7,
+      "before": 0.36091368538992746,
+      "after": 0.35933035824980053,
+      "change": -0.0015833271401269333,
+      "zero_update_loss": 0.3638597066913332,
+      "task_success_rate_NOT_measured": true
+    },
+    "adjust_bottle": {
+      "VAL_packets": 9,
+      "before": 0.19857301231887606,
+      "after": 0.19204635587003496,
+      "change": -0.006526656448841095,
+      "zero_update_loss": 0.1991047097576989,
+      "task_success_rate_NOT_measured": true
+    },
+    "grab_roller": {
+      "VAL_packets": 2,
+      "before": 0.3055441230535507,
+      "after": 0.30998149514198303,
+      "change": 0.004437372088432312,
+      "zero_update_loss": 0.3099035918712616,
+      "task_success_rate_NOT_measured": true
+    },
+    "open_laptop": {
+      "VAL_packets": 10,
+      "before": 0.2801935750991106,
+      "after": 0.278390758484602,
+      "change": -0.0018028166145085955,
+      "zero_update_loss": 0.2792914930731058,
+      "task_success_rate_NOT_measured": true
+    }
+  },
+  "original_final_VAL_reproduced_exactly": true,
+  "zero_update_and_action_visible_coherence_passed": true,
+  "qualification": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_fit7_postexit_recovery_v2/qualification.json",
+  "qualification_sha256": "f7b20a535ac8b3b3708f37c7cab47321db8bf927dda665d46d37fca02cdeb871",
+  "new_native_development_completed": false,
+  "new_native_confirmation_completed": false,
+  "five_task_formal100_started": false,
+  "TTA_utility_proven": false,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_fit7_postexit_recovery_v2/qualification.json": "f7b20a535ac8b3b3708f37c7cab47321db8bf927dda665d46d37fca02cdeb871",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_fit7_postexit_recovery_v2/result.json": "355f6737ef4d5334ccedfcae129f11bcafc9a09b72df819b6a39c2503e52d04b",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_fit7_postexit_recovery_v2/actual_recovery_host_exit.json": "a35a397e54c3c541f9bc0779226943b650ba920f592269fc65d255bf12d9ba0a",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_fit7_postexit_recovery_v2/actual_finalize_host_exit.json": "f35d890d01d9180e55d6fa399a6f1783f484b950190d91ec949a88d830252b04",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_calibration_fit_v7/runs/run_d2ea85fd24514acfa1ea2aa918c5411d/validation_step0000.json": "efe6c8c96526ff40408124f980671f5e00dcfc1f4c5fbd1a975b531b6c1e36de",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_calibration_fit_v7/runs/run_d2ea85fd24514acfa1ea2aa918c5411d/validation_step1000.json": "01a089ff543248cf0934243ef0b0c3828df117878b47cf0963fc4ed8c8b05037"
+  }
+}

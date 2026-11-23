@@ -1,0 +1,144 @@
+{
+  "complete": true,
+  "passed": true,
+  "scope": "initial_ARM_feedback_mechanism_development_only",
+  "actual_native_episodes": 40,
+  "actual_unique_mechanism_scenes": 10,
+  "all_whole_native_controls_exact": true,
+  "records": [
+    {
+      "case_id": "adjust_bottle:7126003",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "adjust_bottle:7126004",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "beat_block_hammer:7126000",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": false
+    },
+    {
+      "case_id": "beat_block_hammer:7126001",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "grab_roller:7126000",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "grab_roller:7126001",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 0,
+      "actual_early_legal_actions": 0,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "open_laptop:7126000",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "open_laptop:7126001",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": true,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": false
+    },
+    {
+      "case_id": "turn_switch:7126000",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": false,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": true
+    },
+    {
+      "case_id": "turn_switch:7126002",
+      "original_full_zero_shadow_whole_native_exact": true,
+      "q0_initialization_mode": "fresh_native_replay_from_verified_q0_preparation",
+      "initial_ARM_source_requested": false,
+      "actual_early_packets": 1,
+      "actual_early_legal_actions": 1,
+      "semantic_available": true,
+      "success_diagnostic_only": false
+    }
+  ],
+  "groups": {
+    "open_laptop": {
+      "cases": 2,
+      "eligible_early_cases": 2
+    },
+    "grab_roller": {
+      "cases": 2,
+      "eligible_early_cases": 1
+    },
+    "beat_block_hammer": {
+      "cases": 2,
+      "eligible_early_cases": 2
+    },
+    "turn_switch": {
+      "cases": 2,
+      "eligible_early_cases": 2
+    },
+    "adjust_bottle": {
+      "cases": 2,
+      "eligible_early_cases": 2
+    }
+  },
+  "coverage_passed": true,
+  "expert_labels_available": false,
+  "excluded_from_calibration": true,
+  "offline_optimizer_steps": 0,
+  "TTA_utility_proven": false,
+  "parent_actual_host_exit_still_required": true,
+  "calibration_training_allowed": false,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_initial_arm_mechanism_v4/mechanism/batches/000/runs/71400d10a7b7421aaf8e06aed561cf01/terminal_audit.json": "413a4c073a935519e3118539044f41cd104d9eaaf6dff6999f6192571ce32337",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_initial_arm_mechanism_v4/mechanism/batches/000/runs/71400d10a7b7421aaf8e06aed561cf01/CPU_full_capture_audit.json": "95358aa20343d8c18b367166f1fea85bccecb27da213e53382e11aae4001d93d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_initial_arm_mechanism_v4/mechanism/batches/000/runs/71400d10a7b7421aaf8e06aed561cf01/protocol.json": "0e6d5cb0f6d9e485cd837a1ddd135bf550fce5dff4781ca8b7dd351f9e09ccea"
+  }
+}

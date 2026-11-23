@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "actual_C27_FIT6_qualified25_and_all_q0_receipts_accepted": true,
+  "failed_C27_C28_C29_C30_C31_C32_C33_FIT7_and_actual_CPU_semantic_fixture_rejected": true,
+  "failed_C24_FIT5_rejected": true,
+  "cancelled_CPU_C25_FIT6_rejected": true,
+  "new_q0_gate_actual_input_fixtures": [
+    {
+      "name": "valid",
+      "expected_admission": true,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "valid_10_lanes",
+      "expected_admission": true,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "valid_8_lanes",
+      "expected_admission": true,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "prior_action",
+      "expected_admission": false,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "fabricated_query",
+      "expected_admission": false,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "wrong_lanes",
+      "expected_admission": false,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "wrong_key",
+      "expected_admission": false,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "wrong_frame_hash",
+      "expected_admission": false,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "cold_query_fallback",
+      "expected_admission": false,
+      "atomic_native_qualification": false
+    },
+    {
+      "name": "cached_query_fallback",
+      "expected_admission": true,
+      "atomic_native_qualification": false
+    }
+  ],
+  "strict_overlap_actual_bytes_checks": [
+    {
+      "name": "valid_cached_answer",
+      "accepted": true,
+      "CPU_fixture_not_native_qualification": true
+    },
+    {
+      "name": "valid_forward_first",
+      "accepted": true,
+      "CPU_fixture_not_native_qualification": true
+    },
+    {
+      "name": "wrong_policy_hash",
+      "accepted": false,
+      "CPU_fixture_not_native_qualification": true
+    },
+    {
+      "name": "wrong_semantic_hash",
+      "accepted": false,
+      "CPU_fixture_not_native_qualification": true
+    },
+    {
+      "name": "prior_action",
+      "accepted": false,
+      "CPU_fixture_not_native_qualification": true
+    },
+    {
+      "name": "extra_query",
+      "accepted": false,
+      "CPU_fixture_not_native_qualification": true
+    },
+    {
+      "name": "unresolved_feedback",
+      "accepted": false,
+      "CPU_fixture_not_native_qualification": true
+    },
+    {
+      "name": "wrong_tick",
+      "accepted": false,
+      "CPU_fixture_not_native_qualification": true
+    }
+  ],
+  "CPU_fixtures_never_native_qualified": true,
+  "incomplete325_rejected": true,
+  "no_optimizer": true,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_calibration_data_v17/reader.py": "d1a9b30d6eeddae61b27a64eb7493130dfd2d54cffbdb044e7560bfe4fb9e023",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_calibration_data_v17/AGENTS.md": "1784f0f4b4e1059e89733d01351586b4bb3e4a3964a928a697638a044a8f9be1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_calibration_data_v17/dataset.py": "8cd254d28092d99e6da9b7bd3bd4992d76ac626f6d4ddcf15812039426034829",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_calibration_data_v17/build_host.py": "be56778fd1fc3d30fdcfa003dadc8d2fc8c100e564800917ff1856e529f17b1a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_calibration_data_v17/cpu_checks.py": "4bf263d8c1d42101a5019c780ba2e6379ed65a17f0d0e1e6853f43ecdd5e8777"
+  },
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v34/CPU_collection_contract_checks_v2.json": "1fcbd0af0c4a09b3ba90479afdbc3567511032cf34ac60e4a6443151079b9aca",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v34/CPU_collection_actual_host_exit_v2.json": "581b536149db72e844e3a7e6ae64a786fe6f8e98c63d587f18df62bdbeb5d35e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v33/CPU_collection_contract_checks_v1.json": "c6e7ebf7fcad45e5cc8f306e5a2498472fe6512f18d36d0d854b00cca7ba7bd8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v33/CPU_collection_actual_host_exit_v1.json": "c568b6e657a9adcec5baf853b4e545a044d7da1f469bfb9ef10191ad7145bade",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v32/CPU_collection_contract_checks_v1.json": "72b9751017ab32cabcd5e06de7b8cae66e8490ecdde369a54440e5f03bbdcbef",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v32/CPU_collection_actual_host_exit_v1.json": "f8723f2ed3f52f6f0f6207679dac1e983106aca6f7aa6e1c648934813bec8e63",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v31/CPU_collection_contract_checks_v1.json": "e52c15d7733e4e688d91de3619eb873ac53524a5cb3c1bd2cc260563f0d59a9c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v31/CPU_collection_actual_host_exit_v1.json": "462bd0d839fecbe44f064d8a48d265000fe8db443f65d6ddc42ea3b5cf3974d1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_semantic_host_audit_v1/CPU_actual_host_path_checks_v1.json": "d3cf12dc862aa4e28325c211125fbbde6adc22eafc611dc7e53881bcee6c3e72",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_semantic_host_audit_v1/CPU_actual_host_exit_v1.json": "e77c27097fa3d1547804814af205acd5a89156d12235375da6e8733b63219eef",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/CPU_collection_contract_checks_v2.json": "ba4a56817ab779aed50daee79b57ba5caff18b3ca1ab16a17ecadf57842d902f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/CPU_collection_actual_host_exit_v2.json": "962551f32fe9a2e437b09526b02c39f73ebf5bbceb10e52bdc24a3eb4fdf750f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_semantic_budget_pool_v1/CPU_production_arrival_checks_v1.json": "7043b9912cef83f7852ed9b087dbf97f4ed18efcae08dc848a404c58b952122a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_semantic_budget_pool_v1/CPU_actual_host_exit_v1.json": "5f91713ea0d8a7c7384061f1681315763b2eb7c7e91c341af371ff5f01cc5ed4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/CPU_collection_contract_checks_v2.json": "3671f218abc07b987cb253d5b0418f4f2f18eb50932c721ea6b905336e104442",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/CPU_collection_actual_host_exit_v2.json": "f38a77bc22fc25ec5f669e189884ad6b407a636d2042f3b55b76bfa80892fdf2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_q0_handoff_atomic_v1/CPU_actual_lock_handoff_checks_v1.json": "6bcf9edf637955fa3d7e4c76de57625f963042f016f95f49e1d1ddb4fb05d4be",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_q0_handoff_atomic_v1/CPU_actual_host_exit_v1.json": "db72754d9297dae4d49b5ff80d9b0d0881981071b0374a2b3c5388f55a2bafa4",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v27/fit_007/actual_host_wait_exit.json": "aeb4dfc34e010897dcaaf0d0e82c23f11e1b3d14cd9ebdea4a2061ee2a690629",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v28/fit_007/actual_host_wait_exit.json": "7e0992ea603bb129c2c8717d747c3c0afd03b39fefd18936555eb76cb55abd92",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/actual_host_wait_exit.json": "7f76af70700b39c04c24c86eb641e0912779c521974f57d5ff52bfba67e8cce5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/fit_007/actual_host_wait_exit.json": "eaaa3a3a858970d8eb18775a7145d5e677549d7b215805a03f2c89fff6c7d00f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v31/fit_007/actual_host_wait_exit.json": "60bf7c7805ccd589d30144b5cee79e79a7af63b3caa862eeccb58bc2a9845049",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v32/fit_007/actual_host_wait_exit.json": "77a045800f2ac83690f3ddbabb3713682e7fbe4bbe68a6aa2ef4d5fd5bdfc53b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v33/fit_007/actual_host_wait_exit.json": "f29bba56523ca92ba1a7cf40750d8a3cdd64a97c5c0449cbc1c4dc92d5c61405",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v28/CPU_collection_contract_checks_v2.json": "25420140a24a0a9e05c657a96fdfb07531f0c58438eb3c6154ccd22c0db83af3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v28/CPU_collection_actual_host_exit_v2.json": "553efad089d7f192bafed2657f961eeb35552e12335b72f9e5760fe2d2e5a8a5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_server_rule4_v10/CPU_actual_C27_observer_history_checks_v1.json": "65dd599142723ccdcde34f99fd6f03cfd472245c0a8b25e6b270eb288da75df6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_server_rule4_v10/CPU_actual_host_exit_v1.json": "525a96c66953e6e379280207df425db9b128caa1d780e2afe27d577948557244",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v27/CPU_collection_contract_checks_v5.json": "c4d0e2b55468de4bb5a049a9fac6e16587530d533ef9a201a5ce8c82ba48c673",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v27/CPU_collection_actual_host_exit_v5.json": "f030ad016b1b556c26501893171e9e88c9f9377b641081932ea1183dda12e297",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v26/CPU_collection_contract_checks_v3.json": "bb407d6b661a34439802d440f68be50bf773584db503e72ab6443e0feef77532",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v26/CPU_collection_actual_host_exit_v3.json": "8ae94a23f662210a09128860c194a72ac9f2b57fee1d88170e803d37759568ff",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v27/fit_006/actual_host_wait_exit.json": "18fdd42bf1868c68f8fb559f22f98b09c12aca40f28fc8d4b5832dfa9fa37949",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v27/fit_006/batches/000/runs/ca122885dcf54683a08b55f2223f136b/atomic_full_recovery_qualification.json": "b26535bc8f6e28b6d58402976c5b947f7206390c7fc30fab3d9d25eae63d0236",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v24/fit_005/actual_host_wait_exit.json": "0f4a393d9dcb421c70d964520e1b5736c786365036010f345e6729dd86d4ca87",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v24/fit_005/batches/000/runs/7889dc81aa154b17a95b4f35644b16d9/initial_prefetch/adjust_bottle:7120030.json": "e2bc95b0b7a10229bd9fd96df0620e1a7b765b2fe30b8e58cc60057bc60347a6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v24/fit_005/batches/000/runs/7889dc81aa154b17a95b4f35644b16d9/semantic/requests/1e2fd377cbc93ab4717339b7e8d7b45f0f21ca81f76f735671b4d2501d32f322.npz": "180ddd61deb32af9f26155cbecae61d2b837fcae535a5aeb70fc37b90dbc5377",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v25/CPU_collection_contract_checks_v3.json": "cd13a3cde01bbb870913114595137282982a169b6f8ac86408fe306088b30c81",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v25/CPU_collection_actual_host_exit_v3.json": "2ff43bda6328d7abc86eed46873687841541ce5527d4a8c4a3336ba459321191"
+  }
+}

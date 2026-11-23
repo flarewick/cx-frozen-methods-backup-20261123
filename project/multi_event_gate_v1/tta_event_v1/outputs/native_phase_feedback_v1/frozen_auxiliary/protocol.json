@@ -1,0 +1,41 @@
+{
+  "auxiliary_candidate_frozen": true,
+  "FIT_rows": 3164,
+  "ridge": 1.0,
+  "primary_model": "correct",
+  "checkpoint_sha256": "86069427fa4a4e2f9386227e35bdaebbcd18a70773dff4b7686ef83b854fb0c1",
+  "train_target_scales": {
+    "stack_blocks_two": 0.003125,
+    "stack_bowls_two": 0.0037226026458190625
+  },
+  "model_inputs": "Current causal context53, actualcommand197 transformed to object-local194 + ownkind5, currentRGB corner cloud24x2. No task/seed/GT/future.",
+  "response": "Signed sameID local 2D material displacement; no object-pose/contact/task-success claim.",
+  "online_timing": "Fulloriginal32 + actual95; window starts>=95 and ends>=95+.25; once per source only at actual caller query boundary. q2 plans not yet observed.",
+  "actual_recorded_q1_packet_rows": 450,
+  "NOT_yet_recorded_q2_packet_rows": 887,
+  "full_online_candidate_frozen": false,
+  "shared_fast128_response_interface_integrated": false,
+  "new_independent_confirmation_passed": false,
+  "direction_training_allowed": false,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/freeze_model.py": "89718df5422af374fffa60d3354e3e92a17d5995ef378077396743a5b1716e48",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/study.py": "ed00fcd1bfd81dbb8e92430de07eb91b3b10324cd9f399b53ed9b801472e277b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/feedback_queue.py": "e6b6ff774a75c7e3d2ebfb3ef37fdd8ac442912ca0236f9a8457a7b9b691db6d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/eligibility.py": "845fb22d030d6aa144e9f40e5523a6a82fc0e3cb2ffc1aca7a7c2ffba6df91ad",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/replay.py": "f2488c348fd19426c0cfc126601d72849ddb8828491dd0d0c2ada84032873296",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/checks.py": "541ddf6f7855108e31848d3a3b51b160f9cfa467e160f96c75039b2ab68347e8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/audit.py": "4f0a25762db7266342ec093f2466751deb1526321d702bd41982c7152a2e7142",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_local_response_v2/model.py": "c3b99ebcab152fe27ef9a96a40bdbf86f3b06cccd1f8e53f27f69b551b98cb88",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_local_response_v2/study.py": "1a39fbcb912ed3e7f1ad64179618da26db52ba78166af86ed492f39e1811611b"
+  },
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_phase_feedback_v1/study/protocol.json": "debe7ded2493c91a44b6953ffaa35ba3a6c33ed3176eaf5a6a109b22cd493003",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_phase_feedback_v1/study/report.json": "b847599c46d5670d5cb5937a3762ad8e2361d2c8d4352205004182d18b7b477b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_phase_feedback_v1/study/independent_audit.json": "a186498c28711d923d529766c59e3966878d422262c41f3458fc96dfbf8f37d0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_phase_feedback_v1/study/all_models_frozen.json": "a9d03f400d7afe645733ca283380ef5b5286720ba3646851f45ad278f95036bc"
+  },
+  "checkpoint_reload_predictions_bitwise": true,
+  "physical_null_exact": true,
+  "online_updates": 0,
+  "TTA_utility_proven": false
+}

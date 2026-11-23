@@ -1,0 +1,468 @@
+{
+  "passed": true,
+  "official_language_coverage": {
+    "place_empty_cup": {
+      "official_language_combinations": 90,
+      "original_supported": 0,
+      "new_supported": 90
+    },
+    "place_shoe": {
+      "official_language_combinations": 600,
+      "original_supported": 0,
+      "new_supported": 600
+    }
+  },
+  "original_detector_infer_AST_exact": true,
+  "original_detector_constructor_inherited_exact": true,
+  "old_four_native_numeric_metadata_and_masks_exact": true,
+  "old_records": [
+    {
+      "key": "18dd2e21c674b044e6af539cc00658281d9a8bff85e928527c78cd389d0d01ae",
+      "numeric_metadata_and_mask_arrays_byte_exact": true
+    },
+    {
+      "key": "ceb84a8ec62c164d7a76d056bbad334e54e5c402be4a34109654a3d999eb0187",
+      "numeric_metadata_and_mask_arrays_byte_exact": true
+    },
+    {
+      "key": "e4c0e432d3dc266dfc02fb4b904c0977ef65edcf7dabf0ed650fda4a8fdcf5cf",
+      "numeric_metadata_and_mask_arrays_byte_exact": true
+    },
+    {
+      "key": "e943917ef667a5d49c941c0a18ff8f160eff4f31370b138f8420810f705e6947",
+      "numeric_metadata_and_mask_arrays_byte_exact": true
+    }
+  ],
+  "new_historical_RGB_only_checks": [
+    {
+      "task": "place_empty_cup",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/collections/place_empty_cup/demo_randomized/collect_20260925_154009_151379/expert_data/seed_240012/data/episode9.hdf5",
+      "source_frame_index": 0,
+      "instruction": "Align the rounded base blue cup and set it down on the smooth round palm-sized coaster",
+      "available": true,
+      "reason": "text_grounded_distinct_masks",
+      "seconds": 22.358775428961962,
+      "metadata": {
+        "raw": {
+          "image_sha256": "74385cb31a87f60e71bfa3e9bed7963329ec8796a8683c60845b4f244517ce9e",
+          "instruction_sha256": "9a56267d9f7e57f69655f84252a0bf68f71ec86da9c3757f43cac2ec3e2dfba5",
+          "roles": {
+            "directed": true,
+            "target": "cup",
+            "reference": "coaster",
+            "kind": "explicit_heterogeneous_placement_pair",
+            "interface_version": "native_transfer_semantics_v1"
+          },
+          "text_prompt": "cup. coaster.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  272.3867988586426,
+                  159.3632698059082,
+                  320.0,
+                  220.23759841918945
+                ],
+                "score": 0.5808408260345459,
+                "phrase": "cup"
+              },
+              {
+                "box": [
+                  221.6068458557129,
+                  13.566073179244995,
+                  273.70927810668945,
+                  103.68184089660645
+                ],
+                "score": 0.39415135979652405,
+                "phrase": "cup"
+              },
+              {
+                "box": [
+                  293.60769271850586,
+                  0.016787052154541016,
+                  320.0,
+                  76.10701560974121
+                ],
+                "score": 0.33242008090019226,
+                "phrase": "cup"
+              }
+            ],
+            [
+              {
+                "box": [
+                  166.2338638305664,
+                  136.4020872116089,
+                  218.93829345703125,
+                  184.11147594451904
+                ],
+                "score": 0.5844669938087463,
+                "phrase": "coaster"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_distinct_masks",
+          "source": "FrozenGroundingDINO-base+SAM-vit-base, float32/eager/nativeTransformers4.53.2, image+languageonly",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                272.3867988586426,
+                159.3632698059082,
+                320.0,
+                220.23759841918945
+              ],
+              "score": 0.5808408260345459,
+              "phrase": "cup"
+            },
+            {
+              "box": [
+                166.2338638305664,
+                136.4020872116089,
+                218.93829345703125,
+                184.11147594451904
+              ],
+              "score": 0.5844669938087463,
+              "phrase": "coaster"
+            }
+          ],
+          "mask_scores": [
+            0.9917315244674683,
+            0.9787078499794006
+          ],
+          "mask_area": [
+            2231,
+            1879
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true
+        },
+        "decision": {
+          "image_sha256": "74385cb31a87f60e71bfa3e9bed7963329ec8796a8683c60845b4f244517ce9e",
+          "instruction_sha256": "9a56267d9f7e57f69655f84252a0bf68f71ec86da9c3757f43cac2ec3e2dfba5",
+          "roles": {
+            "directed": true,
+            "target": "cup",
+            "reference": "coaster",
+            "kind": "explicit_heterogeneous_placement_pair",
+            "interface_version": "native_transfer_semantics_v1"
+          },
+          "text_prompt": "cup. coaster.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  272.3867988586426,
+                  159.3632698059082,
+                  320.0,
+                  220.23759841918945
+                ],
+                "score": 0.5808408260345459,
+                "phrase": "cup"
+              },
+              {
+                "box": [
+                  221.6068458557129,
+                  13.566073179244995,
+                  273.70927810668945,
+                  103.68184089660645
+                ],
+                "score": 0.39415135979652405,
+                "phrase": "cup"
+              },
+              {
+                "box": [
+                  293.60769271850586,
+                  0.016787052154541016,
+                  320.0,
+                  76.10701560974121
+                ],
+                "score": 0.33242008090019226,
+                "phrase": "cup"
+              }
+            ],
+            [
+              {
+                "box": [
+                  166.2338638305664,
+                  136.4020872116089,
+                  218.93829345703125,
+                  184.11147594451904
+                ],
+                "score": 0.5844669938087463,
+                "phrase": "coaster"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_distinct_masks",
+          "source": "FrozenGroundingDINO-base+SAM-vit-base, float32/eager/nativeTransformers4.53.2, image+languageonly",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                272.3867988586426,
+                159.3632698059082,
+                320.0,
+                220.23759841918945
+              ],
+              "score": 0.5808408260345459,
+              "phrase": "cup"
+            },
+            {
+              "box": [
+                166.2338638305664,
+                136.4020872116089,
+                218.93829345703125,
+                184.11147594451904
+              ],
+              "score": 0.5844669938087463,
+              "phrase": "coaster"
+            }
+          ],
+          "mask_scores": [
+            0.9917315244674683,
+            0.9787078499794006
+          ],
+          "mask_area": [
+            2231,
+            1879
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_transfer_semantics_v1",
+        "different_categories_same_shape_color_criterion_inapplicable": true
+      }
+    },
+    {
+      "task": "place_shoe",
+      "source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/collections/place_shoe/demo_randomized/collect_20260925_154549_876609/expert_data/seed_220005/data/episode4.hdf5",
+      "source_frame_index": 0,
+      "instruction": "Use the right arm to pick up the shoe with smooth leather upper from the table and drop it on the mat",
+      "available": true,
+      "reason": "text_grounded_distinct_masks",
+      "seconds": 21.724284996744245,
+      "metadata": {
+        "raw": {
+          "image_sha256": "98f17baec4205da128b9d6388e5e52161f4297a844c0273f16cf135690ecd9f6",
+          "instruction_sha256": "66db9e3e169bbd2a06db08a18aea307dd57e8846a3bb60e9346ece063d238d47",
+          "roles": {
+            "directed": true,
+            "target": "shoe",
+            "reference": "mat",
+            "kind": "explicit_heterogeneous_placement_pair",
+            "interface_version": "native_transfer_semantics_v1"
+          },
+          "text_prompt": "shoe. mat.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  204.87571716308594,
+                  73.13027858734131,
+                  293.5539245605469,
+                  145.74703216552734
+                ],
+                "score": 0.9016979932785034,
+                "phrase": "shoe"
+              }
+            ],
+            [
+              {
+                "box": [
+                  0.021038055419921875,
+                  25.922083854675293,
+                  320.0,
+                  240.0
+                ],
+                "score": 0.540256917476654,
+                "phrase": "mat"
+              },
+              {
+                "box": [
+                  109.70001220703125,
+                  140.9204864501953,
+                  242.89196014404297,
+                  185.6221103668213
+                ],
+                "score": 0.3311082720756531,
+                "phrase": "mat"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_distinct_masks",
+          "source": "FrozenGroundingDINO-base+SAM-vit-base, float32/eager/nativeTransformers4.53.2, image+languageonly",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                204.87571716308594,
+                73.13027858734131,
+                293.5539245605469,
+                145.74703216552734
+              ],
+              "score": 0.9016979932785034,
+              "phrase": "shoe"
+            },
+            {
+              "box": [
+                0.021038055419921875,
+                25.922083854675293,
+                320.0,
+                240.0
+              ],
+              "score": 0.540256917476654,
+              "phrase": "mat"
+            }
+          ],
+          "mask_scores": [
+            0.9918686151504517,
+            1.0102404356002808
+          ],
+          "mask_area": [
+            2863,
+            51851
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true
+        },
+        "decision": {
+          "image_sha256": "98f17baec4205da128b9d6388e5e52161f4297a844c0273f16cf135690ecd9f6",
+          "instruction_sha256": "66db9e3e169bbd2a06db08a18aea307dd57e8846a3bb60e9346ece063d238d47",
+          "roles": {
+            "directed": true,
+            "target": "shoe",
+            "reference": "mat",
+            "kind": "explicit_heterogeneous_placement_pair",
+            "interface_version": "native_transfer_semantics_v1"
+          },
+          "text_prompt": "shoe. mat.",
+          "candidates": [
+            [
+              {
+                "box": [
+                  204.87571716308594,
+                  73.13027858734131,
+                  293.5539245605469,
+                  145.74703216552734
+                ],
+                "score": 0.9016979932785034,
+                "phrase": "shoe"
+              }
+            ],
+            [
+              {
+                "box": [
+                  0.021038055419921875,
+                  25.922083854675293,
+                  320.0,
+                  240.0
+                ],
+                "score": 0.540256917476654,
+                "phrase": "mat"
+              },
+              {
+                "box": [
+                  109.70001220703125,
+                  140.9204864501953,
+                  242.89196014404297,
+                  185.6221103668213
+                ],
+                "score": 0.3311082720756531,
+                "phrase": "mat"
+              }
+            ]
+          ],
+          "available": true,
+          "reason": "text_grounded_distinct_masks",
+          "source": "FrozenGroundingDINO-base+SAM-vit-base, float32/eager/nativeTransformers4.53.2, image+languageonly",
+          "semantic_correctness_verified": false,
+          "selected": [
+            {
+              "box": [
+                204.87571716308594,
+                73.13027858734131,
+                293.5539245605469,
+                145.74703216552734
+              ],
+              "score": 0.9016979932785034,
+              "phrase": "shoe"
+            },
+            {
+              "box": [
+                0.021038055419921875,
+                25.922083854675293,
+                320.0,
+                240.0
+              ],
+              "score": 0.540256917476654,
+              "phrase": "mat"
+            }
+          ],
+          "mask_scores": [
+            0.9918686151504517,
+            1.0102404356002808
+          ],
+          "mask_area": [
+            2863,
+            51851
+          ],
+          "mask_overlap_iou": 0.0,
+          "distinct_instances": true
+        },
+        "joint": null,
+        "head_batch": 1,
+        "CPU_RNG_preserved": true,
+        "CUDA_initialized": false,
+        "device": "cpu",
+        "interface_version": "native_transfer_semantics_v1",
+        "different_categories_same_shape_color_criterion_inapplicable": true
+      }
+    }
+  ],
+  "models_state_sha256": {
+    "DINO": "86dfd6940d3fa2a7e5575381c341f3a71e21159f5de97938b1ae957f909a9fba",
+    "SAM": "18cead3370d004076e8f7d65cc7698e7379098da8c8743b8fd27c8293bdc2f36"
+  },
+  "models_unchanged": true,
+  "RNG_preserved": true,
+  "CUDA_initialized": false,
+  "training_steps": 0,
+  "new_formal_scenes": 0,
+  "no_threshold_selection_from_outcomes": true,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_transfer_semantics_v1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_transfer_semantics_v1/semantic.py": "946d9e6ab0cd5886b50cf119e7b72cb6ad982854493acc37f9f931bba7c365c9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_transfer_semantics_v1/inference.py": "224d41f21a9b0d4c3ed7db24f952a08a0004e5f40556074636f2d9c9211f6830",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_transfer_semantics_v1/inspect_data.py": "dab53c23aadc0011868f0371030efd1e830326dbb1908359682b55b40e2e9b17",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_transfer_semantics_v1/checks.py": "74886b5443247702b6c1f4f0af0e6ae502e6bdb153cb7bf4f2ab0cc4ed9547c6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_transfer_semantics_v1/language_diagnosis.py": "49251a1d6d32e403f04c5bd7fb3af12a2426a3eee3bb5364c666316f669f5a2a"
+  },
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/18dd2e21c674b044e6af539cc00658281d9a8bff85e928527c78cd389d0d01ae.npz": "c846bbb922df8f625bb14be7e6d128eed4734c1f5ed10a926ea212be2c7ad006",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/18dd2e21c674b044e6af539cc00658281d9a8bff85e928527c78cd389d0d01ae.json": "ea7b70a7165cfb4d6f483a59b3791486f20339d6342d26a58ee8d6843db196d1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/18dd2e21c674b044e6af539cc00658281d9a8bff85e928527c78cd389d0d01ae.json": "c93cc4b5de8c13975742d9a1d44e46b5ecee5285eab57d6a370a2313d027b22a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/18dd2e21c674b044e6af539cc00658281d9a8bff85e928527c78cd389d0d01ae.npz": "c9f1c70fbf5abe5250ca653b8de5ec53f5fce2b28facb22ca5c863a3d60e64a0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/ceb84a8ec62c164d7a76d056bbad334e54e5c402be4a34109654a3d999eb0187.npz": "55cbab2118da45572d799731a4c49075a2fbac55e92f76b9f4d1f57e1283f630",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/ceb84a8ec62c164d7a76d056bbad334e54e5c402be4a34109654a3d999eb0187.json": "9938b621c4234b5d2212bf7101236431d6b6810e1c08a2cb6234cc8045626dfd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/ceb84a8ec62c164d7a76d056bbad334e54e5c402be4a34109654a3d999eb0187.json": "44c2ae9e6a07eea0b1964ffeaea7acb699865b137422340854c4f26758ddb526",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/ceb84a8ec62c164d7a76d056bbad334e54e5c402be4a34109654a3d999eb0187.npz": "eeae0d7c7ab082c40b66b34b17df0b21c2e5ac1f9c71967d40181576e16c3bc2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/e4c0e432d3dc266dfc02fb4b904c0977ef65edcf7dabf0ed650fda4a8fdcf5cf.json": "0ba3d4851421ecd315a94adc1aa4ae37772561f4256785866df68739c2fee3c2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/e4c0e432d3dc266dfc02fb4b904c0977ef65edcf7dabf0ed650fda4a8fdcf5cf.json": "1866f9fd0d2164694664c04968255a357f00df3a3e147574c3dfafdb9d9711a6",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/e4c0e432d3dc266dfc02fb4b904c0977ef65edcf7dabf0ed650fda4a8fdcf5cf.npz": "02bb1e86807cdb384fede93e04f21b9596a8c7fbe8efbae34eccc40947e65df5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/e943917ef667a5d49c941c0a18ff8f160eff4f31370b138f8420810f705e6947.npz": "87a44640456d42948d2c356178ef153377a4d0f01594bcee1b40b9492545c472",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/e943917ef667a5d49c941c0a18ff8f160eff4f31370b138f8420810f705e6947.json": "d0b4aad5ac9525403801986d2f70b9a6aa02d7b419eeaf62d66acdbf24b13009",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/answers/e943917ef667a5d49c941c0a18ff8f160eff4f31370b138f8420810f705e6947.json": "bc816b8a3cf6360a33c7b15767a557e49441130009241534fa45d430f548da00",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_resume_v5/batches/004/runs/9a45728b2db14d328eea2545357acb76/semantic/requests/e943917ef667a5d49c941c0a18ff8f160eff4f31370b138f8420810f705e6947.npz": "beec71e7e93eaeb2eed6cd24a8bb5214a490aa8189c7ebb25d6768203d07906f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/base_cache_20260926_024808_872087/manifest.json": "86cb2edd397e76b0e20b89aaef796287bb91c05e4c2907df96fd2be826483bac",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/collections/place_empty_cup/demo_randomized/collect_20260925_154009_151379/expert_data/seed_240012/data/episode9.hdf5": "f0c9da8cd011b71a165afc77c7c74256aa4d84b5e0305d0057bdef91d6d4f774",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/collections/place_shoe/demo_randomized/collect_20260925_154549_876609/expert_data/seed_220005/data/episode4.hdf5": "84a4c0aa9b7e81721cd9421d1ef62bab8fa5e7d4636328cbf7e43e58beec73eb"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "actual_C20_final_idle_empty_reply_verified": true,
+  "actual_C20_post_zero_lower_bound": {
+    "2606708": {
+      "cumulative_lower_bound": 41.73976082125094,
+      "rolling_lower_bound": 55.11343333333332,
+      "original_cumulative": 42.19771404381417
+    }
+  },
+  "instantaneous_None_preserved": true,
+  "CPU_random_window_sequences": 40,
+  "unknowns_can_never_increase_original_averages": true,
+  "invalid_telemetry_cases_rejected": 6,
+  "all_missing_startup_still_fails34": true,
+  "actual_C18_C19_low_mean_failures_still_fail": [
+    "native_onpolicy_collection_v18",
+    "native_onpolicy_collection_v19"
+  ],
+  "original_AST_exact_except_enumerated_idle_lower_bound_edits": true,
+  "original_34_280_memory_CPU_RSS_account_arrival_deadline_checks_retained": true,
+  "no_GPU_work": true,
+  "no_failed_scientific_data_promoted": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_idle_guard_v1/AGENTS.md": "d7efdc625fcb33e2ec19e84ae9de10c454b16ee15b9cbbfbb03174f60da999c9",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_idle_guard_v1/empty.py": "d02417ceb02eefd5162f1d19651f43747abbff0eaf2470ff522c3ffc72ae3983",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_idle_guard_v1/rewrite.py": "d8bd974280d1c94609d006f636498e2384a9fc2ab0bc875220d481641a73f993",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_idle_guard_v1/guard.py": "9745f18baf9f648c5fb01a08f2cd87b78bbbcc87abaa7f9644424ae6a7f85073",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_idle_guard_v1/audit.py": "87e01874629dde616a86b4c7ce0c8f4b90d27780d7ee664d0626cf4eba065153",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_idle_guard_v1/checks.py": "0d1816e6cb0625d1a0acbeb1c842dae7392e6bdf8f3222fa8007891e090f4ba9"
+  },
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v13/strict_guard.py": "02dc00367691649a8f919a312827e5a029f1769d5f587db4acad626ca1d816c3",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v13/metrics.py": "b1b56468393533be75fe008638c4afd455635f74b03ed5c1369f8adf791e1d7e",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_account_stream_v1/guard.py": "945b9f53c95a74dcd5935f8ee3c33f36290b4d649a9edfecd54c9e3e4048334d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/gpu_utilization_window.py": "c56a2244aaa9534411ee1440723b4ac9de2049e8c07fe118fbf60718f3ea0e40",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v20/fit_004/batches/000/runs/38842d59469b4a37b901fc548fa23e9e/attempt/resources.jsonl": "cc40f4198a27e64f3017767e56a3a89449ae50af2d1a383ca0132384a0cdfcf8",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v20/fit_004/actual_host_wait_exit.json": "c73002689522156ae1d1f9f65fdac48e94a23d32311442bd8e1548f2028d7593"
+  }
+}

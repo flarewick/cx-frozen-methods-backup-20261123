@@ -1,0 +1,14 @@
+[
+  [
+    "case_count==6",
+    "case_count==8"
+  ],
+  [
+    "spec['scope']=='seven_task_plain_TRAIN_interface_validation'",
+    "spec['scope']=='seven_task_gated_TRAIN_interface_validation'"
+  ],
+  [
+    "from native_trained_runtime_v1.actor import AuditedActor as OriginalAuditedActor",
+    "from native_seven_task_gate_expansion_v1.paired_actor import AuditedActor as OriginalAuditedActor"
+  ]
+]

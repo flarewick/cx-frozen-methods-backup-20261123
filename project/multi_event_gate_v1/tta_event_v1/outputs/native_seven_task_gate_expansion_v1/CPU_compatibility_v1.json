@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "scope": "CPU-only compatibility diagnosis, not official launch qualification or TTA utility",
+  "plan": {
+    "version": "native_seven_task_gate_expansion_v1",
+    "scope": "user_requested_new_seven_task_campaign_preparation",
+    "official_seed": 0,
+    "actual_seed_pool_start": 100000,
+    "episodes_each_task": 100,
+    "task_config": "demo_randomized",
+    "plain_tasks": [
+      "lift_pot",
+      "handover_mic",
+      "stack_bowls_two"
+    ],
+    "gated_tasks": [
+      "beat_block_hammer",
+      "turn_switch",
+      "adjust_bottle",
+      "open_laptop"
+    ],
+    "expected_TTA_episodes": 700,
+    "controls": {
+      "plain": "same-scene frozen M_event_full",
+      "gated": "same-scene frozen step250 alpha0.5 full + all-event v118 gate",
+      "zero_shadow": "whole native first-case controls per task and new compiled session"
+    },
+    "expected_primary_TTA_and_paired_control_episodes": 1400,
+    "current_TTA_qualification": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_fit7_postexit_recovery_v2/qualification.json",
+    "current_TTA_checkpoint_sha256": "78f1849a0f825398a6aa43cc3eec9cb09a814fc472a495179ac97379f5a044d5",
+    "plain_training": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383",
+    "gate_training": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training",
+    "gate_adapter": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/best_scaled.pt",
+    "gate_model": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/fixed_ensemble_TRAIN472_v118/diagnostic_gate.json",
+    "gate_contract": {
+      "action_shape": [
+        32,
+        14
+      ],
+      "adapter_sha256": "6e0de463a03d8bac0e160aa46cf955f8575b78ecd38d1e799392e253a7d289e7",
+      "alpha": 0.5,
+      "arm_applied_cap_rad": 0.05,
+      "arm_raw_cap_rad": 0.1,
+      "calibrated_success_probabilities": false,
+      "candidate": "M_shared250_a050",
+      "compile_mode": "max-autotune",
+      "complete_rejection_history_encoder": false,
+      "event_config": {
+        "command_change_max": 0.015,
+        "cooldown_queries": 1,
+        "enable_progress": false,
+        "grip_off": 0.04,
+        "grip_on": 0.1,
+        "max_interventions": 3,
+        "max_pending": 4,
+        "pending_ttl": 2,
+        "plan_rms_on": 0.08,
+        "progress_queries": 2,
+        "rearm_queries": 2,
+        "reversal_hold_steps": 2,
+        "reversal_queries": 2,
+        "visual_change_max": 0.015
+      },
+      "explicit_context_dimensions": 8,
+      "feature_dimensions": 593,
+      "features": [
+        "latent_event72",
+        "dynamics33",
+        "observation488"
+      ],
+      "gate_schema": "fixed_six_jackknife_effect_v118",
+      "gate_sha256": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc",
+      "gate_tau": "mean(values)+std(values,ddof=0)",
+      "gemm_backends": "ATEN",
+      "gripper_residual": 0,
+      "later_event_scores_uncalibrated": true,
+      "no_retraining": true,
+      "raw_linear_members": 12,
+      "sampler_batch": 1,
+      "scope": "every original legal controller scoring opportunity including fresh pending rescore",
+      "score_rule": "rescue-2*harm>0; equality rejects",
+      "step": 250
+    },
+    "runtime_source": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin",
+    "event_config": {
+      "grip_on": 0.1,
+      "grip_off": 0.04,
+      "rearm_queries": 2,
+      "reversal_queries": 2,
+      "reversal_hold_steps": 2,
+      "cooldown_queries": 1,
+      "pending_ttl": 2,
+      "max_pending": 4,
+      "max_interventions": 3,
+      "enable_progress": false,
+      "progress_queries": 2,
+      "plan_rms_on": 0.08,
+      "command_change_max": 0.015,
+      "visual_change_max": 0.015
+    },
+    "new_semantic_interface": "native_pot_mic_semantics_v1",
+    "original_TTA093_and_completed_official500_unchanged": true,
+    "gate_response_head_compatibility_must_be_proven": true,
+    "gate_rejection_must_not_be_bypassed_by_feedback_application": true,
+    "all_current_GPU_rules_required": true,
+    "performance_goal80_not_yet_achieved": true,
+    "GPU_launcher_ready": false,
+    "official_GPU_started": false,
+    "asset_sha256": {
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_fit7_postexit_recovery_v2/qualification.json": "f7b20a535ac8b3b3708f37c7cab47321db8bf927dda665d46d37fca02cdeb871",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/frozen/all_candidate_gate_v1_20261101/manifest.json": "3cb98139fb5ebde86db5f2c129dfa15de804b8ccfc8e8863a8f9a56dd935dff9",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/best_scaled.pt": "6e0de463a03d8bac0e160aa46cf955f8575b78ecd38d1e799392e253a7d289e7",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/fixed_ensemble_TRAIN472_v118/diagnostic_gate.json": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc"
+    },
+    "no_new_official_scene_outcomes_used_for_fitting_or_selection": true
+  },
+  "compatibility": {
+    "current_TTA_ARM_weight_equals_gate_head": false,
+    "current_TTA_visible_projection_equals_gate_head": false,
+    "maximum_ARM_weight_difference": 0.3315901756286621,
+    "gate_ARM_rank": 12,
+    "gate_head_alpha": 0.5,
+    "current_TTA_qualification_cannot_be_silently_reused_for_different_head": true,
+    "gate_hidden_semantics_must_be_revalidated": true
+  },
+  "archive_files_verified": 333,
+  "CPU_RNG_preserved": true,
+  "CUDA_initialized": false,
+  "language_coverage_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_task_gate_expansion_v1/language_coverage_v1.json",
+  "language_coverage_sha256": "e65aa87216e9760c7e37e4ef0b40310119c5dc06b6de315e8ef961c90229c9b9",
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_seven_task_gate_expansion_v1/AGENTS.md": "290964bdf2dbdd7fe689ff4f8a8990c00f9817269c97abee1619024f487c2805",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_seven_task_gate_expansion_v1/contract.py": "cf9dcee0dbb7f9a613492bf0b60081de33b47220d254e1c082403cb0914862c2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_seven_task_gate_expansion_v1/checks.py": "878d08dd160f6e547500a82acca16768c320f586f4be3cf355be136dc028fa91",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_pot_mic_semantics_v1/AGENTS.md": "c86a6a12c5a9cdc3e144a8a189f0c68417ffef8b43c7a63238479ba35fcbf163",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_pot_mic_semantics_v1/language.py": "dd5a2dddb83168086d460d9066820027bc784ad553a4ad7cb9be112fae0b2aba",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_pot_mic_semantics_v1/semantic.py": "00d938420c61078205c28abf8167e85a0f9505b7801cdff767ce21b987a4b891",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_pot_mic_semantics_v1/inference.py": "d08517e042ae4d2e12884c452ff88530acf0085ae13031173bc0d7ccd5717e5b"
+  }
+}

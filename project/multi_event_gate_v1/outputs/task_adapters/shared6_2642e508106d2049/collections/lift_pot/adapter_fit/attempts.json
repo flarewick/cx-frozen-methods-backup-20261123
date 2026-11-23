@@ -1,0 +1,2940 @@
+[
+  {
+    "task": "lift_pot",
+    "seed": 7300000,
+    "split": "adapter_fit",
+    "episode_index": 0,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_b4bec2c02c2b",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7300000), unstable objects: 093_brush-pen"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300001,
+    "split": "adapter_fit",
+    "episode_index": 0,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_b4bec2c02c2b",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300001/session_b4bec2c02c2b/data/episode0.hdf5",
+    "capture": {
+      "frames": 113,
+      "decoded_images": 339,
+      "dense_steps": 4326,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 108,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "pot",
+        "wall"
+      ],
+      "instruction": "Lift the gray kitchenpot up together",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "9fc2ac9be8f63e61f7c6959de3418e99941b3f703b2a67d668a79ff9344bd8ba",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "tape",
+          "object_index": "001"
+        },
+        {
+          "object_type": "072_electronicscale",
+          "object_index": "6"
+        },
+        {
+          "object_type": "057_toycar",
+          "object_index": "2"
+        },
+        {
+          "object_type": "039_mug",
+          "object_index": "12"
+        },
+        {
+          "object_type": "078_phonestand",
+          "object_index": "0"
+        },
+        {
+          "object_type": "chip_can",
+          "object_index": "003"
+        },
+        {
+          "object_type": "068_boxdrink",
+          "object_index": "2"
+        },
+        {
+          "object_type": "bowl",
+          "object_index": "016"
+        },
+        {
+          "object_type": "bowl",
+          "object_index": "012"
+        },
+        {
+          "object_type": "snack_box",
+          "object_index": "034"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/3226",
+        "table_texture": "seen/7662"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300002,
+    "split": "adapter_fit",
+    "episode_index": 1,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ae6058ea8594",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300002/session_ae6058ea8594/data/episode1.hdf5",
+    "capture": {
+      "frames": 115,
+      "decoded_images": 345,
+      "dense_steps": 4358,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 110,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the metal kitchenpot upward with both hands",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "b78273eb92d915ac9c7c4a23f81895dec0b274a7c95529ac01b8cf0abc861c6b",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "can",
+          "object_index": "009"
+        },
+        {
+          "object_type": "047_mouse",
+          "object_index": "0"
+        },
+        {
+          "object_type": "059_pencup",
+          "object_index": "0"
+        },
+        {
+          "object_type": "114_bottle",
+          "object_index": "4"
+        },
+        {
+          "object_type": "019_coaster",
+          "object_index": "0"
+        },
+        {
+          "object_type": "092_notebook",
+          "object_index": "1"
+        },
+        {
+          "object_type": "004_fluted-block",
+          "object_index": "1"
+        },
+        {
+          "object_type": "bowl",
+          "object_index": "010"
+        },
+        {
+          "object_type": "steel_tape",
+          "object_index": "003"
+        },
+        {
+          "object_type": "tape",
+          "object_index": "004"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/7533",
+        "table_texture": "seen/9318"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300003,
+    "split": "adapter_fit",
+    "episode_index": 2,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_ae6058ea8594",
+    "excluded_reason": "expert_missing_grasp_target",
+    "error_type": "ExpertPlanningFailure",
+    "error": "target_pose cannot be None for move action."
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300004,
+    "split": "adapter_fit",
+    "episode_index": 2,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ae6058ea8594",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300004/session_ae6058ea8594/data/episode2.hdf5",
+    "capture": {
+      "frames": 112,
+      "decoded_images": 336,
+      "dense_steps": 4306,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 107,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the medium-sized kitchenpot using both arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "abab100b3e5920ac00413b4ae7805528762928c85dccad0961fa3954804128c4",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "notebook",
+          "object_index": "004"
+        },
+        {
+          "object_type": "029_olive-oil",
+          "object_index": "1"
+        },
+        {
+          "object_type": "057_toycar",
+          "object_index": "1"
+        },
+        {
+          "object_type": "065_soy-sauce",
+          "object_index": "1"
+        },
+        {
+          "object_type": "070_paymentsign",
+          "object_index": "2"
+        },
+        {
+          "object_type": "drinkbox",
+          "object_index": "003"
+        },
+        {
+          "object_type": "steel_tape",
+          "object_index": "003"
+        },
+        {
+          "object_type": "100_seal",
+          "object_index": "2"
+        },
+        {
+          "object_type": "100_seal",
+          "object_index": "2"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/906",
+        "table_texture": "seen/3942"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300005,
+    "split": "adapter_fit",
+    "episode_index": 3,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_91bb8e2a735e",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300005/session_91bb8e2a735e/data/episode3.hdf5",
+    "capture": {
+      "frames": 109,
+      "decoded_images": 327,
+      "dense_steps": 4267,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 104,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "pot",
+        "wall"
+      ],
+      "instruction": "Grab the kitchenpot for boiling and cooking and lift it up",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "2a191e038f6f528736e2592dc0afdf10a7c549238892be2585eaf57276b030ba",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "remote",
+          "object_index": "005"
+        },
+        {
+          "object_type": "076_breadbasket",
+          "object_index": "1"
+        },
+        {
+          "object_type": "023_tissue-box",
+          "object_index": "2"
+        },
+        {
+          "object_type": "073_rubikscube",
+          "object_index": "2"
+        },
+        {
+          "object_type": "088_wineglass",
+          "object_index": "1"
+        },
+        {
+          "object_type": "112_tea-box",
+          "object_index": "3"
+        },
+        {
+          "object_type": "041_shoe",
+          "object_index": "4"
+        },
+        {
+          "object_type": "081_playingcards",
+          "object_index": "1"
+        },
+        {
+          "object_type": "030_drill",
+          "object_index": "6"
+        },
+        {
+          "object_type": "snack_package",
+          "object_index": "003"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/1987",
+        "table_texture": "seen/5101"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300006,
+    "split": "adapter_fit",
+    "episode_index": 4,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_91bb8e2a735e",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300007,
+    "split": "adapter_fit",
+    "episode_index": 4,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_4feade30da59",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300007/session_4feade30da59/data/episode4.hdf5",
+    "capture": {
+      "frames": 117,
+      "decoded_images": 351,
+      "dense_steps": 4384,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 112,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the smooth gray kitchenpot together with arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "66cdcbb43a9e05f48819aff47f3749aac783163e05e022f7c18d3402568ce4fa",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "pot",
+          "object_index": "010"
+        },
+        {
+          "object_type": "072_electronicscale",
+          "object_index": "1"
+        },
+        {
+          "object_type": "sneaker",
+          "object_index": "003"
+        },
+        {
+          "object_type": "bowl",
+          "object_index": "002"
+        },
+        {
+          "object_type": "071_can",
+          "object_index": "1"
+        },
+        {
+          "object_type": "can",
+          "object_index": "017"
+        },
+        {
+          "object_type": "030_drill",
+          "object_index": "6"
+        },
+        {
+          "object_type": "wallet",
+          "object_index": "003"
+        },
+        {
+          "object_type": "051_candlestick",
+          "object_index": "1"
+        },
+        {
+          "object_type": "snack_package",
+          "object_index": "003"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/5756",
+        "table_texture": "seen/1571"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300008,
+    "split": "adapter_fit",
+    "episode_index": 5,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_4feade30da59",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300009,
+    "split": "adapter_fit",
+    "episode_index": 5,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_27f0b60d4919",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300009/session_27f0b60d4919/data/episode5.hdf5",
+    "capture": {
+      "frames": 116,
+      "decoded_images": 348,
+      "dense_steps": 4364,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 111,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Lift the kitchenpot for boiling and cooking up together",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "9762af75294c2ba500e12143f8c8748e1a764204693b0cb9fa10c582ce8a4830",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5488",
+        "table_texture": "seen/5847"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300010,
+    "split": "adapter_fit",
+    "episode_index": 6,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_502e7a0f6a06",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300010/session_502e7a0f6a06/data/episode6.hdf5",
+    "capture": {
+      "frames": 109,
+      "decoded_images": 327,
+      "dense_steps": 4261,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 104,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "pot",
+        "wall"
+      ],
+      "instruction": "Grip the cooking kitchenpot with side grips firmly and lift",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "2ed915cee5f57b44e7a1d76ad4edda81245a16c3a6f9596f04514d39284c6f9f",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "thermos",
+          "object_index": "002"
+        },
+        {
+          "object_type": "clock",
+          "object_index": "005"
+        },
+        {
+          "object_type": "092_notebook",
+          "object_index": "0"
+        },
+        {
+          "object_type": "047_mouse",
+          "object_index": "0"
+        },
+        {
+          "object_type": "088_wineglass",
+          "object_index": "4"
+        },
+        {
+          "object_type": "wallet",
+          "object_index": "007"
+        },
+        {
+          "object_type": "029_olive-oil",
+          "object_index": "1"
+        },
+        {
+          "object_type": "019_coaster",
+          "object_index": "0"
+        },
+        {
+          "object_type": "093_brush-pen",
+          "object_index": "5"
+        },
+        {
+          "object_type": "006_hamburg",
+          "object_index": "2"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/1974",
+        "table_texture": "seen/2290"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300011,
+    "split": "adapter_fit",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_502e7a0f6a06",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300012,
+    "split": "adapter_fit",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_502e7a0f6a06",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300013,
+    "split": "adapter_fit",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_3616157104c7",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300014,
+    "split": "adapter_fit",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_3616157104c7",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300015,
+    "split": "adapter_fit",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_3616157104c7",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300016,
+    "split": "adapter_fit",
+    "episode_index": 7,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_3616157104c7",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300017,
+    "split": "adapter_fit",
+    "episode_index": 7,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_3616157104c7",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300017/session_3616157104c7/data/episode7.hdf5",
+    "capture": {
+      "frames": 113,
+      "decoded_images": 339,
+      "dense_steps": 4325,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 108,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Lift the smooth gray kitchenpot steadily using arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "e07e9b0cd5d9d18ef2542dace314a7cf38cafc9d4be230cbbb18a66a3115431b",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2717",
+        "table_texture": "seen/565"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300018,
+    "split": "adapter_fit",
+    "episode_index": 8,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_3616157104c7",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300019,
+    "split": "adapter_fit",
+    "episode_index": 8,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_c3c4f1907270",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300020,
+    "split": "adapter_fit",
+    "episode_index": 8,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_c3c4f1907270",
+    "excluded_reason": "expert_missing_grasp_target",
+    "error_type": "ExpertPlanningFailure",
+    "error": "target_pose cannot be None for move action."
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300021,
+    "split": "adapter_fit",
+    "episode_index": 8,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_c3c4f1907270",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300022,
+    "split": "adapter_fit",
+    "episode_index": 8,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_c3c4f1907270",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300022/session_c3c4f1907270/data/episode8.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4332,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Carry the medium kitchenpot made of metal securely using arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "6d78a01687f1cff4df4709dd75911acabd4b58f315d3710c5ea3ed85d99fe5ae",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2683",
+        "table_texture": "seen/5364"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300023,
+    "split": "adapter_fit",
+    "episode_index": 9,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_c3c4f1907270",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300023/session_c3c4f1907270/data/episode9.hdf5",
+    "capture": {
+      "frames": 120,
+      "decoded_images": 360,
+      "dense_steps": 4429,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 115,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Carry the round kitchenpot with handles securely using arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "5625df4943ddb2f4d52bb1bd3fc94df35feacab5fca1c5970e031aea75451458",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/8160",
+        "table_texture": "seen/7162"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300024,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300025,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_missing_grasp_target",
+    "error_type": "ExpertPlanningFailure",
+    "error": "target_pose cannot be None for move action."
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300026,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300027,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300028,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300029,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300030,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300030/session_5f876c510387/data/episode10.hdf5",
+    "capture": {
+      "frames": 118,
+      "decoded_images": 354,
+      "dense_steps": 4401,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 113,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Secure the gray kitchenpot and lift upward.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "95001cb4d797631101f3453ab86ccf70ee3587b70099ab71c2090a691164f0c6",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5982",
+        "table_texture": "seen/3934"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300031,
+    "split": "adapter_fit",
+    "episode_index": 11,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300032,
+    "split": "adapter_fit",
+    "episode_index": 11,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300033,
+    "split": "adapter_fit",
+    "episode_index": 11,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300033/session_5f876c510387/data/episode11.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4342,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Lift the medium-sized kitchenpot steadily with support",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "52db5c8cec9ee06f64ee6ced992d0aba2cd238e9d217a0e4e4b37d2233a783bc",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/757",
+        "table_texture": "seen/3182"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300034,
+    "split": "adapter_fit",
+    "episode_index": 12,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300034/session_5f876c510387/data/episode12.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4341,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the metal kitchenpot evenly with arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "6443080cf28b8a1895b7b8e544b08ccfe5675aeb14dd650816c2df01425c864e",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7669",
+        "table_texture": "seen/7917"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300035,
+    "split": "adapter_fit",
+    "episode_index": 13,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300036,
+    "split": "adapter_fit",
+    "episode_index": 13,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300036/session_5f876c510387/data/episode13.hdf5",
+    "capture": {
+      "frames": 117,
+      "decoded_images": 351,
+      "dense_steps": 4383,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 112,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Support the gray cylindrical metal kitchenpot and raise it upward",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "de55c47ccff27dc7c62330597b9a19e9b0eb8c44b7fd79a789e3453e1552bbf8",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/692",
+        "table_texture": "seen/4192"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300037,
+    "split": "adapter_fit",
+    "episode_index": 14,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300037/session_5f876c510387/data/episode14.hdf5",
+    "capture": {
+      "frames": 110,
+      "decoded_images": 330,
+      "dense_steps": 4287,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 105,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Use both arms to raise the gray kitchenpot.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "2faa469fd414c937f7bac6238857b2e1f0026afeccc2c5e5b4e42f871dbc9feb",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3022",
+        "table_texture": "seen/7279"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300038,
+    "split": "adapter_fit",
+    "episode_index": 15,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300038/session_5f876c510387/data/episode15.hdf5",
+    "capture": {
+      "frames": 117,
+      "decoded_images": 351,
+      "dense_steps": 4385,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 112,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Grab the cylindrical kitchenpot and lift it upwards",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "c21a2c865226de5860e96c9a297b513981f154d8c786dd7fdc5ab8f1f8d7319a",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7081",
+        "table_texture": "seen/2291"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300039,
+    "split": "adapter_fit",
+    "episode_index": 16,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300039/session_5f876c510387/data/episode16.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4345,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Lift the cylindrical kitchenpot upward with both arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "f2a6487484ed424691b3a898513f3331b850a8b7c628c1b88a213cfe10079dca",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7776",
+        "table_texture": "seen/2888"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300040,
+    "split": "adapter_fit",
+    "episode_index": 17,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300040/session_5f876c510387/data/episode17.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4341,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Pick up the dark gray stove kitchenpot with both arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "4f9d7bdecb8a2f085ab5db62bb087cc9e717aa802d653a40491f4cdbadae79de",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4992",
+        "table_texture": "seen/608"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300041,
+    "split": "adapter_fit",
+    "episode_index": 18,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300042,
+    "split": "adapter_fit",
+    "episode_index": 18,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_missing_grasp_target",
+    "error_type": "ExpertPlanningFailure",
+    "error": "target_pose cannot be None for move action."
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300043,
+    "split": "adapter_fit",
+    "episode_index": 18,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300043/session_5f876c510387/data/episode18.hdf5",
+    "capture": {
+      "frames": 111,
+      "decoded_images": 333,
+      "dense_steps": 4296,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 106,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the kitchenpot for boiling and cooking with strong support",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "19c5c9beccc0bff7f8c2be4b280d5764fb072abb2be5130bbd790154d370f96f",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/6585",
+        "table_texture": "seen/6031"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300044,
+    "split": "adapter_fit",
+    "episode_index": 19,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300045,
+    "split": "adapter_fit",
+    "episode_index": 19,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300046,
+    "split": "adapter_fit",
+    "episode_index": 19,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300047,
+    "split": "adapter_fit",
+    "episode_index": 19,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300047/session_5f876c510387/data/episode19.hdf5",
+    "capture": {
+      "frames": 109,
+      "decoded_images": 327,
+      "dense_steps": 4261,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 104,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Secure the dark gray stove kitchenpot and lift upward.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "d4243b1f271226722abbd43fda77b907dda2fee97e74659078fa536f70e47719",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/1440",
+        "table_texture": "seen/1864"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300048,
+    "split": "adapter_fit",
+    "episode_index": 20,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300048/session_5f876c510387/data/episode20.hdf5",
+    "capture": {
+      "frames": 109,
+      "decoded_images": 327,
+      "dense_steps": 4267,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 104,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the dark gray stove kitchenpot steadily using arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "981ad94f2b8743e3589515145e14a71836cecc615f492653ab7b3cebeec3de56",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5313",
+        "table_texture": "seen/7687"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300049,
+    "split": "adapter_fit",
+    "episode_index": 21,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300050,
+    "split": "adapter_fit",
+    "episode_index": 21,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300050/session_5f876c510387/data/episode21.hdf5",
+    "capture": {
+      "frames": 115,
+      "decoded_images": 345,
+      "dense_steps": 4359,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 110,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Support the smooth gray kitchenpot and raise it upward",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "ab6f1276898498f43c301fb3c287a33158bb1db8fa52651c5287fd0ee5c6cdcc",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/9292",
+        "table_texture": "seen/8015"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300051,
+    "split": "adapter_fit",
+    "episode_index": 22,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300052,
+    "split": "adapter_fit",
+    "episode_index": 22,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300052/session_5f876c510387/data/episode22.hdf5",
+    "capture": {
+      "frames": 117,
+      "decoded_images": 351,
+      "dense_steps": 4379,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 112,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Grasp the gray cylindrical metal kitchenpot and elevate together.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "41895556d7b2056ae3bbe84d83bafd5c8de8cb35f094b745af181097e4458f4f",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/9350",
+        "table_texture": "seen/862"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300053,
+    "split": "adapter_fit",
+    "episode_index": 23,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300054,
+    "split": "adapter_fit",
+    "episode_index": 23,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300055,
+    "split": "adapter_fit",
+    "episode_index": 23,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300056,
+    "split": "adapter_fit",
+    "episode_index": 23,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300056/session_5f876c510387/data/episode23.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4346,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Carry the kitchenpot with smooth exterior securely using arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "7337a18d71cf73ad79313e1f50815601df6646c674dab90280ab0a4c7524705f",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3920",
+        "table_texture": "seen/4566"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300057,
+    "split": "adapter_fit",
+    "episode_index": 24,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300058,
+    "split": "adapter_fit",
+    "episode_index": 24,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300058/session_5f876c510387/data/episode24.hdf5",
+    "capture": {
+      "frames": 118,
+      "decoded_images": 354,
+      "dense_steps": 4396,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 113,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Use arms to lift the smooth gray kitchenpot upward",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "0330cc71c032e014007b6957261e5ab85f76f9772964580c8653ce79a5f4af4d",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5382",
+        "table_texture": "seen/4082"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300059,
+    "split": "adapter_fit",
+    "episode_index": 25,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300060,
+    "split": "adapter_fit",
+    "episode_index": 25,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300060/session_5f876c510387/data/episode25.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4339,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the kitchenpot with smooth exterior together using arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "790c0236104f56eb528874bc19c62a19a8b60567641b06f0dc138e43a555ba91",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4604",
+        "table_texture": "seen/2232"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300061,
+    "split": "adapter_fit",
+    "episode_index": 26,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300062,
+    "split": "adapter_fit",
+    "episode_index": 26,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300063,
+    "split": "adapter_fit",
+    "episode_index": 26,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300063/session_5f876c510387/data/episode26.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4338,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Lift the medium kitchenpot made of metal carefully using both arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "c8b5c475ea334e1b3d9584dd98f870b9480c46e4f6df4c52b4aadfb4ab398bea",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7608",
+        "table_texture": "seen/1997"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300064,
+    "split": "adapter_fit",
+    "episode_index": 27,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300065,
+    "split": "adapter_fit",
+    "episode_index": 27,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300066,
+    "split": "adapter_fit",
+    "episode_index": 27,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300067,
+    "split": "adapter_fit",
+    "episode_index": 27,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_missing_grasp_target",
+    "error_type": "ExpertPlanningFailure",
+    "error": "target_pose cannot be None for move action."
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300068,
+    "split": "adapter_fit",
+    "episode_index": 27,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300068/session_5f876c510387/data/episode27.hdf5",
+    "capture": {
+      "frames": 110,
+      "decoded_images": 330,
+      "dense_steps": 4276,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 105,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Bring the kitchenpot for boiling and cooking up together",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "6ad274d0bc0b8ceaf7e1924d7576a95246930b2e1dc5c806f9da0a369b08c251",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3675",
+        "table_texture": "seen/4758"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300069,
+    "split": "adapter_fit",
+    "episode_index": 28,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300070,
+    "split": "adapter_fit",
+    "episode_index": 28,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300070/session_5f876c510387/data/episode28.hdf5",
+    "capture": {
+      "frames": 109,
+      "decoded_images": 327,
+      "dense_steps": 4264,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 104,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Bring the gray kitchenpot up together",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "d6ef97761b37e954c07cfdb045847d3ab1f0037b3eb3ebfc683353edcbb09799",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5750",
+        "table_texture": "seen/1649"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300071,
+    "split": "adapter_fit",
+    "episode_index": 29,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300072,
+    "split": "adapter_fit",
+    "episode_index": 29,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300073,
+    "split": "adapter_fit",
+    "episode_index": 29,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300074,
+    "split": "adapter_fit",
+    "episode_index": 29,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300075,
+    "split": "adapter_fit",
+    "episode_index": 29,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300076,
+    "split": "adapter_fit",
+    "episode_index": 29,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300076/session_5f876c510387/data/episode29.hdf5",
+    "capture": {
+      "frames": 123,
+      "decoded_images": 369,
+      "dense_steps": 4465,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 118,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise and hold the kitchenpot for boiling and cooking together",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "941dd9a52e8758bdfed711fad6985d7a5aa8d66f69da349334f224015ee002b4",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4240",
+        "table_texture": "seen/4236"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300077,
+    "split": "adapter_fit",
+    "episode_index": 30,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300077/session_5f876c510387/data/episode30.hdf5",
+    "capture": {
+      "frames": 116,
+      "decoded_images": 348,
+      "dense_steps": 4372,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 111,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Hold the kitchenpot for boiling and cooking firmly with arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "eca4641b723b8360cbf6e6da619491c07e75184953e69e3fac5b0f51da434e97",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/1074",
+        "table_texture": "seen/7304"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300078,
+    "split": "adapter_fit",
+    "episode_index": 31,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300079,
+    "split": "adapter_fit",
+    "episode_index": 31,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300079/session_5f876c510387/data/episode31.hdf5",
+    "capture": {
+      "frames": 114,
+      "decoded_images": 342,
+      "dense_steps": 4332,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 109,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Take hold of the metal kitchenpot and lift up",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "c0fa5006600f8ab22dfb0d73bf4aaca24bcfc9bbd4a3443389978fca0d7680f6",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2273",
+        "table_texture": "seen/4215"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300080,
+    "split": "adapter_fit",
+    "episode_index": 32,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300081,
+    "split": "adapter_fit",
+    "episode_index": 32,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300082,
+    "split": "adapter_fit",
+    "episode_index": 32,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300082/session_5f876c510387/data/episode32.hdf5",
+    "capture": {
+      "frames": 110,
+      "decoded_images": 330,
+      "dense_steps": 4277,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 105,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the kitchenpot with smooth exterior with strong support",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "b0fa5d4d83104e89ca8d26c6f6d3f5275d89904610d8bbab846d577b80bbb084",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/6590",
+        "table_texture": "seen/8857"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300083,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300084,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300085,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300086,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300087,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_missing_grasp_target",
+    "error_type": "ExpertPlanningFailure",
+    "error": "target_pose cannot be None for move action."
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300088,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_missing_grasp_target",
+    "error_type": "ExpertPlanningFailure",
+    "error": "target_pose cannot be None for move action."
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300089,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300090,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300091,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300092,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300092/session_5f876c510387/data/episode33.hdf5",
+    "capture": {
+      "frames": 110,
+      "decoded_images": 330,
+      "dense_steps": 4288,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 105,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Securely lift the cooking kitchenpot with side grips together",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "28f7635127757ed6c83eb42868f37cb74cd78fa9c51147d98c73c6ffcead7405",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/6899",
+        "table_texture": "seen/8846"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300093,
+    "split": "adapter_fit",
+    "episode_index": 34,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300094,
+    "split": "adapter_fit",
+    "episode_index": 34,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300094/session_5f876c510387/data/episode34.hdf5",
+    "capture": {
+      "frames": 116,
+      "decoded_images": 348,
+      "dense_steps": 4359,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 111,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Support the medium kitchenpot made of metal and raise it upward",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "d519b4829fce9deba3374ea5adf6266af45e4f93fbd7bb4562f0cb0e90111a1c",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4667",
+        "table_texture": "seen/211"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300095,
+    "split": "adapter_fit",
+    "episode_index": 35,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300096,
+    "split": "adapter_fit",
+    "episode_index": 35,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300096/session_5f876c510387/data/episode35.hdf5",
+    "capture": {
+      "frames": 108,
+      "decoded_images": 324,
+      "dense_steps": 4247,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 103,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Pick up the gray kitchenpot with careful lifting",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "1d45be689110a104f83ebc66e9d746012992349fdd0129059a6c7028c537e892",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2907",
+        "table_texture": "seen/3357"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300097,
+    "split": "adapter_fit",
+    "episode_index": 36,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300097/session_5f876c510387/data/episode36.hdf5",
+    "capture": {
+      "frames": 108,
+      "decoded_images": 324,
+      "dense_steps": 4259,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 103,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Hold the medium-sized kitchenpot firmly with arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "9f02f4f22715053189f540a49f2a73d28c399605766d6c3f9f4aabbda9168a39",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7536",
+        "table_texture": "seen/7428"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300098,
+    "split": "adapter_fit",
+    "episode_index": 37,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300098/session_5f876c510387/data/episode37.hdf5",
+    "capture": {
+      "frames": 108,
+      "decoded_images": 324,
+      "dense_steps": 4267,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 103,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Use both arms to raise the cylindrical kitchenpot.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "99ad635652d220675d0e662d691d2ee33c0fd328694e4770e186ac7566136158",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7167",
+        "table_texture": "seen/5155"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300099,
+    "split": "adapter_fit",
+    "episode_index": 38,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300100,
+    "split": "adapter_fit",
+    "episode_index": 38,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300101,
+    "split": "adapter_fit",
+    "episode_index": 38,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300101/session_5f876c510387/data/episode38.hdf5",
+    "capture": {
+      "frames": 125,
+      "decoded_images": 375,
+      "dense_steps": 4503,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 120,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Raise the kitchenpot with smooth exterior with strong support",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "1b285295f923f530a979c531784cfbce79803b8b630132e56da57f450402578e",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7494",
+        "table_texture": "seen/9364"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300102,
+    "split": "adapter_fit",
+    "episode_index": 39,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300103,
+    "split": "adapter_fit",
+    "episode_index": 39,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_5f876c510387",
+    "excluded_reason": "expert_plan_failed"
+  },
+  {
+    "task": "lift_pot",
+    "seed": 7300104,
+    "split": "adapter_fit",
+    "episode_index": 39,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5f876c510387",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/lift_pot/adapter_fit/expert_data/seed_7300104/session_5f876c510387/data/episode39.hdf5",
+    "capture": {
+      "frames": 121,
+      "decoded_images": 363,
+      "dense_steps": 4439,
+      "effect_contract": {
+        "articulations": [
+          "pot"
+        ],
+        "positive_time_transitions": 115,
+        "zero_time_transitions": 5,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "pot",
+        "wall"
+      ],
+      "instruction": "Lift the cylindrical kitchenpot up using your arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 5,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "41da5048f4621e2a1acf998ad7063b830951a20f93f03be0cd5b3a9430372970",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2950",
+        "table_texture": "seen/3170"
+      },
+      "info": {
+        "{A}": "060_kitchenpot/base0"
+      }
+    }
+  }
+]

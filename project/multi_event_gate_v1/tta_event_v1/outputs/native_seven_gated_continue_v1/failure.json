@@ -1,0 +1,4 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_seven_gated_continue_v1/main.py\", line 118, in <module>\n    main()\n    ~~~~^^\n  File \"/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_seven_gated_continue_v1/main.py\", line 105, in main\n    assert code == 0, ('Stopped; no failed-GPU retry', stage, code)\n           ^^^^^^^^^\nAssertionError: ('Stopped; no failed-GPU retry', 'gated_000', 1)\n",
+  "no_automatic_GPU_retry": true
+}

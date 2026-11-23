@@ -1,0 +1,1 @@
+Read-only same-card collision guard using existing fresh NVML process memory inventory only. No new polling/model/queries or accounting changes. Never kill foreign PID. Actual C33 collision and prior uncontended rows are CPU evidence; same-card unknown/foreign process fails safe, other-card jobs irrelevant. No scientific/GPU qualification from CPU tests.

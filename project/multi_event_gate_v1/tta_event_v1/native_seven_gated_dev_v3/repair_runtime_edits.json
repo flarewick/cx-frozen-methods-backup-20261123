@@ -1,0 +1,10 @@
+[
+  [
+    "from native_q0_task_handoff_v3.control import compare",
+    "from gated_handoff_compare_v1.control import compare"
+  ],
+  [
+    "reference=item['task']not in reference_tasks and item['case_id']in getattr(schedule,'q0_pending',{})",
+    "reference=item['task']not in reference_tasks and(item['case_id']in getattr(schedule,'q0_pending',{})or item['episode_index']==0)"
+  ]
+]

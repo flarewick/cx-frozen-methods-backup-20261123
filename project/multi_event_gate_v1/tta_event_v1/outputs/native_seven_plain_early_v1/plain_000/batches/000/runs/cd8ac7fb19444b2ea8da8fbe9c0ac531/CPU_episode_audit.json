@@ -1,0 +1,420 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "task": "handover_mic",
+      "seed": 7136000,
+      "episode_index": 0,
+      "instruction": "Grab the lightweight handheld microphone from the table and pass it across.",
+      "case_id": "handover_mic:7136000",
+      "initial_physical_sha256": "f255e368210623b1ea789143d159d57280bffee4ef9a98e43c9a954678d5dfbc",
+      "full": true,
+      "TTA": true,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 3,
+      "branches": {
+        "M_event_full": {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 198,
+          "queries": 7,
+          "physical_ticks": 14934,
+          "SAM2_forwards": 119,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 403.5406010071747,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_real_objects"
+        },
+        "TTA": {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 198,
+          "queries": 7,
+          "physical_ticks": 14951,
+          "SAM2_forwards": 120,
+          "applied_queries": [
+            3,
+            5
+          ],
+          "accepted_updates": 1,
+          "consumed_packets": 1,
+          "packets": [
+            {
+              "source_query": 0,
+              "query": 2,
+              "rows": 14,
+              "phase95_tick": 3522,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 418.4079049350694,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_real_objects"
+        },
+        "zero_update": {
+          "condition": "zero_update",
+          "success": true,
+          "native_actions": 198,
+          "queries": 7,
+          "physical_ticks": 14934,
+          "SAM2_forwards": 119,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 387.05624249810353,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_real_objects"
+        },
+        "shadow_update": {
+          "condition": "shadow_update",
+          "success": true,
+          "native_actions": 198,
+          "queries": 7,
+          "physical_ticks": 14934,
+          "SAM2_forwards": 119,
+          "applied_queries": [],
+          "accepted_updates": 1,
+          "consumed_packets": 1,
+          "packets": [
+            {
+              "source_query": 0,
+              "query": 2,
+              "rows": 14,
+              "phase95_tick": 3522,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 383.80948706623167,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_real_objects"
+        }
+      },
+      "original_zero_shadow_controls": true,
+      "initial_identity": {
+        "physical_sha256": "f255e368210623b1ea789143d159d57280bffee4ef9a98e43c9a954678d5dfbc",
+        "rng_sha256": "68d2c51f4f723e21a32e19366207cfaf19619e9372ebbbac54797d4437065dae",
+        "RGB_sha256": [
+          "564b3c06b6a920af3ba21e4b98cbcb7ff7b314a37152a222ab1c237e2853e0d8",
+          "f9c0b9970c3d39689a399cffbc6e01d7639c31a6370487297159174504258d22",
+          "cb9b4f54dca33eea5b2863bcfdf81818901c0e4cda114dba4882f9e65de9c514"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "no_policy_outcome_filter": true
+    },
+    {
+      "task": "lift_pot",
+      "seed": 7136000,
+      "episode_index": 0,
+      "instruction": "Lift the dark gray cooking kitchenpot with both arms",
+      "case_id": "lift_pot:7136000",
+      "initial_physical_sha256": "5af13a5fb99d181c04c81ab9319b0c4754a3695cc3b908dbcd85585e5eac5b8e",
+      "full": false,
+      "TTA": false,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 2,
+      "branches": {
+        "M_event_full": {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 400,
+          "queries": 13,
+          "physical_ticks": 16491,
+          "SAM2_forwards": 154,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 479.061785209924,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_real_objects"
+        },
+        "TTA": {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 400,
+          "queries": 13,
+          "physical_ticks": 16208,
+          "SAM2_forwards": 132,
+          "applied_queries": [
+            2,
+            10
+          ],
+          "accepted_updates": 2,
+          "consumed_packets": 2,
+          "packets": [
+            {
+              "source_query": 0,
+              "query": 2,
+              "rows": 5,
+              "phase95_tick": 659,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 10,
+              "query": 12,
+              "rows": 8,
+              "phase95_tick": 14851,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 447.1454311357811,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_real_objects"
+        },
+        "zero_update": {
+          "condition": "zero_update",
+          "success": false,
+          "native_actions": 400,
+          "queries": 13,
+          "physical_ticks": 16491,
+          "SAM2_forwards": 154,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 485.4682409130037,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_real_objects"
+        },
+        "shadow_update": {
+          "condition": "shadow_update",
+          "success": false,
+          "native_actions": 400,
+          "queries": 13,
+          "physical_ticks": 16491,
+          "SAM2_forwards": 154,
+          "applied_queries": [],
+          "accepted_updates": 2,
+          "consumed_packets": 2,
+          "packets": [
+            {
+              "source_query": 0,
+              "query": 2,
+              "rows": 5,
+              "phase95_tick": 659,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 10,
+              "query": 12,
+              "rows": 7,
+              "phase95_tick": 14970,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 454.388919653371,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_real_objects"
+        }
+      },
+      "original_zero_shadow_controls": true,
+      "initial_identity": {
+        "physical_sha256": "5af13a5fb99d181c04c81ab9319b0c4754a3695cc3b908dbcd85585e5eac5b8e",
+        "rng_sha256": "b25c148e89a61352de3ea341dff4597db8c1207d64a42b6fe13b958e7c02c7ec",
+        "RGB_sha256": [
+          "20235c62da800fc27bae0b2ecb3dca29c849540ec96800e4cdbd86c58859454e",
+          "6d11a12c76a3c4e23450a2db712df0f7e289454c637ee3f4eed6cb76dfbcf55b",
+          "4d27fd4ab60209464c318aa43d40c4a3c8dfd28f403071c50dbe0a3adb26ea15"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "no_policy_outcome_filter": true
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 7136000,
+      "episode_index": 0,
+      "instruction": "Grab the small smooth brown-rimmed bowl, then set the light blue bowl with darkened rim on top.",
+      "case_id": "stack_bowls_two:7136000",
+      "initial_physical_sha256": "b43eee0832dbd309013faa6d6e7b70036561f0e607ccbcad931f640a7228c995",
+      "full": true,
+      "TTA": true,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 3,
+      "branches": {
+        "M_event_full": {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 320,
+          "queries": 10,
+          "physical_ticks": 24162,
+          "SAM2_forwards": 159,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 520.4238408878446,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_distinct_masks"
+        },
+        "TTA": {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 326,
+          "queries": 11,
+          "physical_ticks": 24273,
+          "SAM2_forwards": 213,
+          "applied_queries": [
+            3,
+            5
+          ],
+          "accepted_updates": 1,
+          "consumed_packets": 1,
+          "packets": [
+            {
+              "source_query": 0,
+              "query": 2,
+              "rows": 26,
+              "phase95_tick": 3966,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 623.3622848298401,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_distinct_masks"
+        },
+        "zero_update": {
+          "condition": "zero_update",
+          "success": true,
+          "native_actions": 320,
+          "queries": 10,
+          "physical_ticks": 24162,
+          "SAM2_forwards": 159,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 514.2807842330076,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_distinct_masks"
+        },
+        "shadow_update": {
+          "condition": "shadow_update",
+          "success": true,
+          "native_actions": 320,
+          "queries": 10,
+          "physical_ticks": 24162,
+          "SAM2_forwards": 159,
+          "applied_queries": [],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 0,
+              "query": 2,
+              "rows": 26,
+              "phase95_tick": 3966,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 3,
+              "phase95_tick": 10632,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 7,
+              "query": 8,
+              "rows": 8,
+              "phase95_tick": 18541,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 514.9278712947853,
+          "semantic_available": true,
+          "semantic_reason": "text_grounded_distinct_masks"
+        }
+      },
+      "original_zero_shadow_controls": true,
+      "initial_identity": {
+        "physical_sha256": "b43eee0832dbd309013faa6d6e7b70036561f0e607ccbcad931f640a7228c995",
+        "rng_sha256": "31c2c95b8e3ec25636696268c771b58bf6ccde2f4936f5001dd7508f03db987b",
+        "RGB_sha256": [
+          "71d6db3b6f05a118c2fb1b69bab9c707cc4a6a4629a7ad2dc51d6f4f03583cbb",
+          "524005983888475da34dca2dacb90c7709500f9c128c8f56bad07058624d90f6",
+          "1bd56224cbf7aa61aeb1bcb1d35638761adc64d432933376507d97ee6cadd534"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "no_policy_outcome_filter": true
+    }
+  ],
+  "actual_native_episodes": 12,
+  "original_zero_shadow_controls_exact": true,
+  "closed_expert_task_lifetimes": {
+    "passed": true,
+    "transferred_q0_tasks": 0,
+    "cached_revalidated_cases": 3,
+    "regenerated_cached_cases": [],
+    "cached_regeneration_whole_controls": 0,
+    "all_cached_policy_entries_byte_exact": true,
+    "all_closed_scene_and_task_and_proxy_weakrefs_dead": true,
+    "one_original_shared_pair_preserved": true,
+    "original_model_and_RNG_preserved": true,
+    "closed_after_full_not_after_screen": true,
+    "all_obsolete_MPLIB_scenes_released": true,
+    "whole_native_reference_controls": 3,
+    "input_sha256": {
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cached_q0_revalidation/stack_bowls_two:7136000.json": "d68b3a57fdb81d5cc25504919b9111df96a5f20377c78d8d03ee1edcfe2ad170",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/stack_bowls_two:7136000/M_event_full_initialization_integrity.json": "9cc9074af4be37fdce6d4dd720949c7d744f24ce8041bd615b9abdab3722e378",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/stack_bowls_two:7136000/M_event_full/completed_task_release.json": "c06cb66da945d9c272b479f2222ba588a35db851d0bb4b900001b6c1c69b1fa6",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cached_q0_revalidation/lift_pot:7136000.json": "78cbba06c43c999791d86257df7ed5506eac022894ef4b403a8bace61dc7c0e3",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/lift_pot:7136000/M_event_full_initialization_integrity.json": "9cc9074af4be37fdce6d4dd720949c7d744f24ce8041bd615b9abdab3722e378",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/lift_pot:7136000/M_event_full/completed_task_release.json": "a873073859f2b7b3c084ac7d1291d7ee642c9592a20a575ed448e32e9c112a04",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cached_q0_revalidation/handover_mic:7136000.json": "1d877b673a57e6cf4a76a5de688c9228fdd927d6293694aa95f07767bfec7483",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/handover_mic:7136000/M_event_full_initialization_integrity.json": "9cc9074af4be37fdce6d4dd720949c7d744f24ce8041bd615b9abdab3722e378",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/handover_mic:7136000/M_event_full/completed_task_release.json": "aee799c42ba8b93a96da39e3f35de5e6fd2b73dc300ecd789f3b702e403c657e",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/stack_bowls_two:7136000/q0_handoff_whole_reference_audit.json": "143da39f8f6e4d36c4b3371cbe7be54c79f2bb65f63a40b71424b66f8ed4de79",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/stack_bowls_two:7136000/M_event_full/result.json": "d85cfb88595bf77716ee185d2366eb08f0da998e23fde7a50ea7f2e59b4d3509",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/stack_bowls_two:7136000/handoff_reference/result.json": "91432fdf50e633545b8021c1f68132bf4a532d09479e33a18c4356cb2c22581c",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/lift_pot:7136000/q0_handoff_whole_reference_audit.json": "05c74d27107a8a09f66244d062f1be77f6d467de9b52608a65f12683868b686b",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/lift_pot:7136000/M_event_full/result.json": "4979217510b64cffb425b4965e5fe46405fb21e86b149c88a03b3294bd613582",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/lift_pot:7136000/handoff_reference/result.json": "9a591da4b4f1f35c688afa15448b422bbf95a8ed9ad0d632fe5f27c7879670fc",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/handover_mic:7136000/q0_handoff_whole_reference_audit.json": "beeba15125d27590eeba5427667ddc485cbfbcc88b71ea9d55ba8e0dba9f7c5e",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/handover_mic:7136000/M_event_full/result.json": "d5254810b79ce0a665814732a0d1b8720044f61c60131b1a7a9fd785868e8e76",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_plain_early_v1/plain_000/batches/000/runs/cd8ac7fb19444b2ea8da8fbe9c0ac531/cases/handover_mic:7136000/handoff_reference/result.json": "f121eb45da6ec3bfd3c622e4ab8d53430e75180e56bd133df8e80542b33dfd00"
+    }
+  },
+  "gate_reference_replays": [],
+  "no_recovery_teacher_or_fitting": true,
+  "official_EVAL_used": false,
+  "TRAIN_performance_only": true,
+  "early_pairing_provenance": {
+    "passed": true,
+    "enabled": true,
+    "records": [
+      {
+        "case_id": "handover_mic:7136000",
+        "source_q0_policy_sha256": "3c568da81c4567b603140f6816f61028c44acc39147521dbfbb2fb1680a80db6",
+        "no_full_outcome_at_publication": true,
+        "dispatch_precedes_full_result_mtime": true
+      },
+      {
+        "case_id": "lift_pot:7136000",
+        "source_q0_policy_sha256": "3cf73a9af1c75d1c6cd43a9a6258a0cdbe7448509a9409209a3d1750bd44c5a6",
+        "no_full_outcome_at_publication": true,
+        "dispatch_precedes_full_result_mtime": true
+      },
+      {
+        "case_id": "stack_bowls_two:7136000",
+        "source_q0_policy_sha256": "a12139940759696e79a925a1ee99e480d6c6a0850feccbb36986d48cf1b4822f",
+        "no_full_outcome_at_publication": true,
+        "dispatch_precedes_full_result_mtime": true
+      }
+    ],
+    "actual_source_q0_only": true,
+    "no_full_policy_outcome_or_teacher_supplied": true
+  },
+  "formal_success_not_used_for_fitting": true,
+  "qualification_sha256": "f7b20a535ac8b3b3708f37c7cab47321db8bf927dda665d46d37fca02cdeb871",
+  "scene_role": "fixed_TRAIN_engineering_q0_dispatch8_no_fit"
+}

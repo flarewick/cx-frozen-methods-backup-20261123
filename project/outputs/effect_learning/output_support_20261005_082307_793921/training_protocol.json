@@ -1,0 +1,177 @@
+{
+  "scope": "S2o matched output support and target clipping",
+  "status": "frozen_before_training",
+  "design": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/reports/protocols/output_label_support_20261005_075650_144185/design.json",
+  "parent_run": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074",
+  "conditions": [
+    "A_bounded_clipped",
+    "B_open_clipped",
+    "C_bounded_raw",
+    "D_open_raw"
+  ],
+  "condition_spec": {
+    "A_bounded_clipped": {
+      "output": "bounded",
+      "clip_target": true
+    },
+    "B_open_clipped": {
+      "output": "open",
+      "clip_target": true
+    },
+    "C_bounded_raw": {
+      "output": "bounded",
+      "clip_target": false
+    },
+    "D_open_raw": {
+      "output": "open",
+      "clip_target": false
+    }
+  },
+  "initial": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/initial_seed0.pt",
+  "initial_state_sha256": "cd6b1fccfd70c620fd790a165c0d15dd31de12da94bdf1cc31560f0b2a3bbb9b",
+  "channel_dim": 32,
+  "geometry_mean": [
+    -0.1841506063938141,
+    0.017956310883164406,
+    7.837214946746826,
+    0.4459347426891327,
+    -0.3937404751777649,
+    7.336125373840332,
+    -0.12740767002105713,
+    0.0008186398190446198,
+    7.683607578277588,
+    0.4567558169364929,
+    -0.3937404751777649,
+    7.419458866119385,
+    -0.3760974407196045,
+    -0.42082110047340393,
+    0.5104990005493164,
+    -0.020709097385406494,
+    -0.004098033998161554,
+    0.35573986172676086,
+    0.6542689204216003,
+    0.016535498201847076,
+    0.31679782271385193,
+    0.6542689204216003,
+    0.0,
+    0.3333333432674408
+  ],
+  "parameters": 42934,
+  "seed": 0,
+  "updates": 1400,
+  "lr": 0.0003,
+  "weight_decay": 0.01,
+  "auxiliary_coefficient": 0.0,
+  "rows": 611,
+  "inputs": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/inputs.npz",
+  "labels": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/labels.npz",
+  "development_inputs": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/development_inputs.npz",
+  "development_labels": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/development_labels.npz",
+  "projection": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/feature_caches/structured_readout_20261003_065755_140725/projection.npz",
+  "robot_config": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/collections/beat_block_hammer/demo_randomized/collect_20260925_153106_891400/resolved_config.json",
+  "reference_scales_native_units": [
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.20000000298023224,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.20000000298023224
+  ],
+  "row_order_and_weights": "Original byte-identical611 rows, weights, masks and past; all rows every update",
+  "robot_joint_limits": [
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      -10.0,
+      10.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "time_limit_seconds": 1200,
+  "inherited_source_gaps": 33,
+  "robot_domain": "No additional gripper clipping at policy boundary. Original per-tick native clipping/interpolation unchanged for all5 conditions. Reject nonfinite goals and arm targets outside same actual URDF bounds; record/refuse, never silently project/reset budget.",
+  "no_backbone_training": true,
+  "no_new_raw_data": true,
+  "no_router_or_TTA": true,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/reports/attribution/output_range_audit_20261005_075034_258694/result.json": "2dd8923f27ecc0cb45a3b03ea1ccf3be16c971844e743e873ec7396caee1f809",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/protocol.json": "d66e4ff27971d5eef58b77ddb73730518b3461a336264d21ed4db23d7cb6e512",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/training_protocol.json": "16d33d1674ad6e5d6f05337a206823899ec1a5712f886807ff5493215d87b5f8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/training_result.json": "088ebf21f46b38073e474cfc924a1d3c9f8a7fc51cc6dc3d76fd27b5c572423b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/training_audit.json": "3c0034f552f2b908604a445ef825032bec655ab9f8af94ddfa65d2c3520f1462",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/initial_seed0.pt": "b01c11b996429220751758eeb814a96c002c13dca41fa8254d4acfd5aef2b6cd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/inputs.npz": "e66b27e5c8d3f081f3225eefe523e54bfdee7c196b5eb07bdb4530ea3a2b2e8f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/labels.npz": "b5348c6b2fcb42d1749f9cb15f8ac8b2aa0394474a3b2f772d937ad839efd4ee",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/development_inputs.npz": "9ea18bce925cfaf1cebd10879bacbefa4ccf7d2fdfc10546e2001bbdbd7ba74d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/development_labels.npz": "a0b28cb4af96826f83b69c2ee673bd0bf96c5242c2ad3dd7dde3cb1cb020197d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/S0_seed0.pt": "84b64a00be1285c36c2f29f54d7885b76e584e53a0bd9be22d2cf0e200cd42bf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/structured_action_adapter.py": "f66c08b5d25f57c03cf36478313e45551498123fa070582cf813364cc6ae37c8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/train_structured_action.py": "e7be8cc8f971ffb71e09c164b05f11844ac6c307487c1edbda157958d8a5e056",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/expert_history_action_20261004_143206_614773/evaluation_protocol.json": "bf8aa48cbae74af2737ad4a7c470d17967ffa8060d38fbdf0ffb60f1f363e49f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/reports/protocols/output_label_support_20261005_075650_144185/design.json": "b8aa009cc8ec2211dd7ea586b964c8aa5bf85512c8a21f34ec68171126d273f0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/train_output_support.py": "5a11c80ff94ea80910922a5e88d973365d72b710fcdb565850cc4f88f20ac7a0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/output_support_adapter.py": "64fd7b402a6b534512cdb0fa939765cdb2f5f72c60c9169740038f5310daf5e2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/tests/test_output_support.py": "dffc25e18f431b9a73bc2ee5235b0c3bdaf0f7e81713f956ba473e6347ee4769",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/scripts/train_output_support.sh": "0ffe1645f8a8cfd0fd5fabc4800534fc1ef519bdbc872740ed1a670b33618724",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/collections/beat_block_hammer/demo_randomized/collect_20260925_153106_891400/resolved_config.json": "9aa537e8079aff2cbd6b1f00d89b3b020e913e3e142b7afefb2a9db1d130fa3c",
+    "/data/cj/robo_pi/250010033/qfw/robotwin/RoboTwin/assets/embodiments/aloha-agilex/urdf/arx5_description_isaac.urdf": "097c59fb19a7b482249c6097df8319586ea7cfd268c015516f103b289a7e761a",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/diagnostics/recovery_sources/turn_switch/source_20261002_153403_771011/robotwin/envs/robot/robot.py": "3dcd80acc8cab489a4c5edb507cc460dab1724be0226b8d5c4c1b218dee605cb"
+  }
+}

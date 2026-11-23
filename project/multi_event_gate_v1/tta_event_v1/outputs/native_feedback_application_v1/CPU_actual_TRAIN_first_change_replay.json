@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "actual_native_accepted_update_replayed": true,
+  "original_native_first_changed_query": 8,
+  "proposed_first_changed_query": 3,
+  "original_native_query_tick": 7324,
+  "actual_fast_digest": "2768dd058be891f4430ba094b8d9b5a5311767a9b6e61eb97e0fae2f40c75cce",
+  "fast_only_correction": true,
+  "no_later_saved_trajectory_reused_after_first_change": true,
+  "new_native_rollouts": 0,
+  "task_benefit_claim": false,
+  "trust": {
+    "fast_norm": 0.0634942352771759,
+    "action_shift_max": 0.006729186978191137,
+    "direction_cosine": 0.9987470507621765,
+    "anchor_drift_max": 0.0
+  },
+  "application": {
+    "query": 3,
+    "condition": "TTA",
+    "applied": true,
+    "pending": false,
+    "source_query": 1,
+    "accepted_query": 3,
+    "fast_after": "2768dd058be891f4430ba094b8d9b5a5311767a9b6e61eb97e0fae2f40c75cce",
+    "deadline_query": 5,
+    "reason": "accepted_feedback_fast_difference",
+    "maximum_ARM_difference": 0.006729186978191137,
+    "shared_intervention_count": 2
+  },
+  "CUDA_initialized": false,
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/TTA/result.json": "e551713e7b04e94f0ba1f20a7c4f505914f253adf77661813fa48578a67dce07",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/TTA/policy003.npz": "fdb3fb921764509c9dd2617df43e7b2d03032a2283939fbb2c539dfea1eb5b50",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/TTA/source00/local_feedback.npz": "b01bb423ecf15a84b162b61178b3f473c04e83821692b78fed56b51c3daa1ed3"
+  }
+}

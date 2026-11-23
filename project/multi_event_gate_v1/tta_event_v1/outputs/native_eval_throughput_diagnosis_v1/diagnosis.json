@@ -1,0 +1,44 @@
+{
+  "full_owned_lifetime_raw": {
+    "samples": 546,
+    "SM_percent": 56.71978021978022,
+    "memory_controller_percent": 5.15934065934066,
+    "util_percent": 56.71978021978022,
+    "missing_metrics_count": 0,
+    "CPU_percent": 210.80675867811644,
+    "memory_MiB": 20818.166666666668
+  },
+  "all_post_creation300s_raw": {
+    "samples": 447,
+    "SM_percent": 60.2751677852349,
+    "memory_controller_percent": 5.570469798657718,
+    "util_percent": 60.2751677852349,
+    "missing_metrics_count": 0,
+    "CPU_percent": 218.6857475817437,
+    "memory_MiB": 21718.774049217
+  },
+  "rolling180_windows": 323,
+  "rolling180_min": 48.442622950819676,
+  "rolling180_max": 72.75,
+  "longest_observed_rolling180_ge80_seconds": 0.0,
+  "target80_achieved": false,
+  "qualified_for_same_scene_speedup": false,
+  "all45_cross_run_equivalence": false,
+  "reason": "Expert-valid membership differs: beat_block_hammer second accepted seed7122001 in v3 versus7122002 in v4; do not compare wallclock as matched speedup.",
+  "actual_host": {
+    "exit_code": 0,
+    "actual_Popen_wait_return": true,
+    "pid": 1328017,
+    "proc_absent_after_wait": true
+  },
+  "actual_native_whole_branches": 45,
+  "resource_and_internal_native_controls_passed": true,
+  "source_acceptance_v3_actual_exit": 1,
+  "performance_candidate_NOT_promoted": true,
+  "release": {
+    "cleanup_seconds_after_start": 1659.488,
+    "own_gpu_released": true,
+    "remaining_own_gpu_pids": []
+  },
+  "total_GPU_seconds_including_all_previous_failed_attempts": 5290.1230000000005
+}

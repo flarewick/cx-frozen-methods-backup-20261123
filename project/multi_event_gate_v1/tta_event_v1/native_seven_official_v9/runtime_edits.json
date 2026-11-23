@@ -1,0 +1,26 @@
+[
+  [
+    " work=FixedWorkQueue(case_count,spec['tasks'],(spec.get('cached_preparation')or{}).get('task_cache',{}),c.cancel)",
+    " work=FixedWorkQueue(case_count,spec['tasks'],(spec.get('cached_preparation')or{}).get('task_cache',{}),c.cancel)\n from .branch_queue import BranchQueue\n jobs=BranchQueue(work,case_count,c.cancel)"
+  ],
+  [
+    " def run_case(number,item):",
+    " def run_case(number,item,*,shared=None,branch_only=None):\n  leader=shared is None"
+  ],
+  [
+    "  with primary_lock:\n   reference=item['task']not in reference_tasks and item['case_id']in getattr(schedule,'q0_pending',{})\n   if reference:reference_tasks.add(item['task'])\n  controls=item['episode_index']==0\n  from .reference_order import before_tail\n  branches=before_tail(['M_event_full','baseline','TTA']+(['zero_update','shadow_update']if controls else[])+(['handoff_reference']if reference else[]))",
+    "  if leader:\n   with primary_lock:\n    reference=item['task']not in reference_tasks and item['case_id']in getattr(schedule,'q0_pending',{})\n    if reference:reference_tasks.add(item['task'])\n   controls=item['episode_index']==0\n   from .reference_order import before_tail\n   branches=before_tail(['M_event_full','baseline','TTA']+(['zero_update','shadow_update']if controls else[])+(['handoff_reference']if reference else[]))\n  else:\n   reference=shared['reference'];branches=shared['branches']\n   assert branch_only in branches and branch_only!='M_event_full'"
+  ],
+  [
+    "   cfg=make_config(prepared['runtime'],argparse.Namespace(task=item['task'],task_config='demo_randomized'),prepared['session'])\n   cfg.update(eval_mode=True,save_data=False,eval_video_log=False,eval_video_save_dir=None,render_freq=0)\n   folder=root/'cases'/item['case_id'];folder.mkdir(parents=True)\n   write(folder/'case.json',dict(case_id=item['case_id'],role=spec['scene_role'],conditions=list(branches),initialization_eval_mode=True,task_seed_excluded_from_online_forward=True))\n   rows=[];initial_identity=None\n   for branch in branches:",
+    "   folder=root/'cases'/item['case_id']\n   if leader:\n    cfg=make_config(prepared['runtime'],argparse.Namespace(task=item['task'],task_config='demo_randomized'),prepared['session'])\n    cfg.update(eval_mode=True,save_data=False,eval_video_log=False,eval_video_save_dir=None,render_freq=0)\n    folder.mkdir(parents=True)\n    write(folder/'case.json',dict(case_id=item['case_id'],role=spec['scene_role'],conditions=list(branches),initialization_eval_mode=True,task_seed_excluded_from_online_forward=True))\n    rows=[];initial_identity=None\n   else:\n    cfg=shared['cfg'];rows=shared['rows'];initial_identity=shared['initial_identity']\n   for branch in(['M_event_full']if leader else[branch_only]):"
+  ],
+  [
+    "   record=dict(case_id=item['case_id'],all_requested_conditions_retained=True,initialized=True,branches=rows,initial_identity=initial_identity,independent_result=True)\n   if reference:\n    from native_q0_task_handoff_v3.control import compare\n    compare(folder,spec)\n   record['branches']=[r for r in rows if r['condition']!='handoff_reference']\n   record['engineering_reference_excluded_from_dataset']=reference\n   write(folder/'bundle.json',record)\n   with primary_lock:primary_done.add(item['case_id'])\n   # No recovery teacher or fitting labels in dev/confirmation.\n   finished.put((item['case_id'],record))",
+    "   if leader:\n    return dict(item=item,cfg=cfg,branches=branches,rows=rows,initial_identity=initial_identity,reference=reference,done={'M_event_full'},lock=threading.Lock())\n   with shared['lock']:\n    assert branch_only not in shared['done'];shared['done'].add(branch_only)\n    if shared['done']!=set(branches):return shared\n    rows=sorted(rows,key=lambda row:branches.index(row['condition']))\n    record=dict(case_id=item['case_id'],all_requested_conditions_retained=True,initialized=True,branches=rows,initial_identity=initial_identity,independent_result=True)\n    if reference:\n     from native_q0_task_handoff_v3.control import compare\n     compare(folder,spec)\n    record['branches']=[r for r in rows if r['condition']!='handoff_reference']\n    record['engineering_reference_excluded_from_dataset']=reference\n    write(folder/'bundle.json',record)\n    with primary_lock:primary_done.add(item['case_id'])\n    finished.put((item['case_id'],record))\n    work.mark_ready(work.case_index[item['case_id']],reason='actual_case_terminal')\n    startup.release('actual_case_terminal',lane=number)\n    jobs.complete(item['case_id'])\n   return shared"
+  ],
+  [
+    "    case_index=work.take()\n    if case_index is None:break\n    item=select(case_index,number)\n    if item is None:raise ValueError('A predeclared coverage case is missing')\n    run_case(number,item)\n    work.mark_ready(case_index,reason='actual_case_terminal')\n    startup.release('actual_case_terminal',lane=number)",
+    "    job=jobs.take()\n    if job is None:break\n    kind,value,shared,branch_only=job\n    if kind=='full':\n     item=select(value,number)\n     if item is None:raise ValueError('A predeclared coverage case is missing')\n     shared=run_case(number,item);jobs.submit(item,shared)\n    else:run_case(number,value,shared=shared,branch_only=branch_only)"
+  ]
+]

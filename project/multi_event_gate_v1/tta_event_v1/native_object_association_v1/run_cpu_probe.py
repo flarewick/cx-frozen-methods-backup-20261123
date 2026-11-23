@@ -1,0 +1,12 @@
+"""Existing runtime only, no GPU devices or environment mutation."""
+from pathlib import Path
+import subprocess,sys,json
+T=Path(__file__).resolve().parents[1];P=T.parents[1]
+def main():
+ sys.path.insert(0,str(P/'deployment'));import user_container as container
+ canonical=Path('/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA');script=canonical/(T/'native_onpolicy_coverage_v7/scripts/cpu.sh').relative_to(P)
+ out=T/'outputs/native_object_association_v1';out.mkdir(parents=True,exist_ok=True)
+ process=subprocess.Popen(container.command(['bash',str(script),'-m','native_object_association_v1.descriptor_probe'],mount_project=True));code=process.wait()
+ with(out/'CPU_descriptor_actual_host_exit.json').open('x')as f:json.dump(dict(exit_code=code,actual_Popen_wait_return=True,pid=process.pid,proc_absent_after_wait=not Path('/proc',str(process.pid)).exists(),no_GPU_devices_exposed=True),f,indent=2)
+ raise SystemExit(code)
+if __name__=='__main__':main()

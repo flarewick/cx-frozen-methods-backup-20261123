@@ -1,0 +1,18 @@
+{
+  "candidate": "ARM_rowspace_fast_increment_v1",
+  "original_qualification": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_direction_visible_training_v1/runs/run_97e6f420e38345eca28eaa47622df6b6/qualification.json",
+  "qualification_sha256": "563972820599c66b44926b838ee53c9a8d2d3c50193679df2381ccaa0ac2e76f",
+  "original_checkpoint": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_direction_visible_training_v1/runs/run_97e6f420e38345eca28eaa47622df6b6/response_step1000.pt",
+  "retained_checkpoint": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_best100_v1/retained_best_checkpoint.pt",
+  "checkpoint_sha256": "0937511affea00771ed7f595d07220ae390ba85e06e398fce678446e7078a1d5",
+  "new_training_steps": 0,
+  "online": "original typed bridge/session/episode unchanged; fast128 two SGD .05 clip1 and original trust",
+  "formal_task_outcomes_not_training_data": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_action_visible_response_v1/model.py": "fe4b063ab7a30737c49604471e6bb4639919d7746fe3b432f665fe019792eaf3",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_visible_response_bridge_v1/bridge.py": "9d4c1566affb0006b4d8cacc57fbcd9c1f24edbb89b2413c054e9dcd446c133f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_visible_episode_v1/episode.py": "cf7e94c64083534c30181c06f43b1c81d4884ca2379d96c1d26e3191db1e76a8",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_shared_response_v1/model.py": "7dc675919b94a2cb74d027dce32322192e620572990472bf857d5540656fb3d5",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_shared_response_v1/session.py": "4a0712a43db1512449d3696e5d1861271d5f2257c218fe9de970b4f3377aee92"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "stages": [
+    2,
+    4,
+    8
+  ],
+  "actual_original_query_must_return_before_release": true,
+  "no_timer_filler_release": true,
+  "single_release_per_stage": true,
+  "cancel_stops_waiters": true,
+  "actual_case_terminal_fallback": true,
+  "original_query_called_once_and_output_object_identical": true,
+  "original_entire_run_case_AST_exact": true,
+  "original_four_CPU_semantic_and_preflight_analysis_AST_exact": true,
+  "GPU_calls": 0,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/common.py": "cdde5df35721b5711fdf22002c460bf7ee962637e23849dc4bd74cb5be8abc30",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/semantic.py": "c26104a97505376bb1421953fa9ca4bf26316b45b43f315d40d25ab1fa0e9b96",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/preflight.py": "eb3f4d230d618b95ba03b72edc397d46191f7f64f0fd4ad3ce85125810eb0d3e",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/screen.py": "0027782313584c26b7841797c3259a0b411320f432c7dffe714185bb178c013c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/runtime.py": "ce3839f7523264cbfb4ed1ece0b7c2ff52807dada7a22252c705b6a4dee759a8",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/analysis.py": "8d568018c27a143d283191797ac03efcd1ad95d8502b5ce8b74c9439fd0138df",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/preload.py": "fe3c45c15b71f91fbe66b3cf1f37e70417ddb919078f04bfdab932e2c59ab86c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/host.py": "8f9c2d7f37d84bde1730a8e24485563b000e3849fc6cc415410dbe5f770b1d7c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/report.py": "5ffba7010e62c1ad8b532b2cdde6801fd16c9f88470f5e9f226586eafa4a7738",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/status.py": "0c2abb9a1f7f6d00f6feeec1b503bf424d805451332fb5c9880bedba2cf06019",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/cpu_checks.py": "49acb1e87ef5981a30f64e3ec6cab5f78d48c643d7cdb4f0c963d9d9c0582062",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/semantic_worker.py": "130f5a3d6d30e5ec21b4faf34624e477feeb319acbe588452f63c7cb85d3909f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/semantic_checks.py": "d1cfa00411d9e6cd6b4d84a43ebe5a3b715bcb2b834c71a4eae78c6dda7ff1fe",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/startup.py": "8b7aaefbc65c9aba654b770a01f5b045d6d984aee6709c3c01a85fb0e38761c6",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/startup_checks.py": "3ee2cf74ff257bd6f0bd538acf37cd31f475c7810595e9b1f8e94156a3de706e",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/cache.py": "3dfcc5cff88063fa7d465523b47bbf6fc87ab202def0f39dd4f4823943de2b41",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_cross_task100_v6/cache_checks.py": "ef9d2a46a000dd04abc72a356bac020badc9d0067841695da62da5df8616a458"
+  }
+}

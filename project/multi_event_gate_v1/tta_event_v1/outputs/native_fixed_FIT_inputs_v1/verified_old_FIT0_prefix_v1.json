@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "completed_pure_initial_inputs": 4,
+  "missing_tasks": [
+    "open_laptop"
+  ],
+  "initial_state_after_carried_prefix": {
+    "beat_block_hammer": {
+      "next_seed": 7124001,
+      "accepted": 1
+    },
+    "turn_switch": {
+      "next_seed": 7124004,
+      "accepted": 1
+    },
+    "adjust_bottle": {
+      "next_seed": 7124001,
+      "accepted": 1
+    },
+    "grab_roller": {
+      "next_seed": 7124001,
+      "accepted": 1
+    },
+    "open_laptop": {
+      "next_seed": 7124000,
+      "accepted": 0
+    }
+  },
+  "expert_validity_rows_retained": 7,
+  "items": [
+    {
+      "task": "beat_block_hammer",
+      "seed": 7124000,
+      "episode_index": 0,
+      "instruction": "With the left arm, grab the silver curved hammer head and beat the block.",
+      "case_id": "beat_block_hammer:7124000",
+      "initial_physical_sha256": "b83b475f33f29cef5647d24458f1f5f6ea23b61e823c5549e5615fd4ff58ec98",
+      "source_prefix": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation"
+    },
+    {
+      "task": "turn_switch",
+      "seed": 7124003,
+      "episode_index": 0,
+      "instruction": "Engage the rectangular switch with a press.",
+      "case_id": "turn_switch:7124003",
+      "initial_physical_sha256": "9031610830c271aec9429414b461047aeb79408f550619b1af5b562743f38e7e",
+      "source_prefix": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation"
+    },
+    {
+      "task": "adjust_bottle",
+      "seed": 7124000,
+      "episode_index": 0,
+      "instruction": "Grab the smooth green bottle head-up using the right arm from the table.",
+      "case_id": "adjust_bottle:7124000",
+      "initial_physical_sha256": "a89ff7222d708c92b3f03b81a8f55c9073affb6eaf02b150105a84f9d35c2faa",
+      "source_prefix": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation"
+    },
+    {
+      "task": "grab_roller",
+      "seed": 7124000,
+      "episode_index": 0,
+      "instruction": "Get hold of the brown roller using your arms",
+      "case_id": "grab_roller:7124000",
+      "initial_physical_sha256": "e5f544d9f6fd036b97f63a6955e3e5d74a364c72c9291c744f8c1917a3d7753c",
+      "source_prefix": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation"
+    }
+  ],
+  "failed_parent_scientific_outputs_NOT_qualified": true,
+  "no_policy_masks_or_response_teacher_labels_imported": true,
+  "actual_fresh_CPU_and_native_q0_identity_checks_still_required": true,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/actual_host_wait_exit.json": "1098dfd16d4cab5ee5e0752c686cee541174b8f381279f6dcce6136d703f0f75",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/protocol.json": "4a93c8dee7530cc00fc623fee6315ebb9a306250ac7d368cea0e4fe0bde02d3e",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/screening/beat_block_hammer/7124000.json": "8e6863f42a6f95c95a5778a31885fd552745c3092d47fd22bf6ff39dfd598b4f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/accepted/beat_block_hammer:7124000.json": "b8a61d3ad7c55ec608e038d5b3f256f02a8489250d553783c92c1619b1bac10d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/initial_prefetch/beat_block_hammer:7124000.json": "3809b512bd63fe65d07fecec8159914a7bf27a01518bdc3fb0830625c1a6d95a",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/semantic/requests/ccbe692cc6296447a492f60ce5e6cae490ebc1730f9b7d7ebdadb1f1ffaf9509.json": "384519a8dbb6b145a4533e5f7f51a6955bd99972de75fbcbc733f267cd3f3c93",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/semantic/frames/ccbe692cc6296447a492f60ce5e6cae490ebc1730f9b7d7ebdadb1f1ffaf9509.npz": "5dc3104548012236e78077a81dfb93d174f2de88da17defba6153d3c4506611a",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/expert_references/beat_block_hammer:7124000.json": "5f66df119d00a0a30aad868163b04a096ac5b506e6fbe94ab659367c2d39804f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/expert_references/beat_block_hammer:7124000.npz": "60af65cd694b07653976fa486859457cc890e388d7db9d7dea52dd47e9ae1055",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/screening/turn_switch/7124000.json": "c89a004268b0a38359b335509b645aab3646852ecf462075a5430df1ac78249d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/screening/turn_switch/7124001.json": "5cd9cabd849b4436fc057078dfaea4acb5310740f1d37c125dc6795bdfcd73dd",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/screening/turn_switch/7124002.json": "2d570f4321ce010666db14caf066b46bfe11e9443725afce8ad9f37760c68764",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/screening/turn_switch/7124003.json": "d7bfebb84fb1efde5636dc927ab750309988b78bc3904dee316f05d561538823",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/accepted/turn_switch:7124003.json": "ffa04369928f61cc21448f6670a12cb5e3f2b28a3f4ace8ed2789ba293cb818f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/initial_prefetch/turn_switch:7124003.json": "fe9f42940e776a396c5fa6905d2fce94fd8c7dc7f8f7bfda1520d42a745ea3b9",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/semantic/requests/dafdec7144e6be3d773f1f8a8466e970be5883d71d0b55ce936b1401cb188f4d.json": "988b051041df88f2a97baf29dbc7d4e71c62a98c83daf3d6462663c65580c945",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/semantic/frames/dafdec7144e6be3d773f1f8a8466e970be5883d71d0b55ce936b1401cb188f4d.npz": "f80431bbb8e8fe2fdc3b7511e542abbc8ffa77094d1e06485dca08830f9998a0",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/expert_references/turn_switch:7124003.json": "57c9b8a7c393d6f183c0bb61a437dba57db9396da239ff935cbed8853385d839",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/expert_references/turn_switch:7124003.npz": "bc81d461ad1e26d49f234f2fac76bf4433e73b1f41b1658f9460602db7e6fb11",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/screening/adjust_bottle/7124000.json": "a95f781c32372729c4657bf1cc08464a8ad026daa5225a8c1c41aee638a81a28",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/accepted/adjust_bottle:7124000.json": "d2224ca352a8aeb32ca77948f36c403c49301998599a418b689a3f8f1079a831",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/initial_prefetch/adjust_bottle:7124000.json": "c3102f2a06eeac9687e74e8c8174340a0f422d078e157fab2049e41a97d6f201",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/semantic/requests/29d2ffb8ef8e20bae1c50506023987fa6dab258a2a1ae8203f6bd76d904809a9.json": "9c9aa78bb872e10626b9a7852bf1678fb1efba0eac62ff93341a2dcaa042c82f",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/semantic/frames/29d2ffb8ef8e20bae1c50506023987fa6dab258a2a1ae8203f6bd76d904809a9.npz": "d97e93188aa767e774271b42a7d9aa6813cbfae5b3e876e817a85d19593e46e7",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/expert_references/adjust_bottle:7124000.json": "723b70559fbf66ede62f24cf76bc7e02711a9cde749100dce5047ef6bda231e8",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/expert_references/adjust_bottle:7124000.npz": "82d2e8b6a38c3dd2eabacd6e834fc47e48df7fa21837ee869354fdf4bce3c215",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/screening/grab_roller/7124000.json": "52571e4022146b145cd34f5be08e22b5dde38456aceb765a1c27c7931b3042c8",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/accepted/grab_roller:7124000.json": "77495e117cc4a1c0f6c92ac9c9469ee31ce3ed4dc4086c67fb7d43f7efab3fd5",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/initial_prefetch/grab_roller:7124000.json": "a6758f4db4442e30f41a980dbb56d9d328dcd890a31c9d9720c1fc746265b43c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/semantic/requests/37332e77460b261a826cce39cf75a720b68e4462cbace4dab9144f1c6da39091.json": "b98c43cee2aaf0bcbbb237a2efb0ac9b8611f41ec0173d60293f82727ee6de75",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/semantic/frames/37332e77460b261a826cce39cf75a720b68e4462cbace4dab9144f1c6da39091.npz": "d1080ed6c8230bd1306eefaf30b2c18c4044e138044c044a8495d08fcb1cd709",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/expert_references/grab_roller:7124000.json": "c5b56f398c64db020df1a0f58cfc7ffdb5e062a7ca6f6fa019599508314eae86",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v25/val_000/batches/000/runs/31d9f1dea5414881b5f0eb8b87a272e1/next_preparation/expert_references/grab_roller:7124000.npz": "e91350e2d0524e3e9af3c9e212c6474936e1c842596e2b143f69f0732cddde3f"
+  }
+}

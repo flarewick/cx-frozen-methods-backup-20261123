@@ -1,0 +1,427 @@
+{
+  "passed": true,
+  "all_strict_guard_AST_unchanged_except_metric_import": true,
+  "same_three_second_timeout": true,
+  "final_fresh_driver_timestamp_only": true,
+  "explicit_numeric_zeros_observed": [
+    {
+      "observed_by": "Actual read-only tool query nvmlDeviceGetProcessesUtilizationInfo GPU5, recorded in session before source implementation",
+      "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+      "gpu": 5,
+      "pid": 825525,
+      "timestamp_us": 1793374926358826,
+      "SM": 0,
+      "bandwidth": 0,
+      "all_engine_fields_zero": true
+    }
+  ],
+  "missing_NotFound_stays_unavailable": true,
+  "unknown_stale_error_timeout_stops": true,
+  "negative_checks": 11,
+  "actual_read_only_NVML_collections": [
+    {
+      "unix_ns": 1793375215382238712,
+      "gpu": 0,
+      "gpu_uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 0,
+        "gpu_uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793375214160891,
+            "host_timestamp_us": 1793375214255680,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793375215160594,
+            "host_timestamp_us": 1793375215309889,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true
+      },
+      "collection_seconds": 1.2173463408835232,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793375216590460088,
+      "gpu": 3,
+      "gpu_uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 3,
+        "gpu_uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793375215319782,
+            "host_timestamp_us": 1793375215465081,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793375216319505,
+            "host_timestamp_us": 1793375216519420,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true
+      },
+      "collection_seconds": 1.2080351649783552,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793375217828727832,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [
+        {
+          "gpu": 5,
+          "pid": 842828,
+          "SM": 13,
+          "bandwidth": 0,
+          "value": 13,
+          "timestamp_us": 1793375217665285,
+          "explicit_numeric_record": true
+        }
+      ],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793375216465681,
+            "host_timestamp_us": 1793375216659473,
+            "raw_process_records": [
+              {
+                "pid": 842828,
+                "timestamp_us": 1793375216465681,
+                "SM": 33,
+                "bandwidth": 0
+              }
+            ],
+            "API_status": "success"
+          },
+          {
+            "driver_timestamp_us": 1793375217665285,
+            "host_timestamp_us": 1793375217758128,
+            "raw_process_records": [
+              {
+                "pid": 842828,
+                "timestamp_us": 1793375217665285,
+                "SM": 13,
+                "bandwidth": 0
+              }
+            ],
+            "API_status": "success"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true
+      },
+      "collection_seconds": 1.2382089090533555,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793375219031718774,
+      "gpu": 6,
+      "gpu_uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+      "components": [
+        {
+          "gpu": 6,
+          "pid": 737759,
+          "SM": 80,
+          "bandwidth": 40,
+          "value": 80,
+          "timestamp_us": 1793375218919118,
+          "explicit_numeric_record": true
+        }
+      ],
+      "raw_NVML": {
+        "gpu": 6,
+        "gpu_uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793375217719493,
+            "host_timestamp_us": 1793375217914854,
+            "raw_process_records": [
+              {
+                "pid": 741968,
+                "timestamp_us": 1793375217719493,
+                "SM": 51,
+                "bandwidth": 29
+              },
+              {
+                "pid": 737759,
+                "timestamp_us": 1793375217119794,
+                "SM": 47,
+                "bandwidth": 26
+              }
+            ],
+            "API_status": "success"
+          },
+          {
+            "driver_timestamp_us": 1793375218919118,
+            "host_timestamp_us": 1793375218969021,
+            "raw_process_records": [
+              {
+                "pid": 741968,
+                "timestamp_us": 1793375218319393,
+                "SM": 16,
+                "bandwidth": 9
+              },
+              {
+                "pid": 737759,
+                "timestamp_us": 1793375218919118,
+                "SM": 80,
+                "bandwidth": 40
+              }
+            ],
+            "API_status": "success"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true
+      },
+      "collection_seconds": 1.202827360946685,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793375220245735378,
+      "gpu": 0,
+      "gpu_uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 0,
+        "gpu_uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793375218959385,
+            "host_timestamp_us": 1793375219116439,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793375220158917,
+            "host_timestamp_us": 1793375220171236,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true
+      },
+      "collection_seconds": 1.2138716178014874,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793375221464011413,
+      "gpu": 3,
+      "gpu_uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+      "components": [],
+      "raw_NVML": {
+        "gpu": 3,
+        "gpu_uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793375220318181,
+            "host_timestamp_us": 1793375220330243,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          },
+          {
+            "driver_timestamp_us": 1793375221317887,
+            "host_timestamp_us": 1793375221385087,
+            "raw_process_records": [],
+            "API_status": "no_process_sample_NOT_FOUND"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true
+      },
+      "collection_seconds": 1.2181699299253523,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793375222690122079,
+      "gpu": 5,
+      "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+      "components": [
+        {
+          "gpu": 5,
+          "pid": 842828,
+          "SM": 19,
+          "bandwidth": 0,
+          "value": 19,
+          "timestamp_us": 1793375222463804,
+          "explicit_numeric_record": true
+        }
+      ],
+      "raw_NVML": {
+        "gpu": 5,
+        "gpu_uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793375221464106,
+            "host_timestamp_us": 1793375221548989,
+            "raw_process_records": [
+              {
+                "pid": 842828,
+                "timestamp_us": 1793375221464106,
+                "SM": 41,
+                "bandwidth": 0
+              }
+            ],
+            "API_status": "success"
+          },
+          {
+            "driver_timestamp_us": 1793375222463804,
+            "host_timestamp_us": 1793375222602818,
+            "raw_process_records": [
+              {
+                "pid": 842828,
+                "timestamp_us": 1793375222463804,
+                "SM": 19,
+                "bandwidth": 0
+              }
+            ],
+            "API_status": "success"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true
+      },
+      "collection_seconds": 1.2260158420540392,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    },
+    {
+      "unix_ns": 1793375223923959329,
+      "gpu": 6,
+      "gpu_uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+      "components": [
+        {
+          "gpu": 6,
+          "pid": 741968,
+          "SM": 19,
+          "bandwidth": 13,
+          "value": 19,
+          "timestamp_us": 1793375223317758,
+          "explicit_numeric_record": true
+        },
+        {
+          "gpu": 6,
+          "pid": 737759,
+          "SM": 79,
+          "bandwidth": 49,
+          "value": 79,
+          "timestamp_us": 1793375223717675,
+          "explicit_numeric_record": true
+        }
+      ],
+      "raw_NVML": {
+        "gpu": 6,
+        "gpu_uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+        "frames": [
+          {
+            "driver_timestamp_us": 1793375222717932,
+            "host_timestamp_us": 1793375222798392,
+            "raw_process_records": [
+              {
+                "pid": 737759,
+                "timestamp_us": 1793375222517969,
+                "SM": 50,
+                "bandwidth": 26
+              },
+              {
+                "pid": 741968,
+                "timestamp_us": 1793375222717932,
+                "SM": 48,
+                "bandwidth": 27
+              }
+            ],
+            "API_status": "success"
+          },
+          {
+            "driver_timestamp_us": 1793375223717675,
+            "host_timestamp_us": 1793375223853443,
+            "raw_process_records": [
+              {
+                "pid": 741968,
+                "timestamp_us": 1793375223317758,
+                "SM": 19,
+                "bandwidth": 13
+              },
+              {
+                "pid": 737759,
+                "timestamp_us": 1793375223717675,
+                "SM": 79,
+                "bandwidth": 49
+              }
+            ],
+            "API_status": "success"
+          }
+        ],
+        "API": "nvmlDeviceGetProcessesUtilizationInfo_v1",
+        "device_values_used_only_as_clock": true
+      },
+      "collection_seconds": 1.233672693837434,
+      "timeout_seconds": 3,
+      "selected_frame_index": 1,
+      "previous_call_data_used": false,
+      "device_wide_substitution": false,
+      "missing_records_inferred_zero": false,
+      "explicit_zero_records_preserved": true
+    }
+  ],
+  "original_guard_SHA256": "c748657944ec6e36af77e0a8f0079b929fd9520016df78a72512467faf992d46",
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v2/guard.py": "0a2184ec98ad904379362be8ab9b3670b2aaf25162d8691e62ba64927cb84884",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v2/strict_guard.py": "0691ffe2e4e13e9a80809657c1e888cb01ad5c6cab456e38082e5cca68547127",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v2/policy.json": "866b53b63dc64e03527ee3d68ca879234fface154d0141ad403ce93f9befbed4",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v2/worker.py": "826844491066e81ac4cb0824dbac0f2879509ca586d867587ca306b443372fa4",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v2/metrics.py": "e3d8b33422c3336080769dc3571e7fcdf454ddb69dadc114d51c07074d877b98",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v2/cpu_checks.py": "2aa6dbc932bd661b26a05d0f1ca4c183b803ceeb2809b79f59d737173628786d"
+  },
+  "no_GPU_work_started": true
+}

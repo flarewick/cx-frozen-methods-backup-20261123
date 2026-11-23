@@ -1,0 +1,73 @@
+{
+  "language": {
+    "counts": {
+      "beat_block_hammer": {
+        "supported": 39,
+        "total": 39
+      },
+      "turn_switch": {
+        "supported": 432,
+        "total": 432
+      },
+      "adjust_bottle": {
+        "supported": 102,
+        "total": 102
+      },
+      "grab_roller": {
+        "supported": 60,
+        "total": 60
+      },
+      "open_laptop": {
+        "supported": 462,
+        "total": 462
+      }
+    },
+    "old_dispatch_examples": 6,
+    "negative_language_cases": 4,
+    "input_sha256": {
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/020_hammer/base0.json": "86ac3241aedab194917a44669b488ea1a8f5d4e76b67bc9fc787112784e6622b",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/task_instruction/beat_block_hammer.json": "f2e419c385c80a3d8dac0bec0516b19eea6cdfa1985d754466afaff7211e8262",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/056_switch/base0.json": "919b7683d8668ebca4a02b82db491b47a52496494f7f5269279c9c1523166604",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/056_switch/base1.json": "e5fd67c7ee3332ddee01cbce8992ac8c6c0b3ebf7fd8fa3eae4d5371508b3563",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/056_switch/base2.json": "67c8a27b7401070dc63025e1164045edf267c2018583c6b1cb30e83db5c433cf",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/056_switch/base3.json": "de13db4a2664e6468834a3004ad500389baeedda8fcdfdeeecc9336d37615206",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/056_switch/base4.json": "7c2ac26c8f2e7059bab52674bd6444552175b54c43561a5aadb0cda310a2fd4e",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/056_switch/base5.json": "ab10082447a1437da5ca80ac21fed352f53263be93138fb6bf4549463b4106aa",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/056_switch/base6.json": "2649bd0700c4ef714893f4fb823f36501418718c6a6e37f43961d24fb134f8e1",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/056_switch/base7.json": "6ee8e0e8ad6cfbf6280f45505fdb751b3c3f40076a967f60132b180f3adf58ff",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/task_instruction/turn_switch.json": "c03ec558d8007b76a8f7908858030719c61a04501cb6a99d2e6515511c1790b8",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/001_bottle/base13.json": "49da9966fd4e19adaaea661f76c9e70bd6d876b81ae027b5fceb8365b9be7544",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/001_bottle/base16.json": "d9d44cf675f0d6f6253447de31f29ecb0eed829a365adc1af2f9bf54e42015a5",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/task_instruction/adjust_bottle.json": "fa82a82a7c64498407896ab171bf731eddd679bd2189b827404a8feb3ffb237b",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/102_roller/base0.json": "70d032760ec6d0c161d036a0a7dceb6e74d5283b154bf6bc1acff8a03eceaab8",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/102_roller/base2.json": "cab5e8cec78767df7563713595ee1f55bc5ac6d8a73e80b81f63049dc5e2f72b",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/task_instruction/grab_roller.json": "8913870868d6a7549e80241272e840279157fb421fca0de25f2754be29552d73",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base0.json": "8e38094da1190b3aa6f6c87bb4e2deeba8aff8d73aac0325a39bfce651f4a47e",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base1.json": "d2c2eeb5a079eec0a394185117be4ba661d8c8ac26327ce887aeee4216fa94ad",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base2.json": "7a9b9d2dcd5a2485498d60cc094e882ebc58fe36008a685cca03e7eb84a1af9f",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base3.json": "a757e8d7cce0e7b2d03d8cd33a488fa6b2e281be5b30dee6bc9d92792672f527",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base4.json": "a8cfb35e5a32412446c6ff79f34adc1308e54c44e706c454029095a956db46d6",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base5.json": "fbdcf37d3d625232d5c4f9b569b5451cccb02aca0354c9d7c0cd6cffcd38d656",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base6.json": "ed407efea5bd08d08e1f9eec81c9ba94e2c8abe4ccd23bbe77f466ef786f2a12",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base7.json": "716d6762a4e15a899cc25c0cd1a3dab9811b31504dfd17145423d23794cb007b",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base8.json": "c7793c885e4d8de87fe0f26b2f90106ca1ea49681f98f122a4cd9c0c24ce5460",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base9.json": "0e5520f715f5a6a33bf6ad11c4c48d608e5c1b42e6e24c3c7c8ecbdd63fe3cf3",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/objects_description/015_laptop/base10.json": "13497eb1c2a8abd19b7a734fbe91fc973d79ca41a7afd378781203d4caef4b76",
+      "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/evaluations/structured_action/beat_block_hammer/L0/eval_20261003_164626_759241/robotwin/description/task_instruction/open_laptop.json": "f96ef444acfda857c968b2994b67d482fd0c277fed88612bb86cfb8e7689bef9"
+    }
+  },
+  "local": {
+    "real_OpenCV_achromatic_flow": true,
+    "observed_target": [
+      0.006250548176467419,
+      2.2649764730431343e-07
+    ],
+    "actual_one_target_only": true,
+    "absent_partner_zero_and_relative_missing": true,
+    "trace_duration_and_command_mismatch_rejected": true,
+    "initial_frame_new_ROI": true,
+    "fixture_hardware_geometry_only": true
+  },
+  "GPU_started": false,
+  "scientific_efficacy_claim": false
+}

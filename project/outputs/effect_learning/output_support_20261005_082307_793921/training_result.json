@@ -1,0 +1,180 @@
+{
+  "status": "complete",
+  "reports": [
+    {
+      "condition": "A_bounded_clipped",
+      "updates": 1400,
+      "initial_state_sha256": "cd6b1fccfd70c620fd790a165c0d15dd31de12da94bdf1cc31560f0b2a3bbb9b",
+      "checkpoint": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/A_bounded_clipped_seed0.pt",
+      "checkpoint_sha256": "92b1a2e487ebb5f9ecad6bc519577962b69971a4bf8717ed14b7d0c735ddbef2",
+      "predictions": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/A_bounded_clipped_predictions.npz",
+      "predictions_sha256": "4430d4c0537cdad0cb02199b69054298d285c9b00c9e100cf5a097a0b51e95b9",
+      "history": [
+        {
+          "step": 1,
+          "loss": 0.20693635940551758
+        },
+        {
+          "step": 200,
+          "loss": 0.0701947957277298
+        },
+        {
+          "step": 400,
+          "loss": 0.050401028245687485
+        },
+        {
+          "step": 600,
+          "loss": 0.03763257712125778
+        },
+        {
+          "step": 800,
+          "loss": 0.030720746144652367
+        },
+        {
+          "step": 1000,
+          "loss": 0.026439039036631584
+        },
+        {
+          "step": 1200,
+          "loss": 0.023613713681697845
+        },
+        {
+          "step": 1400,
+          "loss": 0.02144732140004635
+        }
+      ]
+    },
+    {
+      "condition": "B_open_clipped",
+      "updates": 1400,
+      "initial_state_sha256": "cd6b1fccfd70c620fd790a165c0d15dd31de12da94bdf1cc31560f0b2a3bbb9b",
+      "checkpoint": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/B_open_clipped_seed0.pt",
+      "checkpoint_sha256": "622b85b98a8d9146639cbd45860e52ea7a4a2888c6ba08b88c826481b5d6c2f3",
+      "predictions": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/B_open_clipped_predictions.npz",
+      "predictions_sha256": "995ec3773a60abaa69fb526f05b4e1ae9f3e615395ba6798d55bc21a3c70c486",
+      "history": [
+        {
+          "step": 1,
+          "loss": 0.20693635940551758
+        },
+        {
+          "step": 200,
+          "loss": 0.06809479743242264
+        },
+        {
+          "step": 400,
+          "loss": 0.04690880700945854
+        },
+        {
+          "step": 600,
+          "loss": 0.03490618243813515
+        },
+        {
+          "step": 800,
+          "loss": 0.028525549918413162
+        },
+        {
+          "step": 1000,
+          "loss": 0.024687811732292175
+        },
+        {
+          "step": 1200,
+          "loss": 0.02344454638659954
+        },
+        {
+          "step": 1400,
+          "loss": 0.020290356129407883
+        }
+      ]
+    },
+    {
+      "condition": "C_bounded_raw",
+      "updates": 1400,
+      "initial_state_sha256": "cd6b1fccfd70c620fd790a165c0d15dd31de12da94bdf1cc31560f0b2a3bbb9b",
+      "checkpoint": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/C_bounded_raw_seed0.pt",
+      "checkpoint_sha256": "cc9c1d496da5bd7dc56dc19c03e0857431b01fd341966ae1042049527d5de870",
+      "predictions": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/C_bounded_raw_predictions.npz",
+      "predictions_sha256": "91b8a7c82b298d64da48ae144dde7f599c0313bb01b92bb33dddace5dc61577a",
+      "history": [
+        {
+          "step": 1,
+          "loss": 1.1824967861175537
+        },
+        {
+          "step": 200,
+          "loss": 0.9573128819465637
+        },
+        {
+          "step": 400,
+          "loss": 0.9368024468421936
+        },
+        {
+          "step": 600,
+          "loss": 0.9224123954772949
+        },
+        {
+          "step": 800,
+          "loss": 0.9105731248855591
+        },
+        {
+          "step": 1000,
+          "loss": 0.9049837589263916
+        },
+        {
+          "step": 1200,
+          "loss": 0.9011584520339966
+        },
+        {
+          "step": 1400,
+          "loss": 0.8982521891593933
+        }
+      ]
+    },
+    {
+      "condition": "D_open_raw",
+      "updates": 1400,
+      "initial_state_sha256": "cd6b1fccfd70c620fd790a165c0d15dd31de12da94bdf1cc31560f0b2a3bbb9b",
+      "checkpoint": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/D_open_raw_seed0.pt",
+      "checkpoint_sha256": "be23d0348a728025048742281c249746f3c66232c5ebd164c5f066ec647885da",
+      "predictions": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/D_open_raw_predictions.npz",
+      "predictions_sha256": "eb5871b023dcfd7ab74defaef84340921176ccaae220686c7b1eb5f1831fb8a5",
+      "history": [
+        {
+          "step": 1,
+          "loss": 1.1824967861175537
+        },
+        {
+          "step": 200,
+          "loss": 0.7157588601112366
+        },
+        {
+          "step": 400,
+          "loss": 0.5475741624832153
+        },
+        {
+          "step": 600,
+          "loss": 0.43578338623046875
+        },
+        {
+          "step": 800,
+          "loss": 0.3158321976661682
+        },
+        {
+          "step": 1000,
+          "loss": 0.22838199138641357
+        },
+        {
+          "step": 1200,
+          "loss": 0.18259556591510773
+        },
+        {
+          "step": 1400,
+          "loss": 0.15166029334068298
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 49.582756167277694,
+  "control_exact": true,
+  "peak_gpu_allocated_bytes": 101546496
+}

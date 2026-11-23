@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "no_GPU_or_native_scene_created": true,
+  "checks": [
+    "exact_boundary",
+    "original_episode_folder_must_not_preexist",
+    "RGB_mismatch_retains_original_warmup",
+    "RNG_mismatch_retains_original_warmup",
+    "physical_mismatch_retains_original_warmup",
+    "missing_diagnostic_original_path",
+    "original_UnStable_warmup_fallback",
+    "second_initialization_wrong_RGB_rejected",
+    "second_initialization_wrong_RNG_rejected"
+  ],
+  "only_exact_original_boundary_can_skip_discarded_setup": true,
+  "original_fallback_and_failure_semantics_preserved": true,
+  "no_outcomes_or_model_features_used": true
+}

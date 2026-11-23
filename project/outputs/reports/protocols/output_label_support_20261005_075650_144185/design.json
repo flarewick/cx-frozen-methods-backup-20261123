@@ -1,0 +1,134 @@
+{
+  "stage": "S2o_output_support_and_target_clipping",
+  "status": "design_frozen_before_implementation_training_or_live_eval",
+  "reason": "Current 43k closed-loop history lacks matched output-support x supervision-clipping ablation. Earlier learned unbounded proposals were offline and not this deployment head.",
+  "original_training_run": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074",
+  "CPU_frozen_head_inspection": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/reports/attribution/output_range_audit_20261005_075034_258694/result.json",
+  "conditions": {
+    "A_bounded_clipped": {
+      "output": "reference_scale*tanh(logits)",
+      "supervision": "clip((teacher-base)/reference_scale,-1,1)",
+      "role": "Exact original S0 control; after training require tensorwise reproduction"
+    },
+    "B_open_clipped": {
+      "output": "reference_scale*logits",
+      "supervision": "clip((teacher-base)/reference_scale,-1,1)",
+      "role": "Only output support/activation changed"
+    },
+    "C_bounded_raw": {
+      "output": "reference_scale*tanh(logits)",
+      "supervision": "(teacher-base)/reference_scale",
+      "role": "Only target clipping changed; over-range loss explicitly recorded"
+    },
+    "D_open_raw": {
+      "output": "reference_scale*logits",
+      "supervision": "(teacher-base)/reference_scale",
+      "role": "Combined interaction; compared with B and C to separate effects"
+    }
+  },
+  "fixed": {
+    "rows": 611,
+    "row_order": "Original byte-identical inputs/labels order",
+    "row_weights": "Original 1/1/2 supplied row weights; no rebalance",
+    "PCA": "Original32 channels, no refit",
+    "inputs": "Exactly9 legal fields and native base chunk",
+    "history": "Original past fields, no new native-history augmentation",
+    "initialization": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/initial_seed0.pt",
+    "initial_state_sha256": "cd6b1fccfd70c620fd790a165c0d15dd31de12da94bdf1cc31560f0b2a3bbb9b",
+    "parameters": 42934,
+    "seed": 0,
+    "updates": 1400,
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "batch": "All611 rows on every update",
+    "auxiliary_coefficient": 0.0,
+    "loss": "Original masked SmoothL1 row/valid-step mean, normalization reference0.1rad arms/0.2 grippers in ALL4 cells. Do not rescale loss when opening support.",
+    "checkpoint": "Final1400 only; no best checkpoint/seed/budget selection"
+  },
+  "no_new_training_data": true,
+  "new_recovery_targets_added": 0,
+  "inherited_raw_source_gaps": 33,
+  "output_open_definition": "Cancel extra relative residual amplitude cap via linear output; do not cancel physical URDF/gripper domain or original native execution constraints.",
+  "no_posthoc_weight_mutation_for_method_results": true,
+  "posthoc_linear_reconstruction": "CPU diagnostic only; old logits did not train under raw amplitude supervision",
+  "CPU_acceptance": [
+    "A control state and outputs reproduce old S0",
+    "All4 use same actual initialization and allocation",
+    "Only declared output function and target transform vary",
+    "Original scale/weights/masks/PCA/inputs bytewise retained",
+    "Disabled and zero-weight labels have no loss/gradient effect",
+    "Predict and report robot-domain violations separately from extra residual caps"
+  ],
+  "training_interface_gate": "Define robot-domain handling and prove consistent application across all candidate/baseline conditions before physical execution. If any additional projection changes official L0, separate its effect; do not silently rename a changed baseline.",
+  "order": [
+    "Reuse old offline proposal/teacher evidence and completed CPU inspection; no reruns",
+    "Implement isolated four-cell learner/loss and validate CPU contracts",
+    "Train all4 fixed-budget small heads and read back; no backbone LoRA/TTA",
+    "Local bounded deploy interface with compiled VLA/internal noise/per-action observation",
+    "External same-process small four-task L0/A/B/C/D development screen with success-preservation checks",
+    "Only if repeated net gain and success preservation: expand fixed20seed/new whole-scene development and training-seed checks; then router/TTA"
+  ],
+  "evaluation_design": {
+    "tasks": [
+      "beat_block_hammer",
+      "place_shoe",
+      "turn_switch",
+      "place_empty_cup"
+    ],
+    "scenes": "Reuse exact previously sealed S2m two-scene/task panel; freeze scene identities before implementation. Reused development, not independent confirmation.",
+    "repeats": 2,
+    "conditions": [
+      "L0",
+      "A_bounded_clipped",
+      "B_open_clipped",
+      "C_bounded_raw",
+      "D_open_raw"
+    ],
+    "same_process_shared_compiled_sampler": true,
+    "total_full_rollouts": 80,
+    "native_budget": "Original task400/500, no resets",
+    "noise": "Model-internal, no explicit replacement noise",
+    "observations": "Update after every action as official",
+    "storage": "Small numbers/signatures/config/source; no RGB/video or backbone duplication",
+    "external_GPU_default": 0,
+    "reuse_L0_rule": "Reuse old science conclusions. New-head causal comparison needs same-process L0; do not splice old cross-process episodes.",
+    "commands_status": "Not ready until actual model/checkpoint/interface gates pass; do not issue runnable commands prematurely",
+    "scene_seeds": {
+      "beat_block_hammer": [
+        100380,
+        100387
+      ],
+      "place_shoe": [
+        100380,
+        100386
+      ],
+      "turn_switch": [
+        100380,
+        100383
+      ],
+      "place_empty_cup": [
+        100380,
+        100382
+      ]
+    }
+  },
+  "promotion": "Report all4 cells by task and scene, rescues/harms, amplitude/range statistics and full repeat validity. Do not choose a different head/scale by task. Net gain and repeated success preservation required.",
+  "interpretation": "Activation and attainable output set vary together by design; inference-only activation removal and raw-supervision retraining are different interventions. A fixed dataset has inherited support/timing limitations; results do not by themselves establish broad task generalization.",
+  "relation_to_previous_plan": "S2n added-history training stays gated by0 qualified original-cap recovery targets. This S2o experiment instead tests that cap/label assumption on the unchanged611 background; original0.1 is not an immutable deployment law. Minimal suffix physics diagnostic remains a secondary mechanism probe, not a prerequisite for the four-cell learning interface.",
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/reports/attribution/output_range_audit_20261005_075034_258694/result.json": "2dd8923f27ecc0cb45a3b03ea1ccf3be16c971844e743e873ec7396caee1f809",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/protocol.json": "d66e4ff27971d5eef58b77ddb73730518b3461a336264d21ed4db23d7cb6e512",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/training_protocol.json": "16d33d1674ad6e5d6f05337a206823899ec1a5712f886807ff5493215d87b5f8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/training_result.json": "088ebf21f46b38073e474cfc924a1d3c9f8a7fc51cc6dc3d76fd27b5c572423b",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/training_audit.json": "3c0034f552f2b908604a445ef825032bec655ab9f8af94ddfa65d2c3520f1462",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/initial_seed0.pt": "b01c11b996429220751758eeb814a96c002c13dca41fa8254d4acfd5aef2b6cd",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/inputs.npz": "e66b27e5c8d3f081f3225eefe523e54bfdee7c196b5eb07bdb4530ea3a2b2e8f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/labels.npz": "b5348c6b2fcb42d1749f9cb15f8ac8b2aa0394474a3b2f772d937ad839efd4ee",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/development_inputs.npz": "9ea18bce925cfaf1cebd10879bacbefa4ccf7d2fdfc10546e2001bbdbd7ba74d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/development_labels.npz": "a0b28cb4af96826f83b69c2ee673bd0bf96c5242c2ad3dd7dde3cb1cb020197d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/structured_action_20261003_095511_385074/S0_seed0.pt": "84b64a00be1285c36c2f29f54d7885b76e584e53a0bd9be22d2cf0e200cd42bf",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/structured_action_adapter.py": "f66c08b5d25f57c03cf36478313e45551498123fa070582cf813364cc6ae37c8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/cx_tta/train_structured_action.py": "e7be8cc8f971ffb71e09c164b05f11844ac6c307487c1edbda157958d8a5e056",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/outputs/effect_learning/expert_history_action_20261004_143206_614773/evaluation_protocol.json": "bf8aa48cbae74af2737ad4a7c470d17967ffa8060d38fbdf0ffb60f1f363e49f"
+  }
+}

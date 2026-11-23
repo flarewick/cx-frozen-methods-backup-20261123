@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "first_answer_seconds": 10.194252799265087,
+  "all_six_seconds": 97.38092974433675,
+  "actual_arrival_seconds": [
+    0.0,
+    14.630323244,
+    34.906756417,
+    47.633646049,
+    61.602921812,
+    79.354458808
+  ],
+  "actual_production_dispatcher_and_workers": true,
+  "actual_parent_wait0": true,
+  "actual_worker_waits0": true,
+  "maximum_active_threads": 8,
+  "same_original_NN_models_float32_and_final_masks": true,
+  "checks": [
+    {
+      "content_key": "e48cf2bb397dbc1d5c804f043430f60bc2bbcbd104ce94ed677e39b4a0148d75",
+      "threads": 8,
+      "availability_reason_roles_masks_exact": true
+    },
+    {
+      "content_key": "af55a94e0eab41343bd1741356f3a2c40bdc2b6da040e563de45df2444463d51",
+      "threads": 8,
+      "availability_reason_roles_masks_exact": true
+    },
+    {
+      "content_key": "f5d434cc71f7db49502a04c1889688bf4ac8295aabb7e07c0d84a77385772d3a",
+      "threads": 8,
+      "availability_reason_roles_masks_exact": true
+    },
+    {
+      "content_key": "ad0487b5f37af8dd8e7d494c55618ae36ca4fca372f20c45a98589c31bce96b9",
+      "threads": 8,
+      "availability_reason_roles_masks_exact": true
+    },
+    {
+      "content_key": "f58686af772adf6a1b960341a3362d8e3f47f4409bec1229fb58a14063c8051c",
+      "threads": 8,
+      "availability_reason_roles_masks_exact": true
+    },
+    {
+      "content_key": "1318f1d4ad3b08d8f9c9756d89e1bf0f1e7a5a2048115bbc10de00be3f13aa0e",
+      "threads": 8,
+      "availability_reason_roles_masks_exact": true
+    }
+  ],
+  "no_GPU_optimizer_or_native_qualification": true,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_collection_v30/common.py": "5e9b08c920182fbf5a554c99bafe9640ff3f69b8221fe2652578b987cbd0bd31",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_collection_v30/semantic.py": "c0898ab1b8b6942737dcb1e7a386be1aedda3be912c95d9ec2ba60cf8be96f1e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_onpolicy_collection_v30/semantic_worker.py": "56b8b90e4c204c79280e61bd2a4dd8a9938c1c63123f92f8f66c76917b59c941",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_semantic_budget_pool_v1/AGENTS.md": "b9d7c1363f70fb670590f646b75df4d3749182026eab246f97e85b747ae30a13",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_semantic_budget_pool_v1/pool.py": "0357bd9e4e9cf65e34a7f1ef719c64f02a0b92bbca19421a0d8edd51242b5b4e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_semantic_budget_pool_v1/transform.py": "a14ac5bfca4b7a351b0b00753e4b7c746d4f29ecaa1eb1f28f78b4d7eb7ad0a9",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_semantic_budget_pool_v1/audit.py": "9c452b0f7b5b88d4d0f76273d53fa39fa624536c6e67cc42b5a0836a19eb8314",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_semantic_budget_pool_v1/production_check.py": "889be5236455278973fe2b873720acff619f485d99841392585bb265aeba79a9"
+  },
+  "input_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/e48cf2bb397dbc1d5c804f043430f60bc2bbcbd104ce94ed677e39b4a0148d75.json": "213ef77874c008d4bfc70a98c2a6cce6315b29e1827c9848fd9a957898770e4f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/af55a94e0eab41343bd1741356f3a2c40bdc2b6da040e563de45df2444463d51.json": "69eafa94c2668eef175458683f517072c25273d6ba7f344b2da5dca1144bc1f1",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/f5d434cc71f7db49502a04c1889688bf4ac8295aabb7e07c0d84a77385772d3a.json": "5ebd80cdec518bee07794a9ecb6952874b0ffe705ee3918d838f5350f97e2d19",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/ad0487b5f37af8dd8e7d494c55618ae36ca4fca372f20c45a98589c31bce96b9.json": "1ecc3c8b168246c69529438e3e02e20c2dbf0eb036e1f6645e11faba335e5708",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/f58686af772adf6a1b960341a3362d8e3f47f4409bec1229fb58a14063c8051c.json": "d907db1e52967073a3e449a2a2289e15122a102e4f4e08a0588d00ef7f3fbe90",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/1318f1d4ad3b08d8f9c9756d89e1bf0f1e7a5a2048115bbc10de00be3f13aa0e.json": "49aa8476ee8ffdc54b4deb10f4b01e3aaec5f2c982db05b884b4e2b8aee3853f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/protocol.json": "127f899ec5574c3c4a60672e25d9e0bc2a6d67a5d261da971a36116c289446f8",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/actual_host_wait_exit.json": "7f76af70700b39c04c24c86eb641e0912779c521974f57d5ff52bfba67e8cce5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/fit_007/CPU_actual_production_semantic_fixture_v1/semantic/answers/e48cf2bb397dbc1d5c804f043430f60bc2bbcbd104ce94ed677e39b4a0148d75.json": "478d1193682f21da78e3a752a72dccdf7dd19b66d0399f2f5bf11ca2e6c99471",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/e48cf2bb397dbc1d5c804f043430f60bc2bbcbd104ce94ed677e39b4a0148d75.npz": "46d14660b8ba64f0366d9f5413392a16a42ea24de9acc72a3206ed112485f8ef",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/fit_007/CPU_actual_production_semantic_fixture_v1/semantic/answers/af55a94e0eab41343bd1741356f3a2c40bdc2b6da040e563de45df2444463d51.json": "1d47a98b43fa5276329a2027d3138b90a05d28d44278ecf63b0bbb9d441ca0f7",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/af55a94e0eab41343bd1741356f3a2c40bdc2b6da040e563de45df2444463d51.npz": "85aa9b3e21627ba67aa82560cca8c2d109b8b962e757b1e0ce11d7ae93a31d46",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/fit_007/CPU_actual_production_semantic_fixture_v1/semantic/answers/f5d434cc71f7db49502a04c1889688bf4ac8295aabb7e07c0d84a77385772d3a.json": "7a3f05462ef65241f51184d7ee611da94123e88350a937608975a9180f7f259c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/f5d434cc71f7db49502a04c1889688bf4ac8295aabb7e07c0d84a77385772d3a.npz": "299b5587d4a2b3e13a6abe2e3c1aad2a4cf7e37730c78e7bd373df821d149b5c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/fit_007/CPU_actual_production_semantic_fixture_v1/semantic/answers/ad0487b5f37af8dd8e7d494c55618ae36ca4fca372f20c45a98589c31bce96b9.json": "2f9567a5f2aca41756e777a808436436dfc476400969d3ddceff0b3c7ab64bef",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/ad0487b5f37af8dd8e7d494c55618ae36ca4fca372f20c45a98589c31bce96b9.npz": "205097cb8dc0d1ec3c8ad32144b2eb6c5dc0ff43a0372bd80219a78b405e5eea",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/fit_007/CPU_actual_production_semantic_fixture_v1/semantic/answers/f58686af772adf6a1b960341a3362d8e3f47f4409bec1229fb58a14063c8051c.json": "1c54bc41b6fba8fdc0c9138984d635988575f1914abc108c069b2383f94cc9f0",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/f58686af772adf6a1b960341a3362d8e3f47f4409bec1229fb58a14063c8051c.npz": "e65892e75594b58d088c653c7469ffb3e6970eac76e1f3f8d6ed8e2b9c69fa3c",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/fit_007/CPU_actual_production_semantic_fixture_v1/semantic/answers/1318f1d4ad3b08d8f9c9756d89e1bf0f1e7a5a2048115bbc10de00be3f13aa0e.json": "1e7ca7a048bcd936aa7f95c802df261938874ffddf920df61a1023f0fd947fc2",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v29/fit_007/batches/000/runs/31ffb9b4cc2744259dd516c53fc3bb2a/semantic/requests/1318f1d4ad3b08d8f9c9756d89e1bf0f1e7a5a2048115bbc10de00be3f13aa0e.npz": "ff0b3b6b46e0f73bb3e0febfdd47fd479f8051e675f44bb36ea352c41a5e29e5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_semantic_arrival_pool_v1/CPU_actual_arrival_pool_latency_v1.json": "c8615e2217838ba7eb910092b433a227d4fe237de6756777d906bc35cae5e40f",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_collection_v30/fit_007/CPU_actual_production_semantic_fixture_v1/CPU_semantic_thread_budget_audit.json": "a0cf5677b64881bd47a5a344187da86353e76a9479411fabb9f04559e6129318"
+  }
+}

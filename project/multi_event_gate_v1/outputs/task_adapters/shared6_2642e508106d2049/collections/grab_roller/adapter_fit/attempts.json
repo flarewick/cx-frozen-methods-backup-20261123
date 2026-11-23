@@ -1,0 +1,2438 @@
+[
+  {
+    "task": "grab_roller",
+    "seed": 7300000,
+    "split": "adapter_fit",
+    "episode_index": 0,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_93ac2e4846de",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300000/session_93ac2e4846de/data/episode0.hdf5",
+    "capture": {
+      "frames": 97,
+      "decoded_images": 291,
+      "dense_steps": 4102,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 93,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Use arms to hold the narrow tapered roller tightly.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "18bbd77d0b585e88b247637e4e42145f899e471ad5927d0f938d31c4f3c1598b",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "086_woodenblock",
+          "object_index": "3"
+        },
+        {
+          "object_type": "039_mug",
+          "object_index": "3"
+        },
+        {
+          "object_type": "110_basket",
+          "object_index": "1"
+        },
+        {
+          "object_type": "075_bread",
+          "object_index": "5"
+        },
+        {
+          "object_type": "075_bread",
+          "object_index": "3"
+        },
+        {
+          "object_type": "078_phonestand",
+          "object_index": "2"
+        },
+        {
+          "object_type": "114_bottle",
+          "object_index": "4"
+        },
+        {
+          "object_type": "073_rubikscube",
+          "object_index": "1"
+        },
+        {
+          "object_type": "bowl",
+          "object_index": "021"
+        },
+        {
+          "object_type": "003_plate",
+          "object_index": "0"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/6093",
+        "table_texture": "seen/7104"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300001,
+    "split": "adapter_fit",
+    "episode_index": 1,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_93ac2e4846de",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300001/session_93ac2e4846de/data/episode1.hdf5",
+    "capture": {
+      "frames": 101,
+      "decoded_images": 303,
+      "dense_steps": 4164,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 97,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the wood roller off the table with both arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "a5060a413f9313a037b4095bbf3bacaff34af91b9a21798ab1bfa6cb64038fb7",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3226",
+        "table_texture": "seen/7662"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300002,
+    "split": "adapter_fit",
+    "episode_index": 2,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_93ac2e4846de",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300002/session_93ac2e4846de/data/episode2.hdf5",
+    "capture": {
+      "frames": 102,
+      "decoded_images": 306,
+      "dense_steps": 4187,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 98,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Pick up the solid wood roller from the table directly.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "df1faeb97a75052dee040a52ef189d70f2f7734e82c78a0d89af12c99e3aee7b",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7533",
+        "table_texture": "seen/9318"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300003,
+    "split": "adapter_fit",
+    "episode_index": 3,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_0d4bcba5f6be",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300003/session_0d4bcba5f6be/data/episode3.hdf5",
+    "capture": {
+      "frames": 98,
+      "decoded_images": 294,
+      "dense_steps": 4131,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 94,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Take hold of the light wood roller.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "2f66304a56f1e586c109826c025608507e270f26b93b81d2b2a13428d4425557",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "089_globe",
+          "object_index": "2"
+        },
+        {
+          "object_type": "sneaker",
+          "object_index": "006"
+        },
+        {
+          "object_type": "049_shampoo",
+          "object_index": "7"
+        },
+        {
+          "object_type": "070_paymentsign",
+          "object_index": "0"
+        },
+        {
+          "object_type": "081_playingcards",
+          "object_index": "1"
+        },
+        {
+          "object_type": "055_small-speaker",
+          "object_index": "1"
+        },
+        {
+          "object_type": "071_can",
+          "object_index": "1"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/3490",
+        "table_texture": "seen/3167"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300004,
+    "split": "adapter_fit",
+    "episode_index": 4,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_0d4bcba5f6be",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300004/session_0d4bcba5f6be/data/episode4.hdf5",
+    "capture": {
+      "frames": 98,
+      "decoded_images": 294,
+      "dense_steps": 4128,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 93,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Get hold of the medium-sized roller using your arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "61c0791d39d30ae88eb6e994d4f44336d7d66f640fc870b791fce61b540cbc75",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/906",
+        "table_texture": "seen/3942"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300005,
+    "split": "adapter_fit",
+    "episode_index": 5,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_0d4bcba5f6be",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300005/session_0d4bcba5f6be/data/episode5.hdf5",
+    "capture": {
+      "frames": 99,
+      "decoded_images": 297,
+      "dense_steps": 4140,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 95,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Use both arms to grab the roller with smooth and shiny texture.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "23c443a2c9d81f2cbd10ec00687969a9e4b08d1227bc2d96fb155f83ce2f5ed0",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/1987",
+        "table_texture": "seen/5101"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300006,
+    "split": "adapter_fit",
+    "episode_index": 6,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_0d4bcba5f6be",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300006/session_0d4bcba5f6be/data/episode6.hdf5",
+    "capture": {
+      "frames": 98,
+      "decoded_images": 294,
+      "dense_steps": 4127,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 93,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Securely grab the roller for rolling using both arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "b539aa6a64f12403922d7b02567762556145b2fe33437254917a1985c81dd9ac",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3599",
+        "table_texture": "seen/2562"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300007,
+    "split": "adapter_fit",
+    "episode_index": 7,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_0d4bcba5f6be",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300007/session_0d4bcba5f6be/data/episode7.hdf5",
+    "capture": {
+      "frames": 93,
+      "decoded_images": 279,
+      "dense_steps": 4045,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 89,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Firmly grab the palm-length roller using arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "7ca347a12eb788e0221a29e3f247ee702b797b5f211a7568eeeb812c93129bd4",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5756",
+        "table_texture": "seen/1571"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300008,
+    "split": "adapter_fit",
+    "episode_index": 8,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_0d4bcba5f6be",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300008/session_0d4bcba5f6be/data/episode8.hdf5",
+    "capture": {
+      "frames": 91,
+      "decoded_images": 273,
+      "dense_steps": 4029,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 87,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the roller shaped like cylinder off the table with both arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "3e39d24099b8ed7b34aadb4c43d767b73b0e04f335a3ea84d7a8826c57ccf7d7",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": null,
+        "table_texture": "seen/6017"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300009,
+    "split": "adapter_fit",
+    "episode_index": 9,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ec67870d892f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300009/session_ec67870d892f/data/episode9.hdf5",
+    "capture": {
+      "frames": 94,
+      "decoded_images": 282,
+      "dense_steps": 4079,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 90,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the roller with smooth and shiny texture off the table with both arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "8244b3a6f9b92619b95fc2978ade63c2ad8cefd7eb44583d43509fdf28e7d695",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "091_kettle",
+          "object_index": "4"
+        },
+        {
+          "object_type": "111_callbell",
+          "object_index": "5"
+        },
+        {
+          "object_type": "remote",
+          "object_index": "006"
+        },
+        {
+          "object_type": "050_bell",
+          "object_index": "1"
+        },
+        {
+          "object_type": "109_hydrating-oil",
+          "object_index": "1"
+        },
+        {
+          "object_type": "004_fluted-block",
+          "object_index": "1"
+        },
+        {
+          "object_type": "087_waterer",
+          "object_index": "0"
+        },
+        {
+          "object_type": "093_brush-pen",
+          "object_index": "1"
+        },
+        {
+          "object_type": "093_brush-pen",
+          "object_index": "0"
+        },
+        {
+          "object_type": "066_vinegar",
+          "object_index": "1"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/5488",
+        "table_texture": "seen/5847"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300010,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_ec67870d892f",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7300010), unstable objects: 045_sand-clock"
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300011,
+    "split": "adapter_fit",
+    "episode_index": 10,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ec67870d892f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300011/session_ec67870d892f/data/episode10.hdf5",
+    "capture": {
+      "frames": 95,
+      "decoded_images": 285,
+      "dense_steps": 4070,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 90,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Pick up the palm-sized roller using both arms equally",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "11c31486fbb88d6b4c4bc60fcbcd01b29cf610f96103afd06fed40a220439417",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "105_sauce-can",
+          "object_index": "6"
+        },
+        {
+          "object_type": "slipper",
+          "object_index": "001"
+        },
+        {
+          "object_type": "099_fan",
+          "object_index": "4"
+        },
+        {
+          "object_type": "053_teanet",
+          "object_index": "5"
+        },
+        {
+          "object_type": "048_stapler",
+          "object_index": "5"
+        },
+        {
+          "object_type": "113_coffee-box",
+          "object_index": "0"
+        },
+        {
+          "object_type": "bottle",
+          "object_index": "017"
+        },
+        {
+          "object_type": "004_fluted-block",
+          "object_index": "0"
+        },
+        {
+          "object_type": "107_soap",
+          "object_index": "1"
+        },
+        {
+          "object_type": "006_hamburg",
+          "object_index": "0"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/8613",
+        "table_texture": "seen/8015"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300012,
+    "split": "adapter_fit",
+    "episode_index": 11,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ec67870d892f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300012/session_ec67870d892f/data/episode11.hdf5",
+    "capture": {
+      "frames": 99,
+      "decoded_images": 297,
+      "dense_steps": 4142,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 95,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Pick up the roller using any method",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "8774cf3bcaee099a60d7740687be15a74c567b21d98c9d678007e11c856b0fe5",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "chip_can",
+          "object_index": "007"
+        },
+        {
+          "object_type": "047_mouse",
+          "object_index": "2"
+        },
+        {
+          "object_type": "093_brush-pen",
+          "object_index": "2"
+        },
+        {
+          "object_type": "030_drill",
+          "object_index": "6"
+        },
+        {
+          "object_type": "112_tea-box",
+          "object_index": "5"
+        },
+        {
+          "object_type": "070_paymentsign",
+          "object_index": "0"
+        },
+        {
+          "object_type": "080_pillbottle",
+          "object_index": "5"
+        },
+        {
+          "object_type": "068_boxdrink",
+          "object_index": "3"
+        },
+        {
+          "object_type": "073_rubikscube",
+          "object_index": "0"
+        },
+        {
+          "object_type": "070_paymentsign",
+          "object_index": "3"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/7603",
+        "table_texture": "seen/1419"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300013,
+    "split": "adapter_fit",
+    "episode_index": 12,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ec67870d892f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300013/session_ec67870d892f/data/episode12.hdf5",
+    "capture": {
+      "frames": 91,
+      "decoded_images": 273,
+      "dense_steps": 4021,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 86,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Grab the roller on the table.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "3e9d94cf29ec03903e1b7f663a62cf2720ee0784f2b4f3b5a4da54a97bf7a352",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7517",
+        "table_texture": "seen/6544"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300014,
+    "split": "adapter_fit",
+    "episode_index": 13,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ec67870d892f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300014/session_ec67870d892f/data/episode13.hdf5",
+    "capture": {
+      "frames": 92,
+      "decoded_images": 276,
+      "dense_steps": 4042,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 88,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Reach for the cylindrical roller with tapered ends and hold it firmly",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "276b8d82a3b87cf6de40641fab101d4e80228e633dd4ade22bb73edc359bd595",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/3077",
+        "table_texture": "seen/6695"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300015,
+    "split": "adapter_fit",
+    "episode_index": 14,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_ec67870d892f",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300015/session_ec67870d892f/data/episode14.hdf5",
+    "capture": {
+      "frames": 91,
+      "decoded_images": 273,
+      "dense_steps": 4040,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 87,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Firmly grab the brown roller using arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "2c0c9900a376ff8e79db69d56621a0f3187776ea0222fd3f882bb72ab0dff7c0",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7619",
+        "table_texture": "seen/3864"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300016,
+    "split": "adapter_fit",
+    "episode_index": 15,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_3d90cbe70388",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300016/session_3d90cbe70388/data/episode15.hdf5",
+    "capture": {
+      "frames": 99,
+      "decoded_images": 297,
+      "dense_steps": 4143,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 95,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the roller with smooth texture off the table with arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "f1ff5d3366e84c676851b0db0766123489cb3ad73ebe0d46a5baae07f005559f",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/6906",
+        "table_texture": "seen/8777"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300017,
+    "split": "adapter_fit",
+    "episode_index": 16,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_3d90cbe70388",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300017/session_3d90cbe70388/data/episode16.hdf5",
+    "capture": {
+      "frames": 101,
+      "decoded_images": 303,
+      "dense_steps": 4184,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 97,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Hold the palm-length roller with both arms to pick it up",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "93afaf38532392b8ee0e77cd879df1ca217da690eb416a1d9cdd88fd56f86702",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2717",
+        "table_texture": "seen/565"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300018,
+    "split": "adapter_fit",
+    "episode_index": 17,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_3d90cbe70388",
+    "excluded_reason": "expert_missing_grasp_target",
+    "error_type": "ExpertPlanningFailure",
+    "error": "target_pose cannot be None for move action."
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300019,
+    "split": "adapter_fit",
+    "episode_index": 17,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_3d90cbe70388",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300019/session_3d90cbe70388/data/episode17.hdf5",
+    "capture": {
+      "frames": 96,
+      "decoded_images": 288,
+      "dense_steps": 4111,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 92,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Hold the smooth cylindrical roller from the table.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "90c75032ff2ae81720c14790807e10980bd4e162c3c4733e4399b4740f4493bb",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/1585",
+        "table_texture": "seen/9209"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300020,
+    "split": "adapter_fit",
+    "episode_index": 18,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_3d90cbe70388",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300020/session_3d90cbe70388/data/episode18.hdf5",
+    "capture": {
+      "frames": 94,
+      "decoded_images": 282,
+      "dense_steps": 4071,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 90,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Grasp the palm-sized roller on the table with arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "be6b532cb307c7c4821ae61afba396d9a3e6b08c068bf3f2800e766789e81296",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/6929",
+        "table_texture": "seen/4529"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300021,
+    "split": "adapter_fit",
+    "episode_index": 19,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_3d90cbe70388",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300021/session_3d90cbe70388/data/episode19.hdf5",
+    "capture": {
+      "frames": 100,
+      "decoded_images": 300,
+      "dense_steps": 4153,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 95,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the light wood roller from the table carefully.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "fde66883693dc05c154e48eb23fcbe880eca2dde2e53e4d8e845cd0bb40dbb1d",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/546",
+        "table_texture": "seen/4697"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300022,
+    "split": "adapter_fit",
+    "episode_index": 20,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_3d90cbe70388",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300022/session_3d90cbe70388/data/episode20.hdf5",
+    "capture": {
+      "frames": 91,
+      "decoded_images": 273,
+      "dense_steps": 4022,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 86,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the roller with polished surface with your arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "7a4f5a8e42d1dea471bbe2760ec827b3d1127c755db24de6ac09c609a70825c1",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2683",
+        "table_texture": "seen/5364"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300023,
+    "split": "adapter_fit",
+    "episode_index": 21,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_aa3016744f83",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300023/session_aa3016744f83/data/episode21.hdf5",
+    "capture": {
+      "frames": 96,
+      "decoded_images": 288,
+      "dense_steps": 4101,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 92,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the light brown wooden roller with your arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "5996e7005c662b07affb65ddc0cd2983362b4cfe86086114e456c3f8faa07f59",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "024_scanner",
+          "object_index": "2"
+        },
+        {
+          "object_type": "110_basket",
+          "object_index": "1"
+        },
+        {
+          "object_type": "003_plate",
+          "object_index": "0"
+        },
+        {
+          "object_type": "071_can",
+          "object_index": "0"
+        },
+        {
+          "object_type": "105_sauce-can",
+          "object_index": "6"
+        },
+        {
+          "object_type": "chip_can",
+          "object_index": "008"
+        },
+        {
+          "object_type": "toy_car",
+          "object_index": "002"
+        },
+        {
+          "object_type": "001_bottle",
+          "object_index": "5"
+        },
+        {
+          "object_type": "092_notebook",
+          "object_index": "0"
+        },
+        {
+          "object_type": "050_bell",
+          "object_index": "1"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/8160",
+        "table_texture": "seen/7162"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300024,
+    "split": "adapter_fit",
+    "episode_index": 22,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_aa3016744f83",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300024/session_aa3016744f83/data/episode22.hdf5",
+    "capture": {
+      "frames": 97,
+      "decoded_images": 291,
+      "dense_steps": 4107,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 92,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Get hold of the smooth light brown roller using your arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "e723e2f539a5f9f1403eb403ef38bfe9a874133c27186c3117163c6af0499007",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/1200",
+        "table_texture": "seen/4265"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300025,
+    "split": "adapter_fit",
+    "episode_index": 23,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_aa3016744f83",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300025/session_aa3016744f83/data/episode23.hdf5",
+    "capture": {
+      "frames": 91,
+      "decoded_images": 273,
+      "dense_steps": 4034,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 87,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the roller shaped like cylinder from its place on the table",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "5f559bf8034c469930882da2bb5d5cdc0eb343c31b078c9b91d947fb2f41b161",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/8050",
+        "table_texture": "seen/1528"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300026,
+    "split": "adapter_fit",
+    "episode_index": 24,
+    "accepted": false,
+    "plan_success": true,
+    "replay_success": false,
+    "session": "session_93e4f8ade633",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7300026), unstable objects: 080_pillbottle"
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300027,
+    "split": "adapter_fit",
+    "episode_index": 24,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_93e4f8ade633",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300027/session_93e4f8ade633/data/episode24.hdf5",
+    "capture": {
+      "frames": 97,
+      "decoded_images": 291,
+      "dense_steps": 4113,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 93,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Use both arms to grip the solid wood roller tightly.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "7357129d344bd63a7f8705f9ba0fd766005cceb12814be97307ef19ef3aa1bcd",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "070_paymentsign",
+          "object_index": "0"
+        },
+        {
+          "object_type": "ramen_box",
+          "object_index": "023"
+        },
+        {
+          "object_type": "092_notebook",
+          "object_index": "1"
+        },
+        {
+          "object_type": "107_soap",
+          "object_index": "2"
+        },
+        {
+          "object_type": "112_tea-box",
+          "object_index": "3"
+        },
+        {
+          "object_type": "055_small-speaker",
+          "object_index": "1"
+        },
+        {
+          "object_type": "steel_tape",
+          "object_index": "003"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/7738",
+        "table_texture": "seen/5179"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300028,
+    "split": "adapter_fit",
+    "episode_index": 25,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_9c4159500ea0",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300028/session_9c4159500ea0/data/episode25.hdf5",
+    "capture": {
+      "frames": 94,
+      "decoded_images": 282,
+      "dense_steps": 4079,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 90,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the roller shaped like cylinder from the table carefully.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "2f56bdc7dca94f700bb671a716fd13cdf2dbb7626dcb6ad6401636c5fe0e6bd7",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "006_hamburg",
+          "object_index": "1"
+        },
+        {
+          "object_type": "019_coaster",
+          "object_index": "0"
+        },
+        {
+          "object_type": "078_phonestand",
+          "object_index": "4"
+        },
+        {
+          "object_type": "093_brush-pen",
+          "object_index": "1"
+        },
+        {
+          "object_type": "046_alarm-clock",
+          "object_index": "1"
+        },
+        {
+          "object_type": "086_woodenblock",
+          "object_index": "1"
+        },
+        {
+          "object_type": "065_soy-sauce",
+          "object_index": "0"
+        },
+        {
+          "object_type": "088_wineglass",
+          "object_index": "1"
+        },
+        {
+          "object_type": "055_small-speaker",
+          "object_index": "2"
+        },
+        {
+          "object_type": "bottle",
+          "object_index": "025"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/105",
+        "table_texture": "seen/8865"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300029,
+    "split": "adapter_fit",
+    "episode_index": 26,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_8a95b37eb4e8",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300029/session_8a95b37eb4e8/data/episode26.hdf5",
+    "capture": {
+      "frames": 95,
+      "decoded_images": 285,
+      "dense_steps": 4090,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 91,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Grab the roller placed on the table",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "5ca0bb72cdd37ccf4883553d505c473975dbb885044212d3e0e6959a5ad85637",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "053_teanet",
+          "object_index": "7"
+        },
+        {
+          "object_type": "030_drill",
+          "object_index": "6"
+        },
+        {
+          "object_type": "105_sauce-can",
+          "object_index": "6"
+        },
+        {
+          "object_type": "105_sauce-can",
+          "object_index": "2"
+        },
+        {
+          "object_type": "080_pillbottle",
+          "object_index": "4"
+        },
+        {
+          "object_type": "029_olive-oil",
+          "object_index": "2"
+        },
+        {
+          "object_type": "tissue",
+          "object_index": "004"
+        },
+        {
+          "object_type": "ramen_box",
+          "object_index": "022"
+        },
+        {
+          "object_type": "055_small-speaker",
+          "object_index": "1"
+        },
+        {
+          "object_type": "075_bread",
+          "object_index": "1"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/6807",
+        "table_texture": "seen/7522"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300030,
+    "split": "adapter_fit",
+    "episode_index": 27,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_85447e459a97",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300030/session_85447e459a97/data/episode27.hdf5",
+    "capture": {
+      "frames": 90,
+      "decoded_images": 270,
+      "dense_steps": 4009,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 86,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Grab the wood roller directly from the table.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "6b55e9ab34feee3e61e8fc958c7bda21a6207202567e93d33ea7709b352fe902",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "105_sauce-can",
+          "object_index": "0"
+        },
+        {
+          "object_type": "051_candlestick",
+          "object_index": "2"
+        },
+        {
+          "object_type": "079_remotecontrol",
+          "object_index": "1"
+        },
+        {
+          "object_type": "tissue",
+          "object_index": "004"
+        },
+        {
+          "object_type": "065_soy-sauce",
+          "object_index": "3"
+        },
+        {
+          "object_type": "077_phone",
+          "object_index": "1"
+        },
+        {
+          "object_type": "085_gong",
+          "object_index": "2"
+        },
+        {
+          "object_type": "100_seal",
+          "object_index": "6"
+        },
+        {
+          "object_type": "075_bread",
+          "object_index": "2"
+        },
+        {
+          "object_type": "055_small-speaker",
+          "object_index": "1"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/5982",
+        "table_texture": "seen/3934"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300031,
+    "split": "adapter_fit",
+    "episode_index": 28,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_85447e459a97",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300031/session_85447e459a97/data/episode28.hdf5",
+    "capture": {
+      "frames": 92,
+      "decoded_images": 276,
+      "dense_steps": 4045,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 88,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Use both arms to grab the cylindrical roller.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "05f3d50992e87a61a23eb85a85daf32b336d905c64be8167871d6a3aef344be3",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "019_coaster",
+          "object_index": "0"
+        },
+        {
+          "object_type": "ramen_box",
+          "object_index": "012"
+        },
+        {
+          "object_type": "101_milk-tea",
+          "object_index": "2"
+        },
+        {
+          "object_type": "006_hamburg",
+          "object_index": "0"
+        },
+        {
+          "object_type": "005_french-fries",
+          "object_index": "2"
+        },
+        {
+          "object_type": "drinkbox",
+          "object_index": "003"
+        },
+        {
+          "object_type": "toothbrush",
+          "object_index": "009"
+        },
+        {
+          "object_type": "086_woodenblock",
+          "object_index": "1"
+        },
+        {
+          "object_type": "077_phone",
+          "object_index": "2"
+        },
+        {
+          "object_type": "bowl",
+          "object_index": "020"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/5838",
+        "table_texture": "seen/383"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300032,
+    "split": "adapter_fit",
+    "episode_index": 29,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_85447e459a97",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300032/session_85447e459a97/data/episode29.hdf5",
+    "capture": {
+      "frames": 98,
+      "decoded_images": 294,
+      "dense_steps": 4139,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 94,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "cluttered_obj",
+        "roller",
+        "wall"
+      ],
+      "instruction": "Secure the smooth light brown roller from the table using arms",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "6fdc733daa568e5e9369575a3fa24bd037631f0be26f3abf5c78b58b7cbbd765",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [
+        {
+          "object_type": "085_gong",
+          "object_index": "4"
+        },
+        {
+          "object_type": "sneaker",
+          "object_index": "006"
+        },
+        {
+          "object_type": "029_olive-oil",
+          "object_index": "2"
+        },
+        {
+          "object_type": "002_bowl",
+          "object_index": "5"
+        },
+        {
+          "object_type": "071_can",
+          "object_index": "1"
+        },
+        {
+          "object_type": "snack_package",
+          "object_index": "003"
+        },
+        {
+          "object_type": "chip_can",
+          "object_index": "003"
+        },
+        {
+          "object_type": "drinkbox",
+          "object_index": "003"
+        },
+        {
+          "object_type": "112_tea-box",
+          "object_index": "3"
+        },
+        {
+          "object_type": "071_can",
+          "object_index": "1"
+        }
+      ],
+      "texture_info": {
+        "wall_texture": "seen/1453",
+        "table_texture": "seen/3600"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300033,
+    "split": "adapter_fit",
+    "episode_index": 30,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_85447e459a97",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7300033), unstable objects: 001_bottle"
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300034,
+    "split": "adapter_fit",
+    "episode_index": 30,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_85447e459a97",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7300034), unstable objects: 114_bottle"
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300035,
+    "split": "adapter_fit",
+    "episode_index": 30,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_179ff6cc7f89",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300035/session_179ff6cc7f89/data/episode30.hdf5",
+    "capture": {
+      "frames": 96,
+      "decoded_images": 288,
+      "dense_steps": 4118,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 92,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Take the medium-sized roller directly from the table.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "b039f67183562213d9f180add289d1324cfac0c10597b3a6e74678f197ed41c7",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/688",
+        "table_texture": "seen/215"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300036,
+    "split": "adapter_fit",
+    "episode_index": 31,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_179ff6cc7f89",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300036/session_179ff6cc7f89/data/episode31.hdf5",
+    "capture": {
+      "frames": 99,
+      "decoded_images": 297,
+      "dense_steps": 4157,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 95,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Use arms to firmly grab the medium roller with narrower tips.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "369fca0e1f533a746c45e9b19e2293aa79d85e8a8c46d830999bd45384ae521f",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/692",
+        "table_texture": "seen/4192"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300037,
+    "split": "adapter_fit",
+    "episode_index": 32,
+    "accepted": false,
+    "plan_success": false,
+    "replay_success": false,
+    "session": "session_179ff6cc7f89",
+    "excluded_reason": "unstable_scene",
+    "error_type": "UnStableError",
+    "error": "Objects is unstable in seed(7300037), unstable objects: 102_roller"
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300038,
+    "split": "adapter_fit",
+    "episode_index": 32,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_179ff6cc7f89",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300038/session_179ff6cc7f89/data/episode32.hdf5",
+    "capture": {
+      "frames": 92,
+      "decoded_images": 276,
+      "dense_steps": 4038,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 88,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Take hold of the light brown roller with both arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "bef71c57ebd246a4555fee9117e66dfdbe87fe5e90f3554631aa18dbbeab0112",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7081",
+        "table_texture": "seen/2291"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300039,
+    "split": "adapter_fit",
+    "episode_index": 33,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_179ff6cc7f89",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300039/session_179ff6cc7f89/data/episode33.hdf5",
+    "capture": {
+      "frames": 92,
+      "decoded_images": 276,
+      "dense_steps": 4036,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 88,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Take the light brown roller directly from the table.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "d2aa5340d7a58bedeea7c462151f2a7afb399514deedbee10183dcd65eea9889",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7776",
+        "table_texture": "seen/2888"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300040,
+    "split": "adapter_fit",
+    "episode_index": 34,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5a586874e066",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300040/session_5a586874e066/data/episode34.hdf5",
+    "capture": {
+      "frames": 97,
+      "decoded_images": 291,
+      "dense_steps": 4117,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 93,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Place hands on the wooden rolling tool and lift.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "4d2728fb36f407a965d15eb877eb0b4904073929b2b9aa67e357f462b37dbb99",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4992",
+        "table_texture": "seen/608"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300041,
+    "split": "adapter_fit",
+    "episode_index": 35,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5a586874e066",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300041/session_5a586874e066/data/episode35.hdf5",
+    "capture": {
+      "frames": 102,
+      "decoded_images": 306,
+      "dense_steps": 4181,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 98,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Take hold of the slim wooden roller.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "ebd15de1dc1d2c9a5d74defe237ce126d1509e2cf7bf0628521ef54550028943",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5953",
+        "table_texture": "seen/6175"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300042,
+    "split": "adapter_fit",
+    "episode_index": 36,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5a586874e066",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300042/session_5a586874e066/data/episode36.hdf5",
+    "capture": {
+      "frames": 106,
+      "decoded_images": 318,
+      "dense_steps": 4247,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 102,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Pick up the brown roller from the table directly.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "34603f6cd3a6abda43bbf485af330759f7dfe1335b0bc6d3377148918804a5bd",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2299",
+        "table_texture": "seen/6170"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300043,
+    "split": "adapter_fit",
+    "episode_index": 37,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_5a586874e066",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300043/session_5a586874e066/data/episode37.hdf5",
+    "capture": {
+      "frames": 94,
+      "decoded_images": 282,
+      "dense_steps": 4069,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 90,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Grab the roller with smooth and shiny texture placed on the table.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "2e98724e39804deaa87b67a7efd2c5356f170ed2c60033a1a65163853c82d6a7",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/6585",
+        "table_texture": "seen/6031"
+      },
+      "info": {
+        "{A}": "102_roller/base0"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300044,
+    "split": "adapter_fit",
+    "episode_index": 38,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_c32ea7a0c519",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300044/session_c32ea7a0c519/data/episode38.hdf5",
+    "capture": {
+      "frames": 102,
+      "decoded_images": 306,
+      "dense_steps": 4183,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 98,
+        "zero_time_transitions": 3,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Bring both arms to grab the palm-sized roller.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 3,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "1186fb52f2e4de6a334a39fa96001378a0f07d041d03d7450f518cc271fab4f0",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4386",
+        "table_texture": "seen/745"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  },
+  {
+    "task": "grab_roller",
+    "seed": 7300045,
+    "split": "adapter_fit",
+    "episode_index": 39,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_c32ea7a0c519",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/grab_roller/adapter_fit/expert_data/seed_7300045/session_c32ea7a0c519/data/episode39.hdf5",
+    "capture": {
+      "frames": 101,
+      "decoded_images": 303,
+      "dense_steps": 4165,
+      "effect_contract": {
+        "articulations": [],
+        "positive_time_transitions": 96,
+        "zero_time_transitions": 4,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "roller",
+        "wall"
+      ],
+      "instruction": "Lift the roller for rolling off the table with arms.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 4,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "02bea3302403038ec95e1703ffc6e2b5f90d143c90b221cb6b2369daf26d2ccb",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_fit",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/6213",
+        "table_texture": "seen/5508"
+      },
+      "info": {
+        "{A}": "102_roller/base2"
+      }
+    }
+  }
+]

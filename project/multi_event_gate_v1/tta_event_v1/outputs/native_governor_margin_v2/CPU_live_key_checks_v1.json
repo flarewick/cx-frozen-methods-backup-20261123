@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "historical_failed_runs_remain_failed": true,
+  "real_replay": [
+    {
+      "version": 17,
+      "first_extra_stop": {
+        "seconds": 283.27,
+        "reason": "Additional governor cumulative process35 margin not met",
+        "metrics": {
+          "seconds": 283.27,
+          "process_rolling180": {
+            "1020547": 52.87270892962503
+          },
+          "process_rolling60": {
+            "1020547": 56.221837581740694
+          },
+          "device_recent60": 58.99821996666667,
+          "cumulative_floor": 35,
+          "short_floor": 36,
+          "unchanged_original_guard": true
+        }
+      },
+      "last_metrics": {
+        "seconds": 2194.18,
+        "process_rolling180": {
+          "1020547": 32.47384008625522
+        },
+        "process_rolling60": {
+          "1020547": 16.992206464436215
+        },
+        "device_recent60": 20.273353533333335,
+        "cumulative_floor": 35,
+        "short_floor": 36,
+        "unchanged_original_guard": true
+      }
+    },
+    {
+      "version": 18,
+      "first_extra_stop": {
+        "seconds": 283.6,
+        "reason": "Additional governor cumulative process35 margin not met",
+        "metrics": {
+          "seconds": 283.6,
+          "process_rolling180": {
+            "4086435": 44.774360649957735
+          },
+          "process_rolling60": {
+            "4086435": 44.14846416302025
+          },
+          "device_recent60": 49.0020491,
+          "cumulative_floor": 35,
+          "short_floor": 36,
+          "unchanged_original_guard": true
+        }
+      },
+      "last_metrics": {
+        "seconds": 283.6,
+        "process_rolling180": {
+          "4086435": 44.774360649957735
+        },
+        "process_rolling60": {
+          "4086435": 44.14846416302025
+        },
+        "device_recent60": 49.0020491,
+        "cumulative_floor": 35,
+        "short_floor": 36,
+        "unchanged_original_guard": true
+      }
+    }
+  ],
+  "short_window_cannot_hide_in_cumulative": true,
+  "no_new_GPU_or_NVML_queries": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/AGENTS.md": "0499aaa6cf212ad513c893cdcee720cab987e27996c31c834f11ea81e4b660be",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/margin.py": "61e41fdf3234abe8bc81bdefd926f5b25ec0614e10213e841abb98961c3cebc0",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/checks.py": "75a2480d13f8b1156d8c5d94f19e4b909a70b64bfbb31b7490f2ee0de2c30345",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/checks_v2.py": "eac46b700c81ea78a52fb621c9f56479978a02a72e31459f638f885b4787f435",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/audit.py": "9240fe65007b8dbb3c624833322c066eb87862605c6034516e730d10f87a5bce",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/checks_v3.py": "a103f560a4b098adc56f509418702c9a86825a27d2925b988053b3ea42ee923a",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_governor_margin_v2/checks_live_keys.py": "cdd0ae89140930a134f34a84a9e5003bd540464ff20cf6b07f1f218e5674312e"
+  },
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v17/val_000/batches/000/runs/9aa22f00df2c4f8da7c06f254a943741/attempt/resources.jsonl": "64f435dc8e77606abe8b9110b004e2d0a5b30aafb8acfb6125ade80ce24d343c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_onpolicy_arm_collection_v18/val_000/batches/000/runs/fe9c99546bc047b891d086c01773ad54/attempt/resources.jsonl": "cbde645d6f21a59e25e25be5b84ea9005f1fd25d1bdaac9741491fe78903ef9c"
+  },
+  "actual_runtime_integer_and_serialized_PID_key_results_exact": 588
+}

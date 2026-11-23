@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "actual_capture_and_episode_import_passed": true,
+  "boundary": {
+    "actual_failed_RGB_and_commands_replayed": true,
+    "original_error_reproduced": true,
+    "strict_original_queue_now_accepts_actual_query_RGB": true,
+    "unchanged_clock_and_command": true,
+    "only_one_feedback_frame_per_tick": true,
+    "no_future_command_prefix_used": true,
+    "censored_endpoint_unchanged": true,
+    "changed_command_physics_and_conflicting_RGB_rejected": true,
+    "saved_boundary_GT_not_available": true,
+    "CPU_fixture_reuses_same_tick_diagnostic_physics_only": true,
+    "actual_failed_observation_sha256": "0741ca9a1e5e97f38c6602f8296823fe77e087f9ea0c8c0a17b8c59c643a7e53"
+  },
+  "actual_saved_streams": 12,
+  "local_rows": 1594,
+  "records": [
+    {
+      "job_id": "stack_blocks_two:7100000/source1",
+      "rows": 110,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_blocks_two:7100000/source3",
+      "rows": 130,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_blocks_two:7100000/source6",
+      "rows": 138,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_bowls_two:7100000/source1",
+      "rows": 133,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_bowls_two:7100000/source3",
+      "rows": 132,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_bowls_two:7100000/source5",
+      "rows": 138,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_blocks_two:7100001/source1",
+      "rows": 86,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_blocks_two:7100001/source3",
+      "rows": 117,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_blocks_two:7100001/source6",
+      "rows": 118,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_bowls_two:7100001/source1",
+      "rows": 136,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_bowls_two:7100001/source4",
+      "rows": 206,
+      "arrays_queue_phase_release_exact": true
+    },
+    {
+      "job_id": "stack_bowls_two:7100001/source6",
+      "rows": 150,
+      "arrays_queue_phase_release_exact": true
+    }
+  ],
+  "original_episode_body_AST_exact": true,
+  "strict_queue_source_unchanged": true,
+  "actual_SAM_forwards": 0,
+  "GPU_initialized": false,
+  "training_steps": 0,
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_endpoint_v1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_endpoint_v1/readouts.py": "aa2f621cdcee1345cae191f98edd4af5c71268b0d82141eade5be63c4c31b86d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_endpoint_v1/capture.py": "21c1daef216d784a7f78463e24f07f8eb98922943f929dd99410fcec9b815b55",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_endpoint_v1/episode.py": "601d482b1f9c971154da0f95db7a492e457f22d7dbc298278d216d7eef42eb1e",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_best100_endpoint_v1/cpu_checks.py": "39c7c318fd1945666e555b34bb854ad2abc7a33b3a45b9060ec3eeea5b98dbf9"
+  }
+}

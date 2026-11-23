@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "no_CUDA": true,
+  "helper_sha256": "a09ce23282b4d8c1cfc82e6751d563b448a8ca9baff9833dac0959210c738f7f",
+  "task_source_sha256": {
+    "place_empty_cup": "424bbd61f990ebfffb283eb152d17103c2a990edd20f68229203a96a2fd4d581",
+    "stack_bowls_two": "3e3217c277d84a0838739d55a0061a9acb3315240b5a99c6607d9637ea719637"
+  },
+  "pure_getter_source_sha256": {
+    "/data/cj/robo_pi/250010033/qfw/robotwin/RoboTwin/envs/_base_task.py": "448f7152b65cb9102217cf5463aa821d72810ca56f63d5a797ec7bd43e23e101",
+    "/data/cj/robo_pi/250010033/qfw/robotwin/RoboTwin/envs/robot/robot.py": "3dcd80acc8cab489a4c5edb507cc460dab1724be0226b8d5c4c1b218dee605cb",
+    "/data/cj/robo_pi/250010033/qfw/robotwin/RoboTwin/envs/utils/actor_utils.py": "252d43c526b23adcf4ba549fec64a49f037fc4a24e9edd1998e5f60d3e13d5d9"
+  },
+  "boolean_equivalence_cases": {
+    "place_empty_cup": 36217,
+    "stack_bowls_two": 36217
+  },
+  "actual_original_Actor_and_Robot_getters": true,
+  "isolated_original_method_AST_no_planner_import": true,
+  "original_geometry_and_thresholds_unchanged": true,
+  "no_physics_tick_or_render_prefix_removed": true,
+  "no_early_success_added": true,
+  "RNG_unchanged": true,
+  "return_value_compared_as_boolean_as_original_consumers": true,
+  "microbenchmark": {
+    "place_empty_cup": {
+      "original_seconds": 0.1744042867794633,
+      "shortcircuit_seconds": 0.00030422303825616837,
+      "closed_gripper_CPU_microbenchmark_only": true
+    },
+    "stack_bowls_two": {
+      "original_seconds": 0.04080460499972105,
+      "shortcircuit_seconds": 0.0003007478080689907,
+      "closed_gripper_CPU_microbenchmark_only": true
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "entire_strict_guard_AST_unchanged_except_metric_import": true,
+  "original_v4_process_clock_and_selection_AST_exact": true,
+  "parent_clock_proofs_explicitly_reused": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_process_sampler_v4/CPU_clock_checks.json": "89b10a431f1d17be291509e21ad90315dcb5d52fc6d21bf13c9e0b098d4b3db1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_process_sampler_v4/CPU_actual_exit.json": "bc7095cbe3b5e11526a4edd3f46978a5afc92fbbb8262d62a3f555a2cf4afeb5"
+  },
+  "original_deployment_module_unmodified": true,
+  "only_guard_private_proxy": true,
+  "same_three_second_timeout_and_one_attempt": true,
+  "unknown_process_memory_remains_NA": true,
+  "unknown_invalid_util_memory_fail_closed": true,
+  "negative_checks": [
+    "SM",
+    "SM",
+    "bandwidth",
+    "memory_used_bytes",
+    "memory_total_bytes",
+    "index"
+  ],
+  "actual_read_only_queries": [
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=memory.total"
+      ],
+      "CSV": "24564\n",
+      "elapsed_seconds": 0.15119914477691054
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+      ],
+      "CSV": "0,0,1\n",
+      "elapsed_seconds": 0.196844267193228
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888,5290\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492,8374\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763,12720\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757,21446\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396,510\n",
+      "elapsed_seconds": 0.17777834506705403
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396\n",
+      "elapsed_seconds": 0.17993448115885258
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=memory.total"
+      ],
+      "CSV": "24564\n",
+      "elapsed_seconds": 0.15218061115592718
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+      ],
+      "CSV": "0,0,1\n",
+      "elapsed_seconds": 0.1982902940362692
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888,5290\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492,8374\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763,12720\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757,21446\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396,510\n",
+      "elapsed_seconds": 0.1694808709435165
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396\n",
+      "elapsed_seconds": 0.3732154401950538
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=memory.total"
+      ],
+      "CSV": "24564\n",
+      "elapsed_seconds": 0.1499231681227684
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+      ],
+      "CSV": "0,0,1\n",
+      "elapsed_seconds": 0.18104609521105886
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888,5290\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492,8374\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763,12720\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757,21446\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396,510\n",
+      "elapsed_seconds": 0.16781814908608794
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396\n",
+      "elapsed_seconds": 0.18032226664945483
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=memory.total"
+      ],
+      "CSV": "24564\n",
+      "elapsed_seconds": 0.13474480621516705
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+      ],
+      "CSV": "0,0,1\n",
+      "elapsed_seconds": 0.39085080800578
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888,5290\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492,8374\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763,12720\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757,21446\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396,510\n",
+      "elapsed_seconds": 0.28414577106013894
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396\n",
+      "elapsed_seconds": 0.17951499577611685
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=memory.total"
+      ],
+      "CSV": "24564\n",
+      "elapsed_seconds": 0.14949377486482263
+    },
+    {
+      "arguments": [
+        "-i",
+        "5",
+        "--query-gpu=utilization.gpu,utilization.memory,memory.used"
+      ],
+      "CSV": "0,0,1\n",
+      "elapsed_seconds": 0.2973589450120926
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid,used_gpu_memory"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740,5290\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580,5290\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888,5290\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492,8374\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763,12720\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757,21446\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396,510\n",
+      "elapsed_seconds": 0.16312769427895546
+    },
+    {
+      "arguments": [
+        "--query-compute-apps=gpu_uuid,pid"
+      ],
+      "CSV": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e,4021497\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4026740\nGPU-fa87bc41-1919-efe1-73f9-11f38008763e,4031692\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4037580\nGPU-2847d2ca-7b83-3b84-b70c-7b44e288c156,4043888\nGPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc,3881492\nGPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a,3938763\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,3235757\nGPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d,4036396\n",
+      "elapsed_seconds": 0.15993625903502107
+    }
+  ],
+  "capacity_CLI_NVML_exact": "24564",
+  "empty_card_CLI_NVML_exact": {
+    "gpu": 5,
+    "NVML": "0,0,1",
+    "CLI": "0,0,1"
+  },
+  "no_GPU_work_started": true,
+  "source_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/guard.py": "bc5eafc48b399f7fdabdc9fd417a8dedb4d51599544f1d9730d8be00ffbc0921",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/strict_guard.py": "cedf2d729caee94ba684ac3533ceb6b1988672478aa397a2b874df93b2f5cfa6",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/policy.json": "80786a0ceea2089ae37360fee7afdccb87116129a90ef25e5f1326b812579544",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/worker.py": "7da0bed43e4279df045bcdd0e9e000a63d9f71d15025d63a9a81419f09c2ca6d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/metrics.py": "4302d4378457d9411396aeba55083d848572f244a03bdb42c4ccd42c95f05434",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/cpu_checks.py": "fc3a398914218ecacd35bef90868c603cdf037ebd3a0983a837a334910c30cf1",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/clock_checks.py": "8537142b50e997adfae718e4a4d050a55a945145d964ff1a879e4c146256e901",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/nvml_query_worker.py": "f95772afcfef39521aeef6332772e49848565a02301a35d93ca45d4934040c9a",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/nvml_query.py": "6da2862bb86e9d93d0e25d02d074530750fcfca35b5e2fd17ab2414e64c9378c",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_process_sampler_v5/query_checks.py": "4b92464b133fb80648aeab5e3909b21d105eca8fa8c687b8f874404924b26a4c"
+  }
+}

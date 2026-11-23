@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "complete": true,
+  "actual_same_state_probes": 1,
+  "records": [
+    {
+      "live_current_geometry_expert": true,
+      "offline_native_opening_recorded": true,
+      "online_GRIP_remains_zero": true,
+      "case_id": "grab_roller:7120009",
+      "task": "grab_roller",
+      "query": 3,
+      "application_mode": "feedback_fast_difference",
+      "label_available": true,
+      "source_full_query_state": true,
+      "native_teacher_replay_success": true,
+      "returned_commands": 79,
+      "target_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_live_joint_teacher_v1/pilot_fit/batches/000/runs/c605cd8db9a943bfb341e222ece0031b/states/grab_roller:7120009/teacher_target.npz",
+      "target_sha256": "5b7e3d15bd248e7d2e0cbc07df726f8257d25707923f8014cbf587d2dea44667",
+      "valid_first_action_commands": 32,
+      "reason": "same_state_original_expert_native_recovery_validated",
+      "teacher_vs_frozen_base_first_action_GRIP_difference_report_only": 1.0032086372375488,
+      "online_GRIP_remains_frozen": true,
+      "teacher_recovery_is_offline_proxy_not_online_benefit": true
+    }
+  ],
+  "groups": {
+    "grab_roller": {
+      "probed": 1,
+      "labels_available": 1
+    }
+  },
+  "coverage_passed": true,
+  "optimizer_steps": 0,
+  "no_online_teacher_or_TTA_update": true,
+  "bounded_interface_only": true,
+  "no_sustained_resource_or_bulk_dataset_qualification": true,
+  "actual_GPU_exit_and_bounded_resource_audit_passed": true,
+  "root": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_live_joint_teacher_v1/pilot_fit/batches/000/runs/c605cd8db9a943bfb341e222ece0031b",
+  "calibration_training_allowed": false
+}

@@ -1,0 +1,723 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "task": "stack_blocks_two",
+      "seed": 100000,
+      "episode_index": 0,
+      "instruction": "Move red block and green block to the table's center, then stack green block on red block.",
+      "case_id": "stack_blocks_two:100000",
+      "initial_physical_sha256": "c0ded4a1a21a44ebe6fae954ae2921d87d151c8d002602ba463120c4fb2047e2",
+      "full": true,
+      "TTA": false,
+      "rescue": false,
+      "harm": true,
+      "first_changed_query": 3,
+      "initial_identity": {
+        "physical_sha256": "c0ded4a1a21a44ebe6fae954ae2921d87d151c8d002602ba463120c4fb2047e2",
+        "rng_sha256": "680a99006e17681c5fedcb9e82e6e4349a36bb490ba570ba15624f6af9ddb966",
+        "RGB_sha256": [
+          "47b240017eae95018471456632fb7f8df38634fb07da8926373356d2167b9101",
+          "739293fd1fcfc3e8d66ed41fba7425a23030ebeb9ef2885a62f4c1e763e4d809",
+          "c081ff7e485ae0cd43d059c5e57423da581e97908d7df1d9c5295170304e5f92"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 766,
+          "queries": 24,
+          "physical_ticks": 60248,
+          "SAM2_forwards": 144,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 400.61449339799583
+        },
+        {
+          "condition": "zero_update",
+          "success": true,
+          "native_actions": 766,
+          "queries": 24,
+          "physical_ticks": 60248,
+          "SAM2_forwards": 144,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 388.5359234698117
+        },
+        {
+          "condition": "shadow_update",
+          "success": true,
+          "native_actions": 766,
+          "queries": 24,
+          "physical_ticks": 60248,
+          "SAM2_forwards": 144,
+          "applied_queries": [],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 2,
+              "rows": 2,
+              "phase95_tick": 5290,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 3,
+              "query": 5,
+              "rows": 49,
+              "phase95_tick": 9405,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 38,
+              "phase95_tick": 16846,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 364.7217723936774
+        },
+        {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 800,
+          "queries": 25,
+          "physical_ticks": 61933,
+          "SAM2_forwards": 144,
+          "applied_queries": [
+            3,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 2,
+              "rows": 2,
+              "phase95_tick": 5290,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 3,
+              "query": 5,
+              "rows": 45,
+              "phase95_tick": 9405,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 37,
+              "phase95_tick": 16862,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 240.22997129010037
+        }
+      ]
+    },
+    {
+      "task": "stack_blocks_two",
+      "seed": 100001,
+      "episode_index": 1,
+      "instruction": "Move red block to the center, then put green block on top.",
+      "case_id": "stack_blocks_two:100001",
+      "initial_physical_sha256": "05b29327ec32accdecc2645be30e7e7e35e6489f6694509a913e56d4c50e08ea",
+      "full": true,
+      "TTA": true,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 4,
+      "initial_identity": {
+        "physical_sha256": "05b29327ec32accdecc2645be30e7e7e35e6489f6694509a913e56d4c50e08ea",
+        "rng_sha256": "ece4311c62b730bcda0be1048a79c25b0b3bfbd79575f8cc8d3c6475ccfea5a8",
+        "RGB_sha256": [
+          "384dbb66a6712ca71d66b881387a806e453afb8df4024df6ecbb47a2c1708f2b",
+          "ca220abb3ea299a189e6b5efdc317a6bcf17d8a38e3b14474988d2401e9b7b21",
+          "fd28a8507f93b78d8b6435d551e001dc6d1581dc1e3a0c88ca677aba5be5f19e"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 314,
+          "queries": 10,
+          "physical_ticks": 22009,
+          "SAM2_forwards": 145,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 199.20094120083377
+        },
+        {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 314,
+          "queries": 10,
+          "physical_ticks": 21902,
+          "SAM2_forwards": 144,
+          "applied_queries": [
+            4,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 31,
+              "phase95_tick": 5489,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 7,
+              "phase95_tick": 10951,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 36,
+              "phase95_tick": 17225,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 309.09606356499717
+        }
+      ]
+    },
+    {
+      "task": "stack_blocks_two",
+      "seed": 100002,
+      "episode_index": 2,
+      "instruction": "Move red block and green block to the table's center, then stack green block on red block.",
+      "case_id": "stack_blocks_two:100002",
+      "initial_physical_sha256": "9a8dd84c3da9867f6cc5f8d708ca6db1cf30d018012a5119bc4ee2fc70fe9811",
+      "full": true,
+      "TTA": true,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 4,
+      "initial_identity": {
+        "physical_sha256": "9a8dd84c3da9867f6cc5f8d708ca6db1cf30d018012a5119bc4ee2fc70fe9811",
+        "rng_sha256": "98b9bdc323dd59ae1aa54817ad64c3060358005b6823dbcdfd46e3ae85cb8727",
+        "RGB_sha256": [
+          "78ad483256e2fc0978acbd729e2cd519ac03cd820268e85ae437984247795212",
+          "0558b7c4bde1181d2111ddcd405a5dd6941e99be5590a1d5092d7b789771855e",
+          "aa940077f39161093db64e82236e74b95e4416a7776b37e475041078e7eb8b3a"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 295,
+          "queries": 10,
+          "physical_ticks": 21111,
+          "SAM2_forwards": 147,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 309.0262657320127
+        },
+        {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 294,
+          "queries": 10,
+          "physical_ticks": 21048,
+          "SAM2_forwards": 147,
+          "applied_queries": [
+            4,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 6,
+              "phase95_tick": 5154,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 7,
+              "phase95_tick": 11320,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 42,
+              "phase95_tick": 17516,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 225.36619765590876
+        }
+      ]
+    },
+    {
+      "task": "stack_blocks_two",
+      "seed": 100003,
+      "episode_index": 3,
+      "instruction": "Grab red block, place it at the center, then stack green block on red block.",
+      "case_id": "stack_blocks_two:100003",
+      "initial_physical_sha256": "4dd1db3336eb0679ba99ec3bcb99e930b775d06a8520dbb7117970fe39b8b161",
+      "full": false,
+      "TTA": false,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 3,
+      "initial_identity": {
+        "physical_sha256": "4dd1db3336eb0679ba99ec3bcb99e930b775d06a8520dbb7117970fe39b8b161",
+        "rng_sha256": "013340a15d053059315dc3655dcbfee5f850f5094cd1efcb010b37fad30155e5",
+        "RGB_sha256": [
+          "79a68d7f7410c2cdd1b26b96636a222d910dd4cce10bf4ffa6236c76407a2481",
+          "e022a88fec47fe9373a96ad71bbf53745c81cf7ee4303cb42d8ea7da0ba0a752",
+          "3b730adb90d2ad9c3f1bb2bdad1f6ac9efaeba5b4b867bd4eda1802b8ba5ed5a"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 800,
+          "queries": 25,
+          "physical_ticks": 54504,
+          "SAM2_forwards": 140,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 206.7890741508454
+        },
+        {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 800,
+          "queries": 25,
+          "physical_ticks": 55222,
+          "SAM2_forwards": 139,
+          "applied_queries": [
+            3,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 2,
+              "rows": 6,
+              "phase95_tick": 4949,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 3,
+              "query": 5,
+              "rows": 58,
+              "phase95_tick": 9180,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 39,
+              "phase95_tick": 16229,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 212.35315953101963
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 100000,
+      "episode_index": 0,
+      "instruction": "Stack the light blue bowl with darkened rim directly over the smooth bowl with glossy finish.",
+      "case_id": "stack_bowls_two:100000",
+      "initial_physical_sha256": "0d294b47b936a7672c456d4676f7ccf96577ea5854516789cc926fd555c29fc6",
+      "full": false,
+      "TTA": false,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 3,
+      "initial_identity": {
+        "physical_sha256": "0d294b47b936a7672c456d4676f7ccf96577ea5854516789cc926fd555c29fc6",
+        "rng_sha256": "fb925777a7a1bd8d392f177bbd716a7490bbf763617df5dd4197dde7754ce84f",
+        "RGB_sha256": [
+          "7c1d834c1d85614f9196bf0f350e219c0ebd076cd486cd3a37c272a03ec7d39d",
+          "3c1705ec8b823c563c3e112aac3ecd6b61885606835907cd75fda152289a0663",
+          "453da85668b8dd13a11bda159ac1510e7da2087d90372b776475f991dc1b3c1c"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 61808,
+          "SAM2_forwards": 155,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 364.33931570407003
+        },
+        {
+          "condition": "zero_update",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 61808,
+          "SAM2_forwards": 155,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 453.51935634901747
+        },
+        {
+          "condition": "shadow_update",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 61808,
+          "SAM2_forwards": 155,
+          "applied_queries": [],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 2,
+              "rows": 4,
+              "phase95_tick": 5153,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 3,
+              "query": 5,
+              "rows": 44,
+              "phase95_tick": 9267,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 52,
+              "phase95_tick": 17235,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 418.5282900519669
+        },
+        {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 49371,
+          "SAM2_forwards": 128,
+          "applied_queries": [
+            3,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 2,
+              "rows": 4,
+              "phase95_tick": 5153,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 3,
+              "query": 5,
+              "rows": 34,
+              "phase95_tick": 9264,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 7,
+              "rows": 1,
+              "phase95_tick": 16357,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 240.96569911483675
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 100001,
+      "episode_index": 1,
+      "instruction": "Place the light blue bowl with darkened rim carefully over the light blue bowl with darkened rim to stack them.",
+      "case_id": "stack_bowls_two:100001",
+      "initial_physical_sha256": "cdf058d2650d77de13bc344b94876c3d7ec18b43777655afe60b59ee7f2189cc",
+      "full": false,
+      "TTA": false,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 3,
+      "initial_identity": {
+        "physical_sha256": "cdf058d2650d77de13bc344b94876c3d7ec18b43777655afe60b59ee7f2189cc",
+        "rng_sha256": "a24d3f49d69879376263471f98e8058a60c3549fa18763628fee5aea0d52ec22",
+        "RGB_sha256": [
+          "18389745acc476e88eb42d603b53da1282cfb2f743163f5d42db8eec56948376",
+          "7ef3d61d711156698b929b16a56fb137b2c3126f9375944c1b0893e46a1346ca",
+          "275ad4a44c51ab091e413b3a926738c8462ca772f5c6f48e51e73e669e8facb3"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 52774,
+          "SAM2_forwards": 143,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 415.61153169861063
+        },
+        {
+          "condition": "TTA",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 53533,
+          "SAM2_forwards": 144,
+          "applied_queries": [
+            3,
+            6
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 36,
+              "phase95_tick": 4950,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 3,
+              "query": 5,
+              "rows": 44,
+              "phase95_tick": 8756,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 7,
+              "rows": 20,
+              "phase95_tick": 13630,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 423.02815812826157
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 100002,
+      "episode_index": 2,
+      "instruction": "Place the light blue bowl with darkened rim down, then put the small smooth brown-rimmed bowl on top.",
+      "case_id": "stack_bowls_two:100002",
+      "initial_physical_sha256": "49222062ddbf997e5360a3370709e8caa1c19d9049b881ad3659662653476b4f",
+      "full": true,
+      "TTA": true,
+      "rescue": false,
+      "harm": false,
+      "first_changed_query": 4,
+      "initial_identity": {
+        "physical_sha256": "49222062ddbf997e5360a3370709e8caa1c19d9049b881ad3659662653476b4f",
+        "rng_sha256": "978a2559b79dd9e5941a398ef704950abc124657adc5fe8234930b196940550d",
+        "RGB_sha256": [
+          "fb55c4813d21ca53117d825fb3b8368337d3179800807bca98d154136bcce639",
+          "1bb69f209adc6ae3e929de0cc38ad1a40d852ed4469c02334a015335ef93fb08",
+          "915c3d5112a05589b9d001d9206c212ec9442ba0eb0eb9b4aa173563caef152f"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": true,
+          "native_actions": 301,
+          "queries": 10,
+          "physical_ticks": 20356,
+          "SAM2_forwards": 111,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 189.6287912018597
+        },
+        {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 298,
+          "queries": 10,
+          "physical_ticks": 20199,
+          "SAM2_forwards": 110,
+          "applied_queries": [
+            4,
+            7
+          ],
+          "accepted_updates": 3,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 43,
+              "phase95_tick": 5242,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 8,
+              "phase95_tick": 10102,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 7,
+              "query": 8,
+              "rows": 30,
+              "phase95_tick": 16995,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 164.97356221498922
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "seed": 100004,
+      "episode_index": 3,
+      "instruction": "Take the light blue bowl with darkened rim, set it down, and stack the smooth bowl with glossy finish on top.",
+      "case_id": "stack_bowls_two:100004",
+      "initial_physical_sha256": "9ccd5f7acce1b58bf8087e608f3129821c8c432d3adbaf4fca3f224244782ef0",
+      "full": false,
+      "TTA": true,
+      "rescue": true,
+      "harm": false,
+      "first_changed_query": 6,
+      "initial_identity": {
+        "physical_sha256": "9ccd5f7acce1b58bf8087e608f3129821c8c432d3adbaf4fca3f224244782ef0",
+        "rng_sha256": "8ed558fc04c164ff9214fb51de91433e47ce4925c1ae49daba4d4354ee72ca9d",
+        "RGB_sha256": [
+          "e1a7a1a445d56d1f60d65db8637bd1fc974f1cdeffe33eec9fbff6fa6c02d16b",
+          "654e962f75beb2cd9b9dc01e169947d2ab20928920b5cc449430d3a8f4280d43",
+          "66148f6a981441c1ac50ee59f02feb39be6eba9498752833b531ac614f5cb8d2"
+        ],
+        "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      },
+      "branches": [
+        {
+          "condition": "M_event_full",
+          "success": false,
+          "native_actions": 900,
+          "queries": 29,
+          "physical_ticks": 56396,
+          "SAM2_forwards": 158,
+          "applied_queries": [],
+          "accepted_updates": 0,
+          "consumed_packets": 0,
+          "packets": [],
+          "wall_seconds": 245.65167288295925
+        },
+        {
+          "condition": "TTA",
+          "success": true,
+          "native_actions": 324,
+          "queries": 11,
+          "physical_ticks": 22801,
+          "SAM2_forwards": 158,
+          "applied_queries": [
+            6
+          ],
+          "accepted_updates": 2,
+          "consumed_packets": 3,
+          "packets": [
+            {
+              "source_query": 1,
+              "query": 3,
+              "rows": 47,
+              "phase95_tick": 5194,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 4,
+              "query": 5,
+              "rows": 2,
+              "phase95_tick": 10614,
+              "actual_issued32": true
+            },
+            {
+              "source_query": 6,
+              "query": 8,
+              "rows": 58,
+              "phase95_tick": 15750,
+              "actual_issued32": true
+            }
+          ],
+          "wall_seconds": 138.1673156726174
+        }
+      ]
+    }
+  ],
+  "actual_native_episodes": 20,
+  "same_prefix_query_checks": 144,
+  "all_native_receipts_source_phase_once_noise_reset_and_release_checked": true,
+  "qualification_sha256": "563972820599c66b44926b838ee53c9a8d2d3c50193679df2381ccaa0ac2e76f",
+  "screening_state": {
+    "stack_blocks_two": {
+      "next_seed": 100004,
+      "accepted": 4
+    },
+    "stack_bowls_two": {
+      "next_seed": 100005,
+      "accepted": 4
+    }
+  },
+  "formal_outcomes_never_used_for_training": true
+}

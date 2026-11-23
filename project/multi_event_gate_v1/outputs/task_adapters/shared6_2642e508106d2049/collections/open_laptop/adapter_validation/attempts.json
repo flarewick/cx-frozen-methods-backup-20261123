@@ -1,0 +1,502 @@
+[
+  {
+    "task": "open_laptop",
+    "seed": 7310000,
+    "split": "adapter_validation",
+    "episode_index": 0,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310000/session_da061f45bf48/data/episode0.hdf5",
+    "capture": {
+      "frames": 186,
+      "decoded_images": 558,
+      "dense_steps": 5273,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 176,
+        "zero_time_transitions": 9,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Raise the hinged laptop with display using the right arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 9,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "0390c50f2847224317ddcd947e2d737ecdfc0851e73a9683e70e55e885b98d9e",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/5919",
+        "table_texture": "seen/6154"
+      },
+      "info": {
+        "{A}": "015_laptop/base2",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310001,
+    "split": "adapter_validation",
+    "episode_index": 1,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310001/session_da061f45bf48/data/episode1.hdf5",
+    "capture": {
+      "frames": 236,
+      "decoded_images": 708,
+      "dense_steps": 5986,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 225,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Open the laptop with black hinge area completely.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "ebb1a891f66da284816976629f28092abb40d6c39301b4ac1b24ec9e452e9625",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/7457",
+        "table_texture": "seen/3747"
+      },
+      "info": {
+        "{A}": "015_laptop/base6",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310002,
+    "split": "adapter_validation",
+    "episode_index": 2,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310002/session_da061f45bf48/data/episode2.hdf5",
+    "capture": {
+      "frames": 175,
+      "decoded_images": 525,
+      "dense_steps": 5182,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 168,
+        "zero_time_transitions": 6,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Raise the laptop with screen and keyboard lid with the left arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 6,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "9e77385ebbedfd8c41fed70a9dff917664b4fe69dc7ffe827950ad290c0d3f61",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2314",
+        "table_texture": "seen/6071"
+      },
+      "info": {
+        "{A}": "015_laptop/base9",
+        "{a}": "left"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310003,
+    "split": "adapter_validation",
+    "episode_index": 3,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310003/session_da061f45bf48/data/episode3.hdf5",
+    "capture": {
+      "frames": 221,
+      "decoded_images": 663,
+      "dense_steps": 5750,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 210,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Raise the laptop with blue screen's top section.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "3b2638be34c067e0d148fc4c1c36d825b3053069d38c8b814de3ba66b29ecc77",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/205",
+        "table_texture": "seen/6757"
+      },
+      "info": {
+        "{A}": "015_laptop/base3",
+        "{a}": "left"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310004,
+    "split": "adapter_validation",
+    "episode_index": 4,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310004/session_da061f45bf48/data/episode4.hdf5",
+    "capture": {
+      "frames": 225,
+      "decoded_images": 675,
+      "dense_steps": 5811,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 214,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Raise and open the blue screen portable laptop.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "0d004b59aec6f33d0e9f65d8ad72ed7b93ca159c6a2a841ffe9b51d90aed42ac",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/9",
+        "table_texture": "seen/1578"
+      },
+      "info": {
+        "{A}": "015_laptop/base6",
+        "{a}": "left"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310005,
+    "split": "adapter_validation",
+    "episode_index": 5,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310005/session_da061f45bf48/data/episode5.hdf5",
+    "capture": {
+      "frames": 249,
+      "decoded_images": 747,
+      "dense_steps": 6122,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 236,
+        "zero_time_transitions": 12,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Raise the laptop for typing and computing to expose the screen",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 12,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "eb192ac8b70ccbbb5f0f5236df63d9ea781c2ccdd4a9de69116e681b683c33e2",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/4315",
+        "table_texture": "seen/3657"
+      },
+      "info": {
+        "{A}": "015_laptop/base5",
+        "{a}": "left"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310006,
+    "split": "adapter_validation",
+    "episode_index": 6,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310006/session_da061f45bf48/data/episode6.hdf5",
+    "capture": {
+      "frames": 227,
+      "decoded_images": 681,
+      "dense_steps": 5826,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 215,
+        "zero_time_transitions": 11,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Lift the foldable black laptop open with the right arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 11,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "1622e7c2c1d18f45fac69516ba3833c832115dd9f6e09533bd5f7e4f71144118",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": null,
+        "table_texture": "seen/419"
+      },
+      "info": {
+        "{A}": "015_laptop/base7",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310007,
+    "split": "adapter_validation",
+    "episode_index": 7,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310007/session_da061f45bf48/data/episode7.hdf5",
+    "capture": {
+      "frames": 152,
+      "decoded_images": 456,
+      "dense_steps": 4845,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 145,
+        "zero_time_transitions": 6,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Open the lightweight silver laptop entirely.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 6,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "ae2c3b246b75fff5556bd3b9dbdd7a221720613b80db7fe64eb71f1970abafe7",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2304",
+        "table_texture": "seen/1227"
+      },
+      "info": {
+        "{A}": "015_laptop/base1",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310008,
+    "split": "adapter_validation",
+    "episode_index": 8,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310008/session_da061f45bf48/data/episode8.hdf5",
+    "capture": {
+      "frames": 225,
+      "decoded_images": 675,
+      "dense_steps": 5794,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 214,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Pull the laptop for computing open with the right arm.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "5c6d3569f233a3f3c20ee26d1a7fb420705219d041e638bf16cbc9bdf8ec7e66",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/2446",
+        "table_texture": "seen/707"
+      },
+      "info": {
+        "{A}": "015_laptop/base2",
+        "{a}": "right"
+      }
+    }
+  },
+  {
+    "task": "open_laptop",
+    "seed": 7310009,
+    "split": "adapter_validation",
+    "episode_index": 9,
+    "accepted": true,
+    "plan_success": true,
+    "replay_success": true,
+    "session": "session_da061f45bf48",
+    "hdf5": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/collections/open_laptop/adapter_validation/expert_data/seed_7310009/session_da061f45bf48/data/episode9.hdf5",
+    "capture": {
+      "frames": 226,
+      "decoded_images": 678,
+      "dense_steps": 5822,
+      "effect_contract": {
+        "articulations": [
+          "laptop"
+        ],
+        "positive_time_transitions": 215,
+        "zero_time_transitions": 10,
+        "effect_training_ready": false
+      },
+      "objects_gt": [
+        "laptop",
+        "wall"
+      ],
+      "instruction": "Raise the black laptop with red Toshiba logo's top section.",
+      "schema_version": 3,
+      "duplicate_frame_ticks": 10,
+      "expert_data_valid": true,
+      "residual_training_ready": false,
+      "source_sha256": "06b9de2c12d4c2e67ce9ead26c0832e78b678c90a0203cba6407ef37a16d45a2",
+      "expert_initialization_source_valid": true,
+      "residual_cache_ready": false,
+      "gate_label_ready": false,
+      "split": "adapter_validation",
+      "protocol_sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49"
+    },
+    "scene_info": {
+      "cluttered_table_info": [],
+      "texture_info": {
+        "wall_texture": "seen/395",
+        "table_texture": "seen/2340"
+      },
+      "info": {
+        "{A}": "015_laptop/base7",
+        "{a}": "right"
+      }
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "diagnosed_PID": 535267,
+  "native_missing_endpoint_count": 3,
+  "stale_PID_record_ages_us": [
+    2999021,
+    3998389,
+    4998227
+  ],
+  "all_other_original_resource_checks_passed": true,
+  "old_failed_job_not_reclassified": true,
+  "only_new_fresh_different_GPU_can_be_admitted": true,
+  "no_resource_threshold_or_sampler_change": true,
+  "negative_cases_rejected": [
+    "actual_numeric_low_utilization",
+    "device_low",
+    "foreign_GPU_PID",
+    "VRAM",
+    "CPU",
+    "GPU_not_released"
+  ],
+  "no_GPU_started": true
+}

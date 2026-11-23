@@ -1,0 +1,3139 @@
+{
+  "acceptance": {
+    "all_attempts_resources_passed": false,
+    "exploratory_40_scenes_per_task_not_independent_confirmation": true,
+    "extended_prefix_comparisons_passed": 160,
+    "new_protected_attempts_passed": true,
+    "science_passed": true
+  },
+  "complete_reference_source_keys": 1262,
+  "contract": {
+    "action_shape": [
+      32,
+      14
+    ],
+    "adapter_sha256": "6e0de463a03d8bac0e160aa46cf955f8575b78ecd38d1e799392e253a7d289e7",
+    "alpha": 0.5,
+    "arm_applied_cap_rad": 0.05,
+    "arm_raw_cap_rad": 0.1,
+    "calibrated_success_probabilities": false,
+    "candidate": "M_shared250_a050",
+    "compile_mode": "max-autotune",
+    "complete_rejection_history_encoder": false,
+    "event_config": {
+      "command_change_max": 0.015,
+      "cooldown_queries": 1,
+      "enable_progress": false,
+      "grip_off": 0.04,
+      "grip_on": 0.1,
+      "max_interventions": 3,
+      "max_pending": 4,
+      "pending_ttl": 2,
+      "plan_rms_on": 0.08,
+      "progress_queries": 2,
+      "rearm_queries": 2,
+      "reversal_hold_steps": 2,
+      "reversal_queries": 2,
+      "visual_change_max": 0.015
+    },
+    "explicit_context_dimensions": 8,
+    "feature_dimensions": 593,
+    "features": [
+      "latent_event72",
+      "dynamics33",
+      "observation488"
+    ],
+    "gate_schema": "fixed_six_jackknife_effect_v118",
+    "gate_sha256": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc",
+    "gate_tau": "mean(values)+std(values,ddof=0)",
+    "gemm_backends": "ATEN",
+    "gripper_residual": 0,
+    "later_event_scores_uncalibrated": true,
+    "no_retraining": true,
+    "raw_linear_members": 12,
+    "sampler_batch": 1,
+    "scope": "every original legal controller scoring opportunity including fresh pending rescore",
+    "score_rule": "rescue-2*harm>0; equality rejects",
+    "step": 250
+  },
+  "external_dependencies_not_snapshotted": [
+    "original user container and /opt/cx_venv",
+    "base VLA weights and original state proofs",
+    "RoboTwin assets/runtime outside project",
+    "GPU-specific compiler/native/driver bytes with original ownership proofs"
+  ],
+  "files": [
+    {
+      "bytes": 1342,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/.work/benefit_contacts/build.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/.work/benefit_contacts/build.json",
+      "role": "execution",
+      "sha256": "f4d655c60bc82981ebaee77792db1f731140e3a2cbb5c0f4f1afa46e26128aa0",
+      "snapshot": "files/deployment/.work/benefit_contacts/build.json"
+    },
+    {
+      "bytes": 182688,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/.work/benefit_contacts/cx_benefit_contacts.cpython-311-x86_64-linux-gnu.so",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/.work/benefit_contacts/cx_benefit_contacts.cpython-311-x86_64-linux-gnu.so",
+      "role": "execution",
+      "sha256": "867da93116f7edbb079865b678bc23a466df9e177989d519a0fa2fbf1240088f",
+      "snapshot": "files/deployment/.work/benefit_contacts/cx_benefit_contacts.cpython-311-x86_64-linux-gnu.so"
+    },
+    {
+      "bytes": 912,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/.work/benefit_json/build.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/.work/benefit_json/build.json",
+      "role": "execution",
+      "sha256": "08bd66ca880cc2b6db0f628e12234ad3baacc5538520e513d21f316f17839311",
+      "snapshot": "files/deployment/.work/benefit_json/build.json"
+    },
+    {
+      "bytes": 187136,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/.work/benefit_json/cx_benefit_json.cpython-311-x86_64-linux-gnu.so",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/.work/benefit_json/cx_benefit_json.cpython-311-x86_64-linux-gnu.so",
+      "role": "execution",
+      "sha256": "c76588e3f409d3ca411e6f8e31ad08eafc999187aefa2fb3d91a437ff8f37ce8",
+      "snapshot": "files/deployment/.work/benefit_json/cx_benefit_json.cpython-311-x86_64-linux-gnu.so"
+    },
+    {
+      "bytes": 2941,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/adapter_cache_cpu.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/adapter_cache_cpu.py",
+      "role": "execution",
+      "sha256": "24dda26d1486e612144105aa7a8617fb0174b7fec1e85a98b9ca2edd0b5f2a78",
+      "snapshot": "files/deployment/adapter_cache_cpu.py"
+    },
+    {
+      "bytes": 7270,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_event_full_G_collect_v174.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_event_full_G_collect_v174.py",
+      "role": "execution",
+      "sha256": "a717158ca9ed0849f51d21821895f5c7b722992283e535fb6f2e910fd55cbefe",
+      "snapshot": "files/deployment/benefit_event_full_G_collect_v174.py"
+    },
+    {
+      "bytes": 7265,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_event_full_audit_v134.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_event_full_audit_v134.py",
+      "role": "execution",
+      "sha256": "391acf66d19c49a6eefdf7d71b2551692bc86ce048e41d1514988cec31b27ef3",
+      "snapshot": "files/deployment/benefit_event_full_audit_v134.py"
+    },
+    {
+      "bytes": 13845,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_event_full_collect_v174.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_event_full_collect_v174.py",
+      "role": "execution",
+      "sha256": "06287088a8d78a71a3f1ad6c270814f47c9a2fd28c98c462bede57fb93c05604",
+      "snapshot": "files/deployment/benefit_event_full_collect_v174.py"
+    },
+    {
+      "bytes": 4705,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_event_full_entry_v174.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_event_full_entry_v174.py",
+      "role": "execution",
+      "sha256": "e57960dc52ac3ec208bf05d4078baa11091a173e844df7da03e70a76d4857d3f",
+      "snapshot": "files/deployment/benefit_event_full_entry_v174.py"
+    },
+    {
+      "bytes": 3947,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_event_full_policy_v142.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_event_full_policy_v142.py",
+      "role": "algorithm",
+      "sha256": "d46baa7169ecae91e9be156f0d34c33967b14002c1aaebf8e5fae62401f7c54d",
+      "snapshot": "files/deployment/benefit_event_full_policy_v142.py"
+    },
+    {
+      "bytes": 3457,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_event_full_resources_v174.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_event_full_resources_v174.py",
+      "role": "execution",
+      "sha256": "edb90e357f64b99c5c156bde6853b2b37e801500f694d3fbab0aa2f1b87b98eb",
+      "snapshot": "files/deployment/benefit_event_full_resources_v174.py"
+    },
+    {
+      "bytes": 4914,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_event_full_scope_audit_v175.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_event_full_scope_audit_v175.py",
+      "role": "execution",
+      "sha256": "a03a9b806aa1e7fed987c37bcce436b84dbc51d9e0221cbbcdf3521a7f2067a7",
+      "snapshot": "files/deployment/benefit_event_full_scope_audit_v175.py"
+    },
+    {
+      "bytes": 1984,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_event_full_veto_v132.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_event_full_veto_v132.py",
+      "role": "algorithm",
+      "sha256": "5143f84050c740946c5958d53e5b5436ccfe88bed95946a34f86bbdf148d503e",
+      "snapshot": "files/deployment/benefit_event_full_veto_v132.py"
+    },
+    {
+      "bytes": 2072,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_fixed_cache_bind_GPU3_v156.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_fixed_cache_bind_GPU3_v156.py",
+      "role": "execution",
+      "sha256": "fb5f8eec9c69d939c1b624bf09c828c6f3905933e5c78a65f58b4a3e1f0464c8",
+      "snapshot": "files/deployment/benefit_fixed_cache_bind_GPU3_v156.py"
+    },
+    {
+      "bytes": 1328,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_fixed_ensemble_gate_v119.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_fixed_ensemble_gate_v119.py",
+      "role": "algorithm",
+      "sha256": "5e790872630fe7e8a091b49fe02c86d711062db9b8fd8e7ad7f82d88bce51283",
+      "snapshot": "files/deployment/benefit_fixed_ensemble_gate_v119.py"
+    },
+    {
+      "bytes": 2434,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_bootstrap_v2.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_bootstrap_v2.py",
+      "role": "execution",
+      "sha256": "764caf493b9b898b129a3ce408faa091c89faae9388bf661b1b02f456eceb7eb",
+      "snapshot": "files/deployment/benefit_followup_bootstrap_v2.py"
+    },
+    {
+      "bytes": 1701,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_gate_v2.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_gate_v2.py",
+      "role": "algorithm",
+      "sha256": "4305aee4dfc73cf9e52d2f375ee2cf91d2794d57dc86877630bb6db7c61a14a1",
+      "snapshot": "files/deployment/benefit_followup_gate_v2.py"
+    },
+    {
+      "bytes": 14299,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_mixed_core_v3.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_mixed_core_v3.py",
+      "role": "execution",
+      "sha256": "2ac40a28456a4993104acaf8582a2bb54f830ed8e60aff2b7b5e1256cd124d1e",
+      "snapshot": "files/deployment/benefit_followup_mixed_core_v3.py"
+    },
+    {
+      "bytes": 2754,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_mixed_entry_v3.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_mixed_entry_v3.py",
+      "role": "execution",
+      "sha256": "1abef5284f2a88efe953aad054c228a99f171d066a77afb57835d64c6880c9dc",
+      "snapshot": "files/deployment/benefit_followup_mixed_entry_v3.py"
+    },
+    {
+      "bytes": 2174,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_mixed_entry_v4.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_mixed_entry_v4.py",
+      "role": "execution",
+      "sha256": "afed52584fa186102f4d4d11937113767cf14da578272abb351e8d6a91051ef2",
+      "snapshot": "files/deployment/benefit_followup_mixed_entry_v4.py"
+    },
+    {
+      "bytes": 14448,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_mixed_manager_v3.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_mixed_manager_v3.py",
+      "role": "execution",
+      "sha256": "4d0ebd89f3bf02bf73dc06d02b928e99ca17d2eace0fde56077f310bad311fb6",
+      "snapshot": "files/deployment/benefit_followup_mixed_manager_v3.py"
+    },
+    {
+      "bytes": 6456,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_protocol_v2.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_protocol_v2.py",
+      "role": "execution",
+      "sha256": "24a1512f1f9602477eccfacad260f52be6c3f352059cfa9c73b81a14226e746f",
+      "snapshot": "files/deployment/benefit_followup_protocol_v2.py"
+    },
+    {
+      "bytes": 12505,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_screen_v5.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_screen_v5.py",
+      "role": "execution",
+      "sha256": "b67e6a50a3797addc30b071a538024a9c15df203ba7c0474b68831bf7a1cc502",
+      "snapshot": "files/deployment/benefit_followup_screen_v5.py"
+    },
+    {
+      "bytes": 7254,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_followup_stream_v3.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_followup_stream_v3.py",
+      "role": "execution",
+      "sha256": "7054ee84b8e6ddb45595d373794d13dc432144bb14934de6950e0d5117cd8fe7",
+      "snapshot": "files/deployment/benefit_followup_stream_v3.py"
+    },
+    {
+      "bytes": 3485,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_full_resource_audit_v164.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_full_resource_audit_v164.py",
+      "role": "execution",
+      "sha256": "17e341beaecc75a91f759505acb278d15bc994ad441e5efc95891b801d81a4c9",
+      "snapshot": "files/deployment/benefit_full_resource_audit_v164.py"
+    },
+    {
+      "bytes": 2665,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_gate_dynamics_v3.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_gate_dynamics_v3.py",
+      "role": "algorithm",
+      "sha256": "a04fec28b5aa30c7610605e7558c907eaef391b722c98cda913adeab6da560e0",
+      "snapshot": "files/deployment/benefit_gate_dynamics_v3.py"
+    },
+    {
+      "bytes": 2465,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_gate_latent_v4.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_gate_latent_v4.py",
+      "role": "algorithm",
+      "sha256": "eeb850734e80347b5ee0de30a9cdd760727dde8da1839278e5823a5ecd5da860",
+      "snapshot": "files/deployment/benefit_gate_latent_v4.py"
+    },
+    {
+      "bytes": 1286,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_gate_paired_v5.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_gate_paired_v5.py",
+      "role": "execution",
+      "sha256": "f7c1ab14cf3149181f95433fc39e0e6ab23402dfdabb154f2bc65af41064e779",
+      "snapshot": "files/deployment/benefit_gate_paired_v5.py"
+    },
+    {
+      "bytes": 2693,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_growth_gate.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_growth_gate.py",
+      "role": "execution",
+      "sha256": "4f9d7d79926abd06b5f40908561b1c63e5b76e7e231ebe2b4e4aa949d1bfdccf",
+      "snapshot": "files/deployment/benefit_growth_gate.py"
+    },
+    {
+      "bytes": 12328,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_growth_parallel_screen_v4.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_growth_parallel_screen_v4.py",
+      "role": "execution",
+      "sha256": "dafa8d502e71d588e837b570e631d338ea15cf6440907103ebf5153e540b5449",
+      "snapshot": "files/deployment/benefit_growth_parallel_screen_v4.py"
+    },
+    {
+      "bytes": 4716,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_growth_protocol.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_growth_protocol.py",
+      "role": "execution",
+      "sha256": "3fd8cda22231a345d6e896c3b6b36ca34e5be2dcbc7c2e79f06dcc34a8445889",
+      "snapshot": "files/deployment/benefit_growth_protocol.py"
+    },
+    {
+      "bytes": 3160,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_growth_runtime.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_growth_runtime.py",
+      "role": "execution",
+      "sha256": "527d89f42a1df9599c35391e9698c7788accabadd40c4f2316ccd6c32f835319",
+      "snapshot": "files/deployment/benefit_growth_runtime.py"
+    },
+    {
+      "bytes": 3033,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_json_writer.cpp",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_json_writer.cpp",
+      "role": "execution",
+      "sha256": "8dc8ce28ea2a96e9979bd68f196a3f44c5f4f4dfda094db63f09f89b95540415",
+      "snapshot": "files/deployment/benefit_json_writer.cpp"
+    },
+    {
+      "bytes": 1172,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_native_contacts.cpp",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_native_contacts.cpp",
+      "role": "execution",
+      "sha256": "b4fe3a051167b464f73e2a74e34ec822b678c30a02b18a8bb19b0d07e389bc40",
+      "snapshot": "files/deployment/benefit_native_contacts.cpp"
+    },
+    {
+      "bytes": 3151,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_pilot_fast_runtime.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_pilot_fast_runtime.py",
+      "role": "execution",
+      "sha256": "347c48e834d352b04dc6369945dec7389846208d45874b9ed7d20c14c6852330",
+      "snapshot": "files/deployment/benefit_pilot_fast_runtime.py"
+    },
+    {
+      "bytes": 2061,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_pilot_io_runtime.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_pilot_io_runtime.py",
+      "role": "execution",
+      "sha256": "42dd8f81c16d81dba782c5a9b22b9f42d90037f753b2a4e9939e9fb7d8e18009",
+      "snapshot": "files/deployment/benefit_pilot_io_runtime.py"
+    },
+    {
+      "bytes": 1509,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_pilot_lazy_runtime.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_pilot_lazy_runtime.py",
+      "role": "execution",
+      "sha256": "a9e5de3ffc5aa5fa01c207af70dd39703e8ef26b8a0ada649d098bc784958abb",
+      "snapshot": "files/deployment/benefit_pilot_lazy_runtime.py"
+    },
+    {
+      "bytes": 2144,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_pilot_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_pilot_policy.py",
+      "role": "execution",
+      "sha256": "8e42b9d99891a63004daf8dfbb30220ce0e72ecb617b20975a1fb43c91e74a0d",
+      "snapshot": "files/deployment/benefit_pilot_policy.py"
+    },
+    {
+      "bytes": 2941,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_pilot_protocol.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_pilot_protocol.py",
+      "role": "execution",
+      "sha256": "8b159956fbfe20cf62e7799d2372ec303d82fd108befc9553370db6737d6125c",
+      "snapshot": "files/deployment/benefit_pilot_protocol.py"
+    },
+    {
+      "bytes": 11459,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_pilot_runtime.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_pilot_runtime.py",
+      "role": "execution",
+      "sha256": "63b8103ff44547806ce2f1d181bed47f88114c72984dcb2aaa1d75fbda41dda2",
+      "snapshot": "files/deployment/benefit_pilot_runtime.py"
+    },
+    {
+      "bytes": 2070,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_pilot_scene_bounds.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_pilot_scene_bounds.py",
+      "role": "execution",
+      "sha256": "a39208e6f42ac5dbcbf26d31c6b7bb126fd2f27aef863b95ac97bcfd6e40661b",
+      "snapshot": "files/deployment/benefit_pilot_scene_bounds.py"
+    },
+    {
+      "bytes": 5288,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_pilot_trace.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_pilot_trace.py",
+      "role": "execution",
+      "sha256": "109f9f0d17b7dcf9d0edab2a042bc3e6e6496b2b1cc10543a5107c889bf37e76",
+      "snapshot": "files/deployment/benefit_pilot_trace.py"
+    },
+    {
+      "bytes": 5244,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_prefix_graph.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_prefix_graph.py",
+      "role": "execution",
+      "sha256": "e51b2ec7a9a1c3fe00802d47964fff9b849dab5b55eb2bbe4685115ce251373c",
+      "snapshot": "files/deployment/benefit_prefix_graph.py"
+    },
+    {
+      "bytes": 1865,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_prefix_graph_lifetime_v10.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_prefix_graph_lifetime_v10.py",
+      "role": "execution",
+      "sha256": "e90649fa7b2b86eeb05275d3ed318d73cd4e276dba390e357c476c14f8161f4b",
+      "snapshot": "files/deployment/benefit_prefix_graph_lifetime_v10.py"
+    },
+    {
+      "bytes": 4757,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_prefix_original_reference_v11.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_prefix_original_reference_v11.py",
+      "role": "execution",
+      "sha256": "cd95590aa9ea1bc12318419e909dc5d41e41e3df04455314d44ac9edb0dfa97d",
+      "snapshot": "files/deployment/benefit_prefix_original_reference_v11.py"
+    },
+    {
+      "bytes": 5682,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_raw_features_TRAIN472_v108.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_raw_features_TRAIN472_v108.py",
+      "role": "algorithm",
+      "sha256": "cb544e5cb6251d74f50b508c016fef6bec96d455c5e89da86f55b60ff55fd661",
+      "snapshot": "files/deployment/benefit_raw_features_TRAIN472_v108.py"
+    },
+    {
+      "bytes": 737,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_bounds.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_bounds.py",
+      "role": "execution",
+      "sha256": "a79968e3d8cba7a23d1f0d4aaa39c48a3c82f295874229351cfcec83b7904991",
+      "snapshot": "files/deployment/benefit_stage_bounds.py"
+    },
+    {
+      "bytes": 2063,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_gate.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_gate.py",
+      "role": "execution",
+      "sha256": "0f8336d7b7c7b5b2dbfea146b4f339b9ee25d32fc0876002aad63656e8aad563",
+      "snapshot": "files/deployment/benefit_stage_gate.py"
+    },
+    {
+      "bytes": 2141,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_policy.py",
+      "role": "execution",
+      "sha256": "92219b72354da6884993603274b2f3546dba991c9eb25793d9f43b67ff24e72c",
+      "snapshot": "files/deployment/benefit_stage_policy.py"
+    },
+    {
+      "bytes": 3663,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_protocol.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_protocol.py",
+      "role": "execution",
+      "sha256": "58e8a067f2b03212d8e9d167125b920a6778b655f04286ab72c77fe45b52b194",
+      "snapshot": "files/deployment/benefit_stage_protocol.py"
+    },
+    {
+      "bytes": 13067,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_runtime.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_runtime.py",
+      "role": "execution",
+      "sha256": "147b73e016fe05bc43748d39927b0777e9b13df63feb3c55eb689a4195cf14f1",
+      "snapshot": "files/deployment/benefit_stage_runtime.py"
+    },
+    {
+      "bytes": 2442,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_runtime_v2.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_runtime_v2.py",
+      "role": "execution",
+      "sha256": "83b8d3b339feb69257c74c35bce4834150a5aaabf9f948a0596a42a4c9b905a0",
+      "snapshot": "files/deployment/benefit_stage_runtime_v2.py"
+    },
+    {
+      "bytes": 4060,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_runtime_v3.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_runtime_v3.py",
+      "role": "execution",
+      "sha256": "b06ecabd223098b9eb5a9eef0a3f58b464fefa4f3339292763b9ecb5632f09a7",
+      "snapshot": "files/deployment/benefit_stage_runtime_v3.py"
+    },
+    {
+      "bytes": 2692,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_runtime_v4.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_runtime_v4.py",
+      "role": "execution",
+      "sha256": "62a46785f20c8bebe4f370d97dbdd1d13de2caac7dc50d45a2f54b668b9f6705",
+      "snapshot": "files/deployment/benefit_stage_runtime_v4.py"
+    },
+    {
+      "bytes": 2191,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_runtime_v7.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_runtime_v7.py",
+      "role": "execution",
+      "sha256": "6819d0fcc04288e535662d7e462099d91fab92dea8ee4df463a255a3560fa83b",
+      "snapshot": "files/deployment/benefit_stage_runtime_v7.py"
+    },
+    {
+      "bytes": 1639,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_runtime_v9.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_runtime_v9.py",
+      "role": "execution",
+      "sha256": "e07816e7ce7b373e9cd3e47bfec201886e5fc32332b62c59c064b4747fe79e32",
+      "snapshot": "files/deployment/benefit_stage_runtime_v9.py"
+    },
+    {
+      "bytes": 885,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_stage_typecheck.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_stage_typecheck.py",
+      "role": "execution",
+      "sha256": "b48c09a56ae24766dae6ff10a43b5c10a40494919005ad27fb05ad3415ea3315",
+      "snapshot": "files/deployment/benefit_stage_typecheck.py"
+    },
+    {
+      "bytes": 1750,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/benefit_success_shortcircuit.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/benefit_success_shortcircuit.py",
+      "role": "execution",
+      "sha256": "2e2a7d066480a266c077722a5a9ed3175fecf2b233143447bef16a6d9e5f9afb",
+      "snapshot": "files/deployment/benefit_success_shortcircuit.py"
+    },
+    {
+      "bytes": 1126,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/build_benefit_contacts_cpu.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/build_benefit_contacts_cpu.py",
+      "role": "execution",
+      "sha256": "a2ff28bf37039c1a63a4d3ad8e48ae13594afab2ed0897a86e4037d145cade7e",
+      "snapshot": "files/deployment/build_benefit_contacts_cpu.py"
+    },
+    {
+      "bytes": 947,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/build_benefit_json_cpu.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/build_benefit_json_cpu.py",
+      "role": "execution",
+      "sha256": "13a60925b46a1ef8adc376f7b542b8295bd77cc2de39eab68c6ef00f7f152592",
+      "snapshot": "files/deployment/build_benefit_json_cpu.py"
+    },
+    {
+      "bytes": 1736,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/candidate_eval_checkpoint.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/candidate_eval_checkpoint.py",
+      "role": "algorithm",
+      "sha256": "be16c1d6fa39831d90eaf74e656cd62c0aae9447dd8348a091b4355419164f37",
+      "snapshot": "files/deployment/candidate_eval_checkpoint.py"
+    },
+    {
+      "bytes": 4202,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/candidate_eval_reference.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/candidate_eval_reference.py",
+      "role": "algorithm",
+      "sha256": "749054b8120ff22c7678eaa809561d97eb6dd2e729580f91ddb1398957c660a2",
+      "snapshot": "files/deployment/candidate_eval_reference.py"
+    },
+    {
+      "bytes": 4109,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/collection_capture_gate.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/collection_capture_gate.py",
+      "role": "execution",
+      "sha256": "908fe67b9d8e5c32cc70aff7b1ea6f697bda56321f31815a4d29ba2ec97e1433",
+      "snapshot": "files/deployment/collection_capture_gate.py"
+    },
+    {
+      "bytes": 2733,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/collection_control.cpp",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/collection_control.cpp",
+      "role": "execution",
+      "sha256": "35489517380caa2d9b533410a05c8dcd9730504fb6d7320151fcb6c1f6ed3652",
+      "snapshot": "files/deployment/collection_control.cpp"
+    },
+    {
+      "bytes": 1626,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/collection_gc_schedule.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/collection_gc_schedule.py",
+      "role": "execution",
+      "sha256": "52e8c44dca5daa06086cfb186e825453c7caa4b16a4487ab4fae483f78b5e76b",
+      "snapshot": "files/deployment/collection_gc_schedule.py"
+    },
+    {
+      "bytes": 4581,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/collection_native_control.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/collection_native_control.py",
+      "role": "execution",
+      "sha256": "72f9d02875f0402122270ee5c4da82c4cbfddf637ef7b8ce61ff59108b7408ac",
+      "snapshot": "files/deployment/collection_native_control.py"
+    },
+    {
+      "bytes": 1377,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/collection_native_step.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/collection_native_step.py",
+      "role": "execution",
+      "sha256": "fb2cde28e7349a1666e195fa0ca7f000f52c345993a4adc998259497a4f96ed8",
+      "snapshot": "files/deployment/collection_native_step.py"
+    },
+    {
+      "bytes": 1919,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/collection_optional_open3d.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/collection_optional_open3d.py",
+      "role": "execution",
+      "sha256": "560efedaa26916f4c704b30ab82f5e419b2cd9683f2f39ea0928f915a101cd0c",
+      "snapshot": "files/deployment/collection_optional_open3d.py"
+    },
+    {
+      "bytes": 16042,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/collection_pool.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/collection_pool.py",
+      "role": "execution",
+      "sha256": "e2525717b61efd3cc55de04a45a93d092d05620f7d6cf82303e40e471e626499",
+      "snapshot": "files/deployment/collection_pool.py"
+    },
+    {
+      "bytes": 432,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/collection_step.cpp",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/collection_step.cpp",
+      "role": "execution",
+      "sha256": "6df2e4db5bdae5e529a29a81d0daa31d2873e580dc3eac5d2bb9f488aa620ba8",
+      "snapshot": "files/deployment/collection_step.cpp"
+    },
+    {
+      "bytes": 6330,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/concurrent_core.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/concurrent_core.py",
+      "role": "execution",
+      "sha256": "92e5c931aeb543c8694efe50852588f37a55502452e9108c8216e28015260f7c",
+      "snapshot": "files/deployment/concurrent_core.py"
+    },
+    {
+      "bytes": 6633,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/concurrent_queue.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/concurrent_queue.py",
+      "role": "execution",
+      "sha256": "ac95fafcfc3b41598bf0c062747fb5bb2ab4f6594b78081d7c7745cb324be649",
+      "snapshot": "files/deployment/concurrent_queue.py"
+    },
+    {
+      "bytes": 4351,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/concurrent_rng.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/concurrent_rng.py",
+      "role": "execution",
+      "sha256": "e9d00cbab018be6e21af90fc46bcf3fb4e76df7400057b3c0e955d2a6bf4613f",
+      "snapshot": "files/deployment/concurrent_rng.py"
+    },
+    {
+      "bytes": 1033,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/cross_eval_initial_state.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/cross_eval_initial_state.py",
+      "role": "execution",
+      "sha256": "3178eef17f4f3f7b47be2c55bd5ecc58070905291d7e76c1cc43c480ae5f883c",
+      "snapshot": "files/deployment/cross_eval_initial_state.py"
+    },
+    {
+      "bytes": 6229,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/deferred_planner.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/deferred_planner.py",
+      "role": "execution",
+      "sha256": "b3b98b601193b0b82cdd23c28da5b9a017bdbec555588092fda3ba2252ae8eae",
+      "snapshot": "files/deployment/deferred_planner.py"
+    },
+    {
+      "bytes": 948,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/frozen_factory.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/frozen_factory.py",
+      "role": "execution",
+      "sha256": "d0fa3736e0a1f849528086473a607561a1cbf2b54dcd1d5a2a4b5007f03a3dba",
+      "snapshot": "files/deployment/frozen_factory.py"
+    },
+    {
+      "bytes": 1926,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/model_service.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/model_service.py",
+      "role": "execution",
+      "sha256": "1acec0887694bc03fa27240828a3a5a3ddba3ba1c0f70266e61d74fac13b492d",
+      "snapshot": "files/deployment/model_service.py"
+    },
+    {
+      "bytes": 5403,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/native_generic_control.cpp",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/native_generic_control.cpp",
+      "role": "execution",
+      "sha256": "82ec912a6ff7da608b6b6bdb8544efe62ac7e8bc47e45ccd4ea3670f0d278e0b",
+      "snapshot": "files/deployment/native_generic_control.cpp"
+    },
+    {
+      "bytes": 6157,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/native_generic_physics.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/native_generic_physics.py",
+      "role": "execution",
+      "sha256": "75c19b19244834b48229357ae516049deaa6b896d43606bd87466a372b795271",
+      "snapshot": "files/deployment/native_generic_physics.py"
+    },
+    {
+      "bytes": 5830,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/native_physics.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/native_physics.py",
+      "role": "execution",
+      "sha256": "b665a9faf71b951e66670d6a006f2a0426b4695da31c46da58a4bc1af49d2b75",
+      "snapshot": "files/deployment/native_physics.py"
+    },
+    {
+      "bytes": 2856,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/native_render.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/native_render.py",
+      "role": "execution",
+      "sha256": "0430331add1ba377d50986a14aced2148392e86adc79fbece693c59b412b4c90",
+      "snapshot": "files/deployment/native_render.py"
+    },
+    {
+      "bytes": 2730,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/observation_materialization.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/observation_materialization.py",
+      "role": "execution",
+      "sha256": "1bfec2c363bf2d6dd711bac2d08a239085867b89088dc16c87ed8ba7a945125e",
+      "snapshot": "files/deployment/observation_materialization.py"
+    },
+    {
+      "bytes": 4361,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/prepare_benefit_event_full_extension_GPU3_v174.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/prepare_benefit_event_full_extension_GPU3_v174.py",
+      "role": "execution",
+      "sha256": "6d4368106816a6889b978ee8694aa4b40c2bb25a2ff02d67ab7d1310a3651cf7",
+      "snapshot": "files/deployment/prepare_benefit_event_full_extension_GPU3_v174.py"
+    },
+    {
+      "bytes": 2711,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/render_sync_materialization.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/render_sync_materialization.py",
+      "role": "execution",
+      "sha256": "ba76a3cdf2d2cb5e002bc1323c27e4c3cb260e85584ea1628eeafdb9e2b7bc22",
+      "snapshot": "files/deployment/render_sync_materialization.py"
+    },
+    {
+      "bytes": 1368,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/scene_gate.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/scene_gate.py",
+      "role": "execution",
+      "sha256": "ad3f723c5ad11d883974b3be9c2de3338db35d9686448ab08f5f9d9c3a067c9c",
+      "snapshot": "files/deployment/scene_gate.py"
+    },
+    {
+      "bytes": 6209,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_eval_backend.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_eval_backend.py",
+      "role": "execution",
+      "sha256": "203ab297bd36ed2a5ee34d821675ed02c999b2ad09994fca4722f90f1cea835e",
+      "snapshot": "files/deployment/shared6_eval_backend.py"
+    },
+    {
+      "bytes": 5780,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_eval_core.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_eval_core.py",
+      "role": "execution",
+      "sha256": "0d014891aafabb5cd4cd8522fc7ef039106e917142e8daa9f66b6ea43ccd6222",
+      "snapshot": "files/deployment/shared6_eval_core.py"
+    },
+    {
+      "bytes": 2826,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_eval_prepared.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_eval_prepared.py",
+      "role": "execution",
+      "sha256": "e02e509835c018275828eb1749975ca2ea54d9244f7a9fa2db53e3e742403109",
+      "snapshot": "files/deployment/shared6_eval_prepared.py"
+    },
+    {
+      "bytes": 3262,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_eval_resume.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_eval_resume.py",
+      "role": "execution",
+      "sha256": "fbea77406b3c8c0d09c18430b48500af52251907687f43d0d4d4cfed70ef7e20",
+      "snapshot": "files/deployment/shared6_eval_resume.py"
+    },
+    {
+      "bytes": 12366,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_eval_worker.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_eval_worker.py",
+      "role": "execution",
+      "sha256": "c65ffee3236ca55946f85a9d5b32c1db11ccfc7f16bbc592c5826a2a3dbb485c",
+      "snapshot": "files/deployment/shared6_eval_worker.py"
+    },
+    {
+      "bytes": 4123,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_planner_pool.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_planner_pool.py",
+      "role": "execution",
+      "sha256": "ce857828c98b3cbdecbf41acea6f4d8b127cad5a14742e3e299ce44a1650c55a",
+      "snapshot": "files/deployment/shared6_planner_pool.py"
+    },
+    {
+      "bytes": 2579,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_render_sync.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_render_sync.py",
+      "role": "execution",
+      "sha256": "5e856ef9f77da821136e0288094032af0d78921c126a5966dc8b153013d9fbae",
+      "snapshot": "files/deployment/shared6_render_sync.py"
+    },
+    {
+      "bytes": 2023,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_screen_reference.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_screen_reference.py",
+      "role": "execution",
+      "sha256": "3b2c286acdf83a814b30dfc7de8bdff875b32d3c9269989879ec68ebd98d10c7",
+      "snapshot": "files/deployment/shared6_screen_reference.py"
+    },
+    {
+      "bytes": 2198,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/shared6_task_bookkeeping.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/shared6_task_bookkeeping.py",
+      "role": "execution",
+      "sha256": "c713cce61204e75c30554fee63d745b1b3a31a75bec2d52b5a121c13450e1bb0",
+      "snapshot": "files/deployment/shared6_task_bookkeeping.py"
+    },
+    {
+      "bytes": 1226,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/startup_loading.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/startup_loading.py",
+      "role": "execution",
+      "sha256": "ead802e9b03240904c1b67784d8ef3d95f8abfcf1e01c65d832b331622b43f78",
+      "snapshot": "files/deployment/startup_loading.py"
+    },
+    {
+      "bytes": 1421,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/verify_benefit_event_full_audit_CPU_v135.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/verify_benefit_event_full_audit_CPU_v135.py",
+      "role": "execution",
+      "sha256": "794d4fb4abd7c4aa07a874e9a43bddf645a5169573fbcb0fadbb37e0fdd37ea0",
+      "snapshot": "files/deployment/verify_benefit_event_full_audit_CPU_v135.py"
+    },
+    {
+      "bytes": 2544,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/verify_benefit_event_full_factory_CPU_v149.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/verify_benefit_event_full_factory_CPU_v149.py",
+      "role": "execution",
+      "sha256": "1cdda551b7115a00925801e06de9a3c8d777bbe23a0571315a7b2208fd7264fd",
+      "snapshot": "files/deployment/verify_benefit_event_full_factory_CPU_v149.py"
+    },
+    {
+      "bytes": 1791,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/verify_benefit_event_full_productive_CPU_v178.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/verify_benefit_event_full_productive_CPU_v178.py",
+      "role": "execution",
+      "sha256": "9d583c27ae3fa6f129ec9f7a795d004b2ed14c79f20fe073d1f740a5d66af9a8",
+      "snapshot": "files/deployment/verify_benefit_event_full_productive_CPU_v178.py"
+    },
+    {
+      "bytes": 3170,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/verify_benefit_event_full_scope_CPU_v174.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/verify_benefit_event_full_scope_CPU_v174.py",
+      "role": "execution",
+      "sha256": "ae82350c0e615ade2488d591dd7663e8745a28e1d0b7da7ce5badfe868b6a636",
+      "snapshot": "files/deployment/verify_benefit_event_full_scope_CPU_v174.py"
+    },
+    {
+      "bytes": 3285,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/verify_benefit_full_deferred_CPU_v179.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/verify_benefit_full_deferred_CPU_v179.py",
+      "role": "execution",
+      "sha256": "b1bfc9068e7b98d3f128cc29b631ea1635bc4faa2b508e7892eec2331644fe91",
+      "snapshot": "files/deployment/verify_benefit_full_deferred_CPU_v179.py"
+    },
+    {
+      "bytes": 2818,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/deployment/verify_benefit_full_source_CPU_v177.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "deployment/verify_benefit_full_source_CPU_v177.py",
+      "role": "execution",
+      "sha256": "10713a2632fa1744013758cbbd5dce54bc0295dd02f10c5f79fbf191048ac3dc",
+      "snapshot": "files/deployment/verify_benefit_full_source_CPU_v177.py"
+    },
+    {
+      "bytes": 344,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/configs/events.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/configs/events.json",
+      "role": "execution",
+      "sha256": "530666d5da7b63ea351e2c3607f172f7f72ee64a9eacfd362233a77bc78d6906",
+      "snapshot": "files/multi_event_gate_v1/configs/events.json"
+    },
+    {
+      "bytes": 14565,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/arm_prescription_analysis_v2.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/arm_prescription_analysis_v2.py",
+      "role": "algorithm",
+      "sha256": "d82ac60ad10a2aa24c0b61e40d45e4972b8a1cdc50449cdc905608dae0558946",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/arm_prescription_analysis_v2.py"
+    },
+    {
+      "bytes": 3746,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/arm_prescription_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/arm_prescription_policy.py",
+      "role": "algorithm",
+      "sha256": "417c59ed54c2cd31d2c5c2f81ea0b2c314ab322d092cd75edc5dabba649f13b0",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/arm_prescription_policy.py"
+    },
+    {
+      "bytes": 7707,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/attribution_physics.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/attribution_physics.py",
+      "role": "algorithm",
+      "sha256": "1bdc5f2b7c934cb34c0a2ed689a05c251eeca05b5c24dade5f0c2cfe42bb4ab8",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/attribution_physics.py"
+    },
+    {
+      "bytes": 11624,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/audit.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/audit.py",
+      "role": "algorithm",
+      "sha256": "a664f4e571764f5054056d1e878ba48e229251c1114d470d418d86ee5e5a81c9",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/audit.py"
+    },
+    {
+      "bytes": 7775,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/audit_local_geometry.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/audit_local_geometry.py",
+      "role": "algorithm",
+      "sha256": "f0d33697357166f73cfd6c66191a0fcde8cc9b5b44b3132a7a9fc110976812b7",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/audit_local_geometry.py"
+    },
+    {
+      "bytes": 7728,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/audit_pose_capacity.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/audit_pose_capacity.py",
+      "role": "algorithm",
+      "sha256": "1c7454020b572baf7b2d9062c195231e5c0515bd8acaabe7d3104a02bb882c54",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/audit_pose_capacity.py"
+    },
+    {
+      "bytes": 7272,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/cache_expert.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/cache_expert.py",
+      "role": "algorithm",
+      "sha256": "83e5c174812eabb51f23a982124fea137ffc43c010821ad4adc84e07dc9065bb",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/cache_expert.py"
+    },
+    {
+      "bytes": 7341,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/cache_joint_prefix.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/cache_joint_prefix.py",
+      "role": "algorithm",
+      "sha256": "daae3622455bab6f79d20a2ee2840426fdf8e98d41fff9095b4b4d66adfd5f94",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/cache_joint_prefix.py"
+    },
+    {
+      "bytes": 16773,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/cache_recovery.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/cache_recovery.py",
+      "role": "algorithm",
+      "sha256": "b0ff160dddb3057e6c8e13d451e5f9d7d0dc91b3700c3f4e1657153a96c729a9",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/cache_recovery.py"
+    },
+    {
+      "bytes": 5455,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/candidate_benefit_readout.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/candidate_benefit_readout.py",
+      "role": "algorithm",
+      "sha256": "1621fd7c337a2d0fd42caf7416403f06e23e23de3765a01f8d0d7bafab790b9c",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/candidate_benefit_readout.py"
+    },
+    {
+      "bytes": 6774,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/candidate_diagnostic.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/candidate_diagnostic.py",
+      "role": "algorithm",
+      "sha256": "c54d034dce98a0005ff60234e2d6b5cc011f17b84c6eb3d7270d3fc8f1815050",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/candidate_diagnostic.py"
+    },
+    {
+      "bytes": 7694,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/capture.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/capture.py",
+      "role": "algorithm",
+      "sha256": "fae22b5f2aed9fc16aec49687e7e8e78039ef01fad405d21a5a571bea2520424",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/capture.py"
+    },
+    {
+      "bytes": 11806,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/causal_arm_analysis.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/causal_arm_analysis.py",
+      "role": "algorithm",
+      "sha256": "83ad4cce31bb50b11b420d5f5ef1d36872aad938d10bd9fd1d0bbb3ef34610c4",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/causal_arm_analysis.py"
+    },
+    {
+      "bytes": 4835,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/causal_arm_gate.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/causal_arm_gate.py",
+      "role": "algorithm",
+      "sha256": "b37fdc18b92f8bb3c81b5e6b1bff98bc83f3bfa2379e3d5ef3377fecd631b86d",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/causal_arm_gate.py"
+    },
+    {
+      "bytes": 18723,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/collect_recovery.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/collect_recovery.py",
+      "role": "algorithm",
+      "sha256": "60da495b5091805e86356e164da176de5dac3519d22db79f95489137c313610c",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/collect_recovery.py"
+    },
+    {
+      "bytes": 15960,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/collect_smoke.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/collect_smoke.py",
+      "role": "algorithm",
+      "sha256": "5147906e8f33e7798cf3662da1b03b18e9afe2867a9fa2be901f14a6688f2e27",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/collect_smoke.py"
+    },
+    {
+      "bytes": 11204,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/collect_stacking_experts.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/collect_stacking_experts.py",
+      "role": "algorithm",
+      "sha256": "7a7a389e674bc1eb169fe6af0f6d6844dd31e635fbdeb9a16be101d42582c027",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/collect_stacking_experts.py"
+    },
+    {
+      "bytes": 5401,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/collect_stacking_experts_v2.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/collect_stacking_experts_v2.py",
+      "role": "algorithm",
+      "sha256": "97582473d4656928047845207e26368681944340ca2e53ef0fefa8b19fb3d3d4",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/collect_stacking_experts_v2.py"
+    },
+    {
+      "bytes": 11606,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/collect_stacking_resumable.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/collect_stacking_resumable.py",
+      "role": "algorithm",
+      "sha256": "d4ec4d5a0e5b2779c4027196d1f2b0ba1416a13ced44c735f3f3f52ac441c061",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/collect_stacking_resumable.py"
+    },
+    {
+      "bytes": 7165,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/collection_jobs.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/collection_jobs.py",
+      "role": "algorithm",
+      "sha256": "b2b0da78e186bc18b42c20d03e9adafcff70cc1b770cc9cd0f03a332d15ea105",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/collection_jobs.py"
+    },
+    {
+      "bytes": 17891,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/collection_pool.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/collection_pool.py",
+      "role": "algorithm",
+      "sha256": "c2c4f02776df3cf316e70b3c01ee8065045f81b2de7c8dcb52a083977033be27",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/collection_pool.py"
+    },
+    {
+      "bytes": 4922,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/collection_resume.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/collection_resume.py",
+      "role": "algorithm",
+      "sha256": "00824c91bb967d1bc7dd723acc8c99d92d97530c9f77008953eb4708a6f4ec48",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/collection_resume.py"
+    },
+    {
+      "bytes": 2944,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/dataset.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/dataset.py",
+      "role": "algorithm",
+      "sha256": "430b3aa9efc741514eba7ef243308e33bc2301faf682c60d16df6f8caacb608e",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/dataset.py"
+    },
+    {
+      "bytes": 3385,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/deploy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/deploy.py",
+      "role": "algorithm",
+      "sha256": "0f4e4e0345a2868ccfa384d203099098d3ef66f43fbbe69ece298fa84e79b24c",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/deploy.py"
+    },
+    {
+      "bytes": 7922,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/diagnose_teacher_invariants.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/diagnose_teacher_invariants.py",
+      "role": "algorithm",
+      "sha256": "c1b3d7807b596bebcb716ce041fcbb14fb48647aa45637aab552e30c3bb60334",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/diagnose_teacher_invariants.py"
+    },
+    {
+      "bytes": 15967,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/diagnose_teacher_observability.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/diagnose_teacher_observability.py",
+      "role": "algorithm",
+      "sha256": "d20278b2143335ccdba3e4239410d052fb211271b6e58970f6f35c666e3551ea",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/diagnose_teacher_observability.py"
+    },
+    {
+      "bytes": 3285,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/direction_adapter.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/direction_adapter.py",
+      "role": "algorithm",
+      "sha256": "10c53cf54634046cd76a87cc9731dd612f47114b5e0f056ba06276fd37ff9f7e",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/direction_adapter.py"
+    },
+    {
+      "bytes": 3563,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/effect_contract.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/effect_contract.py",
+      "role": "algorithm",
+      "sha256": "ef06a29e5f88f5d6ec35cb8b41183dc03a738f9937ee98c8cfe252ac373896f9",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/effect_contract.py"
+    },
+    {
+      "bytes": 3212,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/empirical_onset_gate.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/empirical_onset_gate.py",
+      "role": "algorithm",
+      "sha256": "619a1867d38242eec3987c7f4581f87c49c182cfa3a0b54f2253875c6ea2080a",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/empirical_onset_gate.py"
+    },
+    {
+      "bytes": 5254,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/eval_diagnostics.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/eval_diagnostics.py",
+      "role": "algorithm",
+      "sha256": "827aea44fd7e2c4988f4db2fdfe183303d34f9b1be6ba89f7b34065a50eba1d0",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/eval_diagnostics.py"
+    },
+    {
+      "bytes": 22259,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/evaluate_b2.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/evaluate_b2.py",
+      "role": "algorithm",
+      "sha256": "e3a5c60ef81f0b1a9645475a0bd784a76aa10b3b3e9fe2322d5e3beca6f113dd",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/evaluate_b2.py"
+    },
+    {
+      "bytes": 3585,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/evaluate_onset_transfer.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/evaluate_onset_transfer.py",
+      "role": "algorithm",
+      "sha256": "df58cedb320a2d8b5bbae74008a1f9acea36e93e5f88d531a619ff1afaf437d7",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/evaluate_onset_transfer.py"
+    },
+    {
+      "bytes": 25282,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/evaluate_stacking.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/evaluate_stacking.py",
+      "role": "algorithm",
+      "sha256": "f5bb45ff88c2bff7c87c20c5d49c4f38c140c73bfc9eea09ebbed90adf82d72e",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/evaluate_stacking.py"
+    },
+    {
+      "bytes": 11726,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/evaluate_stacking_adapter.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/evaluate_stacking_adapter.py",
+      "role": "algorithm",
+      "sha256": "f7222c811237ce7e882ba19eeef39fadd85abc276fc8fe4ca52afd3e3ddf6c55",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/evaluate_stacking_adapter.py"
+    },
+    {
+      "bytes": 25212,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/evaluate_structured_action.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/evaluate_structured_action.py",
+      "role": "algorithm",
+      "sha256": "609f8439ab44b4a5a155d29a153947c21175d027ff3641e2fee9378e2c697b18",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/evaluate_structured_action.py"
+    },
+    {
+      "bytes": 21461,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/evaluate_structured_attribution.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/evaluate_structured_attribution.py",
+      "role": "algorithm",
+      "sha256": "ec1f84e9a404ac90e92c9af13b10f7da1b2c896053931511955a4f331800fb7a",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/evaluate_structured_attribution.py"
+    },
+    {
+      "bytes": 13395,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/evaluate_structured_low_storage.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/evaluate_structured_low_storage.py",
+      "role": "algorithm",
+      "sha256": "c4249a42e9cce59676037bb6419ac2b03fc07cc394deb540da8fbe97d99529ac",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/evaluate_structured_low_storage.py"
+    },
+    {
+      "bytes": 4456,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/evaluation_resume.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/evaluation_resume.py",
+      "role": "algorithm",
+      "sha256": "c6042ed168dea218ea8b678b14d47e5079f9e44ed47f6993fc7e823edb7747ac",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/evaluation_resume.py"
+    },
+    {
+      "bytes": 1368,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/expert_screening.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/expert_screening.py",
+      "role": "algorithm",
+      "sha256": "152e903d6a06f78b9114129a932895b826fae649162419a30234ddf61b9c4c40",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/expert_screening.py"
+    },
+    {
+      "bytes": 1761,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/fixed_recovery_dataset.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/fixed_recovery_dataset.py",
+      "role": "algorithm",
+      "sha256": "d714273409d5a25bcb958a88591615e3b3c66c14cc311b355eb60e94d884f3ed",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/fixed_recovery_dataset.py"
+    },
+    {
+      "bytes": 9112,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/geometry_labels.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/geometry_labels.py",
+      "role": "algorithm",
+      "sha256": "f68671c161ad98916b874d8c8c61cc0bee47fea60efc21e656d81bd7e4bab52a",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/geometry_labels.py"
+    },
+    {
+      "bytes": 9202,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/geometry_readout.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/geometry_readout.py",
+      "role": "algorithm",
+      "sha256": "cb756b8c32163c9c1f263b09c9bb5dc1d753e597134c0c0461e8bdc935948dfd",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/geometry_readout.py"
+    },
+    {
+      "bytes": 638,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/gpu_job_status.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/gpu_job_status.py",
+      "role": "algorithm",
+      "sha256": "e158c673a4280bf366ca6372c8a5303b5921c64226239d7eceb4c130e7a77015",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/gpu_job_status.py"
+    },
+    {
+      "bytes": 1867,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/gpu_monitor.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/gpu_monitor.py",
+      "role": "algorithm",
+      "sha256": "0ddbf59134cca398d83e14cf5f8f14360b6c227dd7480ecabd817dec50f1f529",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/gpu_monitor.py"
+    },
+    {
+      "bytes": 24113,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/gpu_pool.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/gpu_pool.py",
+      "role": "algorithm",
+      "sha256": "65ed6f2263db082d58b66fe81ad527829b0751bb04e5ab1a78c232807385d45e",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/gpu_pool.py"
+    },
+    {
+      "bytes": 5404,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/local_benefit_cache.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/local_benefit_cache.py",
+      "role": "algorithm",
+      "sha256": "72ec209ec9493ae4426b429d1688898db0cd7b92160250aac69ae7e6820b21e6",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/local_benefit_cache.py"
+    },
+    {
+      "bytes": 4679,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/local_component_intervention.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/local_component_intervention.py",
+      "role": "algorithm",
+      "sha256": "3a214e4d49d19e51b7e8b48e7e5d78b5e7893ec85eba3a5c4157109c1efee02c",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/local_component_intervention.py"
+    },
+    {
+      "bytes": 5918,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/matched_recovery_data.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/matched_recovery_data.py",
+      "role": "algorithm",
+      "sha256": "442233bf61967db4a067f87e71cbd0c70a9e7be102b61aa98f725d9b180dfab3",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/matched_recovery_data.py"
+    },
+    {
+      "bytes": 11520,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/multi_event.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/multi_event.py",
+      "role": "algorithm",
+      "sha256": "b564eee3a8219a2e50afa045f80f47f9a55a0563e35e53426e384630acf93c49",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/multi_event.py"
+    },
+    {
+      "bytes": 4199,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/multi_event_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/multi_event_policy.py",
+      "role": "algorithm",
+      "sha256": "55a494333e96e51e2b41a581c28de94ca4984b91fc416cb15bb1623400eb3710",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/multi_event_policy.py"
+    },
+    {
+      "bytes": 3816,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/native_entry_storage.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/native_entry_storage.py",
+      "role": "algorithm",
+      "sha256": "5734d9d60eb9b3198f2b9161b448ac3be22c3f642fca6d2f7be53603107e5ada",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/native_entry_storage.py"
+    },
+    {
+      "bytes": 20161,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/native_history_cache.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/native_history_cache.py",
+      "role": "algorithm",
+      "sha256": "3bc65c75171806d3f82b056e96fcfbfbb612f120a34e66f8bdda208630b25403",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/native_history_cache.py"
+    },
+    {
+      "bytes": 2515,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/official_eval_console.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/official_eval_console.py",
+      "role": "algorithm",
+      "sha256": "d8de425532892dffd5adaf92ee634b1d07d6023d3ba2b3f30442fe63d15c5a49",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/official_eval_console.py"
+    },
+    {
+      "bytes": 2401,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/official_onset_domain.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/official_onset_domain.py",
+      "role": "algorithm",
+      "sha256": "ef1d9913880a78c6825c3352126640b15e69d6e5c91a990b6eadad388970b982",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/official_onset_domain.py"
+    },
+    {
+      "bytes": 10075,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/onset_decision_dataset.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/onset_decision_dataset.py",
+      "role": "algorithm",
+      "sha256": "b948396d188d86639199a450b02f10f21fd7d5cf2f1ea549b9602668098b6ed6",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/onset_decision_dataset.py"
+    },
+    {
+      "bytes": 2358,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/onset_observables.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/onset_observables.py",
+      "role": "algorithm",
+      "sha256": "7985c86687c369fe66aee373f7af646639a3c14cc2386a84083cf10747374880",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/onset_observables.py"
+    },
+    {
+      "bytes": 1750,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/onset_router_features.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/onset_router_features.py",
+      "role": "algorithm",
+      "sha256": "3dfbcb3fe3e22b80d50ef095f3611805f99a5c3c284da7a7d064334841c608e5",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/onset_router_features.py"
+    },
+    {
+      "bytes": 4191,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/output_support_adapter.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/output_support_adapter.py",
+      "role": "algorithm",
+      "sha256": "64fd7b402a6b534512cdb0fa939765cdb2f5f72c60c9169740038f5310daf5e2",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/output_support_adapter.py"
+    },
+    {
+      "bytes": 8164,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/output_support_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/output_support_policy.py",
+      "role": "algorithm",
+      "sha256": "74c2060c95cc3f1b49989effdd4ca34e110c0360bf248a66356421580dc2593b",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/output_support_policy.py"
+    },
+    {
+      "bytes": 6985,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/paired_fixed_data.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/paired_fixed_data.py",
+      "role": "algorithm",
+      "sha256": "3f552f8ee33c2f363b85991019a4d68c7430ec30f8646bae246b93159fd88350",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/paired_fixed_data.py"
+    },
+    {
+      "bytes": 2223,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/paths.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/paths.py",
+      "role": "algorithm",
+      "sha256": "1f357d1ec67ef42b5c1c389d817df403d68bb8b86912e072fe3de2e201eef418",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/paths.py"
+    },
+    {
+      "bytes": 5256,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/phase_target_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/phase_target_policy.py",
+      "role": "algorithm",
+      "sha256": "725e95e81ae186fdc0f355ed376396a861a7b26aadb38b7fc64e4cedb8e78dad",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/phase_target_policy.py"
+    },
+    {
+      "bytes": 3572,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/pose_adapter.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/pose_adapter.py",
+      "role": "algorithm",
+      "sha256": "d3c737d48ebafd0771f3126f645fc10a9843f808d3e0325ef04aca378b805d83",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/pose_adapter.py"
+    },
+    {
+      "bytes": 13828,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/prepare_geometry_supervision.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/prepare_geometry_supervision.py",
+      "role": "algorithm",
+      "sha256": "0372864a05542b0e9c9844c909d8c5bff303e71fc884810a09b0b3612cd6a5fc",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/prepare_geometry_supervision.py"
+    },
+    {
+      "bytes": 21109,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/prepare_structured_action.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/prepare_structured_action.py",
+      "role": "algorithm",
+      "sha256": "3b99eee33506825a8480fae4c8939c41aefcb1a384c839bfd67518ff399706b0",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/prepare_structured_action.py"
+    },
+    {
+      "bytes": 9733,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/probe_action_replay.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/probe_action_replay.py",
+      "role": "algorithm",
+      "sha256": "b94e4a31cdb3d752a18513e1575d05c680ec5ea549b438acc96c787258460662",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/probe_action_replay.py"
+    },
+    {
+      "bytes": 12236,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/probe_candidates.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/probe_candidates.py",
+      "role": "algorithm",
+      "sha256": "9f432d2338230a047ed8342acc5abd8c18e86bc961d6f6bb5e962aca26ce9dd1",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/probe_candidates.py"
+    },
+    {
+      "bytes": 3355,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/recording.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/recording.py",
+      "role": "algorithm",
+      "sha256": "9f9b7b4570871224be6fe0fca3055e0cae18a6a38a16f26b0907977b9f9407d8",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/recording.py"
+    },
+    {
+      "bytes": 2195,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/recovery_adapter.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/recovery_adapter.py",
+      "role": "algorithm",
+      "sha256": "86bae77fdb31088598dd6ac4b67642e31418a116e5dfe8b57f90835a17b9f3af",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/recovery_adapter.py"
+    },
+    {
+      "bytes": 7356,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/recovery_context_v2.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/recovery_context_v2.py",
+      "role": "algorithm",
+      "sha256": "4a7d99275e8a0e2645e3f9104703fb367c5bae6c0b280b75eb7735c2a9db8504",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/recovery_context_v2.py"
+    },
+    {
+      "bytes": 2663,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/recovery_contract.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/recovery_contract.py",
+      "role": "algorithm",
+      "sha256": "38c9f187c0e1acaa0868fca362fddc4b25c392eabbb6ae16dc6e434175f6b958",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/recovery_contract.py"
+    },
+    {
+      "bytes": 4250,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/recovery_dataset.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/recovery_dataset.py",
+      "role": "algorithm",
+      "sha256": "c96ae70e96fb7014f6fae4bd57447e2e8506b848f30ddb192107f3a1f78d7878",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/recovery_dataset.py"
+    },
+    {
+      "bytes": 4388,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/recovery_fit_metrics.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/recovery_fit_metrics.py",
+      "role": "algorithm",
+      "sha256": "46130aeeb0e4bab22c49e7defe9190d104e2e231fe2a48b3d31a4b94f5dc753b",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/recovery_fit_metrics.py"
+    },
+    {
+      "bytes": 3058,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/recovery_temporal.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/recovery_temporal.py",
+      "role": "algorithm",
+      "sha256": "66b03181594e45d76bc15c0209220dcb4e6f4d0fe081cfcb2bdb121ce65cedf9",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/recovery_temporal.py"
+    },
+    {
+      "bytes": 2176,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/residual.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/residual.py",
+      "role": "algorithm",
+      "sha256": "d0e89691f0097566fc348aafa6fab1333ff9fb1ed82750847fa30394d8e22f38",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/residual.py"
+    },
+    {
+      "bytes": 3719,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/robot_kinematics.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/robot_kinematics.py",
+      "role": "algorithm",
+      "sha256": "8d4eb984630f4cfedd316433805b7f17ff7d3aa8cf3fe18a90b282c2923b83de",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/robot_kinematics.py"
+    },
+    {
+      "bytes": 2916,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/shared_onset_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/shared_onset_policy.py",
+      "role": "algorithm",
+      "sha256": "f96d694cea7c89f20af90f25cf6abaa2b5047fc4a3cf6c2367ff57b0e76d2c69",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/shared_onset_policy.py"
+    },
+    {
+      "bytes": 4032,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/stacking_adapter.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/stacking_adapter.py",
+      "role": "algorithm",
+      "sha256": "764d49ef48d2704993ea58cc7eb06aace6a0ab7d0d2aab7ea83f2bf211cd227f",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/stacking_adapter.py"
+    },
+    {
+      "bytes": 10467,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/stacking_eval_resume.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/stacking_eval_resume.py",
+      "role": "algorithm",
+      "sha256": "64bf9d3c6ed6c488a092768ba381084c23e6233ce4fe5834f91488db6b95c925",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/stacking_eval_resume.py"
+    },
+    {
+      "bytes": 4233,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/stacking_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/stacking_policy.py",
+      "role": "algorithm",
+      "sha256": "92b3ce308e939f1e60df0002cfbdfd318fd002e507aa0cadb5eec448391d4c1b",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/stacking_policy.py"
+    },
+    {
+      "bytes": 4511,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/stacking_recording.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/stacking_recording.py",
+      "role": "algorithm",
+      "sha256": "4966dd00bea60e0145c2302ce263aee02fadff2ce15b9b0a0fe977b53adb3eca",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/stacking_recording.py"
+    },
+    {
+      "bytes": 1674,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/stacking_support.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/stacking_support.py",
+      "role": "algorithm",
+      "sha256": "ccbc9c627979f4344d720b382bb0462a5e2d75dd45635bbe122966a7c810d704",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/stacking_support.py"
+    },
+    {
+      "bytes": 22420,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/stacking_training.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/stacking_training.py",
+      "role": "algorithm",
+      "sha256": "61368705c72c7ec3864aef20264a67271de8e4d7deb126891de8e7352abeac7e",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/stacking_training.py"
+    },
+    {
+      "bytes": 3088,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/stacking_training_data.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/stacking_training_data.py",
+      "role": "algorithm",
+      "sha256": "231acfe1ec12437586e5f09621839799307dbff92ba236b3f947ed7439685d04",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/stacking_training_data.py"
+    },
+    {
+      "bytes": 6535,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/stacking_training_design.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/stacking_training_design.py",
+      "role": "algorithm",
+      "sha256": "a29363dd58eb6de77f0bfcafa1eeada2d717ccdf440f506bcf2d23a2d193657d",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/stacking_training_design.py"
+    },
+    {
+      "bytes": 7305,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/structured_action_adapter.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/structured_action_adapter.py",
+      "role": "algorithm",
+      "sha256": "f66c08b5d25f57c03cf36478313e45551498123fa070582cf813364cc6ae37c8",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/structured_action_adapter.py"
+    },
+    {
+      "bytes": 10579,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/structured_action_attribution_policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/structured_action_attribution_policy.py",
+      "role": "algorithm",
+      "sha256": "68c142888e74aec6149337f2967a68ac464159ef5b447adeced59b1efc714a8e",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/structured_action_attribution_policy.py"
+    },
+    {
+      "bytes": 11752,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/structured_action_deploy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/structured_action_deploy.py",
+      "role": "algorithm",
+      "sha256": "627c0357928370fb2bc340a1707a92a6c95473dd6058c1561060f5c3af586406",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/structured_action_deploy.py"
+    },
+    {
+      "bytes": 29591,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/structured_attribution_analysis.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/structured_attribution_analysis.py",
+      "role": "algorithm",
+      "sha256": "ad9c5e27cce28dd5a15c55e186cdba351e06a97e5c730772227356f1b14bc60b",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/structured_attribution_analysis.py"
+    },
+    {
+      "bytes": 2958,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/structured_features.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/structured_features.py",
+      "role": "algorithm",
+      "sha256": "dcaba68e6c9633c55fb909c4178104250342ee015d002d2cecf7cd136984f789",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/structured_features.py"
+    },
+    {
+      "bytes": 9898,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/structured_readout_probe.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/structured_readout_probe.py",
+      "role": "algorithm",
+      "sha256": "42a4ca891781061148fbd097465912c3b8edb9cf371d5ec0b6a7e1695f4ddbb3",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/structured_readout_probe.py"
+    },
+    {
+      "bytes": 2808,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/time_encoding.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/time_encoding.py",
+      "role": "algorithm",
+      "sha256": "b84b3f05911a52bc708e7136254fcff8753f5baa76a58b450e74e04138a098b5",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/time_encoding.py"
+    },
+    {
+      "bytes": 6708,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/train_direction_pilot.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/train_direction_pilot.py",
+      "role": "algorithm",
+      "sha256": "844d7629426001bfd3f378cbaaadffcdbe7c202811bf4ace449ac46ffe5639ff",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/train_direction_pilot.py"
+    },
+    {
+      "bytes": 22494,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/train_expert_history_action.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/train_expert_history_action.py",
+      "role": "algorithm",
+      "sha256": "4ddeba58f3ac0c86f0f12c08849f8cd5fce3eb63a526578a7d112e26035eeabd",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/train_expert_history_action.py"
+    },
+    {
+      "bytes": 15776,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/train_output_support.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/train_output_support.py",
+      "role": "algorithm",
+      "sha256": "45721ba78c38be4e380a34dcf3a471434487cb996f1d84812a1eb9d1cce21be9",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/train_output_support.py"
+    },
+    {
+      "bytes": 13305,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/train_pose_capacity.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/train_pose_capacity.py",
+      "role": "algorithm",
+      "sha256": "24892227e9555b8cee73a5382c5c2ec692ee458218761f2a1ada6d97360c21d2",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/train_pose_capacity.py"
+    },
+    {
+      "bytes": 14929,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/train_rotation_curriculum.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/train_rotation_curriculum.py",
+      "role": "algorithm",
+      "sha256": "46a914c07de18883cd4818a607224cf94665894fe5b62b9ee2a0ebed2f4cd576",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/train_rotation_curriculum.py"
+    },
+    {
+      "bytes": 10249,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/train_semantic_pilot.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/train_semantic_pilot.py",
+      "role": "algorithm",
+      "sha256": "3b8926749c299f2f591a9e7578912c71dc55a90848338c3493f7878943947f6a",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/train_semantic_pilot.py"
+    },
+    {
+      "bytes": 17369,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/train_structured_action.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/train_structured_action.py",
+      "role": "algorithm",
+      "sha256": "e7be8cc8f971ffb71e09c164b05f11844ac6c307487c1edbda157958d8a5e056",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/train_structured_action.py"
+    },
+    {
+      "bytes": 21553,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/train_task_balanced_action.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/train_task_balanced_action.py",
+      "role": "algorithm",
+      "sha256": "9a5318e5529bd75c9704d8f5c8e7ca22ae3ce2788d12e7b99fa355febb00dfc0",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/train_task_balanced_action.py"
+    },
+    {
+      "bytes": 14605,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/cx_tta/validate_shared_onset_readout.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/cx_tta/validate_shared_onset_readout.py",
+      "role": "algorithm",
+      "sha256": "be13601eb4eb1d23f2e9e34e5ad38745c2426e399174e0f6a95a9ea50a6b4262",
+      "snapshot": "files/multi_event_gate_v1/cx_tta/validate_shared_onset_readout.py"
+    },
+    {
+      "bytes": 20981,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/docs/全事件候选门控方案冻结说明_v1_20261101.md",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/docs/全事件候选门控方案冻结说明_v1_20261101.md",
+      "role": "documentation",
+      "sha256": "912c911dc1ddd1d70d8243fba642e93e4fb25e766d2ae28c6bc8939f90e1b8bc",
+      "snapshot": "files/multi_event_gate_v1/docs/全事件候选门控方案冻结说明_v1_20261101.md"
+    },
+    {
+      "bytes": 1265,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_completion_receipt250.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_completion_receipt250.json",
+      "role": "evidence",
+      "sha256": "6af1eb925d41be65a2b04e200c12a9c6a0f531035530d9a26083d4b3071e7601",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_completion_receipt250.json"
+    },
+    {
+      "bytes": 42856,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_summary250.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_summary250.json",
+      "role": "evidence",
+      "sha256": "78b9fe375962c4ea4eaca94fc171e389f413450fb8737a0b5fee4f3bff39ef09",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_summary250.json"
+    },
+    {
+      "bytes": 41215,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_v237_final.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_v237_final.json",
+      "role": "evidence",
+      "sha256": "22d9e8325d6082e9e93f8864a0da383f1ef1e9aaf88171c609c794792fe8eebc",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/all_candidate_v237_final.json"
+    },
+    {
+      "bytes": 556,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/all_candidate_CPU237.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/all_candidate_CPU237.json",
+      "role": "evidence",
+      "sha256": "ed3bbf37f186746ae3df627697702fb8bd27ffa362e4f3cf3eda6e56b8c5126f",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/all_candidate_CPU237.json"
+    },
+    {
+      "bytes": 22459,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/all_candidate_extended_prefix248.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/all_candidate_extended_prefix248.json",
+      "role": "evidence",
+      "sha256": "fb5f2b6871ec3d5a49fd854f2a0e8410e1ac4e48afe23485df54e2a352365dc3",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/all_candidate_extended_prefix248.json"
+    },
+    {
+      "bytes": 491,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/balanced_task_admission_CPU_v207.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/balanced_task_admission_CPU_v207.json",
+      "role": "execution",
+      "sha256": "a7683be7dba5db1221757556815eff636c1db50d1ddf29c4f445ca7e9a9c6146",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/balanced_task_admission_CPU_v207.json"
+    },
+    {
+      "bytes": 1181,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/barrier217_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/barrier217_CPU.json",
+      "role": "execution",
+      "sha256": "7b007c9b7bf8ae91b78ae0946db0745107eb2eeebe7628f56b4d20872241d544",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/barrier217_CPU.json"
+    },
+    {
+      "bytes": 1654,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/capacity212_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/capacity212_CPU.json",
+      "role": "execution",
+      "sha256": "efb4a8ed1c32a1bcd06998ed49ced68f6400faabe019f94ca6bd8649f4cc11f1",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/capacity212_CPU.json"
+    },
+    {
+      "bytes": 205814,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/gate.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/gate.json",
+      "role": "execution",
+      "sha256": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/gate.json"
+    },
+    {
+      "bytes": 577285,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/migration241/origin_G_registry.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/migration241/origin_G_registry.json",
+      "role": "execution",
+      "sha256": "7f81838a6709f8582560864655556013e748d1e9eda8192ef03421c45e8fd6cc",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/migration241/origin_G_registry.json"
+    },
+    {
+      "bytes": 649,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/migration241/target.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/migration241/target.json",
+      "role": "execution",
+      "sha256": "b223adb6c973b76002119a2419e6f0e557ee4997e0655d7337374514b556d577",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/migration241/target.json"
+    },
+    {
+      "bytes": 2024,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/pool218_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/pool218_CPU.json",
+      "role": "execution",
+      "sha256": "bb6da63084ab7aeb62d1079d3b227ab263997ebac7b2fd6ac72d163e4e159e70",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/pool218_CPU.json"
+    },
+    {
+      "bytes": 2064,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/protocol.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/protocol.json",
+      "role": "execution",
+      "sha256": "1035b78b7b70d0a8be757e5a1ec25497bb8d9a524d44c2e25ddbd1f61d0cd87e",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/protocol.json"
+    },
+    {
+      "bytes": 1152,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/qualification_stream_contract_v3.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/qualification_stream_contract_v3.json",
+      "role": "execution",
+      "sha256": "e155dddceb24138adaa097044a4d147eabd47e0b028b9a52c50e5796bf8e3765",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/qualification_stream_contract_v3.json"
+    },
+    {
+      "bytes": 1624,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/solver215_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/solver215_CPU.json",
+      "role": "execution",
+      "sha256": "16c356f71aecce797e893e3c2749022cfdd636ddf892fdbbdd7c1c65b6a401de",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/solver215_CPU.json"
+    },
+    {
+      "bytes": 1230,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/startup211_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/startup211_CPU.json",
+      "role": "execution",
+      "sha256": "fcc381c818c241764d504bdd965a16b1c9d77e95c4007070c25f5f04c434eb5d",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/startup211_CPU.json"
+    },
+    {
+      "bytes": 1666,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/success_shortcircuit_CPU_v206.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/success_shortcircuit_CPU_v206.json",
+      "role": "execution",
+      "sha256": "4a66c792ac45af10ffc8a00506782f1e7d6b2fab1d80aa72a1f30a7068519e09",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/success_shortcircuit_CPU_v206.json"
+    },
+    {
+      "bytes": 47280,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/final.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/final.json",
+      "role": "evidence",
+      "sha256": "14bfe5e44594669b34b07ad97b99f37b03d7cebe67999fadf885f8be573f0996",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/final.json"
+    },
+    {
+      "bytes": 3853,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/preregistration237.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/preregistration237.json",
+      "role": "execution",
+      "sha256": "c05f15a10379d97fdbf54a554f6849b6636cf59b3d22d4fc12679ad483ad4048",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/preregistration237.json"
+    },
+    {
+      "bytes": 556,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/all_candidate_CPU237.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/all_candidate_CPU237.json",
+      "role": "evidence",
+      "sha256": "ed3bbf37f186746ae3df627697702fb8bd27ffa362e4f3cf3eda6e56b8c5126f",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/all_candidate_CPU237.json"
+    },
+    {
+      "bytes": 22663,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/all_candidate_extended_prefix248.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/all_candidate_extended_prefix248.json",
+      "role": "evidence",
+      "sha256": "30607314dc59d31a352555b8996b124d170180082adf7305e88a8adf44405b0a",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/all_candidate_extended_prefix248.json"
+    },
+    {
+      "bytes": 491,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/balanced_task_admission_CPU_v207.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/balanced_task_admission_CPU_v207.json",
+      "role": "execution",
+      "sha256": "a7683be7dba5db1221757556815eff636c1db50d1ddf29c4f445ca7e9a9c6146",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/balanced_task_admission_CPU_v207.json"
+    },
+    {
+      "bytes": 1181,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/barrier217_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/barrier217_CPU.json",
+      "role": "execution",
+      "sha256": "7b007c9b7bf8ae91b78ae0946db0745107eb2eeebe7628f56b4d20872241d544",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/barrier217_CPU.json"
+    },
+    {
+      "bytes": 1654,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/capacity212_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/capacity212_CPU.json",
+      "role": "execution",
+      "sha256": "efb4a8ed1c32a1bcd06998ed49ced68f6400faabe019f94ca6bd8649f4cc11f1",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/capacity212_CPU.json"
+    },
+    {
+      "bytes": 205814,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/gate.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/gate.json",
+      "role": "execution",
+      "sha256": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/gate.json"
+    },
+    {
+      "bytes": 1982,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/migration241/origin_G_registry.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/migration241/origin_G_registry.json",
+      "role": "execution",
+      "sha256": "49dea69b52fc766d428d1d687b050b2ec59000b6d3acb46db8e81b2cfc846a6a",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/migration241/origin_G_registry.json"
+    },
+    {
+      "bytes": 649,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/migration241/target.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/migration241/target.json",
+      "role": "execution",
+      "sha256": "b223adb6c973b76002119a2419e6f0e557ee4997e0655d7337374514b556d577",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/migration241/target.json"
+    },
+    {
+      "bytes": 2024,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/pool218_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/pool218_CPU.json",
+      "role": "execution",
+      "sha256": "bb6da63084ab7aeb62d1079d3b227ab263997ebac7b2fd6ac72d163e4e159e70",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/pool218_CPU.json"
+    },
+    {
+      "bytes": 2064,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/protocol.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/protocol.json",
+      "role": "execution",
+      "sha256": "177c6080b01d93cb5c5c256a3bfb5a9e397c75b940f2854757b7786903bfe221",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/protocol.json"
+    },
+    {
+      "bytes": 1152,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/qualification_stream_contract_v3.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/qualification_stream_contract_v3.json",
+      "role": "execution",
+      "sha256": "88ca326248fc5d63e2db88444474a8e79f6605ca0ff777a305129f5d6dc87f44",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/qualification_stream_contract_v3.json"
+    },
+    {
+      "bytes": 1624,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/solver215_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/solver215_CPU.json",
+      "role": "execution",
+      "sha256": "16c356f71aecce797e893e3c2749022cfdd636ddf892fdbbdd7c1c65b6a401de",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/solver215_CPU.json"
+    },
+    {
+      "bytes": 1230,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/startup211_CPU.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/startup211_CPU.json",
+      "role": "execution",
+      "sha256": "fcc381c818c241764d504bdd965a16b1c9d77e95c4007070c25f5f04c434eb5d",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/startup211_CPU.json"
+    },
+    {
+      "bytes": 1666,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/success_shortcircuit_CPU_v206.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/success_shortcircuit_CPU_v206.json",
+      "role": "execution",
+      "sha256": "4a66c792ac45af10ffc8a00506782f1e7d6b2fab1d80aa72a1f30a7068519e09",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/success_shortcircuit_CPU_v206.json"
+    },
+    {
+      "bytes": 53109,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/final.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/final.json",
+      "role": "evidence",
+      "sha256": "3dbcbe5c7298a048ba71ad5df5361f0b23b3f9693f598c7c1a63728ff81e0baf",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/final.json"
+    },
+    {
+      "bytes": 3853,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/preregistration237.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/preregistration237.json",
+      "role": "execution",
+      "sha256": "3a496064667b2fd4fed915988badc817e873f5b475c5b2ae91f1035bc872d7d9",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/preregistration237.json"
+    },
+    {
+      "bytes": 761,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/cup_bowls_discarded_probe_references_v202/place_empty_cup.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/cup_bowls_discarded_probe_references_v202/place_empty_cup.json",
+      "role": "execution",
+      "sha256": "7e87f9fc82985290ce7e601bea0898a3295c04f3b8f6b50907afb5b64df57ff5",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/cup_bowls_discarded_probe_references_v202/place_empty_cup.json"
+    },
+    {
+      "bytes": 804,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/cup_bowls_discarded_probe_references_v202/stack_bowls_two.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/cup_bowls_discarded_probe_references_v202/stack_bowls_two.json",
+      "role": "execution",
+      "sha256": "75fd6f659c48e6024b1b678c5e2e78aceb93b635ef24c522dc3725e4bf31fad9",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/cup_bowls_discarded_probe_references_v202/stack_bowls_two.json"
+    },
+    {
+      "bytes": 205814,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/fixed_ensemble_TRAIN472_v118/diagnostic_gate.json",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/fixed_ensemble_TRAIN472_v118/diagnostic_gate.json",
+      "role": "model",
+      "sha256": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/fixed_ensemble_TRAIN472_v118/diagnostic_gate.json"
+    },
+    {
+      "bytes": 1883,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/namespace_amendment.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/namespace_amendment.json",
+      "role": "execution",
+      "sha256": "3ba6e9a83899e8894890425ff09000fb0b8e4b03b1f5f6799a9c706c9d121c34",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/namespace_amendment.json"
+    },
+    {
+      "bytes": 2950,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/全事件门控v118对照结果.md",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/全事件门控v118对照结果.md",
+      "role": "evidence",
+      "sha256": "9b8c172495b75b1db2cd3948b243e890570d5ed551d21b9d36862485b58a1f30",
+      "snapshot": "files/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/全事件门控v118对照结果.md"
+    },
+    {
+      "bytes": 122341,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/training_plan.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/training_plan.json",
+      "role": "execution",
+      "sha256": "47ab6b51c4bcf36659ff1d5e38d21e6bdd7f8e0fdaabe3a0d69ffbbf46d6a85a",
+      "snapshot": "files/multi_event_gate_v1/outputs/stacking_adapter/shared_20261014_031147_697383/training_plan.json"
+    },
+    {
+      "bytes": 197142,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/protocol.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/protocol.json",
+      "role": "algorithm",
+      "sha256": "114a2f354b2a7f31544fdab92e6d86f960b320ddbd9cfb6f3c177cf4a66eed49",
+      "snapshot": "files/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/protocol.json"
+    },
+    {
+      "bytes": 180159,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/adapter_seed0.pt",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/adapter_seed0.pt",
+      "role": "model",
+      "sha256": "17ce3bb20520b3f05cc061b2622358ce1a8008e069461d3fa6c93186bc126337",
+      "snapshot": "files/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/adapter_seed0.pt"
+    },
+    {
+      "bytes": 116060,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache_manifest.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache_manifest.json",
+      "role": "algorithm",
+      "sha256": "e76fe5f230a9855003e54adfc7cac43e78c17d38510f816c327c820fd96718cf",
+      "snapshot": "files/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/cache_manifest.json"
+    },
+    {
+      "bytes": 258,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/training_audit.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/training_audit.json",
+      "role": "algorithm",
+      "sha256": "773bd5026f5c6e68bb0a8f2829aee0133c362d68e0928a78e17d1f8727cd9d85",
+      "snapshot": "files/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/training_audit.json"
+    },
+    {
+      "bytes": 495192,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/training_plan.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/training_plan.json",
+      "role": "algorithm",
+      "sha256": "75a98dcb51c4bf8a68420178b75b90be0302e8129181c4904fc04efaa53ba79b",
+      "snapshot": "files/multi_event_gate_v1/outputs/task_adapters/shared6_2642e508106d2049/training/training_plan.json"
+    },
+    {
+      "bytes": 66015,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/audit.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/audit.json",
+      "role": "execution",
+      "sha256": "8ff6006592e67880e33bad94f7ae228585a0261780d71645a7f0e88f92cfa3cd",
+      "snapshot": "files/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/audit.json"
+    },
+    {
+      "bytes": 57016,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/protocol.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/protocol.json",
+      "role": "execution",
+      "sha256": "f63589c7b572363955673931c9c608f552e77f7f1ab1bd8adfa89fb3152e73b3",
+      "snapshot": "files/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/protocol.json"
+    },
+    {
+      "bytes": 178897,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/best_scaled.pt",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/best_scaled.pt",
+      "role": "model",
+      "sha256": "6e0de463a03d8bac0e160aa46cf955f8575b78ecd38d1e799392e253a7d289e7",
+      "snapshot": "files/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/best_scaled.pt"
+    },
+    {
+      "bytes": 75462,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/result.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/result.json",
+      "role": "execution",
+      "sha256": "d9eaf657a5a35996c85e9209bc7043d6629ce5cf48d454f36d739ad2bb532e89",
+      "snapshot": "files/multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/result.json"
+    },
+    {
+      "bytes": 7412,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/freeze_all_candidate_gate_20261101.py",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/scripts/freeze_all_candidate_gate_20261101.py",
+      "role": "documentation",
+      "sha256": "1d0d78b987d7a0a6e1ba319488587c2c02a29ddfd7d54bb24e9dd3c934a04385",
+      "snapshot": "files/multi_event_gate_v1/scripts/freeze_all_candidate_gate_20261101.py"
+    },
+    {
+      "bytes": 1741,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/affinity249.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/affinity249.py",
+      "role": "execution",
+      "sha256": "9590999e52cab346f1911fce4588ee2d47ca6555c0ec007c4798a8e3fd197ce6",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/affinity249.py"
+    },
+    {
+      "bytes": 9065,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/campaign249.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/campaign249.py",
+      "role": "execution",
+      "sha256": "9e034bd022d4a1cda7b141df9f338a94e5e31d357dbeef42a549579f18d66236",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/campaign249.py"
+    },
+    {
+      "bytes": 2814,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/verify_resume249.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/verify_resume249.py",
+      "role": "execution",
+      "sha256": "d8ef9922bf0b2833c5ae1cdb360361abc6305c4a4e17bdc2e28b0a3e6d9e6ff4",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_affinity_v249/verify_resume249.py"
+    },
+    {
+      "bytes": 5385,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/audit247.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/audit247.py",
+      "role": "execution",
+      "sha256": "fa2c523abb6a65eef9f09b461c5afce3fea5569e10efae6a3e24a98afca89d3b",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/audit247.py"
+    },
+    {
+      "bytes": 9006,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/campaign246.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/campaign246.py",
+      "role": "execution",
+      "sha256": "37a842e700769e634bb2dca597d69efe8ce5d72e3349e60defe03a79929aa83f",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/campaign246.py"
+    },
+    {
+      "bytes": 460,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/cpu246.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/cpu246.py",
+      "role": "execution",
+      "sha256": "c271acdc21d069b997adee4f57074e87e2a8eefe08703e3c50d2d70bec6d6069",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/cpu246.py"
+    },
+    {
+      "bytes": 719,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/host246.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/host246.py",
+      "role": "execution",
+      "sha256": "b12d23bb28493cc7c4e20f527f8884236b69491a889c581cb5ddb49633be9887",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/host246.py"
+    },
+    {
+      "bytes": 5226,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/recover246.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/recover246.py",
+      "role": "execution",
+      "sha256": "e5a13ed11a46a6a288fb50762b790adc5f76085cbdfd952cf17117316606fa8f",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_finalize_v246/recover246.py"
+    },
+    {
+      "bytes": 678,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/CPU_proof243.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/CPU_proof243.json",
+      "role": "execution",
+      "sha256": "db77dd91b7042ca5642d2661448a63043b126e20984b1bbd03199c3bf9785d26",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/CPU_proof243.json"
+    },
+    {
+      "bytes": 3973,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/audit244.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/audit244.py",
+      "role": "execution",
+      "sha256": "501e980ebb00f76ad5d65234f95c8302531b5ced8701f2363b77e6765ef77771",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/audit244.py"
+    },
+    {
+      "bytes": 8935,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/campaign243.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/campaign243.py",
+      "role": "execution",
+      "sha256": "52f4b9833c7ba8e4437f86846e6b3adbdbac685f5f5960af7e0fa45186614520",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/campaign243.py"
+    },
+    {
+      "bytes": 1687,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/host243.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/host243.py",
+      "role": "execution",
+      "sha256": "1946483d51f9e78c868d67150e730e7e1d5a483d54a4a19c718b9c614528a206",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/host243.py"
+    },
+    {
+      "bytes": 1383,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/protection243.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/protection243.py",
+      "role": "execution",
+      "sha256": "c9304d0fffd661bf28cee06e29f795cc2f2b9c69f3e4a2d8681f470dc4bde543",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/protection243.py"
+    },
+    {
+      "bytes": 1947,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/verify243.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/verify243.py",
+      "role": "execution",
+      "sha256": "dd39098fa21a3acbbb3ab627718625a1ed33a61046aca9a09a1a42fe1c9f737e",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_headroom_v243/verify243.py"
+    },
+    {
+      "bytes": 5461,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/audit242.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/audit242.py",
+      "role": "execution",
+      "sha256": "c65c7328e1d48a9925da1086b8488183bd91753bf316f67a5e469064f339030d",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/audit242.py"
+    },
+    {
+      "bytes": 6898,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/bridge241.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/bridge241.py",
+      "role": "execution",
+      "sha256": "77466e6d87a1ae3a299b5f044afcba843c5ccc963f6c90c8a108710e7ba9c0e4",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/bridge241.py"
+    },
+    {
+      "bytes": 6526,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/campaign241.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/campaign241.py",
+      "role": "execution",
+      "sha256": "ef1425c03154ea5d485b35ae91e9519cd234b5d601002b6ecdc0cc60962873ef",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/campaign241.py"
+    },
+    {
+      "bytes": 1457,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/cpu241.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/cpu241.py",
+      "role": "execution",
+      "sha256": "debd7263497492696476e1c8297890a7ea84269c0e5ec48cbea253378b2a11ad",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/cpu241.py"
+    },
+    {
+      "bytes": 2085,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/entry241.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/entry241.py",
+      "role": "execution",
+      "sha256": "f09296747a214e6b5448dd96f8c5e459522a29ea024d88d7487abbd3449c81bb",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/entry241.py"
+    },
+    {
+      "bytes": 3058,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/host241.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/host241.py",
+      "role": "execution",
+      "sha256": "9afec61b69b0c81be09eaf345949a7d315500001ffc264f3e4f01743548ff4af",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/host241.py"
+    },
+    {
+      "bytes": 2892,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/prepare241.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/prepare241.py",
+      "role": "execution",
+      "sha256": "6ad33ca0a7c86b4e0a867ed1729fa5574f5500e18d0670c3eab6e8580d60193b",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/prepare241.py"
+    },
+    {
+      "bytes": 1999,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/verify241.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/verify241.py",
+      "role": "execution",
+      "sha256": "acb4bc3632b8ae856614137e1b41cba4df7dd3efb7d9cc001c28ad10c6417366",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_migration_v241/verify241.py"
+    },
+    {
+      "bytes": 2889,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_prefix_v248/check248.py",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_prefix_v248/check248.py",
+      "role": "evidence",
+      "sha256": "73d76a736714a140397cbfc39581ff8931d5f5bc63a7bfb8fba881750f51cc5f",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_prefix_v248/check248.py"
+    },
+    {
+      "bytes": 3450,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_summary_v250/check_prefix250.py",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_summary_v250/check_prefix250.py",
+      "role": "evidence",
+      "sha256": "4a00d5ad4a320c08280dde4680312a7269cb6576a7772fc0e4d3b9e1b6b7ad2d",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_summary_v250/check_prefix250.py"
+    },
+    {
+      "bytes": 6110,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_summary_v250/summarize250.py",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_summary_v250/summarize250.py",
+      "role": "evidence",
+      "sha256": "66258fec8232f5389eea38b7ad0336d303fc3f3b7ffc78fec68a04ebc8ed7972",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_summary_v250/summarize250.py"
+    },
+    {
+      "bytes": 1475,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/allgate237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/allgate237.py",
+      "role": "algorithm",
+      "sha256": "df9650508cc7c7cff19acad4352c0cd39a80176ad9181e28e5b6554fee116151",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/allgate237.py"
+    },
+    {
+      "bytes": 4808,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/audit237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/audit237.py",
+      "role": "execution",
+      "sha256": "d272c831e2cc6db5507d4a29617e3e7f8e92947b8a1a095be0acab9f18a7e0c1",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/audit237.py"
+    },
+    {
+      "bytes": 1641,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/bootstrap237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/bootstrap237.py",
+      "role": "execution",
+      "sha256": "5cdb9dccf327539a9aa907140a10f47d37b7bdc311589cfc850bdad088bdeac4",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/bootstrap237.py"
+    },
+    {
+      "bytes": 7613,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/controller237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/controller237.py",
+      "role": "execution",
+      "sha256": "0c70e959bdd236b97acbfa8875e3b30f728e92126f881239c81d8ce6511041b6",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/controller237.py"
+    },
+    {
+      "bytes": 1732,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/cpu237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/cpu237.py",
+      "role": "execution",
+      "sha256": "1b33b3989bebb9ae093c64c3d750cdf67aaaea5e7649ef8808966dbbe97aaa2f",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/cpu237.py"
+    },
+    {
+      "bytes": 3726,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/entry237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/entry237.py",
+      "role": "execution",
+      "sha256": "2d6c6401a423a5b6c0c5a2ae873b49b8b00404e57381868431c59c79e1dedf48",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/entry237.py"
+    },
+    {
+      "bytes": 2138,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/host237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/host237.py",
+      "role": "execution",
+      "sha256": "c4d084d4ea6075853fb42a7e66f66d5d06eb371239389a84cb1cd2900a9d91f3",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/host237.py"
+    },
+    {
+      "bytes": 3716,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/prepare237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/prepare237.py",
+      "role": "execution",
+      "sha256": "b8d66867cd27beb1e91a9839ed01036dc1c541d02bf61bdb17b060003d60d8c2",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/prepare237.py"
+    },
+    {
+      "bytes": 2075,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/seal237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/seal237.py",
+      "role": "execution",
+      "sha256": "a0061db1ed92658ce1e078d8a4da34d275490bf14fb0f12c9e6e0e1058d8d14a",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/seal237.py"
+    },
+    {
+      "bytes": 3500,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_all_candidate_v237/verify237.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_all_candidate_v237/verify237.py",
+      "role": "execution",
+      "sha256": "4718999164762acfba67e32d68db2cca436b0fc6d5274c308360de44bc33393c",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_all_candidate_v237/verify237.py"
+    },
+    {
+      "bytes": 6835,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_extension_recovery_v192/entry.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_extension_recovery_v192/entry.py",
+      "role": "execution",
+      "sha256": "1dd9e2d6fbf4d0172784260791dbd7b21c98351dd6e8d4ccb6514a6883dd1d4f",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_extension_recovery_v192/entry.py"
+    },
+    {
+      "bytes": 6014,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_extension_recovery_v192/scope_v196.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_extension_recovery_v192/scope_v196.py",
+      "role": "execution",
+      "sha256": "e482c01d777d0c0b76f5b6402457b87c0bfb73b01445bf847cf867ae3302093e",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_extension_recovery_v192/scope_v196.py"
+    },
+    {
+      "bytes": 1688,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_capacity_v212/capacity212.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_capacity_v212/capacity212.py",
+      "role": "execution",
+      "sha256": "bb21c7da29ca6bbdef9b27281d1f9641603a4fac958e213e9a3f1292c0a703c1",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_capacity_v212/capacity212.py"
+    },
+    {
+      "bytes": 2467,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_capacity_v212/entry212.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_capacity_v212/entry212.py",
+      "role": "execution",
+      "sha256": "2677c69adf425fed8a2ad487b2f7a93234141a9770cc775e71202a09f40e70e3",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_capacity_v212/entry212.py"
+    },
+    {
+      "bytes": 3813,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_owner_v211/entry211.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_owner_v211/entry211.py",
+      "role": "execution",
+      "sha256": "5582ab2a3c28834390f393bf1db38b9e766f908e013908fc08aaa1f6f4a1f7f2",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_owner_v211/entry211.py"
+    },
+    {
+      "bytes": 4188,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_owner_v211/startup211.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_owner_v211/startup211.py",
+      "role": "execution",
+      "sha256": "bcc8e24973aa51ec2f7959e0e423aca162a4a5c0c41cb864a85e093344962862",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_owner_v211/startup211.py"
+    },
+    {
+      "bytes": 2491,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_solver_v215/entry215.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_solver_v215/entry215.py",
+      "role": "execution",
+      "sha256": "e790223ac0082dd19d5431a1afa9e9ce9b4c3c1217d27bc4df83a69d730a5e43",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_solver_v215/entry215.py"
+    },
+    {
+      "bytes": 1684,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_solver_v215/solver215.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_solver_v215/solver215.py",
+      "role": "execution",
+      "sha256": "ba642a2117f4a5e8d9c7fe5acc4ccea633bf14c52e48d4ea9e0107d713522981",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_solver_v215/solver215.py"
+    },
+    {
+      "bytes": 2030,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_startbarrier_v214/barrier214.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_startbarrier_v214/barrier214.py",
+      "role": "execution",
+      "sha256": "fe271c5fc9c8ab3519a33930323f6ee204d44837108b2dd89f3b136898ad0f1a",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_startbarrier_v214/barrier214.py"
+    },
+    {
+      "bytes": 2536,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_startup_v217/entry217.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_startup_v217/entry217.py",
+      "role": "execution",
+      "sha256": "9ce4a0bc1b65a664bb97cdae708475786e08a8e453481eccfc3b3326ff52fe3b",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_startup_v217/entry217.py"
+    },
+    {
+      "bytes": 1567,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/client218.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/client218.py",
+      "role": "execution",
+      "sha256": "cf3d452021dc51a95ac670247363fbd82bac44e88d51918322a4b1a018aa7662",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/client218.py"
+    },
+    {
+      "bytes": 2658,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/entry218.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/entry218.py",
+      "role": "execution",
+      "sha256": "5cc9c9b745072b0a241fe104dd690b0a265932d65844ba3913bd085f2c88aea5",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/entry218.py"
+    },
+    {
+      "bytes": 654,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/protocol218.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/protocol218.py",
+      "role": "execution",
+      "sha256": "724a770d820226e288af97ffa729e68a25c535fd2f71197db834c026058bf141",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/protocol218.py"
+    },
+    {
+      "bytes": 2235,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/worker218.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/worker218.py",
+      "role": "execution",
+      "sha256": "54cf34f6c30c949655649c7df2808cd43a3c2001031657b8dac73a5d1605703b",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_topp_pool_v218/worker218.py"
+    },
+    {
+      "bytes": 1964,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/audit_scope.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/audit_scope.py",
+      "role": "execution",
+      "sha256": "e6abcd5d7555d099f2db8c5e2085284d0bbd5a3fc919e705b9239afd1cb67427",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/audit_scope.py"
+    },
+    {
+      "bytes": 7596,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/campaign.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/campaign.py",
+      "role": "execution",
+      "sha256": "b85f58584f898c127491d491c3c5a65db38239e5f7b6b0f25f722a67238c989d",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/campaign.py"
+    },
+    {
+      "bytes": 1583,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/collector.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/collector.py",
+      "role": "execution",
+      "sha256": "c30bf585eced38a7cb86b1d54c93dd2aee16224c84e4df9e1e277e9f9b915c2f",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/collector.py"
+    },
+    {
+      "bytes": 1377,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/cpu_host.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/cpu_host.py",
+      "role": "execution",
+      "sha256": "c7b6755144d58cd0d03e3a3a03b88697c5f7e337f8c2158ba77226dea7aecc2f",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/cpu_host.py"
+    },
+    {
+      "bytes": 8867,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/entry.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/entry.py",
+      "role": "execution",
+      "sha256": "1df6c0421f24a5a007cbfef58e064cfbce05a02e9e4dc22a716167c7e90c13f7",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/entry.py"
+    },
+    {
+      "bytes": 2269,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/preflight.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/preflight.py",
+      "role": "execution",
+      "sha256": "c86b99ca636192a2723b05e7c5d9128a40232d59346d36db8aa663f5aef43840",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/preflight.py"
+    },
+    {
+      "bytes": 4729,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/balanced_v207.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/balanced_v207.py",
+      "role": "execution",
+      "sha256": "4f463c6f65fb214ccf76fd10e05be8964667b7c908ccc8ce5e4a6031d98e1e3e",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/balanced_v207.py"
+    },
+    {
+      "bytes": 11221,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/parallel_v203.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/parallel_v203.py",
+      "role": "execution",
+      "sha256": "48068b3817294a289540628ec83e0e443899501d014de6a2101c861b871ecbb4",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/parallel_v203.py"
+    },
+    {
+      "bytes": 7676,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/resource_entry.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/resource_entry.py",
+      "role": "execution",
+      "sha256": "a661007f3f8f3039f85591a494225f6893f7747e0fa3f9854debeb2fc7bfccab",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/resource_entry.py"
+    },
+    {
+      "bytes": 7017,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/success_shortcircuit_v206.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/success_shortcircuit_v206.py",
+      "role": "execution",
+      "sha256": "a09ce23282b4d8c1cfc82e6751d563b448a8ca9baff9833dac0959210c738f7f",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/recovery_v201/success_shortcircuit_v206.py"
+    },
+    {
+      "bytes": 2601,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/setup.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/setup.py",
+      "role": "execution",
+      "sha256": "f2f6ae88aaed7dc2d62605871337dbc4ab100efc786d798c49c090a44d987b20",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/setup.py"
+    },
+    {
+      "bytes": 4396,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/gate_transfer_v200/task_scope.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/scripts/gate_transfer_v200/task_scope.py",
+      "role": "execution",
+      "sha256": "91280eaf4c1a5b98b798ea3e850f5c02937922bf1c811ec4e7760098c69954d7",
+      "snapshot": "files/multi_event_gate_v1/scripts/gate_transfer_v200/task_scope.py"
+    },
+    {
+      "bytes": 1809,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/scripts/verify_frozen_all_candidate_gate.py",
+      "previously_committed_by_audited_plan": false,
+      "project_relative_path": "multi_event_gate_v1/scripts/verify_frozen_all_candidate_gate.py",
+      "role": "documentation",
+      "sha256": "ca988cea8a3c67d47ebedb6c3d7f6464f24dac979544e593465142da96d7282d",
+      "snapshot": "files/multi_event_gate_v1/scripts/verify_frozen_all_candidate_gate.py"
+    },
+    {
+      "bytes": 190,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/scripts/eval.sh",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/scripts/eval.sh",
+      "role": "execution",
+      "sha256": "c9f3e1b891f3008d79ae3dec24b0c16f705b2771c5430c43c093f64f091650d2",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/scripts/eval.sh"
+    },
+    {
+      "bytes": 1346,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/scripts/launch.sh",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/scripts/launch.sh",
+      "role": "execution",
+      "sha256": "3c66aa3b80180defef98c244a8e695efd38630492c040c3154a7c08248e3c740",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/scripts/launch.sh"
+    },
+    {
+      "bytes": 190,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/scripts/task_adapter.sh",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/scripts/task_adapter.sh",
+      "role": "execution",
+      "sha256": "c3506b16bb549b718822ec242669f9c3a8ddd0c68f9d70e68c9a3e9cd46fbf3d",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/scripts/task_adapter.sh"
+    },
+    {
+      "bytes": 73,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/__init__.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/__init__.py",
+      "role": "algorithm",
+      "sha256": "4410004234f5fbd9391de200dcd01bb1f5e438eea1417348941ad1cbf0291ca3",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/__init__.py"
+    },
+    {
+      "bytes": 4176,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/adapter.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/adapter.py",
+      "role": "algorithm",
+      "sha256": "006b12532c952603403bf24f55af116fca751907cef1dcfaee9b17cc537792b5",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/adapter.py"
+    },
+    {
+      "bytes": 7141,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/collection.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/collection.py",
+      "role": "algorithm",
+      "sha256": "0dcfbc234855e7cf5ec94d450ff5508dd1620cff5b8141c65468fd5a8de038d8",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/collection.py"
+    },
+    {
+      "bytes": 10529,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/eval_resume.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/eval_resume.py",
+      "role": "algorithm",
+      "sha256": "1172ce6aa98fb864dc0d8eda174ad07e8f74c30fa6d87bacaa5bce57cdbc6cb9",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/eval_resume.py"
+    },
+    {
+      "bytes": 11762,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/evaluate.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/evaluate.py",
+      "role": "algorithm",
+      "sha256": "f0b6bfbf15981e08fd7e05a1ffaef73f4b851741d50723fa1c8f023458b9097b",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/evaluate.py"
+    },
+    {
+      "bytes": 4822,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/pipeline.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/pipeline.py",
+      "role": "algorithm",
+      "sha256": "4873fca0c85772f765fcd0cd773a1fa8899e1395bee9e63a0ef5f88f852b5c57",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/pipeline.py"
+    },
+    {
+      "bytes": 4284,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/policy.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/policy.py",
+      "role": "algorithm",
+      "sha256": "26dd22060931d53bfe09d9058dc14138e28d05308863fc1296ce7a35b88bddc6",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/policy.py"
+    },
+    {
+      "bytes": 6632,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/protocol.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/protocol.py",
+      "role": "algorithm",
+      "sha256": "70862268ec25c6891a4598289efb0583e700ed82d0883127b8c3ae3da9b0878c",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/protocol.py"
+    },
+    {
+      "bytes": 21010,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/task_adapter_v1/task_adapters/training.py",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "multi_event_gate_v1/task_adapter_v1/task_adapters/training.py",
+      "role": "algorithm",
+      "sha256": "0723cbe4b55d1948d6d625e2246bbd05782a60df37b5ab331a053749a775c5ea",
+      "snapshot": "files/multi_event_gate_v1/task_adapter_v1/task_adapters/training.py"
+    },
+    {
+      "bytes": 4264023,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/outputs/base_cache_20260926_024808_872087/cache/openpi/big_vision/paligemma_tokenizer.model",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "outputs/base_cache_20260926_024808_872087/cache/openpi/big_vision/paligemma_tokenizer.model",
+      "role": "execution",
+      "sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+      "snapshot": "files/outputs/base_cache_20260926_024808_872087/cache/openpi/big_vision/paligemma_tokenizer.model"
+    },
+    {
+      "bytes": 6848,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/outputs/collections/beat_block_hammer/demo_randomized/collect_20260925_153106_891400/resolved_config.json",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "outputs/collections/beat_block_hammer/demo_randomized/collect_20260925_153106_891400/resolved_config.json",
+      "role": "execution",
+      "sha256": "9aa537e8079aff2cbd6b1f00d89b3b020e913e3e142b7afefb2a9db1d130fa3c",
+      "snapshot": "files/outputs/collections/beat_block_hammer/demo_randomized/collect_20260925_153106_891400/resolved_config.json"
+    },
+    {
+      "bytes": 180320,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/outputs/effect_learning/output_support_20261005_082307_793921/A_bounded_clipped_seed0.pt",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "outputs/effect_learning/output_support_20261005_082307_793921/A_bounded_clipped_seed0.pt",
+      "role": "execution",
+      "sha256": "92b1a2e487ebb5f9ecad6bc519577962b69971a4bf8717ed14b7d0c735ddbef2",
+      "snapshot": "files/outputs/effect_learning/output_support_20261005_082307_793921/A_bounded_clipped_seed0.pt"
+    },
+    {
+      "bytes": 251875,
+      "original_host_path": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/outputs/feature_caches/structured_readout_20261003_065755_140725/projection.npz",
+      "previously_committed_by_audited_plan": true,
+      "project_relative_path": "outputs/feature_caches/structured_readout_20261003_065755_140725/projection.npz",
+      "role": "model",
+      "sha256": "9814b6dd28d4d6dcaf6fab5d061c2d2b77a3b51b617ba44b2dad3d9cfec6a1ae",
+      "snapshot": "files/outputs/feature_caches/structured_readout_20261003_065755_140725/projection.npz"
+    }
+  ],
+  "freeze_id": "all_candidate_gate_v1_20261101",
+  "frozen_date_Asia_Shanghai": "2026-11-01",
+  "not_standalone_runnable_or_signed_or_remote_backup": true,
+  "previously_audited_project_files": 316,
+  "reference_metrics": {
+    "place_empty_cup": {
+      "B_chunks": 95,
+      "B_fail_G_success": 2,
+      "B_success_G_fail": 0,
+      "all_G_chunks": 52,
+      "all_gate_success": 23,
+      "all_gate_success_with_fewer_chunks": 21,
+      "baseline_success": 22,
+      "event_full_success": 21,
+      "first_G_chunks": 95,
+      "first_gate_success": 21,
+      "harms_avoided": 1,
+      "introduced_failures_on_baseline_and_B_success": 0,
+      "later_vetoes": 76,
+      "rescues_lost": 0,
+      "scenes": 40,
+      "vetoed_candidates": 76
+    },
+    "stack_bowls_two": {
+      "B_chunks": 120,
+      "B_fail_G_success": 4,
+      "B_success_G_fail": 3,
+      "all_G_chunks": 77,
+      "all_gate_success": 33,
+      "all_gate_success_with_fewer_chunks": 29,
+      "baseline_success": 29,
+      "event_full_success": 32,
+      "first_G_chunks": 120,
+      "first_gate_success": 32,
+      "harms_avoided": 3,
+      "introduced_failures_on_baseline_and_B_success": 2,
+      "later_vetoes": 156,
+      "rescues_lost": 1,
+      "scenes": 40,
+      "vetoed_candidates": 157
+    }
+  },
+  "reference_registries": [
+    {
+      "sha256": "804f868e55d4990eca27250ff795dc974be2aef02ad08bef75acb371ba1de6f7",
+      "snapshot": "reference/candidate_veto_all_events_v237_0_validate_plan.json",
+      "source": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/dev0/validate_plan.json"
+    },
+    {
+      "sha256": "c05f15a10379d97fdbf54a554f6849b6636cf59b3d22d4fc12679ad483ad4048",
+      "snapshot": "reference/candidate_veto_all_events_v237_0_preregistration237.json",
+      "source": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/preregistration237.json"
+    },
+    {
+      "sha256": "e29c166ecfb59144e745856ee2309d12d7625b0edb66cb2dd9eb88f5d765044e",
+      "snapshot": "reference/candidate_veto_all_events_v237_0_implementation_v174.json",
+      "source": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_0/implementation_v174.json"
+    },
+    {
+      "sha256": "9e058d5e799bedb542e2cef738277f55bcfaa2b0b9201bc5837adc87bf921d82",
+      "snapshot": "reference/candidate_veto_all_events_v237_1_validate_plan.json",
+      "source": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/dev0/validate_plan.json"
+    },
+    {
+      "sha256": "3a496064667b2fd4fed915988badc817e873f5b475c5b2ae91f1035bc872d7d9",
+      "snapshot": "reference/candidate_veto_all_events_v237_1_preregistration237.json",
+      "source": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/preregistration237.json"
+    },
+    {
+      "sha256": "e29c166ecfb59144e745856ee2309d12d7625b0edb66cb2dd9eb88f5d765044e",
+      "snapshot": "reference/candidate_veto_all_events_v237_1_implementation_v174.json",
+      "source": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/candidate_veto_all_events_v237_1/implementation_v174.json"
+    }
+  ],
+  "schema": "local_all_candidate_gate_freeze_v1"
+}

@@ -1,0 +1,1101 @@
+{
+  "complete": true,
+  "stage": "dev_gated",
+  "groups": {
+    "beat_block_hammer": {
+      "scenes": 2,
+      "baseline": 1,
+      "full": 1,
+      "TTA": 1,
+      "rescues": 0,
+      "harms": 0,
+      "semantic_available": 1,
+      "accepted_update_scenes": 1,
+      "changed_action_scenes": 0,
+      "records": [
+        {
+          "task": "beat_block_hammer",
+          "seed": 7136202,
+          "episode_index": 0,
+          "instruction": "Use the right arm to pick up the hammer with black handle.",
+          "case_id": "beat_block_hammer:7136202",
+          "initial_physical_sha256": "7972de9e1bf7c9ae9ddb07516d199ca0ca569a88d40f4d0157c1aca5d75a10a6",
+          "baseline": false,
+          "full": false,
+          "TTA": false,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15964,
+              "SAM2_forwards": 87,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 457.9128081849776,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15964,
+              "SAM2_forwards": 87,
+              "applied_queries": [],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 23,
+                  "phase95_tick": 3764,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 553.6960905990563,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15874,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 156.01262342417613,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 0,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "zero_update": {
+              "condition": "zero_update",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15964,
+              "SAM2_forwards": 87,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 618.3581151696853,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "shadow_update": {
+              "condition": "shadow_update",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15964,
+              "SAM2_forwards": 87,
+              "applied_queries": [],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 23,
+                  "phase95_tick": 3764,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 622.9447025270201,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": true,
+          "initial_identity": {
+            "physical_sha256": "7972de9e1bf7c9ae9ddb07516d199ca0ca569a88d40f4d0157c1aca5d75a10a6",
+            "rng_sha256": "6f1566729eaa464177ae642ad7c5581173e612075b05eb18ccdf799eab491d71",
+            "RGB_sha256": [
+              "634ce5ec088526d838a1f4ffed814b1f8dd2cb6650d3ff5552210bdb1a7a68d0",
+              "77eed2916fc72f497ef74b09ba5be90b5b643b7da96e9f2ca8e1eace07d29cd4",
+              "7edb47611268c12a1565123e121c57e67151d17a6a33b611605d82ff01946c38"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "beat_block_hammer",
+          "seed": 7136203,
+          "episode_index": 1,
+          "instruction": "Grab the silver hammer head and claw and beat the block.",
+          "case_id": "beat_block_hammer:7136203",
+          "initial_physical_sha256": "0406706f40fffcbde79f0bc65cc87a5b477ffaef04f71856c3d4b5763483e73c",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 112,
+              "queries": 4,
+              "physical_ticks": 8069,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 60.49521651817486,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 112,
+              "queries": 4,
+              "physical_ticks": 8069,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 57.87273793620989,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 115,
+              "queries": 4,
+              "physical_ticks": 8309,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 61.72932696668431,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 0,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "0406706f40fffcbde79f0bc65cc87a5b477ffaef04f71856c3d4b5763483e73c",
+            "rng_sha256": "87cd3ccebc0088f64268d35a4f1408f1f8a25023c4f946f21184b11ec1055e5b",
+            "RGB_sha256": [
+              "a75355182e82c56b868fcec2fe0e33a1fb557f18504bf747817c4120fac61f7a",
+              "7a4f35aea6729eee78a13d52147da8a2d85eb370e01757e25fd09ba806756803",
+              "ffb07329a0b62f2561fd040e97b58d925f9b562196a42444e5e65378c40cf8d0"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    },
+    "turn_switch": {
+      "scenes": 2,
+      "baseline": 0,
+      "full": 0,
+      "TTA": 0,
+      "rescues": 0,
+      "harms": 0,
+      "semantic_available": 1,
+      "accepted_update_scenes": 0,
+      "changed_action_scenes": 0,
+      "records": [
+        {
+          "task": "turn_switch",
+          "seed": 7136200,
+          "episode_index": 0,
+          "instruction": "Use the right arm to press the small beige switch with angular sides.",
+          "case_id": "turn_switch:7136200",
+          "initial_physical_sha256": "8e2c58488a2621beb51cdbbfb9e18028562bee0c82a87911a24c1548e16e8122",
+          "baseline": false,
+          "full": false,
+          "TTA": false,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15054,
+              "SAM2_forwards": 81,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 438.6664684950374,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15054,
+              "SAM2_forwards": 81,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 1,
+                  "phase95_tick": 3446,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 497.4836058500223,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15054,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 158.40292582521215,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 0,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "zero_update": {
+              "condition": "zero_update",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15054,
+              "SAM2_forwards": 81,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 488.19939162023365,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "shadow_update": {
+              "condition": "shadow_update",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 15054,
+              "SAM2_forwards": 81,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 1,
+                  "phase95_tick": 3446,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 479.10614810884,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": true,
+          "initial_identity": {
+            "physical_sha256": "8e2c58488a2621beb51cdbbfb9e18028562bee0c82a87911a24c1548e16e8122",
+            "rng_sha256": "4243599c21565c3428192824cbdc5f45295bdcf1d4d02829f0a2ee50f80518d8",
+            "RGB_sha256": [
+              "cc75598c50620d440e2ef04139987558439190eedb8c571fd18b744fa0a1110d",
+              "a43e594942dd317be0e74196825f5cacdbc8629991150d687fc9d94b18c3cece",
+              "768847436e1f54693d55ee04600cbe2ca885525c9575ea49d33f494b22b96a2d"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "turn_switch",
+          "seed": 7136201,
+          "episode_index": 1,
+          "instruction": "Activate the switch at the red toggle switch",
+          "case_id": "turn_switch:7136201",
+          "initial_physical_sha256": "e58daf23b7534228f6dcadb9c2a068b869ca7aa31d70d8879bf2bc10cec3e0eb",
+          "baseline": false,
+          "full": false,
+          "TTA": false,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 23132,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 166.22253846284002,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 23132,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 225.51837051892653,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 400,
+              "queries": 13,
+              "physical_ticks": 23132,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 220.3818966820836,
+              "gate_replay": {
+                "passed": true,
+                "queries": 13,
+                "original_gate_scoring_records_replayed": 0,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": false,
+              "semantic_reason": "missing_or_ambiguous_text_grounding"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "e58daf23b7534228f6dcadb9c2a068b869ca7aa31d70d8879bf2bc10cec3e0eb",
+            "rng_sha256": "9e26c8eaa09d0dee757fd4476bfbae44608fda4707ef48517513789c028c003b",
+            "RGB_sha256": [
+              "b23c9d2fa5a1c17c766580c286f759358b0d8b157f1a7bef1aeedb82e003d788",
+              "3795ac05a16b14b03bef74ce0ae51970a4ab008e549d123f8473989c42e9d13f",
+              "bf344d699ce81c8829aab3f769ac701ca8ff8e198cb522676075e4044835f3ed"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    },
+    "adjust_bottle": {
+      "scenes": 2,
+      "baseline": 2,
+      "full": 2,
+      "TTA": 2,
+      "rescues": 0,
+      "harms": 0,
+      "semantic_available": 2,
+      "accepted_update_scenes": 2,
+      "changed_action_scenes": 0,
+      "records": [
+        {
+          "task": "adjust_bottle",
+          "seed": 7136200,
+          "episode_index": 0,
+          "instruction": "Pick up the plastic soda bottle using the correct arm",
+          "case_id": "adjust_bottle:7136200",
+          "initial_physical_sha256": "9cf89801e14ac145752e19d958925dcfd2f057e748a7b11440a8c33f3ff360a2",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 127,
+              "queries": 4,
+              "physical_ticks": 10511,
+              "SAM2_forwards": 91,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 308.124488000758,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 127,
+              "queries": 4,
+              "physical_ticks": 10511,
+              "SAM2_forwards": 91,
+              "applied_queries": [],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 26,
+                  "phase95_tick": 3880,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 431.8053650064394,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 127,
+              "queries": 4,
+              "physical_ticks": 10511,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 98.06299337279052,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 0,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "zero_update": {
+              "condition": "zero_update",
+              "success": true,
+              "native_actions": 127,
+              "queries": 4,
+              "physical_ticks": 10511,
+              "SAM2_forwards": 91,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 437.5109677519649,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "shadow_update": {
+              "condition": "shadow_update",
+              "success": true,
+              "native_actions": 127,
+              "queries": 4,
+              "physical_ticks": 10511,
+              "SAM2_forwards": 91,
+              "applied_queries": [],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 26,
+                  "phase95_tick": 3880,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 410.53880597511306,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": true,
+          "initial_identity": {
+            "physical_sha256": "9cf89801e14ac145752e19d958925dcfd2f057e748a7b11440a8c33f3ff360a2",
+            "rng_sha256": "f3787612bae36881d151556353256b3aad22f3adf74617fdc9a94d3ed1e9f840",
+            "RGB_sha256": [
+              "19874f962cafb436f0ab56defd35a12436dc137f475aa6cdcd18fa2af120c252",
+              "83d9987f3acf5cb81a93b36a839d892dda20bdb28d61444ca75a4c3259f1e99e",
+              "f2009c52bfb330ea6ae92e086709c8913fe22307eb20c42ea7b0942d85b4e11d"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "adjust_bottle",
+          "seed": 7136201,
+          "episode_index": 1,
+          "instruction": "Pick up the plastic soda bottle from the table head-up.",
+          "case_id": "adjust_bottle:7136201",
+          "initial_physical_sha256": "d2d76eddfcd43aa38c500f474c1ffd4e5e8574c872c09f74d0c9ca2b81a503ce",
+          "baseline": true,
+          "full": true,
+          "TTA": true,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": true,
+              "native_actions": 120,
+              "queries": 4,
+              "physical_ticks": 10440,
+              "SAM2_forwards": 92,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 296.319312884938,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": true,
+              "native_actions": 120,
+              "queries": 4,
+              "physical_ticks": 10440,
+              "SAM2_forwards": 92,
+              "applied_queries": [],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 27,
+                  "phase95_tick": 3797,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 431.18523326003924,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": true,
+              "native_actions": 119,
+              "queries": 4,
+              "physical_ticks": 10434,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 112.35660755680874,
+              "gate_replay": {
+                "passed": true,
+                "queries": 4,
+                "original_gate_scoring_records_replayed": 0,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "d2d76eddfcd43aa38c500f474c1ffd4e5e8574c872c09f74d0c9ca2b81a503ce",
+            "rng_sha256": "c29f7bbc6432b5a822133f3de3594b2285885d4d765722881f75faceacdce0f6",
+            "RGB_sha256": [
+              "06ec7a19786ce2f1fead5c797bacf4f2e033b84f5ea34b184280cf9cde80c9c6",
+              "2888b0a96bded618be41396442d38c0b9fa64018943ee755fda8ef506e5f3fc1",
+              "b7a5927c9d1de78f35b0bcf222cf8ccbc50348595a4a6ab5a49c85aece2facd9"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    },
+    "open_laptop": {
+      "scenes": 2,
+      "baseline": 0,
+      "full": 0,
+      "TTA": 0,
+      "rescues": 0,
+      "harms": 0,
+      "semantic_available": 2,
+      "accepted_update_scenes": 1,
+      "changed_action_scenes": 0,
+      "records": [
+        {
+          "task": "open_laptop",
+          "seed": 7136200,
+          "episode_index": 0,
+          "instruction": "Open the rectangular laptop with smooth finish carefully using the right arm.",
+          "case_id": "open_laptop:7136200",
+          "initial_physical_sha256": "aa022f666fe7d8b66e495ecdf47363aa27b184a045a4c235342c7eed3b0ea36f",
+          "baseline": false,
+          "full": false,
+          "TTA": false,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 700,
+              "queries": 22,
+              "physical_ticks": 29461,
+              "SAM2_forwards": 86,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 618.7550912736915,
+              "gate_replay": {
+                "passed": true,
+                "queries": 22,
+                "original_gate_scoring_records_replayed": 2,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": false,
+              "native_actions": 700,
+              "queries": 22,
+              "physical_ticks": 29461,
+              "SAM2_forwards": 86,
+              "applied_queries": [],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 10,
+                  "phase95_tick": 3638,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 749.2879900713451,
+              "gate_replay": {
+                "passed": true,
+                "queries": 22,
+                "original_gate_scoring_records_replayed": 2,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 700,
+              "queries": 22,
+              "physical_ticks": 27318,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 339.5211526537314,
+              "gate_replay": {
+                "passed": true,
+                "queries": 22,
+                "original_gate_scoring_records_replayed": 0,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "zero_update": {
+              "condition": "zero_update",
+              "success": false,
+              "native_actions": 700,
+              "queries": 22,
+              "physical_ticks": 29461,
+              "SAM2_forwards": 86,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 708.8485585451126,
+              "gate_replay": {
+                "passed": true,
+                "queries": 22,
+                "original_gate_scoring_records_replayed": 2,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "shadow_update": {
+              "condition": "shadow_update",
+              "success": false,
+              "native_actions": 700,
+              "queries": 22,
+              "physical_ticks": 29461,
+              "SAM2_forwards": 86,
+              "applied_queries": [],
+              "accepted_updates": 1,
+              "consumed_packets": 1,
+              "packets": [
+                {
+                  "source_query": 0,
+                  "query": 2,
+                  "rows": 10,
+                  "phase95_tick": 3638,
+                  "actual_issued32": true
+                }
+              ],
+              "wall_seconds": 626.4812155016698,
+              "gate_replay": {
+                "passed": true,
+                "queries": 22,
+                "original_gate_scoring_records_replayed": 2,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": true,
+          "initial_identity": {
+            "physical_sha256": "aa022f666fe7d8b66e495ecdf47363aa27b184a045a4c235342c7eed3b0ea36f",
+            "rng_sha256": "5152e2d32cd9a3508fc1403c8a181ff2137734fc3cf17f214d40094252b0160c",
+            "RGB_sha256": [
+              "8c7e4c1f080a26c714c2c04ba13fb1f29cb5dfa496ba3dfa44cc76c68107354d",
+              "b63d9cb767121a5a27c471043b75a5fb25f8916ea4f903dcaaa205496ac2ec25",
+              "60d5118b763c37cbf34ddf63c1c4a417c71b57c72113c9a18993342633c2f54c"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        },
+        {
+          "task": "open_laptop",
+          "seed": 7136201,
+          "episode_index": 1,
+          "instruction": "Grab the laptop with glossy black display and open it.",
+          "case_id": "open_laptop:7136201",
+          "initial_physical_sha256": "39eaa64a6e326a9087d43e894fb41563ce1e7259b19997f3a0072adad294e4db",
+          "baseline": false,
+          "full": false,
+          "TTA": false,
+          "rescue": false,
+          "harm": false,
+          "first_changed_query": null,
+          "branches": {
+            "M_event_full": {
+              "condition": "M_event_full",
+              "success": false,
+              "native_actions": 700,
+              "queries": 22,
+              "physical_ticks": 29401,
+              "SAM2_forwards": 87,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 608.1657663518563,
+              "gate_replay": {
+                "passed": true,
+                "queries": 22,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "TTA": {
+              "condition": "TTA",
+              "success": false,
+              "native_actions": 700,
+              "queries": 22,
+              "physical_ticks": 29401,
+              "SAM2_forwards": 87,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 620.7181821758859,
+              "gate_replay": {
+                "passed": true,
+                "queries": 22,
+                "original_gate_scoring_records_replayed": 1,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            },
+            "baseline": {
+              "condition": "baseline",
+              "success": false,
+              "native_actions": 700,
+              "queries": 22,
+              "physical_ticks": 29401,
+              "SAM2_forwards": 0,
+              "applied_queries": [],
+              "accepted_updates": 0,
+              "consumed_packets": 0,
+              "packets": [],
+              "wall_seconds": 375.0104753249325,
+              "gate_replay": {
+                "passed": true,
+                "queries": 22,
+                "original_gate_scoring_records_replayed": 0,
+                "accepted_gate_approved_feedback_extra": 0,
+                "rejected_feedback_extra": 0,
+                "exact_dual_head_candidates_gate_context_scores_budget_cooldown_and_actions": true
+              },
+              "semantic_available": true,
+              "semantic_reason": "text_grounded_real_objects"
+            }
+          },
+          "original_zero_shadow_controls": false,
+          "initial_identity": {
+            "physical_sha256": "39eaa64a6e326a9087d43e894fb41563ce1e7259b19997f3a0072adad294e4db",
+            "rng_sha256": "0108b8a9bd53b57f0ba15d7142bcae6f8ab814407b06e0ce37d684a61bccb429",
+            "RGB_sha256": [
+              "0a64cb432970d9ca9df08294355dac15107e7e4943d641887c958765f26b03b7",
+              "a13488231b3c548cb79b5cc13c6e2eb3a05c2ef93491486ed98fa5675d94e428",
+              "89556d49a60d83279c2c6d21804e784096238aa10d4d3097d5648ef28fc215ae"
+            ],
+            "command_state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+          },
+          "no_policy_outcome_filter": true
+        }
+      ]
+    }
+  },
+  "actual_native_episodes": 32,
+  "original_zero_shadow_controls_exact": true,
+  "engineering_references_excluded": true,
+  "all_resource_and_native_controls_passed": true,
+  "actual_parent_wait_pending": true,
+  "independent_task_benefit_not_implied_by_interface": true,
+  "input_sha256": {
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/protocol.json": "e1bb300ffd5c97c77d3218af9d41fa23271f9851b4c74ad160137d09bdc0a588",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/CPU_episode_audit.json": "89d7c1fe4edf71c1343b828b4b0c3694958a76fba31d61d70da89a732286815d",
+    "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_seven_gated_dev_v2/dev_gated/batches/000/runs/e81b7de06dff411380f995c92ade6d9a/terminal_audit.json": "f2a531c8060c4b10b54a25fa78e0e61c28f27270aae79f3dfa4313ddc9a5ad69"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "gpu": 2,
+  "info": {
+    "index": 2,
+    "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+    "pci": "00000000:23:00.0",
+    "memory_mib": 1,
+    "sm_percent": 0
+  },
+  "fresh_fleet": {
+    "max_gpus": 3,
+    "cards": [
+      {
+        "index": 0,
+        "uuid": "GPU-fa87bc41-1919-efe1-73f9-11f38008763e",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 1,
+        "uuid": "GPU-2847d2ca-7b83-3b84-b70c-7b44e288c156",
+        "memory_mib": 9574,
+        "total_mib": 24564,
+        "sm": 94,
+        "pids": [
+          3518510
+        ],
+        "own_pids": [],
+        "available": false
+      },
+      {
+        "index": 2,
+        "uuid": "GPU-0fe8853c-bf0c-d94f-52e2-e46a11d474cc",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 3,
+        "uuid": "GPU-dabef67b-c231-f3b7-8b8a-e35035b6c31a",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 4,
+        "uuid": "GPU-851ae1ec-0254-86f9-26e7-9e1ed12e5f9c",
+        "memory_mib": 16703,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [
+          3638294
+        ],
+        "own_pids": [
+          3638294
+        ],
+        "available": false
+      },
+      {
+        "index": 5,
+        "uuid": "GPU-0f89dea0-728e-1d23-fd62-d25b9bad3e4f",
+        "memory_mib": 1,
+        "total_mib": 24564,
+        "sm": 0,
+        "pids": [],
+        "own_pids": [],
+        "available": true
+      },
+      {
+        "index": 6,
+        "uuid": "GPU-2341a6fa-1a92-137b-fe9c-ebe2e5d5c90d",
+        "memory_mib": 13328,
+        "total_mib": 24564,
+        "sm": 45,
+        "pids": [
+          3333714
+        ],
+        "own_pids": [],
+        "available": false
+      }
+    ],
+    "own_gpu_count": 1,
+    "available_indices": [
+      0,
+      2,
+      3,
+      5
+    ]
+  }
+}

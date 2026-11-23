@@ -1,0 +1,1151 @@
+{
+  "complete": true,
+  "condition": "baseline",
+  "native_episode_complete": true,
+  "success": true,
+  "native_action_count": 252,
+  "original_native_step_limit": 700,
+  "physical_ticks": 13484,
+  "physical_elapsed_s": 53.936002561822534,
+  "reason": "native_success_terminal",
+  "queries": [
+    {
+      "query": 0,
+      "tick": 0,
+      "observation": {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation000.npz",
+        "sha256": "3037ff25b8947494a8ae438af5933ad4c9df589b40f8486577e17b6eeb1ff657",
+        "query": 0,
+        "global_tick": 0
+      },
+      "policy": {
+        "query": 0,
+        "actor_observation_tick": 0,
+        "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation000.npz",
+        "observation_sha256": "3037ff25b8947494a8ae438af5933ad4c9df589b40f8486577e17b6eeb1ff657",
+        "actor_images": {
+          "0": "3a521d373aa1c97691ceb356992e3485998face9b3a8a9674160e373c5754f3c",
+          "1": "051492e484784719eec640ad8e1e8b9a31ef17f15f60e0084ffb072e01b140d8",
+          "2": "4462b2090331a3c41befd9dd25e6afdf7a7595a0e1159231552f68ae61d910d7"
+        },
+        "command_state_sha256": "265a9f03e7b08982fcd5ff6db4f7c832e4561d0218c889c00403ca880f351c3d",
+        "noise_witness": {
+          "query": 0,
+          "tick": 0,
+          "base_sha256": "dc4be1a283dc143614dab79cc590addf745218e6dfeea3aa0de572af6b6990f9",
+          "rng_before": "9b00789b9bebc2844d9c375d7400c9383218f92aae579224ca56698cac0be4c2",
+          "rng_after": "bb91624a7cda19c7e672f67a4701cc46a0921a67e20aad2b006665bfbf3163e1",
+          "environment_unchanged": true,
+          "before": "e73d146d224319a7a6847b168eaf7ebff9c00a0ad9fdf503b54af0b30e4364c2",
+          "after": "dc4276eafc77603bfd9ef0e75fc82d63c3d2f459ea65230a9b39d9cd84b2f387",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "a2d4074709c13a0b965d147c561ccb0a7d1c8dae00e022d558d215d43999e04a",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "encoder": {
+          "token_sha256": [
+            "e816fe9258bdb7e53d7f468284d3da6004937812191204066a5ae53139a8257e",
+            "e816fe9258bdb7e53d7f468284d3da6004937812191204066a5ae53139a8257e",
+            "e816fe9258bdb7e53d7f468284d3da6004937812191204066a5ae53139a8257e"
+          ],
+          "valid_language_tokens": [
+            73,
+            73,
+            73
+          ]
+        },
+        "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/policy000.npz",
+        "policy_sha256": "fc3501ca8b68487f709af9911f06022cd3e13850767c6d9ef0322dc6c822e6b8",
+        "base_infer_calls": 1,
+        "actual_internal_noise_calls": 1,
+        "actual_policy_reference_query": true,
+        "prior_query_history_only": true,
+        "actual_actor_execution_record_required": true,
+        "environment_audit": {
+          "query": 0,
+          "tick": 0,
+          "physical_sha256": "efdebfe9369da2badd1b145f8621371ab8d87d21167d1ad602dadadd496a559e",
+          "rng_sha256": "28e971f554900386d5c8ab80bc6ffcad7d4f2c8e8717ad9b4263e11c3a1b813d",
+          "native_environment_unchanged": true,
+          "diagnostic_only": true,
+          "no_diagnostic_forward_inputs": true,
+          "actor_once_base_noise_witness": {
+            "query": 0,
+            "tick": 0,
+            "base_sha256": "dc4be1a283dc143614dab79cc590addf745218e6dfeea3aa0de572af6b6990f9",
+            "rng_before": "9b00789b9bebc2844d9c375d7400c9383218f92aae579224ca56698cac0be4c2",
+            "rng_after": "bb91624a7cda19c7e672f67a4701cc46a0921a67e20aad2b006665bfbf3163e1",
+            "environment_unchanged": true,
+            "before": "e73d146d224319a7a6847b168eaf7ebff9c00a0ad9fdf503b54af0b30e4364c2",
+            "after": "dc4276eafc77603bfd9ef0e75fc82d63c3d2f459ea65230a9b39d9cd84b2f387",
+            "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "noise_sha256": "a2d4074709c13a0b965d147c561ccb0a7d1c8dae00e022d558d215d43999e04a",
+            "shape": [
+              1,
+              32,
+              32
+            ],
+            "device_type": "cuda"
+          }
+        }
+      },
+      "actions_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/actions000.npz",
+      "actions_sha256": "eb025d50c039a8f5ff38a5f04bb72369ff893599597acdf71317707e557b21e7",
+      "event": {
+        "query": 0,
+        "event": null,
+        "evidence": {},
+        "decision": {
+          "active": false,
+          "selected_event": null
+        },
+        "adapted_direction_supplied": false,
+        "adaptation_applied": false,
+        "baseline_once_base_verbatim": true
+      },
+      "response": {
+        "reason": "frozen_full_no_update",
+        "accepted": false,
+        "released_packet_rows": 0
+      },
+      "wrong_feedback_control": [],
+      "execution": {
+        "query": 0,
+        "actor_observation_tick": 0,
+        "end_tick": 3714,
+        "commands_returned": 32,
+        "actual_complete_native32": true,
+        "execution_reason": "source_chunk_returned",
+        "executed_actions_sha256": "eefb35d85e4fea0aec0859aba3c59cbcfac40c99511872f4e9f9cdbea2511ca5",
+        "actual_trace_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/execution000.npz",
+        "actual_trace_sha256": "fa0d6f5c56cff28e17f691a4708d1c1e6c57c72420590a51871999ba524660e9",
+        "once_base_witness": {
+          "query": 0,
+          "tick": 0,
+          "base_sha256": "dc4be1a283dc143614dab79cc590addf745218e6dfeea3aa0de572af6b6990f9",
+          "rng_before": "9b00789b9bebc2844d9c375d7400c9383218f92aae579224ca56698cac0be4c2",
+          "rng_after": "bb91624a7cda19c7e672f67a4701cc46a0921a67e20aad2b006665bfbf3163e1",
+          "environment_unchanged": true,
+          "before": "e73d146d224319a7a6847b168eaf7ebff9c00a0ad9fdf503b54af0b30e4364c2",
+          "after": "dc4276eafc77603bfd9ef0e75fc82d63c3d2f459ea65230a9b39d9cd84b2f387",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "a2d4074709c13a0b965d147c561ccb0a7d1c8dae00e022d558d215d43999e04a",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "no_new_query_after_censor": false
+      },
+      "reason": "source_chunk_returned"
+    },
+    {
+      "query": 1,
+      "tick": 3714,
+      "observation": {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation001.npz",
+        "sha256": "cb21ec41cd48127ed71cd9d4857e870d8f5368e2c2c1d54c3c0ab4c4a414afb7",
+        "query": 1,
+        "global_tick": 3714
+      },
+      "policy": {
+        "query": 1,
+        "actor_observation_tick": 3714,
+        "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation001.npz",
+        "observation_sha256": "cb21ec41cd48127ed71cd9d4857e870d8f5368e2c2c1d54c3c0ab4c4a414afb7",
+        "actor_images": {
+          "0": "6ff4cb0bdc7b0232f61aef2d51ccc9f7dbebba7cef15c977ac8e163e5f11e68a",
+          "1": "3d95c485402ca3d12ba2935df7f9fe09454f39ca5708fefeb3593553ea5fe476",
+          "2": "a0caad22e30d951f71fcc19323361e02e7cffc21505f3fa92a05d9d0690e42bc"
+        },
+        "command_state_sha256": "4b1b7a264534bd3e4874bb201759879e06c42dbcc553602933e519d04fc6a94e",
+        "noise_witness": {
+          "query": 1,
+          "tick": 3714,
+          "base_sha256": "4c796baa93d4a62360446784617f0d72b544bb77ebc36333940efaae464f8ac9",
+          "rng_before": "bb91624a7cda19c7e672f67a4701cc46a0921a67e20aad2b006665bfbf3163e1",
+          "rng_after": "e7d7072eb0f49d40223b2747d85359ecc475e829af5edf1d3bb006eefd0efb6f",
+          "environment_unchanged": true,
+          "before": "dc4276eafc77603bfd9ef0e75fc82d63c3d2f459ea65230a9b39d9cd84b2f387",
+          "after": "a635a0500b0ce6499ae2b2600c45611198fbee07f4be1fe148a86feadbb99108",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "1cda107043bfef4c289dcc15a1732379e489941386e1010b6c3e9cc7e1a254fe",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "encoder": {
+          "token_sha256": [
+            "6970c4bf0d520f021de3d904304cb593ea34ce601d82e6cbdec719e5d774474b",
+            "6970c4bf0d520f021de3d904304cb593ea34ce601d82e6cbdec719e5d774474b",
+            "6970c4bf0d520f021de3d904304cb593ea34ce601d82e6cbdec719e5d774474b"
+          ],
+          "valid_language_tokens": [
+            74,
+            74,
+            74
+          ]
+        },
+        "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/policy001.npz",
+        "policy_sha256": "e615cb193655723db7fec36a0b7347d7a5d6c95d00982e86b254d0a23ab65c37",
+        "base_infer_calls": 1,
+        "actual_internal_noise_calls": 1,
+        "actual_policy_reference_query": true,
+        "prior_query_history_only": true,
+        "actual_actor_execution_record_required": true,
+        "environment_audit": {
+          "query": 1,
+          "tick": 3714,
+          "physical_sha256": "fe70a9a60a2d32355b3f018f4cbe8128ccb6520155b28a76543fc422cf42fd0f",
+          "rng_sha256": "28e971f554900386d5c8ab80bc6ffcad7d4f2c8e8717ad9b4263e11c3a1b813d",
+          "native_environment_unchanged": true,
+          "diagnostic_only": true,
+          "no_diagnostic_forward_inputs": true,
+          "actor_once_base_noise_witness": {
+            "query": 1,
+            "tick": 3714,
+            "base_sha256": "4c796baa93d4a62360446784617f0d72b544bb77ebc36333940efaae464f8ac9",
+            "rng_before": "bb91624a7cda19c7e672f67a4701cc46a0921a67e20aad2b006665bfbf3163e1",
+            "rng_after": "e7d7072eb0f49d40223b2747d85359ecc475e829af5edf1d3bb006eefd0efb6f",
+            "environment_unchanged": true,
+            "before": "dc4276eafc77603bfd9ef0e75fc82d63c3d2f459ea65230a9b39d9cd84b2f387",
+            "after": "a635a0500b0ce6499ae2b2600c45611198fbee07f4be1fe148a86feadbb99108",
+            "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "noise_sha256": "1cda107043bfef4c289dcc15a1732379e489941386e1010b6c3e9cc7e1a254fe",
+            "shape": [
+              1,
+              32,
+              32
+            ],
+            "device_type": "cuda"
+          }
+        }
+      },
+      "actions_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/actions001.npz",
+      "actions_sha256": "119de79ad571ca17a07dc2e1ea6cf273434ffc50508e6ce308fa6e2e8f712d30",
+      "event": {
+        "query": 1,
+        "event": null,
+        "evidence": {},
+        "decision": {
+          "active": false,
+          "selected_event": null
+        },
+        "adapted_direction_supplied": false,
+        "adaptation_applied": false,
+        "baseline_once_base_verbatim": true
+      },
+      "response": {
+        "reason": "frozen_full_no_update",
+        "accepted": false,
+        "released_packet_rows": 0
+      },
+      "wrong_feedback_control": [],
+      "execution": {
+        "query": 1,
+        "actor_observation_tick": 3714,
+        "end_tick": 5936,
+        "commands_returned": 32,
+        "actual_complete_native32": true,
+        "execution_reason": "source_chunk_returned",
+        "executed_actions_sha256": "3ad71c240df9079d9502b6d02f410abd0f6c4c00fb7e7d6cc36caab714c04a6f",
+        "actual_trace_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/execution001.npz",
+        "actual_trace_sha256": "52146da33ead9180b8b1296623158d73a8fe2c143af97572bb1e330b9d8dc172",
+        "once_base_witness": {
+          "query": 1,
+          "tick": 3714,
+          "base_sha256": "4c796baa93d4a62360446784617f0d72b544bb77ebc36333940efaae464f8ac9",
+          "rng_before": "bb91624a7cda19c7e672f67a4701cc46a0921a67e20aad2b006665bfbf3163e1",
+          "rng_after": "e7d7072eb0f49d40223b2747d85359ecc475e829af5edf1d3bb006eefd0efb6f",
+          "environment_unchanged": true,
+          "before": "dc4276eafc77603bfd9ef0e75fc82d63c3d2f459ea65230a9b39d9cd84b2f387",
+          "after": "a635a0500b0ce6499ae2b2600c45611198fbee07f4be1fe148a86feadbb99108",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "1cda107043bfef4c289dcc15a1732379e489941386e1010b6c3e9cc7e1a254fe",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "no_new_query_after_censor": false
+      },
+      "reason": "source_chunk_returned"
+    },
+    {
+      "query": 2,
+      "tick": 5936,
+      "observation": {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation002.npz",
+        "sha256": "dd13ab84f66e2665d4bf30368d19f76b8966db41c5aaf94f9a570c1a43a68059",
+        "query": 2,
+        "global_tick": 5936
+      },
+      "policy": {
+        "query": 2,
+        "actor_observation_tick": 5936,
+        "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation002.npz",
+        "observation_sha256": "dd13ab84f66e2665d4bf30368d19f76b8966db41c5aaf94f9a570c1a43a68059",
+        "actor_images": {
+          "0": "545608219bf9754ae3f054c756872c043b6f8f5bc74f33abc4472da124ecc511",
+          "1": "0a7c98bbbc12f0416cd71954576d34d8fdbef2876eca289ba30b43737a176118",
+          "2": "12b2b8f4f535aab39e2c0de7312c05d21cea60a3339e42f9eedeca5ba08e65ce"
+        },
+        "command_state_sha256": "76eb134f85976a3f2e7492768e369fe6c5b3f51473c2e07ddbe1507116c92fd5",
+        "noise_witness": {
+          "query": 2,
+          "tick": 5936,
+          "base_sha256": "766bd8fd18b612789294af600f708c363477c29592b1e46431cbfe22de162b38",
+          "rng_before": "e7d7072eb0f49d40223b2747d85359ecc475e829af5edf1d3bb006eefd0efb6f",
+          "rng_after": "e6fbadb0142ffb7442a0a9bfed69a4d89dbd569a6eebae2a1faf6ef115aac975",
+          "environment_unchanged": true,
+          "before": "a635a0500b0ce6499ae2b2600c45611198fbee07f4be1fe148a86feadbb99108",
+          "after": "4777d56551d909c8e35ffe9b3c551e6e8d593fad9f1faea8df48e1fc8efd0e3d",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "ac9858fd0daea49d057fdcff52a6091357b5967cbb98fb17fb1069808de88fe8",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "encoder": {
+          "token_sha256": [
+            "3a3bccb1f3feb2d4c76c28184939d0d36578146067c7699a36d52f8bab745f0c",
+            "3a3bccb1f3feb2d4c76c28184939d0d36578146067c7699a36d52f8bab745f0c",
+            "3a3bccb1f3feb2d4c76c28184939d0d36578146067c7699a36d52f8bab745f0c"
+          ],
+          "valid_language_tokens": [
+            73,
+            73,
+            73
+          ]
+        },
+        "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/policy002.npz",
+        "policy_sha256": "004bc621b10c9a3e15d4a6dee74137dc080c839b791db8a78b692995692bc008",
+        "base_infer_calls": 1,
+        "actual_internal_noise_calls": 1,
+        "actual_policy_reference_query": true,
+        "prior_query_history_only": true,
+        "actual_actor_execution_record_required": true,
+        "environment_audit": {
+          "query": 2,
+          "tick": 5936,
+          "physical_sha256": "8d20c31ddd9b6bed78693caa59637690015bae89d26960c62f479626c344a476",
+          "rng_sha256": "28e971f554900386d5c8ab80bc6ffcad7d4f2c8e8717ad9b4263e11c3a1b813d",
+          "native_environment_unchanged": true,
+          "diagnostic_only": true,
+          "no_diagnostic_forward_inputs": true,
+          "actor_once_base_noise_witness": {
+            "query": 2,
+            "tick": 5936,
+            "base_sha256": "766bd8fd18b612789294af600f708c363477c29592b1e46431cbfe22de162b38",
+            "rng_before": "e7d7072eb0f49d40223b2747d85359ecc475e829af5edf1d3bb006eefd0efb6f",
+            "rng_after": "e6fbadb0142ffb7442a0a9bfed69a4d89dbd569a6eebae2a1faf6ef115aac975",
+            "environment_unchanged": true,
+            "before": "a635a0500b0ce6499ae2b2600c45611198fbee07f4be1fe148a86feadbb99108",
+            "after": "4777d56551d909c8e35ffe9b3c551e6e8d593fad9f1faea8df48e1fc8efd0e3d",
+            "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "noise_sha256": "ac9858fd0daea49d057fdcff52a6091357b5967cbb98fb17fb1069808de88fe8",
+            "shape": [
+              1,
+              32,
+              32
+            ],
+            "device_type": "cuda"
+          }
+        }
+      },
+      "actions_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/actions002.npz",
+      "actions_sha256": "69624c783dfa90eabdc5889ebb7bd1d10d57f609aedc1d85d09f1d4e5e2eb8d6",
+      "event": {
+        "query": 2,
+        "event": null,
+        "evidence": {},
+        "decision": {
+          "active": false,
+          "selected_event": null
+        },
+        "adapted_direction_supplied": false,
+        "adaptation_applied": false,
+        "baseline_once_base_verbatim": true
+      },
+      "response": {
+        "reason": "frozen_full_no_update",
+        "accepted": false,
+        "released_packet_rows": 0
+      },
+      "wrong_feedback_control": [],
+      "execution": {
+        "query": 2,
+        "actor_observation_tick": 5936,
+        "end_tick": 7180,
+        "commands_returned": 32,
+        "actual_complete_native32": true,
+        "execution_reason": "source_chunk_returned",
+        "executed_actions_sha256": "6cd9cee5bd57e007880792b2984aab3f423f96e722e58fa977b29cd87db363f5",
+        "actual_trace_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/execution002.npz",
+        "actual_trace_sha256": "80a7e73535fe8f6d3159df121462d38eb792c1f740883c8754856e7234f9775e",
+        "once_base_witness": {
+          "query": 2,
+          "tick": 5936,
+          "base_sha256": "766bd8fd18b612789294af600f708c363477c29592b1e46431cbfe22de162b38",
+          "rng_before": "e7d7072eb0f49d40223b2747d85359ecc475e829af5edf1d3bb006eefd0efb6f",
+          "rng_after": "e6fbadb0142ffb7442a0a9bfed69a4d89dbd569a6eebae2a1faf6ef115aac975",
+          "environment_unchanged": true,
+          "before": "a635a0500b0ce6499ae2b2600c45611198fbee07f4be1fe148a86feadbb99108",
+          "after": "4777d56551d909c8e35ffe9b3c551e6e8d593fad9f1faea8df48e1fc8efd0e3d",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "ac9858fd0daea49d057fdcff52a6091357b5967cbb98fb17fb1069808de88fe8",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "no_new_query_after_censor": false
+      },
+      "reason": "source_chunk_returned"
+    },
+    {
+      "query": 3,
+      "tick": 7180,
+      "observation": {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation003.npz",
+        "sha256": "7d797f6a1b779d4773731cf46e64e9fd3a7282bdd7b958f5369215c496f792ca",
+        "query": 3,
+        "global_tick": 7180
+      },
+      "policy": {
+        "query": 3,
+        "actor_observation_tick": 7180,
+        "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation003.npz",
+        "observation_sha256": "7d797f6a1b779d4773731cf46e64e9fd3a7282bdd7b958f5369215c496f792ca",
+        "actor_images": {
+          "0": "d37c0c54d7cb2c78eed8640869497e0ba0cabd7bd4873b1eb6b94705ce043e61",
+          "1": "95e974f669f1f0184d308890c32d7e713a819b94b16769e481096b93ce242c6c",
+          "2": "624dd434e3e7498253fb3cc996b46c003650d27af3e28ff7457cee39f0b25b70"
+        },
+        "command_state_sha256": "1a72b7c2c6440701b2113b1bc3f6ea03b9c040fec4af27b5e60157ab7ab81f91",
+        "noise_witness": {
+          "query": 3,
+          "tick": 7180,
+          "base_sha256": "dead689979560ad9fc29ea2462983f634b5c1d5e750d53ed9e83f992d1fff1e7",
+          "rng_before": "e6fbadb0142ffb7442a0a9bfed69a4d89dbd569a6eebae2a1faf6ef115aac975",
+          "rng_after": "e5aac21785e2d863e8aea90716fc80d4644867984f8b43cdf61473dc59109ba6",
+          "environment_unchanged": true,
+          "before": "4777d56551d909c8e35ffe9b3c551e6e8d593fad9f1faea8df48e1fc8efd0e3d",
+          "after": "25af9182f86a2ad689aa80e2e9279bf9ca6051e2d1afdd79a8c06ceafdd04afb",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "30558f636385e8502767b9707df64b2903400ffe9ad775e8cdd8900513be78d5",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "encoder": {
+          "token_sha256": [
+            "55f9d26fc65feab528d06546a9b3d5bc00e55b9107c9832968784045b1e8b57a",
+            "55f9d26fc65feab528d06546a9b3d5bc00e55b9107c9832968784045b1e8b57a",
+            "55f9d26fc65feab528d06546a9b3d5bc00e55b9107c9832968784045b1e8b57a"
+          ],
+          "valid_language_tokens": [
+            71,
+            71,
+            71
+          ]
+        },
+        "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/policy003.npz",
+        "policy_sha256": "e0a4ec62cf2652116cc8e988d2adfa3ad52ffc72c392dde7793e031e36b0cb3d",
+        "base_infer_calls": 1,
+        "actual_internal_noise_calls": 1,
+        "actual_policy_reference_query": true,
+        "prior_query_history_only": true,
+        "actual_actor_execution_record_required": true,
+        "environment_audit": {
+          "query": 3,
+          "tick": 7180,
+          "physical_sha256": "9f08f21ca173c812bbcd37321d50f0aa667c243b268f6e2244598acb722b87e0",
+          "rng_sha256": "28e971f554900386d5c8ab80bc6ffcad7d4f2c8e8717ad9b4263e11c3a1b813d",
+          "native_environment_unchanged": true,
+          "diagnostic_only": true,
+          "no_diagnostic_forward_inputs": true,
+          "actor_once_base_noise_witness": {
+            "query": 3,
+            "tick": 7180,
+            "base_sha256": "dead689979560ad9fc29ea2462983f634b5c1d5e750d53ed9e83f992d1fff1e7",
+            "rng_before": "e6fbadb0142ffb7442a0a9bfed69a4d89dbd569a6eebae2a1faf6ef115aac975",
+            "rng_after": "e5aac21785e2d863e8aea90716fc80d4644867984f8b43cdf61473dc59109ba6",
+            "environment_unchanged": true,
+            "before": "4777d56551d909c8e35ffe9b3c551e6e8d593fad9f1faea8df48e1fc8efd0e3d",
+            "after": "25af9182f86a2ad689aa80e2e9279bf9ca6051e2d1afdd79a8c06ceafdd04afb",
+            "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "noise_sha256": "30558f636385e8502767b9707df64b2903400ffe9ad775e8cdd8900513be78d5",
+            "shape": [
+              1,
+              32,
+              32
+            ],
+            "device_type": "cuda"
+          }
+        }
+      },
+      "actions_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/actions003.npz",
+      "actions_sha256": "efa7e64c66427e18a801d01222aa29bbdaf19c7a1028298d2b4c9d4cf48b697e",
+      "event": {
+        "query": 3,
+        "event": null,
+        "evidence": {},
+        "decision": {
+          "active": false,
+          "selected_event": null
+        },
+        "adapted_direction_supplied": false,
+        "adaptation_applied": false,
+        "baseline_once_base_verbatim": true
+      },
+      "response": {
+        "reason": "frozen_full_no_update",
+        "accepted": false,
+        "released_packet_rows": 0
+      },
+      "wrong_feedback_control": [],
+      "execution": {
+        "query": 3,
+        "actor_observation_tick": 7180,
+        "end_tick": 9260,
+        "commands_returned": 32,
+        "actual_complete_native32": true,
+        "execution_reason": "source_chunk_returned",
+        "executed_actions_sha256": "d3f2afcdf84f990024efbe180545d0c35451b9b77f16275d492b1b70d295a13c",
+        "actual_trace_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/execution003.npz",
+        "actual_trace_sha256": "9011994dcdeae933e4b4f98edde970ed6588fc6527e86b6569b5318f5a5be16f",
+        "once_base_witness": {
+          "query": 3,
+          "tick": 7180,
+          "base_sha256": "dead689979560ad9fc29ea2462983f634b5c1d5e750d53ed9e83f992d1fff1e7",
+          "rng_before": "e6fbadb0142ffb7442a0a9bfed69a4d89dbd569a6eebae2a1faf6ef115aac975",
+          "rng_after": "e5aac21785e2d863e8aea90716fc80d4644867984f8b43cdf61473dc59109ba6",
+          "environment_unchanged": true,
+          "before": "4777d56551d909c8e35ffe9b3c551e6e8d593fad9f1faea8df48e1fc8efd0e3d",
+          "after": "25af9182f86a2ad689aa80e2e9279bf9ca6051e2d1afdd79a8c06ceafdd04afb",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "30558f636385e8502767b9707df64b2903400ffe9ad775e8cdd8900513be78d5",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "no_new_query_after_censor": false
+      },
+      "reason": "source_chunk_returned"
+    },
+    {
+      "query": 4,
+      "tick": 9260,
+      "observation": {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation004.npz",
+        "sha256": "c6a2da4f4f4810d00d3d814c5f4b24f018ff8bf181d59f14711b6c3efeba3899",
+        "query": 4,
+        "global_tick": 9260
+      },
+      "policy": {
+        "query": 4,
+        "actor_observation_tick": 9260,
+        "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation004.npz",
+        "observation_sha256": "c6a2da4f4f4810d00d3d814c5f4b24f018ff8bf181d59f14711b6c3efeba3899",
+        "actor_images": {
+          "0": "0b950b9a45b5386dc6e5f461e55bfc4ab83e4fc99f50cf2e053ab29b93c771d4",
+          "1": "086b0e5ea147776222c850fe2195f49080259adab9e47303b2a55981aa33c484",
+          "2": "5edaceef867f9b179487099042c0319994a5fecc95e9c57821d1a0ac57a88505"
+        },
+        "command_state_sha256": "a0c82b426f835661c552c7dc197a86d1504585a967418854f66bc79d550f3b7f",
+        "noise_witness": {
+          "query": 4,
+          "tick": 9260,
+          "base_sha256": "169c63801958c3f22a4eb29bf18fbd7631c727f4e645cf4d4851912f0679a6a4",
+          "rng_before": "e5aac21785e2d863e8aea90716fc80d4644867984f8b43cdf61473dc59109ba6",
+          "rng_after": "a39e7b93a8886b1d5e9ce887f07a64862353734feaf7064b46c53f0f79d7e66f",
+          "environment_unchanged": true,
+          "before": "25af9182f86a2ad689aa80e2e9279bf9ca6051e2d1afdd79a8c06ceafdd04afb",
+          "after": "0583518b7fbcc64bab5516b2e37f1ddd2e178ef58252c9f65d88f53f7b1c8834",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "564011798ac85eb58c55a24dd3cc97a5fabc609b7c9b84298922768be7a8bc16",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "encoder": {
+          "token_sha256": [
+            "2d53a085192e9acebde1c206046daf55f4fcfeb480afbf4b4d7fd120389f21b4",
+            "2d53a085192e9acebde1c206046daf55f4fcfeb480afbf4b4d7fd120389f21b4",
+            "2d53a085192e9acebde1c206046daf55f4fcfeb480afbf4b4d7fd120389f21b4"
+          ],
+          "valid_language_tokens": [
+            71,
+            71,
+            71
+          ]
+        },
+        "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/policy004.npz",
+        "policy_sha256": "17f8fa6436431f6b8895282a12451ad7a4a887a97a6f8c3000e1a67cb92e19fb",
+        "base_infer_calls": 1,
+        "actual_internal_noise_calls": 1,
+        "actual_policy_reference_query": true,
+        "prior_query_history_only": true,
+        "actual_actor_execution_record_required": true,
+        "environment_audit": {
+          "query": 4,
+          "tick": 9260,
+          "physical_sha256": "495c1bd6af43f2b729622e468b27d205f985b0d732136721f3a02c73b0cc61cd",
+          "rng_sha256": "28e971f554900386d5c8ab80bc6ffcad7d4f2c8e8717ad9b4263e11c3a1b813d",
+          "native_environment_unchanged": true,
+          "diagnostic_only": true,
+          "no_diagnostic_forward_inputs": true,
+          "actor_once_base_noise_witness": {
+            "query": 4,
+            "tick": 9260,
+            "base_sha256": "169c63801958c3f22a4eb29bf18fbd7631c727f4e645cf4d4851912f0679a6a4",
+            "rng_before": "e5aac21785e2d863e8aea90716fc80d4644867984f8b43cdf61473dc59109ba6",
+            "rng_after": "a39e7b93a8886b1d5e9ce887f07a64862353734feaf7064b46c53f0f79d7e66f",
+            "environment_unchanged": true,
+            "before": "25af9182f86a2ad689aa80e2e9279bf9ca6051e2d1afdd79a8c06ceafdd04afb",
+            "after": "0583518b7fbcc64bab5516b2e37f1ddd2e178ef58252c9f65d88f53f7b1c8834",
+            "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "noise_sha256": "564011798ac85eb58c55a24dd3cc97a5fabc609b7c9b84298922768be7a8bc16",
+            "shape": [
+              1,
+              32,
+              32
+            ],
+            "device_type": "cuda"
+          }
+        }
+      },
+      "actions_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/actions004.npz",
+      "actions_sha256": "67f141b9159e8f6e2446dac40cf6f0a00fe91e813e83c584a867589f56d5b0fe",
+      "event": {
+        "query": 4,
+        "event": null,
+        "evidence": {},
+        "decision": {
+          "active": false,
+          "selected_event": null
+        },
+        "adapted_direction_supplied": false,
+        "adaptation_applied": false,
+        "baseline_once_base_verbatim": true
+      },
+      "response": {
+        "reason": "frozen_full_no_update",
+        "accepted": false,
+        "released_packet_rows": 0
+      },
+      "wrong_feedback_control": [],
+      "execution": {
+        "query": 4,
+        "actor_observation_tick": 9260,
+        "end_tick": 10661,
+        "commands_returned": 32,
+        "actual_complete_native32": true,
+        "execution_reason": "source_chunk_returned",
+        "executed_actions_sha256": "c9af147492385b38f21fc2023336793ece2e2834c2f460631feeb1bd2534b268",
+        "actual_trace_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/execution004.npz",
+        "actual_trace_sha256": "33153e89d97082f8453ad98947a36942e6baf19b0c219e04d7b0b8a4739564c2",
+        "once_base_witness": {
+          "query": 4,
+          "tick": 9260,
+          "base_sha256": "169c63801958c3f22a4eb29bf18fbd7631c727f4e645cf4d4851912f0679a6a4",
+          "rng_before": "e5aac21785e2d863e8aea90716fc80d4644867984f8b43cdf61473dc59109ba6",
+          "rng_after": "a39e7b93a8886b1d5e9ce887f07a64862353734feaf7064b46c53f0f79d7e66f",
+          "environment_unchanged": true,
+          "before": "25af9182f86a2ad689aa80e2e9279bf9ca6051e2d1afdd79a8c06ceafdd04afb",
+          "after": "0583518b7fbcc64bab5516b2e37f1ddd2e178ef58252c9f65d88f53f7b1c8834",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "564011798ac85eb58c55a24dd3cc97a5fabc609b7c9b84298922768be7a8bc16",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "no_new_query_after_censor": false
+      },
+      "reason": "source_chunk_returned"
+    },
+    {
+      "query": 5,
+      "tick": 10661,
+      "observation": {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation005.npz",
+        "sha256": "db059d2cafc7bb0cff25d1df369a702559377709ceacd5e56dc503c49dd6950b",
+        "query": 5,
+        "global_tick": 10661
+      },
+      "policy": {
+        "query": 5,
+        "actor_observation_tick": 10661,
+        "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation005.npz",
+        "observation_sha256": "db059d2cafc7bb0cff25d1df369a702559377709ceacd5e56dc503c49dd6950b",
+        "actor_images": {
+          "0": "597789307032797f56ed94ccf953181c158b7bd442548ce40c2387552c380cb7",
+          "1": "ff0e3ccfb2ace0e89b73fbfb899dd6168b733e53a7555613f5a03bdf8a3ca90c",
+          "2": "1271b64cd33f023a42f342f24834cd88922072c6d9a50c008c28a5677033f40e"
+        },
+        "command_state_sha256": "4db110c91ef00d64468758771eb9879d0677d1ef874a13adc0ca4fdfcb4d26bf",
+        "noise_witness": {
+          "query": 5,
+          "tick": 10661,
+          "base_sha256": "bf04ed5b3b9c5c2494c8aef26bc4e008f90a1ea84af042a4484243326bbbb874",
+          "rng_before": "a39e7b93a8886b1d5e9ce887f07a64862353734feaf7064b46c53f0f79d7e66f",
+          "rng_after": "a3bc4fba1303e95cd05c175980421caadc8d8821bf675d515233c372105ca1dd",
+          "environment_unchanged": true,
+          "before": "0583518b7fbcc64bab5516b2e37f1ddd2e178ef58252c9f65d88f53f7b1c8834",
+          "after": "d1b4454f59fc246a76ebc2b34eb637f9d54d787798a65212f1549e29f8b8c5c2",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "033dd6636b0023232757318e8d56a5f94a121ebfee6918d242e0296f6058fb83",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "encoder": {
+          "token_sha256": [
+            "6e8479ae7ceeaa820ab60bd92e9e3080f9326bfcfa5695d3234c0ef882a5c198",
+            "6e8479ae7ceeaa820ab60bd92e9e3080f9326bfcfa5695d3234c0ef882a5c198",
+            "6e8479ae7ceeaa820ab60bd92e9e3080f9326bfcfa5695d3234c0ef882a5c198"
+          ],
+          "valid_language_tokens": [
+            71,
+            71,
+            71
+          ]
+        },
+        "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/policy005.npz",
+        "policy_sha256": "e990dbcf2df0205784c656f13af84304ffd3670d2c3f5e016c33be9ad175fb0d",
+        "base_infer_calls": 1,
+        "actual_internal_noise_calls": 1,
+        "actual_policy_reference_query": true,
+        "prior_query_history_only": true,
+        "actual_actor_execution_record_required": true,
+        "environment_audit": {
+          "query": 5,
+          "tick": 10661,
+          "physical_sha256": "03205f40ba7251e97f574595a1dbc9a71d06090e45c5a6fdfe3b455df4c932da",
+          "rng_sha256": "28e971f554900386d5c8ab80bc6ffcad7d4f2c8e8717ad9b4263e11c3a1b813d",
+          "native_environment_unchanged": true,
+          "diagnostic_only": true,
+          "no_diagnostic_forward_inputs": true,
+          "actor_once_base_noise_witness": {
+            "query": 5,
+            "tick": 10661,
+            "base_sha256": "bf04ed5b3b9c5c2494c8aef26bc4e008f90a1ea84af042a4484243326bbbb874",
+            "rng_before": "a39e7b93a8886b1d5e9ce887f07a64862353734feaf7064b46c53f0f79d7e66f",
+            "rng_after": "a3bc4fba1303e95cd05c175980421caadc8d8821bf675d515233c372105ca1dd",
+            "environment_unchanged": true,
+            "before": "0583518b7fbcc64bab5516b2e37f1ddd2e178ef58252c9f65d88f53f7b1c8834",
+            "after": "d1b4454f59fc246a76ebc2b34eb637f9d54d787798a65212f1549e29f8b8c5c2",
+            "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "noise_sha256": "033dd6636b0023232757318e8d56a5f94a121ebfee6918d242e0296f6058fb83",
+            "shape": [
+              1,
+              32,
+              32
+            ],
+            "device_type": "cuda"
+          }
+        }
+      },
+      "actions_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/actions005.npz",
+      "actions_sha256": "5d847f2d4e70595cd6850b6362d2aa3c143476a3725d73f0f0c48968ab8b34a9",
+      "event": {
+        "query": 5,
+        "event": null,
+        "evidence": {},
+        "decision": {
+          "active": false,
+          "selected_event": null
+        },
+        "adapted_direction_supplied": false,
+        "adaptation_applied": false,
+        "baseline_once_base_verbatim": true
+      },
+      "response": {
+        "reason": "frozen_full_no_update",
+        "accepted": false,
+        "released_packet_rows": 0
+      },
+      "wrong_feedback_control": [],
+      "execution": {
+        "query": 5,
+        "actor_observation_tick": 10661,
+        "end_tick": 11494,
+        "commands_returned": 32,
+        "actual_complete_native32": true,
+        "execution_reason": "source_chunk_returned",
+        "executed_actions_sha256": "9d4a147bf3ad62a65d73d5f643b93262aff19346a74b2fb6f6e7c78e74ed7ae2",
+        "actual_trace_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/execution005.npz",
+        "actual_trace_sha256": "f3bd518a5825a1c48ba41cf5df41b9980d2ae2a49c2b49536c8a3d0a3cb0db50",
+        "once_base_witness": {
+          "query": 5,
+          "tick": 10661,
+          "base_sha256": "bf04ed5b3b9c5c2494c8aef26bc4e008f90a1ea84af042a4484243326bbbb874",
+          "rng_before": "a39e7b93a8886b1d5e9ce887f07a64862353734feaf7064b46c53f0f79d7e66f",
+          "rng_after": "a3bc4fba1303e95cd05c175980421caadc8d8821bf675d515233c372105ca1dd",
+          "environment_unchanged": true,
+          "before": "0583518b7fbcc64bab5516b2e37f1ddd2e178ef58252c9f65d88f53f7b1c8834",
+          "after": "d1b4454f59fc246a76ebc2b34eb637f9d54d787798a65212f1549e29f8b8c5c2",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "033dd6636b0023232757318e8d56a5f94a121ebfee6918d242e0296f6058fb83",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "no_new_query_after_censor": false
+      },
+      "reason": "source_chunk_returned"
+    },
+    {
+      "query": 6,
+      "tick": 11494,
+      "observation": {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation006.npz",
+        "sha256": "032661f60056dd60272c528638087d23f678efb47ea1fcdde595eb43b1a66679",
+        "query": 6,
+        "global_tick": 11494
+      },
+      "policy": {
+        "query": 6,
+        "actor_observation_tick": 11494,
+        "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation006.npz",
+        "observation_sha256": "032661f60056dd60272c528638087d23f678efb47ea1fcdde595eb43b1a66679",
+        "actor_images": {
+          "0": "2c42ba242bd93637cdb2975ee000f97952b293c21d75c13c5188dec963866210",
+          "1": "c1aae35327b2d6f9f6a6ee6ae23de3c0f48130ff62e652193a1e9e064a6885a9",
+          "2": "7a5af953ced173ebd625c357d91beae6d19a935ed7c226cfe0f5c428a390c145"
+        },
+        "command_state_sha256": "19bc223f6b63b8f1beebcfae8937bbbd7b23c9962a5eff960b41d5d74c1412aa",
+        "noise_witness": {
+          "query": 6,
+          "tick": 11494,
+          "base_sha256": "b4e3c0a324a44a630eece0b66c51738f0e325031428b81cb41027c95de6c06eb",
+          "rng_before": "a3bc4fba1303e95cd05c175980421caadc8d8821bf675d515233c372105ca1dd",
+          "rng_after": "fb5817536d3a42f75820971d43058eea0f84ca78d2d4d444fa14ce180aa06346",
+          "environment_unchanged": true,
+          "before": "d1b4454f59fc246a76ebc2b34eb637f9d54d787798a65212f1549e29f8b8c5c2",
+          "after": "52c451c2f1f588c92a69d37b28a5979c5940533b3b47f486d0a48d2357f35107",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "ebe4f1bd99961beb43543c0a4ba423a0c0db81363afeeef63da4af8ddf563c2e",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "encoder": {
+          "token_sha256": [
+            "dd775be156bccd4416c8ea5e61c81aa2cfd60bf23f1b4d4922f3c79fc5c84762",
+            "dd775be156bccd4416c8ea5e61c81aa2cfd60bf23f1b4d4922f3c79fc5c84762",
+            "dd775be156bccd4416c8ea5e61c81aa2cfd60bf23f1b4d4922f3c79fc5c84762"
+          ],
+          "valid_language_tokens": [
+            71,
+            71,
+            71
+          ]
+        },
+        "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/policy006.npz",
+        "policy_sha256": "6260fe7d017877889187e4fbcd9e9e546ea45364961b8bf3541b7296c5f20208",
+        "base_infer_calls": 1,
+        "actual_internal_noise_calls": 1,
+        "actual_policy_reference_query": true,
+        "prior_query_history_only": true,
+        "actual_actor_execution_record_required": true,
+        "environment_audit": {
+          "query": 6,
+          "tick": 11494,
+          "physical_sha256": "62cb67ac86d4b1fe8d20ed3eed9297648516d871b726439cb38558546e2c1bdd",
+          "rng_sha256": "28e971f554900386d5c8ab80bc6ffcad7d4f2c8e8717ad9b4263e11c3a1b813d",
+          "native_environment_unchanged": true,
+          "diagnostic_only": true,
+          "no_diagnostic_forward_inputs": true,
+          "actor_once_base_noise_witness": {
+            "query": 6,
+            "tick": 11494,
+            "base_sha256": "b4e3c0a324a44a630eece0b66c51738f0e325031428b81cb41027c95de6c06eb",
+            "rng_before": "a3bc4fba1303e95cd05c175980421caadc8d8821bf675d515233c372105ca1dd",
+            "rng_after": "fb5817536d3a42f75820971d43058eea0f84ca78d2d4d444fa14ce180aa06346",
+            "environment_unchanged": true,
+            "before": "d1b4454f59fc246a76ebc2b34eb637f9d54d787798a65212f1549e29f8b8c5c2",
+            "after": "52c451c2f1f588c92a69d37b28a5979c5940533b3b47f486d0a48d2357f35107",
+            "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "noise_sha256": "ebe4f1bd99961beb43543c0a4ba423a0c0db81363afeeef63da4af8ddf563c2e",
+            "shape": [
+              1,
+              32,
+              32
+            ],
+            "device_type": "cuda"
+          }
+        }
+      },
+      "actions_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/actions006.npz",
+      "actions_sha256": "45e40d9527ee044e7d676203796011c5d8f60e3eae5dcde3f0f37e95e3ee1138",
+      "event": {
+        "query": 6,
+        "event": null,
+        "evidence": {},
+        "decision": {
+          "active": false,
+          "selected_event": null
+        },
+        "adapted_direction_supplied": false,
+        "adaptation_applied": false,
+        "baseline_once_base_verbatim": true
+      },
+      "response": {
+        "reason": "frozen_full_no_update",
+        "accepted": false,
+        "released_packet_rows": 0
+      },
+      "wrong_feedback_control": [],
+      "execution": {
+        "query": 6,
+        "actor_observation_tick": 11494,
+        "end_tick": 12738,
+        "commands_returned": 32,
+        "actual_complete_native32": true,
+        "execution_reason": "source_chunk_returned",
+        "executed_actions_sha256": "46bff24c7fa9903630cfab8af9a8ac47f107bb27a5eef5238cb69f3027b01837",
+        "actual_trace_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/execution006.npz",
+        "actual_trace_sha256": "a047ccb789c296109844691170ef79dad45ecdae95548080ddb9977524f19ffa",
+        "once_base_witness": {
+          "query": 6,
+          "tick": 11494,
+          "base_sha256": "b4e3c0a324a44a630eece0b66c51738f0e325031428b81cb41027c95de6c06eb",
+          "rng_before": "a3bc4fba1303e95cd05c175980421caadc8d8821bf675d515233c372105ca1dd",
+          "rng_after": "fb5817536d3a42f75820971d43058eea0f84ca78d2d4d444fa14ce180aa06346",
+          "environment_unchanged": true,
+          "before": "d1b4454f59fc246a76ebc2b34eb637f9d54d787798a65212f1549e29f8b8c5c2",
+          "after": "52c451c2f1f588c92a69d37b28a5979c5940533b3b47f486d0a48d2357f35107",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "ebe4f1bd99961beb43543c0a4ba423a0c0db81363afeeef63da4af8ddf563c2e",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "no_new_query_after_censor": false
+      },
+      "reason": "source_chunk_returned"
+    },
+    {
+      "query": 7,
+      "tick": 12738,
+      "observation": {
+        "file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation007.npz",
+        "sha256": "6018199fb4420a07e383d8428a502b60fd0e0f40e3ee312a07f52f85bbd4986b",
+        "query": 7,
+        "global_tick": 12738
+      },
+      "policy": {
+        "query": 7,
+        "actor_observation_tick": 12738,
+        "observation_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/observation007.npz",
+        "observation_sha256": "6018199fb4420a07e383d8428a502b60fd0e0f40e3ee312a07f52f85bbd4986b",
+        "actor_images": {
+          "0": "9bf2d476e3468ca09bc4e799e405dc158594cbdcf343a8fb9ab79b33c4ba7147",
+          "1": "6e256383126ebb6cf4d9a673624bf09ddad7e42c9b1cc42cb4a7e23165351e04",
+          "2": "f1d43ef72cd54fb65f8a06ebe7a20a3d55968356ba6754bd4339d9f2813c14ec"
+        },
+        "command_state_sha256": "696eb030c600d88c1d8da1a401c1703f24f90a38af95c98d3acbcf3155177b70",
+        "noise_witness": {
+          "query": 7,
+          "tick": 12738,
+          "base_sha256": "ef3d5d4b3461af5b627ebf9f2f011ab4db05cb2671054f265c09129973616f0e",
+          "rng_before": "fb5817536d3a42f75820971d43058eea0f84ca78d2d4d444fa14ce180aa06346",
+          "rng_after": "9d81631e8cc4f3eb9341ab9f8dae7225597f260c5e2752c58d751cd45fbf7810",
+          "environment_unchanged": true,
+          "before": "52c451c2f1f588c92a69d37b28a5979c5940533b3b47f486d0a48d2357f35107",
+          "after": "36890e8fd8c0881dcfbe47faccb769935c545fb695f7c8c3d5f50169918d9a0d",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "8d56e41826e149e729e69d7e330f2fa5ea47a8444f44676609c553d0ec7b4886",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "encoder": {
+          "token_sha256": [
+            "434aa57c7be6ece0bcb8401f2f46b4f04e28ae4733a0ff1427207d54e5b4ab7a",
+            "434aa57c7be6ece0bcb8401f2f46b4f04e28ae4733a0ff1427207d54e5b4ab7a",
+            "434aa57c7be6ece0bcb8401f2f46b4f04e28ae4733a0ff1427207d54e5b4ab7a"
+          ],
+          "valid_language_tokens": [
+            71,
+            71,
+            71
+          ]
+        },
+        "policy_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/policy007.npz",
+        "policy_sha256": "fe48eee02eddce0156424e6b9d22b00d311850a117c207b231f50d43fe02591e",
+        "base_infer_calls": 1,
+        "actual_internal_noise_calls": 1,
+        "actual_policy_reference_query": true,
+        "prior_query_history_only": true,
+        "actual_actor_execution_record_required": true,
+        "environment_audit": {
+          "query": 7,
+          "tick": 12738,
+          "physical_sha256": "10adab63880e390cbd0e994a1bec7adfb6ef256bddedb0afe3fd8941e586c20f",
+          "rng_sha256": "28e971f554900386d5c8ab80bc6ffcad7d4f2c8e8717ad9b4263e11c3a1b813d",
+          "native_environment_unchanged": true,
+          "diagnostic_only": true,
+          "no_diagnostic_forward_inputs": true,
+          "actor_once_base_noise_witness": {
+            "query": 7,
+            "tick": 12738,
+            "base_sha256": "ef3d5d4b3461af5b627ebf9f2f011ab4db05cb2671054f265c09129973616f0e",
+            "rng_before": "fb5817536d3a42f75820971d43058eea0f84ca78d2d4d444fa14ce180aa06346",
+            "rng_after": "9d81631e8cc4f3eb9341ab9f8dae7225597f260c5e2752c58d751cd45fbf7810",
+            "environment_unchanged": true,
+            "before": "52c451c2f1f588c92a69d37b28a5979c5940533b3b47f486d0a48d2357f35107",
+            "after": "36890e8fd8c0881dcfbe47faccb769935c545fb695f7c8c3d5f50169918d9a0d",
+            "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+            "noise_sha256": "8d56e41826e149e729e69d7e330f2fa5ea47a8444f44676609c553d0ec7b4886",
+            "shape": [
+              1,
+              32,
+              32
+            ],
+            "device_type": "cuda"
+          }
+        }
+      },
+      "actions_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/actions007.npz",
+      "actions_sha256": "d9d10826adbf2ba46fc0113a1a6f91710efe4d432b5c057e536346e07236bd2f",
+      "event": {
+        "query": 7,
+        "event": null,
+        "evidence": {},
+        "decision": {
+          "active": false,
+          "selected_event": null
+        },
+        "adapted_direction_supplied": false,
+        "adaptation_applied": false,
+        "baseline_once_base_verbatim": true
+      },
+      "response": {
+        "reason": "frozen_full_no_update",
+        "accepted": false,
+        "released_packet_rows": 0
+      },
+      "wrong_feedback_control": [],
+      "execution": {
+        "query": 7,
+        "actor_observation_tick": 12738,
+        "end_tick": 13484,
+        "commands_returned": 27,
+        "actual_complete_native32": false,
+        "execution_reason": "native_success_terminal",
+        "executed_actions_sha256": "f6751a96b230ddc7c0cfcdb363a9011ddb332125fb1026aea740db1dcd96a6cf",
+        "actual_trace_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_object_transfer_pilot_v2/development/batches/000/runs/f2bb5f409e694dc1b64773507f3ac04a/cases/open_laptop:7109001/baseline/execution007.npz",
+        "actual_trace_sha256": "2d16be4e5b94f50111528b5066623e676df5a9a5aeba12958608ed46e71b0bc3",
+        "once_base_witness": {
+          "query": 7,
+          "tick": 12738,
+          "base_sha256": "ef3d5d4b3461af5b627ebf9f2f011ab4db05cb2671054f265c09129973616f0e",
+          "rng_before": "fb5817536d3a42f75820971d43058eea0f84ca78d2d4d444fa14ce180aa06346",
+          "rng_after": "9d81631e8cc4f3eb9341ab9f8dae7225597f260c5e2752c58d751cd45fbf7810",
+          "environment_unchanged": true,
+          "before": "52c451c2f1f588c92a69d37b28a5979c5940533b3b47f486d0a48d2357f35107",
+          "after": "36890e8fd8c0881dcfbe47faccb769935c545fb695f7c8c3d5f50169918d9a0d",
+          "environment_before": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "environment_after": "8efe023ba1c5c0b990853f0b77ad35acf63379637e3d77c831ee077e1bc8a641",
+          "noise_sha256": "8d56e41826e149e729e69d7e330f2fa5ea47a8444f44676609c553d0ec7b4886",
+          "shape": [
+            1,
+            32,
+            32
+          ],
+          "device_type": "cuda"
+        },
+        "no_new_query_after_censor": true
+      },
+      "reason": "native_success_terminal"
+    }
+  ],
+  "feedback": {
+    "queue": {
+      "released_feedback_packets": 0,
+      "pending_sources": 0,
+      "scope": "Feedback packets only, no optimizer or actor updates"
+    },
+    "updates": [],
+    "fast_reset_on_close": true
+  },
+  "completed_sources": 0,
+  "remaining_live_sources": 0,
+  "semantic_seed_available": true,
+  "qualification_file": "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_direction_visible_training_v1/runs/run_97e6f420e38345eca28eaa47622df6b6/qualification.json",
+  "qualification_sha256": "563972820599c66b44926b838ee53c9a8d2d3c50193679df2381ccaa0ac2e76f",
+  "seconds": 242.88498622830957,
+  "CPU_fixture_only": false,
+  "task_success_diagnostic_only": true,
+  "TTA_utility_proven": false
+}

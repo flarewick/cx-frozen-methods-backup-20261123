@@ -1,0 +1,96 @@
+{
+  "version": "native_feedback_after_train_v1",
+  "user_authorization": "另立反馈后作用版本，先验证覆盖再训练",
+  "new_offline_training_tasks": [
+    "beat_block_hammer",
+    "turn_switch",
+    "adjust_bottle",
+    "grab_roller",
+    "open_laptop"
+  ],
+  "retained_training_tasks": [
+    "stack_blocks_two",
+    "stack_bowls_two"
+  ],
+  "initial_response": "outputs/native_direction_visible_training_v1/runs/run_97e6f420e38345eca28eaa47622df6b6/qualification.json",
+  "initial_checkpoint_sha256": "0937511affea00771ed7f595d07220ae390ba85e06e398fce678446e7078a1d5",
+  "new_data": {
+    "adapter_fit": {
+      "actual_seed_start": 7120000,
+      "expert_valid_cases_per_task": 40
+    },
+    "adapter_validation": {
+      "actual_seed_start": 7121000,
+      "expert_valid_cases_per_task": 10
+    },
+    "maximum_screen_attempts_per_task_per_split": 1000,
+    "selection": "Sequential first expert-valid scenes; no policy-outcome filtering",
+    "first_collection_interface_pilot_cases_per_task": 2,
+    "pilot_is_subset_of_FIT_not_independent_confirmation": true
+  },
+  "retained_original_data": {
+    "FIT_cases": 80,
+    "VAL_cases": 20,
+    "manifest": "outputs/native_direction_cache_contract_v2/qualified_manifest.json",
+    "use_actual_qualified_selected_reader": true
+  },
+  "fresh_native_pools": {
+    "development_seed_start": 7122000,
+    "confirmation_seed_start": 7123000,
+    "episodes_per_task": 8,
+    "no_model_or_threshold_tuning_on_confirmation": true
+  },
+  "formal_EVAL": {
+    "official_seed_group": 0,
+    "actual_seed_start": 100000,
+    "episodes_per_task": 100,
+    "training_or_tuning_forbidden": true
+  },
+  "frozen_online_method": "Original093 fast128/twoSGD/trust plus separately approved FeedbackApplication: original selected direction, otherwise only direction-reference; max3/cooldown1/receipt+2 expiry",
+  "outer_supervision": "first structurally legal action for the actual arrived revision, before supersession; same-state returned expert ARM minus once-base clip.1. Supervise direction for selected mode or direction-reference for fast-only mode",
+  "calibration_recipe_intent": {
+    "initialization": "Fine-tune original 093 Btheta only; original checkpoint retained",
+    "optimizer": "AdamW",
+    "updates": 1000,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "seed": 17,
+    "packets_per_task": 2,
+    "balanced_tasks": 7,
+    "batch_packets": 14,
+    "minimum_distinct_FIT_packets_each_task": 8,
+    "VAL_report_steps": [
+      0,
+      1000
+    ],
+    "fixed_final_checkpoint": 1000,
+    "no_checkpoint_selection": true
+  },
+  "scientific_status": "New five tasks are offline training tasks; old cup/shoe/mouse093 remain cross-task-transfer results of original weights",
+  "dataset_collection_started": false,
+  "optimizer_steps": 0,
+  "GPU_started": false,
+  "source_sha256": {
+    "native_feedback_after_train_v1/AGENTS.md": "147f33328d2fc5d1fc76e0d53048ee57fe0287ae5ef96e3d3d19bc429d238d26",
+    "native_feedback_after_train_v1/targets.py": "e6f2a8d3df2e5c1a755636a8290f0db17dbfad8c1a14c253c8605c823184a2da",
+    "native_feedback_after_train_v1/loss.py": "f7af6fdcdd68964d79fdc482312698e7ea7238096d1ff41c8710489cc7fdef0e",
+    "native_feedback_after_train_v1/diagnostic.py": "7f52c5666aabd2c536fb9b3ab6a31ae9bb47904d47eceec56c9821fed69a8c5b",
+    "native_feedback_after_train_v1/checks.py": "7fb777c8bd2ece74a92466ac7bd66e424c18e8a32d3bcaba34bdf37c86060dae"
+  },
+  "coverage_pilot": {
+    "actual_seed_start": 7120000,
+    "first_expert_valid_scenes_each_task": 4,
+    "cases": 20,
+    "simulation_lanes": 10,
+    "sequential_cases_each_lane": 2,
+    "initial10_same_FIT_prefix_reexecute_all_model_outputs": true,
+    "no_new_independent_confirmation": true,
+    "require_each_task_semantic_and_causal_packet_and_legal_returned_action": true,
+    "no_optimizer_before_complete_coverage_and_full_data": true
+  },
+  "old_plan_preserved": "/data/qiufw/cx_migration/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/outputs/native_multitask_response_calibration_v1/data_plan.json",
+  "old_plan_sha256": "4407f52b57a6d2fa3704d970610df434c3db0f096d41b33bb3b8ac3bfeb5db97",
+  "CPU_derived_checks_actual_session": 4385,
+  "CPU_derived_checks_actual_exit_code": 0,
+  "identity": "cfc1090bbe3a0a6a81f748c71361574e744b1edab9b5e525ed23dfcd31cfe66e"
+}

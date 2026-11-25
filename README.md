@@ -11,6 +11,17 @@
 
 TTA 子目录在 `multi_event_gate_v1/tta_event_v1/` 下。算法及运行身份以原始清单为准，旧恢复入口须按说明另立运行目录。备份文件保留源 SHA，方便追溯已验收轨迹使用的模型及代码。
 
+## π₀.₅ shared6 GT 补充备份（2026-11-25）
+
+`place_empty_cup`、`stack_bowls_two` 和 `place_shoe` 共用这套冻结版本。G 由第 250 步共享 adapter（α=0.5）和 v118 全事件门控组成。GT 在同一套 G 上加载 shared6 响应网络及反馈预测器。在线快参数在每局开始时初始化。
+
+- [GT 版本清单与 SHA-256](pi05-shared6-gt-20261125.json)
+- [正式 GT 响应权重](project/multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_training_v2/response_step1000.pt)
+- [固定 ARM 投影与归一化](project/multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_dataset_v2/frozen_basis.pt)
+- [GT 加载资格](project/multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/shared6_response_qualification_v2.json)
+
+用下节的 `snapshot.py restore` 恢复 `project/` 与 `evidence/` 中的完整依赖。原路径结构和资格文件保留，反馈预测器通过证据分卷恢复。RoboTwin π₀.₅ 基础 checkpoint 和感知模型按外部资产记录准备。真机接入还需对齐相机、关节动作和执行反馈接口，并验证输出。
+
 ## 文件清单
 
 - `CODE_DEPENDENCIES.tsv` 单独列出源码与执行脚本。

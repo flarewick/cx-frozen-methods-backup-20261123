@@ -1,0 +1,30 @@
+{
+  "frozen": true,
+  "shared6_adapter_sha256": "6e0de463a03d8bac0e160aa46cf955f8575b78ecd38d1e799392e253a7d289e7",
+  "v118_gate_sha256": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc",
+  "execution_alpha": 0.5,
+  "model_kind": "ARM_rowspace_fast_increment_v1",
+  "updates": 1000,
+  "seed": 17,
+  "optimizer": "AdamW",
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "batch_packets": 16,
+  "packets_per_task": 8,
+  "inner_steps": 2,
+  "inner_lr": 0.05,
+  "inner_gradient_clip": 1.0,
+  "outer_target": "clip((same_state_teacher_ARM-once_base_ARM)/alpha,-.1,.1); loss normalized by raw cap.1 equals applied-space loss normalized by cap.05",
+  "source_sha256": {
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/robotwin_comparison_v1/scripts/train_pi05_shared6_response_v2.py": "74e21d412d022460467d502f1f5ce441f8062264bec4a77b52a47a042d3cf27d",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_action_visible_response_v1/model.py": "fe4b063ab7a30737c49604471e6bb4639919d7746fe3b432f665fe019792eaf3",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_shared_response_v1/model.py": "7dc675919b94a2cb74d027dce32322192e620572990472bf857d5540656fb3d5",
+    "/data/cj/robo_pi/250010033/VLA-Adapter/cx_new_direction_guide_TTA/multi_event_gate_v1/tta_event_v1/native_selected_outer_target_v1/loss.py": "4b6bbedcabd1b02c4301632d355b2f43c8e3c5b07e3a76cb929b234496a483b7"
+  },
+  "dataset_manifest_sha256": "05f6277519bf9c0c22870b2f9ef4124bdff8a7290deb54880d4c5b08d6c6f227",
+  "frozen_basis_sha256": "69a2dfc8c4b68bcd12c5b2fb2d9ef5374ad4a274e732f84db4646c1244ab97da",
+  "off_policy_expert_supervision_only": true,
+  "EVAL_used_for_training": false,
+  "selection": "fixed final1000; original80FIT20VAL; no checkpoint or hyperparameter selection",
+  "GT_qualified": false
+}

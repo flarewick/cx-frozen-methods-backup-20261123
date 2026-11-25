@@ -1,0 +1,894 @@
+{
+  "freeze_id": "robotwin_pi05_shared6_GT_20261125",
+  "tasks": [
+    "place_empty_cup",
+    "stack_bowls_two",
+    "place_shoe"
+  ],
+  "method": "RoboTwin_pi05_shared6_v118_alpha0p5_GT_v1",
+  "model_kind": "ARM_rowspace_fast_increment_v1",
+  "shared_adapter": "multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/best_scaled.pt",
+  "execution_alpha": 0.5,
+  "all_event_gate": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/fixed_ensemble_TRAIN472_v118/diagnostic_gate.json",
+  "response_checkpoint": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_training_v2/response_step1000.pt",
+  "response_basis": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_dataset_v2/frozen_basis.pt",
+  "qualification": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/shared6_response_qualification_v2.json",
+  "response_predictor": "multi_event_gate_v1/tta_event_v1/outputs/native_phase_feedback_v1/frozen_auxiliary/predictor.npz",
+  "predictor_protocol": "multi_event_gate_v1/tta_event_v1/outputs/native_phase_feedback_v1/frozen_auxiliary/protocol.json",
+  "run_protocol": {
+    "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/native_runs/PAIRED_EVAL_resident_v1/a00244/protocol.json",
+    "sha256": "515009180959bb467970ee74e91cbe422cf53e96ac3444295713b77ee5fb0a1f",
+    "scientific_protocol_sha256": "c8e31fffb38ceb1a1c812da632710ad9359abf18732c483bdea48cc7f50ad639"
+  },
+  "restore": {
+    "tool": "tools/snapshot.py",
+    "entry": "restore",
+    "pi05_base": "pi05_motus_robotwin2/motus_robotwin2/1000000"
+  },
+  "files": [
+    {
+      "path": "multi_event_gate_v1/outputs/benefit_followup_v2/followup_20261027_v2/constant_owner_v4/fixed_ensemble_TRAIN472_v118/diagnostic_gate.json",
+      "sha256": "1534934341ee285b6dfb7653d1c9e06bbd0aa0c462e3d6963a6d42405550fdfc",
+      "bytes": 205814,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/outputs/training_diagnostics/shared6_vs_single_20261025/shared6_lambda0p0/best_scaled.pt",
+      "sha256": "6e0de463a03d8bac0e160aa46cf955f8575b78ecd38d1e799392e253a7d289e7",
+      "bytes": 178897,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/frozen_shared6_head_v1/adapter_seed0.pt",
+      "sha256": "603966014d7da84676599275b1e54bcb26a87633fc32b6b7a0ef4e54b40cf1be",
+      "bytes": 180282,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/__init__.py",
+      "sha256": "546687172b96d90ac9cb2a63712542b7930b2a79800a05b6ac92ba86d250bd7e",
+      "bytes": 88,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/atomic.py",
+      "sha256": "e0c5eb4fc89b99af79b968370e8c2fcc21aa2719eb4062fb92ee8156145bb4a8",
+      "bytes": 915,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/semantic.py",
+      "sha256": "1a91eb97459c49036c5e1055dc2171f4590eda86d13d6150fd72c3c45562e23f",
+      "bytes": 5800,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/semantic_worker.py",
+      "sha256": "0632e8b1331f9c46dddfe672932ed0792e9d9ab3cfec2e5e3efbfa7afc0170c4",
+      "bytes": 152,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage.py",
+      "sha256": "f176eab2eeccd8ff14c029f3ba81ebb22d8c72ec9d228911be88c6fcd9746f90",
+      "bytes": 144,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v14.py",
+      "sha256": "b35f482ac98a70ecf898683b0bac410ba8ce39bd2267f43d83b32839f7bd7cdf",
+      "bytes": 148,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v143.py",
+      "sha256": "71994f0729afc7981afc4e831b9cebcc14cbc1624f14c0524a42f80e2c13f030",
+      "bytes": 149,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v146.py",
+      "sha256": "6c07f4dbb8f6754ba80e9b3f3f3ebe6bb75968d190e97ceef0a83c94f9a4eddd",
+      "bytes": 149,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v151.py",
+      "sha256": "65b4212c3edaf802d3e91879835bb0db95f324e94547a35f98061ac05f70acbe",
+      "bytes": 149,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v156.py",
+      "sha256": "b438af57c39b985e386bc95b6fad78f7967b9cc1eed32eb0d3bf7515d78e36b9",
+      "bytes": 149,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v165.py",
+      "sha256": "bf9a0f6c4f50381857d2bbf59e009fde73249330a8a92ad8b4989231232741a0",
+      "bytes": 149,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v169.py",
+      "sha256": "84e85a31497d407276efdc496dfa1fdb66b6ff6a9c564e9d717988b75ed7315e",
+      "bytes": 149,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v172.py",
+      "sha256": "736484f41741df66238cbe197f5d91a0bce950c0c0444efb443209107fec1984",
+      "bytes": 149,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v176.py",
+      "sha256": "92cf479cf821cd169973277e35210f43d1dba6a5d364875c508f4b9ee50dd776",
+      "bytes": 149,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v19.py",
+      "sha256": "77188f950cf605954fd7ec4b7acf6434a04503f45aa516097586b1f24234a17a",
+      "bytes": 148,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v21.py",
+      "sha256": "ba0630aaf55388c31b19c5db1b8d9016da657683f0a79253c7e4ce08cbf86e52",
+      "bytes": 148,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v22.py",
+      "sha256": "9a1b865151d36de57046d5fec9c5f579c201f34003aa8f7571f1933e774b849d",
+      "bytes": 148,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_atomic_ipc_v1/stage_v23.py",
+      "sha256": "8646d268d088a0216e1a215535b252bcede6a221cb177a12ccd29aa025bde5ee",
+      "bytes": 148,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/__init__.py",
+      "sha256": "54394f12e2cfcf6f0e96e439ec5bf06dce3e719fa0fc8977c17a0919e6e5192e",
+      "bytes": 80,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/actual_query_cache_compatible_v156.py",
+      "sha256": "4889901af08ceedd092c9a8b6c5ba7ab819af83ce4025f4776780e573cbbabbc",
+      "bytes": 3357,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/actual_query_cache_operational_v169.py",
+      "sha256": "874840e9cf712ee8adefc6469eb7ee72b4dae2bc71229c473e46d9f4fdeeed67",
+      "bytes": 4623,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/actual_query_compiler_cache_v151.py",
+      "sha256": "dde1b1d31ec937657d20e0c35148ab19826465f7e565ad0e59c848bc768c29ad",
+      "bytes": 3109,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/bootstrap.py",
+      "sha256": "676138606f01ab59aba40a5b7382de8db418c2136607ed0ec4f5559f128febb2",
+      "bytes": 288,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/bridge.py",
+      "sha256": "89ee134a0e17f47e8fb421d4672242aeefe4341d883ac6c134f1998580207f21",
+      "bytes": 2079,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/cache.py",
+      "sha256": "3dfcc5cff88063fa7d465523b47bbf6fc87ab202def0f39dd4f4823943de2b41",
+      "bytes": 4655,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/common.py",
+      "sha256": "3c5a9c5ff2db66964e379333de8a1795aefc7536f48f8a51cb0f1f19e876b02f",
+      "bytes": 1013,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/compiled_sampler.py",
+      "sha256": "6fe56d4982869f4976aeca26b8b6da68d06bb53ee20e9eabb4fff5dcf1ef05df",
+      "bytes": 4101,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/composer.py",
+      "sha256": "dfd28ba4d45a15401e79282d7fc7ae086dbcb50189b263ce01f814ea72c9a983",
+      "bytes": 565,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/episode.py",
+      "sha256": "5cc227fc57a0b90205ccc9a17adc0e689aa1c8c104ffc18e1609fc0987488366",
+      "bytes": 7650,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/head.py",
+      "sha256": "9213bc5c23d863347e2ea377ad5e4a48e54f7f3f41f519a63b77894c108c2a5a",
+      "bytes": 1076,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/lanes.py",
+      "sha256": "b85711581f7703f98ac5449a6cab04af318debddd82d9d27be003ad94123f513",
+      "bytes": 835,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/loader.py",
+      "sha256": "ce36f83c3fe057a66d3099517a3d33448e9e7caba9b18d6b3a09aed5a8dc43eb",
+      "bytes": 1752,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/matched_actor.py",
+      "sha256": "8a1024b330abc319bc287adf3be816954012a35ec47b773a0c5bc2362aa0c2ed",
+      "bytes": 2406,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/matched_actor_cache_v151.py",
+      "sha256": "02dff77a8361145ea31677e7cee609c890940f46ef9fb7175831ce7e667a1772",
+      "bytes": 589,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/native_storage.py",
+      "sha256": "dc9793ede78e2cb924fa204a637b4091a46baa435763fd8ddae804adc1b2648c",
+      "bytes": 3814,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/observe.py",
+      "sha256": "8e988c3e472a7aded7fbaf969efc587f4d88b52928f350be5202a16a33730162",
+      "bytes": 1218,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/observe_checked_v23.py",
+      "sha256": "4f34f7abd7fbd39c66a85b61263c6401540ff776d72cd6298d569c4a2992851d",
+      "bytes": 1372,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/official_actor.py",
+      "sha256": "6e44ce209e152c8903d6305af71d0e67f849257d42033df269bbb12b592f0c64",
+      "bytes": 6983,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/official_encoder.py",
+      "sha256": "399e3ac53c55ddfa8c454485562be799bc10fe2b4b2fafcb1f9e43600664b63b",
+      "bytes": 840,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/official_open_laptop_arm_v143.py",
+      "sha256": "7bfc694df04e408f35a629172e21bcd452d23dd8e34bd92020003930badf717a",
+      "bytes": 604,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/official_prefix.py",
+      "sha256": "ddf1301a51489f772e216eefa84404d2fcce44c90580542c86f418efb0292123",
+      "bytes": 973,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/ordered_screen.py",
+      "sha256": "bddb36f5cd4bb6948b151ddd6adfb2e640570e923382d9d8448496a3e212250a",
+      "bytes": 646,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/original_reference.py",
+      "sha256": "f13562b4c0bf6ad1985bdec0b85f7c8e6e5c467686161691b11cb171459bd68a",
+      "bytes": 1515,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/owner_precision.py",
+      "sha256": "0e3c848c09f13dd26dfdbe40d24b6151614e2d8b889dd8774fa9dd13eced018e",
+      "bytes": 498,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/prefetch.py",
+      "sha256": "21add4949c9ab2c794d858d28ec5e83944e963ed0d46bffa43fe32b7f02fd609",
+      "bytes": 1543,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/preflight.py",
+      "sha256": "73d240529a3625f6323a47faea21cc05bceca323510315ecc513fed8c59d0350",
+      "bytes": 4395,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/preflight_v156.py",
+      "sha256": "1494c5f7c315e7bb4a6ec65742a2ca6a540c8d91e7b17f3e5c9eda4137671698",
+      "bytes": 4427,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/private_storage.py",
+      "sha256": "8953893649c75fad09b07720dbf42e0219a8d52cc0aeabb84e260867d138dcca",
+      "bytes": 12416,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/reconstruct_q0_v14.py",
+      "sha256": "515c2f000219549bdc01904113319160afb9149e6ca118df24da8a614101fd1d",
+      "bytes": 2856,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/resident_queue.py",
+      "sha256": "b05c319c8529504eccba97bb8b683e60d288663bff543f87738dd00eba8d1797",
+      "bytes": 1991,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/resident_queue_v156.py",
+      "sha256": "a7d16906ac49c6aac9734ec9496f53d8a747ec7b378dd45ea0a87e1a08a5fdad",
+      "bytes": 2006,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime.py",
+      "sha256": "b9ac6cc583d2b9b3bc0de1ecc3cc27cc636698e36cb7a2514ad16fadecc3153c",
+      "bytes": 15065,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v143_restore_official_arm.py",
+      "sha256": "2dfa3a1290c723c6947668f8b540b8a1eda45f7d4b5c134ef9e761e13acf0f8c",
+      "bytes": 14856,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v146_first_four.py",
+      "sha256": "5839591938b438c9ec1e6d9364b01ccc0b1070d8ffab30c03050174e844a7027",
+      "bytes": 14858,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v14_recovery.py",
+      "sha256": "711744aecd5afb48dde89070b9bc456c1b5611a9ca27cd7b8e03143586b12de7",
+      "bytes": 14376,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v151_query_cache.py",
+      "sha256": "e1e7f017a262089b962c2b3d695675102d7b797ec3443e9bd4a63138f8f0ff87",
+      "bytes": 14972,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v156_adaptive_real_lanes.py",
+      "sha256": "b7403adf94e15b16e380a2a46b71c4dd9afd8af6aa252354303ad10b1035c3e1",
+      "bytes": 15411,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v165_single_initialization.py",
+      "sha256": "7f2c69b1a7936804206240ebd69fccac8766869c2db701947b9ffc4f5564d2ce",
+      "bytes": 14744,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v169_verified_six.py",
+      "sha256": "cd099cc52977ad086d6cede94cd9f5d959a1bfe0c87a933a41f1cbfdce169542",
+      "bytes": 14745,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v172_idempotent_prefetch.py",
+      "sha256": "54321c801471e3285fa35571a9385e2a6f37edce0430e7ccb71d352c5f177525",
+      "bytes": 14910,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v176_original_registered_initial.py",
+      "sha256": "1331579c2ed722a4cd3c32f3d28b7e27ef1d0a4864964abc7ed94e9c23f048af",
+      "bytes": 15412,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v19_step_zero.py",
+      "sha256": "c33331297883c03a6f7a45266ce5bcea1cc01bd9ef695bed0ade241821f054d4",
+      "bytes": 14513,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v21_cached_probe.py",
+      "sha256": "ca8d8d3ec79f8d83ee04c9c144bbce15db50b0a5060729a2a72db9fe9c52c992",
+      "bytes": 14529,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v22_interleaved.py",
+      "sha256": "d613042bef67a59ae4cacd234833012939a345ff7a53cda2ad8d1ebabd63d176",
+      "bytes": 14538,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/runtime_v23_verified_bootstrap.py",
+      "sha256": "1d22e9bd7fb038c9a0fc07cfe69d0270d50ff40786ced6fc2a2591d661152183",
+      "bytes": 14561,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/screen.py",
+      "sha256": "ea5c32a3dd552efdbdae00678d4d291b808d2a69125dd86da4f09973663a40d3",
+      "bytes": 2462,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/semantic.py",
+      "sha256": "862db364b17a33aaeef9929a0bdb10fc69f738aa0cad97f4e7971f3425cbadf0",
+      "bytes": 5739,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/semantic_worker.py",
+      "sha256": "3f08692f8d032104b7eef14c71a9c656878b18d201975f104fc2b4ad0b1bcd0a",
+      "bytes": 130,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/session.py",
+      "sha256": "57db40e9e474aaa666c9fa2aaa9ac3a696ca2e4b5a832bd40f31a2ce75d07a44",
+      "bytes": 4838,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/source_export.py",
+      "sha256": "48a366ca3b83e897f87fc86179298a1ea8168db56469398318553813351c94df",
+      "bytes": 2024,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage.py",
+      "sha256": "207c9ad7beccde4d0b8f34c55549f7f0ea871847d23b6bddc5bdcd6580fcc557",
+      "bytes": 1509,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v14.py",
+      "sha256": "8d14aab04a9af9064505df8d1452dd4ba19057517223f4a5d8f07006f7352c50",
+      "bytes": 1522,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v143.py",
+      "sha256": "30d7d22596a7cff28cb84c6ce74d9e01a0e2c01cca0b6eb1aa9ddb94afce094a",
+      "bytes": 1535,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v146.py",
+      "sha256": "f061c7dfb3f13c2428328d9caf40b4be13be33136e866230877f60cb24d6077f",
+      "bytes": 1525,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v151.py",
+      "sha256": "a96afa9edd3f227616c4f9eb7f2ae7fd3652a548df057557b7971ef108208995",
+      "bytes": 1575,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v156.py",
+      "sha256": "a7bc98876dd484a6b5b5c09e98efb86b97a7ddb5ae15e9ba163f53af10628c06",
+      "bytes": 1588,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v165.py",
+      "sha256": "e3ef82f936ddd5c89c5a0527fbd1aec3b0c7229c6f5c1c30a6ab36fbd30041ec",
+      "bytes": 1590,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v169.py",
+      "sha256": "62b1afe2f92c82c2789e030b6cd0902fbe67fa3d453b27e6798c408732695be3",
+      "bytes": 1581,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v172.py",
+      "sha256": "fb63ec9e09736ccfb6affbd6bfa4dd70e47faa7a5bd5e5d14c393c2e7256c3f6",
+      "bytes": 1588,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v176.py",
+      "sha256": "4858b0f877ed8c04dc0232f8ed26f4df03e51236458a343b9fe7615023c5dd99",
+      "bytes": 1596,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v19.py",
+      "sha256": "f0911fd0ececb77a1a4fac57c403e8d4cc2cfd4f72797b6f43ef7696dc29af07",
+      "bytes": 1523,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v21.py",
+      "sha256": "87b072970a9ce1ef2e32bdd8e4d1cbb29736abbe739501ef894be2d98ff481ff",
+      "bytes": 1526,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v22.py",
+      "sha256": "68ab9e67951a771b9a56d7885f014db39162bae241ddb19b04a6669d87b8c8bd",
+      "bytes": 1525,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/stage_v23.py",
+      "sha256": "c436631b25eb20789cdab384d6009743df52adc05d210674b461ec3d2ad075d5",
+      "bytes": 1532,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/startup.py",
+      "sha256": "8b7aaefbc65c9aba654b770a01f5b045d6d984aee6709c3c01a85fb0e38761c6",
+      "bytes": 1696,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/startup_four_then_fill_v146.py",
+      "sha256": "9a40fb07ec5745f719bcc554741a02611aa57682c041668a5f0ad413ad4d04ac",
+      "bytes": 1610,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/startup_four_v22.py",
+      "sha256": "0e81b955b26a01157695648e08b527f1bde1cee7da6669166dd65eb04138c696",
+      "bytes": 1528,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/startup_real_lanes_v156.py",
+      "sha256": "04a16831961d8d5945da128b0d55f26930b4ffaae0a749648ae695718a74153f",
+      "bytes": 1534,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/startup_two_then_fill_v23.py",
+      "sha256": "4bb147eb57fcb4eadc47c36a2476c8fad966109b705da2d507af062e6d923ce4",
+      "bytes": 1532,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/storage_paths.py",
+      "sha256": "abede99dd187b74f209039b2026fdb8967bef7563511459996f6f67482b2bf3d",
+      "bytes": 334,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/warmup.py",
+      "sha256": "50ce28ac886a121ca8dcd326d0b03b44cbe30541f68697972a96cc5acdd4ff23",
+      "bytes": 4164,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/warmup_reuse_checked_v23.py",
+      "sha256": "2e96964fc6c69f63b8463d4b54bba9d797bcb3c6341ca7c16d31cce0bc8ae448",
+      "bytes": 1080,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_resident_v1/warmup_same_device_v21.py",
+      "sha256": "d0d1850ba712a1db5261902d5508001914ffe3aa0e6bba914e9494bd3d302ee6",
+      "bytes": 6111,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/__init__.py",
+      "sha256": "54394f12e2cfcf6f0e96e439ec5bf06dce3e719fa0fc8977c17a0919e6e5192e",
+      "bytes": 80,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/bootstrap.py",
+      "sha256": "676138606f01ab59aba40a5b7382de8db418c2136607ed0ec4f5559f128febb2",
+      "bytes": 288,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/bridge.py",
+      "sha256": "89ee134a0e17f47e8fb421d4672242aeefe4341d883ac6c134f1998580207f21",
+      "bytes": 2079,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/cache.py",
+      "sha256": "3dfcc5cff88063fa7d465523b47bbf6fc87ab202def0f39dd4f4823943de2b41",
+      "bytes": 4655,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/common.py",
+      "sha256": "3c5a9c5ff2db66964e379333de8a1795aefc7536f48f8a51cb0f1f19e876b02f",
+      "bytes": 1013,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/composer.py",
+      "sha256": "dfd28ba4d45a15401e79282d7fc7ae086dbcb50189b263ce01f814ea72c9a983",
+      "bytes": 565,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/episode.py",
+      "sha256": "b6f74cd18a929aa65cd6283fa58e1e29ddcf2399e67b37d2ec79b8df6756ba09",
+      "bytes": 7673,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/head.py",
+      "sha256": "9213bc5c23d863347e2ea377ad5e4a48e54f7f3f41f519a63b77894c108c2a5a",
+      "bytes": 1076,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/loader.py",
+      "sha256": "ce36f83c3fe057a66d3099517a3d33448e9e7caba9b18d6b3a09aed5a8dc43eb",
+      "bytes": 1752,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/native_storage.py",
+      "sha256": "dc9793ede78e2cb924fa204a637b4091a46baa435763fd8ddae804adc1b2648c",
+      "bytes": 3814,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/ordered_screen.py",
+      "sha256": "9158bae6831f6f9a386d93e6a14ece204358d0278967951f66da6a5cfae25679",
+      "bytes": 870,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/owner_precision.py",
+      "sha256": "0e3c848c09f13dd26dfdbe40d24b6151614e2d8b889dd8774fa9dd13eced018e",
+      "bytes": 498,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/prefetch.py",
+      "sha256": "21add4949c9ab2c794d858d28ec5e83944e963ed0d46bffa43fe32b7f02fd609",
+      "bytes": 1543,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/preflight.py",
+      "sha256": "8c98116bc6fc84cbb68a074c840c6830131177d0e07d22c4fc51279314022738",
+      "bytes": 4386,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/private_storage.py",
+      "sha256": "8953893649c75fad09b07720dbf42e0219a8d52cc0aeabb84e260867d138dcca",
+      "bytes": 12416,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/runtime.py",
+      "sha256": "4e2ee8871beb793209948928a73facbc3ca6c0d043d937c3ea42c74685ae77a1",
+      "bytes": 13706,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/screen.py",
+      "sha256": "0f09f3d69463be30d776909bd299e3bd3db8678859e4ef1c33024e385a81fb15",
+      "bytes": 2248,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/semantic.py",
+      "sha256": "e50e2c9353b736aa263e0ea0282d468dcdf2d45a6187975f65b0934fd1da738b",
+      "bytes": 5737,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/semantic_worker.py",
+      "sha256": "3f08692f8d032104b7eef14c71a9c656878b18d201975f104fc2b4ad0b1bcd0a",
+      "bytes": 130,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/session.py",
+      "sha256": "57db40e9e474aaa666c9fa2aaa9ac3a696ca2e4b5a832bd40f31a2ce75d07a44",
+      "bytes": 4838,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/stage.py",
+      "sha256": "207c9ad7beccde4d0b8f34c55549f7f0ea871847d23b6bddc5bdcd6580fcc557",
+      "bytes": 1509,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/startup.py",
+      "sha256": "8b7aaefbc65c9aba654b770a01f5b045d6d984aee6709c3c01a85fb0e38761c6",
+      "bytes": 1696,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/pi05_gt_runtime/storage_paths.py",
+      "sha256": "abede99dd187b74f209039b2026fdb8967bef7563511459996f6f67482b2bf3d",
+      "bytes": 334,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_dataset_v2/frozen_basis.pt",
+      "sha256": "69a2dfc8c4b68bcd12c5b2fb2d9ef5374ad4a274e732f84db4646c1244ab97da",
+      "bytes": 23312,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_dataset_v2/manifest.json",
+      "sha256": "05f6277519bf9c0c22870b2f9ef4124bdff8a7290deb54880d4c5b08d6c6f227",
+      "bytes": 1092114,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_training_actual_exit_v2.json",
+      "sha256": "b5d8529fb4b2f432354937af96dd88e5a521fb9f994395aecc03841b482ef364",
+      "bytes": 104,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_training_v2/protocol.json",
+      "sha256": "21018183455508cfa1aa15b1fa5b72366e590f82f556ad6513b46c678051cea9",
+      "bytes": 1940,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_training_v2/response_step1000.pt",
+      "sha256": "e427d2519bb504a1549b0ee0d850a1e3fc59a45eb22c15831ab4b875654a26c4",
+      "bytes": 157680,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/response_training_v2/result.json",
+      "sha256": "0bc7a1c665a0a12507b22ec73e65a808ff56df871e0477874b383b77df047ad5",
+      "bytes": 804,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/shared6_response_qualification_v1.json",
+      "sha256": "f1128e9daa1cc7460e2ad2e5de5878f08aa14a2bed380f3b6f958bd59d48a0d4",
+      "bytes": 9431,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/robotwin_comparison_v1/pi05_gt_shared6_v1/shared6_response_qualification_v2.json",
+      "sha256": "30f019c92289e3edd2d42f60dc70f4c898d3179a638d1de211697df5fc3c46f5",
+      "bytes": 9531,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_action_visible_response_v1/model.py",
+      "sha256": "fe4b063ab7a30737c49604471e6bb4639919d7746fe3b432f665fe019792eaf3",
+      "bytes": 2334,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_delayed_query_v1/predictor.py",
+      "sha256": "59f7d7c272261106cf3980752ca6c366d40e9a792bbe0111a518e6b52ec5b20b",
+      "bytes": 1728,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_local_response_v2/model.py",
+      "sha256": "c3b99ebcab152fe27ef9a96a40bdbf86f3b06cccd1f8e53f27f69b551b98cb88",
+      "bytes": 2614,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_local_response_v2/study.py",
+      "sha256": "1a39fbcb912ed3e7f1ad64179618da26db52ba78166af86ed492f39e1811611b",
+      "bytes": 6958,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/audit.py",
+      "sha256": "4f0a25762db7266342ec093f2466751deb1526321d702bd41982c7152a2e7142",
+      "bytes": 4836,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/checks.py",
+      "sha256": "541ddf6f7855108e31848d3a3b51b160f9cfa467e160f96c75039b2ab68347e8",
+      "bytes": 4530,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/eligibility.py",
+      "sha256": "845fb22d030d6aa144e9f40e5523a6a82fc0e3cb2ffc1aca7a7c2ffba6df91ad",
+      "bytes": 3845,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/feedback_queue.py",
+      "sha256": "e6b6ff774a75c7e3d2ebfb3ef37fdd8ac442912ca0236f9a8457a7b9b691db6d",
+      "bytes": 5859,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/freeze_model.py",
+      "sha256": "89718df5422af374fffa60d3354e3e92a17d5995ef378077396743a5b1716e48",
+      "bytes": 2803,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/replay.py",
+      "sha256": "f2488c348fd19426c0cfc126601d72849ddb8828491dd0d0c2ada84032873296",
+      "bytes": 4834,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_phase_feedback_v1/study.py",
+      "sha256": "ed00fcd1bfd81dbb8e92430de07eb91b3b10324cd9f399b53ed9b801472e277b",
+      "bytes": 7589,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_response_binding_v1/bind.py",
+      "sha256": "a4f6294df4a9851389089555f252ff35622b71c7f8de5b87676e1756de2e9898",
+      "bytes": 2754,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/native_shared_response_v1/model.py",
+      "sha256": "7dc675919b94a2cb74d027dce32322192e620572990472bf857d5540656fb3d5",
+      "bytes": 4614,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/outputs/native_arrived_mask_v3/cpu_models.json",
+      "sha256": "4cf39c8dda527f99743a39184e967df47b438c76c9f6f6fd75165ba8d0679e50",
+      "bytes": 4787,
+      "layer": "git"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/outputs/native_phase_feedback_v1/frozen_auxiliary/predictor.npz",
+      "sha256": "86069427fa4a4e2f9386227e35bdaebbcd18a70773dff4b7686ef83b854fb0c1",
+      "bytes": 5160149,
+      "layer": "evidence"
+    },
+    {
+      "path": "multi_event_gate_v1/tta_event_v1/outputs/native_phase_feedback_v1/frozen_auxiliary/protocol.json",
+      "sha256": "be74049b4ea5d65f29b53f2a2ee41af5a31738701e8b78aad97a3229b46ba197",
+      "bytes": 4012,
+      "layer": "git"
+    },
+    {
+      "path": "outputs/feature_caches/structured_readout_20261003_065755_140725/projection.npz",
+      "sha256": "9814b6dd28d4d6dcaf6fab5d061c2d2b77a3b51b617ba44b2dad3d9cfec6a1ae",
+      "bytes": 251875,
+      "layer": "evidence"
+    }
+  ]
+}
